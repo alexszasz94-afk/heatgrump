@@ -19,7 +19,7 @@ Szasz nu e programator. Vorbește simplu, în română, fără jargon; nu-i cere
 - La `feedback <fișier>` → aceeași analiză + compară cu biblioteca + 3 lucruri concrete de schimbat.
 - La `research` → skill `research`. La `analizează clipurile noi` → prepare_clip + skill `analyze-clip` pe fiecare clip nou.
 - La `video nou` / `15 videouri` → skill `make-video` (respectă bugetul și rotația; un set = max 4 videouri, niciodată consecutive).
-- La `seturi noi` → skill `new-sets` (camere de pe Pinterest; personaje sintetice inspirate de Pinterest, niciodată fețe reale).
+- La `seturi noi` → skill `new-sets` (camere și personaje luate direct de pe Pinterest, pozele exacte — regula din 1 oct).
 - La `feedback` → skill `feedback` (cifre reale Meta) ; `feedback <fișier>` → analiză de clip.
 - La `regula: ...` → adaugă linia datată în `docs/03-rules.md` și, dacă e regulă de producție, în `CLAUDE.md`.
 Descarcă rezultatele Higgsfield în `output/reelN/` și verifică-le vizual (skill `qa-check`) înainte să le raportezi.

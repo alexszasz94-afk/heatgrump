@@ -2,9 +2,7 @@
 Rulare: python3 engine/pinterest.py rooms|characters [cate]
 Output: library/rooms/<data>_<n>.jpg  sau  library/char-inspiration/<data>_<n>.jpg  + index.json cu sursa fiecărei poze
 Apoi Claude Code (skill new-sets) alege pozele bune, le încarcă în Higgsfield și:
- - camerele le folosește direct ca referință de cameră;
- - personajele NU le folosește direct (față reală = problemă de drept la imagine în reclame): generează un personaj NOU, sintetic,
-   inspirat de poză (aceeași vârstă, stil, vibe, altă față) cu gpt_image_2, și pe acela îl salvează ca referință.
+ - camerele și personajele le folosește direct, pozele exacte, ca referință de cameră / de personaj (regula 1 oct).
 """
 import sys, urllib.request, urllib.parse, json
 from common import *
