@@ -8,18 +8,31 @@ import sys, urllib.request, urllib.parse, json
 from common import *
 from research import apify_run
 
+ACTOR = "fatihtahta~pinterest-scraper-search"   # vechiul apify~pinterest-scraper nu mai există (1 oct); ~0,004 $/pin, fără taxă de pornire
+
+def image_url(p):
+    """Cea mai mare poză pinimg din rezultat, oricum ar fi numite câmpurile."""
+    urls = []
+    def walk(x):
+        if isinstance(x, dict): [walk(v) for v in x.values()]
+        elif isinstance(x, list): [walk(v) for v in x]
+        elif isinstance(x, str) and "pinimg.com" in x and x.split("?")[0].lower().endswith((".jpg", ".jpeg", ".png", ".webp")): urls.append(x)
+    walk(p)
+    rank = lambda u: (0 if "/originals/" in u else 1 if "/736x/" in u else 2)
+    return sorted(urls, key=rank)[0] if urls else None
+
 def main(kind, n=12):
     load_env(); c = cfg(); token = os.environ["APIFY_TOKEN"]
     queries = c["pinterest_queries"][kind]; out = LIB / ("rooms" if kind == "rooms" else "char-inspiration"); out.mkdir(parents=True, exist_ok=True)
     idx = jload(out / "index.json", []); got = 0
     for q in queries:
         try:
-            pins = apify_run("apify~pinterest-scraper", {"searchQueries": [q], "maxItems": n}, token)
+            pins = apify_run(ACTOR, {"queries": [q], "type": "all-pins", "limit": n}, token)
         except Exception as e:
             log(f"Pinterest {q}: {e}"); continue
         for p in pins:
-            url = (p.get("images") or {}).get("orig", {}).get("url") or p.get("imageUrl") or p.get("image")
-            if not url: continue
+            url = image_url(p)
+            if not url or any(i["img"] == url for i in idx): continue
             f = out / f"{today()}_{len(idx)+1:03d}.jpg"
             try:
                 urllib.request.urlretrieve(url, f); idx.append({"file": f.name, "query": q, "source": p.get("url") or p.get("link"), "img": url}); got += 1
