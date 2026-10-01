@@ -37,7 +37,7 @@ Set de clipuri, în ordinea de montaj: **hook → unboxing → B1 (îmbracă hal
 | telecomandă | placă gpt_image_2 → video seedance_2_5 | `controller-plate.txt` → `controller-video.txt` | direct |
 | conector | placă gpt_image_2 → video seedance_2_5 | `connector-plate.txt` → `connector-video.txt` | direct |
 | unboxing | placă (cutia PE JOS) → video, cutie + 1-2 ref. produs | `unboxing-image.txt` → `unboxing-video.txt` | direct |
-| hook | 3 start frame-uri per reel, FĂRĂ halat, cu explicație + text CapCut | `hook-image-template.txt` | el alege, apoi se animează |
+| hook | 3 idei per reel DOAR ca text detaliat în Studio, fără imagini (regula 1 oct); hook-ul video = clip viral tăiat + refăcut cu Genjutsu | — | el alege, apoi se face |
 
 ## Setări fixe (nu se coboară niciodată)
 - Imagini: `gpt_image_2`, 9:16, quality high, resolution 4k.
