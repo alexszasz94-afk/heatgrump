@@ -54,6 +54,13 @@ button.ok{background:var(--pine);border-color:var(--pine);color:var(--surface)}
 button.bad{color:var(--red);border-color:var(--red)}
 button:disabled{opacity:.5;cursor:default}
 textarea{font:14px/1.4 var(--body);width:100%;box-sizing:border-box;min-height:58px;resize:vertical;border:1px solid var(--line);border-radius:7px;padding:8px;background:var(--bg);color:var(--ink)}
+.card.hook{grid-column:span 2;grid-template-rows:none;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr)}
+.card.hook .media{aspect-ratio:9/16;height:auto}
+@media (max-width:520px){.card.hook{grid-column:auto;grid-template-columns:1fr}}
+.det{margin:0;display:grid;gap:2px;font-size:13.5px}
+.det dt{font:600 11px/1.3 var(--body);letter-spacing:.06em;text-transform:uppercase;color:var(--pine);margin-top:8px}
+.det dt:first-child{margin-top:0}
+.det dd{margin:0;overflow-wrap:anywhere}
 .fb{display:grid;gap:6px;border-top:1px dashed var(--line);padding-top:8px}
 .fb-item{font-size:13px;display:grid;gap:2px}
 .fb-item time{font:500 11px/1 var(--mono);color:var(--muted)}
@@ -94,12 +101,13 @@ function media(c){
 function card(c){
   const fbs=feedback.filter(f=>f.clip===c.id).sort((a,b)=>(a.at||0)-(b.at||0));
   const isHook=c.slot.startsWith("HOOK");
-  return `<article class="card ${c.status==="refa"?"refa":""}" data-id="${esc(c.id)}">
+  return `<article class="card ${c.status==="refa"?"refa":""} ${isHook?"hook":""}" data-id="${esc(c.id)}">
     <div class="media">${media(c)}</div>
     <div class="body">
       <div class="hd"><span class="name">${esc(c.label)}</span><span class="state ${esc(c.status)}">${esc(LABEL[c.status]||c.status)}</span></div>
       ${c.line?`<p class="line">“${esc(c.line)}”</p>`:""}
       ${c.note?`<p class="note">${esc(c.note)}</p>`:""}
+      ${Array.isArray(c.details)?`<dl class="det">${c.details.map(d=>`<dt>${esc(d[0])}</dt><dd>${esc(d[1])}</dd>`).join("")}</dl>`:""}
       <div class="btns">
         ${c.url?`<a class="open" href="${esc(c.url)}" target="_blank" rel="noopener">Deschide</a>`:""}
         ${canWrite?(isHook?`<button class="ok" data-act="ales">Aleg hook-ul</button>`:`<button class="ok" data-act="aprobat">Aprob</button>`)+`<button class="bad" data-act="refa">Refă</button>`:""}
