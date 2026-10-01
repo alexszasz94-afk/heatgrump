@@ -1,0 +1,18 @@
+# model gpt_image_2 · 9:16 · quality high · 4k
+# medias (ordinea contează): 1 connector_approved_frame (da68ee9d) , 2 connector_ref (2774615c), 3 personaj, 4 cameră, 5-8 product refs
+
+REPRODUCE IMAGE 1 ONE TO ONE — ABSOLUTE RULE, HIGHEST PRIORITY. Image 1 is the approved connector frame. The CONNECTOR in this new image must be EXACTLY the connector from Image 1: the same two-part grey connector, the same body shape and proportions, the same grey plastic colour and finish, the same ribs and edges, the same cable thickness and grey cable colour, the same way the two halves face each other. Do NOT redesign it, do NOT invent a different plug, do NOT turn it into a barrel jack, a USB, a household plug or any other kind of connector, do NOT add pins, holes, screws, rings, labels or LEDs that are not in Image 1. Image 2 is the same connector as a clean product reference — use it only to confirm the shape. If a detail is unclear, copy Image 1 rather than inventing anything.
+
+WHAT CHANGES compared to Image 1:
+1. The HANDS holding the two halves are the hands of the person in Image 3, matching their skin tone, age and gender — natural skin, five fingers per hand, natural anatomy.
+2. The framing is TIGHTER: a closer macro than Image 1, the two connector halves filling more of the frame, but the whole connector and both hands still fully inside the frame, never cropped.
+3. The scene is right beside the Christmas tree or the bed from Image 4 — the tree's lit branches and baubles, or the bed's bedding and headboard, fill the soft blurred background just centimetres behind the hands, with warm bokeh from the tree lights. No wall, no wide view of the room.
+4. THE SLEEVE: the framing is so tight that the ONLY part of the robe that appears is the bright shaggy LIME-GREEN faux-fur cuff at the wrist. No white sherpa cuff, no deep red plush, no olive-green skirt, no hood, no body of the robe — just the green fur ring at the wrist. Images 5-8 are used ONLY for the colour and texture of that green fur.
+
+LOOK: bright and evenly lit, well exposed, colours clearly readable, no dark corners, no heavy shadows, no moody or dim grade, no vignette, no colour grading — slightly bright rather than slightly dark, like a normal phone photo taken in a well-lit room.
+
+Everything else — the pose of the hands, the gap between the two halves, the angle, the candid macro phone-photo look — stays as in Image 1. The two halves are lined up facing each other with a clear gap between them, NOT touching, nothing plugged in. One grey cable runs out of the back of each half and disappears softly out of frame. No other cables, no loose wires, no third connector, no extra parts in the frame.
+
+The green fur looks noticeably thick, cozy and premium — dense shaggy pile, soft deep strands.
+
+No pink, no snowflakes, no Santa print. Sharp focus on both connector halves. Vertical 9:16. Candid iPhone photo, photorealistic, no text overlays, no logos, no watermarks.

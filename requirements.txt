@@ -1,0 +1,2 @@
+pyyaml
+faster-whisper   # opțional, pentru transcript

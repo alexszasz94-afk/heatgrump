@@ -1,0 +1,43 @@
+# Configurația motorului. Claude Code o citește; tu o schimbi doar dacă vrei alte hashtag-uri/competitori.
+niche: "heated wearable blanket / hooded blanket / cozy winter gifts"
+instagram_hashtags: [wearableblanket, hoodedblanket, heatedblanket, blankethoodie, cozyseason, cozygifts, christmasgiftideas, giftsforher, winteressentials, tiktokmademebuyit, amazonfinds, coldweatherhacks, oodie, snuggie, heatedrobe]
+instagram_competitors: []        # ex. ["theoodie", "comfyofficial"] — Claude completează după primul research
+facebook_pages: []               # pagini FB de competitori (nume sau URL)
+ad_library_keywords: ["heated blanket", "wearable blanket", "hooded blanket", "heated hoodie", "wearable heated"]
+ad_library_country: US
+pinterest_queries:
+  rooms: ["cozy living room christmas tree aesthetic", "bedroom christmas fairy lights cozy", "apartment living room christmas decor natural light", "farmhouse living room christmas"]
+  characters: ["candid iphone photo woman at home cozy winter outfit", "candid selfie man at home hoodie winter", "girl christmas pajamas at home candid"]
+research:
+  full_run_days: [Mon]           # research complet o dată pe săptămână
+  daily_light: true              # zilnic doar competitorii
+  days_back: 7
+  max_clips_to_download: 20
+  outlier_min_ratio: 3.0         # views >= 3x media contului = outlier
+  min_views: 20000
+daily_mix:                       # cele 15 videouri/zi (30 sept): 5 dovedite + 5 adaptate după virale + 5 creative noi
+  proven: 5                      # din library/proven-hooks.json, cu alt personaj/cameră, Genjutsu unde există clip de mișcare
+  adapted: 5                     # tiparul unui viral din research (structura, nu clipul), max `adapted_max_uses` folosiri per tipar
+  creative: 5                    # idei noi (skill hook-ideas)
+proven:
+  min_gap_days: 3                # același concept dovedit nu se repetă mai des de o dată la 3 zile
+  same_character_never: true     # niciodată același personaj la același concept
+  promote_after_hours: 72        # un hook nou devine „dovedit” după 72 h postat...
+  promote_if_above_median: true  # ...dacă scorul lui e peste mediana contului
+  adapted_max_uses: 2
+  variants_new_hooks: 2          # la hook-urile noi (adaptate+creative) se generează 2 variante video, se alege cea mai bună
+  variants_proven_hooks: 1       # la cele dovedite (Genjutsu) o singură variantă
+rotation:
+  max_uses_per_set: 4
+  min_gap_between_uses: 2        # nu același set la două videouri consecutive (gap 2 = cel puțin 2 alte videouri între)
+  videos_per_day: 15
+  new_sets_per_day: 2
+budget:
+  higgsfield_credits_per_day: 3000
+  apify_usd_per_day: 3.0
+  warn_at_percent: 80
+assemble:
+  order: [HOOK, UNBOXING, B1, B2, CONECTOR, TELECOMANDA, COZY]
+  fps: 30
+  size: [1080, 1920]
+  loudness_lufs: -16

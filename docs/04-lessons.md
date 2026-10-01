@@ -1,0 +1,11 @@
+# Lecții tehnice Higgsfield (constatate, nu declarate de Szasz)
+- seedance_2_5 cu start_image cere `mode: "omni_reference"`; altfel 422 (t2v). Suportă și `end_image` (util pentru acțiuni cu punct final fix).
+- Pentru 9:16 se trimit și `aspect_ratio: "9:16"` și width/height; doar width/height a dat 16:9 o dată.
+- Fără `resolution: "1080p"` iese 720p.
+- Genjutsu: `hf_mult_replace_object` refuză clipuri scurte (422); pentru B-roll scurte merge doar `hf_mult_motion_control`. Roluri: `image_references` / `video_references`; cel puțin o imagine la replace_object.
+- Filtrul IP (`ip_detected`): unboxing video cu 4 ref. de halat respins 6/6; cu 2 ref. 3/4 trec; cu 1 ref. sau doar cutia trece. Cozy cu unele personaje respins de 2 ori: schimbă clipul de mișcare sau personajul doar la cozy. `nsfw` fals la „crouching/kneeling” în unboxing: reformulează „bends forward”.
+- gpt_image_2 nu acceptă `declined_preset_id` (se ignoră). nano_banana_2 = flash; cere nano_banana_pro.
+- ID-urile scurte nu merg în API; mereu UUID complet.
+- Costuri (1080p): motion control 4 s ≈ 44 cr, seedance 4-5 s ≈ 55 cr, gpt_image_2 4k ≈ 15 cr. Un reel complet ≈ 400 cr + hook-uri.
+- Din sandbox-ul Cowork NU se pot descărca rezultatele (CDN blocat) → QA vizual imposibil acolo. Din Claude Code local/VPS se poate: descarcă + verifică cu vedere.
+- Widgetul de upload e singura cale de upload în Cowork; din Claude Code se folosește `media_upload` + PUT pe `upload_url` + `media_confirm`.

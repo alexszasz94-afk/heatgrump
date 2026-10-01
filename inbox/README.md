@@ -1,0 +1,3 @@
+Pune aici pozele cu personajul și camera pentru reel-uri noi, numite așa:
+reel1-personaj.jpg, reel1-camera.jpg, reel2-personaj.jpg, reel2-camera.jpg ...
+Și clipurile virale de analizat (sau un fișier links.txt cu un link pe linie).

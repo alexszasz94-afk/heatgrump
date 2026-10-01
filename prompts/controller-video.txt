@@ -1,0 +1,16 @@
+# model seedance_2_5 · mode omni_reference · start_image = placa de telecomandă · image_references = controller_real (cb73364c) · 5 s · 1080p · 9:16 · bitrate high · generate_audio true
+# PROMPTUL LUI. SE RULEAZĂ CUVÂNT CU CUVÂNT. NU SE MODIFICĂ.
+
+THE FRAME NEVER CHANGES: one locked macro camera, one continuous take, no zoom, no cut, no re-frame. The controller, the hand, the printed labels, the background blur and the exposure stay exactly as in the start frame. The controller keeps the same shape, the same white plastic and the same printing throughout — nothing morphs, no label ever changes.
+
+THE LIGHTS CLIMB FROM THE BOTTOM UPWARDS — ABSOLUTE RULE, HIGHEST PRIORITY: there is a vertical row of five small indicator lights. The BOTTOM one is number 1 and the TOP one is number 5. The lit light travels UPWARD along that row, one step at a time: 1 to 2, 2 to 3, 3 to 4, 4 to 5. It only ever moves UP, never down, never sideways, never skips a step, never jumps back to the bottom.
+
+EXACTLY ONE LIGHT IS LIT AT ANY MOMENT: when the next light comes on, the previous one goes dark in the same instant. Two are NEVER lit together, not for a single frame. The row NEVER fills up like a battery bar, never lights progressively, never stays lit behind the moving one.
+
+ACTION, PACED FOR FIVE SECONDS: the clip starts with the BOTTOM light lit and the four above it dark. The thumb presses the button four times, evenly spaced across the five seconds — at roughly 0.6s, 1.7s, 2.8s and 3.9s. On each press the lit light steps one place UP the row. After the fourth press the TOP light is the only one lit and it stays lit while the thumb rests for the remaining second. The thumb visibly travels down and back up on each press — the button movement is readable. The presses are brisk but never rushed or blurred.
+
+AUDIO: one short dry button CLICK at exactly the frame of each press, four clicks total, matching the thumb exactly. Quiet indoor room tone otherwise. No music.
+
+Human-paced movement, correct number of fingers, no extra limbs, no morphing.
+
+Candid raw iPhone 12, film grain, no AI glow, no smoothing.

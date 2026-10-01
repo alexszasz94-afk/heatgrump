@@ -1,0 +1,65 @@
+{
+ "product_grinch_refs": [
+  "a9ebff95-7b4e-4a10-92f5-4c9377d01fd4",
+  "b3adf7e2-adcd-4ffc-9989-1fa0c822c78f",
+  "28a3d14b-3578-4569-bcf2-33a84d478cc0",
+  "71882d2b-aeab-4cc1-afa3-4f9d1a1951c5"
+ ],
+ "box": "5e8840d4-d514-4016-9fa3-e0893a13bdee",
+ "controller_real": "cb73364c-9cc0-4420-82dc-5e1269cae33c",
+ "connector_ref": "2774615c-3876-49c9-81e3-43e965688bae",
+ "connector_approved_frame": "da68ee9d-2c0a-47e1-a7b7-1385013c2d0a",
+ "silhouette_closed": "e46c4249-a39f-4ea4-830b-fc50c67ff86b",
+ "silhouette_open": "5eefa24d-682c-46be-b9d9-bd4c6056304c",
+ "motion_clips": {
+  "B1": [
+   "5133a653-d5e3-4077-a102-43818fb736c0",
+   "ba61dc06-bf41-4176-ba31-d5de0e6c38bb"
+  ],
+  "B2": {
+   "A_no_face": "6243c22d-ed26-4df8-8a68-0d4ff29219bd",
+   "B_face": "6731a06f-f6c0-48d9-a001-5047c85ca5d6",
+   "C_new": "e9a9ed00-094d-4211-8b98-2cfdf6115920"
+  },
+  "COZY": [
+   "8042602c-c548-45de-aa77-6d42366e058e",
+   "12959b84-23a0-42ee-b00a-8970d51a59c7"
+  ],
+  "hook_321": "bcdaebd7-18e4-43fc-89a8-59294ceb0fcb",
+  "hook_tray": "673624ef-1edb-478e-b8e9-9b51d6dacba1",
+  "_ignore_duplicate": "9d119c02-d901-46ef-b940-8d98480f3770"
+ },
+ "reels_batch_23sept": [
+  {
+   "n": 1,
+   "char": "aab1395b-fcfe-4034-b9de-2420c48f8f62",
+   "room": "7e28b0e7-2f56-4066-812e-6c0d5bff2270"
+  },
+  {
+   "n": 2,
+   "char": "072acc6a-f2c4-4eb9-bda8-a9e458ce9639",
+   "room": "1f7246b1-a93c-4bdb-8bc4-6b5cbfa00f7d"
+  },
+  {
+   "n": 3,
+   "char": "8306bd0e-4b46-4275-b11b-998ac20d579a",
+   "room": "165f1e6e-30e5-4b41-b120-f2def33ba506"
+  },
+  {
+   "n": 4,
+   "char": "3e1308e8-41cf-44bb-bef5-c35bcbf6245c",
+   "room": "12f88af7-c102-4a46-baec-e3de0a68c8e6"
+  },
+  {
+   "n": 5,
+   "char": "5caa961a-a81c-4f2e-a6fe-a2e557946147",
+   "room": "b9c86778-010a-42cf-801b-14b5ae0554cf"
+  }
+ ],
+ "higgsfield": {
+  "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+  "workspace": "suprematistsatellite1439 (shared, scale)",
+  "media_url_pattern": "https://d2ol7oe51mr4n9.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/<media_id>.jpg",
+  "result_url_pattern": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_<YYYYMMDD_HHMMSS>_<job_id>.<png|mp4>"
+ }
+}

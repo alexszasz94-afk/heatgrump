@@ -1,0 +1,19 @@
+# medias: [image char, image room, image x4 product refs, video COZY clip] · hf_mult_motion_control · 4 s · 1080p
+
+COZY — SETTLING IN THE ROBE. Transfer the movement and camera work from the driving video onto the subject in the reference images.
+
+LOOK — BRIGHT, EVERYDAY UGC, ABSOLUTE RULE: this must look like a normal person filming themselves on their own phone in a well-lit room, not like a cinematic ad. The room is BRIGHT and evenly lit — plenty of soft light on the person and on the robe, colours clearly readable, the whole frame well exposed, no dark corners, no heavy shadows, no moody or dim grade, no orange cinematic tint, no vignette, no colour grading of any kind. Slightly bright rather than slightly dark. Natural handheld phone look with small imperfections, plain amateur framing, ordinary phone sharpness — nothing polished or studio-lit.
+
+IMAGE ROLES: Image 1 is the PERSON — their face, hair, age, build and gender stay exactly as in Image 1 in every frame. Image 2 is the ROOM — same walls, furniture and decor. Images 3-6 are THE ROBE.
+
+THEIR CLOTHES — ABSOLUTE RULE, HIGHEST PRIORITY: underneath the robe they wear <OUTFIT> — normal everyday clothes, the same in every clip of this reel. Do NOT copy any clothing from the driving video, do NOT invent a different outfit, do NOT change it at any point in the clip.
+
+THE ROBE, identical to the reference images in every frame: deep red plush upper body and sleeves; olive-green plush lower skirt; a scalloped red hem line across the middle edged with thin gold piping; Santa-hat shaped hood in deep red with a long tip and a white pompom; the hood's outer front panel olive-green carrying the printed grumpy green face with two yellow slit eyes and heavy black eyebrows; wide white sherpa trim down both front opening edges, around the hood opening and along the bottom hem; sleeves of normal width ending in a wide white sherpa cuff with a bright shaggy lime-green faux-fur cuff over it. The interior lining is olive-green, never white. No pink, no snowflakes, no Santa print, no burgundy. The product must not drift between frames.
+
+THE POCKETS — ABSOLUTE RULE: the two front patch pockets are COMPLETELY PLAIN — flat rectangles of plain olive-green plush with a band of white sherpa trim along the top edge and NOTHING else. No face, no eyes, no eyebrows, no printed graphic, no logo, no pattern on the pockets. The printed grumpy green face exists ONLY on the outer front panel of the hood.
+
+The plush looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped.
+
+Still no flash and no light source at the camera position.
+
+Vertical 9:16. NO TEXT ANYWHERE: no captions, no subtitles, no burned-in text, no emoji, no watermarks — any text in the driving video is removed.

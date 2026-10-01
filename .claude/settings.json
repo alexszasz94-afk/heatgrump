@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 board/build_html.py)",
+      "Bash(python3 *)",
+      "Bash(ffmpeg *)",
+      "Bash(ffprobe *)",
+      "Bash(yt-dlp *)",
+      "Bash(open board/grinch-reel-board.html)",
+      "Read", "Write", "Edit", "Glob", "Grep",
+      "mcp__higgsfield__*"
+    ]
+  }
+}

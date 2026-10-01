@@ -1,0 +1,56 @@
+{
+ "format": "Hook-uri/concepte DOVEDITE (au mers deja). Se refolosesc ca umplutură (5/zi), cu alt personaj + altă cameră de fiecare dată, nu mai des de o dată la `proven.min_gap_days` zile. Concept = tipar; textul CapCut se variază între `lines`. `method`: genjutsu = motion control din `motion_clip` (cea mai sigură, ~44 credite); frame = start frame după șablonul din `template` + seedance_2_5. Un hook nou intră aici automat (status=promoted) când feedback.py îl găsește peste mediană după 72 h.",
+ "concepts": [
+  {
+   "key": "321_reveal",
+   "title": "3, 2, 1 reveal",
+   "status": "proven", "source": "Szasz, 30 sept (validat 4 sept: 'a ieșit perfect')",
+   "method": "genjutsu", "motion_clip": "bcdaebd7-18e4-43fc-89a8-59294ceb0fcb",
+   "template": "docs/heatgrump-grinch-reel-spec.md (3-2-1)",
+   "scene": "Personajul ține ceva acoperit deasupra capului / în față, numără 3-2-1 și dezvăluie. În chatul Grinch: FĂRĂ cutie, singurul produs vizibil e halatul.",
+   "lines": ["3… 2… 1…", "Wait for it…", "You're not ready for this"],
+   "robe_visible": true,
+   "uses": []
+  },
+  {
+   "key": "store_customer",
+   "title": "În magazin – clienta cu coșul",
+   "status": "proven", "source": "Szasz, 30 sept (reel Santa #7, 11 sept)",
+   "method": "frame", "template": "prompts/hook-image-template.txt + magazin generic de Crăciun (referință magazin 156609b6)",
+   "scene": "Magazin de Crăciun generic, fără nume/logo. Clienta cu coșul de cumpărături se oprește în fața raionului nostru și se uită. Variantă: scapă cana de cafea ('oh my God'), camera trece pe raft.",
+   "lines": ["Found it at the store and I'm not leaving without it", "Nope. Not walking past this one.", "The whole store stopped for this"],
+   "robe_visible": true,
+   "uses": []
+  },
+  {
+   "key": "store_launch",
+   "title": "În magazin – lansare cu panglică",
+   "status": "proven", "source": "Szasz, 30 sept (12 sept, după BTS H&M)",
+   "method": "frame", "template": "prompts/hook-image-template.txt + scena de lansare",
+   "scene": "Lansare de magazin în mall: arcadă de baloane, panglică, angajați în tricouri roșii, manechine cu halatul pe podium. Două femei numără '3, 2, 1', taie panglica, toată lumea din spate strigă și aplaudă. Fără branduri reale.",
+   "lines": ["Grand opening. 3… 2… 1…", "They finally opened it", "The line outside was insane"],
+   "robe_visible": true,
+   "uses": []
+  },
+  {
+   "key": "store_employee_reveal",
+   "title": "În magazin – angajații dezvăluie raionul",
+   "status": "proven", "source": "Szasz, 30 sept",
+   "method": "frame", "template": "prompts/hook-image-template.txt + magazin generic",
+   "scene": "Doi angajați în tricouri/șorțuri roșii trag pânza / deschid ușa depozitului și dezvăluie raionul plin cu halatele noastre; se uită unul la altul și zâmbesc sau clienții din spate se apropie. Fără branduri reale.",
+   "lines": ["Restock day. Blink and it's gone.", "We're not supposed to show you this yet", "Employees said it sells out by noon"],
+   "robe_visible": true,
+   "uses": []
+  },
+  {
+   "key": "gifting",
+   "title": "Gifting – 'I'm freezing' / 'Take this'",
+   "status": "proven", "source": "Szasz, 30 sept (hook 'Oh my God, I'm freezing!' → 'Take this.')",
+   "method": "frame", "template": "prompts/hook-image-template.txt",
+   "scene": "Cineva intră/stă înghețat, doar cu o bluză de Crăciun pe el, tremură ('Oh my God, I'm freezing!'). Altcineva vine cu halatul și i-l întinde ('Take this.'). Variantă: halatul e împachetat/cu fundă, ca un cadou.",
+   "lines": ["Oh my God, I'm freezing", "Take this.", "Best gift I got this year, no contest"],
+   "robe_visible": true,
+   "uses": []
+  }
+ ]
+}

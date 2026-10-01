@@ -1,0 +1,572 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Grinch Reel Board</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap">
+<style>
+:root{
+  color-scheme:light;
+  --bg:#F4F2EC; --panel:#FBFAF7; --ink:#1B1D1B; --muted:#6C7066; --line:#D9D6CC;
+  --green:#5E7B36; --green-ink:#FFFFFF; --red:#B23A2E; --amber:#B7791F; --amber-bg:#F6E9CF; --green-bg:#E4ECD5; --red-bg:#F3DCD8;
+  --shadow:0 1px 2px rgba(20,22,18,.08), 0 8px 24px -12px rgba(20,22,18,.25);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#131512; --panel:#1B1E1A; --ink:#ECEAE2; --muted:#9BA094; --line:#2E322B;
+    --green:#A3C36A; --green-ink:#131512; --red:#E4705F; --amber:#E0A84A; --amber-bg:#3A2E14; --green-bg:#26331A; --red-bg:#3F1F1A;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#131512; --panel:#1B1E1A; --ink:#ECEAE2; --muted:#9BA094; --line:#2E322B;
+  --green:#A3C36A; --green-ink:#131512; --red:#E4705F; --amber:#E0A84A; --amber-bg:#3A2E14; --green-bg:#26331A; --red-bg:#3F1F1A;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 "Barlow",system-ui,sans-serif;padding-block:0 48px;padding-inline:clamp(16px,3vw,40px)}
+h1,h2{font-family:"Barlow Condensed","Arial Narrow",sans-serif;text-transform:uppercase;letter-spacing:.02em;margin:0;text-wrap:balance}
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding-block:14px 12px;display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 22px}
+.top h1{font-size:clamp(26px,4vw,38px);font-weight:700;line-height:1}
+.top h1 em{font-style:normal;color:var(--red)}
+.top .meta{color:var(--muted);font-size:13px}
+.top nav{margin-left:auto;display:flex;gap:6px;flex-wrap:wrap}
+.top nav a{font-family:"Barlow Condensed",sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.04em;font-size:14px;color:var(--ink);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:2px 11px;background:var(--panel)}
+.top nav a:hover,.top nav a:focus-visible{border-color:var(--green);outline:none}
+.legend{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;padding-block:14px 6px;color:var(--muted);font-size:13.5px}
+.legend .order{font-weight:600;color:var(--ink)}
+.legend .order span{color:var(--muted);font-weight:400}
+.reel{margin-top:28px;background:var(--panel);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);overflow:hidden}
+.reel-head{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;padding:14px 18px 10px;border-bottom:1px solid var(--line)}
+.reel-head h2{font-size:30px;font-weight:700;line-height:1}
+.chip{font-family:"Barlow Condensed",sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.05em;font-size:13px;border:1px solid var(--line);border-radius:999px;padding:2px 10px;color:var(--muted)}
+.counts{margin-left:auto;color:var(--muted);font-size:13.5px;font-variant-numeric:tabular-nums}
+.counts b{color:var(--ink);font-weight:600}
+.reel-body{display:flex;gap:0;align-items:stretch}
+.refs{flex:0 0 auto;display:flex;gap:12px;padding:16px 18px;border-right:1px dashed var(--line);background:color-mix(in srgb,var(--panel) 70%,var(--bg))}
+.ref{display:flex;flex-direction:column;gap:6px;width:112px}
+.ref .frame{aspect-ratio:9/16}
+.ref code{font:12px "JetBrains Mono",ui-monospace,monospace;color:var(--muted)}
+.eyebrow{font-family:"Barlow Condensed",sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.08em;font-size:12.5px;color:var(--muted)}
+.strip{list-style:none;margin:0;padding:16px 18px;display:flex;gap:0;overflow-x:auto;flex:1 1 auto;scroll-snap-type:x proximity}
+.slot{flex:0 0 auto;width:176px;display:flex;flex-direction:column;gap:8px;position:relative;padding-right:30px;scroll-snap-align:start}
+.slot+.slot::before{content:"";position:absolute;left:-30px;top:calc(50% - 8px);width:30px;height:0;border-top:2px solid var(--line)}
+.slot+.slot::after{content:"";position:absolute;left:-9px;top:calc(50% - 13px);width:8px;height:8px;border-right:2px solid var(--line);border-top:2px solid var(--line);transform:rotate(45deg)}
+.slot:last-child{padding-right:0}
+.slot-head{display:flex;align-items:baseline;gap:8px;min-height:2.6em}
+.num{font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:20px;line-height:1;color:var(--green)}
+.slot.plate .num{color:var(--amber)} .slot.pend .num{color:var(--red)}
+.lbl{font-weight:600;font-size:14px;line-height:1.2}
+.frame{width:100%;aspect-ratio:9/16;max-width:100%;background:#0e100e;border-radius:8px;overflow:hidden;border:1px solid var(--line)}
+.frame img,.frame video{width:100%;height:100%;object-fit:cover;display:block}
+.frame .empty{height:100%;display:grid;place-items:center;color:var(--red);font-family:"Barlow Condensed",sans-serif;text-transform:uppercase;letter-spacing:.06em;font-size:16px;background:repeating-linear-gradient(135deg,transparent 0 10px,rgba(255,255,255,.04) 10px 20px)}
+.slot-foot{display:flex;flex-direction:column;gap:6px}
+.pill{align-self:flex-start;font-family:"Barlow Condensed",sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.05em;font-size:12.5px;border-radius:999px;padding:2px 9px}
+.pill.ok{background:var(--green-bg);color:var(--green)} .pill.plate{background:var(--amber-bg);color:var(--amber)} .pill.pend{background:var(--red-bg);color:var(--red)}
+.links{display:flex;gap:10px;font-size:13px}
+.lnk{color:var(--green);text-decoration:underline;text-underline-offset:2px;background:none;border:0;padding:0;font:inherit;cursor:pointer}
+.lnk:focus-visible{outline:2px solid var(--green);outline-offset:2px;border-radius:2px}
+.hooks{border-top:1px dashed var(--line);padding:14px 18px 18px;background:color-mix(in srgb,var(--panel) 85%,var(--bg))}
+.hooks-head{margin-bottom:10px}
+.hook-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:16px}
+.hook{display:flex;gap:14px;align-items:flex-start}
+.hook .frame{flex:0 0 150px;width:150px}
+.hook-text{flex:1 1 auto;min-width:0;display:flex;flex-direction:column;gap:6px;font-size:13.5px;line-height:1.45}
+.hook-text p{margin:0}
+.hook-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.hook-head .num{color:var(--red)}
+.hook-text .en{font-style:italic}
+.pill.hook{background:var(--red-bg);color:var(--red)}
+@media (max-width:720px){.hook{flex-direction:column} .hook .frame{width:100%;flex-basis:auto}}
+.toast{position:fixed;left:50%;bottom:calc(18px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:999px;font-size:13px;opacity:0;transition:opacity .2s;pointer-events:none}
+.toast.show{opacity:1}
+@media (max-width:720px){
+  .reel-body{flex-direction:column}
+  .refs{border-right:0;border-bottom:1px dashed var(--line)}
+  .slot{width:150px}
+}
+@media (prefers-reduced-motion:reduce){.toast{transition:none}}
+</style>
+</head>
+<body>
+<header class="top">
+  <h1>Heat<em>Grump</em> · 5 reel-uri</h1>
+  <span class="meta">actualizat 29.09.2026 22:37 · 29 clipuri gata · 0 plăci de aprobat · 1 se refac</span>
+  <nav><a href="#reel1">Reel 1</a><a href="#reel2">Reel 2</a><a href="#reel3">Reel 3</a><a href="#reel4">Reel 4</a><a href="#reel5">Reel 5</a></nav>
+</header>
+<p class="legend">
+  <span class="order">Ordinea de montaj <span>(după reel-ul 5 aprobat; hook-ul îl pui tu în față):</span> unboxing → B1 → B2 → conector → telecomandă → cozy</span>
+  <span><span class="pill ok">gata</span> clip final, 1080p</span>
+  <span><span class="pill plate">placă · de aprobat</span> start frame; videoul se face după ok-ul tău</span>
+  <span><span class="pill pend">se reface</span> respins de filtru, retrimis</span>
+</p>
+<section class="reel" id="reel1">
+  <header class="reel-head">
+    <h2>Reel 1</h2>
+    <span class="chip">B2 fără față</span>
+    <span class="counts"><b>6</b> clipuri gata · <b>0</b> plăci de aprobat</span>
+  </header>
+  <div class="reel-body">
+    <aside class="refs">
+      <div class="ref"><span class="eyebrow">Personaj</span><div class="frame"><a href="https://d2ol7oe51mr4n9.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/aab1395b-fcfe-4034-b9de-2420c48f8f62.jpg" target="_blank" rel="noopener"><img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/aab1395b-fcfe-4034-b9de-2420c48f8f62.jpg" alt="Personaj reel 1"></a></div><code>aab1395b</code></div>
+      <div class="ref"><span class="eyebrow">Cameră</span><div class="frame"><a href="https://d2ol7oe51mr4n9.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/7e28b0e7-2f56-4066-812e-6c0d5bff2270.jpg" target="_blank" rel="noopener"><img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/7e28b0e7-2f56-4066-812e-6c0d5bff2270.jpg" alt="Cameră reel 1"></a></div><code>7e28b0e7</code></div>
+    </aside>
+    <ol class="strip">
+<li class="slot ok">
+  <div class="slot-head"><span class="num">1</span><span class="lbl">Unboxing</span></div>
+  <div class="frame"><video src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_190540_4fdab5d1-8cdd-452a-80c2-1e4cd5005b9e.mp4" controls muted playsinline preload="metadata"></video></div>
+  <div class="slot-foot"><span class="pill ok">gata</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_190540_4fdab5d1-8cdd-452a-80c2-1e4cd5005b9e.mp4" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_190540_4fdab5d1-8cdd-452a-80c2-1e4cd5005b9e.mp4">copiază link</button></span></div>
+</li>
+<li class="slot ok">
+  <div class="slot-head"><span class="num">2</span><span class="lbl">B1 · îmbracă halatul</span></div>
+  <div class="frame"><video src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200134_361515d9-829a-4607-bb71-efc68ce63fa5.mp4" controls muted playsinline preload="metadata"></video></div>
+  <div class="slot-foot"><span class="pill ok">gata</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200134_361515d9-829a-4607-bb71-efc68ce63fa5.mp4" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200134_361515d9-829a-4607-bb71-efc68ce63fa5.mp4">copiază link</button></span></div>
+</li>
+<li class="slot ok">
+  <div class="slot-head"><span class="num">3</span><span class="lbl">B2 · deschide halatul</span></div>
+  <div class="frame"><video src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200134_90d5c869-98c0-486c-987f-ad4c0ba53b76.mp4" controls muted playsinline preload="metadata"></video></div>
+  <div class="slot-foot"><span class="pill ok">gata</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200134_90d5c869-98c0-486c-987f-ad4c0ba53b76.mp4" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200134_90d5c869-98c0-486c-987f-ad4c0ba53b76.mp4">copiază link</button></span></div>
+</li>
+<li class="slot ok">
+  <div class="slot-head"><span class="num">4</span><span class="lbl">Conector</span></div>
+  <div class="frame"><video src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_203555_53d54e8a-93fc-411f-afea-44ec7c3cbcc1.mp4" controls muted playsinline preload="metadata"></video></div>
+  <div class="slot-foot"><span class="pill ok">gata</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_203555_53d54e8a-93fc-411f-afea-44ec7c3cbcc1.mp4" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_203555_53d54e8a-93fc-411f-afea-44ec7c3cbcc1.mp4">copiază link</button></span></div>
+</li>
+<li class="slot ok">
+  <div class="slot-head"><span class="num">5</span><span class="lbl">Telecomandă</span></div>
+  <div class="frame"><video src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_203556_51cccc7e-608a-4250-89e0-43699a81ce4f.mp4" controls muted playsinline preload="metadata"></video></div>
+  <div class="slot-foot"><span class="pill ok">gata</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_203556_51cccc7e-608a-4250-89e0-43699a81ce4f.mp4" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_203556_51cccc7e-608a-4250-89e0-43699a81ce4f.mp4">copiază link</button></span></div>
+</li>
+<li class="slot ok">
+  <div class="slot-head"><span class="num">6</span><span class="lbl">Cozy</span></div>
+  <div class="frame"><video src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200133_a357b412-986d-4aad-9934-9aa9b20da3d4.mp4" controls muted playsinline preload="metadata"></video></div>
+  <div class="slot-foot"><span class="pill ok">gata</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200133_a357b412-986d-4aad-9934-9aa9b20da3d4.mp4" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200133_a357b412-986d-4aad-9934-9aa9b20da3d4.mp4">copiază link</button></span></div>
+</li>
+    </ol>
+  </div>
+  <div class="hooks">
+    <div class="hooks-head"><span class="eyebrow">3 idei de hook · fără halat în cadru · un start frame, o acțiune · textul îl pui în CapCut</span></div>
+    <ol class="hook-list">
+<li class="hook">
+  <div class="frame"><a href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_59bec323-7d16-47c1-89ab-a53c8b9a2885.png" target="_blank" rel="noopener"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_59bec323-7d16-47c1-89ab-a53c8b9a2885.png" alt="Gheață pe interiorul geamului"></a></div>
+  <div class="hook-text">
+    <div class="hook-head"><span class="num">1</span><span class="lbl">Gheață pe interiorul geamului</span><span class="chip">problem vs solution</span></div>
+    <p class="cadru"><b>Cadrul:</b> Dimineață, în dormitor. Răzuie cu un card bruma de pe INTERIORUL geamului și se uită peste umăr la cameră, nevenindu-i să creadă.</p>
+    <p class="miscare"><b>Acțiunea (4–5 s):</b> Mai trage o dată cu cardul, bruma cade pe pervaz, suflă în mâini, se uită la cameră și ridică din umeri.</p>
+    <p class="linia"><b>Text CapCut:</b> <span class="en">when there&#x27;s ice on the INSIDE of your window</span></p>
+    <p class="linia"><b>Variantă text:</b> <span class="en">my landlord: &quot;the heating works fine&quot;</span></p>
+    <p class="bridge"><b>Legătura cu B-roll:</b> Tăietură pe ridicatul din umeri → B1, își pune halatul. Contrastul e maxim: de la gheață în casă la cald.</p>
+    <p class="dece"><b>De ce:</b> Imaginea e aproape imposibilă, de aceea oprește scroll-ul. Cine a trăit asta comentează imediat.</p>
+    <div class="slot-foot"><span class="pill hook">start frame</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_59bec323-7d16-47c1-89ab-a53c8b9a2885.png" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_59bec323-7d16-47c1-89ab-a53c8b9a2885.png">copiază link</button></span></div>
+  </div>
+</li>
+<li class="hook">
+  <div class="frame"><a href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193238_6400a864-a8ff-477d-abef-a9281a81eb70.png" target="_blank" rel="noopener"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193238_6400a864-a8ff-477d-abef-a9281a81eb70.png" alt="Uscătorul de păr în bluză"></a></div>
+  <div class="hook-text">
+    <div class="hook-head"><span class="num">2</span><span class="lbl">Uscătorul de păr în bluză</span><span class="chip">reacție</span></div>
+    <p class="cadru"><b>Cadrul:</b> Pe marginea patului, își bagă aerul cald al uscătorului de păr pe sub bluză, cu ochii închiși de ușurare.</p>
+    <p class="miscare"><b>Acțiunea (4–5 s):</b> Ține uscătorul înăuntru, oftează, deschide ochii, se uită la cameră ca prinsă, închide uscătorul.</p>
+    <p class="linia"><b>Text CapCut:</b> <span class="en">stop doing this to stay warm (there&#x27;s a better way)</span></p>
+    <p class="linia"><b>Variantă text:</b> <span class="en">things I did to survive winter before I found this</span></p>
+    <p class="bridge"><b>Legătura cu B-roll:</b> „there&#x27;s a better way” se leagă direct de B1. Închide uscătorul → tăietură → își pune halatul.</p>
+    <p class="dece"><b>De ce:</b> Obicei real pe care mulți îl fac în secret. Textul promite o soluție, deci lumea rămâne pentru ea.</p>
+    <div class="slot-foot"><span class="pill hook">start frame</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193238_6400a864-a8ff-477d-abef-a9281a81eb70.png" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193238_6400a864-a8ff-477d-abef-a9281a81eb70.png">copiază link</button></span></div>
+  </div>
+</li>
+<li class="hook">
+  <div class="frame"><a href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_8cf3fc2c-a6cb-4717-b8cc-ea7894bb1dd6.png" target="_blank" rel="noopener"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_8cf3fc2c-a6cb-4717-b8cc-ea7894bb1dd6.png" alt="Picioarele reci pe partener"></a></div>
+  <div class="hook-text">
+    <div class="hook-head"><span class="num">3</span><span class="lbl">Picioarele reci pe partener</span><span class="chip">neașteptat</span></div>
+    <p class="cadru"><b>Cadrul:</b> Noapte, în pat, zâmbet șmecher. Partenerul doarme cu spatele. Ea ține marginea plapumii, gata să se apropie.</p>
+    <p class="miscare"><b>Acțiunea (4–5 s):</b> Se strecoară mai aproape sub plapumă, partenerul tresare brusc și țipă, ea se face că doarme.</p>
+    <p class="linia"><b>Text CapCut:</b> <span class="en">my partner when I put my feet on him at night</span></p>
+    <p class="linia"><b>Variantă text:</b> <span class="en">he said &quot;get your own heat&quot;. so I did.</span></p>
+    <p class="bridge"><b>Legătura cu B-roll:</b> Varianta 2 de text face trecerea: după tresărire → B1, ea își pune halatul, „her own heat”.</p>
+    <p class="dece"><b>De ce:</b> Relatabil pentru cupluri, se dă share cu tag la partener. Umor fără cuvinte.</p>
+    <div class="slot-foot"><span class="pill hook">start frame</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_8cf3fc2c-a6cb-4717-b8cc-ea7894bb1dd6.png" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_8cf3fc2c-a6cb-4717-b8cc-ea7894bb1dd6.png">copiază link</button></span></div>
+  </div>
+</li>
+    </ol>
+  </div>
+</section><section class="reel" id="reel2">
+  <header class="reel-head">
+    <h2>Reel 2</h2>
+    <span class="chip">B2 cu față</span>
+    <span class="counts"><b>6</b> clipuri gata · <b>0</b> plăci de aprobat</span>
+  </header>
+  <div class="reel-body">
+    <aside class="refs">
+      <div class="ref"><span class="eyebrow">Personaj</span><div class="frame"><a href="https://d2ol7oe51mr4n9.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/072acc6a-f2c4-4eb9-bda8-a9e458ce9639.jpg" target="_blank" rel="noopener"><img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/072acc6a-f2c4-4eb9-bda8-a9e458ce9639.jpg" alt="Personaj reel 2"></a></div><code>072acc6a</code></div>
+      <div class="ref"><span class="eyebrow">Cameră</span><div class="frame"><a href="https://d2ol7oe51mr4n9.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/1f7246b1-a93c-4bdb-8bc4-6b5cbfa00f7d.jpg" target="_blank" rel="noopener"><img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/1f7246b1-a93c-4bdb-8bc4-6b5cbfa00f7d.jpg" alt="Cameră reel 2"></a></div><code>1f7246b1</code></div>
+    </aside>
+    <ol class="strip">
+<li class="slot ok">
+  <div class="slot-head"><span class="num">1</span><span class="lbl">Unboxing</span></div>
+  <div class="frame"><video src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_191715_28795ce1-be65-4df3-9255-7ff941eb3bbc.mp4" controls muted playsinline preload="metadata"></video></div>
+  <div class="slot-foot"><span class="pill ok">gata</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_191715_28795ce1-be65-4df3-9255-7ff941eb3bbc.mp4" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_191715_28795ce1-be65-4df3-9255-7ff941eb3bbc.mp4">copiază link</button></span></div>
+</li>
+<li class="slot ok">
+  <div class="slot-head"><span class="num">2</span><span class="lbl">B1 · îmbracă halatul</span></div>
+  <div class="frame"><video src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200134_97e0639e-4c2c-4501-b7d9-1860e1360d42.mp4" controls muted playsinline preload="metadata"></video></div>
+  <div class="slot-foot"><span class="pill ok">gata</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200134_97e0639e-4c2c-4501-b7d9-1860e1360d42.mp4" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200134_97e0639e-4c2c-4501-b7d9-1860e1360d42.mp4">copiază link</button></span></div>
+</li>
+<li class="slot ok">
+  <div class="slot-head"><span class="num">3</span><span class="lbl">B2 · deschide halatul</span></div>
+  <div class="frame"><video src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200133_933212a8-cfc5-4e4a-aa9a-858134720bad.mp4" controls muted playsinline preload="metadata"></video></div>
+  <div class="slot-foot"><span class="pill ok">gata</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200133_933212a8-cfc5-4e4a-aa9a-858134720bad.mp4" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200133_933212a8-cfc5-4e4a-aa9a-858134720bad.mp4">copiază link</button></span></div>
+</li>
+<li class="slot ok">
+  <div class="slot-head"><span class="num">4</span><span class="lbl">Conector</span></div>
+  <div class="frame"><video src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_203556_99676802-5e61-497f-9ccb-f18a1a2a98da.mp4" controls muted playsinline preload="metadata"></video></div>
+  <div class="slot-foot"><span class="pill ok">gata</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_203556_99676802-5e61-497f-9ccb-f18a1a2a98da.mp4" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_203556_99676802-5e61-497f-9ccb-f18a1a2a98da.mp4">copiază link</button></span></div>
+</li>
+<li class="slot ok">
+  <div class="slot-head"><span class="num">5</span><span class="lbl">Telecomandă</span></div>
+  <div class="frame"><video src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_203556_8a0a907c-575e-423d-8858-b6b625f59c7b.mp4" controls muted playsinline preload="metadata"></video></div>
+  <div class="slot-foot"><span class="pill ok">gata</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_203556_8a0a907c-575e-423d-8858-b6b625f59c7b.mp4" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_203556_8a0a907c-575e-423d-8858-b6b625f59c7b.mp4">copiază link</button></span></div>
+</li>
+<li class="slot ok">
+  <div class="slot-head"><span class="num">6</span><span class="lbl">Cozy</span></div>
+  <div class="frame"><video src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200134_99eb4bb1-1467-4d20-af09-72bb50c7769e.mp4" controls muted playsinline preload="metadata"></video></div>
+  <div class="slot-foot"><span class="pill ok">gata</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200134_99eb4bb1-1467-4d20-af09-72bb50c7769e.mp4" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200134_99eb4bb1-1467-4d20-af09-72bb50c7769e.mp4">copiază link</button></span></div>
+</li>
+    </ol>
+  </div>
+  <div class="hooks">
+    <div class="hooks-head"><span class="eyebrow">3 idei de hook · fără halat în cadru · un start frame, o acțiune · textul îl pui în CapCut</span></div>
+    <ol class="hook-list">
+<li class="hook">
+  <div class="frame"><a href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_0b29b825-194a-42dd-828a-f643efe32884.png" target="_blank" rel="noopener"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_0b29b825-194a-42dd-828a-f643efe32884.png" alt="Rotisorul la aeroterma"></a></div>
+  <div class="hook-text">
+    <div class="hook-head"><span class="num">1</span><span class="lbl">Rotisorul la aeroterma</span><span class="chip">problem vs solution</span></div>
+    <p class="cadru"><b>Cadrul:</b> Pe jos, în fața unei aeroterme mici. Pe față îi e cald, se răsucește să-și încălzească și spatele.</p>
+    <p class="miscare"><b>Acțiunea (4–5 s):</b> Se întoarce cu spatele la aerotermă, apoi iar cu fața, apoi iar cu spatele, ca un pui la rotisor.</p>
+    <p class="linia"><b>Text CapCut:</b> <span class="en">the space heater only warms the side facing it</span></p>
+    <p class="linia"><b>Variantă text:</b> <span class="en">me rotating like a rotisserie chicken every 30 seconds</span></p>
+    <p class="bridge"><b>Legătura cu B-roll:</b> Tăietură pe ultima rotire → B1. Soluția încălzește tot corpul deodată, fără să se mai învârtă.</p>
+    <p class="dece"><b>De ce:</b> Gag vizual clar în 3 secunde. Arată limita soluției pe care o are deja toată lumea.</p>
+    <div class="slot-foot"><span class="pill hook">start frame</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_0b29b825-194a-42dd-828a-f643efe32884.png" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_0b29b825-194a-42dd-828a-f643efe32884.png">copiază link</button></span></div>
+  </div>
+</li>
+<li class="hook">
+  <div class="frame"><a href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_e6937134-ded4-40a7-a50f-f3a9b8709999.png" target="_blank" rel="noopener"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_e6937134-ded4-40a7-a50f-f3a9b8709999.png" alt="Războiul termostatului"></a></div>
+  <div class="hook-text">
+    <div class="hook-head"><span class="num">2</span><span class="lbl">Războiul termostatului</span><span class="chip">reacție</span></div>
+    <p class="cadru"><b>Cadrul:</b> Întinde degetul spre termostat (64), o mână din afara cadrului îi acoperă termostatul. Ea se uită la cameră, trădată.</p>
+    <p class="miscare"><b>Acțiunea (4–5 s):</b> Mâna străină îi dă degetul la o parte, ea se uită lung la cameră, pleacă din cadru hotărâtă.</p>
+    <p class="linia"><b>Text CapCut:</b> <span class="en">he said 64 is &quot;plenty warm&quot;</span></p>
+    <p class="linia"><b>Variantă text:</b> <span class="en">POV: you&#x27;re not allowed to touch the thermostat</span></p>
+    <p class="bridge"><b>Legătura cu B-roll:</b> Pleacă hotărâtă din cadru → B1, își pune halatul. Rezolvă conflictul fără termostat.</p>
+    <p class="dece"><b>De ce:</b> Ceartă universală în casele americane iarna. Comentariile se umplu de „my husband too”.</p>
+    <div class="slot-foot"><span class="pill hook">start frame</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_e6937134-ded4-40a7-a50f-f3a9b8709999.png" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_e6937134-ded4-40a7-a50f-f3a9b8709999.png">copiază link</button></span></div>
+  </div>
+</li>
+<li class="hook">
+  <div class="frame"><a href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_45da1bfc-3ac6-4276-92d4-e756e22e6ed9.png" target="_blank" rel="noopener"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_45da1bfc-3ac6-4276-92d4-e756e22e6ed9.png" alt="Telecomanda"></a></div>
+  <div class="hook-text">
+    <div class="hook-head"><span class="num">3</span><span class="lbl">Telecomanda</span><span class="chip">neașteptat</span></div>
+    <p class="cadru"><b>Cadrul:</b> Pe canapea, înfășurată ca o clătită în pătură, doar fața afară. Telecomanda e pe măsuță, puțin prea departe.</p>
+    <p class="miscare"><b>Acțiunea (4–5 s):</b> Scoate încet un braț din pătură, atinge aerul rece, îl retrage imediat înapoi. Se uită la cameră resemnată.</p>
+    <p class="linia"><b>Text CapCut:</b> <span class="en">when you&#x27;re finally warm but the remote is over there</span></p>
+    <p class="linia"><b>Variantă text:</b> <span class="en">the real reason I need a blanket with sleeves</span></p>
+    <p class="bridge"><b>Legătura cu B-roll:</b> Varianta 2 introduce produsul: mâneci. Tăietură → B1, apoi telecomanda halatului în mână.</p>
+    <p class="dece"><b>De ce:</b> Moment mic, super cunoscut. Durează 4 secunde și se înțelege fără sunet.</p>
+    <div class="slot-foot"><span class="pill hook">start frame</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_45da1bfc-3ac6-4276-92d4-e756e22e6ed9.png" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_45da1bfc-3ac6-4276-92d4-e756e22e6ed9.png">copiază link</button></span></div>
+  </div>
+</li>
+    </ol>
+  </div>
+</section><section class="reel" id="reel3">
+  <header class="reel-head">
+    <h2>Reel 3</h2>
+    <span class="chip">B2 fără față</span>
+    <span class="counts"><b>6</b> clipuri gata · <b>0</b> plăci de aprobat</span>
+  </header>
+  <div class="reel-body">
+    <aside class="refs">
+      <div class="ref"><span class="eyebrow">Personaj</span><div class="frame"><a href="https://d2ol7oe51mr4n9.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/8306bd0e-4b46-4275-b11b-998ac20d579a.jpg" target="_blank" rel="noopener"><img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/8306bd0e-4b46-4275-b11b-998ac20d579a.jpg" alt="Personaj reel 3"></a></div><code>8306bd0e</code></div>
+      <div class="ref"><span class="eyebrow">Cameră</span><div class="frame"><a href="https://d2ol7oe51mr4n9.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/165f1e6e-30e5-4b41-b120-f2def33ba506.jpg" target="_blank" rel="noopener"><img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/165f1e6e-30e5-4b41-b120-f2def33ba506.jpg" alt="Cameră reel 3"></a></div><code>165f1e6e</code></div>
+    </aside>
+    <ol class="strip">
+<li class="slot ok">
+  <div class="slot-head"><span class="num">1</span><span class="lbl">Unboxing</span></div>
+  <div class="frame"><video src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_190540_77f1af4c-a38e-4b35-b908-637d046cf802.mp4" controls muted playsinline preload="metadata"></video></div>
+  <div class="slot-foot"><span class="pill ok">gata</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_190540_77f1af4c-a38e-4b35-b908-637d046cf802.mp4" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_190540_77f1af4c-a38e-4b35-b908-637d046cf802.mp4">copiază link</button></span></div>
+</li>
+<li class="slot ok">
+  <div class="slot-head"><span class="num">2</span><span class="lbl">B1 · îmbracă halatul</span></div>
+  <div class="frame"><video src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200133_59888bca-be00-4b1b-8e5e-1ee24ff8f881.mp4" controls muted playsinline preload="metadata"></video></div>
+  <div class="slot-foot"><span class="pill ok">gata</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200133_59888bca-be00-4b1b-8e5e-1ee24ff8f881.mp4" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200133_59888bca-be00-4b1b-8e5e-1ee24ff8f881.mp4">copiază link</button></span></div>
+</li>
+<li class="slot ok">
+  <div class="slot-head"><span class="num">3</span><span class="lbl">B2 · deschide halatul</span></div>
+  <div class="frame"><video src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200133_1a659ec4-1370-4f2c-8316-2ab580d72e00.mp4" controls muted playsinline preload="metadata"></video></div>
+  <div class="slot-foot"><span class="pill ok">gata</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200133_1a659ec4-1370-4f2c-8316-2ab580d72e00.mp4" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200133_1a659ec4-1370-4f2c-8316-2ab580d72e00.mp4">copiază link</button></span></div>
+</li>
+<li class="slot ok">
+  <div class="slot-head"><span class="num">4</span><span class="lbl">Conector</span></div>
+  <div class="frame"><video src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_203555_a491e723-657f-48cc-b8ed-674bdf90cfc4.mp4" controls muted playsinline preload="metadata"></video></div>
+  <div class="slot-foot"><span class="pill ok">gata</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_203555_a491e723-657f-48cc-b8ed-674bdf90cfc4.mp4" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_203555_a491e723-657f-48cc-b8ed-674bdf90cfc4.mp4">copiază link</button></span></div>
+</li>
+<li class="slot ok">
+  <div class="slot-head"><span class="num">5</span><span class="lbl">Telecomandă</span></div>
+  <div class="frame"><video src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_203557_839d993f-898b-4eb0-bfba-d2b21655ddd4.mp4" controls muted playsinline preload="metadata"></video></div>
+  <div class="slot-foot"><span class="pill ok">gata</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_203557_839d993f-898b-4eb0-bfba-d2b21655ddd4.mp4" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_203557_839d993f-898b-4eb0-bfba-d2b21655ddd4.mp4">copiază link</button></span></div>
+</li>
+<li class="slot ok">
+  <div class="slot-head"><span class="num">6</span><span class="lbl">Cozy</span></div>
+  <div class="frame"><video src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200132_c80a1d84-35ed-42b5-918b-6e47925b2a15.mp4" controls muted playsinline preload="metadata"></video></div>
+  <div class="slot-foot"><span class="pill ok">gata</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200132_c80a1d84-35ed-42b5-918b-6e47925b2a15.mp4" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200132_c80a1d84-35ed-42b5-918b-6e47925b2a15.mp4">copiază link</button></span></div>
+</li>
+    </ol>
+  </div>
+  <div class="hooks">
+    <div class="hooks-head"><span class="eyebrow">3 idei de hook · fără halat în cadru · un start frame, o acțiune · textul îl pui în CapCut</span></div>
+    <ol class="hook-list">
+<li class="hook">
+  <div class="frame"><a href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_063d7ba0-9a96-4769-a604-f1623af634da.png" target="_blank" rel="noopener"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_063d7ba0-9a96-4769-a604-f1623af634da.png" alt="Drumul până la cafea"></a></div>
+  <div class="hook-text">
+    <div class="hook-head"><span class="num">1</span><span class="lbl">Drumul până la cafea</span><span class="chip">problem vs solution</span></div>
+    <p class="cadru"><b>Cadrul:</b> Dimineața, în bucătărie, desculță pe gresie, merge pe vârfuri spre aparatul de cafea, strânsă în brațe.</p>
+    <p class="miscare"><b>Acțiunea (4–5 s):</b> Face 3 pași mici pe vârfuri, sare de pe un picior pe altul, ajunge la aparat și se lipește de el.</p>
+    <p class="linia"><b>Text CapCut:</b> <span class="en">the walk from my bed to the coffee maker in January</span></p>
+    <p class="linia"><b>Variantă text:</b> <span class="en">why is the kitchen floor colder than outside</span></p>
+    <p class="bridge"><b>Legătura cu B-roll:</b> Tăietură pe „se lipește de aparat” → B1. Săculeții de picioare rezolvă exact problema asta.</p>
+    <p class="dece"><b>De ce:</b> Ritual zilnic, toată lumea îl știe. Duce natural la săculeții de picioare, cel mai unic detaliu al halatului.</p>
+    <div class="slot-foot"><span class="pill hook">start frame</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_063d7ba0-9a96-4769-a604-f1623af634da.png" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_063d7ba0-9a96-4769-a604-f1623af634da.png">copiază link</button></span></div>
+  </div>
+</li>
+<li class="hook">
+  <div class="frame"><a href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_603c0e73-1979-4a84-87eb-522fb778b727.png" target="_blank" rel="noopener"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_603c0e73-1979-4a84-87eb-522fb778b727.png" alt="Îi iese abur din gură în casă"></a></div>
+  <div class="hook-text">
+    <div class="hook-head"><span class="num">2</span><span class="lbl">Îi iese abur din gură în casă</span><span class="chip">reacție</span></div>
+    <p class="cadru"><b>Cadrul:</b> În sufragerie, se strânge în brațe și expiră. Îi iese abur din gură, în casă. Termostatul se vede în spate.</p>
+    <p class="miscare"><b>Acțiunea (4–5 s):</b> Mai expiră o dată, se uită la abur, apoi la termostat, apoi la cameră, cu ochii mari.</p>
+    <p class="linia"><b>Text CapCut:</b> <span class="en">I can see my breath. INSIDE.</span></p>
+    <p class="linia"><b>Variantă text:</b> <span class="en">heating bill: $400. my house: this.</span></p>
+    <p class="bridge"><b>Legătura cu B-roll:</b> Tăietură pe privirea la cameră → B1. Mesajul: nu mai încălzești casa, te încălzești pe tine.</p>
+    <p class="dece"><b>De ce:</b> Vizual rar și ușor de înțeles fără text. Varianta 2 aduce și argumentul de bani.</p>
+    <div class="slot-foot"><span class="pill hook">start frame</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_603c0e73-1979-4a84-87eb-522fb778b727.png" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_603c0e73-1979-4a84-87eb-522fb778b727.png">copiază link</button></span></div>
+  </div>
+</li>
+<li class="hook">
+  <div class="frame"><a href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_5e33304a-d8df-413e-b2d0-a459a453a73e.png" target="_blank" rel="noopener"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_5e33304a-d8df-413e-b2d0-a459a453a73e.png" alt="Pisica pe gura de căldură"></a></div>
+  <div class="hook-text">
+    <div class="hook-head"><span class="num">3</span><span class="lbl">Pisica pe gura de căldură</span><span class="chip">neașteptat</span></div>
+    <p class="cadru"><b>Cadrul:</b> Pisica e întinsă pe gura de căldură din podea. Ea stă în genunchi lângă, cu mâinile deasupra colțului liber, invidioasă.</p>
+    <p class="miscare"><b>Acțiunea (4–5 s):</b> Încearcă s-o împingă ușor pe pisică, pisica nu se mișcă, se întinde și mai mult. Ea se uită la cameră.</p>
+    <p class="linia"><b>Text CapCut:</b> <span class="en">the cat found the only warm spot in the house</span></p>
+    <p class="linia"><b>Variantă text:</b> <span class="en">I lost the warm spot to a 9 lb cat</span></p>
+    <p class="bridge"><b>Legătura cu B-roll:</b> După ce pierde lupta → B1. La final (cozy) pisica poate veni pe halat, dacă vrei continuitate.</p>
+    <p class="dece"><b>De ce:</b> Animalele cresc watch time-ul. Conflictul pisică-om e comic fără să explici nimic.</p>
+    <div class="slot-foot"><span class="pill hook">start frame</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_5e33304a-d8df-413e-b2d0-a459a453a73e.png" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_5e33304a-d8df-413e-b2d0-a459a453a73e.png">copiază link</button></span></div>
+  </div>
+</li>
+    </ol>
+  </div>
+</section><section class="reel" id="reel4">
+  <header class="reel-head">
+    <h2>Reel 4</h2>
+    <span class="chip">B2 cu față</span>
+    <span class="counts"><b>6</b> clipuri gata · <b>0</b> plăci de aprobat</span>
+  </header>
+  <div class="reel-body">
+    <aside class="refs">
+      <div class="ref"><span class="eyebrow">Personaj</span><div class="frame"><a href="https://d2ol7oe51mr4n9.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/3e1308e8-41cf-44bb-bef5-c35bcbf6245c.jpg" target="_blank" rel="noopener"><img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/3e1308e8-41cf-44bb-bef5-c35bcbf6245c.jpg" alt="Personaj reel 4"></a></div><code>3e1308e8</code></div>
+      <div class="ref"><span class="eyebrow">Cameră</span><div class="frame"><a href="https://d2ol7oe51mr4n9.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/12f88af7-c102-4a46-baec-e3de0a68c8e6.jpg" target="_blank" rel="noopener"><img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/12f88af7-c102-4a46-baec-e3de0a68c8e6.jpg" alt="Cameră reel 4"></a></div><code>12f88af7</code></div>
+    </aside>
+    <ol class="strip">
+<li class="slot ok">
+  <div class="slot-head"><span class="num">1</span><span class="lbl">Unboxing</span></div>
+  <div class="frame"><video src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_190541_5c94b9d6-8d46-47cf-8535-2a0542a93819.mp4" controls muted playsinline preload="metadata"></video></div>
+  <div class="slot-foot"><span class="pill ok">gata</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_190541_5c94b9d6-8d46-47cf-8535-2a0542a93819.mp4" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_190541_5c94b9d6-8d46-47cf-8535-2a0542a93819.mp4">copiază link</button></span></div>
+</li>
+<li class="slot ok">
+  <div class="slot-head"><span class="num">2</span><span class="lbl">B1 · îmbracă halatul</span></div>
+  <div class="frame"><video src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200136_e09c5b37-beae-4ff8-998d-033063c3ed91.mp4" controls muted playsinline preload="metadata"></video></div>
+  <div class="slot-foot"><span class="pill ok">gata</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200136_e09c5b37-beae-4ff8-998d-033063c3ed91.mp4" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200136_e09c5b37-beae-4ff8-998d-033063c3ed91.mp4">copiază link</button></span></div>
+</li>
+<li class="slot ok">
+  <div class="slot-head"><span class="num">3</span><span class="lbl">B2 · deschide halatul</span></div>
+  <div class="frame"><video src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200135_6b96e267-bc06-439c-8c0d-1c07ed989fe8.mp4" controls muted playsinline preload="metadata"></video></div>
+  <div class="slot-foot"><span class="pill ok">gata</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200135_6b96e267-bc06-439c-8c0d-1c07ed989fe8.mp4" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200135_6b96e267-bc06-439c-8c0d-1c07ed989fe8.mp4">copiază link</button></span></div>
+</li>
+<li class="slot ok">
+  <div class="slot-head"><span class="num">4</span><span class="lbl">Conector</span></div>
+  <div class="frame"><video src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_203556_4ca7639d-c2aa-42bb-8fe2-3f6bb0b92044.mp4" controls muted playsinline preload="metadata"></video></div>
+  <div class="slot-foot"><span class="pill ok">gata</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_203556_4ca7639d-c2aa-42bb-8fe2-3f6bb0b92044.mp4" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_203556_4ca7639d-c2aa-42bb-8fe2-3f6bb0b92044.mp4">copiază link</button></span></div>
+</li>
+<li class="slot ok">
+  <div class="slot-head"><span class="num">5</span><span class="lbl">Telecomandă</span></div>
+  <div class="frame"><video src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_203556_44c30297-8556-444b-91cf-ab4b0adf1740.mp4" controls muted playsinline preload="metadata"></video></div>
+  <div class="slot-foot"><span class="pill ok">gata</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_203556_44c30297-8556-444b-91cf-ab4b0adf1740.mp4" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_203556_44c30297-8556-444b-91cf-ab4b0adf1740.mp4">copiază link</button></span></div>
+</li>
+<li class="slot ok">
+  <div class="slot-head"><span class="num">6</span><span class="lbl">Cozy</span></div>
+  <div class="frame"><video src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_201344_6d9bac78-305a-4360-b725-99d4d3a49b5b.mp4" controls muted playsinline preload="metadata"></video></div>
+  <div class="slot-foot"><span class="pill ok">gata</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_201344_6d9bac78-305a-4360-b725-99d4d3a49b5b.mp4" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_201344_6d9bac78-305a-4360-b725-99d4d3a49b5b.mp4">copiază link</button></span></div>
+</li>
+    </ol>
+  </div>
+  <div class="hooks">
+    <div class="hooks-head"><span class="eyebrow">3 idei de hook · fără halat în cadru · un start frame, o acțiune · textul îl pui în CapCut</span></div>
+    <ol class="hook-list">
+<li class="hook">
+  <div class="frame"><a href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193238_0567caa7-d24d-4fdd-a22f-5c0f47bde412.png" target="_blank" rel="noopener"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193238_0567caa7-d24d-4fdd-a22f-5c0f47bde412.png" alt="Factura de gaz"></a></div>
+  <div class="hook-text">
+    <div class="hook-head"><span class="num">1</span><span class="lbl">Factura de gaz</span><span class="chip">problem vs solution</span></div>
+    <p class="cadru"><b>Cadrul:</b> La blatul din bucătărie, cu plicul deschis și factura în mână, gura căscată, mâna la frunte.</p>
+    <p class="miscare"><b>Acțiunea (4–5 s):</b> Citește, clipește, întoarce foaia ca și cum ar căuta o greșeală, o lasă jos pe blat, hotărâtă.</p>
+    <p class="linia"><b>Text CapCut:</b> <span class="en">my December gas bill made me do something drastic</span></p>
+    <p class="linia"><b>Variantă text:</b> <span class="en">I stopped heating my house. I heat myself now.</span></p>
+    <p class="bridge"><b>Legătura cu B-roll:</b> „something drastic” lasă curiozitatea deschisă, B1 e răspunsul. Lasă foaia jos → tăietură → își pune halatul.</p>
+    <p class="dece"><b>De ce:</b> Banii sunt argumentul cel mai puternic iarna. Textul promite o poveste, deci lumea rămâne.</p>
+    <div class="slot-foot"><span class="pill hook">start frame</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193238_0567caa7-d24d-4fdd-a22f-5c0f47bde412.png" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193238_0567caa7-d24d-4fdd-a22f-5c0f47bde412.png">copiază link</button></span></div>
+  </div>
+</li>
+<li class="hook">
+  <div class="frame"><a href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_5baee570-6ef6-41fd-a95e-4d46e86ec93e.png" target="_blank" rel="noopener"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_5baee570-6ef6-41fd-a95e-4d46e86ec93e.png" alt="Cearșafurile reci"></a></div>
+  <div class="hook-text">
+    <div class="hook-head"><span class="num">2</span><span class="lbl">Cearșafurile reci</span><span class="chip">reacție</span></div>
+    <p class="cadru"><b>Cadrul:</b> Tocmai a intrat în pat. Stă țeapănă ca o scândură, cu ochii mari, dinții strânși, plapuma la bărbie.</p>
+    <p class="miscare"><b>Acțiunea (4–5 s):</b> Tremură, nu îndrăznește să miște un deget, apoi scoate un țipăt mic înăbușit.</p>
+    <p class="linia"><b>Text CapCut:</b> <span class="en">getting into cold sheets should be illegal</span></p>
+    <p class="linia"><b>Variantă text:</b> <span class="en">the first 10 minutes in bed every winter night</span></p>
+    <p class="bridge"><b>Legătura cu B-roll:</b> Tăietură → cozy, în pat în halat, relaxată. Același pat, altă stare.</p>
+    <p class="dece"><b>De ce:</b> Experiență pe care o are oricine seara. Fața spune tot, textul doar confirmă.</p>
+    <div class="slot-foot"><span class="pill hook">start frame</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_5baee570-6ef6-41fd-a95e-4d46e86ec93e.png" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_5baee570-6ef6-41fd-a95e-4d46e86ec93e.png">copiază link</button></span></div>
+  </div>
+</li>
+<li class="hook">
+  <div class="frame"><a href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_c2fc7547-92f8-4f29-89ae-5fc00a7b7671.png" target="_blank" rel="noopener"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_c2fc7547-92f8-4f29-89ae-5fc00a7b7671.png" alt="Lucrez de acasă ca la Polul Nord"></a></div>
+  <div class="hook-text">
+    <div class="hook-head"><span class="num">3</span><span class="lbl">Lucrez de acasă ca la Polul Nord</span><span class="chip">neașteptat</span></div>
+    <p class="cadru"><b>Cadrul:</b> La birou, cu geacă de puf, căciulă și mănuși fără degete, tastează greu cu degetele înghețate.</p>
+    <p class="miscare"><b>Acțiunea (4–5 s):</b> Tastează, se oprește, suflă în mâini, se uită la cameră sec.</p>
+    <p class="linia"><b>Text CapCut:</b> <span class="en">WFH in winter be like</span></p>
+    <p class="linia"><b>Variantă text:</b> <span class="en">my office is 61 degrees and I&#x27;m not allowed to complain</span></p>
+    <p class="bridge"><b>Legătura cu B-roll:</b> Tăietură → B1, dă jos geaca și pune halatul. Același birou, altă viață.</p>
+    <p class="dece"><b>De ce:</b> Nișă mare de work-from-home. Imaginea cu geacă în casă e amuzantă și sinceră.</p>
+    <div class="slot-foot"><span class="pill hook">start frame</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_c2fc7547-92f8-4f29-89ae-5fc00a7b7671.png" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193237_c2fc7547-92f8-4f29-89ae-5fc00a7b7671.png">copiază link</button></span></div>
+  </div>
+</li>
+    </ol>
+  </div>
+</section><section class="reel" id="reel5">
+  <header class="reel-head">
+    <h2>Reel 5</h2>
+    <span class="chip">B2 fără față</span>
+    <span class="counts"><b>5</b> clipuri gata · <b>0</b> plăci de aprobat · <b>1</b> se reface</span>
+  </header>
+  <div class="reel-body">
+    <aside class="refs">
+      <div class="ref"><span class="eyebrow">Personaj</span><div class="frame"><a href="https://d2ol7oe51mr4n9.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/5caa961a-a81c-4f2e-a6fe-a2e557946147.jpg" target="_blank" rel="noopener"><img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/5caa961a-a81c-4f2e-a6fe-a2e557946147.jpg" alt="Personaj reel 5"></a></div><code>5caa961a</code></div>
+      <div class="ref"><span class="eyebrow">Cameră</span><div class="frame"><a href="https://d2ol7oe51mr4n9.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/b9c86778-010a-42cf-801b-14b5ae0554cf.jpg" target="_blank" rel="noopener"><img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/b9c86778-010a-42cf-801b-14b5ae0554cf.jpg" alt="Cameră reel 5"></a></div><code>b9c86778</code></div>
+    </aside>
+    <ol class="strip">
+<li class="slot ok">
+  <div class="slot-head"><span class="num">1</span><span class="lbl">Unboxing</span></div>
+  <div class="frame"><video src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_205650_b0fa29eb-c37a-4767-ac49-a60b1a917e1d.mp4" controls muted playsinline preload="metadata"></video></div>
+  <div class="slot-foot"><span class="pill ok">gata</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_205650_b0fa29eb-c37a-4767-ac49-a60b1a917e1d.mp4" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_205650_b0fa29eb-c37a-4767-ac49-a60b1a917e1d.mp4">copiază link</button></span></div>
+</li>
+<li class="slot ok">
+  <div class="slot-head"><span class="num">2</span><span class="lbl">B1 · îmbracă halatul</span></div>
+  <div class="frame"><video src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200247_ed36ab66-5d45-4137-bfff-c778512ec106.mp4" controls muted playsinline preload="metadata"></video></div>
+  <div class="slot-foot"><span class="pill ok">gata</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200247_ed36ab66-5d45-4137-bfff-c778512ec106.mp4" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200247_ed36ab66-5d45-4137-bfff-c778512ec106.mp4">copiază link</button></span></div>
+</li>
+<li class="slot ok">
+  <div class="slot-head"><span class="num">3</span><span class="lbl">B2 · deschide halatul</span></div>
+  <div class="frame"><video src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200248_52c850c7-cdd9-42e4-abbf-6120fdfeaa23.mp4" controls muted playsinline preload="metadata"></video></div>
+  <div class="slot-foot"><span class="pill ok">gata</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200248_52c850c7-cdd9-42e4-abbf-6120fdfeaa23.mp4" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_200248_52c850c7-cdd9-42e4-abbf-6120fdfeaa23.mp4">copiază link</button></span></div>
+</li>
+<li class="slot ok">
+  <div class="slot-head"><span class="num">4</span><span class="lbl">Conector</span></div>
+  <div class="frame"><video src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_203556_2aa9854a-702c-4b21-a50d-1abd6a0f7474.mp4" controls muted playsinline preload="metadata"></video></div>
+  <div class="slot-foot"><span class="pill ok">gata</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_203556_2aa9854a-702c-4b21-a50d-1abd6a0f7474.mp4" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_203556_2aa9854a-702c-4b21-a50d-1abd6a0f7474.mp4">copiază link</button></span></div>
+</li>
+<li class="slot ok">
+  <div class="slot-head"><span class="num">5</span><span class="lbl">Telecomandă</span></div>
+  <div class="frame"><video src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_203558_6619661e-81b6-4e86-bd5d-1c9b486dcc07.mp4" controls muted playsinline preload="metadata"></video></div>
+  <div class="slot-foot"><span class="pill ok">gata</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_203558_6619661e-81b6-4e86-bd5d-1c9b486dcc07.mp4" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260923_203558_6619661e-81b6-4e86-bd5d-1c9b486dcc07.mp4">copiază link</button></span></div>
+</li>
+<li class="slot pend">
+  <div class="slot-head"><span class="num">6</span><span class="lbl">Cozy</span></div>
+  <div class="frame"><div class="empty">se reface</div></div>
+  <div class="slot-foot"><span class="pill pend">se reface</span><span class="links"></span></div>
+</li>
+    </ol>
+  </div>
+  <div class="hooks">
+    <div class="hooks-head"><span class="eyebrow">3 idei de hook · fără halat în cadru · un start frame, o acțiune · textul îl pui în CapCut</span></div>
+    <ol class="hook-list">
+<li class="hook">
+  <div class="frame"><a href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193306_73c513dd-c539-4d97-b66f-791f4005261f.png" target="_blank" rel="noopener"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193306_73c513dd-c539-4d97-b66f-791f4005261f.png" alt="Câinele ca încălzitor"></a></div>
+  <div class="hook-text">
+    <div class="hook-head"><span class="num">1</span><span class="lbl">Câinele ca încălzitor</span><span class="chip">problem vs solution</span></div>
+    <p class="cadru"><b>Cadrul:</b> Pe canapea, strânge în brațe un câine mare și pufos, cu obrazul în blana lui. Câinele se uită la cameră plictisit.</p>
+    <p class="miscare"><b>Acțiunea (4–5 s):</b> Îl strânge mai tare, câinele se zbate, sare jos și pleacă. Ea rămâne cu brațele goale și tremură.</p>
+    <p class="linia"><b>Text CapCut:</b> <span class="en">using my dog as a heater. he did not consent.</span></p>
+    <p class="linia"><b>Variantă text:</b> <span class="en">when the dog leaves and you remember it&#x27;s 60 degrees in here</span></p>
+    <p class="bridge"><b>Legătura cu B-roll:</b> Câinele pleacă → tăietură → B1. Are nevoie de altă sursă de căldură.</p>
+    <p class="dece"><b>De ce:</b> Câini + umor = share. Privirea câinelui la cameră face tot hook-ul.</p>
+    <div class="slot-foot"><span class="pill hook">start frame</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193306_73c513dd-c539-4d97-b66f-791f4005261f.png" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193306_73c513dd-c539-4d97-b66f-791f4005261f.png">copiază link</button></span></div>
+  </div>
+</li>
+<li class="hook">
+  <div class="frame"><a href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193306_d73eaa1c-68da-49a7-89ea-4728957f26f3.png" target="_blank" rel="noopener"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193306_d73eaa1c-68da-49a7-89ea-4728957f26f3.png" alt="Plapuma ca pelerină"></a></div>
+  <div class="hook-text">
+    <div class="hook-head"><span class="num">2</span><span class="lbl">Plapuma ca pelerină</span><span class="chip">reacție</span></div>
+    <p class="cadru"><b>Cadrul:</b> Merge pe hol cu toată plapuma pe ea ca pe o mantie regală, târâtă pe jos, cu periuța de dinți în mână.</p>
+    <p class="miscare"><b>Acțiunea (4–5 s):</b> Merge încet spre cameră, plapuma se agață de colțul ușii, trage de ea, nu vrea să renunțe.</p>
+    <p class="linia"><b>Text CapCut:</b> <span class="en">leaving my bed like I&#x27;m moving house</span></p>
+    <p class="linia"><b>Variantă text:</b> <span class="en">I refuse to separate from my blanket</span></p>
+    <p class="bridge"><b>Legătura cu B-roll:</b> „I refuse to separate” → B1: găsește ceva ce poate purta pe bune, cu mâneci.</p>
+    <p class="dece"><b>De ce:</b> Situație comică pe care o face toată lumea. Duce natural spre ideea de „pătură pe care o porți”.</p>
+    <div class="slot-foot"><span class="pill hook">start frame</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193306_d73eaa1c-68da-49a7-89ea-4728957f26f3.png" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193306_d73eaa1c-68da-49a7-89ea-4728957f26f3.png">copiază link</button></span></div>
+  </div>
+</li>
+<li class="hook">
+  <div class="frame"><a href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193306_c02cbcb3-2778-42d8-bf1a-ee06436bf7d3.png" target="_blank" rel="noopener"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193306_c02cbcb3-2778-42d8-bf1a-ee06436bf7d3.png" alt="Mâinile pe prăjitor"></a></div>
+  <div class="hook-text">
+    <div class="hook-head"><span class="num">3</span><span class="lbl">Mâinile pe prăjitor</span><span class="chip">neașteptat</span></div>
+    <p class="cadru"><b>Cadrul:</b> În bucătărie, își ține palmele deasupra prăjitorului pornit, cu ochii închiși de ușurare.</p>
+    <p class="miscare"><b>Acțiunea (4–5 s):</b> Pâinea sare din prăjitor, ea tresare, o prinde și își pune pâinea caldă pe obraz.</p>
+    <p class="linia"><b>Text CapCut:</b> <span class="en">desperate times</span></p>
+    <p class="linia"><b>Variantă text:</b> <span class="en">stop warming your hands on the toaster. there&#x27;s a better way.</span></p>
+    <p class="bridge"><b>Legătura cu B-roll:</b> Varianta 2 face trecerea directă în B1. Pâinea sare → tăietură → își pune halatul.</p>
+    <p class="dece"><b>De ce:</b> Absurd, dar credibil. Momentul cu pâinea care sare dă surpriza la final.</p>
+    <div class="slot-foot"><span class="pill hook">start frame</span><span class="links"><a class="lnk" href="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193306_c02cbcb3-2778-42d8-bf1a-ee06436bf7d3.png" target="_blank" rel="noopener">deschide</a><button class="lnk cp" type="button" data-url="https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193306_c02cbcb3-2778-42d8-bf1a-ee06436bf7d3.png">copiază link</button></span></div>
+  </div>
+</li>
+    </ol>
+  </div>
+</section>
+<div class="toast" id="toast" role="status" aria-live="polite">Link copiat</div>
+<script>
+(function(){
+  var toast=document.getElementById('toast'),t;
+  function show(msg){toast.textContent=msg;toast.classList.add('show');clearTimeout(t);t=setTimeout(function(){toast.classList.remove('show')},1400)}
+  document.addEventListener('click',function(e){
+    var b=e.target.closest('.cp');if(!b)return;
+    var url=b.getAttribute('data-url');
+    var p=(navigator.clipboard&&navigator.clipboard.writeText)?navigator.clipboard.writeText(url):Promise.reject();
+    p.then(function(){show('Link copiat')}).catch(function(){
+      var ta=document.createElement('textarea');ta.value=url;document.body.appendChild(ta);ta.select();
+      try{document.execCommand('copy');show('Link copiat')}catch(err){show('Nu s-a putut copia — deschide linkul')}
+      document.body.removeChild(ta);
+    });
+  });
+  // pause other videos when one starts
+  document.addEventListener('play',function(e){
+    if(e.target.tagName!=='VIDEO')return;
+    document.querySelectorAll('video').forEach(function(v){if(v!==e.target)v.pause()});
+  },true);
+})();
+</script>
+</body>
+</html>
