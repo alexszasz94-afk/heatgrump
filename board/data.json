@@ -350,6 +350,39 @@
      "frame": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20260929_193306_c02cbcb3-2778-42d8-bf1a-ee06436bf7d3.png"
     }
    ]
+  },
+  {
+   "n": 6,
+   "b2": "fără față",
+   "char": "572c184d-526b-4dd8-b6db-c645ff82ee81",
+   "room": "4317b5c7-0745-425f-9831-f2520a314079",
+   "outfit": "hanorac gri, blugi deschiși, șosete albe",
+   "clips": {
+    "UNBOXING": {
+     "kind": "video",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261001_213518_ee682e8a-641d-42f6-8abc-060a32d29e66.mp4"
+    },
+    "B1": {
+     "kind": "video",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261001_214649_964b1d2b-8630-4a5b-aa54-6db7301994a7.mp4"
+    },
+    "B2": {
+     "kind": "video",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261001_213001_07ea2259-eb61-45d5-bbfc-bdac90d03c55.mp4"
+    },
+    "CONECTOR": {
+     "kind": "video",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261001_213153_1431f7ac-2501-4470-90ec-971997f7cb6e.mp4"
+    },
+    "TELECOMANDA": {
+     "kind": "video",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261001_213153_ceef88d3-0a07-4e0c-b02c-76ff8ffc3c88.mp4"
+    },
+    "COZY": {
+     "kind": "video",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261001_214651_0429e13a-96e5-480b-ac40-3ceec18a4432.mp4"
+    }
+   }
   }
  ]
 }
