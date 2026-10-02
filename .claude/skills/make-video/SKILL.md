@@ -20,6 +20,7 @@ Citește întâi `docs/03-rules.md` (secțiunile din 2 oct au prioritate).
 6. Montaj FINAL: scrie `output/reelN/final.json` și rulează `python3 engine/final.py output/reelN/final.json`.
    Ordine și tăieturi (regulile din 2 oct): hook → unboxing ~2,5 s → B1 până pune gluga → B2 până închide halatul → conector fix 1,5 s → telecomandă fixă (pornește cu apăsarea, până la 3) → cozy ~3 s. Țintă 15-18 s.
    Texte (EN, cu emoji, stil merry.jammies/snuglore): hook-ul cu textul lui, „Vs…” pe tot B-roll-ul (sau 2-3 replici scurte gen „5 heat levels 🔥”, „one click 🔌”).
+   Final: videoul se oprește odată cu muzica (automat în final.py); Reel 7 = referința aprobată.
    Sunet: B-roll, conector, telecomandă = mute (automat în final.py); doar hook-ul își păstrează sunetul.
    Muzică: `library/music/*.m4a` (All I Want For Christmas / It's Beginning to Look… / Last Christmas), rotită; sunet original la 0,15.
 7. Verifică MP4-ul final (cadre la fiecare tăietură + că are text și muzică), urcă-l în Studio (asset + `clips/rN-REEL`), actualizează harta, `git add -A && commit && push`.

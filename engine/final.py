@@ -102,8 +102,10 @@ def main(spec_path):
     n = len(sp.get("texts", [])) + 1
     if sp.get("music"):
         m = os.path.join(ROOT, sp["music"]) if not os.path.isabs(sp["music"]) else sp["music"]
+        mlen = float(subprocess.run(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",m],capture_output=True,text=True).stdout)
+        dur = min(dur, mlen - sp.get("music_start", 0) - 0.05)   # videoul se termină când se oprește muzica (regula 2 oct)
         inputs += ["-ss", str(sp.get("music_start", 0)), "-i", m]
-        filt.append(f"[0:a]volume={sp.get('orig_vol',0.15)}[oa];[{n}:a]volume={sp.get('music_vol',1.0)},afade=t=out:st={max(dur-0.8,0)}:d=0.8[ma];[oa][ma]amix=inputs=2:duration=first:normalize=0[a]")
+        filt.append(f"[0:a]volume={sp.get('orig_vol',0.15)}[oa];[{n}:a]volume={sp.get('music_vol',1.0)},afade=t=out:st={max(dur-0.5,0)}:d=0.5[ma];[oa][ma]amix=inputs=2:duration=first:normalize=0[a]")
         amap = "[a]"
     else:
         amap = "0:a"
