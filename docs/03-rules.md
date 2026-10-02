@@ -71,3 +71,6 @@ Sursa: memoria Cowork + sesiunea 16–29 sept. Regula mai nouă bate regula mai 
 - Conector: doar mișcarea în care intră una în alta, ~2 s, până e complet înăuntru.
 - Unboxing: se taie la ~2,5 s (după ce scoate halatul din cutie).
 - B1, conector, telecomandă și unboxing scurte în montaj.
+
+## Cozy după tipul camerei (2 oct)
+- Clipul de mișcare cozy `cozy-a-x2` (7da99c7a, întins / filmat de la picioare) merge DOAR în camere cu PAT. În living fără pat se folosește cozy `8042602c` (se cuibărește pe canapea). Alege clipul cozy după ce are camera setului.
