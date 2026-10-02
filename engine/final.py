@@ -3,7 +3,7 @@ Folosire: python3 engine/final.py spec.json
 spec.json:
 {
   "out": "output/reel7/reel7-FINAL.mp4",
-  "segments": [{"file": "...", "start": 0, "end": 2.5}, ...],      # în ordinea de montaj
+  "segments": [{"file": "...", "start": 0, "end": 2.5}, ...],      # în ordinea de montaj; doar hook-urile (hooks/) păstrează sunetul, altfel "audio": true
   "texts":    [{"t0": 0, "t1": 4.0, "text": "The problem 😩❄️"}, ...], # pe timeline-ul final
   "music": "library/music/all-i-want.m4a", "music_start": 0, "music_vol": 1.0, "orig_vol": 0.15
 }
@@ -85,9 +85,11 @@ def main(spec_path):
         f = os.path.join(ROOT, s["file"]) if not os.path.isabs(s["file"]) else s["file"]
         o = os.path.join(tmp, f"s{i:02d}.mp4")
         has_a = subprocess.run(["ffprobe","-v","error","-select_streams","a","-show_entries","stream=index","-of","csv=p=0",f],capture_output=True,text=True).stdout.strip()
+        keep = s.get("audio", "hooks/" in s["file"])   # sunetul rămâne doar la hook (B-roll-ul Genjutsu are muzică proprie)
         cmd = ["ffmpeg","-y","-loglevel","error","-ss",str(s["start"]),"-to",str(s["end"]),"-i",f]
-        if not has_a: cmd += ["-f","lavfi","-i","anullsrc=r=48000:cl=stereo","-shortest"]
-        cmd += ["-vf","scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p","-c:v","libx264","-crf","16","-c:a","aac","-ar","48000","-ac","2",o]
+        if not has_a or not keep: cmd += ["-f","lavfi","-i","anullsrc=r=48000:cl=stereo","-shortest"]
+        cmd += ["-vf","scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p","-c:v","libx264","-crf","16","-c:a","aac","-ar","48000","-ac","2"]
+        cmd += (["-map","0:v","-map","1:a"] if not has_a or not keep else []) + [o]
         subprocess.run(cmd, check=True); segs.append(o)
     lst = os.path.join(tmp, "l.txt"); open(lst, "w").write("\n".join(f"file '{x}'" for x in segs))
     base = os.path.join(tmp, "base.mp4")
