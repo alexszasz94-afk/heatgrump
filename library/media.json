@@ -13,8 +13,7 @@
  "silhouette_open": "5eefa24d-682c-46be-b9d9-bd4c6056304c",
  "motion_clips": {
   "B1": [
-   "5133a653-d5e3-4077-a102-43818fb736c0",
-   "ba61dc06-bf41-4176-ba31-d5de0e6c38bb"
+   "5133a653-d5e3-4077-a102-43818fb736c0"
   ],
   "B2": {
    "A_no_face": "6243c22d-ed26-4df8-8a68-0d4ff29219bd",
@@ -22,12 +21,15 @@
    "C_new": "e9a9ed00-094d-4211-8b98-2cfdf6115920"
   },
   "COZY": [
-   "8042602c-c548-45de-aa77-6d42366e058e",
-   "12959b84-23a0-42ee-b00a-8970d51a59c7"
+   "8042602c-c548-45de-aa77-6d42366e058e"
   ],
   "hook_321": "bcdaebd7-18e4-43fc-89a8-59294ceb0fcb",
   "hook_tray": "673624ef-1edb-478e-b8e9-9b51d6dacba1",
-  "_ignore_duplicate": "9d119c02-d901-46ef-b940-8d98480f3770"
+  "_ignore_duplicate": "9d119c02-d901-46ef-b940-8d98480f3770",
+  "_scoase_sub_2s": {
+   "B1": "ba61dc06-bf41-4176-ba31-d5de0e6c38bb",
+   "COZY": "12959b84-23a0-42ee-b00a-8970d51a59c7"
+  }
  },
  "reels_batch_23sept": [
   {

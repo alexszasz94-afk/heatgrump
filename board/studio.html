@@ -65,6 +65,23 @@ textarea{font:14px/1.4 var(--body);width:100%;box-sizing:border-box;min-height:5
 .fb-item{font-size:13px;display:grid;gap:2px}
 .fb-item time{font:500 11px/1 var(--mono);color:var(--muted)}
 .fb-item.done{color:var(--muted);text-decoration:line-through}
+.map-wrap{background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow-x:auto}
+.map{position:relative;min-width:760px;display:grid;grid-template-columns:repeat(4,1fr);gap:56px;padding:16px 18px 18px}
+.map svg{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;overflow:visible}
+.map path{fill:none;stroke:var(--line);stroke-width:1.6;transition:stroke .15s,opacity .15s}
+.map path.on{stroke:var(--pine);stroke-width:2.4}
+.map.sel path:not(.on){opacity:.25}
+.col{display:grid;gap:10px;align-content:start;position:relative;z-index:1}
+.col h3{font:600 11px/1.2 var(--body);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 2px}
+.node{display:flex;align-items:center;gap:8px;padding:6px;border:1px solid var(--line);border-radius:8px;background:var(--surface);cursor:pointer;text-align:left;font:500 13px/1.25 var(--body);color:var(--ink);width:100%}
+.node img{width:34px;height:46px;object-fit:cover;border-radius:4px;flex:none;background:var(--pine-soft)}
+.node .nt{display:grid;gap:2px;min-width:0}
+.node small{color:var(--muted);font-size:11.5px;overflow-wrap:anywhere}
+.node .dot{width:8px;height:8px;border-radius:50%;flex:none;margin-left:auto;background:var(--line)}
+.node .dot.gata{background:var(--pine)}.node .dot.refa{background:var(--red)}.node .dot.lucru{background:var(--amber)}.node .dot.aprobat{background:var(--pine)}
+.map.sel .node{opacity:.35}
+.map.sel .node.on{opacity:1;border-color:var(--pine)}
+.map-hint{font-size:13px;color:var(--muted);margin:0}
 .empty{background:var(--surface);border:1px dashed var(--line);border-radius:10px;padding:28px;color:var(--muted);text-align:center}
 .toast{position:fixed;left:50%;bottom:calc(16px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 14px;border-radius:8px;font-weight:600}
 @media (prefers-reduced-motion:no-preference){.card{transition:border-color .2s}}
@@ -87,7 +104,7 @@ textarea{font:14px/1.4 var(--body);width:100%;box-sizing:border-box;min-height:5
 <script>
 const ORDER=["HOOK1","HOOK2","HOOK3","UNBOXING","B1","B2","CONECTOR","TELECOMANDA","COZY"];
 const LABEL={gata:"gata",aprobat:"aprobat",refa:"de refăcut",lucru:"se generează",ales:"hook ales"};
-let clips=[],feedback=[],db=null,canWrite=true;
+let clips=[],feedback=[],maps={},db=null,canWrite=true;
 const $=s=>document.querySelector(s);
 function toast(t){const el=$("#toast");el.textContent=t;el.hidden=false;clearTimeout(toast.t);toast.t=setTimeout(()=>el.hidden=true,2200)}
 function esc(s){return String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
@@ -126,9 +143,40 @@ function render(){
     const cs=clips.filter(c=>c.reel===r).sort((a,b)=>ORDER.indexOf(a.slot)-ORDER.indexOf(b.slot));
     const info=cs.find(c=>c.reelInfo)?.reelInfo||"";
     const ok=cs.filter(c=>c.status==="aprobat"||c.status==="ales").length;
-    return `<section class="reel"><div class="reel-head"><h2>Reel ${r}</h2><span class="meta">${esc(info)}</span><span class="meta">${ok}/${cs.length} aprobate</span></div><div class="row">${cs.map(card).join("")}</div></section>`;
+    const m=maps["r"+r];
+    return `<section class="reel"><div class="reel-head"><h2>Reel ${r}</h2><span class="meta">${esc(info)}</span><span class="meta">${ok}/${cs.length} aprobate</span></div>${m?mapHtml(r,m):""}<div class="row">${cs.map(card).join("")}</div></section>`;
   }).join("");
+  document.querySelectorAll(".map").forEach(drawLinks);
 }
+const SEL={};
+const COLS=["Ce intră","Imagini de start","Clipuri","Reel final"];
+function mapHtml(r,m){
+  const st=id=>clips.find(c=>c.id===id)?.status||"";
+  const cols=COLS.map((t,i)=>`<div class="col"><h3>${t}</h3>${m.nodes.filter(n=>n.col===i).map(n=>{
+    const s=n.clip?st(n.clip):"";
+    return `<button class="node" type="button" data-n="${esc(n.id)}">${n.asset?`<img src="/_blob/${esc(n.asset)}" alt="" loading="lazy">`:""}<span class="nt">${esc(n.label)}${n.sub?`<small>${esc(n.sub)}</small>`:""}</span>${s?`<span class="dot ${esc(s)}" title="${esc(LABEL[s]||s)}"></span>`:""}</button>`}).join("")}</div>`).join("");
+  return `<p class="map-hint">Harta reelului: apasă pe orice element ca să vezi din ce e făcut și unde ajunge.</p><div class="map-wrap"><div class="map" data-r="${r}" data-sel="${esc(SEL[r]||"")}"><svg aria-hidden="true"></svg>${cols}</div></div>`;
+}
+function linked(m,id){
+  const up=new Set([id]),down=new Set([id]);let ch=true;
+  while(ch){ch=false;for(const [a,b] of m.edges){if(down.has(a)&&!down.has(b)){down.add(b);ch=true}if(up.has(b)&&!up.has(a)){up.add(a);ch=true}}}
+  return new Set([...up,...down]);
+}
+function drawLinks(el){
+  const m=maps["r"+el.dataset.r];if(!m)return;
+  const box=el.getBoundingClientRect(),svg=el.querySelector("svg");
+  const pos=id=>{const n=el.querySelector(`[data-n="${CSS.escape(id)}"]`);if(!n)return null;const b=n.getBoundingClientRect();return {l:b.left-box.left,r:b.right-box.left,y:b.top-box.top+b.height/2}};
+  const sel=el.dataset.sel,on=sel?linked(m,sel):null;
+  svg.innerHTML=m.edges.map(([a,b])=>{const p=pos(a),q=pos(b);if(!p||!q)return"";const x1=p.r,x2=q.l,dx=(x2-x1)/2;
+    const lit=on&&on.has(a)&&on.has(b);return `<path class="${lit?"on":""}" d="M${x1},${p.y} C${x1+dx},${p.y} ${x2-dx},${q.y} ${x2},${q.y}"/>`}).join("");
+  el.classList.toggle("sel",!!sel);
+  el.querySelectorAll(".node").forEach(n=>n.classList.toggle("on",!!on&&on.has(n.dataset.n)));
+}
+document.addEventListener("click",e=>{
+  const n=e.target.closest(".node");if(!n)return;const el=n.closest(".map");
+  el.dataset.sel=el.dataset.sel===n.dataset.n?"":n.dataset.n;SEL[el.dataset.r]=el.dataset.sel;drawLinks(el);
+});
+let rz;addEventListener("resize",()=>{clearTimeout(rz);rz=setTimeout(()=>document.querySelectorAll(".map").forEach(drawLinks),120)});
 document.addEventListener("click",async e=>{
   const b=e.target.closest("button[data-act]");if(!b||!db)return;
   const id=b.closest(".card").dataset.id,act=b.dataset.act;b.disabled=true;
@@ -153,6 +201,7 @@ document.addEventListener("click",async e=>{
   const user=await claude.use("user");
   if(user){const w=await user.can("data.write");if(w===false)canWrite=false}
   db.collection("clips").onSnapshot(s=>{clips=s.docs.map(d=>({id:d.id,...d.data()}));render()},()=>{});
+  db.collection("maps").onSnapshot(s=>{maps={};s.docs.forEach(d=>maps[d.id]=d.data());render()},()=>{});
   db.collection("feedback").onSnapshot(s=>{feedback=s.docs.map(d=>({id:d.id,...d.data()}));render()},()=>{});
 })();
 </script>

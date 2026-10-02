@@ -21,6 +21,16 @@ def image_url(p):
     rank = lambda u: (0 if "/originals/" in u else 1 if "/736x/" in u else 2)
     return sorted(urls, key=rank)[0] if urls else None
 
+MIN_SHORT_SIDE = 1080   # sub atât referința iese moale în Higgsfield (testul din 1 oct, 736 px)
+
+def big_enough(f):
+    import subprocess
+    try:
+        w, h = map(int, subprocess.check_output(["ffprobe","-v","error","-show_entries","stream=width,height","-of","csv=p=0",str(f)]).decode().split(",")[:2])
+        return min(w, h) >= MIN_SHORT_SIDE
+    except Exception:
+        return False
+
 def main(kind, n=12):
     load_env(); c = cfg(); token = os.environ["APIFY_TOKEN"]
     queries = c["pinterest_queries"][kind]; out = LIB / ("rooms" if kind == "rooms" else "char-inspiration"); out.mkdir(parents=True, exist_ok=True)
@@ -35,7 +45,9 @@ def main(kind, n=12):
             if not url or any(i["img"] == url for i in idx): continue
             f = out / f"{today()}_{len(idx)+1:03d}.jpg"
             try:
-                urllib.request.urlretrieve(url, f); idx.append({"file": f.name, "query": q, "source": p.get("url") or p.get("link"), "img": url}); got += 1
+                urllib.request.urlretrieve(url, f)
+                if not big_enough(f): f.unlink(); continue   # regula 2 oct: doar poze de calitate mare
+                idx.append({"file": f.name, "query": q, "source": p.get("url") or p.get("link"), "img": url}); got += 1
             except Exception: pass
     jsave(out / "index.json", idx); log(f"{got} poze noi în {out}/ — Claude Code: alege-le pe cele bune (skill new-sets).")
 

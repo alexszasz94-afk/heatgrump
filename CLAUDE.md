@@ -66,6 +66,7 @@ Dacă pică, regenerează (max 3 încercări), apoi raportează.
 
 ## Capcane cunoscute
 - `ip_detected` la unboxing video cu multe referințe de halat → retrimite cu 1 referință, apoi doar cutia. Cozy cu unele personaje poate fi respins de 2 ori: schimbă clipul de mișcare.
+- Clipurile de mișcare sub 2 s pică în Genjutsu (fără motiv afișat): B1 `ba61dc06` (0,9 s) și cozy `12959b84` (1,7 s) — scoase din rotație (2 oct). Folosește B1 `5133a653`, cozy `8042602c`.
 - Fără `aspect_ratio` explicit iese 16:9. Fără `resolution` iese 720p.
 - `nano_banana_2` = flash (slab). Dacă e nevoie de Nano Banana, cere `nano_banana_pro`.
 - Creditele: workspace shared; motion control 1080p ≈ 44 credite/clip, seedance ≈ 55, gpt_image_2 4k ≈ 15. Verifică `balance` înainte de loturi mari.
