@@ -1,16 +1,25 @@
 ---
 name: make-video
-description: Face un video final HeatGrump: alege setul din rotație, propune 3 hook-uri (fără halat), animează hook-ul ales (sau pe cel mai bun din bibliotecă), verifică asemănarea, montează MP4-ul și notele pentru CapCut. Rulează la „video nou” / „15 videouri”.
+description: Face un video HeatGrump COMPLET, gata de postat (regula 2 oct): set din rotație, hook din viral refăcut cu Genjutsu, B-roll + clipurile fixe, QA, montaj cu tăieturile lui Szasz, texte pe ecran cu emoji și muzică de Crăciun. Rulează la „video nou” / „15 videouri”. Szasz doar zice „video nou”; tu faci tot.
 ---
-1. Buget: cere `balance` din Higgsfield și rulează `python3 engine/budget.py check <credite>`. La STOP te oprești și spui.
-2. `python3 engine/rotation.py plan` → cele 15 sloturi ale zilei (kind = proven/adapted/creative + set). Dacă lipsesc seturi, skill `new-sets`. La „video nou” ia primul slot nefăcut din `state/plan-<azi>.json`.
-3. Hook după slot:
-   - proven → `library/proven-hooks.json`: concept, `lines` (rotește textul), method genjutsu (hf_mult_motion_control din `motion_clip` cu personajul/camera setului) sau frame; O variantă; hook_kind="proven", hook_key=cheia conceptului.
-   - adapted → cel mai bun tipar din `library/hooks-library.json` → `research[]` (structura, nu clipul; max 2 folosiri); 2 variante; hook_kind="adapted".
-   - creative → skill `hook-ideas` pentru setul ales (3 idei, prioritizează tiparele cu scor mare din `library/hooks-library.json` → `scores` și `research[]`). Dacă Szasz a cerut lot automat, alege tu ideea cu cel mai bun scor/pattern, altfel arată-i cele 3.
-4. `python3 engine/similarity.py <set> <hook_key> <hook_kind>` → la AVERTISMENT alege alt hook/set.
-5. Animează hook-ul: seedance_2_5 omni_reference, start_image = frame-ul (end_image dacă poziția finală contează), 4–5 s, 1080p, audio on, mișcarea scrisă PE SECUNDE (o singură acțiune), + blocul light-ultra-real. La hook-urile noi: 2 variante în același generate_video_batch, alegi cea mai bună. Descarcă și verifică cu `qa-check`.
-6. Scrie `output/plans/<n>.json` (set, hook cu line/alt/caption/music/bridge, clips = link-urile: HOOK nou + B-roll din set) și rulează `python3 engine/assemble.py output/plans/<n>.json`.
-7. Livrează: calea MP4-ului, conținutul .txt-ului (text CapCut, caption, muzică), și adaugă în tabla HTML.
-Muzică (idei): descrie tipul (ex. „sunet trending cozy/lo-fi, sau un „oh no” comic la hook, apoi liniște pe B-roll”), nu fișiere; Szasz o alege în CapCut/la postare.
-Caption: o propoziție în engleză + hashtag-uri, fără bullet-uri.
+Citește întâi `docs/03-rules.md` (secțiunile din 2 oct au prioritate).
+
+1. Buget: `balance` (Higgsfield) + `python3 engine/budget.py check <credite>`. La STOP te oprești.
+2. Set: `python3 engine/rotation.py plan` → primul slot nefăcut. Lipsesc seturi → skill `new-sets` (doar poze ≥1080 px latura mică). Notezi gen (bărbat/femeie) și tipul camerei (cu pat / fără pat).
+3. B-roll pentru set (dacă nu există deja în `rotation`): skill `make-reel` doar pentru unboxing, B1, B2, cozy.
+   - B1: clip de mișcare scurt multiplicat (`media.json` → `motion_clips.B1_x2`, rotit); se taie după ce pune gluga.
+   - Cozy: cameră cu pat → `cozy-a-x2`; fără pat → `8042602c`.
+   - Telecomanda și conectorul NU se generează: `media.json` → `fixed_clips` după gen (`output/fixed/*-taiat.mp4`).
+4. Hook (din virale, fără halat dacă e hook nou):
+   - Ia cel mai bun viral nefolosit din `library/style-ref/index.json` (sau research nou / artifactul prietenului): descarcă, uită-te la primele 6 s (fps 2), găsește tăieturile exacte (fps 10).
+   - Taie DOAR partea de hook ca referință de mișcare (bucăți <1,8 s → dublate). Încarcă în Higgsfield.
+   - `hf_mult_motion_control`, 1080p, 4 s, image_references = personaj + cameră (FĂRĂ referințe de halat), video_references = bucata; prompt: acțiunea din viral, hainele setului, NO PRODUCT, fără text. Mai multe tăieturi → mai multe joburi.
+   - QA: fața lui, camera, fără halat, fără text. Pică → încă o încercare (max 3).
+   - Textul hook-ului = textul viralului adaptat (ex. „The problem 😩❄️”, apoi „Vs…” pe produs).
+5. QA pe tot (skill `qa-check`): unboxing (cutie pe podea, cutia se golește), B2 (până închide halatul), conector (ultimul cadru complet intrat).
+6. Montaj FINAL: scrie `output/reelN/final.json` și rulează `python3 engine/final.py output/reelN/final.json`.
+   Ordine și tăieturi (regulile din 2 oct): hook → unboxing ~2,5 s → B1 până pune gluga → B2 până închide halatul → conector fix 1,5 s → telecomandă fixă (pornește cu apăsarea, până la 3) → cozy ~3 s. Țintă 15-18 s.
+   Texte (EN, cu emoji, stil merry.jammies/snuglore): hook-ul cu textul lui, „Vs…” pe tot B-roll-ul (sau 2-3 replici scurte gen „5 heat levels 🔥”, „one click 🔌”).
+   Muzică: `library/music/*.m4a` (All I Want For Christmas / It's Beginning to Look… / Last Christmas), rotită; sunet original la 0,15.
+7. Verifică MP4-ul final (cadre la fiecare tăietură + că are text și muzică), urcă-l în Studio (asset + `clips/rN-REEL`), actualizează harta, `git add -A && commit && push`.
+8. Livrează lui Szasz: linkul din Studio, calea MP4-ului, caption-ul (EN, o propoziție + hashtag-uri) și ce hook/viral/muzică ai folosit.
