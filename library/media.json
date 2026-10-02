@@ -29,6 +29,14 @@
   "_scoase_sub_2s": {
    "B1": "ba61dc06-bf41-4176-ba31-d5de0e6c38bb",
    "COZY": "12959b84-23a0-42ee-b00a-8970d51a59c7"
+  },
+  "B1_x2": {
+   "b1-a-x2 (ba61 dublat, 1,8 s)": "7dde0550-6790-4ef2-92cc-ed22841f7615",
+   "b1-b-x2 (5133 dublat, 2,9 s)": "d8a474d2-e9b6-4a69-9d4c-5fabe1472435",
+   "_nota": "Clipurile scurte, dublate (regula 2 oct). La montaj se taie doar prima trecere (punerea halatului o singură dată)."
+  },
+  "COZY_x2": {
+   "cozy-a-x2 (1295 dublat, 3,4 s)": "7da99c7a-a68e-4e8e-ac44-98e71ad1dd44"
   }
  },
  "reels_batch_23sept": [
@@ -63,5 +71,10 @@
   "workspace": "suprematistsatellite1439 (shared, scale)",
   "media_url_pattern": "https://d2ol7oe51mr4n9.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/<media_id>.jpg",
   "result_url_pattern": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_<YYYYMMDD_HHMMSS>_<job_id>.<png|mp4>"
+ },
+ "fixed_clips": {
+  "_nota": "Clipuri refolosite la TOATE reel-urile (regula 2 oct) — nu se mai generează.",
+  "telecomanda_barbat": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261002_183517_e9637c74-48bf-4bad-be7a-f05d4ff7baca.mp4",
+  "telecomanda_femeie": "(în lucru)"
  }
 }
