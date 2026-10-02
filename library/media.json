@@ -75,8 +75,13 @@
  "fixed_clips": {
   "_nota": "Clipuri refolosite la TOATE reel-urile (regula 2 oct) — nu se mai generează.",
   "telecomanda_barbat": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261002_183517_e9637c74-48bf-4bad-be7a-f05d4ff7baca.mp4",
-  "telecomanda_femeie": "(în lucru)",
+  "telecomanda_femeie": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261002_185237_57c33d07-cc14-4a69-832f-d03e5b318bb0.mp4",
   "conector_barbat": "(în lucru)",
-  "conector_femeie": "(în lucru)"
+  "conector_femeie": "(în lucru)",
+  "_local": "output/fixed/",
+  "_taieturi": {
+   "telecomanda": "0-3.6 s (se oprește pe 3)",
+   "fisiere_taiate": "output/fixed/*-taiat.mp4"
+  }
  }
 }

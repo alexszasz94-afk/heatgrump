@@ -64,3 +64,10 @@ Sursa: memoria Cowork + sesiunea 16–29 sept. Regula mai nouă bate regula mai 
 - Telecomanda ȘI conectorul se fac O SINGURĂ DATĂ (conectorul adăugat la cererea lui Szasz, 2 oct): un clip bun cu mână de bărbat și unul cu mână de femeie (`library/media.json` → `fixed_clips`) și se refolosesc la toate reel-urile, după genul personajului. Nu se mai generează telecomandă per reel.
 - B1: clipurile de mișcare scurte (mai bune — pun halatul repede) se dublează (lipite de două ori) și se încarcă așa ca referință; la montaj se taie doar prima punere a halatului. Se rotesc ca să nu iasă același B1.
 - Muzica: Szasz și-a asumat drepturile — se pune direct piesa de Crăciun (ca la conturile de referință).
+
+## Tăieturi la montaj (2 oct)
+- B1: se taie imediat după ce își pune gluga.
+- Telecomandă: se taie după ce luminița ajunge la 3 (pentru clipul fix contează 1→2→3 corect, una singură aprinsă).
+- Conector: doar mișcarea în care intră una în alta, ~2 s, până e complet înăuntru.
+- Unboxing: se taie la ~2,5 s (după ce scoate halatul din cutie).
+- B1, conector, telecomandă și unboxing scurte în montaj.
