@@ -89,7 +89,7 @@
   "_taieturi": {
    "telecomanda_barbat": "1.2-3.6 s (pornește cu apăsarea)",
    "telecomanda_femeie": "1.4-3.6 s (pornește cu apăsarea)",
-   "conector_barbat": "1.0-2.5 s",
+   "conector_barbat": "1.9-3.4 s (se termină complet intrat)",
    "conector_femeie": "1.5-3.0 s",
    "fisiere_taiate": "output/fixed/*-taiat.mp4",
    "aprobat_de_Szasz": "2 oct (conectorul în stilul tăiat e ok)",

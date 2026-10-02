@@ -68,7 +68,9 @@ Sursa: memoria Cowork + sesiunea 16–29 sept. Regula mai nouă bate regula mai 
 ## Tăieturi la montaj (2 oct)
 - B1: se taie imediat după ce își pune gluga.
 - Telecomandă: se taie după ce luminița ajunge la 3 (pentru clipul fix contează 1→2→3 corect, una singură aprinsă).
-- Conector: doar mișcarea în care intră una în alta, ~1,5 s.
+- Conector: doar mișcarea în care intră una în alta, ~1,5 s, și se termină cu ele COMPLET intrate (nu tăia înainte).
+- B2: se lasă până își închide halatul.
+- Mâna de femeie (conector, telecomandă): unghii lungi pictate roz-nude, la fel peste tot.
 - Telecomandă: începe exact când începe să apese butonul (fără așteptare la început).
 - Conectorul are fir pe AMBELE jumătăți (sus și jos) — QA.
 - Unboxing: se taie la ~2,5 s (după ce scoate halatul din cutie).
