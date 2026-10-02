@@ -19,7 +19,7 @@ Citește întâi `docs/03-rules.md` (secțiunile din 2 oct au prioritate).
 5. QA pe tot (skill `qa-check`): unboxing (cutie pe podea, cutia se golește), B2 (până închide halatul), conector (ultimul cadru complet intrat).
 6. Montaj FINAL: scrie `output/reelN/final.json` și rulează `python3 engine/final.py output/reelN/final.json`.
    Ordine și tăieturi (regulile din 2 oct): hook → unboxing ~2,5 s → B1 până pune gluga → B2 până închide halatul → conector fix 1,5 s → telecomandă fixă (pornește cu apăsarea, până la 3) → cozy ~3 s. Țintă 15-18 s.
-   Texte (EN, cu emoji, stil merry.jammies/snuglore): hook-ul cu textul lui, „Vs…” pe tot B-roll-ul (sau 2-3 replici scurte gen „5 heat levels 🔥”, „one click 🔌”).
+   Texte (EN, cu emoji, stil merry.jammies/snuglore): implicit textul hook-ului rămâne pe TOT videoul (regula 2 oct); doar la hook-uri de tip „The concept / Vs…” se schimbă textul pe produs.
    Final: videoul se oprește odată cu muzica (automat în final.py); Reel 7 = referința aprobată.
    Sunet: B-roll, conector, telecomandă = mute (automat în final.py); doar hook-ul își păstrează sunetul.
    Muzică: `library/music/*.m4a` (All I Want For Christmas / It's Beginning to Look… / Last Christmas), rotită; sunet original la 0,15.

@@ -97,3 +97,4 @@ Sursa: memoria Cowork + sesiunea 16–29 sept. Regula mai nouă bate regula mai 
 - 2 oct: virale cu costum de Grinch ca clip de mișcare (ex. fața în glugă) → ip_detected. Hook-ul se face atunci din placă gpt_image_2 + seedance (doar start_image). La fel raftul din magazin: seedance îl respinge → apropiere din placa 4k cu ffmpeg (zoompan lent + mers).
 - 2 oct: la hook-uri afară, hainele se scriu „fără logo, fără brand” (prima variantă a ieșit cu The North Face pe geacă).
 - 2 oct: unboxing-ul cu seedance pică des la ip_detected → din start doar cutia + 1 referință de halat; dacă fereastra cutiei nu se golește, se adaugă regula „THE BOX WINDOW EMPTIES” prima în prompt.
+- 2 oct: textul de pe ecran poate rămâne textul hook-ului pe TOT videoul (ca la virale); nu e obligatoriu să se schimbe pe bucăți („plug it in”, „5 heat levels”…). Se aplică videourilor viitoare.

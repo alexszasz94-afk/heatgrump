@@ -50,6 +50,7 @@ section.reel{display:grid;gap:14px}
 button,a.open{font:600 13px/1 var(--body);border-radius:7px;padding:8px 10px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;text-decoration:none}
 button:hover,a.open:hover{border-color:var(--pine)}
 button:focus-visible,a.open:focus-visible,textarea:focus-visible{outline:2px solid var(--pine);outline-offset:2px}
+button.dl{background:var(--surface);border-color:var(--pine);color:var(--pine)}
 button.ok{background:var(--pine);border-color:var(--pine);color:var(--surface)}
 button.bad{color:var(--red);border-color:var(--red)}
 button:disabled{opacity:.5;cursor:default}
@@ -126,6 +127,7 @@ function card(c){
       ${c.note?`<p class="note">${esc(c.note)}</p>`:""}
       ${Array.isArray(c.details)?`<dl class="det">${c.details.map(d=>`<dt>${esc(d[0])}</dt><dd>${esc(d[1])}</dd>`).join("")}</dl>`:""}
       <div class="btns">
+        ${c.asset?`<button class="dl" data-dl="${esc(c.asset)}" data-name="${esc("heatgrump-"+c.id+(c.type==="image"?".png":".mp4"))}">Descarcă</button>`:""}
         ${c.url?`<a class="open" href="${esc(c.url)}" target="_blank" rel="noopener">Deschide</a>`:""}
         ${canWrite?(isHook?`<button class="ok" data-act="ales">Aleg hook-ul</button>`:`<button class="ok" data-act="aprobat">Aprob</button>`)+`<button class="bad" data-act="refa">Refă</button>`:""}
       </div>
@@ -177,6 +179,17 @@ document.addEventListener("click",e=>{
   el.dataset.sel=el.dataset.sel===n.dataset.n?"":n.dataset.n;SEL[el.dataset.r]=el.dataset.sel;drawLinks(el);
 });
 let rz;addEventListener("resize",()=>{clearTimeout(rz);rz=setTimeout(()=>document.querySelectorAll(".map").forEach(drawLinks),120)});
+document.addEventListener("click",async e=>{
+  const b=e.target.closest("button[data-dl]");if(!b)return;
+  b.disabled=true;const old=b.textContent;b.textContent="Se pregătește…";
+  try{
+    const blob=await (await fetch("/_blob/"+b.dataset.dl)).blob();
+    const dl=await claude.use("downloads");
+    if(dl){await dl.save({filename:b.dataset.name,data:blob});toast("Descărcat")}
+    else{const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=b.dataset.name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),4000)}
+  }catch(err){toast(err&&err.code==="declined"?"Descărcare anulată":"Nu s-a putut descărca. Încearcă din nou.")}
+  finally{b.disabled=false;b.textContent=old}
+});
 document.addEventListener("click",async e=>{
   const b=e.target.closest("button[data-act]");if(!b||!db)return;
   const id=b.closest(".card").dataset.id,act=b.dataset.act;b.disabled=true;
