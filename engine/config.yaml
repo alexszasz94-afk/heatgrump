@@ -30,7 +30,7 @@ proven:
 rotation:
   max_uses_per_set: 4
   min_gap_between_uses: 2        # nu același set la două videouri consecutive (gap 2 = cel puțin 2 alte videouri între)
-  videos_per_day: 15
+  videos_per_day: 10   # 2 oct: 5 hook viral + 5 hook Szasz
   new_sets_per_day: 2
 budget:
   higgsfield_credits_per_day: 3000

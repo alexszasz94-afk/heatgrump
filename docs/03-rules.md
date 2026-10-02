@@ -87,3 +87,7 @@ Sursa: memoria Cowork + sesiunea 16–29 sept. Regula mai nouă bate regula mai 
 - Textele: fontul de Instagram/TikTok (TikTok Sans SemiBold, alb cu contur negru subțire) + emoji de iPhone (`library/fonts/apple-emoji`), ca la conturile de referință. `engine/final.py` le face automat.
 - Hook-urile cu „cineva înfășurat pe canapea”: persoana trebuie să fie vizibilă (ex. o fată învelită până la bărbie, cu fața la vedere), nu un ghem de pături.
 - Muzica: piesele întregi se iau de pe YouTube cu yt-dlp și se taie pe refren/partea recognoscibilă (necesită domeniile YouTube în Allowed domains).
+
+## Planul zilnic (2 oct, Szasz)
+- 10 videouri/zi: 5 cu hook-uri din cele mai virale clipuri (refăcute cu Genjutsu, complet automat) + 5 unde hook-ul îl gândește Szasz (Claude pregătește tot restul: B-roll, clipuri fixe, montaj, texte, muzică; lipsește doar hook-ul).
+- ÎNAINTE de asta: reelul 7 se face perfect, ca referință pentru toate celelalte. `engine/rotation.py plan` se adaptează la noul mix după ce reelul 7 e aprobat.
