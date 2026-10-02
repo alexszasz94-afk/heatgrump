@@ -87,12 +87,13 @@
   "conector_femeie": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261002_191355_a9dda0b4-e5d8-4a19-b203-c8ca92d71a3f.mp4",
   "_local": "output/fixed/",
   "_taieturi": {
-   "telecomanda_barbat": "0-3.6 s",
-   "telecomanda_femeie": "1.0-3.6 s (prima apăsare nu schimbă lumina — tăiată)",
+   "telecomanda_barbat": "1.2-3.6 s (pornește cu apăsarea)",
+   "telecomanda_femeie": "1.4-3.6 s (pornește cu apăsarea)",
    "conector_barbat": "0.6-2.7 s",
    "conector_femeie": "1.0-3.1 s",
    "fisiere_taiate": "output/fixed/*-taiat.mp4",
-   "aprobat_de_Szasz": "2 oct (conectorul în stilul tăiat e ok)"
+   "aprobat_de_Szasz": "2 oct (conectorul în stilul tăiat e ok)",
+   "conector": "în montaj ~1,5 s, doar intrarea"
   }
  }
 }
