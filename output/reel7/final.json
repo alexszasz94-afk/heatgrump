@@ -1,0 +1,18 @@
+{"out":"output/reel7/reel7-FINAL.mp4",
+ "segments":[
+  {"file":"output/reel7/hooks/h1a.mp4","start":0,"end":1.45},
+  {"file":"output/reel7/hooks/h1b.mp4","start":0,"end":2.5},
+  {"file":"output/reel7/unboxing.mp4","start":0,"end":2.5},
+  {"file":"output/reel7/b1-b-x2.mp4","start":0,"end":1.3},
+  {"file":"output/reel7/b2.mp4","start":0.8,"end":5.0},
+  {"file":"output/fixed/conector-barbat-taiat.mp4","start":0,"end":1.5},
+  {"file":"output/fixed/telecomanda-barbat-taiat.mp4","start":0,"end":2.4},
+  {"file":"output/reel7/cozy.mp4","start":0,"end":2.3}],
+ "texts":[
+  {"t0":0,"t1":3.95,"text":"The problem 😩❄️"},
+  {"t0":3.95,"t1":7.75,"text":"Vs…"},
+  {"t0":7.75,"t1":11.95,"text":"a hooded blanket you can WEAR 🧸"},
+  {"t0":11.95,"t1":13.45,"text":"plug it in 🔌"},
+  {"t0":13.45,"t1":15.85,"text":"5 heat levels 🔥"},
+  {"t0":15.85,"t1":18.2,"text":"never taking it off ❄️🎄"}],
+ "music":"library/music/all-i-want.m4a","music_start":0,"orig_vol":0.12}
