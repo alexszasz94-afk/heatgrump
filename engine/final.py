@@ -12,42 +12,56 @@ import sys, json, os, subprocess, tempfile, unicodedata
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-FONT = os.path.join(ROOT, "library/fonts/Montserrat-Bold.ttf")
-EMOJI = os.path.join(ROOT, "library/fonts/NotoColorEmoji.ttf")
+FONT = os.path.join(ROOT, "library/fonts/TikTokSans-SemiBold.ttf")   # fontul de text din Instagram/TikTok
+EMOJI_DIR = os.path.join(ROOT, "library/fonts/apple-emoji")         # emoji de iPhone (emoji-datasource-apple, 64 px)
 W, H = 1080, 1920
 
 def is_emoji(ch):
     return ord(ch) >= 0x2190 and (unicodedata.category(ch) in ("So", "Sk") or ord(ch) >= 0x1F000) or ch in "️‍"
 
-def runs(text):
-    out = []
-    for ch in text:
-        e = is_emoji(ch)
-        if out and out[-1][0] == e: out[-1][1] += ch
-        else: out.append([e, ch])
+def clusters(text):
+    """Împarte textul în bucăți: text normal / un emoji (cu FE0F, ZWJ, ton de piele)."""
+    out, i = [], 0
+    while i < len(text):
+        ch = text[i]
+        if is_emoji(ch) and ch not in "\ufe0f\u200d":
+            seq = ch; i += 1
+            while i < len(text) and (text[i] in "\ufe0f" or 0x1F3FB <= ord(text[i]) <= 0x1F3FF or (text[i] == "\u200d" and i + 1 < len(text))):
+                if text[i] == "\u200d": seq += text[i] + text[i + 1]; i += 2
+                else: seq += text[i]; i += 1
+            out.append((True, seq))
+        else:
+            if out and not out[-1][0]: out[-1] = (False, out[-1][1] + ch)
+            else: out.append((False, ch))
+            i += 1
     return out
 
+def emoji_img(seq, size):
+    codes = [f"{ord(c):x}" for c in seq]
+    for name in ("-".join(codes), "-".join(c for c in codes if c != "fe0f")):
+        f = os.path.join(EMOJI_DIR, name + ".png")
+        if os.path.exists(f):
+            return Image.open(f).convert("RGBA").resize((int(size * 1.12), int(size * 1.12)), Image.LANCZOS)
+    return None
+
 def render_line(line, size):
-    font = ImageFont.truetype(FONT, size)
-    efont = ImageFont.truetype(EMOJI, 109)
+    font = ImageFont.truetype(FONT, size); stroke = max(2, size // 22)
     parts = []
-    for e, s in runs(line):
+    for e, s in clusters(line):
         if e:
-            for ch in s:
-                if ch in "️‍": continue
-                im = Image.new("RGBA", (136, 128), (0, 0, 0, 0))
-                ImageDraw.Draw(im).text((0, 0), ch, font=efont, embedded_color=True)
-                im = im.crop(im.getbbox() or (0, 0, 1, 1)).resize((int(size * 1.05), int(size * 1.05)))
-                parts.append(im)
+            im = emoji_img(s, size)
+            if im: parts.append(im)
         else:
-            bb = font.getbbox(s, stroke_width=6)
-            im = Image.new("RGBA", (bb[2] + 12, int(size * 1.35)), (0, 0, 0, 0))
-            ImageDraw.Draw(im).text((6, 0), s, font=font, fill="white", stroke_width=6, stroke_fill=(0, 0, 0, 170))
+            s = s.rstrip() if s.endswith(" ") else s
+            bb = font.getbbox(s, stroke_width=stroke)
+            im = Image.new("RGBA", (bb[2] + stroke * 2, int(size * 1.4)), (0, 0, 0, 0))
+            ImageDraw.Draw(im).text((stroke, int(size * 0.05)), s, font=font, fill="white", stroke_width=stroke, stroke_fill="black")
             parts.append(im)
-    w = sum(p.width for p in parts) + 6 * (len(parts) - 1); h = max(p.height for p in parts)
+    gap = max(4, size // 10)
+    w = sum(p.width for p in parts) + gap * (len(parts) - 1); h = max(p.height for p in parts)
     line_im = Image.new("RGBA", (w, h), (0, 0, 0, 0)); x = 0
     for p in parts:
-        line_im.paste(p, (x, (h - p.height) // 2), p); x += p.width + 6
+        line_im.paste(p, (x, (h - p.height) // 2), p); x += p.width + gap
     return line_im
 
 def wrap(text, size, maxw):
@@ -58,7 +72,7 @@ def wrap(text, size, maxw):
         else: lines[-1] = t
     return lines
 
-def text_png(text, path, size=58):
+def text_png(text, path, size=64):
     lines = [render_line(l, size) for l in wrap(text, size, W * 0.8)]
     canvas = Image.new("RGBA", (W, H), (0, 0, 0, 0)); y = int(H * 0.22)
     for l in lines:
@@ -81,7 +95,7 @@ def main(spec_path):
     dur = float(subprocess.run(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",base],capture_output=True,text=True).stdout)
     inputs = ["-i", base]; chain = "[0:v]"; filt = []
     for k, t in enumerate(sp.get("texts", [])):
-        png = os.path.join(tmp, f"t{k}.png"); text_png(t["text"], png, t.get("size", 58)); inputs += ["-i", png]
+        png = os.path.join(tmp, f"t{k}.png"); text_png(t["text"], png, t.get("size", 64)); inputs += ["-i", png]
         out = f"[v{k}]"; filt.append(f"{chain}[{k+1}:v]overlay=0:0:enable='between(t,{t['t0']},{t['t1']})'{out}"); chain = out
     n = len(sp.get("texts", [])) + 1
     if sp.get("music"):

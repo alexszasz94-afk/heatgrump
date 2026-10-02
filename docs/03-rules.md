@@ -82,3 +82,8 @@ Sursa: memoria Cowork + sesiunea 16–29 sept. Regula mai nouă bate regula mai 
 ## Hook-uri din virale (2 oct)
 - Sursa: conturile de referință (merry.jammies, snuglore, thecozykitty.us + artifactul prietenului lui Szasz). Se descarcă clipul, se taie DOAR partea de hook (fără halat), se încarcă ca referință de mișcare și se reface cu Genjutsu cu personajul + camera setului. Bucățile sub ~1,8 s se dublează (ca la B1) și se taie la montaj.
 - Textul CapCut al hook-ului se ia/adaptează din viral (ex. „The problem 😩❄️” → „Vs…”).
+
+## Texte și muzică la montajul final (2 oct)
+- Textele: fontul de Instagram/TikTok (TikTok Sans SemiBold, alb cu contur negru subțire) + emoji de iPhone (`library/fonts/apple-emoji`), ca la conturile de referință. `engine/final.py` le face automat.
+- Hook-urile cu „cineva înfășurat pe canapea”: persoana trebuie să fie vizibilă (ex. o fată învelită până la bărbie, cu fața la vedere), nu un ghem de pături.
+- Muzica: piesele întregi se iau de pe YouTube cu yt-dlp și se taie pe refren/partea recognoscibilă (necesită domeniile YouTube în Allowed domains).
