@@ -61,6 +61,6 @@ Sursa: memoria Cowork + sesiunea 16–29 sept. Regula mai nouă bate regula mai 
 - Hook-urile le scrie Szasz (5-6 deocamdată) și se ROTESC prin videouri. Claude nu mai propune hook-uri până nu cere el; păstrează lista în `library/proven-hooks.json` / Studio.
 
 ## Clipuri fixe și B1 dublat (2 oct)
-- Telecomanda se face O SINGURĂ DATĂ: un clip bun cu mână de bărbat și unul cu mână de femeie (`library/media.json` → `fixed_clips`) și se refolosesc la toate reel-urile, după genul personajului. Nu se mai generează telecomandă per reel.
+- Telecomanda ȘI conectorul se fac O SINGURĂ DATĂ (conectorul adăugat la cererea lui Szasz, 2 oct): un clip bun cu mână de bărbat și unul cu mână de femeie (`library/media.json` → `fixed_clips`) și se refolosesc la toate reel-urile, după genul personajului. Nu se mai generează telecomandă per reel.
 - B1: clipurile de mișcare scurte (mai bune — pun halatul repede) se dublează (lipite de două ori) și se încarcă așa ca referință; la montaj se taie doar prima punere a halatului. Se rotesc ca să nu iasă același B1.
 - Muzica: Szasz și-a asumat drepturile — se pune direct piesa de Crăciun (ca la conturile de referință).
