@@ -138,13 +138,13 @@ function card(c){
 function render(){
   const root=$("#reels");
   if(!clips.length){root.innerHTML=`<div class="empty">Încă nu e niciun clip aici. Când Claude termină un reel, clipurile apar automat.</div>`;return}
-  const reels=[...new Set(clips.map(c=>c.reel))].sort((a,b)=>b-a);
+  const reels=[...new Set(clips.map(c=>c.reel))].sort((a,b)=>(a===0)-(b===0)||b-a);
   root.innerHTML=reels.map(r=>{
     const cs=clips.filter(c=>c.reel===r).sort((a,b)=>ORDER.indexOf(a.slot)-ORDER.indexOf(b.slot));
     const info=cs.find(c=>c.reelInfo)?.reelInfo||"";
     const ok=cs.filter(c=>c.status==="aprobat"||c.status==="ales").length;
     const m=maps["r"+r];
-    return `<section class="reel"><div class="reel-head"><h2>Reel ${r}</h2><span class="meta">${esc(info)}</span><span class="meta">${ok}/${cs.length} aprobate</span></div>${m?mapHtml(r,m):""}<div class="row">${cs.map(card).join("")}</div></section>`;
+    return `<section class="reel"><div class="reel-head"><h2>${r===0?"Clipuri fixe (refolosite)":"Reel "+r}</h2><span class="meta">${esc(info)}</span><span class="meta">${ok}/${cs.length} aprobate</span></div>${m?mapHtml(r,m):""}<div class="row">${cs.map(card).join("")}</div></section>`;
   }).join("");
   document.querySelectorAll(".map").forEach(drawLinks);
 }
