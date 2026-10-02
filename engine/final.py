@@ -65,6 +65,8 @@ def render_line(line, size):
     return line_im
 
 def wrap(text, size, maxw):
+    if "\n" in text:   # rânduri forțate (ex. replica + „Me: 😏”)
+        return [l for part in text.split("\n") for l in wrap(part, size, maxw)]
     font = ImageFont.truetype(FONT, size); words = text.split(" "); lines = [""]
     for w_ in words:
         t = (lines[-1] + " " + w_).strip()

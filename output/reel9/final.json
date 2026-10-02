@@ -1,0 +1,65 @@
+{
+ "out": "output/reel9/reel9-FINAL.mp4",
+ "segments": [
+  {
+   "file": "output/reel9/hooks/hook.mp4",
+   "start": 0,
+   "end": 2.6
+  },
+  {
+   "file": "output/reel9/unboxing.mp4",
+   "start": 0,
+   "end": 2.4
+  },
+  {
+   "file": "output/reel9/b1.mp4",
+   "start": 0,
+   "end": 1.3
+  },
+  {
+   "file": "output/reel9/b2.mp4",
+   "start": 0.6,
+   "end": 4.6
+  },
+  {
+   "file": "output/fixed/conector-femeie-taiat.mp4",
+   "start": 0,
+   "end": 1.5
+  },
+  {
+   "file": "output/fixed/telecomanda-femeie-taiat.mp4",
+   "start": 0,
+   "end": 2.2
+  },
+  {
+   "file": "output/reel9/cozy.mp4",
+   "start": 0,
+   "end": 2.5
+  }
+ ],
+ "texts": [
+  {
+   "t0": 0.0,
+   "t1": 10.3,
+   "text": "DO NOT show this to your mom 😳❄️"
+  },
+  {
+   "t0": 10.3,
+   "t1": 11.8,
+   "text": "plug it in 🔌"
+  },
+  {
+   "t0": 11.8,
+   "t1": 14.0,
+   "text": "5 heat levels 🔥"
+  },
+  {
+   "t0": 14.0,
+   "t1": 16.5,
+   "text": "she'll never take it off 🥹"
+  }
+ ],
+ "music": "library/music/all-i-want.m4a",
+ "music_start": 0,
+ "orig_vol": 0.12
+}

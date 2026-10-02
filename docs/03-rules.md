@@ -93,3 +93,7 @@ Sursa: memoria Cowork + sesiunea 16–29 sept. Regula mai nouă bate regula mai 
 - ÎNAINTE de asta: reelul 7 se face perfect, ca referință pentru toate celelalte. `engine/rotation.py plan` se adaptează la noul mix după ce reelul 7 e aprobat.
 - 2 oct: la montaj, toate clipurile în afară de hook sunt FĂRĂ sunet (Genjutsu pune muzică proprie pe B-roll); se aude doar muzica aleasă + sunetul hook-ului. (engine/final.py face asta automat)
 - 2 oct: reelul se termină exact când se oprește muzica (ultimul cadru cu muzică), niciodată bucată fără muzică la final. Reel 7 aprobat ca REFERINȚĂ ("super fain făcut"). (engine/final.py taie automat)
+- 2 oct (lot reel 8-12): clipul B2 „C_new” (e9a9ed00) filmează doar corpul, fără față → la B2 se folosește „B_face” (6731a06f). Dacă apare fața de Grinch pe buzunar, se refac cu regula buzunarelor pusă PRIMA în prompt.
+- 2 oct: virale cu costum de Grinch ca clip de mișcare (ex. fața în glugă) → ip_detected. Hook-ul se face atunci din placă gpt_image_2 + seedance (doar start_image). La fel raftul din magazin: seedance îl respinge → apropiere din placa 4k cu ffmpeg (zoompan lent + mers).
+- 2 oct: la hook-uri afară, hainele se scriu „fără logo, fără brand” (prima variantă a ieșit cu The North Face pe geacă).
+- 2 oct: unboxing-ul cu seedance pică des la ip_detected → din start doar cutia + 1 referință de halat; dacă fereastra cutiei nu se golește, se adaugă regula „THE BOX WINDOW EMPTIES” prima în prompt.
