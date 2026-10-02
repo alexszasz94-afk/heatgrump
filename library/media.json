@@ -33,7 +33,13 @@
   "B1_x2": {
    "b1-a-x2 (ba61 dublat, 1,8 s)": "7dde0550-6790-4ef2-92cc-ed22841f7615",
    "b1-b-x2 (5133 dublat, 2,9 s)": "d8a474d2-e9b6-4a69-9d4c-5fabe1472435",
-   "_nota": "Clipurile scurte, dublate (regula 2 oct). La montaj se taie doar prima trecere (punerea halatului o singură dată)."
+   "_nota": "Clipurile scurte, dublate (regula 2 oct). La montaj se taie doar prima trecere (punerea halatului o singură dată).",
+   "_rezultate": {
+    "b1-a-x2": "PICĂ (1,8 s)",
+    "b1-a-x3 (8391f616, 2,7 s)": "merge — tăiat la 0,85 s",
+    "b1-b-x2 (d8a474d2, 2,9 s)": "merge — tăiat la 1,3 s"
+   },
+   "b1-a-x3 (ba61 triplat, 2,7 s)": "8391f616-19ac-4af8-a80d-d7340f2027e2"
   },
   "COZY_x2": {
    "cozy-a-x2 (1295 dublat, 3,4 s)": "7da99c7a-a68e-4e8e-ac44-98e71ad1dd44"
