@@ -7,7 +7,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FX = "output/fixed/"
 PLANS = {
  8: dict(music="library/music/beginning-to-look.m4a", parts=[
-    ("hooks/hook.mp4", 0, 2.8, "The concept 🤮"),
+    ("hooks/hook.mp4", 0, 3.0, "The concept 🤮"),
     ("unboxing.mp4", 0, 2.4, "Vs…"), ("b1.mp4", 0, 0.75, "Vs…"),
     ("b2.mp4", 0.5, 4.7, "a hooded blanket you can WEAR 🧸"),
     (FX+"conector-barbat-taiat.mp4", 0, 1.5, "plug it in 🔌"),
@@ -24,8 +24,8 @@ PLANS = {
     ("hooks/magazin.mp4", 0, 2.4, "🧑: \"No gift is perfect\"\nMe: 😏"),
     ("unboxing.mp4", 0, 2.3, "🧑: \"No gift is perfect\"\nMe: 😏"), ("b1.mp4", 0, 0.8, "🧑: \"No gift is perfect\"\nMe: 😏"),
     ("b2.mp4", 0.6, 4.4, "🧑: \"No gift is perfect\"\nMe: 😏"),
-    (FX+"conector-barbat-taiat.mp4", 0, 1.5, "plug it in 🔌"),
-    (FX+"telecomanda-barbat-taiat.mp4", 0, 2.4, "5 heat levels 🔥"),
+    (FX+"conector-barbat-inchis-taiat.mp4", 0, 1.5, "plug it in 🔌"),
+    (FX+"telecomanda-barbat-inchis-taiat.mp4", 0, 2.16, "5 heat levels 🔥"),
     ("cozy.mp4", 0, 2.2, "best gift ever 🎁")]),
  11: dict(music="library/music/beginning-to-look.m4a", parts=[
     ("hooks/hook.mp4", 0, 3.4, "DONT send this to your mom… 🎅🎄"),

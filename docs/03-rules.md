@@ -98,3 +98,6 @@ Sursa: memoria Cowork + sesiunea 16–29 sept. Regula mai nouă bate regula mai 
 - 2 oct: la hook-uri afară, hainele se scriu „fără logo, fără brand” (prima variantă a ieșit cu The North Face pe geacă).
 - 2 oct: unboxing-ul cu seedance pică des la ip_detected → din start doar cutia + 1 referință de halat; dacă fereastra cutiei nu se golește, se adaugă regula „THE BOX WINDOW EMPTIES” prima în prompt.
 - 2 oct: textul de pe ecran poate rămâne textul hook-ului pe TOT videoul (ca la virale); nu e obligatoriu să se schimbe pe bucăți („plug it in”, „5 heat levels”…). Se aplică videourilor viitoare.
+- 2 oct (feedback reel 10): telecomanda și conectorul fixe se aleg după gen ȘI culoarea pielii. Personaj cu piele închisă → variantă fixă proprie (placă = placa aprobată, doar mâna schimbată după personaj), apoi se refolosește.
+- 2 oct (feedback reel 8): la Genjutsu, părul personajului se scrie explicit („fără coc, fără păr lung”) — altfel copiază părul din clipul viral.
+- 2 oct (feedback reel 9): cozy-a-x2 (pat) se repetă la 1,7 s și halatul arată ciudat; în dormitor cozy se face din placă (ea în pat, în halat, cu gluga) + seedance.

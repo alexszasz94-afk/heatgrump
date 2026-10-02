@@ -1,0 +1,48 @@
+{
+ "e9637c74": {
+  "model": "seedance_2_5",
+  "mode": "omni_reference",
+  "aspect_ratio": "9:16",
+  "width": 1080,
+  "height": 1920,
+  "resolution": "1080p",
+  "bitrate_mode": "high",
+  "generate_audio": true,
+  "duration": 5,
+  "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+  "medias": [
+   {
+    "value": "68f26cfb-3bca-4cd6-a8c4-1a6d6a44e9a6",
+    "role": "start_image"
+   },
+   {
+    "value": "cb73364c-9cc0-4420-82dc-5e1269cae33c",
+    "role": "image_references"
+   }
+  ],
+  "prompt": "THE FRAME NEVER CHANGES: one locked macro camera, one continuous take, no zoom, no cut, no re-frame. The controller, the hand, the printed labels, the background blur and the exposure stay exactly as in the start frame. The controller keeps the same shape, the same white plastic and the same printing throughout — nothing morphs, no label ever changes.\n\nTHE LIGHTS CLIMB FROM THE BOTTOM UPWARDS — ABSOLUTE RULE, HIGHEST PRIORITY: there is a vertical row of five small indicator lights. The BOTTOM one is number 1 and the TOP one is number 5. The lit light travels UPWARD along that row, one step at a time: 1 to 2, 2 to 3, 3 to 4, 4 to 5. It only ever moves UP, never down, never sideways, never skips a step, never jumps back to the bottom.\n\nEXACTLY ONE LIGHT IS LIT AT ANY MOMENT: when the next light comes on, the previous one goes dark in the same instant. Two are NEVER lit together, not for a single frame. The row NEVER fills up like a battery bar, never lights progressively, never stays lit behind the moving one.\n\nACTION, PACED FOR FIVE SECONDS: the clip starts with the BOTTOM light lit and the four above it dark. The thumb presses the button four times, evenly spaced across the five seconds — at roughly 0.6s, 1.7s, 2.8s and 3.9s. On each press the lit light steps one place UP the row. After the fourth press the TOP light is the only one lit and it stays lit while the thumb rests for the remaining second. The thumb visibly travels down and back up on each press — the button movement is readable. The presses are brisk but never rushed or blurred.\n\nAUDIO: one short dry button CLICK at exactly the frame of each press, four clicks total, matching the thumb exactly. Quiet indoor room tone otherwise. No music.\n\nHuman-paced movement, correct number of fingers, no extra limbs, no morphing.\n\nCandid raw iPhone 12, film grain, no AI glow, no smoothing."
+ },
+ "ef7c47ac": {
+  "model": "seedance_2_5",
+  "mode": "omni_reference",
+  "aspect_ratio": "9:16",
+  "width": 1080,
+  "height": 1920,
+  "resolution": "1080p",
+  "bitrate_mode": "high",
+  "generate_audio": true,
+  "duration": 4,
+  "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+  "medias": [
+   {
+    "value": "c45a27bd-fc60-479a-92f9-d44dd2ec873f",
+    "role": "start_image"
+   },
+   {
+    "value": "2774615c-3876-49c9-81e3-43e965688bae",
+    "role": "image_references"
+   }
+  ],
+  "prompt": "ONE SINGLE SHOT, FRAME LOCKED — ABSOLUTE RULE, HIGHEST PRIORITY: the camera is bolted in place for the whole 4 seconds. NO cut, NO second shot, NO re-frame, NO zoom, NO pan, NO tilt, NO push-in, NO pull-out, NO angle change at any moment, and above all NOT at the end. THE LAST FRAME OF THE CLIP HAS EXACTLY THE SAME COMPOSITION AS THE FIRST FRAME: same camera height, same distance, same angle, same crop, same background, same lighting, same exposure, hands in the same part of the frame. The only thing that has changed between the first and the last frame is that the two connector halves are now joined. Nothing new enters the frame; the shot never opens out to show the room, the person or the robe worn.\n\nTHE CONNECTOR — ABSOLUTE RULE: the connector stays EXACTLY the object shown in the start frame, in every single frame of the clip. Same two-part grey connector, same body shape and proportions, same grey plastic colour and finish, same ribs and edges, same cable thickness and grey cable colour, same size relative to the hands. Nothing morphs, nothing changes colour, no new part, no label, no LED, no screw, no ring appears. It never turns into a different kind of plug. Both halves keep their own grey cable in every frame.\n\nTHE TWO HALVES GO INTO EACH OTHER COMPLETELY — ABSOLUTE RULE: the two halves travel toward each other along one straight line, stay perfectly aligned the whole way, and keep going until one half is seated all the way inside the other and their two bodies are pressed FLUSH together — ZERO gap left between them. When it is done the joint looks like one single continuous piece of grey plastic.\n\nFORBIDDEN: a cut or a new shot at any point, especially at the end. The camera moving or re-framing. The two halves touching and stopping short. A gap, a slit or a dark line left between them. The halves sliding past each other, overlapping side by side, or crossing. One half bending. The halves separating again afterwards. The connector changing shape or type.\n\nACTION TIMELINE, PACED FOR FOUR SECONDS:\n0.0-1.5s — the two halves are held apart with a clear gap, lined up face to face, and move slowly and steadily toward each other in a straight line, staying aligned. Only the hands move; the frame does not.\n1.5-2.3s — one half slides all the way home into the other in one continuous push until the two bodies are flush. One firm audible CLICK at the exact frame they seat.\n2.3-4.0s — the thumb presses the joint once to seat it fully, then both hands hold still, the connected piece resting in the middle of the same locked frame, completely closed, no gap, nothing moving until the clip ends.\n\nAUDIO: the soft rustle of plush fabric under the hands, one firm plastic CLICK at the exact frame the two halves seat together. Quiet indoor room tone. No voice, no music.\n\nHuman-paced movement, correct number of fingers, no extra limbs, no morphing.\n\nCandid raw iPhone 12, film grain, no AI glow, no smoothing. No text overlays, no watermark."
+ }
+}

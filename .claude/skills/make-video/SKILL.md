@@ -9,7 +9,7 @@ Citește întâi `docs/03-rules.md` (secțiunile din 2 oct au prioritate).
 3. B-roll pentru set (dacă nu există deja în `rotation`): skill `make-reel` doar pentru unboxing, B1, B2, cozy.
    - B1: clip de mișcare scurt multiplicat (`media.json` → `motion_clips.B1_x2`, rotit); se taie după ce pune gluga.
    - Cozy: cameră cu pat → `cozy-a-x2`; fără pat → `8042602c`.
-   - Telecomanda și conectorul NU se generează: `media.json` → `fixed_clips` după gen (`output/fixed/*-taiat.mp4`).
+   - Telecomanda și conectorul NU se generează: `media.json` → `fixed_clips` după gen și culoarea pielii (`output/fixed/*-taiat.mp4`); lipsește varianta pentru pielea personajului → o faci o dată din placa aprobată (doar mâna schimbată) și o adaugi.
 4. Hook (din virale, fără halat dacă e hook nou):
    - Ia cel mai bun viral nefolosit din `library/style-ref/index.json` (sau research nou / artifactul prietenului): descarcă, uită-te la primele 6 s (fps 2), găsește tăieturile exacte (fps 10).
    - Taie DOAR partea de hook ca referință de mișcare (bucăți <1,8 s → dublate). Încarcă în Higgsfield.

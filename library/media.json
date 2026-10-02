@@ -93,7 +93,12 @@
    "conector_femeie": "1.8-3.3 s (complet intrat, unghii pictate, fir jos)",
    "fisiere_taiate": "output/fixed/*-taiat.mp4",
    "aprobat_de_Szasz": "2 oct (conectorul în stilul tăiat e ok)",
-   "conector": "în montaj ~1,5 s, doar intrarea"
-  }
+   "conector": "în montaj ~1,5 s, doar intrarea",
+   "telecomanda_barbat_piele_inchisa": "2.85-4.25 s încetinit 1,5x (1→2→3), fișier output/fixed/telecomanda-barbat-inchis-taiat.mp4",
+   "conector_barbat_piele_inchisa": "0.1-1.6 s (complet intrat), fișier output/fixed/conector-barbat-inchis-taiat.mp4"
+  },
+  "telecomanda_barbat_piele_inchisa": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261002_223943_48307f0b-c059-403e-a95e-a50a6561e9bd.mp4",
+  "conector_barbat_piele_inchisa": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261002_223619_2e330915-18da-4876-a87f-6656c98734c4.mp4",
+  "_alegere": "după gen ȘI culoarea pielii personajului (regula 2 oct)"
  }
 }
