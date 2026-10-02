@@ -54,3 +54,8 @@ Sursa: memoria Cowork + sesiunea 16–29 sept. Regula mai nouă bate regula mai 
 ## Montaj final (2 oct)
 - Reelul livrat e GATA DE POSTAT: montat în stilul conturilor de referință (merry.jammies, snuglore, thecozykitty.us — `library/style-ref/index.json`), cu text pe ecran pe fiecare clip și muzică de Crăciun. Durată țintă 15-18 s (virale lor au 13-20 s).
 - Textul pe montaj e voit (nu contrazice „fără text ars” — aceea e pentru generările Higgsfield).
+
+## Conector și hook-uri (2 oct)
+- Conectorul trebuie să intre COMPLET unul în altul în ultimul cadru, fără niciun gol sau parte interioară vizibilă. QA: se verifică obligatoriu ULTIMUL cadru mărit (nu doar banda de 4 cadre); dacă se vede gol → regenerare.
+- Montajul final (text + muzică) se face abia când există hook-ul; până atunci se livrează doar clipurile verificate.
+- Hook-urile le scrie Szasz (5-6 deocamdată) și se ROTESC prin videouri. Claude nu mai propune hook-uri până nu cere el; păstrează lista în `library/proven-hooks.json` / Studio.

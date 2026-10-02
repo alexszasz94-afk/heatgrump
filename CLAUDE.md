@@ -37,7 +37,7 @@ Set de clipuri, în ordinea de montaj: **hook → unboxing → B1 (îmbracă hal
 | telecomandă | placă gpt_image_2 → video seedance_2_5 | `controller-plate.txt` → `controller-video.txt` | direct |
 | conector | placă gpt_image_2 → video seedance_2_5 | `connector-plate.txt` → `connector-video.txt` | direct |
 | unboxing | placă (cutia PE JOS) → video, cutie + 1-2 ref. produs | `unboxing-image.txt` → `unboxing-video.txt` | direct |
-| hook | 3 idei per reel DOAR ca text detaliat în Studio, fără imagini (regula 1 oct); hook-ul video = clip viral tăiat + refăcut cu Genjutsu | — | el alege, apoi se face |
+| hook | le scrie Szasz (5-6), se rotesc prin videouri (regula 2 oct); montajul final cu text + muzică se face doar când există hook-ul | — | el |
 
 ## Setări fixe (nu se coboară niciodată)
 - Imagini: `gpt_image_2`, 9:16, quality high, resolution 4k.
@@ -58,7 +58,7 @@ Pe fiecare rezultat descărcat, verifică vizual (Claude cu vedere):
 - 9:16, fără text, fără branduri; personajul = referința; camera = referința.
 - Halat: căptușeală verde, buzunare simple fără față, halat întreg până jos, lumină ultra-realistă.
 - Telecomandă: exact 5 luminițe, toate stinse pe placă; în video urcă 1→5, una singură aprinsă.
-- Conector: gri, în două părți, în video intră complet, fără gol.
+- Conector: gri, în două părți, în video intră COMPLET, fără gol — verifică ULTIMUL cadru mărit (regula 2 oct).
 - Unboxing: cutia pe podea; în video fereastra cutiei se golește când scoate halatul; fața nu e acoperită; un singur produs.
 - Hook NOU (adaptat/creativ): FĂRĂ halat în cadru; acțiunea se leagă de textul propus; 2 variante video, se alege cea mai bună.
 - Hook DOVEDIT (din `library/proven-hooks.json`): se reface exact conceptul (halatul poate apărea, e conceptul validat), cu alt personaj + altă cameră; Genjutsu unde există clip de mișcare; o singură variantă; nu mai des de o dată la 3 zile.
