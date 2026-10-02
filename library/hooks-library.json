@@ -190,47 +190,6 @@
     "bridge": "Varianta 2 face trecerea directă în B1. Pâinea sare → tăietură → își pune halatul.",
     "why": "Absurd, dar credibil. Momentul cu pâinea care sare dă surpriza la final."
    }
-  ],
-  "6": [
-   {
-    "key": "6101",
-    "kind": "problem",
-    "title": "Picioarele lipite de calorifer",
-    "frame_desc": "Stă pe podea sub geam, cu genunchii la piept, cu două perechi de șosete și tălpile lipite de calorifer. Se uită obosită și înghețată la cameră.",
-    "motion": "Își ia picioarele de pe calorifer, își atinge șosetele, le pune la loc și tremură din umeri.",
-    "line": "me pretending my apartment isn't freezing",
-    "alt": "the radiator is doing its best. it's not enough.",
-    "bridge": "Tăietură pe tremurat → B1, își pune halatul. De la „nu-i destul” la cald.",
-    "why": "Toată lumea a făcut asta. E o imagine pe care o recunoști într-o secundă, fără text.",
-    "frame": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261001_213047_193e5dc1-fb3a-442d-9d76-0a540318af5d.png",
-    "status": "propus"
-   },
-   {
-    "key": "6102",
-    "kind": "reaction",
-    "title": "Podeaua rece dimineața",
-    "frame_desc": "Pe marginea canapelei, desculță; tocmai a pus o talpă pe podea și o ridică șocată, cu gura căscată.",
-    "motion": "Atinge iar podeaua cu degetele, sare înapoi pe canapea, își trage picioarele sub ea și se uită la cameră jignită.",
-    "line": "the floor at 7am in december:",
-    "alt": "who turned the floor into an ice rink",
-    "bridge": "Din poziția strânsă pe canapea → tăietură → B1, se ridică și își pune halatul.",
-    "why": "Reacție fizică exagerată, ușor de citit fără sunet. Comentariile vin singure („every morning”).",
-    "frame": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261001_213047_24149f91-0739-4d80-9337-1896f1e4eaee.png",
-    "status": "propus"
-   },
-   {
-    "key": "6103",
-    "kind": "twist",
-    "title": "Calcă hanoracul ca să fie cald",
-    "frame_desc": "Calcă un hanorac gri pe măsuța din living, cu abur, cu ochii pe jumătate închiși și un zâmbet fericit; bradul în spate.",
-    "motion": "Ridică hanoracul, îl lipește de față, zâmbește 2 secunde, apoi fața i se strică: s-a răcit deja.",
-    "line": "ironing my hoodie just so it's warm for 4 seconds",
-    "alt": "winter has me doing unhinged things",
-    "bridge": "„4 seconds” → tăietură → B1: halatul care ține cald tot timpul.",
-    "why": "Neașteptat și comic: oprește scroll-ul pentru că nu înțelegi de ce calcă. Plata e reacția de la final.",
-    "frame": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261001_213047_fe7f488e-6cbe-494f-8861-3c62eb38e4cf.png",
-    "status": "propus"
-   }
   ]
  },
  "backlog_ideas_not_yet_framed": [
