@@ -19,7 +19,7 @@
   {
    "file": "output/yeti-reel3/b2.mp4",
    "start": 0.5,
-   "end": 4.8
+   "end": 5.0
   },
   {
    "file": "output/yeti-fixed/conector-barbat-inchis-taiat.mp4",
@@ -50,22 +50,22 @@
   },
   {
    "t0": 5.1,
-   "t1": 10.7,
+   "t1": 10.9,
    "text": "a Yeti you can WEAR 🧸"
   },
   {
-   "t0": 10.7,
-   "t1": 12.5,
+   "t0": 10.9,
+   "t1": 12.7,
    "text": "plug it in 🔌"
   },
   {
-   "t0": 12.5,
-   "t1": 14.62,
+   "t0": 12.7,
+   "t1": 14.82,
    "text": "5 heat levels 🔥"
   },
   {
-   "t0": 14.62,
-   "t1": 16.02,
+   "t0": 14.82,
+   "t1": 16.22,
    "text": "never taking it off ❄️"
   }
  ],
