@@ -2,14 +2,9 @@
  "out": "output/reel15/reel15-FINAL.mp4",
  "segments": [
   {
-   "file": "output/reel15/hooks/hook.mp4",
+   "file": "output/reel15/hooks/hook-tava.mp4",
    "start": 0,
-   "end": 3.5
-  },
-  {
-   "file": "output/reel15/unboxing.mp4",
-   "start": 0,
-   "end": 2.3
+   "end": 4.9
   },
   {
    "file": "output/reel15/b1.mp4",
@@ -18,8 +13,8 @@
   },
   {
    "file": "output/reel15/b2.mp4",
-   "start": 0.5,
-   "end": 3.8
+   "start": 0,
+   "end": 4.0
   },
   {
    "file": "output/fixed/conector-barbat-taiat.mp4",
@@ -34,17 +29,17 @@
   {
    "file": "output/reel15/cozy.mp4",
    "start": 0,
-   "end": 2.5
+   "end": 1.4
   }
  ],
  "texts": [
   {
    "t0": 0.0,
-   "t1": 16.35,
-   "text": "DO NOT let a cold-aholic see this 💚😳"
+   "t1": 15.05,
+   "text": "3, 2, 1… let's see how it turns out 😳🎄"
   }
  ],
- "music": "library/music/viral-Dd9h35Ly2Ca.m4a",
+ "music": "library/music/viral-DdrjgfjSvLR.m4a",
  "music_start": 0,
  "orig_vol": 0.12
 }
