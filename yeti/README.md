@@ -13,5 +13,7 @@ Același motor, aceleași reguli, aceeași ordine de montaj (hook → unboxing �
 
 Comenzi: aceleași ca la Grinch, cu „yeti” în față — `yeti reel nou`, `yeti video nou`, `yeti 15 videouri`. Personajele, camerele și clipurile de mișcare sunt comune (din `library/`), dar un set folosit la Grinch nu se refolosește la Yeti în aceeași zi.
 
+Tabla ca artifact: https://claude.ai/artifact/YXLxLYJYmbpD2wvzhE5Emd (se reconstruiește cu `python3 yeti/build_board_artifact.py <fișier>` și se republică la același link).
+
 Descrierea produsului și QA: `yeti/01-product-yeti.md`.
 `yeti/prompts/sleeve-swap.txt` — promptul folosit o dată ca să facem plăcile fixe Yeti din cele aprobate la Grinch (se schimbă doar manșeta).
