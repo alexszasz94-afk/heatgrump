@@ -20,9 +20,9 @@ refs = [("Față, deschis", "Căptușeala albastru-gheață, blana albă la man�
         ("Lateral, cu cordon", "Tivul festonat cu fir argintiu"),
         ("Gluga și buzunarele", "Fața Yeti doar pe glugă; buzunare simple"),
         ("Față, închis", "Albastru sus, alb jos, până în podea")]
-fixed = [("telecomanda-barbat", "Telecomandă", "Bărbat", "1 → 2", "1,0–3,7 s", "ok"),
-         ("telecomanda-femeie", "Telecomandă", "Femeie", "1 → 2 → 3", "1,4–4,2 s", "ok"),
-         ("telecomanda-barbat-inchis", "Telecomandă", "Bărbat · piele închisă", "1 → 2", "0,3–2,4 s", "ok"),
+fixed = [("telecomanda-barbat", "Telecomandă", "Bărbat", "1 → 2 → 3", "1,2–3,6 s", "ok"),
+         ("telecomanda-femeie", "Telecomandă", "Femeie", "1 → 2 → 3", "1,4–3,6 s", "ok"),
+         ("telecomanda-barbat-inchis", "Telecomandă", "Bărbat · piele închisă", "1 → 2 → 3", "2,9–4,3 s încetinit", "ok"),
          ("conector-barbat", "Conector", "Bărbat", "intră complet", "1,7–3,5 s", "ok"),
          ("conector-femeie", "Conector", "Femeie", "intră complet", "1,7–3,5 s", "ok"),
          ("conector-barbat-inchis", "Conector", "Bărbat · piele închisă", "intră complet", "1,7–3,5 s", "ok")]
@@ -126,7 +126,7 @@ figcaption b{{font-weight:600;width:100%}}figcaption span{{color:var(--mute);fon
 </section>
 <section>
   <h2>Telecomanda</h2>
-  <p class="note">Aceleași plăci aprobate la Grinch, doar manșeta e acum blana albă Yeti. Se arată doar bucata folosită la montaj: pornește cu apăsarea, luminița urcă, una singură aprinsă.</p>
+  <p class="note">Clipurile Grinch aprobate, cu manșeta verde înlocuită în video de blana albă Yeti; luminițele urcă exact ca în originalele aprobate. Se arată bucata de montaj: pornește cu apăsarea, 1 → 2 → 3, una singură aprinsă.</p>
   <div class="grid">{fixed_cards("Telecomandă")}</div>
 </section>
 <section>

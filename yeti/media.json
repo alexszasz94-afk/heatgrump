@@ -19,17 +19,18 @@
   },
   "fixed_clips": {
     "_nota": "Clipuri fixe Yeti, refolosite la toate reel-urile Yeti; alegere după gen și culoarea pielii. Fișiere: output/yeti-fixed/*-taiat.mp4",
-    "telecomanda_barbat": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261003_074732_9d8715f1-9f9b-4d99-a5fd-104bf3b1f299.mp4",
-    "telecomanda_femeie": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261003_074139_1f61d61b-6383-447d-8710-31dde5adb345.mp4",
-    "telecomanda_barbat_piele_inchisa": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261003_073604_7038acff-c216-4bce-84b8-37a7ecc1995e.mp4",
+    "telecomanda_barbat": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261003_075843_60953720-1f58-48f8-a92b-e8ef818e8c7a.mp4",
+    "telecomanda_femeie": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261003_075842_745ae59e-e552-48c1-bad4-a081898e866e.mp4",
+    "telecomanda_barbat_piele_inchisa": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261003_075843_dee4b6fd-2999-4060-83c3-f5651797ada7.mp4",
     "conector_barbat": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261003_073604_5df8b36f-b144-4ca8-9eff-19e762b5e59a.mp4",
     "conector_femeie": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261003_073604_8ceec371-3b74-46ec-bfcd-3c504669c506.mp4",
     "conector_barbat_piele_inchisa": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261003_073604_a7a769e0-4e76-4cb3-a3e8-5af461bd7bd5.mp4",
     "_taieturi": {
-      "telecomanda_barbat": "1.0-3.7 s (1→2)",
-      "telecomanda_femeie": "1.4-4.2 s (1→2→3)",
-      "telecomanda_barbat_piele_inchisa": "0.3-2.4 s (1→2; la 3 încercări nu a urcat curat mai sus)",
+      "telecomanda_barbat": "1.2-3.6 s (1→2→3)",
+      "telecomanda_femeie": "1.4-3.6 s (1→2→3)",
+      "telecomanda_barbat_piele_inchisa": "2.9-4.3 s încetinit 1,5x (1→2→3)",
       "conector_*": "1.7-3.5 s (se termină complet intrat)"
-    }
+    },
+    "_telecomanda_metoda": "Genjutsu hf_mult_replace_object pe clipurile Grinch aprobate (doar manșeta verde → albă Yeti); luminițele rămân exact cele aprobate. Seedance din placă nu urca smooth (3 încercări)."
   }
 }
