@@ -42,5 +42,8 @@
   "box_v1_ghetar": "c4e5daef-5109-4d41-ab18-f6d82c8b8e4e",
   "design_sheet_B": "364be95a-e52e-421f-8ee2-e5af7d5bbc5f",
   "ref_b2_labe": "7a244eab-6e49-450f-b2ae-72928ade6dcf",
-  "_ref_b2_labe": "cadru din B2 reel 3 (halat deschis, labele de Yeti la colțuri) — exemplu pentru replace_object la B2"
+  "_ref_b2_labe": "cadru din B2 reel 3 (halat deschis, labele de Yeti la colțuri) — exemplu pentru replace_object la B2",
+  "b2_driving_clip": "55918db8-3dea-403f-8b80-874808871ac1",
+  "_b2_driving_clip": "3 oct (Szasz): clipul de mișcare B2 Yeti pentru Genjutsu — seedance din poza semi-închis (11664f13): deschide ca aripi, ridică genunchii cu labele cusute de halat, închide. Rezervă: 779f6b15 (224). Local: output/yeti-b2-master/b2-anim-223.mp4",
+  "b2_ref_semi_inchis": "11664f13-d451-4439-8227-3af9e555a34a"
 }
