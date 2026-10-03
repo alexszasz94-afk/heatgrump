@@ -45,5 +45,10 @@
   "_ref_b2_labe": "cadru din B2 reel 3 (halat deschis, labele de Yeti la colțuri) — exemplu pentru replace_object la B2",
   "b2_driving_clip": "55918db8-3dea-403f-8b80-874808871ac1",
   "_b2_driving_clip": "3 oct (Szasz): clipul de mișcare B2 Yeti pentru Genjutsu — seedance din poza semi-închis (11664f13): deschide ca aripi, ridică genunchii cu labele cusute de halat, închide. Rezervă: 779f6b15 (224). Local: output/yeti-b2-master/b2-anim-223.mp4",
-  "b2_ref_semi_inchis": "11664f13-d451-4439-8227-3af9e555a34a"
+  "b2_ref_semi_inchis": "11664f13-d451-4439-8227-3af9e555a34a",
+  "ref_b2_saculeti_interior": [
+    "76bddfde-38ff-4b8f-8677-27a3cc5b50c4",
+    "1a6fc484-6219-4c87-befd-0f12d1c228a1"
+  ],
+  "_ref_b2_saculeti_interior": "Cum arată săculeții cu halatul deschis de tot: buzunare late la baza panourilor, căptușite albastru-gheață, margine albă; labele Yeti sunt pe exterior și NU se văd din față."
 }
