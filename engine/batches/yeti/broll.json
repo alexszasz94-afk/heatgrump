@@ -1,0 +1,590 @@
+[
+ {
+  "index": 11,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "1080p",
+   "bitrate_mode": "high",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "duration": 4,
+   "medias": [
+    {
+     "value": "866c23c9-a155-4fa8-8233-e79ec9884827",
+     "role": "image_references"
+    },
+    {
+     "value": "cce11644-a7b3-4d89-ae22-33cce899c145",
+     "role": "image_references"
+    },
+    {
+     "value": "372d9010-8951-4060-a648-6129ebefabed",
+     "role": "image_references"
+    },
+    {
+     "value": "cc66b071-4a59-48c5-b066-7b08263509cd",
+     "role": "image_references"
+    },
+    {
+     "value": "1bd89982-5beb-4a05-b5e1-24b0bc689bda",
+     "role": "image_references"
+    },
+    {
+     "value": "0880e301-6f81-428c-ab70-66535067f252",
+     "role": "image_references"
+    },
+    {
+     "value": "d8a474d2-e9b6-4a69-9d4c-5fabe1472435",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "B1 — PUTTING THE ROBE ON. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK — BRIGHT, EVERYDAY UGC, ABSOLUTE RULE: this must look like a normal person filming themselves on their own phone in a well-lit room, not like a cinematic ad. The room is BRIGHT and evenly lit — plenty of soft light on the person and on the robe, colours clearly readable, the whole frame well exposed, no dark corners, no heavy shadows, no moody or dim grade, no orange cinematic tint, no vignette, no colour grading of any kind. Slightly bright rather than slightly dark. Natural handheld phone look with small imperfections, plain amateur framing, ordinary phone sharpness — nothing polished or studio-lit.\n\nIMAGE ROLES: Image 1 is the PERSON — their face, hair, age, build and gender stay exactly as in Image 1 in every frame. Image 2 is the ROOM — same walls, furniture and decor. Images 3-6 are THE ROBE.\n\nTHEIR CLOTHES — ABSOLUTE RULE, HIGHEST PRIORITY: underneath the robe they wear a navy-and-grey plaid flannel pajama set (long-sleeve button shirt and matching pants) with white socks; his short dark curly hair exactly as in Image 1 — normal everyday clothes, the same in every clip of this reel. Do NOT copy any clothing from the driving video, do NOT invent a different outfit, do NOT change it at any point in the clip.\n\nTHE ROBE, identical to the reference images in every frame — the HeatYeti \"Full Shaggy Yeti\" robe: the whole outside of the robe is long-pile shaggy SNOW-WHITE faux fur like a real Yeti pelt, strands with a faint icy-blue sheen at the tips; floor-length, normal-width sleeves, a soft shaggy white belt. The sleeves end in big YETI-MITTEN cuffs: shaggy white fur with a smooth slate-grey plush palm patch on the inner wrist side. The two joined foot pockets at the hem are shaped like GIANT YETI FEET, each with three rounded slate-grey toe pads on the front. The interior lining is smooth icy-blue minky, never white, never green.\n\nTHE HOOD — ABSOLUTE RULE, SAME IN EVERY FRAME: a big shaggy white Yeti head. Two curved slate-grey horns on top, one above each temple. Small rounded white ears with pale-blue inner ears on the sides. On the front above the opening, a soft 3D Yeti face: pale icy-blue skin, two narrow grumpy eyes, heavy white fur eyebrows frowning, a small dark nose, two tiny white fangs. The face exists ONLY on the hood.\n\nTHE POCKETS — ABSOLUTE RULE: the two front patch pockets are plain shaggy white fur, nothing on them — no face, no eyes, no graphic, no logo.\n\nNo red, no green, no gold, no pink, no snowflakes, no Santa print. The fur looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped.\n\nThe plush looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped.\n\n\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no subtitles, no burned-in text, no emoji, no watermarks — any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 12,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "1080p",
+   "bitrate_mode": "high",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "duration": 5,
+   "medias": [
+    {
+     "value": "866c23c9-a155-4fa8-8233-e79ec9884827",
+     "role": "image_references"
+    },
+    {
+     "value": "cce11644-a7b3-4d89-ae22-33cce899c145",
+     "role": "image_references"
+    },
+    {
+     "value": "372d9010-8951-4060-a648-6129ebefabed",
+     "role": "image_references"
+    },
+    {
+     "value": "cc66b071-4a59-48c5-b066-7b08263509cd",
+     "role": "image_references"
+    },
+    {
+     "value": "1bd89982-5beb-4a05-b5e1-24b0bc689bda",
+     "role": "image_references"
+    },
+    {
+     "value": "0880e301-6f81-428c-ab70-66535067f252",
+     "role": "image_references"
+    },
+    {
+     "value": "6243c22d-ed26-4df8-8a68-0d4ff29219bd",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "B2 — STANDING IN THE ROBE, OPENING IT. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK — BRIGHT, EVERYDAY UGC, ABSOLUTE RULE: this must look like a normal person filming themselves on their own phone in a well-lit room, not like a cinematic ad. The room is BRIGHT and evenly lit — plenty of soft light on the person and on the robe, colours clearly readable, the whole frame well exposed, no dark corners, no heavy shadows, no moody or dim grade, no orange cinematic tint, no vignette, no colour grading of any kind. Slightly bright rather than slightly dark. Natural handheld phone look with small imperfections, plain amateur framing, ordinary phone sharpness — nothing polished or studio-lit.\n\nIMAGE ROLES: Image 1 is the PERSON — their face, hair, age, build and gender stay exactly as in Image 1 in every frame. Image 2 is the ROOM — same walls, furniture and decor. Images 3-6 are THE ROBE.\n\nTHEIR CLOTHES — ABSOLUTE RULE, HIGHEST PRIORITY: underneath the robe they wear a navy-and-grey plaid flannel pajama set (long-sleeve button shirt and matching pants) with white socks; his short dark curly hair exactly as in Image 1 — normal everyday clothes, the same in every clip of this reel. Do NOT copy any clothing from the driving video, do NOT invent a different outfit, do NOT change it at any point in the clip.\n\nTHE ROBE, identical to the reference images in every frame — the HeatYeti \"Full Shaggy Yeti\" robe: the whole outside of the robe is long-pile shaggy SNOW-WHITE faux fur like a real Yeti pelt, strands with a faint icy-blue sheen at the tips; floor-length, normal-width sleeves, a soft shaggy white belt. The sleeves end in big YETI-MITTEN cuffs: shaggy white fur with a smooth slate-grey plush palm patch on the inner wrist side. The two joined foot pockets at the hem are shaped like GIANT YETI FEET, each with three rounded slate-grey toe pads on the front. The interior lining is smooth icy-blue minky, never white, never green.\n\nTHE HOOD — ABSOLUTE RULE, SAME IN EVERY FRAME: a big shaggy white Yeti head. Two curved slate-grey horns on top, one above each temple. Small rounded white ears with pale-blue inner ears on the sides. On the front above the opening, a soft 3D Yeti face: pale icy-blue skin, two narrow grumpy eyes, heavy white fur eyebrows frowning, a small dark nose, two tiny white fangs. The face exists ONLY on the hood.\n\nTHE POCKETS — ABSOLUTE RULE: the two front patch pockets are plain shaggy white fur, nothing on them — no face, no eyes, no graphic, no logo.\n\nNo red, no green, no gold, no pink, no snowflakes, no Santa print. The fur looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped.\n\nThe plush looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped.\n\nThe movement is smooth, never abrupt.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no subtitles, no burned-in text, no emoji, no watermarks — any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 13,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "1080p",
+   "bitrate_mode": "high",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "duration": 4,
+   "medias": [
+    {
+     "value": "866c23c9-a155-4fa8-8233-e79ec9884827",
+     "role": "image_references"
+    },
+    {
+     "value": "cce11644-a7b3-4d89-ae22-33cce899c145",
+     "role": "image_references"
+    },
+    {
+     "value": "372d9010-8951-4060-a648-6129ebefabed",
+     "role": "image_references"
+    },
+    {
+     "value": "cc66b071-4a59-48c5-b066-7b08263509cd",
+     "role": "image_references"
+    },
+    {
+     "value": "1bd89982-5beb-4a05-b5e1-24b0bc689bda",
+     "role": "image_references"
+    },
+    {
+     "value": "0880e301-6f81-428c-ab70-66535067f252",
+     "role": "image_references"
+    },
+    {
+     "value": "5f950f18-01c6-411c-81e6-16a13179cc05",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "COZY — SETTLING IN THE ROBE. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK — BRIGHT, EVERYDAY UGC, ABSOLUTE RULE: this must look like a normal person filming themselves on their own phone in a well-lit room, not like a cinematic ad. The room is BRIGHT and evenly lit — plenty of soft light on the person and on the robe, colours clearly readable, the whole frame well exposed, no dark corners, no heavy shadows, no moody or dim grade, no orange cinematic tint, no vignette, no colour grading of any kind. Slightly bright rather than slightly dark. Natural handheld phone look with small imperfections, plain amateur framing, ordinary phone sharpness — nothing polished or studio-lit.\n\nIMAGE ROLES: Image 1 is the PERSON — their face, hair, age, build and gender stay exactly as in Image 1 in every frame. Image 2 is the ROOM — same walls, furniture and decor. Images 3-6 are THE ROBE.\n\nTHEIR CLOTHES — ABSOLUTE RULE, HIGHEST PRIORITY: underneath the robe they wear a navy-and-grey plaid flannel pajama set (long-sleeve button shirt and matching pants) with white socks; his short dark curly hair exactly as in Image 1 — normal everyday clothes, the same in every clip of this reel. Do NOT copy any clothing from the driving video, do NOT invent a different outfit, do NOT change it at any point in the clip.\n\nTHE ROBE, identical to the reference images in every frame — the HeatYeti \"Full Shaggy Yeti\" robe: the whole outside of the robe is long-pile shaggy SNOW-WHITE faux fur like a real Yeti pelt, strands with a faint icy-blue sheen at the tips; floor-length, normal-width sleeves, a soft shaggy white belt. The sleeves end in big YETI-MITTEN cuffs: shaggy white fur with a smooth slate-grey plush palm patch on the inner wrist side. The two joined foot pockets at the hem are shaped like GIANT YETI FEET, each with three rounded slate-grey toe pads on the front. The interior lining is smooth icy-blue minky, never white, never green.\n\nTHE HOOD — ABSOLUTE RULE, SAME IN EVERY FRAME: a big shaggy white Yeti head. Two curved slate-grey horns on top, one above each temple. Small rounded white ears with pale-blue inner ears on the sides. On the front above the opening, a soft 3D Yeti face: pale icy-blue skin, two narrow grumpy eyes, heavy white fur eyebrows frowning, a small dark nose, two tiny white fangs. The face exists ONLY on the hood.\n\nTHE POCKETS — ABSOLUTE RULE: the two front patch pockets are plain shaggy white fur, nothing on them — no face, no eyes, no graphic, no logo.\n\nNo red, no green, no gold, no pink, no snowflakes, no Santa print. The fur looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped.\n\nThe plush looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped.\n\nStill no flash and no light source at the camera position.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no subtitles, no burned-in text, no emoji, no watermarks — any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 21,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "1080p",
+   "bitrate_mode": "high",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "duration": 4,
+   "medias": [
+    {
+     "value": "fb33088d-cb17-4ee5-8db8-88fb9024caaa",
+     "role": "image_references"
+    },
+    {
+     "value": "9a114392-db4e-4d20-9344-9eab1dfff8b8",
+     "role": "image_references"
+    },
+    {
+     "value": "372d9010-8951-4060-a648-6129ebefabed",
+     "role": "image_references"
+    },
+    {
+     "value": "cc66b071-4a59-48c5-b066-7b08263509cd",
+     "role": "image_references"
+    },
+    {
+     "value": "1bd89982-5beb-4a05-b5e1-24b0bc689bda",
+     "role": "image_references"
+    },
+    {
+     "value": "0880e301-6f81-428c-ab70-66535067f252",
+     "role": "image_references"
+    },
+    {
+     "value": "8391f616-19ac-4af8-a80d-d7340f2027e2",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "B1 — PUTTING THE ROBE ON. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK — BRIGHT, EVERYDAY UGC, ABSOLUTE RULE: this must look like a normal person filming themselves on their own phone in a well-lit room, not like a cinematic ad. The room is BRIGHT and evenly lit — plenty of soft light on the person and on the robe, colours clearly readable, the whole frame well exposed, no dark corners, no heavy shadows, no moody or dim grade, no orange cinematic tint, no vignette, no colour grading of any kind. Slightly bright rather than slightly dark. Natural handheld phone look with small imperfections, plain amateur framing, ordinary phone sharpness — nothing polished or studio-lit.\n\nIMAGE ROLES: Image 1 is the PERSON — their face, hair, age, build and gender stay exactly as in Image 1 in every frame. Image 2 is the ROOM — same walls, furniture and decor. Images 3-6 are THE ROBE.\n\nTHEIR CLOTHES — ABSOLUTE RULE, HIGHEST PRIORITY: underneath the robe they wear a cream-and-navy striped cotton pajama set (long-sleeve top and matching pants); her shoulder-length brown hair loose exactly as in Image 1, no bun — normal everyday clothes, the same in every clip of this reel. Do NOT copy any clothing from the driving video, do NOT invent a different outfit, do NOT change it at any point in the clip.\n\nTHE ROBE, identical to the reference images in every frame — the HeatYeti \"Full Shaggy Yeti\" robe: the whole outside of the robe is long-pile shaggy SNOW-WHITE faux fur like a real Yeti pelt, strands with a faint icy-blue sheen at the tips; floor-length, normal-width sleeves, a soft shaggy white belt. The sleeves end in big YETI-MITTEN cuffs: shaggy white fur with a smooth slate-grey plush palm patch on the inner wrist side. The two joined foot pockets at the hem are shaped like GIANT YETI FEET, each with three rounded slate-grey toe pads on the front. The interior lining is smooth icy-blue minky, never white, never green.\n\nTHE HOOD — ABSOLUTE RULE, SAME IN EVERY FRAME: a big shaggy white Yeti head. Two curved slate-grey horns on top, one above each temple. Small rounded white ears with pale-blue inner ears on the sides. On the front above the opening, a soft 3D Yeti face: pale icy-blue skin, two narrow grumpy eyes, heavy white fur eyebrows frowning, a small dark nose, two tiny white fangs. The face exists ONLY on the hood.\n\nTHE POCKETS — ABSOLUTE RULE: the two front patch pockets are plain shaggy white fur, nothing on them — no face, no eyes, no graphic, no logo.\n\nNo red, no green, no gold, no pink, no snowflakes, no Santa print. The fur looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped.\n\nThe plush looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped.\n\n\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no subtitles, no burned-in text, no emoji, no watermarks — any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 22,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "1080p",
+   "bitrate_mode": "high",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "duration": 5,
+   "medias": [
+    {
+     "value": "fb33088d-cb17-4ee5-8db8-88fb9024caaa",
+     "role": "image_references"
+    },
+    {
+     "value": "9a114392-db4e-4d20-9344-9eab1dfff8b8",
+     "role": "image_references"
+    },
+    {
+     "value": "372d9010-8951-4060-a648-6129ebefabed",
+     "role": "image_references"
+    },
+    {
+     "value": "cc66b071-4a59-48c5-b066-7b08263509cd",
+     "role": "image_references"
+    },
+    {
+     "value": "1bd89982-5beb-4a05-b5e1-24b0bc689bda",
+     "role": "image_references"
+    },
+    {
+     "value": "0880e301-6f81-428c-ab70-66535067f252",
+     "role": "image_references"
+    },
+    {
+     "value": "e9a9ed00-094d-4211-8b98-2cfdf6115920",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "B2 — STANDING IN THE ROBE, OPENING IT. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK — BRIGHT, EVERYDAY UGC, ABSOLUTE RULE: this must look like a normal person filming themselves on their own phone in a well-lit room, not like a cinematic ad. The room is BRIGHT and evenly lit — plenty of soft light on the person and on the robe, colours clearly readable, the whole frame well exposed, no dark corners, no heavy shadows, no moody or dim grade, no orange cinematic tint, no vignette, no colour grading of any kind. Slightly bright rather than slightly dark. Natural handheld phone look with small imperfections, plain amateur framing, ordinary phone sharpness — nothing polished or studio-lit.\n\nIMAGE ROLES: Image 1 is the PERSON — their face, hair, age, build and gender stay exactly as in Image 1 in every frame. Image 2 is the ROOM — same walls, furniture and decor. Images 3-6 are THE ROBE.\n\nTHEIR CLOTHES — ABSOLUTE RULE, HIGHEST PRIORITY: underneath the robe they wear a cream-and-navy striped cotton pajama set (long-sleeve top and matching pants); her shoulder-length brown hair loose exactly as in Image 1, no bun — normal everyday clothes, the same in every clip of this reel. Do NOT copy any clothing from the driving video, do NOT invent a different outfit, do NOT change it at any point in the clip.\n\nTHE ROBE, identical to the reference images in every frame — the HeatYeti \"Full Shaggy Yeti\" robe: the whole outside of the robe is long-pile shaggy SNOW-WHITE faux fur like a real Yeti pelt, strands with a faint icy-blue sheen at the tips; floor-length, normal-width sleeves, a soft shaggy white belt. The sleeves end in big YETI-MITTEN cuffs: shaggy white fur with a smooth slate-grey plush palm patch on the inner wrist side. The two joined foot pockets at the hem are shaped like GIANT YETI FEET, each with three rounded slate-grey toe pads on the front. The interior lining is smooth icy-blue minky, never white, never green.\n\nTHE HOOD — ABSOLUTE RULE, SAME IN EVERY FRAME: a big shaggy white Yeti head. Two curved slate-grey horns on top, one above each temple. Small rounded white ears with pale-blue inner ears on the sides. On the front above the opening, a soft 3D Yeti face: pale icy-blue skin, two narrow grumpy eyes, heavy white fur eyebrows frowning, a small dark nose, two tiny white fangs. The face exists ONLY on the hood.\n\nTHE POCKETS — ABSOLUTE RULE: the two front patch pockets are plain shaggy white fur, nothing on them — no face, no eyes, no graphic, no logo.\n\nNo red, no green, no gold, no pink, no snowflakes, no Santa print. The fur looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped.\n\nThe plush looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped.\n\nThe movement is smooth, never abrupt.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no subtitles, no burned-in text, no emoji, no watermarks — any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 31,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "1080p",
+   "bitrate_mode": "high",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "duration": 4,
+   "medias": [
+    {
+     "value": "9f8ac5f2-99d1-4361-bc22-67a61f9ed1ba",
+     "role": "image_references"
+    },
+    {
+     "value": "bbaa476b-8a35-4ef4-ad9d-0dbd0374cf89",
+     "role": "image_references"
+    },
+    {
+     "value": "372d9010-8951-4060-a648-6129ebefabed",
+     "role": "image_references"
+    },
+    {
+     "value": "cc66b071-4a59-48c5-b066-7b08263509cd",
+     "role": "image_references"
+    },
+    {
+     "value": "1bd89982-5beb-4a05-b5e1-24b0bc689bda",
+     "role": "image_references"
+    },
+    {
+     "value": "0880e301-6f81-428c-ab70-66535067f252",
+     "role": "image_references"
+    },
+    {
+     "value": "d8a474d2-e9b6-4a69-9d4c-5fabe1472435",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "B1 — PUTTING THE ROBE ON. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK — BRIGHT, EVERYDAY UGC, ABSOLUTE RULE: this must look like a normal person filming themselves on their own phone in a well-lit room, not like a cinematic ad. The room is BRIGHT and evenly lit — plenty of soft light on the person and on the robe, colours clearly readable, the whole frame well exposed, no dark corners, no heavy shadows, no moody or dim grade, no orange cinematic tint, no vignette, no colour grading of any kind. Slightly bright rather than slightly dark. Natural handheld phone look with small imperfections, plain amateur framing, ordinary phone sharpness — nothing polished or studio-lit.\n\nIMAGE ROLES: Image 1 is the PERSON — their face, hair, age, build and gender stay exactly as in Image 1 in every frame. Image 2 is the ROOM — same walls, furniture and decor. Images 3-6 are THE ROBE.\n\nTHEIR CLOTHES — ABSOLUTE RULE, HIGHEST PRIORITY: underneath the robe they wear plain navy crewneck sweatshirt and soft pajama pants with a stars-and-stripes pattern, no text and no logos; his very short black hair exactly as in Image 1 — normal everyday clothes, the same in every clip of this reel. Do NOT copy any clothing from the driving video, do NOT invent a different outfit, do NOT change it at any point in the clip.\n\nTHE ROBE, identical to the reference images in every frame — the HeatYeti \"Full Shaggy Yeti\" robe: the whole outside of the robe is long-pile shaggy SNOW-WHITE faux fur like a real Yeti pelt, strands with a faint icy-blue sheen at the tips; floor-length, normal-width sleeves, a soft shaggy white belt. The sleeves end in big YETI-MITTEN cuffs: shaggy white fur with a smooth slate-grey plush palm patch on the inner wrist side. The two joined foot pockets at the hem are shaped like GIANT YETI FEET, each with three rounded slate-grey toe pads on the front. The interior lining is smooth icy-blue minky, never white, never green.\n\nTHE HOOD — ABSOLUTE RULE, SAME IN EVERY FRAME: a big shaggy white Yeti head. Two curved slate-grey horns on top, one above each temple. Small rounded white ears with pale-blue inner ears on the sides. On the front above the opening, a soft 3D Yeti face: pale icy-blue skin, two narrow grumpy eyes, heavy white fur eyebrows frowning, a small dark nose, two tiny white fangs. The face exists ONLY on the hood.\n\nTHE POCKETS — ABSOLUTE RULE: the two front patch pockets are plain shaggy white fur, nothing on them — no face, no eyes, no graphic, no logo.\n\nNo red, no green, no gold, no pink, no snowflakes, no Santa print. The fur looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped.\n\nThe plush looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped.\n\n\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no subtitles, no burned-in text, no emoji, no watermarks — any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 32,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "1080p",
+   "bitrate_mode": "high",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "duration": 5,
+   "medias": [
+    {
+     "value": "9f8ac5f2-99d1-4361-bc22-67a61f9ed1ba",
+     "role": "image_references"
+    },
+    {
+     "value": "bbaa476b-8a35-4ef4-ad9d-0dbd0374cf89",
+     "role": "image_references"
+    },
+    {
+     "value": "372d9010-8951-4060-a648-6129ebefabed",
+     "role": "image_references"
+    },
+    {
+     "value": "cc66b071-4a59-48c5-b066-7b08263509cd",
+     "role": "image_references"
+    },
+    {
+     "value": "1bd89982-5beb-4a05-b5e1-24b0bc689bda",
+     "role": "image_references"
+    },
+    {
+     "value": "0880e301-6f81-428c-ab70-66535067f252",
+     "role": "image_references"
+    },
+    {
+     "value": "6731a06f-f6c0-48d9-a001-5047c85ca5d6",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "B2 — STANDING IN THE ROBE, OPENING IT. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK — BRIGHT, EVERYDAY UGC, ABSOLUTE RULE: this must look like a normal person filming themselves on their own phone in a well-lit room, not like a cinematic ad. The room is BRIGHT and evenly lit — plenty of soft light on the person and on the robe, colours clearly readable, the whole frame well exposed, no dark corners, no heavy shadows, no moody or dim grade, no orange cinematic tint, no vignette, no colour grading of any kind. Slightly bright rather than slightly dark. Natural handheld phone look with small imperfections, plain amateur framing, ordinary phone sharpness — nothing polished or studio-lit.\n\nIMAGE ROLES: Image 1 is the PERSON — their face, hair, age, build and gender stay exactly as in Image 1 in every frame. Image 2 is the ROOM — same walls, furniture and decor. Images 3-6 are THE ROBE.\n\nTHEIR CLOTHES — ABSOLUTE RULE, HIGHEST PRIORITY: underneath the robe they wear plain navy crewneck sweatshirt and soft pajama pants with a stars-and-stripes pattern, no text and no logos; his very short black hair exactly as in Image 1 — normal everyday clothes, the same in every clip of this reel. Do NOT copy any clothing from the driving video, do NOT invent a different outfit, do NOT change it at any point in the clip.\n\nTHE ROBE, identical to the reference images in every frame — the HeatYeti \"Full Shaggy Yeti\" robe: the whole outside of the robe is long-pile shaggy SNOW-WHITE faux fur like a real Yeti pelt, strands with a faint icy-blue sheen at the tips; floor-length, normal-width sleeves, a soft shaggy white belt. The sleeves end in big YETI-MITTEN cuffs: shaggy white fur with a smooth slate-grey plush palm patch on the inner wrist side. The two joined foot pockets at the hem are shaped like GIANT YETI FEET, each with three rounded slate-grey toe pads on the front. The interior lining is smooth icy-blue minky, never white, never green.\n\nTHE HOOD — ABSOLUTE RULE, SAME IN EVERY FRAME: a big shaggy white Yeti head. Two curved slate-grey horns on top, one above each temple. Small rounded white ears with pale-blue inner ears on the sides. On the front above the opening, a soft 3D Yeti face: pale icy-blue skin, two narrow grumpy eyes, heavy white fur eyebrows frowning, a small dark nose, two tiny white fangs. The face exists ONLY on the hood.\n\nTHE POCKETS — ABSOLUTE RULE: the two front patch pockets are plain shaggy white fur, nothing on them — no face, no eyes, no graphic, no logo.\n\nNo red, no green, no gold, no pink, no snowflakes, no Santa print. The fur looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped.\n\nThe plush looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped.\n\nThe movement is smooth, never abrupt.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no subtitles, no burned-in text, no emoji, no watermarks — any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 33,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "1080p",
+   "bitrate_mode": "high",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "duration": 4,
+   "medias": [
+    {
+     "value": "9f8ac5f2-99d1-4361-bc22-67a61f9ed1ba",
+     "role": "image_references"
+    },
+    {
+     "value": "bbaa476b-8a35-4ef4-ad9d-0dbd0374cf89",
+     "role": "image_references"
+    },
+    {
+     "value": "372d9010-8951-4060-a648-6129ebefabed",
+     "role": "image_references"
+    },
+    {
+     "value": "cc66b071-4a59-48c5-b066-7b08263509cd",
+     "role": "image_references"
+    },
+    {
+     "value": "1bd89982-5beb-4a05-b5e1-24b0bc689bda",
+     "role": "image_references"
+    },
+    {
+     "value": "0880e301-6f81-428c-ab70-66535067f252",
+     "role": "image_references"
+    },
+    {
+     "value": "8042602c-c548-45de-aa77-6d42366e058e",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "COZY — SETTLING IN THE ROBE. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK — BRIGHT, EVERYDAY UGC, ABSOLUTE RULE: this must look like a normal person filming themselves on their own phone in a well-lit room, not like a cinematic ad. The room is BRIGHT and evenly lit — plenty of soft light on the person and on the robe, colours clearly readable, the whole frame well exposed, no dark corners, no heavy shadows, no moody or dim grade, no orange cinematic tint, no vignette, no colour grading of any kind. Slightly bright rather than slightly dark. Natural handheld phone look with small imperfections, plain amateur framing, ordinary phone sharpness — nothing polished or studio-lit.\n\nIMAGE ROLES: Image 1 is the PERSON — their face, hair, age, build and gender stay exactly as in Image 1 in every frame. Image 2 is the ROOM — same walls, furniture and decor. Images 3-6 are THE ROBE.\n\nTHEIR CLOTHES — ABSOLUTE RULE, HIGHEST PRIORITY: underneath the robe they wear plain navy crewneck sweatshirt and soft pajama pants with a stars-and-stripes pattern, no text and no logos; his very short black hair exactly as in Image 1 — normal everyday clothes, the same in every clip of this reel. Do NOT copy any clothing from the driving video, do NOT invent a different outfit, do NOT change it at any point in the clip.\n\nTHE ROBE, identical to the reference images in every frame — the HeatYeti \"Full Shaggy Yeti\" robe: the whole outside of the robe is long-pile shaggy SNOW-WHITE faux fur like a real Yeti pelt, strands with a faint icy-blue sheen at the tips; floor-length, normal-width sleeves, a soft shaggy white belt. The sleeves end in big YETI-MITTEN cuffs: shaggy white fur with a smooth slate-grey plush palm patch on the inner wrist side. The two joined foot pockets at the hem are shaped like GIANT YETI FEET, each with three rounded slate-grey toe pads on the front. The interior lining is smooth icy-blue minky, never white, never green.\n\nTHE HOOD — ABSOLUTE RULE, SAME IN EVERY FRAME: a big shaggy white Yeti head. Two curved slate-grey horns on top, one above each temple. Small rounded white ears with pale-blue inner ears on the sides. On the front above the opening, a soft 3D Yeti face: pale icy-blue skin, two narrow grumpy eyes, heavy white fur eyebrows frowning, a small dark nose, two tiny white fangs. The face exists ONLY on the hood.\n\nTHE POCKETS — ABSOLUTE RULE: the two front patch pockets are plain shaggy white fur, nothing on them — no face, no eyes, no graphic, no logo.\n\nNo red, no green, no gold, no pink, no snowflakes, no Santa print. The fur looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped.\n\nThe plush looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped.\n\nStill no flash and no light source at the camera position.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no subtitles, no burned-in text, no emoji, no watermarks — any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 41,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "1080p",
+   "bitrate_mode": "high",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "duration": 4,
+   "medias": [
+    {
+     "value": "1bb0e88e-0ffc-4239-a7f7-831b71173cd6",
+     "role": "image_references"
+    },
+    {
+     "value": "dcbd1956-9a92-48cc-9ec1-8046c458e43e",
+     "role": "image_references"
+    },
+    {
+     "value": "372d9010-8951-4060-a648-6129ebefabed",
+     "role": "image_references"
+    },
+    {
+     "value": "cc66b071-4a59-48c5-b066-7b08263509cd",
+     "role": "image_references"
+    },
+    {
+     "value": "1bd89982-5beb-4a05-b5e1-24b0bc689bda",
+     "role": "image_references"
+    },
+    {
+     "value": "0880e301-6f81-428c-ab70-66535067f252",
+     "role": "image_references"
+    },
+    {
+     "value": "8391f616-19ac-4af8-a80d-d7340f2027e2",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "B1 — PUTTING THE ROBE ON. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK — BRIGHT, EVERYDAY UGC, ABSOLUTE RULE: this must look like a normal person filming themselves on their own phone in a well-lit room, not like a cinematic ad. The room is BRIGHT and evenly lit — plenty of soft light on the person and on the robe, colours clearly readable, the whole frame well exposed, no dark corners, no heavy shadows, no moody or dim grade, no orange cinematic tint, no vignette, no colour grading of any kind. Slightly bright rather than slightly dark. Natural handheld phone look with small imperfections, plain amateur framing, ordinary phone sharpness — nothing polished or studio-lit.\n\nIMAGE ROLES: Image 1 is the PERSON — their face, hair, age, build and gender stay exactly as in Image 1 in every frame. Image 2 is the ROOM — same walls, furniture and decor. Images 3-6 are THE ROBE.\n\nTHEIR CLOTHES — ABSOLUTE RULE, HIGHEST PRIORITY: underneath the robe they wear a cream cable-knit sweater and light-blue flannel pajama pants; her light-brown hair in the same loose messy updo as in Image 1 — normal everyday clothes, the same in every clip of this reel. Do NOT copy any clothing from the driving video, do NOT invent a different outfit, do NOT change it at any point in the clip.\n\nTHE ROBE, identical to the reference images in every frame — the HeatYeti \"Full Shaggy Yeti\" robe: the whole outside of the robe is long-pile shaggy SNOW-WHITE faux fur like a real Yeti pelt, strands with a faint icy-blue sheen at the tips; floor-length, normal-width sleeves, a soft shaggy white belt. The sleeves end in big YETI-MITTEN cuffs: shaggy white fur with a smooth slate-grey plush palm patch on the inner wrist side. The two joined foot pockets at the hem are shaped like GIANT YETI FEET, each with three rounded slate-grey toe pads on the front. The interior lining is smooth icy-blue minky, never white, never green.\n\nTHE HOOD — ABSOLUTE RULE, SAME IN EVERY FRAME: a big shaggy white Yeti head. Two curved slate-grey horns on top, one above each temple. Small rounded white ears with pale-blue inner ears on the sides. On the front above the opening, a soft 3D Yeti face: pale icy-blue skin, two narrow grumpy eyes, heavy white fur eyebrows frowning, a small dark nose, two tiny white fangs. The face exists ONLY on the hood.\n\nTHE POCKETS — ABSOLUTE RULE: the two front patch pockets are plain shaggy white fur, nothing on them — no face, no eyes, no graphic, no logo.\n\nNo red, no green, no gold, no pink, no snowflakes, no Santa print. The fur looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped.\n\nThe plush looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped.\n\n\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no subtitles, no burned-in text, no emoji, no watermarks — any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 42,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "1080p",
+   "bitrate_mode": "high",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "duration": 5,
+   "medias": [
+    {
+     "value": "1bb0e88e-0ffc-4239-a7f7-831b71173cd6",
+     "role": "image_references"
+    },
+    {
+     "value": "dcbd1956-9a92-48cc-9ec1-8046c458e43e",
+     "role": "image_references"
+    },
+    {
+     "value": "372d9010-8951-4060-a648-6129ebefabed",
+     "role": "image_references"
+    },
+    {
+     "value": "cc66b071-4a59-48c5-b066-7b08263509cd",
+     "role": "image_references"
+    },
+    {
+     "value": "1bd89982-5beb-4a05-b5e1-24b0bc689bda",
+     "role": "image_references"
+    },
+    {
+     "value": "0880e301-6f81-428c-ab70-66535067f252",
+     "role": "image_references"
+    },
+    {
+     "value": "6243c22d-ed26-4df8-8a68-0d4ff29219bd",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "B2 — STANDING IN THE ROBE, OPENING IT. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK — BRIGHT, EVERYDAY UGC, ABSOLUTE RULE: this must look like a normal person filming themselves on their own phone in a well-lit room, not like a cinematic ad. The room is BRIGHT and evenly lit — plenty of soft light on the person and on the robe, colours clearly readable, the whole frame well exposed, no dark corners, no heavy shadows, no moody or dim grade, no orange cinematic tint, no vignette, no colour grading of any kind. Slightly bright rather than slightly dark. Natural handheld phone look with small imperfections, plain amateur framing, ordinary phone sharpness — nothing polished or studio-lit.\n\nIMAGE ROLES: Image 1 is the PERSON — their face, hair, age, build and gender stay exactly as in Image 1 in every frame. Image 2 is the ROOM — same walls, furniture and decor. Images 3-6 are THE ROBE.\n\nTHEIR CLOTHES — ABSOLUTE RULE, HIGHEST PRIORITY: underneath the robe they wear a cream cable-knit sweater and light-blue flannel pajama pants; her light-brown hair in the same loose messy updo as in Image 1 — normal everyday clothes, the same in every clip of this reel. Do NOT copy any clothing from the driving video, do NOT invent a different outfit, do NOT change it at any point in the clip.\n\nTHE ROBE, identical to the reference images in every frame — the HeatYeti \"Full Shaggy Yeti\" robe: the whole outside of the robe is long-pile shaggy SNOW-WHITE faux fur like a real Yeti pelt, strands with a faint icy-blue sheen at the tips; floor-length, normal-width sleeves, a soft shaggy white belt. The sleeves end in big YETI-MITTEN cuffs: shaggy white fur with a smooth slate-grey plush palm patch on the inner wrist side. The two joined foot pockets at the hem are shaped like GIANT YETI FEET, each with three rounded slate-grey toe pads on the front. The interior lining is smooth icy-blue minky, never white, never green.\n\nTHE HOOD — ABSOLUTE RULE, SAME IN EVERY FRAME: a big shaggy white Yeti head. Two curved slate-grey horns on top, one above each temple. Small rounded white ears with pale-blue inner ears on the sides. On the front above the opening, a soft 3D Yeti face: pale icy-blue skin, two narrow grumpy eyes, heavy white fur eyebrows frowning, a small dark nose, two tiny white fangs. The face exists ONLY on the hood.\n\nTHE POCKETS — ABSOLUTE RULE: the two front patch pockets are plain shaggy white fur, nothing on them — no face, no eyes, no graphic, no logo.\n\nNo red, no green, no gold, no pink, no snowflakes, no Santa print. The fur looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped.\n\nThe plush looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped.\n\nThe movement is smooth, never abrupt.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no subtitles, no burned-in text, no emoji, no watermarks — any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 43,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "1080p",
+   "bitrate_mode": "high",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "duration": 4,
+   "medias": [
+    {
+     "value": "1bb0e88e-0ffc-4239-a7f7-831b71173cd6",
+     "role": "image_references"
+    },
+    {
+     "value": "dcbd1956-9a92-48cc-9ec1-8046c458e43e",
+     "role": "image_references"
+    },
+    {
+     "value": "372d9010-8951-4060-a648-6129ebefabed",
+     "role": "image_references"
+    },
+    {
+     "value": "cc66b071-4a59-48c5-b066-7b08263509cd",
+     "role": "image_references"
+    },
+    {
+     "value": "1bd89982-5beb-4a05-b5e1-24b0bc689bda",
+     "role": "image_references"
+    },
+    {
+     "value": "0880e301-6f81-428c-ab70-66535067f252",
+     "role": "image_references"
+    },
+    {
+     "value": "8042602c-c548-45de-aa77-6d42366e058e",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "COZY — SETTLING IN THE ROBE. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK — BRIGHT, EVERYDAY UGC, ABSOLUTE RULE: this must look like a normal person filming themselves on their own phone in a well-lit room, not like a cinematic ad. The room is BRIGHT and evenly lit — plenty of soft light on the person and on the robe, colours clearly readable, the whole frame well exposed, no dark corners, no heavy shadows, no moody or dim grade, no orange cinematic tint, no vignette, no colour grading of any kind. Slightly bright rather than slightly dark. Natural handheld phone look with small imperfections, plain amateur framing, ordinary phone sharpness — nothing polished or studio-lit.\n\nIMAGE ROLES: Image 1 is the PERSON — their face, hair, age, build and gender stay exactly as in Image 1 in every frame. Image 2 is the ROOM — same walls, furniture and decor. Images 3-6 are THE ROBE.\n\nTHEIR CLOTHES — ABSOLUTE RULE, HIGHEST PRIORITY: underneath the robe they wear a cream cable-knit sweater and light-blue flannel pajama pants; her light-brown hair in the same loose messy updo as in Image 1 — normal everyday clothes, the same in every clip of this reel. Do NOT copy any clothing from the driving video, do NOT invent a different outfit, do NOT change it at any point in the clip.\n\nTHE ROBE, identical to the reference images in every frame — the HeatYeti \"Full Shaggy Yeti\" robe: the whole outside of the robe is long-pile shaggy SNOW-WHITE faux fur like a real Yeti pelt, strands with a faint icy-blue sheen at the tips; floor-length, normal-width sleeves, a soft shaggy white belt. The sleeves end in big YETI-MITTEN cuffs: shaggy white fur with a smooth slate-grey plush palm patch on the inner wrist side. The two joined foot pockets at the hem are shaped like GIANT YETI FEET, each with three rounded slate-grey toe pads on the front. The interior lining is smooth icy-blue minky, never white, never green.\n\nTHE HOOD — ABSOLUTE RULE, SAME IN EVERY FRAME: a big shaggy white Yeti head. Two curved slate-grey horns on top, one above each temple. Small rounded white ears with pale-blue inner ears on the sides. On the front above the opening, a soft 3D Yeti face: pale icy-blue skin, two narrow grumpy eyes, heavy white fur eyebrows frowning, a small dark nose, two tiny white fangs. The face exists ONLY on the hood.\n\nTHE POCKETS — ABSOLUTE RULE: the two front patch pockets are plain shaggy white fur, nothing on them — no face, no eyes, no graphic, no logo.\n\nNo red, no green, no gold, no pink, no snowflakes, no Santa print. The fur looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped.\n\nThe plush looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped.\n\nStill no flash and no light source at the camera position.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no subtitles, no burned-in text, no emoji, no watermarks — any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 51,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "1080p",
+   "bitrate_mode": "high",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "duration": 4,
+   "medias": [
+    {
+     "value": "d153a929-198a-4e1b-ae6a-18885d262e54",
+     "role": "image_references"
+    },
+    {
+     "value": "8c4704fd-7c4f-45ca-829d-aff912da31c0",
+     "role": "image_references"
+    },
+    {
+     "value": "372d9010-8951-4060-a648-6129ebefabed",
+     "role": "image_references"
+    },
+    {
+     "value": "cc66b071-4a59-48c5-b066-7b08263509cd",
+     "role": "image_references"
+    },
+    {
+     "value": "1bd89982-5beb-4a05-b5e1-24b0bc689bda",
+     "role": "image_references"
+    },
+    {
+     "value": "0880e301-6f81-428c-ab70-66535067f252",
+     "role": "image_references"
+    },
+    {
+     "value": "d8a474d2-e9b6-4a69-9d4c-5fabe1472435",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "B1 — PUTTING THE ROBE ON. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK — BRIGHT, EVERYDAY UGC, ABSOLUTE RULE: this must look like a normal person filming themselves on their own phone in a well-lit room, not like a cinematic ad. The room is BRIGHT and evenly lit — plenty of soft light on the person and on the robe, colours clearly readable, the whole frame well exposed, no dark corners, no heavy shadows, no moody or dim grade, no orange cinematic tint, no vignette, no colour grading of any kind. Slightly bright rather than slightly dark. Natural handheld phone look with small imperfections, plain amateur framing, ordinary phone sharpness — nothing polished or studio-lit.\n\nIMAGE ROLES: Image 1 is the PERSON — their face, hair, age, build and gender stay exactly as in Image 1 in every frame. Image 2 is the ROOM — same walls, furniture and decor. Images 3-6 are THE ROBE.\n\nTHEIR CLOTHES — ABSOLUTE RULE, HIGHEST PRIORITY: underneath the robe they wear a heather-grey waffle-knit lounge set (long-sleeve top and matching pants) with fluffy white socks; her wavy blonde shoulder-length hair loose exactly as in Image 1, no bun — normal everyday clothes, the same in every clip of this reel. Do NOT copy any clothing from the driving video, do NOT invent a different outfit, do NOT change it at any point in the clip.\n\nTHE ROBE, identical to the reference images in every frame — the HeatYeti \"Full Shaggy Yeti\" robe: the whole outside of the robe is long-pile shaggy SNOW-WHITE faux fur like a real Yeti pelt, strands with a faint icy-blue sheen at the tips; floor-length, normal-width sleeves, a soft shaggy white belt. The sleeves end in big YETI-MITTEN cuffs: shaggy white fur with a smooth slate-grey plush palm patch on the inner wrist side. The two joined foot pockets at the hem are shaped like GIANT YETI FEET, each with three rounded slate-grey toe pads on the front. The interior lining is smooth icy-blue minky, never white, never green.\n\nTHE HOOD — ABSOLUTE RULE, SAME IN EVERY FRAME: a big shaggy white Yeti head. Two curved slate-grey horns on top, one above each temple. Small rounded white ears with pale-blue inner ears on the sides. On the front above the opening, a soft 3D Yeti face: pale icy-blue skin, two narrow grumpy eyes, heavy white fur eyebrows frowning, a small dark nose, two tiny white fangs. The face exists ONLY on the hood.\n\nTHE POCKETS — ABSOLUTE RULE: the two front patch pockets are plain shaggy white fur, nothing on them — no face, no eyes, no graphic, no logo.\n\nNo red, no green, no gold, no pink, no snowflakes, no Santa print. The fur looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped.\n\nThe plush looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped.\n\n\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no subtitles, no burned-in text, no emoji, no watermarks — any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 52,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "1080p",
+   "bitrate_mode": "high",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "duration": 5,
+   "medias": [
+    {
+     "value": "d153a929-198a-4e1b-ae6a-18885d262e54",
+     "role": "image_references"
+    },
+    {
+     "value": "8c4704fd-7c4f-45ca-829d-aff912da31c0",
+     "role": "image_references"
+    },
+    {
+     "value": "372d9010-8951-4060-a648-6129ebefabed",
+     "role": "image_references"
+    },
+    {
+     "value": "cc66b071-4a59-48c5-b066-7b08263509cd",
+     "role": "image_references"
+    },
+    {
+     "value": "1bd89982-5beb-4a05-b5e1-24b0bc689bda",
+     "role": "image_references"
+    },
+    {
+     "value": "0880e301-6f81-428c-ab70-66535067f252",
+     "role": "image_references"
+    },
+    {
+     "value": "6731a06f-f6c0-48d9-a001-5047c85ca5d6",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "B2 — STANDING IN THE ROBE, OPENING IT. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK — BRIGHT, EVERYDAY UGC, ABSOLUTE RULE: this must look like a normal person filming themselves on their own phone in a well-lit room, not like a cinematic ad. The room is BRIGHT and evenly lit — plenty of soft light on the person and on the robe, colours clearly readable, the whole frame well exposed, no dark corners, no heavy shadows, no moody or dim grade, no orange cinematic tint, no vignette, no colour grading of any kind. Slightly bright rather than slightly dark. Natural handheld phone look with small imperfections, plain amateur framing, ordinary phone sharpness — nothing polished or studio-lit.\n\nIMAGE ROLES: Image 1 is the PERSON — their face, hair, age, build and gender stay exactly as in Image 1 in every frame. Image 2 is the ROOM — same walls, furniture and decor. Images 3-6 are THE ROBE.\n\nTHEIR CLOTHES — ABSOLUTE RULE, HIGHEST PRIORITY: underneath the robe they wear a heather-grey waffle-knit lounge set (long-sleeve top and matching pants) with fluffy white socks; her wavy blonde shoulder-length hair loose exactly as in Image 1, no bun — normal everyday clothes, the same in every clip of this reel. Do NOT copy any clothing from the driving video, do NOT invent a different outfit, do NOT change it at any point in the clip.\n\nTHE ROBE, identical to the reference images in every frame — the HeatYeti \"Full Shaggy Yeti\" robe: the whole outside of the robe is long-pile shaggy SNOW-WHITE faux fur like a real Yeti pelt, strands with a faint icy-blue sheen at the tips; floor-length, normal-width sleeves, a soft shaggy white belt. The sleeves end in big YETI-MITTEN cuffs: shaggy white fur with a smooth slate-grey plush palm patch on the inner wrist side. The two joined foot pockets at the hem are shaped like GIANT YETI FEET, each with three rounded slate-grey toe pads on the front. The interior lining is smooth icy-blue minky, never white, never green.\n\nTHE HOOD — ABSOLUTE RULE, SAME IN EVERY FRAME: a big shaggy white Yeti head. Two curved slate-grey horns on top, one above each temple. Small rounded white ears with pale-blue inner ears on the sides. On the front above the opening, a soft 3D Yeti face: pale icy-blue skin, two narrow grumpy eyes, heavy white fur eyebrows frowning, a small dark nose, two tiny white fangs. The face exists ONLY on the hood.\n\nTHE POCKETS — ABSOLUTE RULE: the two front patch pockets are plain shaggy white fur, nothing on them — no face, no eyes, no graphic, no logo.\n\nNo red, no green, no gold, no pink, no snowflakes, no Santa print. The fur looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped.\n\nThe plush looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped.\n\nThe movement is smooth, never abrupt.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no subtitles, no burned-in text, no emoji, no watermarks — any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 53,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "1080p",
+   "bitrate_mode": "high",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "duration": 4,
+   "medias": [
+    {
+     "value": "d153a929-198a-4e1b-ae6a-18885d262e54",
+     "role": "image_references"
+    },
+    {
+     "value": "8c4704fd-7c4f-45ca-829d-aff912da31c0",
+     "role": "image_references"
+    },
+    {
+     "value": "372d9010-8951-4060-a648-6129ebefabed",
+     "role": "image_references"
+    },
+    {
+     "value": "cc66b071-4a59-48c5-b066-7b08263509cd",
+     "role": "image_references"
+    },
+    {
+     "value": "1bd89982-5beb-4a05-b5e1-24b0bc689bda",
+     "role": "image_references"
+    },
+    {
+     "value": "0880e301-6f81-428c-ab70-66535067f252",
+     "role": "image_references"
+    },
+    {
+     "value": "5f950f18-01c6-411c-81e6-16a13179cc05",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "COZY — SETTLING IN THE ROBE. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK — BRIGHT, EVERYDAY UGC, ABSOLUTE RULE: this must look like a normal person filming themselves on their own phone in a well-lit room, not like a cinematic ad. The room is BRIGHT and evenly lit — plenty of soft light on the person and on the robe, colours clearly readable, the whole frame well exposed, no dark corners, no heavy shadows, no moody or dim grade, no orange cinematic tint, no vignette, no colour grading of any kind. Slightly bright rather than slightly dark. Natural handheld phone look with small imperfections, plain amateur framing, ordinary phone sharpness — nothing polished or studio-lit.\n\nIMAGE ROLES: Image 1 is the PERSON — their face, hair, age, build and gender stay exactly as in Image 1 in every frame. Image 2 is the ROOM — same walls, furniture and decor. Images 3-6 are THE ROBE.\n\nTHEIR CLOTHES — ABSOLUTE RULE, HIGHEST PRIORITY: underneath the robe they wear a heather-grey waffle-knit lounge set (long-sleeve top and matching pants) with fluffy white socks; her wavy blonde shoulder-length hair loose exactly as in Image 1, no bun — normal everyday clothes, the same in every clip of this reel. Do NOT copy any clothing from the driving video, do NOT invent a different outfit, do NOT change it at any point in the clip.\n\nTHE ROBE, identical to the reference images in every frame — the HeatYeti \"Full Shaggy Yeti\" robe: the whole outside of the robe is long-pile shaggy SNOW-WHITE faux fur like a real Yeti pelt, strands with a faint icy-blue sheen at the tips; floor-length, normal-width sleeves, a soft shaggy white belt. The sleeves end in big YETI-MITTEN cuffs: shaggy white fur with a smooth slate-grey plush palm patch on the inner wrist side. The two joined foot pockets at the hem are shaped like GIANT YETI FEET, each with three rounded slate-grey toe pads on the front. The interior lining is smooth icy-blue minky, never white, never green.\n\nTHE HOOD — ABSOLUTE RULE, SAME IN EVERY FRAME: a big shaggy white Yeti head. Two curved slate-grey horns on top, one above each temple. Small rounded white ears with pale-blue inner ears on the sides. On the front above the opening, a soft 3D Yeti face: pale icy-blue skin, two narrow grumpy eyes, heavy white fur eyebrows frowning, a small dark nose, two tiny white fangs. The face exists ONLY on the hood.\n\nTHE POCKETS — ABSOLUTE RULE: the two front patch pockets are plain shaggy white fur, nothing on them — no face, no eyes, no graphic, no logo.\n\nNo red, no green, no gold, no pink, no snowflakes, no Santa print. The fur looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped.\n\nThe plush looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped.\n\nStill no flash and no light source at the camera position.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no subtitles, no burned-in text, no emoji, no watermarks — any text in the driving video is removed."
+  }
+ }
+]
