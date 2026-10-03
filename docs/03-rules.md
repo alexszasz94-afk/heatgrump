@@ -101,3 +101,4 @@ Sursa: memoria Cowork + sesiunea 16–29 sept. Regula mai nouă bate regula mai 
 - 2 oct (feedback reel 10): telecomanda și conectorul fixe se aleg după gen ȘI culoarea pielii. Personaj cu piele închisă → variantă fixă proprie (placă = placa aprobată, doar mâna schimbată după personaj), apoi se refolosește.
 - 2 oct (feedback reel 8): la Genjutsu, părul personajului se scrie explicit („fără coc, fără păr lung”) — altfel copiază părul din clipul viral.
 - 2 oct (feedback reel 9): cozy-a-x2 (pat) se repetă la 1,7 s și halatul arată ciudat; în dormitor cozy se face din placă (ea în pat, în halat, cu gluga) + seedance.
+- 3 oct: clip nou de cozy de la Szasz (library/motion/cozy-c-orig.mp4, Higgsfield 5f950f18): pe canapea, se învelește până la față. Se rotește cu 8042602c; la montaj se folosește 0–1,2 s, cât fața se vede. Pe clip e text ars („DONT send this to your girlfriend”) — promptul cere scoaterea lui.

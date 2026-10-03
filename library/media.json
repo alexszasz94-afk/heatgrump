@@ -18,7 +18,8 @@
   "B2": {
    "A_no_face": "6243c22d-ed26-4df8-8a68-0d4ff29219bd",
    "B_face": "6731a06f-f6c0-48d9-a001-5047c85ca5d6",
-   "C_new": "e9a9ed00-094d-4211-8b98-2cfdf6115920"
+   "C_new": "e9a9ed00-094d-4211-8b98-2cfdf6115920",
+   "_nota": "Doar B_face (6731a06f) iese bine: C_new (e9a9ed00) filmează fără față și a dat ip_detected; A_no_face fără față. Trebuie încă un clip de B2 cu fața vizibilă ca să rotim (cerut lui Szasz 3 oct)."
   },
   "COZY": [
    "8042602c-c548-45de-aa77-6d42366e058e"
@@ -43,7 +44,9 @@
   },
   "COZY_x2": {
    "cozy-a-x2 (1295 dublat, 3,4 s)": "7da99c7a-a68e-4e8e-ac44-98e71ad1dd44",
-   "_nota": "cozy-a-x2 doar pentru camere CU PAT (regula 2 oct); canapea → 8042602c"
+   "_nota": "cozy-a-x2 doar pentru camere CU PAT (regula 2 oct); canapea → 8042602c",
+   "cozy-c (canapea, se învelește până la față, 3,1 s)": "5f950f18-01c6-411c-81e6-16a13179cc05",
+   "_rotatie": "canapea: 8042602c și cozy-c (5f950f18) pe rând; pat: placă + seedance (regula 2 oct). cozy-c: la montaj 0–1,2 s (după aceea fața e acoperită de halat)."
   }
  },
  "reels_batch_23sept": [
