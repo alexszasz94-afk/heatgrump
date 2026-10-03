@@ -4,12 +4,7 @@
   {
    "file": "output/reel14/hooks/hook.mp4",
    "start": 0,
-   "end": 4.3
-  },
-  {
-   "file": "output/reel14/unboxing.mp4",
-   "start": 0,
-   "end": 2.2
+   "end": 5.0
   },
   {
    "file": "output/reel14/b1.mp4",
@@ -18,8 +13,8 @@
   },
   {
    "file": "output/reel14/b2.mp4",
-   "start": 0.6,
-   "end": 3.8
+   "start": 0.4,
+   "end": 4.8
   },
   {
    "file": "output/fixed/conector-femeie-taiat.mp4",
@@ -40,7 +35,7 @@
  "texts": [
   {
    "t0": 0.0,
-   "t1": 15.8,
+   "t1": 15.5,
    "text": "DO NOT show this to your sister 😳🎄"
   }
  ],
