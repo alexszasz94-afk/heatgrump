@@ -49,27 +49,27 @@ PLANS = {
     (FX+"conector-femeie-taiat.mp4", 0, 1.5, "Do NOT let a Grinch mom see this… 😩🎄"),
     (FX+"telecomanda-femeie-taiat.mp4", 0, 2.2, "Do NOT let a Grinch mom see this… 😩🎄"),
     ("cozy.mp4", 0, 1.8, "Do NOT let a Grinch mom see this… 😩🎄")]),
- 14: dict(music="library/music/viral-DeAgPjvyBF1.m4a", parts=[
+ 14: dict(music="library/music/viral-DeAgPjvyBF1-ext.m4a", parts=[
     ("hooks/hook.mp4", 0, 5.0, "DO NOT show this to your sister 😳🎄"),
     ("b1.mp4", 0, 1.2, "DO NOT show this to your sister 😳🎄"),
     ("b2.mp4", 0.4, 4.8, "DO NOT show this to your sister 😳🎄"),
     (FX+"conector-femeie-taiat.mp4", 0, 1.5, "DO NOT show this to your sister 😳🎄"),
     (FX+"telecomanda-femeie-taiat.mp4", 0, 2.2, "DO NOT show this to your sister 😳🎄"),
-    ("cozy.mp4", 0, 1.2, "DO NOT show this to your sister 😳🎄")]),
- 15: dict(music="library/music/viral-DdLiUc7t1Yb.m4a", parts=[
-    ("hooks/hook-tigaie.mp4", 0, 4.4, "Every Grinch lover NEEDS this 😳🎄"),
-    ("b1.mp4", 0, 0.85, "Every Grinch lover NEEDS this 😳🎄"),
-    ("b2.mp4", 0, 2.7, "Every Grinch lover NEEDS this 😳🎄"),
+    ("cozy.mp4", 0, 2.6, "DO NOT show this to your sister 😳🎄")]),
+ 15: dict(music="library/music/viral-DdLiUc7t1Yb-ext.m4a", parts=[
+    ("hooks/hook-tigaie.mp4", 0, 4.85, "Every Grinch lover NEEDS this 😳🎄"),
+    ("b1.mp4", 0, 1.2, "Every Grinch lover NEEDS this 😳🎄"),
+    ("b2.mp4", 0, 4.0, "Every Grinch lover NEEDS this 😳🎄"),
     (FX+"conector-barbat-taiat.mp4", 0, 1.5, "Every Grinch lover NEEDS this 😳🎄"),
-    (FX+"telecomanda-barbat-taiat.mp4", 0, 1.9, "Every Grinch lover NEEDS this 😳🎄"),
-    ("cozy.mp4", 0, 1.0, "Every Grinch lover NEEDS this 😳🎄")]),
- 16: dict(music="library/music/viral-DeAgyTpyKYj.m4a", parts=[
+    (FX+"telecomanda-barbat-taiat.mp4", 0, 2.4, "Every Grinch lover NEEDS this 😳🎄"),
+    ("cozy.mp4", 0, 2.2, "Every Grinch lover NEEDS this 😳🎄")]),
+ 16: dict(music="library/music/viral-DeAgyTpyKYj-ext.m4a", parts=[
     ("hooks/hook.mp4", 0, 2.2, "DO NOT show this to a Grinch lover 😳🎄"),
     ("unboxing.mp4", 0, 1.8, "DO NOT show this to a Grinch lover 😳🎄"),
     ("b2.mp4", 1.0, 3.2, "DO NOT show this to a Grinch lover 😳🎄"),
     (FX+"conector-femeie-taiat.mp4", 0.1, 1.5, "DO NOT show this to a Grinch lover 😳🎄"),
     (FX+"telecomanda-femeie-taiat.mp4", 0, 2.2, "DO NOT show this to a Grinch lover 😳🎄"),
-    ("cozy.mp4", 0, 1.3, "DO NOT show this to a Grinch lover 😳🎄")]),
+    ("cozy.mp4", 0, 2.6, "DO NOT show this to a Grinch lover 😳🎄")]),
  17: dict(music="library/music/viral-Dd6Ik80yLIE.m4a", parts=[
     ("hooks/hook.mp4", 2.5, 4.8, "Don't show this to a Grinch fan… 🥹💚"),
     ("b1.mp4", 0, 0.85, "Don't show this to a Grinch fan… 🥹💚"),

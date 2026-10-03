@@ -29,17 +29,17 @@
   {
    "file": "output/reel14/cozy.mp4",
    "start": 0,
-   "end": 1.2
+   "end": 2.6
   }
  ],
  "texts": [
   {
    "t0": 0.0,
-   "t1": 15.5,
+   "t1": 16.9,
    "text": "DO NOT show this to your sister 😳🎄"
   }
  ],
- "music": "library/music/viral-DeAgPjvyBF1.m4a",
+ "music": "library/music/viral-DeAgPjvyBF1-ext.m4a",
  "music_start": 0,
  "orig_vol": 0.12
 }
