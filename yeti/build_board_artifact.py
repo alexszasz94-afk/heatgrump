@@ -16,10 +16,10 @@ def vid(src, name):
     return uri(v, "video/mp4"), uri(pz, "image/jpeg")
 
 R = lambda p: os.path.join(ROOT, p)
-refs = [("Față, deschis", "Căptușeala albastru-gheață, blana albă la manșete"),
-        ("Lateral, cu cordon", "Tivul festonat cu fir argintiu"),
-        ("Gluga și buzunarele", "Fața Yeti doar pe glugă; buzunare simple"),
-        ("Față, închis", "Albastru sus, alb jos, până în podea")]
+refs = [("Față, închis", "Gluga = capul Yeti, cordon, labe cu degete gri"),
+        ("Față, deschis", "Căptușeala albastru-gheață pe toată lungimea"),
+        ("Profil", "Același corn, aceeași ureche, fața din profil"),
+        ("Spate", "Coarnele și urechile din spate, fără față")]
 fixed = [("telecomanda-barbat", "Telecomandă", "Bărbat", "1 → 2 → 3", "1,2–3,6 s", "ok"),
          ("telecomanda-femeie", "Telecomandă", "Femeie", "1 → 2 → 3", "1,4–3,6 s", "ok"),
          ("telecomanda-barbat-inchis", "Telecomandă", "Bărbat · piele închisă", "1 → 2 → 3", "2,9–4,3 s încetinit", "ok"),
@@ -42,7 +42,7 @@ def fixed_cards(kind):
 
 concepts = [
  ("A", "Ghețar", "A-ghetar", "Cel mai aproape de HeatGrump: albastru-gheață sus, alb jos, linia dintre ele în formă de țurțuri cu fir argintiu. Gluga e un cap de Yeti cu cornițe, urechi și moț alb."),
- ("B", "Blană de Yeti", "B-blana", "Tot halatul e blană albă lungă, ca un Yeti adevărat. Manșete-mănușă cu palmă gri și săculeții de jos în formă de labe uriașe cu degete gri."),
+ ("B", "Blană de Yeti · ALES", "B-blana", "Tot halatul e blană albă lungă, ca un Yeti adevărat. Manșete-mănușă cu palmă gri și săculeții de jos în formă de labe uriașe cu degete gri."),
  ("C", "Munte", "C-munte", "Alb sus; jos un lanț de munți înzăpeziți pe albastru-ardezie, ca și cum Yeti vine din munți. Arată bine din toate unghiurile, munții se continuă pe spate."),
  ("D", "Gura Yeti", "D-gura", "Gluga e capul Yeti și fața ta iese prin gura lui, cu colți moi pe margine. Burtă albastră pe față, labe de Yeti la tiv. Cel mai amuzant pentru hook-uri."),
  ("E", "Noapte", "E-noapte", "Bleumarin închis sus, blană albă de Yeti jos, cu margine de nămete. Contrast puternic, se vede foarte bine în cadru și la lumină caldă."),
@@ -99,17 +99,12 @@ figcaption b{{font-weight:600;width:100%}}figcaption span{{color:var(--mute);fon
 <header>
   <span class="eyebrow">Copia HeatGrump · 3 octombrie</span>
   <h1>HeatYeti</h1>
-  <p class="lead">Același halat termic, aceleași reguli și aceeași ordine de montaj ca la Grinch, doar cu designul Yeti. Mai jos e trusa de bază: halatul, cutia și clipurile fixe. Reel-urile vin la „yeti video nou”.</p>
+  <p class="lead">Același halat termic, aceleași reguli și aceeași ordine de montaj ca la Grinch, doar cu designul Yeti. Halatul ales e conceptul B, Blană de Yeti. Mai jos e trusa de bază: halatul, cutia și clipurile fixe. Reel-urile vin la „yeti video nou”.</p>
   <ul class="flow" aria-label="Ordinea de montaj">{flow}</ul>
 </header>
 <section>
-  <h2>Idei noi de halat · alege una</h2>
-  <p class="note">Cinci direcții Yeti. Fiecare foaie arată același halat din patru unghiuri: față cu gluga pusă, față deschis, profil, spate. Gluga e aceeași în toate pozițiile. După ce alegi, fac din ea cele 4 referințe finale și refac cutia.</p>
-  <div class="sheets">{concept_cards()}</div>
-</section>
-<section>
-  <h2>Prima variantă (actuală)</h2>
-  <p class="note">Patru referințe făcute 1:1 după cele de Grinch, aceeași croială, alt design. Ele intră în fiecare B1, B2, cozy și unboxing.</p>
+  <h2>Halatul ales · B, Blană de Yeti</h2>
+  <p class="note">Cele 4 referințe finale, făcute din foaia de design B. Gluga e aceeași în toate: două coarne gri, urechi, fața Yeti. Ele intră în fiecare B1, B2, cozy și unboxing.</p>
   <div class="grid">{ref_cards}</div>
 </section>
 <section>
@@ -117,7 +112,7 @@ figcaption b{{font-weight:600;width:100%}}figcaption span{{color:var(--mute);fon
   <div class="boxrow">
     <figure class="shot"><img src="{box}" alt="Cutia HEAT YETI"></figure>
     <dl class="facts">
-      <dt>Format</dt><dd>Identic cu cutia HeatGrump: fereastră transparentă, model pe dreapta, iconițe jos</dd>
+      <dt>Format</dt><dd>Identic cu cutia HeatGrump: fereastră transparentă, model pe dreapta, iconițe jos. Prin fereastră se vede blana albă și o labă de Yeti.</dd>
       <dt>Text</dt><dd>HEAT YETI · Heated Wearable Blanket Robe · Stay warm. Stay wild.</dd>
       <dt>Iconițe</dt><dd>6 Heat Levels · Auto-Off Timer · Ultra-Soft Sherpa, la fel ca pe cutia Grinch</dd>
       <dt>În unboxing</dt><dd>Cutia stă pe podea și fereastra se golește când scoate halatul</dd>
@@ -133,6 +128,11 @@ figcaption b{{font-weight:600;width:100%}}figcaption span{{color:var(--mute);fon
   <h2>Conectorul</h2>
   <p class="note">Gri, în două părți, cu fir la amândouă. Fiecare clip se termină cu conectorul intrat complet, fără gol.</p>
   <div class="grid">{fixed_cards("Conector")}</div>
+</section>
+<section>
+  <h2>Conceptele</h2>
+  <p class="note">Cele cinci direcții Yeti. Ai ales B; celelalte rămân ca idei.</p>
+  <div class="sheets">{concept_cards()}</div>
 </section>
 </div>'''
 open(OUT, "w").write(page)

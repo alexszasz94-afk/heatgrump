@@ -1,0 +1,86 @@
+[
+ {
+  "index": 0,
+  "params": {
+   "model": "gpt_image_2",
+   "aspect_ratio": "9:16",
+   "quality": "high",
+   "resolution": "4k",
+   "medias": [
+    {
+     "value": "364be95a-e52e-421f-8ee2-e5af7d5bbc5f",
+     "role": "image"
+    }
+   ],
+   "prompt": "Image 1 is the approved design sheet of the HeatYeti robe, shown in four views. Make ONE single photorealistic studio product photo, vertical 9:16, of EXACTLY this robe — same fur, same hood, same horns, same face, same ears, same mitten cuffs, same Yeti-feet foot pockets, same belt, same pockets, same proportions. Invisible ghost mannequin, light cool-grey seamless studio background, soft even studio light, the whole robe visible from the top of the hood to the floor, centered, never cropped. No text, no logos, no watermark.\n\nVIEW: FRONT, hood UP on the head, robe closed with the belt tied. The Yeti face on the hood looks straight at the camera; both Yeti-feet foot pockets with their grey toe pads visible at the bottom.\n\nTHE ROBE, identical to the reference images in every frame — the HeatYeti \"Full Shaggy Yeti\" robe: the whole outside of the robe is long-pile shaggy SNOW-WHITE faux fur like a real Yeti pelt, strands with a faint icy-blue sheen at the tips; floor-length, normal-width sleeves, a soft shaggy white belt. The sleeves end in big YETI-MITTEN cuffs: shaggy white fur with a smooth slate-grey plush palm patch on the inner wrist side. The two joined foot pockets at the hem are shaped like GIANT YETI FEET, each with three rounded slate-grey toe pads on the front. The interior lining is smooth icy-blue minky, never white, never green.\n\nTHE HOOD — ABSOLUTE RULE, SAME IN EVERY FRAME: a big shaggy white Yeti head. Two curved slate-grey horns on top, one above each temple. Small rounded white ears with pale-blue inner ears on the sides. On the front above the opening, a soft 3D Yeti face: pale icy-blue skin, two narrow grumpy eyes, heavy white fur eyebrows frowning, a small dark nose, two tiny white fangs. The face exists ONLY on the hood.\n\nTHE POCKETS — ABSOLUTE RULE: the two front patch pockets are plain shaggy white fur, nothing on them — no face, no eyes, no graphic, no logo.\n\nNo red, no green, no gold, no pink, no snowflakes, no Santa print. The fur looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped."
+  }
+ },
+ {
+  "index": 1,
+  "params": {
+   "model": "gpt_image_2",
+   "aspect_ratio": "9:16",
+   "quality": "high",
+   "resolution": "4k",
+   "medias": [
+    {
+     "value": "364be95a-e52e-421f-8ee2-e5af7d5bbc5f",
+     "role": "image"
+    }
+   ],
+   "prompt": "Image 1 is the approved design sheet of the HeatYeti robe, shown in four views. Make ONE single photorealistic studio product photo, vertical 9:16, of EXACTLY this robe — same fur, same hood, same horns, same face, same ears, same mitten cuffs, same Yeti-feet foot pockets, same belt, same pockets, same proportions. Invisible ghost mannequin, light cool-grey seamless studio background, soft even studio light, the whole robe visible from the top of the hood to the floor, centered, never cropped. No text, no logos, no watermark.\n\nVIEW: FRONT, robe OPEN, hood UP, showing the smooth icy-blue minky lining inside both front panels, belt hanging loose at the sides. The Yeti face on the hood looks straight at the camera.\n\nTHE ROBE, identical to the reference images in every frame — the HeatYeti \"Full Shaggy Yeti\" robe: the whole outside of the robe is long-pile shaggy SNOW-WHITE faux fur like a real Yeti pelt, strands with a faint icy-blue sheen at the tips; floor-length, normal-width sleeves, a soft shaggy white belt. The sleeves end in big YETI-MITTEN cuffs: shaggy white fur with a smooth slate-grey plush palm patch on the inner wrist side. The two joined foot pockets at the hem are shaped like GIANT YETI FEET, each with three rounded slate-grey toe pads on the front. The interior lining is smooth icy-blue minky, never white, never green.\n\nTHE HOOD — ABSOLUTE RULE, SAME IN EVERY FRAME: a big shaggy white Yeti head. Two curved slate-grey horns on top, one above each temple. Small rounded white ears with pale-blue inner ears on the sides. On the front above the opening, a soft 3D Yeti face: pale icy-blue skin, two narrow grumpy eyes, heavy white fur eyebrows frowning, a small dark nose, two tiny white fangs. The face exists ONLY on the hood.\n\nTHE POCKETS — ABSOLUTE RULE: the two front patch pockets are plain shaggy white fur, nothing on them — no face, no eyes, no graphic, no logo.\n\nNo red, no green, no gold, no pink, no snowflakes, no Santa print. The fur looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped."
+  }
+ },
+ {
+  "index": 2,
+  "params": {
+   "model": "gpt_image_2",
+   "aspect_ratio": "9:16",
+   "quality": "high",
+   "resolution": "4k",
+   "medias": [
+    {
+     "value": "364be95a-e52e-421f-8ee2-e5af7d5bbc5f",
+     "role": "image"
+    }
+   ],
+   "prompt": "Image 1 is the approved design sheet of the HeatYeti robe, shown in four views. Make ONE single photorealistic studio product photo, vertical 9:16, of EXACTLY this robe — same fur, same hood, same horns, same face, same ears, same mitten cuffs, same Yeti-feet foot pockets, same belt, same pockets, same proportions. Invisible ghost mannequin, light cool-grey seamless studio background, soft even studio light, the whole robe visible from the top of the hood to the floor, centered, never cropped. No text, no logos, no watermark.\n\nVIEW: SIDE PROFILE (facing right), hood UP, robe closed with the belt. The hood seen from the side: one horn, one ear, the face in profile with the nose and fangs; one Yeti foot pocket in profile with its toe pads.\n\nTHE ROBE, identical to the reference images in every frame — the HeatYeti \"Full Shaggy Yeti\" robe: the whole outside of the robe is long-pile shaggy SNOW-WHITE faux fur like a real Yeti pelt, strands with a faint icy-blue sheen at the tips; floor-length, normal-width sleeves, a soft shaggy white belt. The sleeves end in big YETI-MITTEN cuffs: shaggy white fur with a smooth slate-grey plush palm patch on the inner wrist side. The two joined foot pockets at the hem are shaped like GIANT YETI FEET, each with three rounded slate-grey toe pads on the front. The interior lining is smooth icy-blue minky, never white, never green.\n\nTHE HOOD — ABSOLUTE RULE, SAME IN EVERY FRAME: a big shaggy white Yeti head. Two curved slate-grey horns on top, one above each temple. Small rounded white ears with pale-blue inner ears on the sides. On the front above the opening, a soft 3D Yeti face: pale icy-blue skin, two narrow grumpy eyes, heavy white fur eyebrows frowning, a small dark nose, two tiny white fangs. The face exists ONLY on the hood.\n\nTHE POCKETS — ABSOLUTE RULE: the two front patch pockets are plain shaggy white fur, nothing on them — no face, no eyes, no graphic, no logo.\n\nNo red, no green, no gold, no pink, no snowflakes, no Santa print. The fur looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped."
+  }
+ },
+ {
+  "index": 3,
+  "params": {
+   "model": "gpt_image_2",
+   "aspect_ratio": "9:16",
+   "quality": "high",
+   "resolution": "4k",
+   "medias": [
+    {
+     "value": "364be95a-e52e-421f-8ee2-e5af7d5bbc5f",
+     "role": "image"
+    }
+   ],
+   "prompt": "Image 1 is the approved design sheet of the HeatYeti robe, shown in four views. Make ONE single photorealistic studio product photo, vertical 9:16, of EXACTLY this robe — same fur, same hood, same horns, same face, same ears, same mitten cuffs, same Yeti-feet foot pockets, same belt, same pockets, same proportions. Invisible ghost mannequin, light cool-grey seamless studio background, soft even studio light, the whole robe visible from the top of the hood to the floor, centered, never cropped. No text, no logos, no watermark.\n\nVIEW: BACK, hood UP, robe closed. The back of the hood: shaggy white fur, the two grey horns and both ears seen from behind, no face on the back. The heels of both Yeti-feet foot pockets at the bottom.\n\nTHE ROBE, identical to the reference images in every frame — the HeatYeti \"Full Shaggy Yeti\" robe: the whole outside of the robe is long-pile shaggy SNOW-WHITE faux fur like a real Yeti pelt, strands with a faint icy-blue sheen at the tips; floor-length, normal-width sleeves, a soft shaggy white belt. The sleeves end in big YETI-MITTEN cuffs: shaggy white fur with a smooth slate-grey plush palm patch on the inner wrist side. The two joined foot pockets at the hem are shaped like GIANT YETI FEET, each with three rounded slate-grey toe pads on the front. The interior lining is smooth icy-blue minky, never white, never green.\n\nTHE HOOD — ABSOLUTE RULE, SAME IN EVERY FRAME: a big shaggy white Yeti head. Two curved slate-grey horns on top, one above each temple. Small rounded white ears with pale-blue inner ears on the sides. On the front above the opening, a soft 3D Yeti face: pale icy-blue skin, two narrow grumpy eyes, heavy white fur eyebrows frowning, a small dark nose, two tiny white fangs. The face exists ONLY on the hood.\n\nTHE POCKETS — ABSOLUTE RULE: the two front patch pockets are plain shaggy white fur, nothing on them — no face, no eyes, no graphic, no logo.\n\nNo red, no green, no gold, no pink, no snowflakes, no Santa print. The fur looks noticeably thick, cozy and premium — dense heavy pile, deep soft folds, weighty slow settle. The robe is visible full length, down to the floor, never cropped."
+  }
+ },
+ {
+  "index": 4,
+  "params": {
+   "model": "gpt_image_2",
+   "aspect_ratio": "9:16",
+   "quality": "high",
+   "resolution": "4k",
+   "medias": [
+    {
+     "value": "c4e5daef-5109-4d41-ab18-f6d82c8b8e4e",
+     "role": "image"
+    },
+    {
+     "value": "364be95a-e52e-421f-8ee2-e5af7d5bbc5f",
+     "role": "image"
+    }
+   ],
+   "prompt": "Image 1 is our HeatYeti product box. Recreate this box ONE TO ONE — the same box shape and proportions, the same layout, the same HEAT YETI logo, subtitle \"Heated Wearable Blanket Robe\", tagline \"Stay warm. Stay wild.\", the same icon row with \"6 Heat Levels\", \"Auto-Off Timer\", \"Ultra-Soft Sherpa\", the same icy-blue box colour and snowy accents, the same studio angle and background. ONLY TWO THINGS CHANGE, to match the robe in Image 2: (1) through the transparent window you now see the folded robe from Image 2 — long-pile shaggy snow-white Yeti fur, a glimpse of the icy-blue lining and one grey-padded Yeti foot; (2) the printed model on the right side of the front now wears the robe from Image 2 with the hood up — the shaggy white Yeti head with grey horns and the grumpy pale-blue face, mitten cuffs, Yeti-feet at the bottom. All text spelled exactly as written above, crisp and correct. No red, no green, no gold. Photorealistic product photo of the physical box."
+  }
+ }
+]

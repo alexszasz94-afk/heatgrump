@@ -1,14 +1,14 @@
 {
   "_nota": "HeatYeti — copia HeatGrump. ID-urile care nu sunt aici (connector_ref, controller_real, clipuri de mișcare, personaje/camere) se iau din library/media.json, sunt comune.",
   "product_yeti_refs": [
-    "194f0964-4888-4818-af7b-8189590a45ed",
-    "0fc94f80-580b-45b8-a7d7-46b39ef93990",
-    "de261e8d-6202-46ad-a2bc-79c9f9f55f16",
-    "11315cc0-f2dc-457b-9faa-5c8e666e269b"
+    "372d9010-8951-4060-a648-6129ebefabed",
+    "cc66b071-4a59-48c5-b066-7b08263509cd",
+    "1bd89982-5beb-4a05-b5e1-24b0bc689bda",
+    "0880e301-6f81-428c-ab70-66535067f252"
   ],
   "_plates_local": "output/yeti-fixed/placa-*.png",
-  "_product_yeti_refs_local": "yeti/refs/yeti-ref1..4.png (job id-urile de generare se pot folosi direct ca medias)",
-  "box": "c4e5daef-5109-4d41-ab18-f6d82c8b8e4e",
+  "_product_yeti_refs_local": "yeti/refs/yeti-ref1..4.png = conceptul B (față închis, față deschis, profil, spate); v1 în yeti/refs/v1-ghetar/",
+  "box": "5bf2746c-3d30-4e63-9080-07344a7b3bb8",
   "plates_fixed": {
     "telecomanda_barbat": "16fb5576-d168-4dfc-ac95-b5d0f8f504ac",
     "telecomanda_femeie": "08044216-312e-4075-9bd5-089ebd8aa143",
@@ -32,5 +32,13 @@
       "conector_*": "1.7-3.5 s (se termină complet intrat)"
     },
     "_telecomanda_metoda": "Genjutsu hf_mult_replace_object pe clipurile Grinch aprobate (doar manșeta verde → albă Yeti); luminițele rămân exact cele aprobate. Seedance din placă nu urca smooth (3 încercări)."
-  }
+  },
+  "product_yeti_refs_v1_ghetar": [
+    "194f0964-4888-4818-af7b-8189590a45ed",
+    "0fc94f80-580b-45b8-a7d7-46b39ef93990",
+    "de261e8d-6202-46ad-a2bc-79c9f9f55f16",
+    "11315cc0-f2dc-457b-9faa-5c8e666e269b"
+  ],
+  "box_v1_ghetar": "c4e5daef-5109-4d41-ab18-f6d82c8b8e4e",
+  "design_sheet_B": "364be95a-e52e-421f-8ee2-e5af7d5bbc5f"
 }
