@@ -1,0 +1,50 @@
+{
+ "out": "output/reel17/reel17-FINAL.mp4",
+ "segments": [
+  {
+   "file": "output/reel17/hooks/hook.mp4",
+   "start": 1.8,
+   "end": 4.8
+  },
+  {
+   "file": "output/reel17/unboxing.mp4",
+   "start": 0,
+   "end": 1.8
+  },
+  {
+   "file": "output/reel17/b1.mp4",
+   "start": 0,
+   "end": 0.85
+  },
+  {
+   "file": "output/reel17/b2.mp4",
+   "start": 1.0,
+   "end": 3.2
+  },
+  {
+   "file": "output/fixed/conector-femeie-taiat.mp4",
+   "start": 0,
+   "end": 1.5
+  },
+  {
+   "file": "output/fixed/telecomanda-femeie-taiat.mp4",
+   "start": 0,
+   "end": 2.2
+  },
+  {
+   "file": "output/reel17/cozy.mp4",
+   "start": 0,
+   "end": 1.5
+  }
+ ],
+ "texts": [
+  {
+   "t0": 0.0,
+   "t1": 13.05,
+   "text": "Don't show this to a Grinch fan… 🥹💚"
+  }
+ ],
+ "music": "library/music/viral-Dd6Ik80yLIE.m4a",
+ "music_start": 0,
+ "orig_vol": 0.12
+}
