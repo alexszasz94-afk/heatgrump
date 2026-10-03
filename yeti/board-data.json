@@ -1,0 +1,25 @@
+{
+  "base": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261003_",
+  "sections": [
+    {"title": "Halatul HeatYeti · 4 referințe", "note": "Făcute 1:1 după referințele Grinch; se schimbă doar designul.", "items": [
+      {"label": "Referința 1 · față, deschis", "src": "072809_194f0964-4888-4818-af7b-8189590a45ed.png", "status": "gata"},
+      {"label": "Referința 2 · lateral, cordon", "src": "072808_0fc94f80-580b-45b8-a7d7-46b39ef93990.png", "status": "gata"},
+      {"label": "Referința 3 · glugă, buzunare", "src": "072808_de261e8d-6202-46ad-a2bc-79c9f9f55f16.png", "status": "gata"},
+      {"label": "Referința 4 · față, închis", "src": "072808_11315cc0-f2dc-457b-9faa-5c8e666e269b.png", "status": "gata"}
+    ]},
+    {"title": "Cutia HEAT YETI", "note": "Același format ca HeatGrump: fereastră, model, iconițe, „Stay warm. Stay wild.”", "items": [
+      {"label": "Cutie", "src": "073252_c4e5daef-5109-4d41-ab18-f6d82c8b8e4e.png", "status": "gata"}
+    ]},
+    {"title": "Telecomandă · clipuri fixe", "note": "Plăcile aprobate Grinch, doar manșeta schimbată în blana albă Yeti. La montaj: de la prima apăsare.", "items": [
+      {"label": "Bărbat", "src": "074732_9d8715f1-9f9b-4d99-a5fd-104bf3b1f299.mp4", "status": "gata · 1→2", "cut": "1,0–3,7 s"},
+      {"label": "Femeie", "src": "074139_1f61d61b-6383-447d-8710-31dde5adb345.mp4", "status": "gata · 1→2→3", "cut": "1,4–4,2 s"},
+      {"label": "Bărbat · piele închisă", "src": "073604_7038acff-c216-4bce-84b8-37a7ecc1995e.mp4", "status": "gata · 1→2", "cut": "0,3–2,4 s"}
+    ]},
+    {"title": "Conector · clipuri fixe", "note": "Intră complet, fără gol, fir la ambele părți. La montaj ~1,8 s, se termină complet intrat.", "items": [
+      {"label": "Bărbat", "src": "073604_5df8b36f-b144-4ca8-9eff-19e762b5e59a.mp4", "status": "gata", "cut": "1,7–3,5 s"},
+      {"label": "Femeie", "src": "073604_8ceec371-3b74-46ec-bfcd-3c504669c506.mp4", "status": "gata", "cut": "1,7–3,5 s"},
+      {"label": "Bărbat · piele închisă", "src": "073604_a7a769e0-4e76-4cb3-a3e8-5af461bd7bd5.mp4", "status": "gata", "cut": "1,7–3,5 s"}
+    ]},
+    {"title": "Urmează · primul reel Yeti", "note": "Unboxing (cutia pe jos) → B1 → B2 → cozy cu un set din rotație, + hook. Pornește la „yeti video nou”.", "items": []}
+  ]
+}
