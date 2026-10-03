@@ -4,22 +4,22 @@
   {
    "file": "output/reel12/hooks/hook.mp4",
    "start": 0,
-   "end": 3.0
+   "end": 2.6
   },
   {
    "file": "output/reel12/unboxing.mp4",
    "start": 0,
-   "end": 2.4
+   "end": 2.0
   },
   {
    "file": "output/reel12/b1.mp4",
    "start": 0,
-   "end": 1.3
+   "end": 1.0
   },
   {
    "file": "output/reel12/b2.mp4",
-   "start": 0.6,
-   "end": 4.6
+   "start": 0.8,
+   "end": 3.4
   },
   {
    "file": "output/fixed/conector-femeie-taiat.mp4",
@@ -34,32 +34,32 @@
   {
    "file": "output/reel12/cozy.mp4",
    "start": 0,
-   "end": 2.5
+   "end": 1.4
   }
  ],
  "texts": [
   {
    "t0": 0.0,
-   "t1": 10.7,
+   "t1": 8.2,
    "text": "DONT show this to a Grinch girl 😳🎄"
   },
   {
-   "t0": 10.7,
-   "t1": 12.2,
+   "t0": 8.2,
+   "t1": 9.7,
    "text": "plug it in 🔌"
   },
   {
-   "t0": 12.2,
-   "t1": 14.4,
+   "t0": 9.7,
+   "t1": 11.9,
    "text": "5 heat levels 🔥"
   },
   {
-   "t0": 14.4,
-   "t1": 16.9,
+   "t0": 11.9,
+   "t1": 13.3,
    "text": "she's never taking it off 🥹"
   }
  ],
- "music": "library/music/all-i-want.m4a",
+ "music": "library/music/viral-DdX3q9kzIls.m4a",
  "music_start": 0,
  "orig_vol": 0.12
 }

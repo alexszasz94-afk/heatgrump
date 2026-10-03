@@ -23,6 +23,6 @@ Citește întâi `docs/03-rules.md` (secțiunile din 2 oct au prioritate).
    Texte (EN, cu emoji, stil merry.jammies/snuglore): implicit textul hook-ului rămâne pe TOT videoul (regula 2 oct); doar la hook-uri de tip „The concept / Vs…” se schimbă textul pe produs.
    Final: videoul se oprește odată cu muzica (automat în final.py); Reel 7 = referința aprobată.
    Sunet: B-roll, conector, telecomandă = mute (automat în final.py); doar hook-ul își păstrează sunetul.
-   Muzică: `library/music/*.m4a` (All I Want For Christmas / It's Beginning to Look… / Last Christmas), rotită; sunet original la 0,15.
+   Muzică: sunetul ORIGINAL al viralului din care e hook-ul (regula 3 oct): `library/music/viral-<cod>.m4a` (extras din mp4-ul viralului; dacă mp4-ul n-are sunet, `audioUrl` din Apify). Sunet original la 0,12.
 7. Verifică MP4-ul final (cadre la fiecare tăietură + că are text și muzică), urcă-l în Studio (asset + `clips/rN-REEL`), actualizează harta, `git add -A && commit && push`.
 8. Livrează lui Szasz: linkul din Studio, calea MP4-ului, caption-ul (EN, o propoziție + hashtag-uri) și ce hook/viral/muzică ai folosit.
