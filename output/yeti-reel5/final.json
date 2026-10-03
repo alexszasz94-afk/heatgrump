@@ -18,8 +18,8 @@
   },
   {
    "file": "output/yeti-reel5/b2.mp4",
-   "start": 2.0,
-   "end": 5.0
+   "start": 0.0,
+   "end": 2.99
   },
   {
    "file": "output/yeti-fixed/conector-femeie-taiat.mp4",
@@ -40,22 +40,22 @@
  "texts": [
   {
    "t0": 0,
-   "t1": 8.7,
+   "t1": 8.69,
    "text": "DONT show this to a Yeti girl 😳❄️"
   },
   {
-   "t0": 8.7,
-   "t1": 10.3,
+   "t0": 8.69,
+   "t1": 10.29,
    "text": "plug it in 🔌"
   },
   {
-   "t0": 10.3,
-   "t1": 12.1,
+   "t0": 10.29,
+   "t1": 12.09,
    "text": "5 heat levels 🔥"
   },
   {
-   "t0": 12.1,
-   "t1": 13.1,
+   "t0": 12.09,
+   "t1": 13.09,
    "text": "Yeti girl approved 🏔️"
   }
  ],
