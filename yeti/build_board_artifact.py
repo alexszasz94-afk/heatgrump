@@ -6,8 +6,9 @@ TMP = os.path.join(os.path.dirname(OUT), "_media"); os.makedirs(TMP, exist_ok=Tr
 
 def ff(*a): subprocess.run(["ffmpeg", "-loglevel", "error", "-y", *a], check=True)
 def uri(path, mime): return f"data:{mime};base64," + base64.b64encode(open(path, "rb").read()).decode()
-def img(src, name):
-    p = os.path.join(TMP, name + ".jpg"); ff("-i", src, "-vf", "scale=540:-1", "-q:v", "4", p); return uri(p, "image/jpeg")
+def img(src, name, w=540):
+    if name.startswith("c-"): w = 1600
+    p = os.path.join(TMP, name + ".jpg"); ff("-i", src, "-vf", f"scale={w}:-1", "-q:v", "4", p); return uri(p, "image/jpeg")
 def vid(src, name):
     v = os.path.join(TMP, name + ".mp4"); pz = os.path.join(TMP, name + "-p.jpg")
     ff("-i", src, "-vf", "scale=480:-2", "-c:v", "libx264", "-crf", "26", "-preset", "slow", "-an", "-movflags", "+faststart", v)
@@ -37,6 +38,21 @@ def fixed_cards(kind):
         v, p = vid(R(f"output/yeti-fixed/{f}-taiat.mp4"), f)
         out.append(f'''<figure class="clip"><video src="{v}" poster="{p}" muted loop playsinline controls preload="metadata"></video>
 <figcaption><b>{html.escape(who)}</b><span class="pill">{html.escape(res)}</span><span class="cut">tăietura {html.escape(cut)}</span></figcaption></figure>''')
+    return "".join(out)
+
+concepts = [
+ ("A", "Ghețar", "A-ghetar", "Cel mai aproape de HeatGrump: albastru-gheață sus, alb jos, linia dintre ele în formă de țurțuri cu fir argintiu. Gluga e un cap de Yeti cu cornițe, urechi și moț alb."),
+ ("B", "Blană de Yeti", "B-blana", "Tot halatul e blană albă lungă, ca un Yeti adevărat. Manșete-mănușă cu palmă gri și săculeții de jos în formă de labe uriașe cu degete gri."),
+ ("C", "Munte", "C-munte", "Alb sus; jos un lanț de munți înzăpeziți pe albastru-ardezie, ca și cum Yeti vine din munți. Arată bine din toate unghiurile, munții se continuă pe spate."),
+ ("D", "Gura Yeti", "D-gura", "Gluga e capul Yeti și fața ta iese prin gura lui, cu colți moi pe margine. Burtă albastră pe față, labe de Yeti la tiv. Cel mai amuzant pentru hook-uri."),
+ ("E", "Noapte", "E-noapte", "Bleumarin închis sus, blană albă de Yeti jos, cu margine de nămete. Contrast puternic, se vede foarte bine în cadru și la lumină caldă."),
+]
+def concept_cards():
+    out = []
+    for k, name, f, d in concepts:
+        src = img(R(f"yeti/concepts/{f}.png"), "c-" + f).replace("scale=540", "scale=540")
+        out.append(f'''<figure class="sheet"><img src="{src}" alt="Concept {k} {html.escape(name)}">
+<figcaption><b>{k} · {html.escape(name)}</b><span>{html.escape(d)}</span></figcaption></figure>''')
     return "".join(out)
 
 steps = [("Hook", "urmează", "todo"), ("Unboxing", "urmează", "todo"), ("B1 · îmbracă", "urmează", "todo"),
@@ -72,10 +88,12 @@ figcaption{{display:flex;flex-wrap:wrap;gap:4px 8px;align-items:baseline;font-si
 figcaption b{{font-weight:600;width:100%}}figcaption span{{color:var(--mute);font-size:13px}}
 .pill{{color:var(--ok)!important;font-weight:600}}
 .cut{{font-variant-numeric:tabular-nums}}
+.sheets{{display:grid;gap:22px}}.sheet img{{aspect-ratio:16/9;object-fit:contain;background:var(--paper)}}.sheet figcaption span{{max-width:75ch}}
 .boxrow{{display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);gap:24px;align-items:start}}
 .facts{{margin:0;display:grid;grid-template-columns:auto 1fr;gap:8px 16px;font-size:14px}}
 .facts dt{{color:var(--mute)}}.facts dd{{margin:0}}
-@media (max-width:640px){{.boxrow{{grid-template-columns:1fr}}}}
+@media (max-width:640px){{.sheets{{display:grid;gap:22px}}.sheet img{{aspect-ratio:16/9;object-fit:contain;background:var(--paper)}}.sheet figcaption span{{max-width:75ch}}
+.boxrow{{grid-template-columns:1fr}}}}
 </style>
 <div class="wrap">
 <header>
@@ -85,7 +103,12 @@ figcaption b{{font-weight:600;width:100%}}figcaption span{{color:var(--mute);fon
   <ul class="flow" aria-label="Ordinea de montaj">{flow}</ul>
 </header>
 <section>
-  <h2>Halatul</h2>
+  <h2>Idei noi de halat · alege una</h2>
+  <p class="note">Cinci direcții Yeti. Fiecare foaie arată același halat din patru unghiuri: față cu gluga pusă, față deschis, profil, spate. Gluga e aceeași în toate pozițiile. După ce alegi, fac din ea cele 4 referințe finale și refac cutia.</p>
+  <div class="sheets">{concept_cards()}</div>
+</section>
+<section>
+  <h2>Prima variantă (actuală)</h2>
   <p class="note">Patru referințe făcute 1:1 după cele de Grinch, aceeași croială, alt design. Ele intră în fiecare B1, B2, cozy și unboxing.</p>
   <div class="grid">{ref_cards}</div>
 </section>
