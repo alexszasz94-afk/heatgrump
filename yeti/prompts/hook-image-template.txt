@@ -1,0 +1,14 @@
+# model gpt_image_2 · 9:16 · quality high · 4k · medias: 1 personaj, 2 cameră (FĂRĂ referințe de halat)
+# REGULI: în hook NU apare halatul. Un singur start frame + o singură acțiune de 4-5 s, cameră fixă. Textul îl pune el în CapCut. 3 idei per reel: problem-vs-solution, reacție, neașteptat. Fără branduri reale. Idei noi la fiecare reel (vezi library/hooks-library.json).
+
+SCENE: <descrierea cadrului, în engleză, 2-3 propoziții: cine, unde, ce face, ce expresie>
+
+FRAMING: static phone camera at chest height, the whole action and the person's face clearly readable, the key objects fully inside the frame.
+
+IMAGE ROLES: Image 1 is the PERSON — exactly the same face, hair, age, build and gender, wearing EXACTLY the outfit from Image 1 (plus only the extra items the scene names). Image 2 is their HOME — same style, walls, furniture, floor, decor and colours; use the part of the home the scene needs, seen from the best angle for this shot.
+
+NO PRODUCT: no robe, no wearable blanket, no hooded blanket, nothing Yeti-themed anywhere in the frame.
+
+[INSERT prompts/blocks/light-ultra-real.txt]
+
+Candid everyday phone photo, static camera, correct hands with five fingers, correct anatomy. Vertical 9:16. NO TEXT anywhere, no readable writing, no logos, no watermarks.

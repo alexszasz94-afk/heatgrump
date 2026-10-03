@@ -1,0 +1,13 @@
+# gpt_image_2 · 9:16 · quality high · 4k
+# medias: 1 = cutia HeatGrump (5e8840d4), 2-3 = yeti refs (194f0964, 11315cc0)
+
+Image 1 is the product box of a heated wearable blanket robe (HeatGrump). Recreate this box ONE TO ONE — the same box shape and proportions, the same layout, the same large transparent window on the front showing the folded robe inside, the same model photo printed on the right side of the front, the same small icons row along the bottom, the same typography style and placement, the same studio product-photo angle and background — but rebranded as HEATYETI for the Yeti version of the robe shown in Images 2 and 3:
+
+- Logo across the top in the same chunky bold style: "HEAT YETI", lettering in icy glacier blue with a white outline.
+- Subtitle under it, same style: "Heated Wearable Blanket Robe".
+- Tagline at the bottom, same style: "Stay warm. Stay wild."
+- Box colour: icy glacier-blue printed cardboard with soft white snowy accents instead of red; thin silver border line instead of gold.
+- Through the window: the folded HeatYeti robe from Images 2-3 — icy glacier-blue plush, snow-white plush and long-pile shaggy snow-white Yeti fur cuffs.
+- The printed model on the box wears the HeatYeti robe from Images 2-3 (hood up, grumpy Yeti face on the hood).
+
+All text spelled exactly as written above, crisp and correct. No red, no green, no gold. Photorealistic product photo of the physical box.

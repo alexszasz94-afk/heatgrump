@@ -1,0 +1,20 @@
+# model seedance_2_5 · omni_reference · start_image = placa de conector · image_references = connector_ref (2774615c) · 4 s · 1080p · 9:16 · bitrate high · generate_audio true
+
+ONE SINGLE SHOT, FRAME LOCKED — ABSOLUTE RULE, HIGHEST PRIORITY: the camera is bolted in place for the whole 4 seconds. NO cut, NO second shot, NO re-frame, NO zoom, NO pan, NO tilt, NO push-in, NO pull-out, NO angle change at any moment, and above all NOT at the end. THE LAST FRAME OF THE CLIP HAS EXACTLY THE SAME COMPOSITION AS THE FIRST FRAME: same camera height, same distance, same angle, same crop, same background, same lighting, same exposure, hands in the same part of the frame. The only thing that has changed between the first and the last frame is that the two connector halves are now joined. Nothing new enters the frame; the shot never opens out to show the room, the person or the robe worn.
+
+THE CONNECTOR — ABSOLUTE RULE: the connector stays EXACTLY the object shown in the start frame, in every single frame of the clip. Same two-part grey connector, same body shape and proportions, same grey plastic colour and finish, same ribs and edges, same cable thickness and grey cable colour, same size relative to the hands. Nothing morphs, nothing changes colour, no new part, no label, no LED, no screw, no ring appears. It never turns into a different kind of plug.
+
+THE TWO HALVES GO INTO EACH OTHER COMPLETELY — ABSOLUTE RULE: the two halves travel toward each other along one straight line, stay perfectly aligned the whole way, and keep going until one half is seated all the way inside the other and their two bodies are pressed FLUSH together — ZERO gap left between them. When it is done the joint looks like one single continuous piece of grey plastic.
+
+FORBIDDEN: a cut or a new shot at any point, especially at the end. The camera moving or re-framing. The two halves touching and stopping short. A gap, a slit or a dark line left between them. The halves sliding past each other, overlapping side by side, or crossing. One half bending. The halves separating again afterwards. The connector changing shape or type.
+
+ACTION TIMELINE, PACED FOR FOUR SECONDS:
+0.0-1.5s — the two halves are held apart with a clear gap, lined up face to face, and move slowly and steadily toward each other in a straight line, staying aligned. Only the hands move; the frame does not.
+1.5-2.3s — one half slides all the way home into the other in one continuous push until the two bodies are flush. One firm audible CLICK at the exact frame they seat.
+2.3-4.0s — the thumb presses the joint once to seat it fully, then both hands hold still, the connected piece resting in the middle of the same locked frame, completely closed, no gap, nothing moving until the clip ends.
+
+AUDIO: the soft rustle of plush fabric under the hands, one firm plastic CLICK at the exact frame the two halves seat together. Quiet indoor room tone. No voice, no music.
+
+Human-paced movement, correct number of fingers, no extra limbs, no morphing.
+
+Candid raw iPhone 12, film grain, no AI glow, no smoothing. No text overlays, no watermark.

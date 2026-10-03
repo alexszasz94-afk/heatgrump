@@ -1,0 +1,21 @@
+{
+  "_nota": "HeatYeti — copia HeatGrump. ID-urile care nu sunt aici (connector_ref, controller_real, clipuri de mișcare, personaje/camere) se iau din library/media.json, sunt comune.",
+  "product_yeti_refs": [
+    "194f0964-4888-4818-af7b-8189590a45ed",
+    "0fc94f80-580b-45b8-a7d7-46b39ef93990",
+    "de261e8d-6202-46ad-a2bc-79c9f9f55f16",
+    "11315cc0-f2dc-457b-9faa-5c8e666e269b"
+  ],
+  "_plates_local": "output/yeti-fixed/placa-*.png",
+  "_product_yeti_refs_local": "yeti/refs/yeti-ref1..4.png (job id-urile de generare se pot folosi direct ca medias)",
+  "box": "c4e5daef-5109-4d41-ab18-f6d82c8b8e4e",
+  "plates_fixed": {
+    "telecomanda_barbat": "16fb5576-d168-4dfc-ac95-b5d0f8f504ac",
+    "telecomanda_femeie": "08044216-312e-4075-9bd5-089ebd8aa143",
+    "telecomanda_barbat_piele_inchisa": "a861cfc3-819f-4a32-8349-9b5f0e404cf1",
+    "conector_barbat": "c70cda55-e511-49f4-8d12-11b22a9e7ab5",
+    "conector_femeie": "8851cd1d-8a84-45c8-bb33-5c0bfbf5d767",
+    "conector_barbat_piele_inchisa": "8fc5cc0a-f594-4b23-a64e-f14394abcdaa"
+  },
+  "fixed_clips": {}
+}

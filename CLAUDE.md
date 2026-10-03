@@ -24,6 +24,9 @@ Szasz nu e programator. Vorbește simplu, în română, fără jargon; nu-i cere
 - La `regula: ...` → adaugă linia datată în `docs/03-rules.md` și, dacă e regulă de producție, în `CLAUDE.md`.
 Descarcă rezultatele Higgsfield în `output/reelN/` și verifică-le vizual (skill `qa-check`) înainte să le raportezi.
 
+## HeatYeti (al doilea produs, din 3 oct)
+Copie exactă a fluxului HeatGrump, cu halatul Yeti (albastru-gheață + alb, fața Yeti pe glugă, manșete de blană albă, căptușeală albastru-gheață, cutia „HEAT YETI”). Totul e în `yeti/` — citește `yeti/README.md` și `yeti/01-product-yeti.md`. La orice comandă cu „yeti” (ex. `yeti reel nou`, `yeti video nou`) folosește `yeti/media.json` și `yeti/prompts/` în locul celor Grinch; restul regulilor rămân identice. Rezultatele merg în `output/yeti-reelN/`.
+
 ## Ce face Szasz și ce faci tu
 Szasz face în CapCut: textul pe ecran, muzica, mici tăieturi. Tu îi dai MP4-ul montat + fișierul .txt cu propunerea de text (EN, pe secunde), caption (EN, o propoziție + hashtag-uri) și idee de muzică. Tu răspunzi de: hook-uri (originale, din research), calitatea vizuală (ultra-realist), analiză și feedback.
 

@@ -1,0 +1,16 @@
+# model gpt_image_2 · 9:16 · quality high · 4k
+# medias (ordinea contează): 1 controller_real (cb73364c), 2 personaj, 3 cameră, 4-7 product refs
+
+REPRODUCE THE CONTROLLER FROM IMAGE 1 ONE TO ONE — ABSOLUTE RULE, HIGHEST PRIORITY. Image 1 is OUR controller. The controller in this new image must be EXACTLY the object in Image 1: the same white plastic body, the same shape and proportions, the same round button in the same place, the same indicator lights — the same NUMBER of them, the same size, the same spacing, the same position on the body, from the lowest one to the highest one, exactly as Image 1 shows them — the same printing and markings, the same cable thickness and colour coming out of the same place. Copy it, do not design it. Do NOT add a light, do NOT leave a light out, do NOT move the lights, do NOT resize them, do NOT add a display, a screen, a second button, a label, a logo or a texture that is not in Image 1. If any detail is hard to read in Image 1, copy Image 1 as closely as you can rather than inventing something. Every light is OFF — dark, unlit, nothing glowing.
+
+THE SLEEVE — ABSOLUTE RULE, SECOND PRIORITY: the framing is so tight that the ONLY part of the robe that appears is the long-pile shaggy SNOW-WHITE Yeti faux-fur cuff at the wrist (strands with a faint icy-blue sheen). That white Yeti fur is the only garment material in the frame. There is NO white sherpa cuff visible, NO icy-blue plush, NO snow-white plush skirt, NO hood, NO sherpa trim, NO body of the robe at all — the shot is too close for any of that to fit. Just the hand, the wrist, the shaggy snow-white Yeti fur ring around that wrist, and the controller.
+
+IMAGE ROLES: Image 1 is THE CONTROLLER (the rule above). Image 2 is the PERSON whose hand this is — the hand must read as THEIR hand: matching their skin tone, age and gender, natural skin, five fingers, natural anatomy. Image 3 is the ROOM. Images 4-7 are THE ROBE — used ONLY for the colour and texture of that snow-white Yeti fur cuff.
+
+FRAMING — TIGHT MACRO: the controller is held face-on in their hand and FILLS most of the frame, its body spanning roughly three quarters of the frame height, its face square to the camera so the whole row of lights and the button read clearly. The thumb rests on the round button and does NOT cover any of the indicator lights. The cable runs out of the bottom. Only the hand, the wrist and the green fur cuff are in frame. Vertical 9:16. The whole controller and the hand stay fully inside the frame, never cropped at the edges, and the full row of lights is inside the frame from the lowest to the highest.
+
+BACKGROUND — RIGHT AT THE CHRISTMAS TREE: they are standing directly beside the decorated Christmas tree from Image 3, close enough that the tree fills the whole background behind the hand — green branches, baubles and warm string lights only centimetres behind the controller, thrown into soft bokeh. No wall, no furniture, no wide view of the room.
+
+The white Yeti fur looks noticeably thick, cozy and premium — dense shaggy pile, soft deep strands catching the tree lights.
+
+No red or green on the fur cuff, no pink, no snowflakes, no Santa print. Sharp focus on the controller, shallow depth of field on the tree behind. Candid iPhone photo, natural indoor light plus the tree's warm lights, photorealistic. No text, no logos, no watermarks.
