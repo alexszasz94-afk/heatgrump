@@ -1,0 +1,15 @@
+# HeatYeti B2 — REGULA lui Szasz (3 oct seara): Genjutsu hf_mult_motion_control cu clipul-model B2 Yeti (job d604b922, output/yeti-b2-master/b2-vechi-238.mp4) și se schimbă DOAR personajul + camera + hainele.
+# medias: 1 personaj, 2 cameră, 3-6 yeti refs (product_yeti_refs), 7 interiorul săculeților (76bddfde), video_references = d604b922 · 5 s · 1080p
+B2 — STANDING IN THE ROBE, OPENING IT, FEET INTO THE FOOT POUCHES. Transfer the movement and camera work from the driving video exactly onto the subject in the reference images. The driving video already shows the correct robe and the correct foot-pouch action — copy that action and that robe exactly; change only the person, their clothes and the room.
+
+LOOK — BRIGHT, EVERYDAY UGC: a normal person filming themselves on their own phone in a well-lit room. Bright, evenly lit, colours clearly readable, no dark corners, no moody grade, no orange tint, no vignette. Natural phone look.
+
+IMAGE ROLES: Image 1 is the PERSON — face, hair, age, build and gender exactly as in Image 1 in every frame. Image 2 is the ROOM — same walls, furniture and decor. Images 3-6 are THE ROBE. Image 7 shows the foot pouches from the inside when the robe is open.
+
+THEIR CLOTHES — ABSOLUTE RULE: underneath the robe they wear <OUTFIT>, the same the whole clip. Do NOT copy the clothes of the person in the driving video.
+
+THE FOOT POUCHES — EXACTLY AS IN THE DRIVING VIDEO: when the robe is spread open, the bottom of each front panel is a wide foot pouch lined with icy-blue minky with a white fur trim (Image 7), and the outside of each pouch is a giant shaggy white Yeti paw with slate-grey toe pads. At the opening the person's own feet are OUTSIDE on the floor and the pouches are empty; then they lift one knee and put that foot INTO its pouch, then the other. When the robe is wrapped closed at the end, the bottom of the robe is the two giant shaggy white Yeti paws with grey toe pads, side by side, toes toward the camera, their feet inside.
+
+THE ROBE, identical to Images 3-6 and the driving video in every frame: long-pile shaggy snow-white Yeti fur outside, smooth icy-blue minky lining inside (never white, never green), Yeti-mitten cuffs with a slate-grey palm patch, two plain shaggy white fur pockets with nothing on them. THE HOOD is up the whole time: a big shaggy white Yeti head with two curved slate-grey horns, small round white ears, and the soft 3D grumpy Yeti face (pale icy-blue skin, narrow grumpy eyes, heavy white fur eyebrows, small dark nose, two tiny white fangs) above the forehead; the person's face visible below it. No red, no green, no gold. The robe is visible full length, never cropped.
+
+The movement is smooth, never abrupt. Vertical 9:16. NO TEXT ANYWHERE, no watermark.

@@ -36,7 +36,7 @@ Set de clipuri, în ordinea de montaj: **hook → unboxing → B1 (îmbracă hal
 ## Cum se produce fiecare clip
 | Clip | Metodă | Prompt | Aprobare |
 |---|---|---|---|
-| B1, B2, cozy (la Yeti: B2 = placă + seedance, vezi yeti/prompts/b2-*) | Genjutsu `hf_mult_motion_control`, clip de mișcare din bibliotecă (ROTIT între reel-uri) + personaj + cameră + 4 ref. produs | `prompts/b1-…`, `b2-…`, `cozy-…` | direct |
+| B1, B2, cozy (la Yeti: B2 = Genjutsu cu clipul-model Yeti d604b922, vezi yeti/prompts/b2-genjutsu.txt) | Genjutsu `hf_mult_motion_control`, clip de mișcare din bibliotecă (ROTIT între reel-uri) + personaj + cameră + 4 ref. produs | `prompts/b1-…`, `b2-…`, `cozy-…` | direct |
 | telecomandă | CLIP FIX refolosit (bărbat / femeie, `media.json` → `fixed_clips`); se generează doar dacă lipsește: placă gpt_image_2 → video seedance_2_5 | `controller-plate.txt` → `controller-video.txt` | direct |
 | conector | CLIP FIX refolosit (bărbat / femeie, `media.json` → `fixed_clips`); se generează doar dacă lipsește: placă gpt_image_2 → video seedance_2_5 | `connector-plate.txt` → `connector-video.txt` | direct |
 | unboxing | placă (cutia PE JOS) → video, cutie + 1-2 ref. produs | `unboxing-image.txt` → `unboxing-video.txt` | direct |

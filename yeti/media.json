@@ -43,9 +43,8 @@
   "design_sheet_B": "364be95a-e52e-421f-8ee2-e5af7d5bbc5f",
   "ref_b2_labe": "7a244eab-6e49-450f-b2ae-72928ade6dcf",
   "_ref_b2_labe": "cadru din B2 reel 3 (halat deschis, labele de Yeti la colțuri) — exemplu pentru replace_object la B2",
-  "b2_driving_clip": "55918db8-3dea-403f-8b80-874808871ac1",
-  "_b2_driving_clip": "3 oct (Szasz): clipul de mișcare B2 Yeti pentru Genjutsu — seedance din poza semi-închis (11664f13): deschide ca aripi, ridică genunchii cu labele cusute de halat, închide. Rezervă: 779f6b15 (224). Local: output/yeti-b2-master/b2-anim-223.mp4",
-  "b2_ref_semi_inchis": "11664f13-d451-4439-8227-3af9e555a34a",
+  "b2_driving_clip": "d604b922-00d3-46d1-9953-7ad760c86816",
+  "_b2_driving_clip": "REGULA Szasz 3 oct seara: B2 Yeti = Genjutsu hf_mult_motion_control cu clipul ăsta (output/yeti-b2-master/b2-vechi-238.mp4) de FIECARE dată; se schimbă doar personaj + cameră + haine. Prompt: yeti/prompts/b2-genjutsu.txt. Medias: personaj, cameră, 4 product_yeti_refs, 76bddfde (interior săculeți), video d604b922.",
   "ref_b2_saculeti_interior": [
     "76bddfde-38ff-4b8f-8677-27a3cc5b50c4",
     "1a6fc484-6219-4c87-befd-0f12d1c228a1"
