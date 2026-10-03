@@ -16,3 +16,4 @@ Din poza semi-închis 2 (poza-semi-inchis-2.png, job 11664f13), animată cu seed
 - start-frame-inchis.png = poza semi-închis 2 (job 11664f13)
 - start-frame-deschis-b2.png = deschis ca B2 Grinch, brațe întinse, labele pe picioarele ei (job a9caccb1)
 Regulă: la „deschis” labele stau SUB picioarele ei (picioarele în labe), nu în colțurile halatului.
+- CORECȚIE Szasz: deschis de tot NU se văd labele (pernuțele gri), ci INTERIORUL săculeților, căptușit albastru-gheață cu margine de blană albă, cu picioarele ei (șosete albe) înăuntru — ca la Grinch. Variante: deschis-saculeti-1.png (job e8b273b8), deschis-saculeti-2.png (job 2025dbfc). Respins: respins-deschis-labe-in-fata.png.
