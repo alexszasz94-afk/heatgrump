@@ -11,3 +11,8 @@ Lecții: placa trebuie să fie fidelă referințelor (labe cusute de halat, blan
 Din poza semi-închis 2 (poza-semi-inchis-2.png, job 11664f13), animată cu seedance: deschide halatul ca aripi, ridică pe rând genunchii cu labele cusute de halat („își bagă picioarele”), închide și ține halatul la piept.
 - **b2-anim-223.mp4** (job 55918db8) — ales: genunchii se ridică clar, labele se văd în toate cadrele. → `yeti/media.json` → `b2_driving_clip`.
 - b2-anim-224.mp4 (job 779f6b15) — rezervă, mișcare mai mică.
+
+## 3 oct — start frame-uri B2 (cerute de Szasz)
+- start-frame-inchis.png = poza semi-închis 2 (job 11664f13)
+- start-frame-deschis-b2.png = deschis ca B2 Grinch, brațe întinse, labele pe picioarele ei (job a9caccb1)
+Regulă: la „deschis” labele stau SUB picioarele ei (picioarele în labe), nu în colțurile halatului.
