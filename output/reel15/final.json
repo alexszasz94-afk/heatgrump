@@ -1,0 +1,50 @@
+{
+ "out": "output/reel15/reel15-FINAL.mp4",
+ "segments": [
+  {
+   "file": "output/reel15/hooks/hook.mp4",
+   "start": 0,
+   "end": 3.5
+  },
+  {
+   "file": "output/reel15/unboxing.mp4",
+   "start": 0,
+   "end": 2.3
+  },
+  {
+   "file": "output/reel15/b1.mp4",
+   "start": 0,
+   "end": 0.85
+  },
+  {
+   "file": "output/reel15/b2.mp4",
+   "start": 0.5,
+   "end": 3.8
+  },
+  {
+   "file": "output/fixed/conector-barbat-taiat.mp4",
+   "start": 0,
+   "end": 1.5
+  },
+  {
+   "file": "output/fixed/telecomanda-barbat-taiat.mp4",
+   "start": 0,
+   "end": 2.4
+  },
+  {
+   "file": "output/reel15/cozy.mp4",
+   "start": 0,
+   "end": 2.5
+  }
+ ],
+ "texts": [
+  {
+   "t0": 0.0,
+   "t1": 16.35,
+   "text": "DO NOT let a cold-aholic see this 💚😳"
+  }
+ ],
+ "music": "library/music/viral-Dd9h35Ly2Ca.m4a",
+ "music_start": 0,
+ "orig_vol": 0.12
+}
