@@ -55,8 +55,20 @@ def concept_cards():
 <figcaption><b>{k} · {html.escape(name)}</b><span>{html.escape(d)}</span></figcaption></figure>''')
     return "".join(out)
 
-steps = [("Hook", "urmează", "todo"), ("Unboxing", "urmează", "todo"), ("B1 · îmbracă", "urmează", "todo"),
-         ("B2 · deschide", "urmează", "todo"), ("Conector", "gata", "done"), ("Telecomandă", "gata", "done"), ("Cozy", "urmează", "todo")]
+def reel_cards():
+    out = []
+    for n in range(1, 6):
+        src = R(f"output/yeti-reel{n}/yeti-reel{n}-FINAL.mp4"); v = os.path.join(TMP, f"reel{n}.mp4"); pz = os.path.join(TMP, f"reel{n}-p.jpg")
+        ff("-i", src, "-vf", "scale=540:-2", "-c:v", "libx264", "-crf", "27", "-preset", "slow", "-c:a", "aac", "-b:a", "96k", "-movflags", "+faststart", v)
+        ff("-ss", "1", "-i", src, "-frames:v", "1", "-vf", "scale=540:-2", "-q:v", "5", pz)
+        txt = open(R(f"output/yeti-reel{n}/yeti-reel{n}.txt")).read().split("\n")
+        head = html.escape(txt[0].replace(f"HeatYeti reel {n} — ", "")); outfit = html.escape(txt[1].replace("Haine dedesubt: ", ""))
+        cap = next((l[9:] for l in txt if l.startswith("CAPTION: ")), "")
+        out.append(f'''<figure class="reel"><video src="{uri(v, "video/mp4")}" poster="{uri(pz, "image/jpeg")}" controls playsinline preload="metadata"></video>
+<figcaption><b>Reel {n}</b><span>{head}</span><span>Dedesubt: {outfit}</span><span class="cap">{html.escape(cap)}</span><span class="cut">output/yeti-reel{n}/yeti-reel{n}-FINAL.mp4</span></figcaption></figure>''')
+    return "".join(out)
+
+steps = [(x, "gata", "done") for x in ("Hook", "Unboxing", "B1 · îmbracă", "B2 · deschide", "Conector", "Telecomandă", "Cozy")]
 flow = "".join(f'<li class="{c}"><span>{html.escape(n)}</span><em>{s}</em></li>' for n, s, c in steps)
 
 page = f'''<title>HeatYeti Board</title>
@@ -87,7 +99,7 @@ figure img,figure video{{width:100%;max-width:100%;aspect-ratio:9/16;object-fit:
 figcaption{{display:flex;flex-wrap:wrap;gap:4px 8px;align-items:baseline;font-size:14px}}
 figcaption b{{font-weight:600;width:100%}}figcaption span{{color:var(--mute);font-size:13px}}
 .pill{{color:var(--ok)!important;font-weight:600}}
-.cut{{font-variant-numeric:tabular-nums}}
+.cut{{font-variant-numeric:tabular-nums;word-break:break-all}}.cap{{color:var(--ink)!important}}
 .sheets{{display:grid;gap:22px}}.sheet img{{aspect-ratio:16/9;object-fit:contain;background:var(--paper)}}.sheet figcaption span{{max-width:75ch}}
 .boxrow{{display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);gap:24px;align-items:start}}
 .facts{{margin:0;display:grid;grid-template-columns:auto 1fr;gap:8px 16px;font-size:14px}}
@@ -99,9 +111,14 @@ figcaption b{{font-weight:600;width:100%}}figcaption span{{color:var(--mute);fon
 <header>
   <span class="eyebrow">Copia HeatGrump · 3 octombrie</span>
   <h1>HeatYeti</h1>
-  <p class="lead">Același halat termic, aceleași reguli și aceeași ordine de montaj ca la Grinch, doar cu designul Yeti. Halatul ales e conceptul B, Blană de Yeti. Mai jos e trusa de bază: halatul, cutia și clipurile fixe. Reel-urile vin la „yeti video nou”.</p>
+  <p class="lead">Același halat termic, aceleași reguli și aceeași ordine de montaj ca la Grinch, doar cu designul Yeti. Halatul ales e conceptul B, Blană de Yeti. Mai jos e trusa de bază: halatul, cutia și clipurile fixe. Primele 5 reel-uri sunt gata, mai jos.</p>
   <ul class="flow" aria-label="Ordinea de montaj">{flow}</ul>
 </header>
+<section>
+  <h2>Primele 5 reel-uri HeatYeti</h2>
+  <p class="note">Gata de postat: montate cu textele pe ecran și sunetul original al viralului. Pornește-le cu sunet. MP4-urile la rezoluție mare sunt pe GitHub, în output/yeti-reelN/, lângă fișierul .txt cu textele și caption-ul.</p>
+  <div class="grid">{reel_cards()}</div>
+</section>
 <section>
   <h2>Halatul ales · B, Blană de Yeti</h2>
   <p class="note">Cele 4 referințe finale, făcute din foaia de design B. Gluga e aceeași în toate: două coarne gri, urechi, fața Yeti. Ele intră în fiecare B1, B2, cozy și unboxing.</p>

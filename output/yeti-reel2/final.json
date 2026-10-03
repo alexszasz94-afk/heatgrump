@@ -1,0 +1,70 @@
+{
+ "out": "output/yeti-reel2/yeti-reel2-FINAL.mp4",
+ "segments": [
+  {
+   "file": "output/yeti-reel2/hooks/hook.mp4",
+   "start": 1.0,
+   "end": 4.0
+  },
+  {
+   "file": "output/yeti-reel2/unboxing.mp4",
+   "start": 0,
+   "end": 2.5
+  },
+  {
+   "file": "output/yeti-reel2/b1.mp4",
+   "start": 0,
+   "end": 1.2
+  },
+  {
+   "file": "output/yeti-reel2/b2.mp4",
+   "start": 0.3,
+   "end": 4.0
+  },
+  {
+   "file": "output/yeti-fixed/conector-femeie-taiat.mp4",
+   "start": 0,
+   "end": 1.8
+  },
+  {
+   "file": "output/yeti-fixed/telecomanda-femeie-taiat.mp4",
+   "start": 0,
+   "end": 2.2
+  },
+  {
+   "file": "output/yeti-reel2/cozy.mp4",
+   "start": 0,
+   "end": 2.0
+  }
+ ],
+ "texts": [
+  {
+   "t0": 0,
+   "t1": 3.0,
+   "text": "DONT send this to your mom… ❄️🏔️"
+  },
+  {
+   "t0": 3.0,
+   "t1": 10.4,
+   "text": "she'll never be cold again 🥶➡️🥹"
+  },
+  {
+   "t0": 10.4,
+   "t1": 12.2,
+   "text": "plug it in 🔌"
+  },
+  {
+   "t0": 12.2,
+   "t1": 14.4,
+   "text": "5 heat levels 🔥"
+  },
+  {
+   "t0": 14.4,
+   "t1": 16.4,
+   "text": "a Yeti you can WEAR 🧸"
+  }
+ ],
+ "music": "library/music/viral-DdpIYs0trT0.m4a",
+ "music_start": 0,
+ "orig_vol": 0.12
+}
