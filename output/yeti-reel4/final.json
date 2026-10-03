@@ -18,7 +18,7 @@
   },
   {
    "file": "output/yeti-reel4/b2.mp4",
-   "start": 0.3,
+   "start": 1.0,
    "end": 5.0
   },
   {
@@ -40,22 +40,22 @@
  "texts": [
   {
    "t0": 0,
-   "t1": 11.1,
+   "t1": 10.4,
    "text": "DO NOT show this to your mom 😳❄️"
   },
   {
-   "t0": 11.1,
-   "t1": 12.9,
+   "t0": 10.4,
+   "t1": 12.2,
    "text": "plug it in 🔌"
   },
   {
-   "t0": 12.9,
-   "t1": 15.1,
+   "t0": 12.2,
+   "t1": 14.4,
    "text": "5 heat levels 🔥"
   },
   {
-   "t0": 15.1,
-   "t1": 16.7,
+   "t0": 14.4,
+   "t1": 16.0,
    "text": "she'll never take it off 🥹"
   }
  ],

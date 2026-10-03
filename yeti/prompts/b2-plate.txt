@@ -1,0 +1,10 @@
+# HeatYeti B2 — PASUL 1: placă (regula 3 oct, Szasz). gpt_image_2 · 9:16 · quality high · 4k
+# medias: 1 personaj, 2 cameră, 3 yeti ref1 (372d9010), 4 yeti ref3 (1bd89982)
+# <PERSON>/<PRONOUN> = he/she, <OUTFIT_COLLAR> = hainele setului vizibile la gât, <ROOM_DESC> = ce e în cameră
+Photorealistic candid phone photo, vertical 9:16, full body from the top of the hood down to the floor, camera at chest height about 2.5 meters away, static. Image 1 is the PERSON — face, age, skin, hair and build exactly as in Image 1. Image 2 is the ROOM — <ROOM_DESC>. Images 3-4 are THE ROBE.
+
+<PRONOUN> stands centered, facing the camera, wearing the robe CLOSED with the belt tied and the HOOD UP: the big shaggy snow-white Yeti head hood with two curved slate-grey horns, small rounded white ears and the soft 3D grumpy Yeti face (pale icy-blue skin, narrow grumpy eyes, heavy white fur eyebrows, small dark nose, two tiny white fangs) on the front above the forehead; the face clearly visible inside the hood. The whole robe is long-pile shaggy snow-white Yeti fur, mitten cuffs with a slate-grey palm patch, plain white fur pockets.
+
+THE YETI FEET — ABSOLUTE RULE: the robe reaches the floor and ends in the two GIANT YETI FEET — big shaggy white fur feet with three rounded slate-grey toe pads each, toes toward the camera, standing on the floor side by side, the person's own feet inside them. No shoes, no socks visible.
+
+<OUTFIT_COLLAR> is just visible at the neck. Bright, soft natural light, true-to-life colours, slightly warm but not orange, natural phone look, no beauty filter, no AI glow. No text, no logos.

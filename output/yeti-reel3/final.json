@@ -2,9 +2,9 @@
  "out": "output/yeti-reel3/yeti-reel3-FINAL.mp4",
  "segments": [
   {
-   "file": "output/yeti-reel3/hooks/hook-v1.mp4",
-   "start": 0,
-   "end": 2.6
+   "file": "output/yeti-reel3/hooks/hook.mp4",
+   "start": 1.0,
+   "end": 4.0
   },
   {
    "file": "output/yeti-reel3/unboxing.mp4",
@@ -18,7 +18,7 @@
   },
   {
    "file": "output/yeti-reel3/b2.mp4",
-   "start": 0.5,
+   "start": 1.0,
    "end": 5.0
   },
   {
@@ -40,32 +40,32 @@
  "texts": [
   {
    "t0": 0,
-   "t1": 2.6,
+   "t1": 3.0,
    "text": "The concept 🤮"
   },
   {
-   "t0": 2.6,
-   "t1": 5.1,
+   "t0": 3.0,
+   "t1": 5.5,
    "text": "Vs…"
   },
   {
-   "t0": 5.1,
-   "t1": 10.9,
+   "t0": 5.5,
+   "t1": 10.8,
    "text": "a Yeti you can WEAR 🧸"
   },
   {
-   "t0": 10.9,
-   "t1": 12.7,
+   "t0": 10.8,
+   "t1": 12.6,
    "text": "plug it in 🔌"
   },
   {
-   "t0": 12.7,
-   "t1": 14.82,
+   "t0": 12.6,
+   "t1": 14.72,
    "text": "5 heat levels 🔥"
   },
   {
-   "t0": 14.82,
-   "t1": 16.22,
+   "t0": 14.72,
+   "t1": 16.12,
    "text": "never taking it off ❄️"
   }
  ],
