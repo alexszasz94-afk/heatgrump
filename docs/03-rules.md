@@ -102,3 +102,4 @@ Sursa: memoria Cowork + sesiunea 16–29 sept. Regula mai nouă bate regula mai 
 - 2 oct (feedback reel 8): la Genjutsu, părul personajului se scrie explicit („fără coc, fără păr lung”) — altfel copiază părul din clipul viral.
 - 2 oct (feedback reel 9): cozy-a-x2 (pat) se repetă la 1,7 s și halatul arată ciudat; în dormitor cozy se face din placă (ea în pat, în halat, cu gluga) + seedance.
 - 3 oct: clip nou de cozy de la Szasz (library/motion/cozy-c-orig.mp4, Higgsfield 5f950f18): pe canapea, se învelește până la față. Se rotește cu 8042602c; la montaj se folosește 0–1,2 s, cât fața se vede. Pe clip e text ars („DONT send this to your girlfriend”) — promptul cere scoaterea lui.
+- 3 oct: la B2 fața NU trebuie să se vadă. Toate cele 3 clipuri de B2 (A_no_face 6243c22d, B_face 6731a06f, C_new e9a9ed00) sunt bune și se rotesc între reeluri; nu se mai refac B2-uri doar pentru că nu se vede fața.

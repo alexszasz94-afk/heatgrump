@@ -19,7 +19,7 @@
    "A_no_face": "6243c22d-ed26-4df8-8a68-0d4ff29219bd",
    "B_face": "6731a06f-f6c0-48d9-a001-5047c85ca5d6",
    "C_new": "e9a9ed00-094d-4211-8b98-2cfdf6115920",
-   "_nota": "Doar B_face (6731a06f) iese bine: C_new (e9a9ed00) filmează fără față și a dat ip_detected; A_no_face fără față. Trebuie încă un clip de B2 cu fața vizibilă ca să rotim (cerut lui Szasz 3 oct)."
+   "_nota": "Toate trei sunt bune (Szasz, 3 oct): fața NU trebuie să se vadă la B2. Se rotesc A_no_face → B_face → C_new între reeluri. Dacă unul dă ip_detected: retrimite cu 2 referințe de halat, apoi treci la următorul din rotație."
   },
   "COZY": [
    "8042602c-c548-45de-aa77-6d42366e058e"
