@@ -58,7 +58,7 @@ PLANS = {
     ("cozy.mp4", 0, 2.6, "DO NOT show this to your sister 😳🎄")]),
  15: dict(music="library/music/viral-DdLiUc7t1Yb-ext.m4a", parts=[
     ("hooks/hook-tigaie.mp4", 0, 4.85, "Every Grinch lover NEEDS this 😳🎄"),
-    ("b1.mp4", 0, 1.2, "Every Grinch lover NEEDS this 😳🎄"),
+    ("b1.mp4", 0, 0.85, "Every Grinch lover NEEDS this 😳🎄"),
     ("b2.mp4", 0, 4.0, "Every Grinch lover NEEDS this 😳🎄"),
     (FX+"conector-barbat-taiat.mp4", 0, 1.5, "Every Grinch lover NEEDS this 😳🎄"),
     (FX+"telecomanda-barbat-taiat.mp4", 0, 2.4, "Every Grinch lover NEEDS this 😳🎄"),

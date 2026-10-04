@@ -9,7 +9,7 @@
   {
    "file": "output/reel15/b1.mp4",
    "start": 0,
-   "end": 1.2
+   "end": 0.85
   },
   {
    "file": "output/reel15/b2.mp4",
@@ -35,7 +35,7 @@
  "texts": [
   {
    "t0": 0.0,
-   "t1": 16.15,
+   "t1": 15.8,
    "text": "Every Grinch lover NEEDS this 😳🎄"
   }
  ],
