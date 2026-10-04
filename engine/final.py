@@ -74,9 +74,9 @@ def wrap(text, size, maxw):
         else: lines[-1] = t
     return lines
 
-def text_png(text, path, size=64):
+def text_png(text, path, size=64, ypos=0.22):
     lines = [render_line(l, size) for l in wrap(text, size, W * 0.8)]
-    canvas = Image.new("RGBA", (W, H), (0, 0, 0, 0)); y = int(H * 0.22)
+    canvas = Image.new("RGBA", (W, H), (0, 0, 0, 0)); y = int(H * ypos)   # "y" în spec = poziția textului (implicit 22% de sus)
     for l in lines:
         canvas.paste(l, ((W - l.width) // 2, y), l); y += l.height + 8
     canvas.save(path)
@@ -99,7 +99,7 @@ def main(spec_path):
     dur = float(subprocess.run(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",base],capture_output=True,text=True).stdout)
     inputs = ["-i", base]; chain = "[0:v]"; filt = []
     for k, t in enumerate(sp.get("texts", [])):
-        png = os.path.join(tmp, f"t{k}.png"); text_png(t["text"], png, t.get("size", 64)); inputs += ["-i", png]
+        png = os.path.join(tmp, f"t{k}.png"); text_png(t["text"], png, t.get("size", 64), t.get("y", 0.22)); inputs += ["-i", png]
         out = f"[v{k}]"; filt.append(f"{chain}[{k+1}:v]overlay=0:0:enable='between(t,{t['t0']},{t['t1']})'{out}"); chain = out
     n = len(sp.get("texts", [])) + 1
     if sp.get("music"):
