@@ -66,7 +66,7 @@ PLANS = {
  16: dict(music="library/music/viral-DeAgyTpyKYj-ext.m4a", parts=[
     ("hooks/hook.mp4", 0, 2.2, "DO NOT show this to a Grinch lover 😳🎄"),
     ("unboxing.mp4", 0, 1.8, "DO NOT show this to a Grinch lover 😳🎄"),
-    ("b2.mp4", 1.0, 3.2, "DO NOT show this to a Grinch lover 😳🎄"),
+    ("b2.mp4", 1.0, 5.0, "DO NOT show this to a Grinch lover 😳🎄"),
     (FX+"conector-femeie-taiat.mp4", 0.1, 1.5, "DO NOT show this to a Grinch lover 😳🎄"),
     (FX+"telecomanda-femeie-taiat.mp4", 0, 2.2, "DO NOT show this to a Grinch lover 😳🎄"),
     ("cozy.mp4", 0, 2.6, "DO NOT show this to a Grinch lover 😳🎄")]),
