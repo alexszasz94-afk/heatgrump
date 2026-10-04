@@ -16,6 +16,9 @@ def vid(src, name):
     return uri(v, "video/mp4"), uri(pz, "image/jpeg")
 
 R = lambda p: os.path.join(ROOT, p)
+import json as _json
+_AP = os.path.join(ROOT, "yeti", "board-assets.json")
+ASSETS = _json.load(open(_AP)) if os.path.exists(_AP) else {}   # reelN -> url din asset store (MP4 la rezoluție întreagă)
 refs = [("Față, închis", "Gluga = capul Yeti, cordon, labe cu degete gri"),
         ("Față, deschis", "Căptușeala albastru-gheață pe toată lungimea"),
         ("Profil", "Același corn, aceeași ureche, fața din profil"),
@@ -59,13 +62,22 @@ def reel_cards():
     out = []
     for n in range(1, 6):
         src = R(f"output/yeti-reel{n}/yeti-reel{n}-FINAL.mp4"); v = os.path.join(TMP, f"reel{n}.mp4"); pz = os.path.join(TMP, f"reel{n}-p.jpg")
-        ff("-i", src, "-vf", "scale=540:-2", "-c:v", "libx264", "-crf", "27", "-preset", "slow", "-c:a", "aac", "-b:a", "96k", "-movflags", "+faststart", v)
+        full = ASSETS.get(f"reel{n}", "")
+        if not full:
+            ff("-i", src, "-vf", "scale=540:-2", "-c:v", "libx264", "-crf", "27", "-preset", "slow", "-c:a", "aac", "-b:a", "96k", "-movflags", "+faststart", v)
         ff("-ss", "1", "-i", src, "-frames:v", "1", "-vf", "scale=540:-2", "-q:v", "5", pz)
+        vsrc = full or uri(v, "video/mp4")
         txt = open(R(f"output/yeti-reel{n}/yeti-reel{n}.txt")).read().split("\n")
         head = html.escape(txt[0].replace(f"HeatYeti reel {n} — ", "")); outfit = html.escape(txt[1].replace("Haine dedesubt: ", ""))
         cap = next((l[9:] for l in txt if l.startswith("CAPTION: ")), "")
-        out.append(f'''<figure class="reel"><video src="{uri(v, "video/mp4")}" poster="{uri(pz, "image/jpeg")}" controls playsinline preload="metadata"></video>
-<figcaption><b>Reel {n}</b><span>{head}</span><span>Dedesubt: {outfit}</span><span class="cap">{html.escape(cap)}</span><span class="cut">output/yeti-reel{n}/yeti-reel{n}-FINAL.mp4</span></figcaption></figure>''')
+        out.append(f'''<figure class="reel" data-id="reel{n}" data-file="heatyeti-reel{n}.mp4" data-src="{html.escape(full)}"><video src="{vsrc}" poster="{uri(pz, "image/jpeg")}" controls playsinline preload="metadata"></video>
+<figcaption><b>Reel {n} <em class="st" data-st="none">Nevăzut</em></b><span>{head}</span><span>Dedesubt: {outfit}</span><span class="cap">{html.escape(cap)}</span></figcaption>
+<div class="review" aria-label="Părerea ta despre reel {n}">
+  <div class="btns"><button type="button" class="ok" data-act="aprobat">Aprob</button><button type="button" class="no" data-act="refuzat">Refuz</button></div>
+  <textarea rows="3" placeholder="Feedback: ce schimb la reel-ul ăsta?"></textarea>
+  <div class="btns"><button type="button" class="save">Salvează feedback</button><button type="button" class="dl">Descarcă MP4</button></div>
+  <small class="msg" aria-live="polite"></small>
+</div></figure>''')
     return "".join(out)
 
 steps = [(x, "gata", "done") for x in ("Hook", "Unboxing", "B1 · îmbracă", "B2 · deschide", "Conector", "Telecomandă", "Cozy")]
@@ -76,10 +88,10 @@ page = f'''<title>HeatYeti Board</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600&display=swap">
 <style>
 /* Layout: o coloană lată; fiecare secțiune = o piesă din trusa produsului, în ordinea în care intră în reel */
-:root{{--bg:#eef3f8;--paper:#ffffff;--ink:#132433;--mute:#5a6e80;--line:#d3dfea;--ice:#2f78b7;--ok:#1d7f49;--todo:#8a98a6;
+:root{{--bg:#eef3f8;--paper:#ffffff;--ink:#132433;--mute:#5a6e80;--line:#d3dfea;--ice:#2f78b7;--ok:#1d7f49;--bad:#b3352b;--todo:#8a98a6;
 --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;--body:"Figtree",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}}
-@media (prefers-color-scheme:dark){{:root:not([data-theme="light"]){{--bg:#0d1620;--paper:#15212d;--ink:#e4eef7;--mute:#93a7b9;--line:#24384a;--ice:#8cc4f2;--ok:#62d08f;--todo:#6f8193;color-scheme:dark}}}}
-:root[data-theme="dark"]{{--bg:#0d1620;--paper:#15212d;--ink:#e4eef7;--mute:#93a7b9;--line:#24384a;--ice:#8cc4f2;--ok:#62d08f;--todo:#6f8193;color-scheme:dark}}
+@media (prefers-color-scheme:dark){{:root:not([data-theme="light"]){{--bg:#0d1620;--paper:#15212d;--ink:#e4eef7;--mute:#93a7b9;--line:#24384a;--ice:#8cc4f2;--ok:#62d08f;--bad:#ff7d72;--todo:#6f8193;color-scheme:dark}}}}
+:root[data-theme="dark"]{{--bg:#0d1620;--paper:#15212d;--ink:#e4eef7;--mute:#93a7b9;--line:#24384a;--ice:#8cc4f2;--ok:#62d08f;--bad:#ff7d72;--todo:#6f8193;color-scheme:dark}}
 body{{background:var(--bg);color:var(--ink);font:15px/1.5 var(--body);padding:0 16px}}
 .wrap{{max-width:1100px;margin:0 auto;padding-block:28px 56px;display:grid;gap:40px}}
 header{{display:grid;gap:10px}}
@@ -102,6 +114,20 @@ figcaption b{{font-weight:600;width:100%}}figcaption span{{color:var(--mute);fon
 .cut{{font-variant-numeric:tabular-nums;word-break:break-all}}.cap{{color:var(--ink)!important}}
 .sheets{{display:grid;gap:22px}}.sheet img{{aspect-ratio:16/9;object-fit:contain;background:var(--paper)}}.sheet figcaption span{{max-width:75ch}}
 .boxrow{{display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);gap:24px;align-items:start}}
+.reels{{grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr))}}
+.reel{{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:10px;align-content:start}}
+.reel[data-st="aprobat"]{{border-color:var(--ok)}}.reel[data-st="refuzat"]{{border-color:var(--bad)}}
+.st{{font:600 12px/1 var(--body);font-style:normal;padding:4px 8px;border-radius:999px;margin-left:6px;background:var(--line);color:var(--mute);vertical-align:2px}}
+.st[data-st="aprobat"]{{background:var(--ok);color:var(--paper)}}.st[data-st="refuzat"]{{background:var(--bad);color:var(--paper)}}
+.review{{display:grid;gap:8px}}
+.btns{{display:flex;gap:8px}}
+.review button{{flex:1;min-height:40px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:600 14px/1 var(--body);cursor:pointer}}
+.review button:hover{{border-color:var(--ice)}}
+.review button.ok[aria-pressed="true"]{{background:var(--ok);border-color:var(--ok);color:var(--paper)}}
+.review button.no[aria-pressed="true"]{{background:var(--bad);border-color:var(--bad);color:var(--paper)}}
+.review button:disabled{{opacity:.5;cursor:default}}
+.review textarea{{width:100%;box-sizing:border-box;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:14px/1.4 var(--body);padding:8px 10px;resize:vertical}}
+.msg{{color:var(--mute);min-height:1em}}
 .facts{{margin:0;display:grid;grid-template-columns:auto 1fr;gap:8px 16px;font-size:14px}}
 .facts dt{{color:var(--mute)}}.facts dd{{margin:0}}
 @media (max-width:640px){{.sheets{{display:grid;gap:22px}}.sheet img{{aspect-ratio:16/9;object-fit:contain;background:var(--paper)}}.sheet figcaption span{{max-width:75ch}}
@@ -116,8 +142,9 @@ figcaption b{{font-weight:600;width:100%}}figcaption span{{color:var(--mute);fon
 </header>
 <section>
   <h2>Primele 5 reel-uri HeatYeti</h2>
-  <p class="note">Gata de postat: montate cu textele pe ecran și sunetul original al viralului. Pornește-le cu sunet. MP4-urile la rezoluție mare sunt pe GitHub, în output/yeti-reelN/, lângă fișierul .txt cu textele și caption-ul.</p>
-  <div class="grid">{reel_cards()}</div>
+  <p class="note">Gata de postat, cu textele pe ecran și sunetul original al viralului. La fiecare: Aprob sau Refuz, scrie ce să schimb și apasă Salvează. Eu citesc direct de aici. Descarcă MP4 îți dă fișierul la rezoluție întreagă.</p>
+  <p class="note" id="rvstate"></p>
+  <div class="grid reels">{reel_cards()}</div>
 </section>
 <section>
   <h2>Halatul ales · B, Blană de Yeti</h2>
@@ -152,5 +179,6 @@ figcaption b{{font-weight:600;width:100%}}figcaption span{{color:var(--mute);fon
   <div class="sheets">{concept_cards()}</div>
 </section>
 </div>'''
+page += "<script>" + open(R("yeti/board-review.js")).read() + "</script>"
 open(OUT, "w").write(page)
 print(OUT, round(os.path.getsize(OUT) / 1e6, 2), "MB")
