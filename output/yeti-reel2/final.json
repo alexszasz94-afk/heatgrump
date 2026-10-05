@@ -13,8 +13,8 @@
   },
   {
    "file": "output/yeti-reel2/b1.mp4",
-   "start": 0,
-   "end": 1.2
+   "start": 3.15,
+   "end": 4.04
   },
   {
    "file": "output/yeti-reel2/b2.mp4",
@@ -32,7 +32,7 @@
    "end": 2.2
   },
   {
-   "file": "output/yeti-reel2/cozy.mp4",
+   "file": "output/yeti-reel2/cozy-zoom.mp4",
    "start": 0,
    "end": 2.0
   }
@@ -40,28 +40,8 @@
  "texts": [
   {
    "t0": 0,
-   "t1": 3.0,
+   "t1": 16.39,
    "text": "DONT send this to your mom… ❄️🏔️"
-  },
-  {
-   "t0": 3.0,
-   "t1": 10.7,
-   "text": "she'll never be cold again 🥶➡️🥹"
-  },
-  {
-   "t0": 10.7,
-   "t1": 12.5,
-   "text": "plug it in 🔌"
-  },
-  {
-   "t0": 12.5,
-   "t1": 14.7,
-   "text": "5 heat levels 🔥"
-  },
-  {
-   "t0": 14.7,
-   "t1": 16.7,
-   "text": "a Yeti you can WEAR 🧸"
   }
  ],
  "music": "library/music/viral-DdpIYs0trT0.m4a",
