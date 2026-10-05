@@ -117,3 +117,4 @@ Sursa: memoria Cowork + sesiunea 16–29 sept. Regula mai nouă bate regula mai 
   - Muzică: melodiile lui Szasz din `library/music/xmas/`, peste tot videoul, de la secunda folosită de competitori: Mariah 42,4 s (princesscomfortt), Wham 0,43 s (merry.jammies), Bublé 32,43 s (merry.jammies, intrarea orchestrei). orig_vol 0.9, music_vol 0.85.
   - Text: TikTok Sans bold semi-condensat (`library/fonts/TikTokSans-w700-semicond.ttf`), mărime 88, contur negru 6 px, la 18% din înălțime (engine/final.py).
   - Fără unboxing dacă viralul nu are.
+- (5 oct) B2-ul nou (cu fața) se accelerează la montaj x1.35 (b2fast.mp4, ~4,4 s) — Szasz: „un pic mai rapid b2”. Cozy cu bărbat: clipul 8042602c (se așază pe canapea), nu cozy-c.
