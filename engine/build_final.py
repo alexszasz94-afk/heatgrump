@@ -138,6 +138,13 @@ PLANS = {
     (FX+"conector-barbat-inchis-taiat.mp4", 0, 1.5, "Don't let your girlfriend know about this 🤭💕"),
     (FX+"telecomanda-barbat-inchis-taiat.mp4", 0, 2.16, "Don't let your girlfriend know about this 🤭💕"),
     ("cozy.mp4", 0, 2.4, "Don't let your girlfriend know about this 🤭💕")]),
+ 220: dict(music="library/music/xmas/mariah-all-i-want.mp3", music_start=42.4, orig_vol=0.9, music_vol=0.85, parts=[
+    ("hooks/hook-v2.mp4", 0, 3.3, "DO NOT show this to your mom 😱😬…"),
+    ("b1.mp4", 0, 0.85, "DO NOT show this to your mom 😱😬…"),
+    ("b2new.mp4", 0, 5.9, "DO NOT show this to your mom 😱😬…"),
+    (FX+"conector-femeie-taiat.mp4", 0, 1.5, "DO NOT show this to your mom 😱😬…"),
+    (FX+"telecomanda-femeie-taiat.mp4", 0, 2.2, "DO NOT show this to your mom 😱😬…"),
+    ("cozy.mp4", 0, 3.0, "DO NOT show this to your mom 😱😬…")]),
 }
 def build(n):
     p = PLANS[n]; segs, texts, t = [], [], 0.0
