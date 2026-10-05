@@ -2,7 +2,7 @@
  "out": "output/yeti-reel2/yeti-reel2-FINAL.mp4",
  "segments": [
   {
-   "file": "output/yeti-reel2/hooks/hook.mp4",
+   "file": "output/yeti-reel2/hooks/hook-steag.mp4",
    "start": 1.0,
    "end": 4.0
   },
@@ -12,9 +12,9 @@
    "end": 2.5
   },
   {
-   "file": "output/yeti-reel2/b1.mp4",
-   "start": 3.15,
-   "end": 4.04
+   "file": "output/yeti-reel2/b1-nou.mp4",
+   "start": 1.9,
+   "end": 3.3
   },
   {
    "file": "output/yeti-reel2/b2.mp4",
@@ -32,15 +32,15 @@
    "end": 2.2
   },
   {
-   "file": "output/yeti-reel2/cozy-zoom.mp4",
-   "start": 0,
-   "end": 2.0
+   "file": "output/yeti-reel2/cozy-nou.mp4",
+   "start": 0.3,
+   "end": 2.3
   }
  ],
  "texts": [
   {
    "t0": 0,
-   "t1": 16.39,
+   "t1": 16.9,
    "text": "DONT send this to your mom… ❄️🏔️"
   }
  ],
