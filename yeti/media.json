@@ -49,5 +49,10 @@
     "76bddfde-38ff-4b8f-8677-27a3cc5b50c4",
     "1a6fc484-6219-4c87-befd-0f12d1c228a1"
   ],
-  "_ref_b2_saculeti_interior": "Cum arată săculeții cu halatul deschis de tot: buzunare late la baza panourilor, căptușite albastru-gheață, margine albă; labele Yeti sunt pe exterior și NU se văd din față."
+  "_ref_b2_saculeti_interior": "Cum arată săculeții cu halatul deschis de tot: buzunare late la baza panourilor, căptușite albastru-gheață, margine albă; labele Yeti sunt pe exterior și NU se văd din față.",
+  "b1_driving_clips_yeti": {
+    "b1-b-yeti (din 5133 x3, glugă Yeti)": "939d9046-e21f-44e9-8d39-37da3fd879f1",
+    "b1-a-yeti (din ba61 x5)": "352da7d3-0116-4b8a-9723-48450886994b"
+  },
+  "_b1_driving_clips_yeti": "5 oct (Szasz): B1 Yeti în Genjutsu cu aceste clipuri de mișcare (clipurile noastre B1 cu halatul înlocuit cu cel Yeti prin hf_mult_replace_object) — gluga e cap de Yeti cu coarne în toate cadrele. Local: library/motion/b1-*-yeti.mp4"
 }
