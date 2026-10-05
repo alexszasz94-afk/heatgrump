@@ -1,0 +1,46 @@
+{
+ "out": "output/reel20/reel20-FINAL-v2.mp4",
+ "segments": [
+  {
+   "file": "output/reel20/hooks/hook-v2s.mp4",
+   "start": 0,
+   "end": 4.4
+  },
+  {
+   "file": "output/reel20/b1.mp4",
+   "start": 0,
+   "end": 1.3
+  },
+  {
+   "file": "output/reel20/b2new.mp4",
+   "start": 0,
+   "end": 5.9
+  },
+  {
+   "file": "output/fixed/conector-femeie-taiat.mp4",
+   "start": 0,
+   "end": 1.5
+  },
+  {
+   "file": "output/fixed/telecomanda-femeie-taiat.mp4",
+   "start": 0,
+   "end": 2.2
+  },
+  {
+   "file": "output/reel20/cozy.mp4",
+   "start": 0,
+   "end": 2.6
+  }
+ ],
+ "texts": [
+  {
+   "t0": 0.0,
+   "t1": 17.9,
+   "text": "I made this for the Grinch lovers.. 🤩💚"
+  }
+ ],
+ "music": "library/music/xmas/wham-last-christmas.mp3",
+ "music_start": 0.43,
+ "orig_vol": 0.9,
+ "music_vol": 0.85
+}

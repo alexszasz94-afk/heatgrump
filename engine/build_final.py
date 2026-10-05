@@ -117,17 +117,39 @@ PLANS = {
     (FX+"conector-femeie-taiat.mp4", 0, 1.5, "\"The perfect gift doesn't exi-\" 😳🎄"),
     (FX+"telecomanda-femeie-taiat.mp4", 0, 2.2, "\"The perfect gift doesn't exi-\" 😳🎄"),
     ("cozy.mp4", 0, 3.0, "\"The perfect gift doesn't exi-\" 😳🎄")]),
+ 190: dict(music="library/music/xmas/mariah-all-i-want.mp3", music_start=42.4, orig_vol=0.9, music_vol=0.85, parts=[
+    ("hooks/hook-v2.mp4", 0, 4.0, "GRINCH ROBE DROP 😳🎄"),
+    ("b1.mp4", 0, 1.3, "GRINCH ROBE DROP 😳🎄"),
+    ("b2new.mp4", 0, 5.9, "GRINCH ROBE DROP 😳🎄"),
+    (FX+"conector-femeie-taiat.mp4", 0, 1.5, "GRINCH ROBE DROP 😳🎄"),
+    (FX+"telecomanda-femeie-taiat.mp4", 0, 2.2, "GRINCH ROBE DROP 😳🎄"),
+    ("cozy.mp4", 0, 2.4, "GRINCH ROBE DROP 😳🎄")]),
+ 200: dict(music="library/music/xmas/wham-last-christmas.mp3", music_start=0.43, orig_vol=0.9, music_vol=0.85, parts=[
+    ("hooks/hook-v2s.mp4", 0, 4.4, "I made this for the Grinch lovers.. 🤩💚"),
+    ("b1.mp4", 0, 1.3, "I made this for the Grinch lovers.. 🤩💚"),
+    ("b2new.mp4", 0, 5.9, "I made this for the Grinch lovers.. 🤩💚"),
+    (FX+"conector-femeie-taiat.mp4", 0, 1.5, "I made this for the Grinch lovers.. 🤩💚"),
+    (FX+"telecomanda-femeie-taiat.mp4", 0, 2.2, "I made this for the Grinch lovers.. 🤩💚"),
+    ("cozy.mp4", 0, 2.6, "I made this for the Grinch lovers.. 🤩💚")]),
+ 210: dict(music="library/music/xmas/buble-beginning.mp3", music_start=32.43, orig_vol=0.9, music_vol=0.85, parts=[
+    ("hooks/hook-v2.mp4", 0, 4.0, "Don't let your girlfriend know about this 🤭💕"),
+    ("b1.mp4", 0, 1.3, "Don't let your girlfriend know about this 🤭💕"),
+    ("b2new.mp4", 0, 5.9, "Don't let your girlfriend know about this 🤭💕"),
+    (FX+"conector-barbat-inchis-taiat.mp4", 0, 1.5, "Don't let your girlfriend know about this 🤭💕"),
+    (FX+"telecomanda-barbat-inchis-taiat.mp4", 0, 2.16, "Don't let your girlfriend know about this 🤭💕"),
+    ("cozy.mp4", 0, 2.4, "Don't let your girlfriend know about this 🤭💕")]),
 }
 def build(n):
     p = PLANS[n]; segs, texts, t = [], [], 0.0
+    v2 = n >= 100; r = n // 10 if v2 else n   # planurile 180..220 = varianta 2 (5 oct) a reel-urilor 18..22
     for f, a, b, txt in p["parts"]:
-        f = f if f.startswith("output/") else f"output/reel{n}/{f}"
+        f = f if f.startswith("output/") else f"output/reel{r}/{f}"
         segs.append({"file": f, "start": a, "end": b}); d = round(b - a, 3)
         if texts and texts[-1]["text"] == txt: texts[-1]["t1"] = round(t + d, 3)
         else: texts.append({"t0": round(t, 3), "t1": round(t + d, 3), "text": txt})
         t += d
-    spec = {"out": f"output/reel{n}/reel{n}-FINAL.mp4", "segments": segs, "texts": texts, "music": p["music"], "music_start": p.get("music_start", 0), "orig_vol": p.get("orig_vol", 0.12), "music_vol": p.get("music_vol", 1.0)}
-    out = os.path.join(ROOT, f"output/reel{n}/final.json"); json.dump(spec, open(out, "w"), ensure_ascii=False, indent=1)
+    spec = {"out": f"output/reel{r}/reel{r}-FINAL" + ("-v2" if v2 else "") + ".mp4", "segments": segs, "texts": texts, "music": p["music"], "music_start": p.get("music_start", 0), "orig_vol": p.get("orig_vol", 0.12), "music_vol": p.get("music_vol", 1.0)}
+    out = os.path.join(ROOT, f"output/reel{r}/final" + ("-v2" if v2 else "") + ".json"); json.dump(spec, open(out, "w"), ensure_ascii=False, indent=1)
     print(out, round(t, 2), "s")
 if __name__ == "__main__":
     for a in sys.argv[1:]: build(int(a))
