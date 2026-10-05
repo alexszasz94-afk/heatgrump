@@ -12,7 +12,8 @@ import sys, json, os, subprocess, tempfile, unicodedata
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-FONT = os.path.join(ROOT, "library/fonts/TikTokSans-SemiBold.ttf")   # fontul de text din Instagram/TikTok
+FONT = os.path.join(ROOT, "library/fonts/TikTokSans-w700-semicond.ttf")   # textul din Reels/TikTok, potrivit pe princesscomfortt (regula 5 oct)
+STROKE, TRACK, Y0 = 6, -0.01, 0.18   # contur negru gros, litere puțin strânse, textul la 18% din înălțime
 EMOJI_DIR = os.path.join(ROOT, "library/fonts/apple-emoji")         # emoji de iPhone (emoji-datasource-apple, 64 px)
 W, H = 1080, 1920
 
@@ -45,19 +46,21 @@ def emoji_img(seq, size):
     return None
 
 def render_line(line, size):
-    font = ImageFont.truetype(FONT, size); stroke = max(2, size // 22)
+    font = ImageFont.truetype(FONT, size); stroke = STROKE
     parts = []
     for e, s in clusters(line):
         if e:
             im = emoji_img(s, size)
             if im: parts.append(im)
         else:
-            s = s.rstrip() if s.endswith(" ") else s
-            bb = font.getbbox(s, stroke_width=stroke)
-            im = Image.new("RGBA", (bb[2] + stroke * 2, int(size * 1.4)), (0, 0, 0, 0))
-            ImageDraw.Draw(im).text((stroke, int(size * 0.05)), s, font=font, fill="white", stroke_width=stroke, stroke_fill="black")
+            s = s.rstrip()
+            if not s: continue
+            w = sum(font.getlength(c) for c in s) + TRACK * size * (len(s) - 1) + stroke * 2
+            im = Image.new("RGBA", (int(w) + 4, int(size * 1.3)), (0, 0, 0, 0)); d = ImageDraw.Draw(im); x = stroke
+            for c in s:   # literă cu literă, ca să strângem puțin spațiul dintre ele (ca în Reels)
+                d.text((x, int(size * 0.04)), c, font=font, fill="white", stroke_width=stroke, stroke_fill="black"); x += font.getlength(c) + TRACK * size
             parts.append(im)
-    gap = max(4, size // 10)
+    gap = max(2, size // 18)
     w = sum(p.width for p in parts) + gap * (len(parts) - 1); h = max(p.height for p in parts)
     line_im = Image.new("RGBA", (w, h), (0, 0, 0, 0)); x = 0
     for p in parts:
@@ -74,11 +77,11 @@ def wrap(text, size, maxw):
         else: lines[-1] = t
     return lines
 
-def text_png(text, path, size=64):
+def text_png(text, path, size=88):
     lines = [render_line(l, size) for l in wrap(text, size, W * 0.8)]
-    canvas = Image.new("RGBA", (W, H), (0, 0, 0, 0)); y = int(H * 0.22)
+    canvas = Image.new("RGBA", (W, H), (0, 0, 0, 0)); y = int(H * Y0)
     for l in lines:
-        canvas.paste(l, ((W - l.width) // 2, y), l); y += l.height + 8
+        canvas.paste(l, ((W - l.width) // 2, y), l); y += int(size * 1.08)
     canvas.save(path)
 
 def main(spec_path):
@@ -99,7 +102,7 @@ def main(spec_path):
     dur = float(subprocess.run(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",base],capture_output=True,text=True).stdout)
     inputs = ["-i", base]; chain = "[0:v]"; filt = []
     for k, t in enumerate(sp.get("texts", [])):
-        png = os.path.join(tmp, f"t{k}.png"); text_png(t["text"], png, t.get("size", 64)); inputs += ["-i", png]
+        png = os.path.join(tmp, f"t{k}.png"); text_png(t["text"], png, t.get("size", 88)); inputs += ["-i", png]
         out = f"[v{k}]"; filt.append(f"{chain}[{k+1}:v]overlay=0:0:enable='between(t,{t['t0']},{t['t1']})'{out}"); chain = out
     n = len(sp.get("texts", [])) + 1
     if sp.get("music"):

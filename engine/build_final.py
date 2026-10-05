@@ -5,7 +5,8 @@ Bucăți consecutive cu același text = un singur text pe ecran.
 import sys, json, os
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FX = "output/fixed/"
-# muzica = sunetul ORIGINAL al viralului din care e hook-ul (library/music/viral-<cod>.m4a), regula 3 oct
+# 5 oct: muzica = melodie de Crăciun de la Szasz (library/music/xmas), de la secunda folosită de competitori; doar hook-ul are sunet propriu (orig_vol 0.9)
+# înainte (3 oct): muzica = sunetul ORIGINAL al viralului din care e hook-ul (library/music/viral-<cod>.m4a), regula 3 oct
 PLANS = {
  8: dict(music="library/music/viral-DdQw1jyKI63.m4a", parts=[
     ("hooks/hook.mp4", 0, 3.0, "The concept 🤮"),
@@ -125,7 +126,7 @@ def build(n):
         if texts and texts[-1]["text"] == txt: texts[-1]["t1"] = round(t + d, 3)
         else: texts.append({"t0": round(t, 3), "t1": round(t + d, 3), "text": txt})
         t += d
-    spec = {"out": f"output/reel{n}/reel{n}-FINAL.mp4", "segments": segs, "texts": texts, "music": p["music"], "music_start": 0, "orig_vol": 0.12}
+    spec = {"out": f"output/reel{n}/reel{n}-FINAL.mp4", "segments": segs, "texts": texts, "music": p["music"], "music_start": p.get("music_start", 0), "orig_vol": p.get("orig_vol", 0.12), "music_vol": p.get("music_vol", 1.0)}
     out = os.path.join(ROOT, f"output/reel{n}/final.json"); json.dump(spec, open(out, "w"), ensure_ascii=False, indent=1)
     print(out, round(t, 2), "s")
 if __name__ == "__main__":
