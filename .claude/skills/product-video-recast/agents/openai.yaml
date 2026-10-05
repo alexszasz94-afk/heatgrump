@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Video Recast"
+  short_description: "Match visual benchmarks with Pinterest and Genjutsu"
+  default_prompt: "Use $product-video-recast to analyze my source video, match my visual benchmark, select actual Pinterest avatar and background images, and carry out the recast within my authorized generation allowance."

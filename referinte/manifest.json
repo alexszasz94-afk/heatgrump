@@ -1,0 +1,515 @@
+{
+ "_info": "Referințele sistemului. Skill-ul `instalare` le încarcă în contul tău Higgsfield și pune ID-urile noi în library/media.json.",
+ "items": [
+  {
+   "file": "referinte/produs/produs-1.png",
+   "old_id": "a9ebff95-7b4e-4a10-92f5-4c9377d01fd4",
+   "media_json_path": [
+    "product_grinch_refs",
+    0
+   ],
+   "role": "produs",
+   "note": "poză de referință a halatului",
+   "type": "image"
+  },
+  {
+   "file": "referinte/produs/produs-2.png",
+   "old_id": "b3adf7e2-adcd-4ffc-9989-1fa0c822c78f",
+   "media_json_path": [
+    "product_grinch_refs",
+    1
+   ],
+   "role": "produs",
+   "note": "poză de referință a halatului",
+   "type": "image"
+  },
+  {
+   "file": "referinte/produs/produs-3.png",
+   "old_id": "28a3d14b-3578-4569-bcf2-33a84d478cc0",
+   "media_json_path": [
+    "product_grinch_refs",
+    2
+   ],
+   "role": "produs",
+   "note": "poză de referință a halatului",
+   "type": "image"
+  },
+  {
+   "file": "referinte/produs/produs-4.png",
+   "old_id": "71882d2b-aeab-4cc1-afa3-4f9d1a1951c5",
+   "media_json_path": [
+    "product_grinch_refs",
+    3
+   ],
+   "role": "produs",
+   "note": "poză de referință a halatului",
+   "type": "image"
+  },
+  {
+   "file": "referinte/produs/cutie.png",
+   "old_id": "5e8840d4-d514-4016-9fa3-e0893a13bdee",
+   "media_json_path": [
+    "box"
+   ],
+   "role": "produs",
+   "note": "cutia produsului",
+   "type": "image"
+  },
+  {
+   "file": "referinte/produs/telecomanda.png",
+   "old_id": "cb73364c-9cc0-4420-82dc-5e1269cae33c",
+   "media_json_path": [
+    "controller_real"
+   ],
+   "role": "produs",
+   "note": "telecomanda reală (5 luminițe)",
+   "type": "image"
+  },
+  {
+   "file": "referinte/produs/conector.png",
+   "old_id": "2774615c-3876-49c9-81e3-43e965688bae",
+   "media_json_path": [
+    "connector_ref"
+   ],
+   "role": "produs",
+   "note": "conectorul gri",
+   "type": "image"
+  },
+  {
+   "file": "referinte/produs/conector-cadru-aprobat.png",
+   "old_id": "da68ee9d-2c0a-47e1-a7b7-1385013c2d0a",
+   "media_json_path": [
+    "connector_approved_frame"
+   ],
+   "role": "produs",
+   "note": "cadru aprobat cu conectorul",
+   "type": "image"
+  },
+  {
+   "file": "referinte/produs/silueta-inchis.png",
+   "old_id": "e46c4249-a39f-4ea4-830b-fc50c67ff86b",
+   "media_json_path": [
+    "silhouette_closed"
+   ],
+   "role": "produs",
+   "note": "silueta halatului închis",
+   "type": "image"
+  },
+  {
+   "file": "referinte/produs/silueta-deschis.png",
+   "old_id": "5eefa24d-682c-46be-b9d9-bd4c6056304c",
+   "media_json_path": [
+    "silhouette_open"
+   ],
+   "role": "produs",
+   "note": "silueta halatului deschis",
+   "type": "image"
+  },
+  {
+   "file": "referinte/miscare/B1-5133.mp4",
+   "old_id": "5133a653-d5e3-4077-a102-43818fb736c0",
+   "media_json_path": [
+    "motion_clips",
+    "B1",
+    0
+   ],
+   "role": "miscare",
+   "note": "îmbracă halatul",
+   "type": "video"
+  },
+  {
+   "file": "referinte/miscare/B2-A-fara-fata.mp4",
+   "old_id": "6243c22d-ed26-4df8-8a68-0d4ff29219bd",
+   "media_json_path": [
+    "motion_clips",
+    "B2",
+    "A_no_face"
+   ],
+   "role": "miscare",
+   "note": "deschide halatul",
+   "type": "video"
+  },
+  {
+   "file": "referinte/miscare/B2-B-cu-fata.mp4",
+   "old_id": "6731a06f-f6c0-48d9-a001-5047c85ca5d6",
+   "media_json_path": [
+    "motion_clips",
+    "B2",
+    "B_face"
+   ],
+   "role": "miscare",
+   "note": "deschide halatul",
+   "type": "video"
+  },
+  {
+   "file": "referinte/miscare/B2-C-nou.mp4",
+   "old_id": "e9a9ed00-094d-4211-8b98-2cfdf6115920",
+   "media_json_path": [
+    "motion_clips",
+    "B2",
+    "C_new"
+   ],
+   "role": "miscare",
+   "note": "deschide halatul",
+   "type": "video"
+  },
+  {
+   "file": "referinte/miscare/COZY-canapea.mp4",
+   "old_id": "8042602c-c548-45de-aa77-6d42366e058e",
+   "media_json_path": [
+    "motion_clips",
+    "COZY",
+    0
+   ],
+   "role": "miscare",
+   "note": "cozy pe canapea",
+   "type": "video"
+  },
+  {
+   "file": "referinte/miscare/hook-321.mp4",
+   "old_id": "bcdaebd7-18e4-43fc-89a8-59294ceb0fcb",
+   "media_json_path": [
+    "motion_clips",
+    "hook_321"
+   ],
+   "role": "miscare",
+   "note": "hook dovedit 3-2-1",
+   "type": "video"
+  },
+  {
+   "file": "referinte/miscare/hook-tava.mp4",
+   "old_id": "673624ef-1edb-478e-b8e9-9b51d6dacba1",
+   "media_json_path": [
+    "motion_clips",
+    "hook_tray"
+   ],
+   "role": "miscare",
+   "note": "hook dovedit cu tava",
+   "type": "video"
+  },
+  {
+   "file": "referinte/miscare/B1-ba61-scurt.mp4",
+   "old_id": "ba61dc06-bf41-4176-ba31-d5de0e6c38bb",
+   "media_json_path": [
+    "motion_clips",
+    "_scoase_sub_2s",
+    "B1"
+   ],
+   "role": "miscare",
+   "note": "sub 2 s, nefolosit singur",
+   "type": "video"
+  },
+  {
+   "file": "referinte/miscare/COZY-1295-scurt.mp4",
+   "old_id": "12959b84-23a0-42ee-b00a-8970d51a59c7",
+   "media_json_path": [
+    "motion_clips",
+    "_scoase_sub_2s",
+    "COZY"
+   ],
+   "role": "miscare",
+   "note": "sub 2 s, nefolosit singur",
+   "type": "video"
+  },
+  {
+   "file": "referinte/miscare/B1-b1-a-x2.mp4",
+   "old_id": "7dde0550-6790-4ef2-92cc-ed22841f7615",
+   "media_json_path": [
+    "motion_clips",
+    "B1_x2",
+    "b1-a-x2 (ba61 dublat, 1,8 s)"
+   ],
+   "role": "miscare",
+   "note": "b1-a-x2 (ba61 dublat, 1,8 s)",
+   "type": "video"
+  },
+  {
+   "file": "referinte/miscare/B1-b1-b-x2.mp4",
+   "old_id": "d8a474d2-e9b6-4a69-9d4c-5fabe1472435",
+   "media_json_path": [
+    "motion_clips",
+    "B1_x2",
+    "b1-b-x2 (5133 dublat, 2,9 s)"
+   ],
+   "role": "miscare",
+   "note": "b1-b-x2 (5133 dublat, 2,9 s)",
+   "type": "video"
+  },
+  {
+   "file": "referinte/miscare/B1-b1-a-x3.mp4",
+   "old_id": "8391f616-19ac-4af8-a80d-d7340f2027e2",
+   "media_json_path": [
+    "motion_clips",
+    "B1_x2",
+    "b1-a-x3 (ba61 triplat, 2,7 s)"
+   ],
+   "role": "miscare",
+   "note": "b1-a-x3 (ba61 triplat, 2,7 s)",
+   "type": "video"
+  },
+  {
+   "file": "referinte/miscare/COZY-cozy-a-x2.mp4",
+   "old_id": "7da99c7a-a68e-4e8e-ac44-98e71ad1dd44",
+   "media_json_path": [
+    "motion_clips",
+    "COZY_x2",
+    "cozy-a-x2 (1295 dublat, 3,4 s)"
+   ],
+   "role": "miscare",
+   "note": "cozy-a-x2 (1295 dublat, 3,4 s)",
+   "type": "video"
+  },
+  {
+   "file": "referinte/miscare/COZY-cozy-c.mp4",
+   "old_id": "5f950f18-01c6-411c-81e6-16a13179cc05",
+   "media_json_path": [
+    "motion_clips",
+    "COZY_x2",
+    "cozy-c (canapea, se învelește până la față, 3,1 s)"
+   ],
+   "role": "miscare",
+   "note": "cozy-c (canapea, se învelește până la față, 3,1 s)",
+   "type": "video"
+  },
+  {
+   "file": "referinte/seturi/set01-personaj.jpg",
+   "old_id": "aab1395b-fcfe-4034-b9de-2420c48f8f62",
+   "media_json_path": null,
+   "role": "seturi",
+   "note": "set 1",
+   "type": "image"
+  },
+  {
+   "file": "referinte/seturi/set01-camera.jpg",
+   "old_id": "7e28b0e7-2f56-4066-812e-6c0d5bff2270",
+   "media_json_path": null,
+   "role": "seturi",
+   "note": "set 1",
+   "type": "image"
+  },
+  {
+   "file": "referinte/seturi/set02-personaj.jpg",
+   "old_id": "072acc6a-f2c4-4eb9-bda8-a9e458ce9639",
+   "media_json_path": null,
+   "role": "seturi",
+   "note": "set 2",
+   "type": "image"
+  },
+  {
+   "file": "referinte/seturi/set02-camera.jpg",
+   "old_id": "1f7246b1-a93c-4bdb-8bc4-6b5cbfa00f7d",
+   "media_json_path": null,
+   "role": "seturi",
+   "note": "set 2",
+   "type": "image"
+  },
+  {
+   "file": "referinte/seturi/set03-personaj.jpg",
+   "old_id": "8306bd0e-4b46-4275-b11b-998ac20d579a",
+   "media_json_path": null,
+   "role": "seturi",
+   "note": "set 3",
+   "type": "image"
+  },
+  {
+   "file": "referinte/seturi/set03-camera.jpg",
+   "old_id": "165f1e6e-30e5-4b41-b120-f2def33ba506",
+   "media_json_path": null,
+   "role": "seturi",
+   "note": "set 3",
+   "type": "image"
+  },
+  {
+   "file": "referinte/seturi/set04-personaj.jpg",
+   "old_id": "3e1308e8-41cf-44bb-bef5-c35bcbf6245c",
+   "media_json_path": null,
+   "role": "seturi",
+   "note": "set 4",
+   "type": "image"
+  },
+  {
+   "file": "referinte/seturi/set04-camera.jpg",
+   "old_id": "12f88af7-c102-4a46-baec-e3de0a68c8e6",
+   "media_json_path": null,
+   "role": "seturi",
+   "note": "set 4",
+   "type": "image"
+  },
+  {
+   "file": "referinte/seturi/set05-personaj.jpg",
+   "old_id": "5caa961a-a81c-4f2e-a6fe-a2e557946147",
+   "media_json_path": null,
+   "role": "seturi",
+   "note": "set 5",
+   "type": "image"
+  },
+  {
+   "file": "referinte/seturi/set05-camera.jpg",
+   "old_id": "b9c86778-010a-42cf-801b-14b5ae0554cf",
+   "media_json_path": null,
+   "role": "seturi",
+   "note": "set 5",
+   "type": "image"
+  },
+  {
+   "file": "referinte/seturi/set08-personaj.jpg",
+   "old_id": "866c23c9-a155-4fa8-8233-e79ec9884827",
+   "media_json_path": null,
+   "role": "seturi",
+   "note": "set 8",
+   "type": "image"
+  },
+  {
+   "file": "referinte/seturi/set08-camera.jpg",
+   "old_id": "cce11644-a7b3-4d89-ae22-33cce899c145",
+   "media_json_path": null,
+   "role": "seturi",
+   "note": "set 8",
+   "type": "image"
+  },
+  {
+   "file": "referinte/seturi/set09-personaj.jpg",
+   "old_id": "fb33088d-cb17-4ee5-8db8-88fb9024caaa",
+   "media_json_path": null,
+   "role": "seturi",
+   "note": "set 9",
+   "type": "image"
+  },
+  {
+   "file": "referinte/seturi/set09-camera.jpg",
+   "old_id": "9a114392-db4e-4d20-9344-9eab1dfff8b8",
+   "media_json_path": null,
+   "role": "seturi",
+   "note": "set 9",
+   "type": "image"
+  },
+  {
+   "file": "referinte/seturi/set10-personaj.jpg",
+   "old_id": "9f8ac5f2-99d1-4361-bc22-67a61f9ed1ba",
+   "media_json_path": null,
+   "role": "seturi",
+   "note": "set 10",
+   "type": "image"
+  },
+  {
+   "file": "referinte/seturi/set10-camera.jpg",
+   "old_id": "bbaa476b-8a35-4ef4-ad9d-0dbd0374cf89",
+   "media_json_path": null,
+   "role": "seturi",
+   "note": "set 10",
+   "type": "image"
+  },
+  {
+   "file": "referinte/seturi/set11-personaj.jpg",
+   "old_id": "1bb0e88e-0ffc-4239-a7f7-831b71173cd6",
+   "media_json_path": null,
+   "role": "seturi",
+   "note": "set 11",
+   "type": "image"
+  },
+  {
+   "file": "referinte/seturi/set11-camera.jpg",
+   "old_id": "dcbd1956-9a92-48cc-9ec1-8046c458e43e",
+   "media_json_path": null,
+   "role": "seturi",
+   "note": "set 11",
+   "type": "image"
+  },
+  {
+   "file": "referinte/seturi/set12-personaj.jpg",
+   "old_id": "d153a929-198a-4e1b-ae6a-18885d262e54",
+   "media_json_path": null,
+   "role": "seturi",
+   "note": "set 12",
+   "type": "image"
+  },
+  {
+   "file": "referinte/seturi/set12-camera.jpg",
+   "old_id": "8c4704fd-7c4f-45ca-829d-aff912da31c0",
+   "media_json_path": null,
+   "role": "seturi",
+   "note": "set 12",
+   "type": "image"
+  },
+  {
+   "file": "referinte/seturi/set13-personaj.jpg",
+   "old_id": "ff449b03-9fa1-442f-9e54-09f958f48b49",
+   "media_json_path": null,
+   "role": "seturi",
+   "note": "set 13, she, haine: a red cable-knit Christmas sweater, black leggings and white socks",
+   "type": "image"
+  },
+  {
+   "file": "referinte/seturi/set13-camera.jpg",
+   "old_id": "9265763e-22a1-4527-9e3d-3004c4e3293e",
+   "media_json_path": null,
+   "role": "seturi",
+   "note": "set 13",
+   "type": "image"
+  },
+  {
+   "file": "referinte/seturi/set14-personaj.jpg",
+   "old_id": "0ace21cc-2c23-4cec-b865-debf80ebdad3",
+   "media_json_path": null,
+   "role": "seturi",
+   "note": "set 14, she, haine: a navy-and-white striped long-sleeve pajama set and white socks",
+   "type": "image"
+  },
+  {
+   "file": "referinte/seturi/set14-camera.jpg",
+   "old_id": "b3cc608e-8262-4d60-bb24-8ac940c98963",
+   "media_json_path": null,
+   "role": "seturi",
+   "note": "set 14",
+   "type": "image"
+  },
+  {
+   "file": "referinte/seturi/set15-personaj.jpg",
+   "old_id": "977b68e5-96cc-4873-984e-b7a3da053761",
+   "media_json_path": null,
+   "role": "seturi",
+   "note": "set 15, he, haine: a forest-green quarter-zip knit sweater, khaki chinos and grey socks",
+   "type": "image"
+  },
+  {
+   "file": "referinte/seturi/set15-camera.jpg",
+   "old_id": "05b6b05c-64b5-479f-acd5-fb7c2a7ce585",
+   "media_json_path": null,
+   "role": "seturi",
+   "note": "set 15",
+   "type": "image"
+  },
+  {
+   "file": "referinte/seturi/set16-personaj.jpg",
+   "old_id": "d935c19e-79a8-4cf3-8eb8-60f25e270357",
+   "media_json_path": null,
+   "role": "seturi",
+   "note": "set 16, she, haine: a cream cable-knit sweater, light-grey sweatpants and white socks",
+   "type": "image"
+  },
+  {
+   "file": "referinte/seturi/set16-camera.jpg",
+   "old_id": "a75f2720-1b08-453e-b8e7-58c508f9fd1a",
+   "media_json_path": null,
+   "role": "seturi",
+   "note": "set 16",
+   "type": "image"
+  },
+  {
+   "file": "referinte/seturi/set17-personaj.jpg",
+   "old_id": "47741809-3b55-47fb-8a49-dae1f99fdeea",
+   "media_json_path": null,
+   "role": "seturi",
+   "note": "set 17, she, haine: a red-and-black buffalo-check flannel pajama set and white socks",
+   "type": "image"
+  },
+  {
+   "file": "referinte/seturi/set17-camera.jpg",
+   "old_id": "1bc63ec5-64ac-435d-9b9b-badc46674736",
+   "media_json_path": null,
+   "role": "seturi",
+   "note": "set 17",
+   "type": "image"
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "_instalare": "neinstalat — rulează skill-ul `instalare` (comanda `start` o face singură)",
+ "product_grinch_refs": [
+  "a9ebff95-7b4e-4a10-92f5-4c9377d01fd4",
+  "b3adf7e2-adcd-4ffc-9989-1fa0c822c78f",
+  "28a3d14b-3578-4569-bcf2-33a84d478cc0",
+  "71882d2b-aeab-4cc1-afa3-4f9d1a1951c5"
+ ],
+ "box": "5e8840d4-d514-4016-9fa3-e0893a13bdee",
+ "controller_real": "cb73364c-9cc0-4420-82dc-5e1269cae33c",
+ "connector_ref": "2774615c-3876-49c9-81e3-43e965688bae",
+ "connector_approved_frame": "da68ee9d-2c0a-47e1-a7b7-1385013c2d0a",
+ "silhouette_closed": "e46c4249-a39f-4ea4-830b-fc50c67ff86b",
+ "silhouette_open": "5eefa24d-682c-46be-b9d9-bd4c6056304c",
+ "motion_clips": {
+  "B1": [
+   "5133a653-d5e3-4077-a102-43818fb736c0"
+  ],
+  "B2": {
+   "A_no_face": "6243c22d-ed26-4df8-8a68-0d4ff29219bd",
+   "B_face": "6731a06f-f6c0-48d9-a001-5047c85ca5d6",
+   "C_new": "e9a9ed00-094d-4211-8b98-2cfdf6115920",
+   "_nota": "Toate trei sunt bune (Szasz, 3 oct): fața NU trebuie să se vadă la B2. Se rotesc A_no_face → B_face → C_new între reeluri. Dacă unul dă ip_detected: retrimite cu 2 referințe de halat, apoi treci la următorul din rotație."
+  },
+  "COZY": [
+   "8042602c-c548-45de-aa77-6d42366e058e"
+  ],
+  "hook_321": "bcdaebd7-18e4-43fc-89a8-59294ceb0fcb",
+  "hook_tray": "673624ef-1edb-478e-b8e9-9b51d6dacba1",
+  "_ignore_duplicate": "9d119c02-d901-46ef-b940-8d98480f3770",
+  "_scoase_sub_2s": {
+   "B1": "ba61dc06-bf41-4176-ba31-d5de0e6c38bb",
+   "COZY": "12959b84-23a0-42ee-b00a-8970d51a59c7"
+  },
+  "B1_x2": {
+   "b1-a-x2 (ba61 dublat, 1,8 s)": "7dde0550-6790-4ef2-92cc-ed22841f7615",
+   "b1-b-x2 (5133 dublat, 2,9 s)": "d8a474d2-e9b6-4a69-9d4c-5fabe1472435",
+   "_nota": "Clipurile scurte, dublate (regula 2 oct). La montaj se taie doar prima trecere (punerea halatului o singură dată).",
+   "_rezultate": {
+    "b1-a-x2": "PICĂ (1,8 s)",
+    "b1-a-x3 (8391f616, 2,7 s)": "merge — tăiat la 0,85 s",
+    "b1-b-x2 (d8a474d2, 2,9 s)": "merge — tăiat la 1,3 s"
+   },
+   "b1-a-x3 (ba61 triplat, 2,7 s)": "8391f616-19ac-4af8-a80d-d7340f2027e2"
+  },
+  "COZY_x2": {
+   "cozy-a-x2 (1295 dublat, 3,4 s)": "7da99c7a-a68e-4e8e-ac44-98e71ad1dd44",
+   "_nota": "cozy-a-x2 doar pentru camere CU PAT (regula 2 oct); canapea → 8042602c",
+   "cozy-c (canapea, se învelește până la față, 3,1 s)": "5f950f18-01c6-411c-81e6-16a13179cc05",
+   "_rotatie": "canapea: 8042602c și cozy-c (5f950f18) pe rând; pat: placă + seedance (regula 2 oct). cozy-c: la montaj 0–1,2 s (după aceea fața e acoperită de halat)."
+  }
+ },
+ "reels_batch_23sept": [
+  {
+   "n": 1,
+   "char": "aab1395b-fcfe-4034-b9de-2420c48f8f62",
+   "room": "7e28b0e7-2f56-4066-812e-6c0d5bff2270"
+  },
+  {
+   "n": 2,
+   "char": "072acc6a-f2c4-4eb9-bda8-a9e458ce9639",
+   "room": "1f7246b1-a93c-4bdb-8bc4-6b5cbfa00f7d"
+  },
+  {
+   "n": 3,
+   "char": "8306bd0e-4b46-4275-b11b-998ac20d579a",
+   "room": "165f1e6e-30e5-4b41-b120-f2def33ba506"
+  },
+  {
+   "n": 4,
+   "char": "3e1308e8-41cf-44bb-bef5-c35bcbf6245c",
+   "room": "12f88af7-c102-4a46-baec-e3de0a68c8e6"
+  },
+  {
+   "n": 5,
+   "char": "5caa961a-a81c-4f2e-a6fe-a2e557946147",
+   "room": "b9c86778-010a-42cf-801b-14b5ae0554cf"
+  }
+ ],
+ "higgsfield": {
+  "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+  "workspace": "suprematistsatellite1439 (shared, scale)",
+  "media_url_pattern": "https://d2ol7oe51mr4n9.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/<media_id>.jpg",
+  "result_url_pattern": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_<YYYYMMDD_HHMMSS>_<job_id>.<png|mp4>"
+ },
+ "fixed_clips": {
+  "_nota": "Clipuri refolosite la TOATE reel-urile (regula 2 oct) — nu se mai generează.",
+  "telecomanda_barbat": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261002_183517_e9637c74-48bf-4bad-be7a-f05d4ff7baca.mp4",
+  "telecomanda_femeie": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261002_185237_57c33d07-cc14-4a69-832f-d03e5b318bb0.mp4",
+  "conector_barbat": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261002_192722_ef7c47ac-f7c4-4b74-ad9f-1e5ac71d4047.mp4",
+  "conector_femeie": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261002_194204_5fff8e41-773d-4bb2-8c8b-c09dccc3469d.mp4",
+  "_local": "output/fixed/",
+  "_taieturi": {
+   "telecomanda_barbat": "1.2-3.6 s (pornește cu apăsarea)",
+   "telecomanda_femeie": "1.4-3.6 s (pornește cu apăsarea)",
+   "conector_barbat": "1.9-3.4 s (se termină complet intrat)",
+   "conector_femeie": "1.8-3.3 s (complet intrat, unghii pictate, fir jos)",
+   "fisiere_taiate": "output/fixed/*-taiat.mp4",
+   "aprobat_de_Szasz": "2 oct (conectorul în stilul tăiat e ok)",
+   "conector": "în montaj ~1,5 s, doar intrarea",
+   "telecomanda_barbat_piele_inchisa": "2.85-4.25 s încetinit 1,5x (1→2→3), fișier output/fixed/telecomanda-barbat-inchis-taiat.mp4",
+   "conector_barbat_piele_inchisa": "0.1-1.6 s (complet intrat), fișier output/fixed/conector-barbat-inchis-taiat.mp4"
+  },
+  "telecomanda_barbat_piele_inchisa": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261002_223943_48307f0b-c059-403e-a95e-a50a6561e9bd.mp4",
+  "conector_barbat_piele_inchisa": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261002_223619_2e330915-18da-4876-a87f-6656c98734c4.mp4",
+  "_alegere": "după gen ȘI culoarea pielii personajului (regula 2 oct)"
+ }
+}

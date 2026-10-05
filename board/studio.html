@@ -1,0 +1,220 @@
+<title>HeatGrump Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: o coloană de reel-uri; fiecare reel = rând de cartonașe în ordinea de montaj, feedback-ul stă sub clip */
+:root{
+  --bg:#f3f5f1; --surface:#ffffff; --ink:#18221b; --muted:#5f6b62; --line:#d9ded6;
+  --pine:#1f5b3a; --pine-soft:#e3efe6; --red:#b3261e; --red-soft:#fbe7e5; --amber:#8a5a00; --amber-soft:#fbf0d9;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f1511; --surface:#17201a; --ink:#e7ede8; --muted:#9aa79d; --line:#2a352d;
+  --pine:#7fcf9b; --pine-soft:#1c3324; --red:#ff8a80; --red-soft:#3a1d1b; --amber:#f2c063; --amber-soft:#382b12; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1511; --surface:#17201a; --ink:#e7ede8; --muted:#9aa79d; --line:#2a352d;
+  --pine:#7fcf9b; --pine-soft:#1c3324; --red:#ff8a80; --red-soft:#3a1d1b; --amber:#f2c063; --amber-soft:#382b12; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 var(--body);padding-inline:16px;padding-block:24px 48px}
+.wrap{max-width:1200px;margin:0 auto;display:grid;gap:28px}
+header.top{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 24px}
+h1{font:800 clamp(28px,4vw,40px)/1.05 var(--display);margin:0;letter-spacing:-.01em}
+h1 span{color:var(--pine)}
+.sub{color:var(--muted);margin:4px 0 0;max-width:60ch}
+.legend{display:flex;flex-wrap:wrap;gap:8px}
+.state{font:600 12px/1 var(--body);letter-spacing:.04em;text-transform:uppercase;padding:6px 9px;border-radius:999px;background:var(--line);color:var(--ink);white-space:nowrap}
+.state.gata{background:var(--pine-soft);color:var(--pine)}
+.state.aprobat{background:var(--pine);color:var(--surface)}
+.state.refa{background:var(--red-soft);color:var(--red)}
+.state.lucru{background:var(--amber-soft);color:var(--amber)}
+.state.ales{background:var(--pine);color:var(--surface)}
+section.reel{display:grid;gap:14px}
+.reel-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 16px;border-bottom:1px solid var(--line);padding-bottom:8px}
+.reel-head h2{font:800 24px/1.1 var(--display);margin:0}
+.reel-head .meta{color:var(--muted);font-size:14px}
+.row{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;display:grid;grid-template-rows:auto 1fr;overflow:hidden;min-width:0}
+.card.refa{border-color:var(--red)}
+.media{aspect-ratio:9/16;max-width:100%;background:var(--pine-soft);display:grid;place-items:center;position:relative}
+.media video,.media img{width:100%;height:100%;object-fit:cover;display:block}
+.media .ph{display:grid;gap:10px;justify-items:center;text-align:center;padding:16px;color:var(--muted);font-size:13px}
+.media .ph b{font:800 20px/1 var(--display);color:var(--pine)}
+.body{padding:12px;display:grid;gap:10px;align-content:start;min-width:0}
+.hd{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.hd .name{font-weight:600}
+.pos{font:500 12px/1 var(--mono);color:var(--muted)}
+.note{font-size:13px;color:var(--muted);margin:0;overflow-wrap:anywhere}
+.line{font-size:14px;margin:0;font-style:italic}
+.btns{display:flex;flex-wrap:wrap;gap:6px}
+button,a.open{font:600 13px/1 var(--body);border-radius:7px;padding:8px 10px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;text-decoration:none}
+button:hover,a.open:hover{border-color:var(--pine)}
+button:focus-visible,a.open:focus-visible,textarea:focus-visible{outline:2px solid var(--pine);outline-offset:2px}
+button.dl{background:var(--surface);border-color:var(--pine);color:var(--pine)}
+button.ok{background:var(--pine);border-color:var(--pine);color:var(--surface)}
+button.bad{color:var(--red);border-color:var(--red)}
+button:disabled{opacity:.5;cursor:default}
+textarea{font:14px/1.4 var(--body);width:100%;box-sizing:border-box;min-height:58px;resize:vertical;border:1px solid var(--line);border-radius:7px;padding:8px;background:var(--bg);color:var(--ink)}
+.card.hook{grid-column:span 2;grid-template-rows:none;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr)}
+.card.hook .media{aspect-ratio:9/16;height:auto}
+@media (max-width:520px){.card.hook{grid-column:auto;grid-template-columns:1fr}}
+.det{margin:0;display:grid;gap:2px;font-size:13.5px}
+.det dt{font:600 11px/1.3 var(--body);letter-spacing:.06em;text-transform:uppercase;color:var(--pine);margin-top:8px}
+.det dt:first-child{margin-top:0}
+.det dd{margin:0;overflow-wrap:anywhere}
+.fb{display:grid;gap:6px;border-top:1px dashed var(--line);padding-top:8px}
+.fb-item{font-size:13px;display:grid;gap:2px}
+.fb-item time{font:500 11px/1 var(--mono);color:var(--muted)}
+.fb-item.done{color:var(--muted);text-decoration:line-through}
+.map-wrap{background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow-x:auto}
+.map{position:relative;min-width:760px;display:grid;grid-template-columns:repeat(4,1fr);gap:56px;padding:16px 18px 18px}
+.map svg{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;overflow:visible}
+.map path{fill:none;stroke:var(--line);stroke-width:1.6;transition:stroke .15s,opacity .15s}
+.map path.on{stroke:var(--pine);stroke-width:2.4}
+.map.sel path:not(.on){opacity:.25}
+.col{display:grid;gap:10px;align-content:start;position:relative;z-index:1}
+.col h3{font:600 11px/1.2 var(--body);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 2px}
+.node{display:flex;align-items:center;gap:8px;padding:6px;border:1px solid var(--line);border-radius:8px;background:var(--surface);cursor:pointer;text-align:left;font:500 13px/1.25 var(--body);color:var(--ink);width:100%}
+.node img{width:34px;height:46px;object-fit:cover;border-radius:4px;flex:none;background:var(--pine-soft)}
+.node .nt{display:grid;gap:2px;min-width:0}
+.node small{color:var(--muted);font-size:11.5px;overflow-wrap:anywhere}
+.node .dot{width:8px;height:8px;border-radius:50%;flex:none;margin-left:auto;background:var(--line)}
+.node .dot.gata{background:var(--pine)}.node .dot.refa{background:var(--red)}.node .dot.lucru{background:var(--amber)}.node .dot.aprobat{background:var(--pine)}
+.map.sel .node{opacity:.35}
+.map.sel .node.on{opacity:1;border-color:var(--pine)}
+.map-hint{font-size:13px;color:var(--muted);margin:0}
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:10px;padding:28px;color:var(--muted);text-align:center}
+.toast{position:fixed;left:50%;bottom:calc(16px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 14px;border-radius:8px;font-weight:600}
+@media (prefers-reduced-motion:no-preference){.card{transition:border-color .2s}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>HeatGrump <span>Studio</span></h1>
+      <p class="sub">Toate clipurile, în ordinea de montaj. La fiecare clip poți să-l aprobi, să ceri să fie refăcut sau să scrii ce vrei schimbat. Claude citește tot ce scrii aici.</p>
+    </div>
+    <div class="legend" aria-label="Stări">
+      <span class="state gata">gata</span><span class="state aprobat">aprobat</span><span class="state refa">de refăcut</span><span class="state lucru">se generează</span>
+    </div>
+  </header>
+  <main id="reels"><div class="empty">Se încarcă clipurile…</div></main>
+</div>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+const ORDER=["REEL","HOOK1","HOOK2","HOOK3","UNBOXING","B1","B2","CONECTOR","TELECOMANDA","COZY"];
+const LABEL={gata:"gata",aprobat:"aprobat",refa:"de refăcut",lucru:"se generează",ales:"hook ales"};
+let clips=[],feedback=[],maps={},db=null,canWrite=true;
+const $=s=>document.querySelector(s);
+function toast(t){const el=$("#toast");el.textContent=t;el.hidden=false;clearTimeout(toast.t);toast.t=setTimeout(()=>el.hidden=true,2200)}
+function esc(s){return String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+function when(ts){try{return new Date(ts).toLocaleString("ro-RO",{day:"2-digit",month:"short",hour:"2-digit",minute:"2-digit"})}catch(e){return ""}}
+
+function media(c){
+  if(c.asset){const src="/_blob/"+c.asset;
+    return c.type==="image"?`<img src="${src}" alt="${esc(c.label)}" loading="lazy">`:`<video src="${src}" controls playsinline preload="metadata"></video>`}
+  return `<div class="ph"><b>${esc(c.short||c.slot)}</b>${c.url?"Previzualizarea apare aici după ce e copiat clipul. Până atunci, deschide-l cu butonul de jos.":"Încă se generează."}</div>`;
+}
+function card(c){
+  const fbs=feedback.filter(f=>f.clip===c.id).sort((a,b)=>(a.at||0)-(b.at||0));
+  const isHook=c.slot.startsWith("HOOK");
+  return `<article class="card ${c.status==="refa"?"refa":""} ${isHook?"hook":""}" data-id="${esc(c.id)}">
+    <div class="media">${media(c)}</div>
+    <div class="body">
+      <div class="hd"><span class="name">${esc(c.label)}</span><span class="state ${esc(c.status)}">${esc(LABEL[c.status]||c.status)}</span></div>
+      ${c.line?`<p class="line">“${esc(c.line)}”</p>`:""}
+      ${c.note?`<p class="note">${esc(c.note)}</p>`:""}
+      ${Array.isArray(c.details)?`<dl class="det">${c.details.map(d=>`<dt>${esc(d[0])}</dt><dd>${esc(d[1])}</dd>`).join("")}</dl>`:""}
+      <div class="btns">
+        ${c.asset?`<button class="dl" data-dl="${esc(c.asset)}" data-name="${esc("heatgrump-"+c.id+(c.type==="image"?".png":".mp4"))}">Descarcă</button>`:""}
+        ${c.url?`<a class="open" href="${esc(c.url)}" target="_blank" rel="noopener">Deschide</a>`:""}
+        ${canWrite?(isHook?`<button class="ok" data-act="ales">Aleg hook-ul</button>`:`<button class="ok" data-act="aprobat">Aprob</button>`)+`<button class="bad" data-act="refa">Refă</button>`:""}
+      </div>
+      <div class="fb">
+        ${fbs.map(f=>`<div class="fb-item ${f.done?"done":""}"><time>${when(f.at)}${f.done?" · rezolvat":""}</time><span>${esc(f.text)}</span></div>`).join("")}
+        ${canWrite?`<textarea id="fb-${esc(c.id)}" placeholder="Ce vrei schimbat la clipul ăsta?"></textarea><div class="btns"><button data-act="send">Trimite feedback</button></div>`:""}
+      </div>
+    </div></article>`;
+}
+function render(){
+  const root=$("#reels");
+  if(!clips.length){root.innerHTML=`<div class="empty">Încă nu e niciun clip aici. Când Claude termină un reel, clipurile apar automat.</div>`;return}
+  const reels=[...new Set(clips.map(c=>c.reel))].sort((a,b)=>(a===0)-(b===0)||b-a);
+  root.innerHTML=reels.map(r=>{
+    const cs=clips.filter(c=>c.reel===r).sort((a,b)=>ORDER.indexOf(a.slot)-ORDER.indexOf(b.slot));
+    const info=cs.find(c=>c.reelInfo)?.reelInfo||"";
+    const ok=cs.filter(c=>c.status==="aprobat"||c.status==="ales").length;
+    const m=maps["r"+r];
+    return `<section class="reel"><div class="reel-head"><h2>${r===0?"Clipuri fixe (refolosite)":"Reel "+r}</h2><span class="meta">${esc(info)}</span><span class="meta">${ok}/${cs.length} aprobate</span></div>${m?mapHtml(r,m):""}<div class="row">${cs.map(card).join("")}</div></section>`;
+  }).join("");
+  document.querySelectorAll(".map").forEach(drawLinks);
+}
+const SEL={};
+const COLS=["Ce intră","Imagini de start","Clipuri","Reel final"];
+function mapHtml(r,m){
+  const st=id=>clips.find(c=>c.id===id)?.status||"";
+  const cols=COLS.map((t,i)=>`<div class="col"><h3>${t}</h3>${m.nodes.filter(n=>n.col===i).map(n=>{
+    const s=n.clip?st(n.clip):"";
+    return `<button class="node" type="button" data-n="${esc(n.id)}">${n.asset?`<img src="/_blob/${esc(n.asset)}" alt="" loading="lazy">`:""}<span class="nt">${esc(n.label)}${n.sub?`<small>${esc(n.sub)}</small>`:""}</span>${s?`<span class="dot ${esc(s)}" title="${esc(LABEL[s]||s)}"></span>`:""}</button>`}).join("")}</div>`).join("");
+  return `<p class="map-hint">Harta reelului: apasă pe orice element ca să vezi din ce e făcut și unde ajunge.</p><div class="map-wrap"><div class="map" data-r="${r}" data-sel="${esc(SEL[r]||"")}"><svg aria-hidden="true"></svg>${cols}</div></div>`;
+}
+function linked(m,id){
+  const up=new Set([id]),down=new Set([id]);let ch=true;
+  while(ch){ch=false;for(const [a,b] of m.edges){if(down.has(a)&&!down.has(b)){down.add(b);ch=true}if(up.has(b)&&!up.has(a)){up.add(a);ch=true}}}
+  return new Set([...up,...down]);
+}
+function drawLinks(el){
+  const m=maps["r"+el.dataset.r];if(!m)return;
+  const box=el.getBoundingClientRect(),svg=el.querySelector("svg");
+  const pos=id=>{const n=el.querySelector(`[data-n="${CSS.escape(id)}"]`);if(!n)return null;const b=n.getBoundingClientRect();return {l:b.left-box.left,r:b.right-box.left,y:b.top-box.top+b.height/2}};
+  const sel=el.dataset.sel,on=sel?linked(m,sel):null;
+  svg.innerHTML=m.edges.map(([a,b])=>{const p=pos(a),q=pos(b);if(!p||!q)return"";const x1=p.r,x2=q.l,dx=(x2-x1)/2;
+    const lit=on&&on.has(a)&&on.has(b);return `<path class="${lit?"on":""}" d="M${x1},${p.y} C${x1+dx},${p.y} ${x2-dx},${q.y} ${x2},${q.y}"/>`}).join("");
+  el.classList.toggle("sel",!!sel);
+  el.querySelectorAll(".node").forEach(n=>n.classList.toggle("on",!!on&&on.has(n.dataset.n)));
+}
+document.addEventListener("click",e=>{
+  const n=e.target.closest(".node");if(!n)return;const el=n.closest(".map");
+  el.dataset.sel=el.dataset.sel===n.dataset.n?"":n.dataset.n;SEL[el.dataset.r]=el.dataset.sel;drawLinks(el);
+});
+let rz;addEventListener("resize",()=>{clearTimeout(rz);rz=setTimeout(()=>document.querySelectorAll(".map").forEach(drawLinks),120)});
+document.addEventListener("click",async e=>{
+  const b=e.target.closest("button[data-dl]");if(!b)return;
+  b.disabled=true;const old=b.textContent;b.textContent="Se pregătește…";
+  try{
+    const blob=await (await fetch("/_blob/"+b.dataset.dl)).blob();
+    const dl=await claude.use("downloads");
+    if(dl){await dl.save({filename:b.dataset.name,data:blob});toast("Descărcat")}
+    else{const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=b.dataset.name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),4000)}
+  }catch(err){toast(err&&err.code==="declined"?"Descărcare anulată":"Nu s-a putut descărca. Încearcă din nou.")}
+  finally{b.disabled=false;b.textContent=old}
+});
+document.addEventListener("click",async e=>{
+  const b=e.target.closest("button[data-act]");if(!b||!db)return;
+  const id=b.closest(".card").dataset.id,act=b.dataset.act;b.disabled=true;
+  try{
+    if(act==="send"){
+      const ta=document.getElementById("fb-"+id),t=ta.value.trim();
+      if(!t){toast("Scrie întâi ce vrei schimbat.");b.disabled=false;return}
+      await db.collection("feedback").add({clip:id,text:t,at:Date.now(),done:false});
+      ta.value="";toast("Feedback trimis");
+    }else{
+      await db.doc("clips/"+id).update({status:act,statusAt:Date.now()});
+      toast(act==="refa"?"Marcat de refăcut. Scrie mai jos ce să schimb.":"Salvat");
+    }
+  }catch(err){
+    if(err&&err.code==="invalid_argument"){canWrite=false;render();toast("Nu ai drept de scriere pe pagina asta.")}
+    else toast("Nu s-a salvat. Încearcă din nou.");
+  }finally{b.disabled=false}
+});
+(async()=>{
+  db=await claude.use("db");
+  if(!db){$("#reels").innerHTML=`<div class="empty">Baza de date nu e disponibilă aici. Deschide pagina din contul tău claude.ai.</div>`;return}
+  const user=await claude.use("user");
+  if(user){const w=await user.can("data.write");if(w===false)canWrite=false}
+  db.collection("clips").onSnapshot(s=>{clips=s.docs.map(d=>({id:d.id,...d.data()}));render()},()=>{});
+  db.collection("maps").onSnapshot(s=>{maps={};s.docs.forEach(d=>maps[d.id]=d.data());render()},()=>{});
+  db.collection("feedback").onSnapshot(s=>{feedback=s.docs.map(d=>({id:d.id,...d.data()}));render()},()=>{});
+})();
+</script>

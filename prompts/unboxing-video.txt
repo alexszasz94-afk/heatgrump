@@ -1,0 +1,25 @@
+# model seedance_2_5 · omni_reference · start_image = placa de unboxing · image_references = cutia + 1-2 product refs (regula 27 sept) · 4 s · 1080p · audio true
+# ȘABLONUL LUI, cuvânt cu cuvânt.
+# ATENȚIE filtru IP: cu 4 referințe de halat a fost respins de 6 ori; cu 2 a trecut la 3 din 4; cu 1 a trecut. Dacă ip_detected: retrimite cu 1 referință, apoi doar cutia.
+# ATENȚIE logica ferestrei transparente a cutiei: plușul se vede prin fereastră la început, fereastra se golește pe măsură ce scoate halatul, cutia nu e niciodată plină cât timp ține halatul în mână.
+ (dat 17 sept, se rulează CUVÂNT CU CUVÂNT)
+Input: placa de unboxing tocmai generată ca start_image + referințele de produs.
+
+Single continuous static shot, 4 seconds, vertical 9:16, filmed like a casual phone video propped at chest height, straight-on frontal angle — the box's front face with its logo pointing directly at the camera, the person centered behind it, framed waist up. Frame locked, no camera movement, no cuts, no zoom.
+
+Start frame: the person stands behind the opened product box, hands inside it, face lit up with excitement, box logo facing the camera.
+
+FACE RULE — NEVER COVERED: The person's face stays FULLY VISIBLE in every frame. The product is lifted OFF-CENTER — up and to their side, held at chest height beside their body, angled toward the camera — never raised in front of their face, never between their face and the camera, not even for a moment.
+
+ONE PRODUCT ONLY: There is exactly ONE product. The instant it is lifted out, the box is EMPTY inside — nothing remains in it. The product never appears in two places. Any picture printed on the box's cardboard is flat artwork and stays flat artwork — it never becomes a second product.
+
+ACTION TIMELINE:
+0.0–2.0s — In one smooth, energetic motion they lift the product up and out of the box, guiding it straight to their side at chest height, angled toward the camera. Their face reacts in real time as it rises — eyes going wide, mouth opening into a huge delighted smile, a silent wow.
+2.0–4.0s — They hold the product beside them, giving it one small excited shake/squeeze, beaming at it. End frame: face AND product both clearly visible side by side, product sharp and well lit, the empty open box with its readable logo below.
+
+SIZE IS CRITICAL: identify the product from the attached references and render it at its TRUE real-world size, in correct proportion to their hands, arms and the box it came out of — never miniaturized, never oversized, constant for the whole clip.
+
+AUDIO — NO VOICE: no speech, no words, no talking anywhere in the clip. Only one soft wordless gasp of delight as the product comes out, plus real unboxing sounds synced to the action: cardboard shifting, a crisp tissue-paper rustle as it lifts free, the box settling. Quiet home room tone underneath. NO music, no sound effects beyond these.
+
+REALISM — HARD RULES: Identity, outfit, room and lighting stay exactly consistent with the start frame in every frame. The product matches the attached product reference exactly (or the box artwork if no product photo attached) — true colors, materials, details. The box stays identical to its reference, logo readable, text never warping. Natural arm physics with believable weight, correct finger count, no morphing. No text overlays, no watermark.
+

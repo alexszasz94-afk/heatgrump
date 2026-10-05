@@ -1,0 +1,20 @@
+# model gpt_image_2 · 9:16 · 4k · medias: 1 personaj, 2 cutie (5e8840d4), 3 cameră
+# ȘABLONUL LUI, cuvânt cu cuvânt. Se INSEREAZĂ blocul box-on-floor.txt după prima propoziție (regula din 23 sept).
+ (dat 17 sept, se rulează CUVÂNT CU CUVÂNT)
+Referințe: @Image 1 = Avatar (personaj), @Image 2 = Product Box (cutia), @Image 3 = Background (camera).
+
+Photorealistic image, vertical 9:16: the person from @Image 1 at home, about to lift their brand-new product out of its just-opened box. Candid phone photo style.
+
+THE ROOM — FROM @Image 3, BEST ANGLE: The scene takes place in the EXACT room from @Image 3 — same walls, windows, furniture, floor, decor, colors and materials, unmistakably the same place. But do NOT simply copy @Image 3's camera position: choose the BEST camera angle of this room for an unboxing video — a viewpoint that puts the most attractive features of the room (windows and natural light, the nicest furniture, depth of the space) behind and around the person, with clean composition and depth, the way an experienced content creator would position their phone in this exact room. Everything in the room stays true to @Image 3, just seen from the ideal angle.
+
+FRAMING & SCALE: Static frontal camera at chest height, about 2 meters away. The person stands centered, framed from the knees or waist up, facing the camera. In front of them, the product box from @Image 2 — opened, top flaps open — at its TRUE real-world size: a large product's box stands on the floor in front of them, a smaller product's box sits on a table or counter from the room at waist height. The box's FRONT FACE with its logo and artwork points at the camera, sharp and readable, packaging identical to @Image 2. Their hands are inside the open box, gripping the product, caught the instant before lifting it out — the product itself still hidden inside, the box interior not visible to the camera.
+
+EXPRESSION: Face tilted down toward the open box, lit up with genuine excitement — wide happy eyes, big open-mouth smile, the delight of finally unboxing something they've been waiting for. NOT looking at the camera.
+
+QUALITY & LIGHT: Keep the same natural light character, colors and white balance as @Image 3 — no warm-orange filter, no cinematic grade, no filters. Maximum resolution and sharpness like a modern flagship phone photo. Sharp focus on person and box.
+
+REALISM — IDENTITY IS CRITICAL: The person's face must be EXACTLY the same person as @Image 1 — identical facial features, skin tone, hair and outfit, zero deviation, natural skin texture. Correct hands. No text overlays, no watermark. The product from @Image 2's box appears ONLY as the closed packaging artwork — never as a real object outside the box.
+
+
+
+[INSERT prompts/blocks/box-on-floor.txt]
