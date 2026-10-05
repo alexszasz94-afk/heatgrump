@@ -58,20 +58,27 @@ def concept_cards():
 <figcaption><b>{k} · {html.escape(name)}</b><span>{html.escape(d)}</span></figcaption></figure>''')
     return "".join(out)
 
+OUTFIT = {1: "pijama în carouri bleumarin-gri", 2: "pijama în dungi crem-bleumarin", 3: "bluză bleumarin + pantaloni cu steagul SUA",
+          4: "pulover crem împletit + pantaloni flanel albastru deschis", 5: "set lounge gri", 6: "pulover crem + pantaloni flanel (setul 4)",
+          7: "pulover crem + blugi în mall, apoi pijama în dungi (setul 2)", 8: "hanorac bleumarin + pantaloni cu steagul SUA (setul 3)"}
+HOOK = {1: "tava din cuptor", 2: "desfăcut pe pat (POV)", 3: "rulou cu fundă", 4: "rulou care cade", 5: "aruncat ca o pelerină",
+        6: "NOU · 3, 2, 1", 7: "NOU · magazin: îi cade cafeaua, coadă la vitrină", 8: "NOU · gifting „I'm freezing” / „Take this”"}
 def reel_cards():
     out = []
-    for n in range(1, 6):
-        src = R(f"output/yeti-reel{n}/yeti-reel{n}-FINAL.mp4"); v = os.path.join(TMP, f"reel{n}.mp4"); pz = os.path.join(TMP, f"reel{n}-p.jpg")
-        full = ASSETS.get(f"reel{n}", "")
+    for n in range(1, 9):
+        key = f"v2-reel{n}"
+        src = R(f"output/yeti-reel{n}/yeti-reel{n}-v2-FINAL.mp4"); v = os.path.join(TMP, f"v2reel{n}.mp4"); pz = os.path.join(TMP, f"v2reel{n}-p.jpg")
+        if not os.path.exists(src): continue
+        full = ASSETS.get(key, "")
         if not full:
             ff("-i", src, "-vf", "scale=540:-2", "-c:v", "libx264", "-crf", "27", "-preset", "slow", "-c:a", "aac", "-b:a", "96k", "-movflags", "+faststart", v)
         ff("-ss", "1", "-i", src, "-frames:v", "1", "-vf", "scale=540:-2", "-q:v", "5", pz)
         vsrc = full or uri(v, "video/mp4")
-        txt = open(R(f"output/yeti-reel{n}/yeti-reel{n}.txt")).read().split("\n")
-        head = html.escape(txt[0].replace(f"HeatYeti reel {n} — ", "")); outfit = html.escape(txt[1].replace("Haine dedesubt: ", ""))
+        txt = open(R(f"output/yeti-reel{n}/yeti-reel{n}-v2.txt")).read().split("\n")
+        head = html.escape(next((l.split(": ", 1)[1] for l in txt if l.startswith("TEXT PE ECRAN")), ""))
         cap = next((l[9:] for l in txt if l.startswith("CAPTION: ")), "")
-        out.append(f'''<figure class="reel" data-id="reel{n}" data-file="heatyeti-reel{n}.mp4" data-src="{html.escape(full)}"><video src="{vsrc}" poster="{uri(pz, "image/jpeg")}" controls playsinline preload="metadata"></video>
-<figcaption><b>Reel {n} <em class="st" data-st="none">Nevăzut</em></b><span>{head}</span><span>Dedesubt: {outfit}</span><span class="cap">{html.escape(cap)}</span></figcaption>
+        out.append(f'''<figure class="reel" data-id="{key}" data-file="heatyeti-reel{n}-v2.mp4" data-src="{html.escape(full)}"><video src="{vsrc}" poster="{uri(pz, "image/jpeg")}" controls playsinline preload="metadata"></video>
+<figcaption><b>Reel {n} <em class="st" data-st="none">Nevăzut</em></b><span>Hook: {html.escape(HOOK[n])}</span><span>Text: {head}</span><span>Dedesubt: {html.escape(OUTFIT[n])}</span><span class="cap">{html.escape(cap)}</span></figcaption>
 <div class="review" aria-label="Părerea ta despre reel {n}">
   <div class="btns"><button type="button" class="ok" data-act="aprobat">Aprob</button><button type="button" class="no" data-act="refuzat">Refuz</button></div>
   <textarea rows="3" placeholder="Feedback: ce schimb la reel-ul ăsta?"></textarea>
@@ -80,7 +87,7 @@ def reel_cards():
 </div></figure>''')
     return "".join(out)
 
-steps = [(x, "gata", "done") for x in ("Hook", "Unboxing", "B1 · îmbracă", "B2 · deschide", "Conector", "Telecomandă", "Cozy")]
+steps = [(x, "gata", "done") for x in ("Hook (cu sunet)", "B1 · îmbracă", "B2 · deschide, cu fața", "Conector", "Telecomandă", "Cozy")]
 flow = "".join(f'<li class="{c}"><span>{html.escape(n)}</span><em>{s}</em></li>' for n, s, c in steps)
 
 page = f'''<title>HeatYeti Board</title>
@@ -137,12 +144,12 @@ figcaption b{{font-weight:600;width:100%}}figcaption span{{color:var(--mute);fon
 <header>
   <span class="eyebrow">Copia HeatGrump · 3 octombrie</span>
   <h1>HeatYeti</h1>
-  <p class="lead">Același halat termic, aceleași reguli și aceeași ordine de montaj ca la Grinch, doar cu designul Yeti. Halatul ales e conceptul B, Blană de Yeti. Mai jos e trusa de bază: halatul, cutia și clipurile fixe. Primele 5 reel-uri sunt gata, mai jos.</p>
+  <p class="lead">Același halat termic, aceleași reguli și aceeași ordine de montaj ca la Grinch, doar cu designul Yeti. Halatul ales e conceptul B, Blană de Yeti. Mai jos e trusa de bază: halatul, cutia și clipurile fixe. Reel-urile v2 sunt mai jos.</p>
   <ul class="flow" aria-label="Ordinea de montaj">{flow}</ul>
 </header>
 <section>
-  <h2>Primele 5 reel-uri HeatYeti</h2>
-  <p class="note">Gata de postat, cu textele pe ecran și sunetul original al viralului. La fiecare: Aprob sau Refuz, scrie ce să schimb și apasă Salvează. Eu citesc direct de aici. Descarcă MP4 îți dă fișierul la rezoluție întreagă.</p>
+  <h2>Reel-urile HeatYeti · v2 (regulile princesscomfortt)</h2>
+  <p class="note">Refăcute pe regulile noi: hook după princesscomfortt cu sunet făcut de noi, B2 cu fața, fără unboxing, un singur text sus, muzică de Crăciun. Reel-urile 6, 7, 8 sunt noi. La fiecare: Aprob sau Refuz, scrie ce să schimb și apasă Salvează. Eu citesc direct de aici. Descarcă MP4 îți dă fișierul la rezoluție întreagă.</p>
   <p class="note" id="rvstate"></p>
   <div class="grid reels">{reel_cards()}</div>
 </section>

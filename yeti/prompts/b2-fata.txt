@@ -1,0 +1,17 @@
+# HeatYeti B2 v2 — REGULA 5 oct (princesscomfortt): B2 mereu cu fața vizibilă. Clip-model = dB2 transformat în Yeti (job 83372b3e, library/motion/b2-fata-yeti.mp4).
+# medias: 1 personaj, 2 cameră, 3-6 yeti refs, 7 interiorul săculeților (76bddfde), video_references = 83372b3e · 5 s · 1080p
+B2 — FACING THE CAMERA, OPENING THE ROBE WIDE, FOOT INTO THE POUCH, CLOSING IT. Transfer the movement and camera work from the driving video exactly onto the subject in the reference images. The driving video already shows the correct HeatYeti robe and the correct action — copy that action and that robe exactly; change only the person, their clothes and the room.
+
+THE FACE — ABSOLUTE RULE: the person faces the camera the whole clip and their WHOLE FACE is clearly visible, sharp and natural in every frame, under the Yeti hood, exactly the face of Image 1, smiling. Nothing ever covers or blurs the face.
+
+LOOK — real iPhone video, natural daylight, true-to-life colours, no glossy, cinematic or AI look.
+
+IMAGE ROLES: Image 1 is the PERSON — face, hair, age, build and gender exactly as in Image 1. Image 2 is the ROOM. Images 3-6 are THE ROBE. Image 7 shows the foot pouches from the inside.
+
+THEIR CLOTHES — ABSOLUTE RULE: underneath the robe they wear <OUTFIT>, the same the whole clip. Do NOT copy the clothes of the person in the driving video.
+
+THE ACTION, exactly as in the driving video: they hold the two front panels and spread the robe wide open like wings, showing the smooth icy-blue lining and the foot pouches inside (Image 7); they lift one knee and tuck the foot into its pouch; then they wrap the robe closed. Closed, the bottom of the robe is the two giant shaggy white Yeti paws with slate-grey toe pads.
+
+THE ROBE, identical to Images 3-6 and the driving video: long-pile shaggy snow-white Yeti fur outside, smooth icy-blue minky lining inside, plain white fur pockets. THE HOOD is up: big shaggy white Yeti head with two curved slate-grey horns, small round ears and the soft grumpy pale-blue Yeti face above the forehead. No red, no green, no gold. Full length, never cropped.
+
+Vertical 9:16. NO TEXT ANYWHERE, no watermark.
