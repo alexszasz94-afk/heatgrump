@@ -1,0 +1,45 @@
+{
+ "out": "output/reel22/reel22-FINAL.mp4",
+ "segments": [
+  {
+   "file": "output/reel22/hooks/hook.mp4",
+   "start": 0,
+   "end": 3.9
+  },
+  {
+   "file": "output/reel22/b1.mp4",
+   "start": 0,
+   "end": 0.85
+  },
+  {
+   "file": "output/reel22/b2.mp4",
+   "start": 0,
+   "end": 3.8
+  },
+  {
+   "file": "output/fixed/conector-femeie-taiat.mp4",
+   "start": 0,
+   "end": 1.5
+  },
+  {
+   "file": "output/fixed/telecomanda-femeie-taiat.mp4",
+   "start": 0,
+   "end": 2.2
+  },
+  {
+   "file": "output/reel22/cozy.mp4",
+   "start": 0,
+   "end": 3.0
+  }
+ ],
+ "texts": [
+  {
+   "t0": 0.0,
+   "t1": 15.25,
+   "text": "\"The perfect gift doesn't exi-\" 😳🎄"
+  }
+ ],
+ "music": "library/music/viral-Dc-rr2WKSRR-ext.m4a",
+ "music_start": 0,
+ "orig_vol": 0.12
+}

@@ -77,6 +77,35 @@ PLANS = {
     (FX+"conector-femeie-taiat.mp4", 0, 1.5, "Don't show this to a Grinch fan… 🥹💚"),
     (FX+"telecomanda-femeie-taiat.mp4", 0, 2.2, "Don't show this to a Grinch fan… 🥹💚"),
     ("cozy.mp4", 0, 1.5, "Don't show this to a Grinch fan… 🥹💚")]),
+ 19: dict(music="library/music/viral-DdTC2suKD0l-ext.m4a", parts=[
+    ("hooks/hook.mp4", 0, 2.3, "Christmas-holics don't walk… they RUN 🏃‍♀️🎄"),
+    ("unboxing.mp4", 0, 2.6, "Christmas-holics don't walk… they RUN 🏃‍♀️🎄"),
+    ("b1.mp4", 0, 1.3, "Christmas-holics don't walk… they RUN 🏃‍♀️🎄"),
+    ("b2.mp4", 0, 3.8, "Christmas-holics don't walk… they RUN 🏃‍♀️🎄"),
+    (FX+"conector-femeie-taiat.mp4", 0, 1.5, "Christmas-holics don't walk… they RUN 🏃‍♀️🎄"),
+    (FX+"telecomanda-femeie-taiat.mp4", 0, 2.2, "Christmas-holics don't walk… they RUN 🏃‍♀️🎄"),
+    ("cozy.mp4", 0, 2.0, "Christmas-holics don't walk… they RUN 🏃‍♀️🎄")]),
+ 20: dict(music="library/music/viral-DdSNI1ITcu6-ext.m4a", parts=[
+    ("hooks/hook.mp4", 0, 3.4, "DON'T show this to a Grinch girl… 😳🎄"),
+    ("b1.mp4", 0, 1.3, "DON'T show this to a Grinch girl… 😳🎄"),
+    ("b2.mp4", 0, 4.8, "DON'T show this to a Grinch girl… 😳🎄"),
+    (FX+"conector-femeie-taiat.mp4", 0, 1.5, "DON'T show this to a Grinch girl… 😳🎄"),
+    (FX+"telecomanda-femeie-taiat.mp4", 0, 2.2, "DON'T show this to a Grinch girl… 😳🎄"),
+    ("cozy.mp4", 0, 2.6, "DON'T show this to a Grinch girl… 😳🎄")]),
+ 21: dict(music="library/music/viral-DdK34IiqRx4-ext.m4a", parts=[
+    ("hooks/hook.mp4", 0, 4.9, "POV: my boyfriend reviews the viral heated Grinch robe 😏🎄"),
+    ("b1.mp4", 0, 1.3, "POV: my boyfriend reviews the viral heated Grinch robe 😏🎄"),
+    ("b2.mp4", 0, 5.0, "POV: my boyfriend reviews the viral heated Grinch robe 😏🎄"),
+    (FX+"conector-barbat-inchis-taiat.mp4", 0, 1.5, "POV: my boyfriend reviews the viral heated Grinch robe 😏🎄"),
+    (FX+"telecomanda-barbat-inchis-taiat.mp4", 0, 2.16, "POV: my boyfriend reviews the viral heated Grinch robe 😏🎄"),
+    ("cozy.mp4", 0, 2.0, "POV: my boyfriend reviews the viral heated Grinch robe 😏🎄")]),
+ 22: dict(music="library/music/viral-Dc-rr2WKSRR-ext.m4a", parts=[
+    ("hooks/hook.mp4", 0, 3.9, "\"The perfect gift doesn't exi-\" 😳🎄"),
+    ("b1.mp4", 0, 0.85, "\"The perfect gift doesn't exi-\" 😳🎄"),
+    ("b2.mp4", 0, 3.8, "\"The perfect gift doesn't exi-\" 😳🎄"),
+    (FX+"conector-femeie-taiat.mp4", 0, 1.5, "\"The perfect gift doesn't exi-\" 😳🎄"),
+    (FX+"telecomanda-femeie-taiat.mp4", 0, 2.2, "\"The perfect gift doesn't exi-\" 😳🎄"),
+    ("cozy.mp4", 0, 3.0, "\"The perfect gift doesn't exi-\" 😳🎄")]),
 }
 def build(n):
     p = PLANS[n]; segs, texts, t = [], [], 0.0
