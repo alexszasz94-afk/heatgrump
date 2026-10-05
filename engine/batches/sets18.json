@@ -1,0 +1,47 @@
+{
+ "18": {
+  "c": "c18.jpg",
+  "r": "r18.jpg",
+  "hair": "a young woman with long, loose, voluminous curly light-brown hair (no bun, no ponytail)",
+  "cl": "a red-and-green tartan flannel pajama set and white socks",
+  "b1": "a",
+  "b2": "B",
+  "cz": "s"
+ },
+ "19": {
+  "c": "c19.jpg",
+  "r": "r19.jpg",
+  "hair": "a woman with shoulder-length straight dark-brown hair with a side part, worn loose (no bun, no ponytail)",
+  "cl": "a cream Fair Isle Christmas knit sweater with a red snowflake pattern, light-blue jeans and white socks",
+  "b1": "b",
+  "b2": "C",
+  "cz": "c"
+ },
+ "20": {
+  "c": "c20.jpg",
+  "r": "r20.jpg",
+  "hair": "a young woman with long, loose, wavy chestnut-brown hair (no bun, no ponytail)",
+  "cl": "pink-and-white candy-cane striped pajama pants, a plain white long-sleeve tee and white fuzzy slippers",
+  "b1": "a",
+  "b2": "A",
+  "cz": "s"
+ },
+ "21": {
+  "c": "c21.jpg",
+  "r": "r21.jpg",
+  "hair": "a Black man with very short cropped black hair and a short neat black beard",
+  "cl": "a red-and-navy plaid flannel pajama set and grey socks",
+  "b1": "b",
+  "b2": "B",
+  "cz": "c"
+ },
+ "22": {
+  "c": "c22.jpg",
+  "r": "r22.jpg",
+  "hair": "a young woman with long, straight, loose dark-brown hair (no bun, no ponytail)",
+  "cl": "a plain navy crewneck sweatshirt, black leggings and white socks",
+  "b1": "a",
+  "b2": "C",
+  "cz": null
+ }
+}

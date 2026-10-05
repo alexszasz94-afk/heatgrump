@@ -1,0 +1,590 @@
+[
+ {
+  "index": 181,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "1080p",
+   "duration": 4,
+   "bitrate_mode": "high",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "d4c6d212-d978-4c64-961b-58ed4c0407ad",
+     "role": "image_references"
+    },
+    {
+     "value": "03bd6bcb-0358-4bf6-a6a8-c32434636c93",
+     "role": "image_references"
+    },
+    {
+     "value": "a9ebff95-7b4e-4a10-92f5-4c9377d01fd4",
+     "role": "image_references"
+    },
+    {
+     "value": "b3adf7e2-adcd-4ffc-9989-1fa0c822c78f",
+     "role": "image_references"
+    },
+    {
+     "value": "28a3d14b-3578-4569-bcf2-33a84d478cc0",
+     "role": "image_references"
+    },
+    {
+     "value": "71882d2b-aeab-4cc1-afa3-4f9d1a1951c5",
+     "role": "image_references"
+    },
+    {
+     "value": "8391f616-19ac-4af8-a80d-d7340f2027e2",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "B1 — PUTTING THE ROBE ON. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK — BRIGHT, EVERYDAY UGC: a normal person filming on their own phone in a well-lit room. Bright, evenly lit, colours clearly readable, no dark corners, no moody grade, no orange tint, no vignette. Ordinary phone sharpness.\n\nIMAGE ROLES: Image 1 is the PERSON — a young woman with long, loose, voluminous curly light-brown hair (no bun, no ponytail); face, hair, skin tone, age, build and gender exactly as in Image 1 in every frame, do NOT copy the hair or the face of the person in the driving video. Image 2 is the ROOM — same walls, furniture and decor. Images 3-6 are THE ROBE.\n\nCLOTHES UNDER THE ROBE — ABSOLUTE RULE: a red-and-green tartan flannel pajama set and white socks — the same in every clip of this reel. Do NOT copy any clothing from the driving video.\n\nTHE ROBE, identical to the reference images in every frame: deep red plush upper body and sleeves; olive-green plush lower skirt; a scalloped red hem line across the middle edged with thin gold piping; Santa-hat shaped hood in deep red with a white pompom; the hood's outer front panel olive-green with the printed grumpy green face with yellow slit eyes; wide white sherpa trim down both front edges, around the hood opening and along the bottom hem; wide white sherpa cuffs with bright shaggy lime-green faux-fur cuffs. Interior lining olive-green, never white. NO belt, no buckle. The two front pockets are PLAIN olive-green with a white sherpa band — no face, no print on them. Thick, cozy, premium plush, visible full length down to the floor. No pink, no burgundy.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no burned-in text, no emoji, no watermarks — any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 182,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "1080p",
+   "duration": 5,
+   "bitrate_mode": "high",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "d4c6d212-d978-4c64-961b-58ed4c0407ad",
+     "role": "image_references"
+    },
+    {
+     "value": "03bd6bcb-0358-4bf6-a6a8-c32434636c93",
+     "role": "image_references"
+    },
+    {
+     "value": "a9ebff95-7b4e-4a10-92f5-4c9377d01fd4",
+     "role": "image_references"
+    },
+    {
+     "value": "b3adf7e2-adcd-4ffc-9989-1fa0c822c78f",
+     "role": "image_references"
+    },
+    {
+     "value": "28a3d14b-3578-4569-bcf2-33a84d478cc0",
+     "role": "image_references"
+    },
+    {
+     "value": "71882d2b-aeab-4cc1-afa3-4f9d1a1951c5",
+     "role": "image_references"
+    },
+    {
+     "value": "6731a06f-f6c0-48d9-a001-5047c85ca5d6",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "B2 — STANDING IN THE ROBE, OPENING IT WIDE AND CLOSING IT AGAIN. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK — BRIGHT, EVERYDAY UGC: a normal person filming on their own phone in a well-lit room. Bright, evenly lit, colours clearly readable, no dark corners, no moody grade, no orange tint, no vignette. Ordinary phone sharpness.\n\nIMAGE ROLES: Image 1 is the PERSON — a young woman with long, loose, voluminous curly light-brown hair (no bun, no ponytail); face, hair, skin tone, age, build and gender exactly as in Image 1 in every frame, do NOT copy the hair or the face of the person in the driving video. Image 2 is the ROOM — same walls, furniture and decor. Images 3-6 are THE ROBE.\n\nCLOTHES UNDER THE ROBE — ABSOLUTE RULE: a red-and-green tartan flannel pajama set and white socks — the same in every clip of this reel. Do NOT copy any clothing from the driving video.\n\nTHE ROBE, identical to the reference images in every frame: deep red plush upper body and sleeves; olive-green plush lower skirt; a scalloped red hem line across the middle edged with thin gold piping; Santa-hat shaped hood in deep red with a white pompom; the hood's outer front panel olive-green with the printed grumpy green face with yellow slit eyes; wide white sherpa trim down both front edges, around the hood opening and along the bottom hem; wide white sherpa cuffs with bright shaggy lime-green faux-fur cuffs. Interior lining olive-green, never white. NO belt, no buckle. The two front pockets are PLAIN olive-green with a white sherpa band — no face, no print on them. Thick, cozy, premium plush, visible full length down to the floor. No pink, no burgundy.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no burned-in text, no emoji, no watermarks — any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 183,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "1080p",
+   "duration": 4,
+   "bitrate_mode": "high",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "d4c6d212-d978-4c64-961b-58ed4c0407ad",
+     "role": "image_references"
+    },
+    {
+     "value": "03bd6bcb-0358-4bf6-a6a8-c32434636c93",
+     "role": "image_references"
+    },
+    {
+     "value": "a9ebff95-7b4e-4a10-92f5-4c9377d01fd4",
+     "role": "image_references"
+    },
+    {
+     "value": "b3adf7e2-adcd-4ffc-9989-1fa0c822c78f",
+     "role": "image_references"
+    },
+    {
+     "value": "28a3d14b-3578-4569-bcf2-33a84d478cc0",
+     "role": "image_references"
+    },
+    {
+     "value": "71882d2b-aeab-4cc1-afa3-4f9d1a1951c5",
+     "role": "image_references"
+    },
+    {
+     "value": "8042602c-c548-45de-aa77-6d42366e058e",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "COZY — SETTLING IN THE ROBE ON THE SOFA. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK — BRIGHT, EVERYDAY UGC: a normal person filming on their own phone in a well-lit room. Bright, evenly lit, colours clearly readable, no dark corners, no moody grade, no orange tint, no vignette. Ordinary phone sharpness.\n\nIMAGE ROLES: Image 1 is the PERSON — a young woman with long, loose, voluminous curly light-brown hair (no bun, no ponytail); face, hair, skin tone, age, build and gender exactly as in Image 1 in every frame, do NOT copy the hair or the face of the person in the driving video. Image 2 is the ROOM — same walls, furniture and decor. Images 3-6 are THE ROBE.\n\nCLOTHES UNDER THE ROBE — ABSOLUTE RULE: a red-and-green tartan flannel pajama set and white socks — the same in every clip of this reel. Do NOT copy any clothing from the driving video.\n\nTHE ROBE, identical to the reference images in every frame: deep red plush upper body and sleeves; olive-green plush lower skirt; a scalloped red hem line across the middle edged with thin gold piping; Santa-hat shaped hood in deep red with a white pompom; the hood's outer front panel olive-green with the printed grumpy green face with yellow slit eyes; wide white sherpa trim down both front edges, around the hood opening and along the bottom hem; wide white sherpa cuffs with bright shaggy lime-green faux-fur cuffs. Interior lining olive-green, never white. NO belt, no buckle. The two front pockets are PLAIN olive-green with a white sherpa band — no face, no print on them. Thick, cozy, premium plush, visible full length down to the floor. No pink, no burgundy.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no burned-in text, no emoji, no watermarks — any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 191,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "1080p",
+   "duration": 4,
+   "bitrate_mode": "high",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "23015f27-56a2-4313-bd7f-b31ce690ac2e",
+     "role": "image_references"
+    },
+    {
+     "value": "b22a1032-e251-4c70-8942-432bbafce2a6",
+     "role": "image_references"
+    },
+    {
+     "value": "a9ebff95-7b4e-4a10-92f5-4c9377d01fd4",
+     "role": "image_references"
+    },
+    {
+     "value": "b3adf7e2-adcd-4ffc-9989-1fa0c822c78f",
+     "role": "image_references"
+    },
+    {
+     "value": "28a3d14b-3578-4569-bcf2-33a84d478cc0",
+     "role": "image_references"
+    },
+    {
+     "value": "71882d2b-aeab-4cc1-afa3-4f9d1a1951c5",
+     "role": "image_references"
+    },
+    {
+     "value": "d8a474d2-e9b6-4a69-9d4c-5fabe1472435",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "B1 — PUTTING THE ROBE ON. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK — BRIGHT, EVERYDAY UGC: a normal person filming on their own phone in a well-lit room. Bright, evenly lit, colours clearly readable, no dark corners, no moody grade, no orange tint, no vignette. Ordinary phone sharpness.\n\nIMAGE ROLES: Image 1 is the PERSON — a woman with shoulder-length straight dark-brown hair with a side part, worn loose (no bun, no ponytail); face, hair, skin tone, age, build and gender exactly as in Image 1 in every frame, do NOT copy the hair or the face of the person in the driving video. Image 2 is the ROOM — same walls, furniture and decor. Images 3-6 are THE ROBE.\n\nCLOTHES UNDER THE ROBE — ABSOLUTE RULE: a cream Fair Isle Christmas knit sweater with a red snowflake pattern, light-blue jeans and white socks — the same in every clip of this reel. Do NOT copy any clothing from the driving video.\n\nTHE ROBE, identical to the reference images in every frame: deep red plush upper body and sleeves; olive-green plush lower skirt; a scalloped red hem line across the middle edged with thin gold piping; Santa-hat shaped hood in deep red with a white pompom; the hood's outer front panel olive-green with the printed grumpy green face with yellow slit eyes; wide white sherpa trim down both front edges, around the hood opening and along the bottom hem; wide white sherpa cuffs with bright shaggy lime-green faux-fur cuffs. Interior lining olive-green, never white. NO belt, no buckle. The two front pockets are PLAIN olive-green with a white sherpa band — no face, no print on them. Thick, cozy, premium plush, visible full length down to the floor. No pink, no burgundy.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no burned-in text, no emoji, no watermarks — any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 192,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "1080p",
+   "duration": 5,
+   "bitrate_mode": "high",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "23015f27-56a2-4313-bd7f-b31ce690ac2e",
+     "role": "image_references"
+    },
+    {
+     "value": "b22a1032-e251-4c70-8942-432bbafce2a6",
+     "role": "image_references"
+    },
+    {
+     "value": "a9ebff95-7b4e-4a10-92f5-4c9377d01fd4",
+     "role": "image_references"
+    },
+    {
+     "value": "b3adf7e2-adcd-4ffc-9989-1fa0c822c78f",
+     "role": "image_references"
+    },
+    {
+     "value": "28a3d14b-3578-4569-bcf2-33a84d478cc0",
+     "role": "image_references"
+    },
+    {
+     "value": "71882d2b-aeab-4cc1-afa3-4f9d1a1951c5",
+     "role": "image_references"
+    },
+    {
+     "value": "e9a9ed00-094d-4211-8b98-2cfdf6115920",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "B2 — STANDING IN THE ROBE, OPENING IT WIDE AND CLOSING IT AGAIN. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK — BRIGHT, EVERYDAY UGC: a normal person filming on their own phone in a well-lit room. Bright, evenly lit, colours clearly readable, no dark corners, no moody grade, no orange tint, no vignette. Ordinary phone sharpness.\n\nIMAGE ROLES: Image 1 is the PERSON — a woman with shoulder-length straight dark-brown hair with a side part, worn loose (no bun, no ponytail); face, hair, skin tone, age, build and gender exactly as in Image 1 in every frame, do NOT copy the hair or the face of the person in the driving video. Image 2 is the ROOM — same walls, furniture and decor. Images 3-6 are THE ROBE.\n\nCLOTHES UNDER THE ROBE — ABSOLUTE RULE: a cream Fair Isle Christmas knit sweater with a red snowflake pattern, light-blue jeans and white socks — the same in every clip of this reel. Do NOT copy any clothing from the driving video.\n\nTHE ROBE, identical to the reference images in every frame: deep red plush upper body and sleeves; olive-green plush lower skirt; a scalloped red hem line across the middle edged with thin gold piping; Santa-hat shaped hood in deep red with a white pompom; the hood's outer front panel olive-green with the printed grumpy green face with yellow slit eyes; wide white sherpa trim down both front edges, around the hood opening and along the bottom hem; wide white sherpa cuffs with bright shaggy lime-green faux-fur cuffs. Interior lining olive-green, never white. NO belt, no buckle. The two front pockets are PLAIN olive-green with a white sherpa band — no face, no print on them. Thick, cozy, premium plush, visible full length down to the floor. No pink, no burgundy.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no burned-in text, no emoji, no watermarks — any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 193,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "1080p",
+   "duration": 4,
+   "bitrate_mode": "high",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "23015f27-56a2-4313-bd7f-b31ce690ac2e",
+     "role": "image_references"
+    },
+    {
+     "value": "b22a1032-e251-4c70-8942-432bbafce2a6",
+     "role": "image_references"
+    },
+    {
+     "value": "a9ebff95-7b4e-4a10-92f5-4c9377d01fd4",
+     "role": "image_references"
+    },
+    {
+     "value": "b3adf7e2-adcd-4ffc-9989-1fa0c822c78f",
+     "role": "image_references"
+    },
+    {
+     "value": "28a3d14b-3578-4569-bcf2-33a84d478cc0",
+     "role": "image_references"
+    },
+    {
+     "value": "71882d2b-aeab-4cc1-afa3-4f9d1a1951c5",
+     "role": "image_references"
+    },
+    {
+     "value": "5f950f18-01c6-411c-81e6-16a13179cc05",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "COZY — SETTLING IN THE ROBE ON THE SOFA. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK — BRIGHT, EVERYDAY UGC: a normal person filming on their own phone in a well-lit room. Bright, evenly lit, colours clearly readable, no dark corners, no moody grade, no orange tint, no vignette. Ordinary phone sharpness.\n\nIMAGE ROLES: Image 1 is the PERSON — a woman with shoulder-length straight dark-brown hair with a side part, worn loose (no bun, no ponytail); face, hair, skin tone, age, build and gender exactly as in Image 1 in every frame, do NOT copy the hair or the face of the person in the driving video. Image 2 is the ROOM — same walls, furniture and decor. Images 3-6 are THE ROBE.\n\nCLOTHES UNDER THE ROBE — ABSOLUTE RULE: a cream Fair Isle Christmas knit sweater with a red snowflake pattern, light-blue jeans and white socks — the same in every clip of this reel. Do NOT copy any clothing from the driving video.\n\nTHE ROBE, identical to the reference images in every frame: deep red plush upper body and sleeves; olive-green plush lower skirt; a scalloped red hem line across the middle edged with thin gold piping; Santa-hat shaped hood in deep red with a white pompom; the hood's outer front panel olive-green with the printed grumpy green face with yellow slit eyes; wide white sherpa trim down both front edges, around the hood opening and along the bottom hem; wide white sherpa cuffs with bright shaggy lime-green faux-fur cuffs. Interior lining olive-green, never white. NO belt, no buckle. The two front pockets are PLAIN olive-green with a white sherpa band — no face, no print on them. Thick, cozy, premium plush, visible full length down to the floor. No pink, no burgundy.\n\nVertical 9:16. NO TEXT ANYWHERE (the driving video has burned-in caption text — remove it completely): no captions, no burned-in text, no emoji, no watermarks — any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 201,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "1080p",
+   "duration": 4,
+   "bitrate_mode": "high",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "4c223029-ee68-4c6e-8818-73ea50fb8111",
+     "role": "image_references"
+    },
+    {
+     "value": "49b435da-591d-47c5-91f2-f256209a5762",
+     "role": "image_references"
+    },
+    {
+     "value": "a9ebff95-7b4e-4a10-92f5-4c9377d01fd4",
+     "role": "image_references"
+    },
+    {
+     "value": "b3adf7e2-adcd-4ffc-9989-1fa0c822c78f",
+     "role": "image_references"
+    },
+    {
+     "value": "28a3d14b-3578-4569-bcf2-33a84d478cc0",
+     "role": "image_references"
+    },
+    {
+     "value": "71882d2b-aeab-4cc1-afa3-4f9d1a1951c5",
+     "role": "image_references"
+    },
+    {
+     "value": "8391f616-19ac-4af8-a80d-d7340f2027e2",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "B1 — PUTTING THE ROBE ON. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK — BRIGHT, EVERYDAY UGC: a normal person filming on their own phone in a well-lit room. Bright, evenly lit, colours clearly readable, no dark corners, no moody grade, no orange tint, no vignette. Ordinary phone sharpness.\n\nIMAGE ROLES: Image 1 is the PERSON — a young woman with long, loose, wavy chestnut-brown hair (no bun, no ponytail); face, hair, skin tone, age, build and gender exactly as in Image 1 in every frame, do NOT copy the hair or the face of the person in the driving video. Image 2 is the ROOM — same walls, furniture and decor. Images 3-6 are THE ROBE.\n\nCLOTHES UNDER THE ROBE — ABSOLUTE RULE: pink-and-white candy-cane striped pajama pants, a plain white long-sleeve tee and white fuzzy slippers — the same in every clip of this reel. Do NOT copy any clothing from the driving video.\n\nTHE ROBE, identical to the reference images in every frame: deep red plush upper body and sleeves; olive-green plush lower skirt; a scalloped red hem line across the middle edged with thin gold piping; Santa-hat shaped hood in deep red with a white pompom; the hood's outer front panel olive-green with the printed grumpy green face with yellow slit eyes; wide white sherpa trim down both front edges, around the hood opening and along the bottom hem; wide white sherpa cuffs with bright shaggy lime-green faux-fur cuffs. Interior lining olive-green, never white. NO belt, no buckle. The two front pockets are PLAIN olive-green with a white sherpa band — no face, no print on them. Thick, cozy, premium plush, visible full length down to the floor. No pink, no burgundy.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no burned-in text, no emoji, no watermarks — any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 202,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "1080p",
+   "duration": 5,
+   "bitrate_mode": "high",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "4c223029-ee68-4c6e-8818-73ea50fb8111",
+     "role": "image_references"
+    },
+    {
+     "value": "49b435da-591d-47c5-91f2-f256209a5762",
+     "role": "image_references"
+    },
+    {
+     "value": "a9ebff95-7b4e-4a10-92f5-4c9377d01fd4",
+     "role": "image_references"
+    },
+    {
+     "value": "b3adf7e2-adcd-4ffc-9989-1fa0c822c78f",
+     "role": "image_references"
+    },
+    {
+     "value": "28a3d14b-3578-4569-bcf2-33a84d478cc0",
+     "role": "image_references"
+    },
+    {
+     "value": "71882d2b-aeab-4cc1-afa3-4f9d1a1951c5",
+     "role": "image_references"
+    },
+    {
+     "value": "6243c22d-ed26-4df8-8a68-0d4ff29219bd",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "B2 — STANDING IN THE ROBE, OPENING IT WIDE AND CLOSING IT AGAIN. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK — BRIGHT, EVERYDAY UGC: a normal person filming on their own phone in a well-lit room. Bright, evenly lit, colours clearly readable, no dark corners, no moody grade, no orange tint, no vignette. Ordinary phone sharpness.\n\nIMAGE ROLES: Image 1 is the PERSON — a young woman with long, loose, wavy chestnut-brown hair (no bun, no ponytail); face, hair, skin tone, age, build and gender exactly as in Image 1 in every frame, do NOT copy the hair or the face of the person in the driving video. Image 2 is the ROOM — same walls, furniture and decor. Images 3-6 are THE ROBE.\n\nCLOTHES UNDER THE ROBE — ABSOLUTE RULE: pink-and-white candy-cane striped pajama pants, a plain white long-sleeve tee and white fuzzy slippers — the same in every clip of this reel. Do NOT copy any clothing from the driving video.\n\nTHE ROBE, identical to the reference images in every frame: deep red plush upper body and sleeves; olive-green plush lower skirt; a scalloped red hem line across the middle edged with thin gold piping; Santa-hat shaped hood in deep red with a white pompom; the hood's outer front panel olive-green with the printed grumpy green face with yellow slit eyes; wide white sherpa trim down both front edges, around the hood opening and along the bottom hem; wide white sherpa cuffs with bright shaggy lime-green faux-fur cuffs. Interior lining olive-green, never white. NO belt, no buckle. The two front pockets are PLAIN olive-green with a white sherpa band — no face, no print on them. Thick, cozy, premium plush, visible full length down to the floor. No pink, no burgundy.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no burned-in text, no emoji, no watermarks — any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 203,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "1080p",
+   "duration": 4,
+   "bitrate_mode": "high",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "4c223029-ee68-4c6e-8818-73ea50fb8111",
+     "role": "image_references"
+    },
+    {
+     "value": "49b435da-591d-47c5-91f2-f256209a5762",
+     "role": "image_references"
+    },
+    {
+     "value": "a9ebff95-7b4e-4a10-92f5-4c9377d01fd4",
+     "role": "image_references"
+    },
+    {
+     "value": "b3adf7e2-adcd-4ffc-9989-1fa0c822c78f",
+     "role": "image_references"
+    },
+    {
+     "value": "28a3d14b-3578-4569-bcf2-33a84d478cc0",
+     "role": "image_references"
+    },
+    {
+     "value": "71882d2b-aeab-4cc1-afa3-4f9d1a1951c5",
+     "role": "image_references"
+    },
+    {
+     "value": "8042602c-c548-45de-aa77-6d42366e058e",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "COZY — SETTLING IN THE ROBE ON THE SOFA. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK — BRIGHT, EVERYDAY UGC: a normal person filming on their own phone in a well-lit room. Bright, evenly lit, colours clearly readable, no dark corners, no moody grade, no orange tint, no vignette. Ordinary phone sharpness.\n\nIMAGE ROLES: Image 1 is the PERSON — a young woman with long, loose, wavy chestnut-brown hair (no bun, no ponytail); face, hair, skin tone, age, build and gender exactly as in Image 1 in every frame, do NOT copy the hair or the face of the person in the driving video. Image 2 is the ROOM — same walls, furniture and decor. Images 3-6 are THE ROBE.\n\nCLOTHES UNDER THE ROBE — ABSOLUTE RULE: pink-and-white candy-cane striped pajama pants, a plain white long-sleeve tee and white fuzzy slippers — the same in every clip of this reel. Do NOT copy any clothing from the driving video.\n\nTHE ROBE, identical to the reference images in every frame: deep red plush upper body and sleeves; olive-green plush lower skirt; a scalloped red hem line across the middle edged with thin gold piping; Santa-hat shaped hood in deep red with a white pompom; the hood's outer front panel olive-green with the printed grumpy green face with yellow slit eyes; wide white sherpa trim down both front edges, around the hood opening and along the bottom hem; wide white sherpa cuffs with bright shaggy lime-green faux-fur cuffs. Interior lining olive-green, never white. NO belt, no buckle. The two front pockets are PLAIN olive-green with a white sherpa band — no face, no print on them. Thick, cozy, premium plush, visible full length down to the floor. No pink, no burgundy.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no burned-in text, no emoji, no watermarks — any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 211,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "1080p",
+   "duration": 4,
+   "bitrate_mode": "high",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "0cc54467-fd3b-422c-9bc3-9c868f796daa",
+     "role": "image_references"
+    },
+    {
+     "value": "78ea1a53-0b64-4827-9b77-821f3cd54514",
+     "role": "image_references"
+    },
+    {
+     "value": "a9ebff95-7b4e-4a10-92f5-4c9377d01fd4",
+     "role": "image_references"
+    },
+    {
+     "value": "b3adf7e2-adcd-4ffc-9989-1fa0c822c78f",
+     "role": "image_references"
+    },
+    {
+     "value": "28a3d14b-3578-4569-bcf2-33a84d478cc0",
+     "role": "image_references"
+    },
+    {
+     "value": "71882d2b-aeab-4cc1-afa3-4f9d1a1951c5",
+     "role": "image_references"
+    },
+    {
+     "value": "d8a474d2-e9b6-4a69-9d4c-5fabe1472435",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "B1 — PUTTING THE ROBE ON. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK — BRIGHT, EVERYDAY UGC: a normal person filming on their own phone in a well-lit room. Bright, evenly lit, colours clearly readable, no dark corners, no moody grade, no orange tint, no vignette. Ordinary phone sharpness.\n\nIMAGE ROLES: Image 1 is the PERSON — a Black man with very short cropped black hair and a short neat black beard; face, hair, skin tone, age, build and gender exactly as in Image 1 in every frame, do NOT copy the hair or the face of the person in the driving video. Image 2 is the ROOM — same walls, furniture and decor. Images 3-6 are THE ROBE.\n\nCLOTHES UNDER THE ROBE — ABSOLUTE RULE: a red-and-navy plaid flannel pajama set and grey socks — the same in every clip of this reel. Do NOT copy any clothing from the driving video.\n\nTHE ROBE, identical to the reference images in every frame: deep red plush upper body and sleeves; olive-green plush lower skirt; a scalloped red hem line across the middle edged with thin gold piping; Santa-hat shaped hood in deep red with a white pompom; the hood's outer front panel olive-green with the printed grumpy green face with yellow slit eyes; wide white sherpa trim down both front edges, around the hood opening and along the bottom hem; wide white sherpa cuffs with bright shaggy lime-green faux-fur cuffs. Interior lining olive-green, never white. NO belt, no buckle. The two front pockets are PLAIN olive-green with a white sherpa band — no face, no print on them. Thick, cozy, premium plush, visible full length down to the floor. No pink, no burgundy.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no burned-in text, no emoji, no watermarks — any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 212,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "1080p",
+   "duration": 5,
+   "bitrate_mode": "high",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "0cc54467-fd3b-422c-9bc3-9c868f796daa",
+     "role": "image_references"
+    },
+    {
+     "value": "78ea1a53-0b64-4827-9b77-821f3cd54514",
+     "role": "image_references"
+    },
+    {
+     "value": "a9ebff95-7b4e-4a10-92f5-4c9377d01fd4",
+     "role": "image_references"
+    },
+    {
+     "value": "b3adf7e2-adcd-4ffc-9989-1fa0c822c78f",
+     "role": "image_references"
+    },
+    {
+     "value": "28a3d14b-3578-4569-bcf2-33a84d478cc0",
+     "role": "image_references"
+    },
+    {
+     "value": "71882d2b-aeab-4cc1-afa3-4f9d1a1951c5",
+     "role": "image_references"
+    },
+    {
+     "value": "6731a06f-f6c0-48d9-a001-5047c85ca5d6",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "B2 — STANDING IN THE ROBE, OPENING IT WIDE AND CLOSING IT AGAIN. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK — BRIGHT, EVERYDAY UGC: a normal person filming on their own phone in a well-lit room. Bright, evenly lit, colours clearly readable, no dark corners, no moody grade, no orange tint, no vignette. Ordinary phone sharpness.\n\nIMAGE ROLES: Image 1 is the PERSON — a Black man with very short cropped black hair and a short neat black beard; face, hair, skin tone, age, build and gender exactly as in Image 1 in every frame, do NOT copy the hair or the face of the person in the driving video. Image 2 is the ROOM — same walls, furniture and decor. Images 3-6 are THE ROBE.\n\nCLOTHES UNDER THE ROBE — ABSOLUTE RULE: a red-and-navy plaid flannel pajama set and grey socks — the same in every clip of this reel. Do NOT copy any clothing from the driving video.\n\nTHE ROBE, identical to the reference images in every frame: deep red plush upper body and sleeves; olive-green plush lower skirt; a scalloped red hem line across the middle edged with thin gold piping; Santa-hat shaped hood in deep red with a white pompom; the hood's outer front panel olive-green with the printed grumpy green face with yellow slit eyes; wide white sherpa trim down both front edges, around the hood opening and along the bottom hem; wide white sherpa cuffs with bright shaggy lime-green faux-fur cuffs. Interior lining olive-green, never white. NO belt, no buckle. The two front pockets are PLAIN olive-green with a white sherpa band — no face, no print on them. Thick, cozy, premium plush, visible full length down to the floor. No pink, no burgundy.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no burned-in text, no emoji, no watermarks — any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 213,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "1080p",
+   "duration": 4,
+   "bitrate_mode": "high",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "0cc54467-fd3b-422c-9bc3-9c868f796daa",
+     "role": "image_references"
+    },
+    {
+     "value": "78ea1a53-0b64-4827-9b77-821f3cd54514",
+     "role": "image_references"
+    },
+    {
+     "value": "a9ebff95-7b4e-4a10-92f5-4c9377d01fd4",
+     "role": "image_references"
+    },
+    {
+     "value": "b3adf7e2-adcd-4ffc-9989-1fa0c822c78f",
+     "role": "image_references"
+    },
+    {
+     "value": "28a3d14b-3578-4569-bcf2-33a84d478cc0",
+     "role": "image_references"
+    },
+    {
+     "value": "71882d2b-aeab-4cc1-afa3-4f9d1a1951c5",
+     "role": "image_references"
+    },
+    {
+     "value": "5f950f18-01c6-411c-81e6-16a13179cc05",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "COZY — SETTLING IN THE ROBE ON THE SOFA. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK — BRIGHT, EVERYDAY UGC: a normal person filming on their own phone in a well-lit room. Bright, evenly lit, colours clearly readable, no dark corners, no moody grade, no orange tint, no vignette. Ordinary phone sharpness.\n\nIMAGE ROLES: Image 1 is the PERSON — a Black man with very short cropped black hair and a short neat black beard; face, hair, skin tone, age, build and gender exactly as in Image 1 in every frame, do NOT copy the hair or the face of the person in the driving video. Image 2 is the ROOM — same walls, furniture and decor. Images 3-6 are THE ROBE.\n\nCLOTHES UNDER THE ROBE — ABSOLUTE RULE: a red-and-navy plaid flannel pajama set and grey socks — the same in every clip of this reel. Do NOT copy any clothing from the driving video.\n\nTHE ROBE, identical to the reference images in every frame: deep red plush upper body and sleeves; olive-green plush lower skirt; a scalloped red hem line across the middle edged with thin gold piping; Santa-hat shaped hood in deep red with a white pompom; the hood's outer front panel olive-green with the printed grumpy green face with yellow slit eyes; wide white sherpa trim down both front edges, around the hood opening and along the bottom hem; wide white sherpa cuffs with bright shaggy lime-green faux-fur cuffs. Interior lining olive-green, never white. NO belt, no buckle. The two front pockets are PLAIN olive-green with a white sherpa band — no face, no print on them. Thick, cozy, premium plush, visible full length down to the floor. No pink, no burgundy.\n\nVertical 9:16. NO TEXT ANYWHERE (the driving video has burned-in caption text — remove it completely): no captions, no burned-in text, no emoji, no watermarks — any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 221,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "1080p",
+   "duration": 4,
+   "bitrate_mode": "high",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "6430376b-f656-4245-ab32-8f2c898afe3a",
+     "role": "image_references"
+    },
+    {
+     "value": "06ac9a6e-e581-4204-bcfa-142a0bb1474a",
+     "role": "image_references"
+    },
+    {
+     "value": "a9ebff95-7b4e-4a10-92f5-4c9377d01fd4",
+     "role": "image_references"
+    },
+    {
+     "value": "b3adf7e2-adcd-4ffc-9989-1fa0c822c78f",
+     "role": "image_references"
+    },
+    {
+     "value": "28a3d14b-3578-4569-bcf2-33a84d478cc0",
+     "role": "image_references"
+    },
+    {
+     "value": "71882d2b-aeab-4cc1-afa3-4f9d1a1951c5",
+     "role": "image_references"
+    },
+    {
+     "value": "8391f616-19ac-4af8-a80d-d7340f2027e2",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "B1 — PUTTING THE ROBE ON. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK — BRIGHT, EVERYDAY UGC: a normal person filming on their own phone in a well-lit room. Bright, evenly lit, colours clearly readable, no dark corners, no moody grade, no orange tint, no vignette. Ordinary phone sharpness.\n\nIMAGE ROLES: Image 1 is the PERSON — a young woman with long, straight, loose dark-brown hair (no bun, no ponytail); face, hair, skin tone, age, build and gender exactly as in Image 1 in every frame, do NOT copy the hair or the face of the person in the driving video. Image 2 is the ROOM — same walls, furniture and decor. Images 3-6 are THE ROBE.\n\nCLOTHES UNDER THE ROBE — ABSOLUTE RULE: a plain navy crewneck sweatshirt, black leggings and white socks — the same in every clip of this reel. Do NOT copy any clothing from the driving video.\n\nTHE ROBE, identical to the reference images in every frame: deep red plush upper body and sleeves; olive-green plush lower skirt; a scalloped red hem line across the middle edged with thin gold piping; Santa-hat shaped hood in deep red with a white pompom; the hood's outer front panel olive-green with the printed grumpy green face with yellow slit eyes; wide white sherpa trim down both front edges, around the hood opening and along the bottom hem; wide white sherpa cuffs with bright shaggy lime-green faux-fur cuffs. Interior lining olive-green, never white. NO belt, no buckle. The two front pockets are PLAIN olive-green with a white sherpa band — no face, no print on them. Thick, cozy, premium plush, visible full length down to the floor. No pink, no burgundy.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no burned-in text, no emoji, no watermarks — any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 222,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "1080p",
+   "duration": 5,
+   "bitrate_mode": "high",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "6430376b-f656-4245-ab32-8f2c898afe3a",
+     "role": "image_references"
+    },
+    {
+     "value": "06ac9a6e-e581-4204-bcfa-142a0bb1474a",
+     "role": "image_references"
+    },
+    {
+     "value": "a9ebff95-7b4e-4a10-92f5-4c9377d01fd4",
+     "role": "image_references"
+    },
+    {
+     "value": "b3adf7e2-adcd-4ffc-9989-1fa0c822c78f",
+     "role": "image_references"
+    },
+    {
+     "value": "28a3d14b-3578-4569-bcf2-33a84d478cc0",
+     "role": "image_references"
+    },
+    {
+     "value": "71882d2b-aeab-4cc1-afa3-4f9d1a1951c5",
+     "role": "image_references"
+    },
+    {
+     "value": "e9a9ed00-094d-4211-8b98-2cfdf6115920",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "B2 — STANDING IN THE ROBE, OPENING IT WIDE AND CLOSING IT AGAIN. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK — BRIGHT, EVERYDAY UGC: a normal person filming on their own phone in a well-lit room. Bright, evenly lit, colours clearly readable, no dark corners, no moody grade, no orange tint, no vignette. Ordinary phone sharpness.\n\nIMAGE ROLES: Image 1 is the PERSON — a young woman with long, straight, loose dark-brown hair (no bun, no ponytail); face, hair, skin tone, age, build and gender exactly as in Image 1 in every frame, do NOT copy the hair or the face of the person in the driving video. Image 2 is the ROOM — same walls, furniture and decor. Images 3-6 are THE ROBE.\n\nCLOTHES UNDER THE ROBE — ABSOLUTE RULE: a plain navy crewneck sweatshirt, black leggings and white socks — the same in every clip of this reel. Do NOT copy any clothing from the driving video.\n\nTHE ROBE, identical to the reference images in every frame: deep red plush upper body and sleeves; olive-green plush lower skirt; a scalloped red hem line across the middle edged with thin gold piping; Santa-hat shaped hood in deep red with a white pompom; the hood's outer front panel olive-green with the printed grumpy green face with yellow slit eyes; wide white sherpa trim down both front edges, around the hood opening and along the bottom hem; wide white sherpa cuffs with bright shaggy lime-green faux-fur cuffs. Interior lining olive-green, never white. NO belt, no buckle. The two front pockets are PLAIN olive-green with a white sherpa band — no face, no print on them. Thick, cozy, premium plush, visible full length down to the floor. No pink, no burgundy.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no burned-in text, no emoji, no watermarks — any text in the driving video is removed."
+  }
+ }
+]
