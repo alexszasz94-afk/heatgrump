@@ -12,9 +12,9 @@
    "end": 1.3
   },
   {
-   "file": "output/reel19/b2new.mp4",
+   "file": "output/reel19/b2fast.mp4",
    "start": 0,
-   "end": 5.9
+   "end": 4.37
   },
   {
    "file": "output/fixed/conector-femeie-taiat.mp4",
@@ -35,7 +35,7 @@
  "texts": [
   {
    "t0": 0.0,
-   "t1": 17.3,
+   "t1": 15.77,
    "text": "GRINCH ROBE DROP 😳🎄"
   }
  ],
