@@ -77,6 +77,16 @@ PLANS = {
     (FX+"conector-femeie-taiat.mp4", 0, 1.5, "Don't show this to a Grinch fan… 🥹💚"),
     (FX+"telecomanda-femeie-taiat.mp4", 0, 2.2, "Don't show this to a Grinch fan… 🥹💚"),
     ("cozy.mp4", 0, 1.5, "Don't show this to a Grinch fan… 🥹💚")]),
+ 18: dict(music="library/music/viral-DdmI16ft-rc-ext.m4a", parts=[
+    ("hooks/hook-a2.mp4", 0, 1.4, "The problem 😩❄️"),
+    ("hooks/hook-b.mp4", 0, 2.2, "The problem 😩❄️"),
+    ("hooks/hook-b.mp4", 2.5, 4.0, "The problem 😩❄️"),
+    ("unboxing.mp4", 0, 2.8, "Vs…"),
+    ("b1.mp4", 0, 0.85, "Vs…"),
+    ("b2.mp4", 0.3, 4.8, "Vs…"),
+    (FX+"conector-femeie-taiat.mp4", 0, 1.5, "Vs…"),
+    (FX+"telecomanda-femeie-taiat.mp4", 0, 2.2, "Vs…"),
+    ("cozy.mp4", 0, 2.0, "Vs…")]),
  19: dict(music="library/music/viral-DdTC2suKD0l-ext.m4a", parts=[
     ("hooks/hook.mp4", 0, 2.3, "Christmas-holics don't walk… they RUN 🏃‍♀️🎄"),
     ("unboxing.mp4", 0, 2.6, "Christmas-holics don't walk… they RUN 🏃‍♀️🎄"),
