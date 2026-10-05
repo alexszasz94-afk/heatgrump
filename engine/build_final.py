@@ -124,13 +124,13 @@ PLANS = {
     (FX+"conector-femeie-taiat.mp4", 0, 1.5, "GRINCH ROBE DROP 😳🎄"),
     (FX+"telecomanda-femeie-taiat.mp4", 0, 2.2, "GRINCH ROBE DROP 😳🎄"),
     ("cozy.mp4", 0, 2.4, "GRINCH ROBE DROP 😳🎄")]),
- 200: dict(music="library/music/xmas/wham-last-christmas.mp3", music_start=0.43, orig_vol=0.9, music_vol=0.85, parts=[
-    ("hooks/hook-v2s.mp4", 0, 4.4, "I made this for the Grinch lovers.. 🤩💚"),
-    ("b1.mp4", 0, 1.3, "I made this for the Grinch lovers.. 🤩💚"),
-    ("b2fast.mp4", 0, 4.37, "I made this for the Grinch lovers.. 🤩💚"),
-    (FX+"conector-femeie-taiat.mp4", 0, 1.5, "I made this for the Grinch lovers.. 🤩💚"),
-    (FX+"telecomanda-femeie-taiat.mp4", 0, 2.2, "I made this for the Grinch lovers.. 🤩💚"),
-    ("cozy.mp4", 0, 2.6, "I made this for the Grinch lovers.. 🤩💚")]),
+ 200: dict(music="library/music/xmas/wham-last-christmas.mp3", music_start=0.43, orig_vol=1.0, music_vol=0.6, parts=[
+    ("hooks/hook-v3b-321.mp4", 0, 4.6, "I made this for the cold-aholics.. 🤩💕"),
+    ("b1.mp4", 0, 1.3, "I made this for the cold-aholics.. 🤩💕"),
+    ("b2f-fast.mp4", 0, 4.4, "I made this for the cold-aholics.. 🤩💕"),
+    (FX+"conector-femeie-taiat.mp4", 0, 1.5, "I made this for the cold-aholics.. 🤩💕"),
+    (FX+"telecomanda-femeie-taiat.mp4", 0, 2.2, "I made this for the cold-aholics.. 🤩💕"),
+    ("cozy.mp4", 0, 2.6, "I made this for the cold-aholics.. 🤩💕")]),
  210: dict(music="library/music/xmas/buble-beginning.mp3", music_start=32.43, orig_vol=0.9, music_vol=0.85, parts=[
     ("hooks/hook-v2.mp4", 0, 4.0, "Don't let your girlfriend know about this 🤭💕"),
     ("b1.mp4", 0, 1.3, "Don't let your girlfriend know about this 🤭💕"),
