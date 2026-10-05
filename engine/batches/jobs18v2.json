@@ -1,3 +1,33 @@
-{"185":"b89fe6bf-73ac-4e68-9118-eb3facb29473","195":"1f17dce1-5e3f-40a0-bf06-3387f54df690","205":"ddb60a6b-e7f2-4c9c-9f6b-7e1643049f13","215":"a927a364-c315-4df8-9e9f-509011caa3cf","225":"12e0f2e2-2cac-4a7c-8cdf-ffbedf78515b","1811_gresit_ignora":"d5fa6798-2aed-4d95-937c-aecd66013a79","1812":"26160cda-ed14-449a-b884-25aeef758f1b","2012":"80431ee7-90df-4d9c-8fbe-7e04960940b6","2212":"e79d36bf-c452-487c-adf2-6841a884ae60","p1911":"bf7b346a-e794-4cae-8bd8-82f71e26ba0d","p2111":"ad9be26d-f76a-4754-be43-6fda4f86f8ca",
-"analize_muzica":{"wham":"09df026b-c2fc-4de1-bd34-52d2c0572ed2","buble":"d23cd260-4b53-4480-b362-18a09a239c95","mariah":"5982e803-0686-42aa-93d3-83b88c9fd912"},
-"drivere":{"dB2_fata_mereu":"9896b250-dab9-4af1-9f86-0a4f19a1fced","dH2":"1956a1b0-dbfc-4103-87a1-a8b4a4487153","dH3":"66e28dc3-8774-43b8-8fa0-b5afb63b21f1","dH5":"5787a549-9011-4de1-a7c3-051685baedee"}}
+{
+ "185": "b89fe6bf-73ac-4e68-9118-eb3facb29473",
+ "195": "1f17dce1-5e3f-40a0-bf06-3387f54df690",
+ "205": "ddb60a6b-e7f2-4c9c-9f6b-7e1643049f13",
+ "215": "a927a364-c315-4df8-9e9f-509011caa3cf",
+ "225": "12e0f2e2-2cac-4a7c-8cdf-ffbedf78515b",
+ "1811_gresit_ignora": "d5fa6798-2aed-4d95-937c-aecd66013a79",
+ "1812": "26160cda-ed14-449a-b884-25aeef758f1b",
+ "2012": "80431ee7-90df-4d9c-8fbe-7e04960940b6",
+ "2212": "e79d36bf-c452-487c-adf2-6841a884ae60",
+ "p1911": "bf7b346a-e794-4cae-8bd8-82f71e26ba0d",
+ "p2111": "ad9be26d-f76a-4754-be43-6fda4f86f8ca",
+ "analize_muzica": {
+  "wham": "09df026b-c2fc-4de1-bd34-52d2c0572ed2",
+  "buble": "d23cd260-4b53-4480-b362-18a09a239c95",
+  "mariah": "5982e803-0686-42aa-93d3-83b88c9fd912"
+ },
+ "drivere": {
+  "dB2_fata_mereu": "9896b250-dab9-4af1-9f86-0a4f19a1fced",
+  "dH2": "1956a1b0-dbfc-4103-87a1-a8b4a4487153",
+  "dH3": "66e28dc3-8774-43b8-8fa0-b5afb63b21f1",
+  "dH5": "5787a549-9011-4de1-a7c3-051685baedee"
+ },
+ "1912": "18227948-02a5-43f4-81be-b3b27c800b6f",
+ "2151": "0f696cd4-a730-4f01-abfd-939274ef5e98",
+ "p2113": "59d40653-c303-4d19-ae89-771d24ae99c0",
+ "2112": "753eddf4-8290-4cdb-b38b-25c95de75192",
+ "muzica_offset": {
+  "mariah": 42.4,
+  "wham": 0.43,
+  "buble": 32.43
+ }
+}
