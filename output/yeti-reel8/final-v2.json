@@ -1,0 +1,47 @@
+{
+ "out": "output/yeti-reel8/yeti-reel8-v2-FINAL.mp4",
+ "segments": [
+  {
+   "file": "output/yeti-reel8/hook.mp4",
+   "start": 0,
+   "end": 5.0,
+   "audio": true
+  },
+  {
+   "file": "output/yeti-reel3/v2/b1.mp4",
+   "start": 0,
+   "end": 1.6
+  },
+  {
+   "file": "output/yeti-reel3/v2/b2.mp4",
+   "start": 0,
+   "end": 6.0
+  },
+  {
+   "file": "output/yeti-fixed/conector-barbat-inchis-taiat.mp4",
+   "start": 0,
+   "end": 1.8
+  },
+  {
+   "file": "output/yeti-fixed/telecomanda-barbat-inchis-taiat.mp4",
+   "start": 0,
+   "end": 2.2
+  },
+  {
+   "file": "output/yeti-reel3/v2/cozy.mp4",
+   "start": 0,
+   "end": 2.5
+  }
+ ],
+ "texts": [
+  {
+   "t0": 0,
+   "t1": 19.1,
+   "text": "Send this to someone who's always cold 🥶"
+  }
+ ],
+ "music": "library/music/xmas/wham-last-christmas.mp3",
+ "music_start": 0.43,
+ "orig_vol": 0.9,
+ "music_vol": 0.85
+}
