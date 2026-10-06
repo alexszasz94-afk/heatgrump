@@ -157,22 +157,23 @@ PLANS = {
     ("hooks/hook.mp4", 0, 3.9, "Do NOT let a Grinch mom see this… 🤩🎄"),
     ("b1.mp4", 0, 1.2, "Do NOT let a Grinch mom see this… 🤩🎄"),
     ("b2fast.mp4", 0, 4.37, "Do NOT let a Grinch mom see this… 🤩🎄"),
-    ("conector.mp4", 0, 1.8, "Do NOT let a Grinch mom see this… 🤩🎄"),
-    ("telecomanda.mp4", 0.4, 1.8, "Do NOT let a Grinch mom see this… 🤩🎄"),
+    (FX+"conector-femeie-taiat.mp4", 0, 1.5, "Do NOT let a Grinch mom see this… 🤩🎄"),
+    (FX+"telecomanda-femeie-taiat.mp4", 0, 2.2, "Do NOT let a Grinch mom see this… 🤩🎄"),
     ("cozy.mp4", 0, 2.6, "Do NOT let a Grinch mom see this… 🤩🎄")]),
  25: dict(music="library/music/xmas/mariah-all-i-want.mp3", music_start=42.4, orig_vol=0.9, music_vol=0.85, parts=[
     ("hooks/hook.mp4", 0, 4.8, "Fresh out of the oven… it's HEATED 🔥"),
     ("b1.mp4", 0, 2.2, "Fresh out of the oven… it's HEATED 🔥"),
     ("b2fast.mp4", 0, 4.37, "Fresh out of the oven… it's HEATED 🔥"),
-    ("telecomanda.mp4", 0.8, 2.8, "Fresh out of the oven… it's HEATED 🔥"),
+    (FX+"conector-barbat-inchis-taiat.mp4", 0, 1.5, "Fresh out of the oven… it's HEATED 🔥"),
+    (FX+"telecomanda-barbat-inchis-taiat.mp4", 0, 2.16, "Fresh out of the oven… it's HEATED 🔥"),
     ("cozy.mp4", 0, 2.6, "Fresh out of the oven… it's HEATED 🔥")]),
  26: dict(music="library/music/xmas/wham-last-christmas.mp3", music_start=0.43, orig_vol=0.9, music_vol=0.85, parts=[
-    ("hooks/hook.mp4", 0, 4.6, "THE GRINCH COLLECTION 🤩👑"),
-    ("b1.mp4", 0, 0.9, "THE GRINCH COLLECTION 🤩👑"),
-    ("b2fast.mp4", 0, 4.37, "THE GRINCH COLLECTION 🤩👑"),
-    ("conector.mp4", 0, 1.5, "THE GRINCH COLLECTION 🤩👑"),
-    ("telecomanda.mp4", 0, 1.9, "THE GRINCH COLLECTION 🤩👑"),
-    ("cozy.mp4", 0, 2.4, "JK we sell them online 💕")]),
+    ("hooks/hook.mp4", 0, 4.6, "H&M X GRINCH 🎄🎅"),
+    ("b1.mp4", 0, 0.9, "H&M X GRINCH 🎄🎅"),
+    ("b2fast.mp4", 0, 4.37, "H&M X GRINCH 🎄🎅"),
+    (FX+"conector-femeie-taiat.mp4", 0, 1.5, "H&M X GRINCH 🎄🎅"),
+    (FX+"telecomanda-femeie-taiat.mp4", 0, 2.2, "H&M X GRINCH 🎄🎅"),
+    ("cozy.mp4", 0, 2.4, "JK we sell them 💕🎄")]),
 }
 def build(n):
     p = PLANS[n]; segs, texts, t = [], [], 0.0

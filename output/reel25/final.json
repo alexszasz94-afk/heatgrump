@@ -17,9 +17,14 @@
    "end": 4.37
   },
   {
-   "file": "output/reel25/telecomanda.mp4",
-   "start": 0.8,
-   "end": 2.8
+   "file": "output/fixed/conector-barbat-inchis-taiat.mp4",
+   "start": 0,
+   "end": 1.5
+  },
+  {
+   "file": "output/fixed/telecomanda-barbat-inchis-taiat.mp4",
+   "start": 0,
+   "end": 2.16
   },
   {
    "file": "output/reel25/cozy.mp4",
@@ -30,7 +35,7 @@
  "texts": [
   {
    "t0": 0.0,
-   "t1": 15.97,
+   "t1": 17.63,
    "text": "Fresh out of the oven… it's HEATED 🔥"
   }
  ],
