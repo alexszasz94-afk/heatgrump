@@ -62,7 +62,7 @@ for (const r of REELS) {
   const el = document.createElement("article");
   el.className = "reel";
   el.innerHTML = `
-    <video controls playsinline preload="metadata" poster="poster${r.n}.jpg" src="reel${r.n}.mp4"></video>
+    <video controls playsinline preload="none" poster="poster${r.n}.jpg" src="prev${r.n}.mp4"></video>
     <div class="info">
       <div class="top"><h2>Reel ${r.n}</h2><span class="len">${r.len}</span></div>
       <span class="tag"></span>
