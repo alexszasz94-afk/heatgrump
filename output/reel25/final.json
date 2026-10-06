@@ -1,0 +1,41 @@
+{
+ "out": "output/reel25/reel25-FINAL.mp4",
+ "segments": [
+  {
+   "file": "output/reel25/hooks/hook.mp4",
+   "start": 0,
+   "end": 4.8
+  },
+  {
+   "file": "output/reel25/b1.mp4",
+   "start": 0,
+   "end": 2.2
+  },
+  {
+   "file": "output/reel25/b2fast.mp4",
+   "start": 0,
+   "end": 4.37
+  },
+  {
+   "file": "output/reel25/telecomanda.mp4",
+   "start": 0.8,
+   "end": 2.8
+  },
+  {
+   "file": "output/reel25/cozy.mp4",
+   "start": 0,
+   "end": 2.6
+  }
+ ],
+ "texts": [
+  {
+   "t0": 0.0,
+   "t1": 15.97,
+   "text": "Fresh out of the oven… it's HEATED 🔥"
+  }
+ ],
+ "music": "library/music/xmas/mariah-all-i-want.mp3",
+ "music_start": 42.4,
+ "orig_vol": 0.9,
+ "music_vol": 0.85
+}

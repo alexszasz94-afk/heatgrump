@@ -1,0 +1,51 @@
+{
+ "out": "output/reel26/reel26-FINAL.mp4",
+ "segments": [
+  {
+   "file": "output/reel26/hooks/hook.mp4",
+   "start": 0,
+   "end": 4.6
+  },
+  {
+   "file": "output/reel26/b1.mp4",
+   "start": 0,
+   "end": 0.9
+  },
+  {
+   "file": "output/reel26/b2fast.mp4",
+   "start": 0,
+   "end": 4.37
+  },
+  {
+   "file": "output/reel26/conector.mp4",
+   "start": 0,
+   "end": 1.5
+  },
+  {
+   "file": "output/reel26/telecomanda.mp4",
+   "start": 0,
+   "end": 1.9
+  },
+  {
+   "file": "output/reel26/cozy.mp4",
+   "start": 0,
+   "end": 2.4
+  }
+ ],
+ "texts": [
+  {
+   "t0": 0.0,
+   "t1": 13.27,
+   "text": "THE GRINCH COLLECTION 🤩👑"
+  },
+  {
+   "t0": 13.27,
+   "t1": 15.67,
+   "text": "JK we sell them online 💕"
+  }
+ ],
+ "music": "library/music/xmas/wham-last-christmas.mp3",
+ "music_start": 0.43,
+ "orig_vol": 0.9,
+ "music_vol": 0.85
+}

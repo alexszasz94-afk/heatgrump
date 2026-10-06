@@ -161,18 +161,18 @@ PLANS = {
     ("telecomanda.mp4", 0.4, 1.8, "Do NOT let a Grinch mom see this… 🤩🎄"),
     ("cozy.mp4", 0, 2.6, "Do NOT let a Grinch mom see this… 🤩🎄")]),
  25: dict(music="library/music/xmas/mariah-all-i-want.mp3", music_start=42.4, orig_vol=0.9, music_vol=0.85, parts=[
-    ("hooks/hook.mp4", 0, 4.8, "Fresh out of the oven… and it's HEATED 😳🔥"),
-    ("b1.mp4", 0, 2.2, "Fresh out of the oven… and it's HEATED 😳🔥"),
-    ("b2fast.mp4", 0, 4.37, "Fresh out of the oven… and it's HEATED 😳🔥"),
-    ("telecomanda.mp4", 0.8, 2.8, "Fresh out of the oven… and it's HEATED 😳🔥"),
-    ("cozy.mp4", 0, 2.6, "Fresh out of the oven… and it's HEATED 😳🔥")]),
+    ("hooks/hook.mp4", 0, 4.8, "Fresh out of the oven… it's HEATED 🔥"),
+    ("b1.mp4", 0, 2.2, "Fresh out of the oven… it's HEATED 🔥"),
+    ("b2fast.mp4", 0, 4.37, "Fresh out of the oven… it's HEATED 🔥"),
+    ("telecomanda.mp4", 0.8, 2.8, "Fresh out of the oven… it's HEATED 🔥"),
+    ("cozy.mp4", 0, 2.6, "Fresh out of the oven… it's HEATED 🔥")]),
  26: dict(music="library/music/xmas/wham-last-christmas.mp3", music_start=0.43, orig_vol=0.9, music_vol=0.85, parts=[
     ("hooks/hook.mp4", 0, 4.6, "THE GRINCH COLLECTION 🤩👑"),
     ("b1.mp4", 0, 0.9, "THE GRINCH COLLECTION 🤩👑"),
     ("b2fast.mp4", 0, 4.37, "THE GRINCH COLLECTION 🤩👑"),
     ("conector.mp4", 0, 1.5, "THE GRINCH COLLECTION 🤩👑"),
     ("telecomanda.mp4", 0, 1.9, "THE GRINCH COLLECTION 🤩👑"),
-    ("cozy.mp4", 0, 2.6, "JK we sell them online 💕")]),
+    ("cozy.mp4", 0, 2.4, "JK we sell them online 💕")]),
 }
 def build(n):
     p = PLANS[n]; segs, texts, t = [], [], 0.0

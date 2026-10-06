@@ -1,0 +1,46 @@
+{
+ "out": "output/reel24/reel24-FINAL.mp4",
+ "segments": [
+  {
+   "file": "output/reel24/hooks/hook.mp4",
+   "start": 0,
+   "end": 3.9
+  },
+  {
+   "file": "output/reel24/b1.mp4",
+   "start": 0,
+   "end": 1.2
+  },
+  {
+   "file": "output/reel24/b2fast.mp4",
+   "start": 0,
+   "end": 4.37
+  },
+  {
+   "file": "output/reel24/conector.mp4",
+   "start": 0,
+   "end": 1.8
+  },
+  {
+   "file": "output/reel24/telecomanda.mp4",
+   "start": 0.4,
+   "end": 1.8
+  },
+  {
+   "file": "output/reel24/cozy.mp4",
+   "start": 0,
+   "end": 2.6
+  }
+ ],
+ "texts": [
+  {
+   "t0": 0.0,
+   "t1": 15.27,
+   "text": "Do NOT let a Grinch mom see this… 🤩🎄"
+  }
+ ],
+ "music": "library/music/xmas/buble-beginning.mp3",
+ "music_start": 32.43,
+ "orig_vol": 0.9,
+ "music_vol": 0.85
+}
