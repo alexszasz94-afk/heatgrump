@@ -6,11 +6,11 @@ MUSIC = {"wham": ("library/music/xmas/wham-last-christmas.mp3", 0.43),
          "mariah": ("library/music/xmas/mariah-all-i-want.mp3", 42.4),
          "buble": ("library/music/xmas/buble-beginning.mp3", 32.43)}
 # set B-roll per reel: (dir, b1 file, b1 end, conector, telecomanda, cozy end)
-BROLL = {1: ("output/yeti-reel1/v2/", "b1.mp4", 1.6, "conector-barbat-taiat.mp4", "telecomanda-barbat-taiat.mp4", 1.5),
-         2: ("output/yeti-reel2/", "b1-yeti-driving-443.mp4", 1.4, "conector-femeie-taiat.mp4", "../yeti-reel2/telecomanda-zoom.mp4", 2.5),
-         3: ("output/yeti-reel3/v2/", "b1.mp4", 1.6, "conector-barbat-inchis-taiat.mp4", "telecomanda-barbat-inchis-taiat.mp4", 2.5),
-         4: ("output/yeti-reel4/v2/", "b1.mp4", 1.6, "conector-femeie-taiat.mp4", "telecomanda-femeie-taiat.mp4", 2.5),
-         5: ("output/yeti-reel5/v2/", "b1.mp4", 1.6, "conector-femeie-taiat.mp4", "telecomanda-femeie-taiat.mp4", 2.5)}
+BROLL = {1: ("output/yeti-reel1/v2/", "b1.mp4", 1.2, "conector-barbat-taiat.mp4", "telecomanda-barbat-taiat.mp4", 1.5),
+         2: ("output/yeti-reel2/", "b1-yeti-driving-443.mp4", 1.2, "conector-femeie-taiat.mp4", "../yeti-reel2/telecomanda-zoom.mp4", 2.5),
+         3: ("output/yeti-reel3/v2/", "b1.mp4", 1.2, "conector-barbat-inchis-taiat.mp4", "telecomanda-barbat-inchis-taiat.mp4", 2.5),
+         4: ("output/yeti-reel4/v2/", "b1.mp4", 1.2, "conector-femeie-taiat.mp4", "telecomanda-femeie-taiat.mp4", 2.5),
+         5: ("output/yeti-reel5/v2/", "b1.mp4", 1.2, "conector-femeie-taiat.mp4", "telecomanda-femeie-taiat.mp4", 2.5)}
 REELS = {
  1: dict(hook="output/yeti-reel1/v2/hook.mp4", hook_end=4.6, set=1, music="wham",   text="Don't let your girlfriend know 🤫❄️"),
  2: dict(hook="output/yeti-reel2/v2/hook.mp4", hook_end=4.0, set=2, music="mariah", text="POV: you finally found it 🥹❄️"),
@@ -28,7 +28,7 @@ for n in map(int, sys.argv[1:]):
     tel = os.path.normpath(FX + tel) if not tel.startswith("../") else os.path.normpath("output/yeti-reel2/telecomanda-zoom.mp4")
     segs = [{"file": r["hook"], "start": 0, "end": r["hook_end"], "audio": True},
             {"file": d + b1, "start": 0, "end": b1e},
-            {"file": b2dir(r["set"]) + "b2.mp4", "start": 0, "end": 6.0},
+            {"file": b2dir(r["set"]) + "b2.mp4", "start": 0, "end": 5.0},
             {"file": FX + con, "start": 0, "end": 1.8},
             {"file": tel, "start": 0, "end": 2.2},
             {"file": b2dir(r["set"]) + "cozy.mp4", "start": 0, "end": cze}]
