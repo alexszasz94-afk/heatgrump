@@ -36,6 +36,7 @@ button{font:600 14px var(--body);border-radius:9px;padding:9px 14px;cursor:point
 .dl{background:var(--pine);color:var(--card)}
 .cp{background:transparent;color:var(--pine)}
 button:focus-visible{outline:3px solid var(--berry);outline-offset:2px}
+.older{margin-top:44px;display:grid;gap:6px}.h-old{font-size:clamp(22px,4vw,30px);margin-bottom:4px}.older .grid{margin-top:16px}
 .msg{font-size:13px;color:var(--muted);min-height:1.2em}
 </style>
 
@@ -45,6 +46,11 @@ button:focus-visible{outline:3px solid var(--berry);outline-offset:2px}
     <p class="sub">Ultimele videouri, în stilul princesscomfortt: hook-uri de pe contul lor, B2 cu fața la vedere, textul în fontul lor și melodiile tale de Crăciun. Fiecare are buton de descărcare și caption gata de copiat.</p>
   </header>
   <main class="grid" id="grid"></main>
+  <section class="older">
+    <h1 class="h-old">Toate reel-urile de dinainte · 7–22</h1>
+    <p class="sub">Reel-urile 7–17 și prima variantă a lui 18–22, ca să le compari cu cele noi. Aici se văd și se descarcă la 720p; fișierele întregi sunt în GitHub, în output/reelN.</p>
+    <div class="grid" id="grid-old"></div>
+  </section>
 </div>
 
 <script>
@@ -104,5 +110,38 @@ for (const r of REELS) {
     }
   });
   grid.appendChild(el);
+}
+
+const OLD = [{"n": 22, "key": "old22v1", "tag": "prima variantă", "len": "15,4 s", "text": "\"The perfect gift doesn't exi-\" 😳🎄", "music": "sunetul original al viralului"}, {"n": 21, "key": "old21v1", "tag": "prima variantă", "len": "17,0 s", "text": "POV: my boyfriend reviews the viral heated Grinch robe 😏🎄", "music": "sunetul original al viralului"}, {"n": 20, "key": "old20v1", "tag": "prima variantă", "len": "16,0 s", "text": "DON'T show this to a Grinch girl… 😳🎄", "music": "sunetul original al viralului"}, {"n": 19, "key": "old19v1", "tag": "prima variantă", "len": "15,9 s", "text": "Christmas-holics don't walk… they RUN 🏃‍♀️🎄", "music": "sunetul original al viralului"}, {"n": 18, "key": "old18v1", "tag": "prima variantă", "len": "19,1 s", "text": "The problem 😩❄️ → Vs…", "music": "sunetul original al viralului"}, {"n": 17, "key": "old17", "tag": "Lot vechi", "len": "13,0 s", "text": "Don't show this to a Grinch fan… 🥹💚", "music": "sunetul original al viralului"}, {"n": 16, "key": "old16", "tag": "Lot vechi", "len": "14,3 s", "text": "DO NOT show this to a Grinch lover 😳🎄", "music": "sunetul original al viralului"}, {"n": 15, "key": "old15", "tag": "Lot vechi", "len": "15,9 s", "text": "Every Grinch lover NEEDS this 😳🎄", "music": "sunetul original al viralului"}, {"n": 14, "key": "old14", "tag": "Lot vechi", "len": "17,0 s", "text": "DO NOT show this to your sister 😳🎄", "music": "sunetul original al viralului"}, {"n": 13, "key": "old13", "tag": "Lot vechi", "len": "15,0 s", "text": "Do NOT let a Grinch mom see this… 😩🎄", "music": "sunetul original al viralului"}, {"n": 12, "key": "old12", "tag": "Lot vechi", "len": "13,1 s", "text": "DONT show this to a Grinch girl 😳🎄 → plug it in 🔌 → 5 heat levels 🔥 → she's never taking it off 🥹", "music": "sunetul original al viralului"}, {"n": 11, "key": "old11", "tag": "Lot vechi", "len": "16,7 s", "text": "DONT send this to your mom… 🎅🎄 → she'll never be cold again ❄️ → plug it in 🔌 → 5 heat levels 🔥 → hood, sherpa inside & it heats up 🥹", "music": "sunetul original al viralului"}, {"n": 10, "key": "old10", "tag": "Lot vechi", "len": "15,3 s", "text": "🧑: \"No gift is perfect\"\nMe: 😏 → plug it in 🔌 → 5 heat levels 🔥 → best gift ever 🎁", "music": "sunetul original al viralului"}, {"n": 9, "key": "old9", "tag": "Lot vechi", "len": "16,7 s", "text": "DO NOT show this to your mom 😳❄️ → plug it in 🔌 → 5 heat levels 🔥 → she'll never take it off 🥹", "music": "sunetul original al viralului"}, {"n": 8, "key": "old8", "tag": "Lot vechi", "len": "16,3 s", "text": "The concept 🤮 → Vs… → a hooded blanket you can WEAR 🧸 → plug it in 🔌 → 5 heat levels 🔥 → never taking it off ❄️🎄", "music": "sunetul original al viralului"}, {"n": 7, "key": "old7", "tag": "Lot vechi", "len": "17,0 s", "text": "The problem 😩❄️ → Vs… → a hooded blanket you can WEAR 🧸 → plug it in 🔌 → 5 heat levels 🔥 → never taking it off ❄️🎄", "music": "Mariah Carey – All I Want for Christmas"}];
+const gridOld = document.getElementById("grid-old");
+for (const r of OLD) {
+  const el = document.createElement("article");
+  el.className = "reel";
+  el.innerHTML = `
+    <video controls playsinline preload="none" poster="${r.key}.jpg" src="${r.key}.mp4"></video>
+    <div class="info">
+      <div class="top"><h2>Reel ${r.n}</h2><span class="len">${r.len}</span></div>
+      <span class="tag"></span>
+      <dl><dt>Text pe ecran</dt><dd class="t"></dd><dt>Muzică</dt><dd class="m"></dd></dl>
+      <div class="btns"><button class="dl" type="button">Descarcă (720p)</button></div>
+      <div class="msg" aria-live="polite"></div>
+    </div>`;
+  el.querySelector(".tag").textContent = r.tag;
+  el.querySelector(".t").textContent = r.text;
+  el.querySelector(".m").textContent = r.music;
+  const msg = el.querySelector(".msg");
+  el.querySelector(".dl").addEventListener("click", async () => {
+    msg.textContent = "Pregătesc fișierul…";
+    try {
+      const downloads = await claude.use("downloads");
+      if (!downloads) { msg.textContent = "Descărcarea nu merge în această vedere. Deschide pagina în claude.ai."; return; }
+      const blob = await (await fetch(`${r.key}.mp4`)).blob();
+      await downloads.save({ filename: `heatgrump-reel${r.n}${r.key.endsWith("v1") ? "-v1" : ""}.mp4`, data: blob });
+      msg.textContent = "Salvat.";
+    } catch (e) {
+      msg.textContent = e && e.code === "declined" ? "Descărcare anulată." : "Nu s-a putut descărca. Încearcă din nou.";
+    }
+  });
+  gridOld.appendChild(el);
 }
 </script>
