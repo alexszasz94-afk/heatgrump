@@ -3,7 +3,7 @@
  "segments": [
   {
    "file": "output/yeti-reel3/v2/hook-c.mp4",
-   "start": 0,
+   "start": 1.0,
    "end": 5.0,
    "audio": true
   },
@@ -36,7 +36,7 @@
  "texts": [
   {
    "t0": 0,
-   "t1": 17.7,
+   "t1": 16.7,
    "text": "Best gift for him this year 🎁❄️"
   }
  ],

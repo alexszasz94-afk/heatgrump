@@ -3,7 +3,7 @@
  "segments": [
   {
    "file": "output/yeti-reel2/v2/hook.mp4",
-   "start": 0,
+   "start": 1.0,
    "end": 4.0,
    "audio": true
   },
@@ -36,7 +36,7 @@
  "texts": [
   {
    "t0": 0,
-   "t1": 16.7,
+   "t1": 15.7,
    "text": "POV: you finally found it 🥹❄️"
   }
  ],

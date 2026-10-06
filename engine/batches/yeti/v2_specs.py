@@ -13,8 +13,8 @@ BROLL = {1: ("output/yeti-reel1/v2/", "b1.mp4", 1.2, "conector-barbat-taiat.mp4"
          5: ("output/yeti-reel5/v2/", "b1.mp4", 1.2, "conector-femeie-taiat.mp4", "telecomanda-femeie-taiat.mp4", 2.5)}
 REELS = {
  1: dict(hook="output/yeti-reel1/v2/hook.mp4", hook_end=4.6, set=1, music="wham",   text="Don't let your girlfriend know 🤫❄️"),
- 2: dict(hook="output/yeti-reel2/v2/hook.mp4", hook_end=4.0, set=2, music="mariah", text="POV: you finally found it 🥹❄️"),
- 3: dict(hook="output/yeti-reel3/v2/hook-c.mp4", hook_end=5.0, set=3, music="buble", text="Best gift for him this year 🎁❄️"),
+ 2: dict(hook="output/yeti-reel2/v2/hook.mp4", hook_start=1.0, hook_end=4.0, set=2, music="mariah", text="POV: you finally found it 🥹❄️"),
+ 3: dict(hook="output/yeti-reel3/v2/hook-c.mp4", hook_start=1.0, hook_end=5.0, set=3, music="buble", text="Best gift for him this year 🎁❄️"),
  4: dict(hook="output/yeti-reel4/v2/hook.mp4", hook_end=5.0, set=4, music="mariah", text="DO NOT show this to your mom 😳❄️"),
  5: dict(hook="output/yeti-reel5/v2/hook.mp4", hook_end=4.6, set=5, music="wham",   text="Meet the coziest thing you'll wear all winter 🎄"),
  6: dict(hook="output/yeti-reel6/hook.mp4", hook_end=5.0, set=4, music="buble",  text="3… 2… 1… 🥶➡️🥰"),
@@ -26,7 +26,7 @@ def b2dir(s):  # B2 cu fața e în v2/ la fiecare set
 for n in map(int, sys.argv[1:]):
     r = REELS[n]; d, b1, b1e, con, tel, cze = BROLL[r["set"]]
     tel = os.path.normpath(FX + tel) if not tel.startswith("../") else os.path.normpath("output/yeti-reel2/telecomanda-zoom.mp4")
-    segs = [{"file": r["hook"], "start": 0, "end": r["hook_end"], "audio": True},
+    segs = [{"file": r["hook"], "start": r.get("hook_start", 0), "end": r["hook_end"], "audio": True},
             {"file": d + b1, "start": 0, "end": b1e},
             {"file": b2dir(r["set"]) + "b2.mp4", "start": 0, "end": 5.0},
             {"file": FX + con, "start": 0, "end": 1.8},
