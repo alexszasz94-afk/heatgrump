@@ -14,11 +14,6 @@
   {
    "file": "output/reel14/b2fast.mp4",
    "start": 0.3,
-   "end": 1.1
-  },
-  {
-   "file": "output/reel14/b2fast.mp4",
-   "start": 1.1,
    "end": 3.7
   },
   {
@@ -45,11 +40,11 @@
   },
   {
    "t0": 7.6,
-   "t1": 9.6,
+   "t1": 12.2,
    "text": "Vs…"
   },
   {
-   "t0": 9.6,
+   "t0": 12.2,
    "t1": 18.5,
    "text": "The solution 🎄😍"
   }

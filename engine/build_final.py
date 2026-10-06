@@ -178,8 +178,7 @@ PLANS = {
  140: dict(music="library/music/xmas/mariah-all-i-want.mp3", music_start=42.4, orig_vol=1.0, music_vol=0.6, parts=[
     ("hooks/hook-hol.mp4", 0, 7.6, "The problem 😩❄️"),
     ("b1.mp4", 0, 1.2, "Vs…"),
-    ("b2fast.mp4", 0.3, 1.1, "Vs…"),
-    ("b2fast.mp4", 1.1, 3.7, "The solution 🎄😍"),
+    ("b2fast.mp4", 0.3, 3.7, "Vs…"),
     (FX+"conector-femeie-taiat.mp4", 0, 1.5, "The solution 🎄😍"),
     (FX+"telecomanda-femeie-taiat.mp4", 0, 2.2, "The solution 🎄😍"),
     ("cozy.mp4", 0, 2.6, "The solution 🎄😍")]),
