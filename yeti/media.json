@@ -54,5 +54,14 @@
     "b1-b-yeti (din 5133 x3, glugă Yeti)": "939d9046-e21f-44e9-8d39-37da3fd879f1",
     "b1-a-yeti (din ba61 x5)": "352da7d3-0116-4b8a-9723-48450886994b"
   },
-  "_b1_driving_clips_yeti": "5 oct (Szasz): B1 Yeti în Genjutsu cu aceste clipuri de mișcare (clipurile noastre B1 cu halatul înlocuit cu cel Yeti prin hf_mult_replace_object) — gluga e cap de Yeti cu coarne în toate cadrele. Local: library/motion/b1-*-yeti.mp4"
+  "_b1_driving_clips_yeti": "5 oct (Szasz): B1 Yeti în Genjutsu cu aceste clipuri de mișcare (clipurile noastre B1 cu halatul înlocuit cu cel Yeti prin hf_mult_replace_object) — gluga e cap de Yeti cu coarne în toate cadrele. Local: library/motion/b1-*-yeti.mp4",
+  "product_yeti_refs_v2": {
+    "_nota": "9 oct (Szasz): mâneci albe simple (manșetă albă), labele de jos rămân. Se folosesc în locul product_yeti_refs.",
+    "fata_inchis": "47894cc6-e757-4f04-822b-5cdb022f53c6",
+    "fata_deschis": "e9dddb8b-ac92-4684-867b-ea9b273dd626",
+    "profil": "3a4d72d8-5407-4a06-b4e4-ea7f7b66b9de",
+    "spate": "35e3828c-0789-498f-b1b2-24ed3343e263",
+    "gluga_fata": "cbd4cf13-eb29-412c-9fac-3bb89d5a4311",
+    "gluga_3_4": "340b52c4-b8d2-46ff-8c03-d6f59c3892f4"
+  }
 }
