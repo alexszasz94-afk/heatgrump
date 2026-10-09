@@ -21,7 +21,7 @@ REELS = {
  7: dict(hook="output/yeti-reel7/hook.mp4", hook_end=5.0, set=2, music="mariah", text="They finally restocked it 😱❄️"),
  9: dict(hook="output/yeti-reel9/hook.mp4", hook_end=4.0, set=1, music="mariah", text="When it's -10° outside but you have this 🥶❄️"),
  10: dict(hook="output/yeti-reel10/hook.mp4", hook_end=4.0, set=5, music="buble", text="DO NOT show this to a cold-aholic 🥶💙"),
- 11: dict(hook="output/yeti-reel11/hook.mp4", hook_end=4.0, set=2, music="wham", text="Employees said it sells out by noon 😳❄️"),
+ 11: dict(hook="output/yeti-reel11/hook.mp4", hook_end=5.0, set=2, music="wham", text="Employees said it sells out by noon 😳❄️"),
  8: dict(hook="output/yeti-reel8/hook.mp4", hook_end=5.0, set=3, music="wham",   text="Send this to someone who's always cold 🥶"),
 }
 def b2dir(s):  # B2 cu fața e în v2/ la fiecare set

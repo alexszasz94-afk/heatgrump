@@ -60,12 +60,12 @@ def concept_cards():
 
 OUTFIT = {1: "pijama în carouri bleumarin-gri", 2: "pijama în dungi crem-bleumarin", 3: "bluză bleumarin + pantaloni cu steagul SUA",
           4: "pulover crem împletit + pantaloni flanel albastru deschis", 5: "set lounge gri", 6: "pulover crem + pantaloni flanel (setul 4)",
-          7: "pulover crem + blugi în mall, apoi pijama în dungi (setul 2)", 8: "hanorac bleumarin + pantaloni cu steagul SUA (setul 3)"}
+          7: "pulover crem + blugi în mall, apoi pijama în dungi (setul 2)", 8: "hanorac bleumarin + pantaloni cu steagul SUA (setul 3)", 9: "geacă neagră + pijama în carouri afară, apoi B-roll reel 1", 10: "POV mână în mânecă gri, apoi B-roll reel 5", 11: "angajați în magazin, apoi B-roll reel 7"}
 HOOK = {1: "tava din cuptor", 2: "desfăcut pe pat (POV)", 3: "rulou cu fundă", 4: "rulou care cade", 5: "aruncat ca o pelerină",
-        6: "NOU · 3, 2, 1", 7: "NOU · magazin: îi cade cafeaua, coadă la vitrină", 8: "NOU · gifting „I'm freezing” / „Take this”"}
+        6: "NOU · 3, 2, 1", 7: "NOU · magazin: îi cade cafeaua, coadă la vitrină", 8: "NOU · gifting „I'm freezing” / „Take this”", 9: "NOU 9 oct · afară în zăpadă, ruloul cade deschis (snuglore)", 10: "NOU 9 oct · POV halatul vidat în pungă (princess 83k)", 11: "NOU 9 oct · angajații trag cearșafurile, rând de capete Yeti (princess 6,7M)"}
 def reel_cards():
     out = []
-    for n in range(1, 9):
+    for n in range(1, 12):
         key = f"v2-reel{n}"
         src = R(f"output/yeti-reel{n}/yeti-reel{n}-v2-FINAL.mp4"); v = os.path.join(TMP, f"v2reel{n}.mp4"); pz = os.path.join(TMP, f"v2reel{n}-p.jpg")
         if not os.path.exists(src): continue

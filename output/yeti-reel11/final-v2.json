@@ -1,0 +1,47 @@
+{
+ "out": "output/yeti-reel11/yeti-reel11-v2-FINAL.mp4",
+ "segments": [
+  {
+   "file": "output/yeti-reel11/hook.mp4",
+   "start": 0,
+   "end": 5.0,
+   "audio": true
+  },
+  {
+   "file": "output/yeti-reel2/b1-yeti-driving-443.mp4",
+   "start": 0,
+   "end": 1.2
+  },
+  {
+   "file": "output/yeti-reel2/v2/b2.mp4",
+   "start": 0,
+   "end": 5.0
+  },
+  {
+   "file": "output/yeti-fixed/conector-femeie-taiat.mp4",
+   "start": 0,
+   "end": 1.8
+  },
+  {
+   "file": "output/yeti-reel2/telecomanda-zoom.mp4",
+   "start": 0,
+   "end": 2.2
+  },
+  {
+   "file": "output/yeti-reel2/v2/cozy.mp4",
+   "start": 0,
+   "end": 2.5
+  }
+ ],
+ "texts": [
+  {
+   "t0": 0,
+   "t1": 17.7,
+   "text": "Employees said it sells out by noon 😳❄️"
+  }
+ ],
+ "music": "library/music/xmas/wham-last-christmas.mp3",
+ "music_start": 0.43,
+ "orig_vol": 0.9,
+ "music_vol": 0.85
+}
