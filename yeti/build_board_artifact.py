@@ -60,24 +60,26 @@ def concept_cards():
 
 OUTFIT = {1: "pijama în carouri bleumarin-gri", 2: "pijama în dungi crem-bleumarin", 3: "bluză bleumarin + pantaloni cu steagul SUA",
           4: "pulover crem împletit + pantaloni flanel albastru deschis", 5: "set lounge gri", 6: "pulover crem + pantaloni flanel (setul 4)",
-          7: "pulover crem + blugi în mall, apoi pijama în dungi (setul 2)", 8: "hanorac bleumarin + pantaloni cu steagul SUA (setul 3)", 9: "geacă neagră + pijama în carouri afară, apoi B-roll reel 1", 10: "POV mână în mânecă gri, apoi B-roll reel 5", 11: "angajați în magazin, apoi B-roll reel 7"}
+          7: "pulover crem + blugi în mall, apoi pijama în dungi (setul 2)", 8: "hanorac bleumarin + pantaloni cu steagul SUA (setul 3)", 9: "geacă neagră + pijama în carouri afară, apoi B-roll reel 1", 10: "POV mână în mânecă gri, apoi B-roll reel 5", 11: "angajați în magazin, apoi B-roll reel 7",
+          12: "pijama flanel în carouri bleumarin-gri", 13: "pulover crem împletit + pantaloni flanel albastru deschis", 14: "set lounge gri vafe", 15: "pijama în dungi crem-bleumarin"}
 HOOK = {1: "tava din cuptor", 2: "desfăcut pe pat (POV)", 3: "rulou cu fundă", 4: "rulou care cade", 5: "aruncat ca o pelerină",
-        6: "NOU · 3, 2, 1", 7: "NOU · magazin: îi cade cafeaua, coadă la vitrină", 8: "NOU · gifting „I'm freezing” / „Take this”", 9: "NOU 9 oct · afară în zăpadă, ruloul cade deschis (snuglore)", 10: "NOU 9 oct · POV halatul vidat în pungă (princess 83k)", 11: "NOU 9 oct · angajații trag cearșafurile, rând de capete Yeti (princess 6,7M)"}
+        6: "NOU · 3, 2, 1", 7: "NOU · magazin: îi cade cafeaua, coadă la vitrină", 8: "NOU · gifting „I'm freezing” / „Take this”", 9: "NOU 9 oct · afară în zăpadă, ruloul cade deschis (snuglore)", 10: "NOU 9 oct · POV halatul vidat în pungă (princess 83k)", 11: "NOU 9 oct · angajații trag cearșafurile, rând de capete Yeti (princess 6,7M)",
+        12: "NOU v3 · el dă căldura jos la termostat (bip-bip)", 13: "NOU v3 · ruloul cu fundă se desface și cade pe umeri", 14: "NOU v3 · „conceptul”: aeroterma pusă jos, ea tot îngheață", 15: "NOU v3 · STORE HOOK: oamenii fug cu cutii HEAT YETI de pe palet"}
 def reel_cards():
     out = []
-    for n in range(1, 12):
-        key = f"v2-reel{n}"
-        src = R(f"output/yeti-reel{n}/yeti-reel{n}-v2-FINAL.mp4"); v = os.path.join(TMP, f"v2reel{n}.mp4"); pz = os.path.join(TMP, f"v2reel{n}-p.jpg")
+    for n in range(1, 16):
+        V = "v3" if n >= 12 else "v2"; key = f"{V}-reel{n}"
+        src = R(f"output/yeti-reel{n}/yeti-reel{n}-{V}-FINAL.mp4"); v = os.path.join(TMP, f"{V}reel{n}.mp4"); pz = os.path.join(TMP, f"{V}reel{n}-p.jpg")
         if not os.path.exists(src): continue
         full = ASSETS.get(key, "")
         if not full:
             ff("-i", src, "-vf", "scale=540:-2", "-c:v", "libx264", "-crf", "27", "-preset", "slow", "-c:a", "aac", "-b:a", "96k", "-movflags", "+faststart", v)
         ff("-ss", "1", "-i", src, "-frames:v", "1", "-vf", "scale=540:-2", "-q:v", "5", pz)
         vsrc = full or uri(v, "video/mp4")
-        txt = open(R(f"output/yeti-reel{n}/yeti-reel{n}-v2.txt")).read().split("\n")
+        txt = open(R(f"output/yeti-reel{n}/yeti-reel{n}-{V}.txt")).read().split("\n")
         head = html.escape(next((l.split(": ", 1)[1] for l in txt if l.startswith("TEXT PE ECRAN")), ""))
         cap = next((l[9:] for l in txt if l.startswith("CAPTION: ")), "")
-        out.append(f'''<figure class="reel" data-id="{key}" data-file="heatyeti-reel{n}-v2.mp4" data-src="{html.escape(full)}"><video src="{vsrc}" poster="{uri(pz, "image/jpeg")}" controls playsinline preload="metadata"></video>
+        out.append(f'''<figure class="reel" data-id="{key}" data-file="heatyeti-reel{n}-{V}.mp4" data-src="{html.escape(full)}"><video src="{vsrc}" poster="{uri(pz, "image/jpeg")}" controls playsinline preload="metadata"></video>
 <figcaption><b>Reel {n} <em class="st" data-st="none">Nevăzut</em></b><span>Hook: {html.escape(HOOK[n])}</span><span>Text: {head}</span><span>Dedesubt: {html.escape(OUTFIT[n])}</span><span class="cap">{html.escape(cap)}</span></figcaption>
 <div class="review" aria-label="Părerea ta despre reel {n}">
   <div class="btns"><button type="button" class="ok" data-act="aprobat">Aprob</button><button type="button" class="no" data-act="refuzat">Refuz</button></div>

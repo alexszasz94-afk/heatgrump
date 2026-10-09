@@ -1,0 +1,35 @@
+{
+ "_nota": "9 oct: 4 videouri noi (reel 12-15), hook Genjutsu de pe cele mai populare reel-uri + B-roll nou cu referințele v2, look iPhone 17 Pro Max UGC",
+ "hooks": {
+  "12_termostat": "0e872b5a-c645-4e0a-80c3-ba4ee27973c9",
+  "13_funda": "ad54c6e4-ab20-4354-8110-5ae7d3e7a45e",
+  "14_concept": "792e7322-6eac-4541-bc6d-b519b76e6ce1",
+  "15_costco": "4d363893-e498-4bbd-8ed0-0c4c12fef679"
+ },
+ "broll": {
+  "121": "248586dd-76a5-4833-b635-fe0abc6f31ea",
+  "122": "de8471e3-371f-40ad-91bb-00adfd88c769",
+  "123": "c9fcf508-bf77-41ba-8821-9569561f27f8",
+  "131": "571fd6d0-59ea-4324-bf35-bdd059966b06",
+  "132": "ff1db429-5e77-4585-8ff0-933e201cff3a",
+  "133": "917a84c7-68f6-45ae-afc5-6b6370f7ef0c",
+  "141": "c79224cc-88b1-4528-ac53-bb9c35ca61f5",
+  "142": "94507fd5-75c7-4625-9c90-034dde994434",
+  "143": "201e5285-0158-4888-b52b-59dbf1891885",
+  "151": "59287837-f536-48aa-92f3-2afa69f6bfe2",
+  "152": "1d520b88-1404-4a42-9578-ca248a046c13",
+  "153": "12533c99-f148-4429-ba6e-9ba6a20dac5e"
+ },
+ "seturi": {
+  "12": "set 1 (bărbat, carouri)",
+  "13": "set 4 (pulover crem)",
+  "14": "set 5 (blondă, gri)",
+  "15": "set 2 personaj + camera setului 1"
+ },
+ "cozy_v2": {
+  "1230": "35734e26-1d63-497e-980f-efc3f8b67a34",
+  "1330": "4d091ac9-c8ab-496e-ad94-bab9bd26882c",
+  "1430": "f3c12e89-fe10-47c1-b311-2776081d9c0e",
+  "1530": "846837b4-b3a4-47e2-8a9f-279666e217ca"
+ }
+}
