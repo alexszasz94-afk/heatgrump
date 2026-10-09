@@ -19,7 +19,7 @@ REELS = {
  5: dict(hook="output/yeti-reel5/v2/hook.mp4", hook_end=4.6, set=5, music="wham",   text="Meet the coziest thing you'll wear all winter 🎄"),
  6: dict(hook="output/yeti-reel6/hook.mp4", hook_end=5.0, set=4, music="buble",  text="3… 2… 1… 🥶➡️🥰"),
  7: dict(hook="output/yeti-reel7/hook.mp4", hook_end=5.0, set=2, music="mariah", text="They finally restocked it 😱❄️"),
- 9: dict(hook="output/yeti-reel9/hook.mp4", hook_end=4.0, set=1, music="mariah", text="When it's -10° outside but you have this 🥶❄️"),
+ 9: dict(hook="output/yeti-reel9/hook.mp4", hook_end=3.85, set=1, music="mariah", text="When it's -10° outside but you have this 🥶❄️"),
  10: dict(hook="output/yeti-reel10/hook.mp4", hook_end=4.0, set=5, music="buble", text="DO NOT show this to a cold-aholic 🥶💙"),
  11: dict(hook="output/yeti-reel11/hook.mp4", hook_end=5.0, set=2, music="wham", text="Employees said it sells out by noon 😳❄️"),
  8: dict(hook="output/yeti-reel8/hook.mp4", hook_end=5.0, set=3, music="wham",   text="Send this to someone who's always cold 🥶"),
