@@ -1,0 +1,46 @@
+{
+ "out": "output/reel25/reel25-FINAL-audio-original.mp4",
+ "segments": [
+  {
+   "file": "output/reel25/hooks/hook.mp4",
+   "start": 0,
+   "end": 4.8
+  },
+  {
+   "file": "output/reel25/b1.mp4",
+   "start": 0,
+   "end": 2.2
+  },
+  {
+   "file": "output/reel25/b2fast.mp4",
+   "start": 0,
+   "end": 4.37
+  },
+  {
+   "file": "output/fixed/conector-barbat-inchis-taiat.mp4",
+   "start": 0,
+   "end": 1.5
+  },
+  {
+   "file": "output/fixed/telecomanda-barbat-inchis-taiat.mp4",
+   "start": 0,
+   "end": 2.16
+  },
+  {
+   "file": "output/reel25/cozy.mp4",
+   "start": 0,
+   "end": 2.6
+  }
+ ],
+ "texts": [
+  {
+   "t0": 0.0,
+   "t1": 17.63,
+   "text": "Fresh out of the oven… it's HEATED 🔥"
+  }
+ ],
+ "music": "library/music/viral-DeAgPjvyBF1-ext.m4a",
+ "music_start": 0,
+ "orig_vol": 0.0,
+ "music_vol": 1.0
+}
