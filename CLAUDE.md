@@ -40,6 +40,7 @@ Set de clipuri, în ordinea de montaj: **hook → unboxing → B1 (îmbracă hal
 | hook | le scrie Szasz (5-6), se rotesc prin videouri (regula 2 oct); montajul final cu text + muzică se face doar când există hook-ul | — | el |
 
 ## Setări fixe (nu se coboară niciodată)
+- HALATUL DOAR DUPĂ REFERINȚE (regula 18 oct): la orice clip cu halat se pun TOATE cele 4 referințe Grinch (`product_grinch_refs`); halatul nu se descrie niciodată în cuvinte, doar „REPRODUCE IT ONE TO ONE from Images N–M”. ID lipsă → reîncarci pozele, nu descrii.
 - Imagini: `gpt_image_2`, 9:16, quality high, resolution 4k.
 - Video: `seedance_2_5`, `mode: "omni_reference"` când există start_image, `aspect_ratio "9:16"` **și** width 1080 / height 1920, resolution 1080p, bitrate_mode high, generate_audio true.
 - Genjutsu motion control: 1080p, 4 s (B1, cozy) / 5 s (B2), roluri `image_references` / `video_references`.

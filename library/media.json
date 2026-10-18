@@ -5,6 +5,13 @@
   "28a3d14b-3578-4569-bcf2-33a84d478cc0",
   "71882d2b-aeab-4cc1-afa3-4f9d1a1951c5"
  ],
+ "product_grinch_refs_current_workspace": [
+  "dbfbef8e-f6a8-478e-8cc0-2bf5c46c276d",
+  "386e8d55-323e-419d-9450-d197d4eeec37",
+  "d79c88fa-5032-4214-bf35-e2cbad12ad78",
+  "4bce1650-777c-4724-ad66-9acc005542fb"
+ ],
+ "product_grinch_refs_note": "Workspace user_3Kmou (18 oct): old IDs give 404 here; use product_grinch_refs_current_workspace (halat1 front open, halat2 side, halat3 hood close-up, halat4 back; thumbs in output/reel7/thumbs). ALWAYS all 4, never a text description.",
  "box": "5e8840d4-d514-4016-9fa3-e0893a13bdee",
  "controller_real": "cb73364c-9cc0-4420-82dc-5e1269cae33c",
  "connector_ref": "2774615c-3876-49c9-81e3-43e965688bae",
