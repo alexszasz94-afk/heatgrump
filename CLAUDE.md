@@ -47,6 +47,11 @@ Set de clipuri, în ordinea de montaj: **hook → unboxing → B1 (îmbracă hal
 - Fiecare start frame și video: culori vii, semicalde (nu auriu/portocaliu) + blocul `prompts/blocks/light-ultra-real.txt`.
 - Fără text ars în imagine, fără zoom, fără branduri reale.
 
+## Regula 18 oct — stil american (orice produs)
+- Fiecare hook are steagul american undeva în cadru, vizibil dar natural.
+- B-roll: îmbrăcămintea de dedesubt e în stil american.
+- Doar personaje care arată ca oameni obișnuiți din SUA, în case americane.
+
 ## Ce dă Szasz la fiecare reel
 Personajul, camera (pereche), și dacă e băiat sau fată. Restul e în bibliotecă. Îmbrăcămintea de dedesubt o alegi tu: normală, diferită la fiecare personaj (pijama de Crăciun / ceva cu America / stil american / cozy), aceeași în toate clipurile reel-ului, și o spui la livrare.
 

@@ -123,3 +123,7 @@ Sursa: memoria Cowork + sesiunea 16–29 sept. Regula mai nouă bate regula mai 
 - (6 oct) Stil: structura și hook-urile princesscomfortt + atmosfera snuglore (brad, luminițe, ciorapi la șemineu, camere de Crăciun, oameni diverși). Test: 3 virale princesscomfortt refăcute cadru cu cadru 100% în Genjutsu (DeAepvaSfSf, DeAgPjvyBF1, DeDFKhASW-w) — lot 24, engine/batches/jobs24.json.
 - (6 oct) Telecomanda și conectorul: MEREU clipurile noastre fixe (output/fixed, după gen și culoarea pielii), nu Genjutsu — Szasz: „ia le ale noastre ca e mai bine”.
 - (6 oct) Reel 26: textul de pe ecran „H&M X GRINCH 🎄🎅”, apoi la cozy „JK we sell them 💕🎄” (cerut de Szasz, ca la competitor).
+- (18 oct) REGULĂ NOUĂ, pentru toate videourile de acum înainte și pentru ORICE produs (Szasz):
+  - Fiecare hook are undeva în cadru steagul american (pe perete, pe verandă, pe o pernă, pe o cană etc.), vizibil dar natural.
+  - La B-roll-uri, îmbrăcămintea de dedesubt e în stil american (ex. pijama cu stele și dungi, hanorac de colegiu/varsity, tricou cu steag, flanel + jeans).
+  - Folosim doar personaje care arată ca oameni obișnuiți din SUA (aspect, coafură, stil, casă americană), diverși ca înainte; camerele să arate ca locuințe americane.

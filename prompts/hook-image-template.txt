@@ -7,6 +7,8 @@ FRAMING: static phone camera at chest height, the whole action and the person's 
 
 IMAGE ROLES: Image 1 is the PERSON — exactly the same face, hair, age, build and gender, wearing EXACTLY the outfit from Image 1 (plus only the extra items the scene names). Image 2 is their HOME — same style, walls, furniture, floor, decor and colours; use the part of the home the scene needs, seen from the best angle for this shot.
 
+AMERICAN TOUCH (rule 18 oct): a real US flag is visible somewhere in the frame — on the wall, porch, a pillow or a mug — natural, not centred, never covering the face.
+
 NO PRODUCT: no robe, no wearable blanket, no hooded blanket, nothing Grinch-themed anywhere in the frame.
 
 [INSERT prompts/blocks/light-ultra-real.txt]
