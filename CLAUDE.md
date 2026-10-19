@@ -64,7 +64,7 @@ Pe fiecare rezultat descărcat, verifică vizual (Claude cu vedere):
 - Telecomandă: exact 5 luminițe, toate stinse pe placă; în video urcă 1→5, una singură aprinsă.
 - Conector: gri, în două părți, în video intră COMPLET, fără gol — verifică ULTIMUL cadru mărit (regula 2 oct).
 - Unboxing: cutia pe podea; în video fereastra cutiei se golește când scoate halatul; fața nu e acoperită; un singur produs.
-- Hook NOU (adaptat/creativ): FĂRĂ halat în cadru; acțiunea se leagă de textul propus; 2 variante video, se alege cea mai bună.
+- Hook NOU (adaptat/creativ): FĂRĂ halat în cadru; acțiunea se leagă de textul propus; UN SINGUR video de test la 480p (regula 19 oct; înainte erau 2 variante).
 - Hook DOVEDIT (din `library/proven-hooks.json`): se reface exact conceptul (halatul poate apărea, e conceptul validat), cu alt personaj + altă cameră; Genjutsu unde există clip de mișcare; o singură variantă; nu mai des de o dată la 3 zile.
 Dacă pică, regenerează (max 3 încercări), apoi raportează.
 
