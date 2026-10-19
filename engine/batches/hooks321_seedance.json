@@ -1,0 +1,217 @@
+[
+ {
+  "index": 801,
+  "params": {
+   "model": "seedance_2_5",
+   "mode": "omni_reference",
+   "aspect_ratio": "9:16",
+   "resolution": "480p",
+   "duration": 4,
+   "generate_audio": true,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "dee13250-9dd1-437d-b82e-e0a6f2826705",
+     "role": "image_references"
+    },
+    {
+     "value": "28d630d7-9693-41df-8810-6b06c6909f03",
+     "role": "image_references"
+    },
+    {
+     "value": "a9337b7c-9654-48cb-a14d-7f5e4261d591",
+     "role": "image_references"
+    },
+    {
+     "value": "0c80fd38-7a79-48cb-9882-98af065bcba9",
+     "role": "image_references"
+    },
+    {
+     "value": "c6d64979-7459-4ff3-a912-1c6fe24f2419",
+     "role": "image_references"
+    },
+    {
+     "value": "4a18fbf2-3b3e-4a40-b2e9-1a056a072254",
+     "role": "image_references"
+    },
+    {
+     "value": "5d0e9d5e-e415-4faf-8da7-8b470e3ca554",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "Recreate the reference video exactly: same action, same timing, same static camera, same framing. She stands facing the camera holding the rolled-up robe horizontally above her head with both arms, counts down out loud, then lets it unroll and drop open in front of her so the whole robe hangs down full length.\n\nThe PERSON is the young American woman of Image 1 (long straight blonde hair with soft curtain bangs, worn loose) — her face, hair and body exactly as in Image 1. The ROOM is Image 2 — same walls, furniture and decor; a small American flag is visible somewhere in the room. THE ROBE is the robe of Images 3-6 — REPRODUCE IT ONE TO ONE from these references, both rolled up and when it drops open. Do NOT copy the person, the clothes or the red robe of the reference video. She wears a navy-blue flannel pajama set printed with small white stars.\n\nAUDIO — generated from what is seen, NO MUSIC: her own voice, excited and playful, counting at the exact moments: 0.2 s \"Three...\", 0.7 s \"two...\", 1.2 s \"one!\", then at 1.8 s, as the robe drops open, a happy gasp and \"Oh my gosh!\". Soft whoosh of the fabric as it drops. Natural room tone. No music, no other voices.\n\nBright everyday phone video, real window daylight, real skin texture, natural colours, not golden, not orange. Vertical 9:16. No text anywhere."
+  }
+ },
+ {
+  "index": 802,
+  "params": {
+   "model": "seedance_2_5",
+   "mode": "omni_reference",
+   "aspect_ratio": "9:16",
+   "resolution": "480p",
+   "duration": 4,
+   "generate_audio": true,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "f758131b-e464-4679-a316-92ca7481bd2a",
+     "role": "image_references"
+    },
+    {
+     "value": "8df806f7-705b-4b61-9530-fb73a6c9f8db",
+     "role": "image_references"
+    },
+    {
+     "value": "a9337b7c-9654-48cb-a14d-7f5e4261d591",
+     "role": "image_references"
+    },
+    {
+     "value": "0c80fd38-7a79-48cb-9882-98af065bcba9",
+     "role": "image_references"
+    },
+    {
+     "value": "c6d64979-7459-4ff3-a912-1c6fe24f2419",
+     "role": "image_references"
+    },
+    {
+     "value": "4a18fbf2-3b3e-4a40-b2e9-1a056a072254",
+     "role": "image_references"
+    },
+    {
+     "value": "5d0e9d5e-e415-4faf-8da7-8b470e3ca554",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "Recreate the reference video exactly: same action, same timing, same static camera, same framing. She stands facing the camera holding the rolled-up robe horizontally above her head with both arms, counts down out loud, then lets it unroll and drop open in front of her so the whole robe hangs down full length.\n\nThe PERSON is the young American woman of Image 1 (long straight golden-blonde hair, worn loose) — her face, hair and body exactly as in Image 1. The ROOM is Image 2 — same walls, furniture and decor; a small American flag is visible somewhere in the room. THE ROBE is the robe of Images 3-6 — REPRODUCE IT ONE TO ONE from these references, both rolled up and when it drops open. Do NOT copy the person, the clothes or the red robe of the reference video. She wears a cream crewneck sweatshirt with red and navy varsity stripes on the sleeves (no letters) and navy sweatpants.\n\nAUDIO — generated from what is seen, NO MUSIC: her own voice, excited and playful, counting at the exact moments: 0.2 s \"Three...\", 0.7 s \"two...\", 1.2 s \"one!\", then at 1.8 s, as the robe drops open, a happy gasp and \"Oh my gosh!\". Soft whoosh of the fabric as it drops. Natural room tone. No music, no other voices.\n\nBright everyday phone video, real window daylight, real skin texture, natural colours, not golden, not orange. Vertical 9:16. No text anywhere."
+  }
+ },
+ {
+  "index": 803,
+  "params": {
+   "model": "seedance_2_5",
+   "mode": "omni_reference",
+   "aspect_ratio": "9:16",
+   "resolution": "480p",
+   "duration": 4,
+   "generate_audio": true,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "9b550b72-a36a-4a4a-a544-b196373256b9",
+     "role": "image_references"
+    },
+    {
+     "value": "45493b19-a251-4950-8132-6cfc6a0c5e9e",
+     "role": "image_references"
+    },
+    {
+     "value": "a9337b7c-9654-48cb-a14d-7f5e4261d591",
+     "role": "image_references"
+    },
+    {
+     "value": "0c80fd38-7a79-48cb-9882-98af065bcba9",
+     "role": "image_references"
+    },
+    {
+     "value": "c6d64979-7459-4ff3-a912-1c6fe24f2419",
+     "role": "image_references"
+    },
+    {
+     "value": "4a18fbf2-3b3e-4a40-b2e9-1a056a072254",
+     "role": "image_references"
+    },
+    {
+     "value": "5d0e9d5e-e415-4faf-8da7-8b470e3ca554",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "Recreate the reference video exactly: same action, same timing, same static camera, same framing. She stands facing the camera holding the rolled-up robe horizontally above her head with both arms, counts down out loud, then lets it unroll and drop open in front of her so the whole robe hangs down full length.\n\nThe PERSON is the young American woman of Image 1 (long straight dark-brown hair with a middle part, worn loose) — her face, hair and body exactly as in Image 1. The ROOM is Image 2 — same walls, furniture and decor; a small American flag is visible somewhere in the room. THE ROBE is the robe of Images 3-6 — REPRODUCE IT ONE TO ONE from these references, both rolled up and when it drops open. Do NOT copy the person, the clothes or the red robe of the reference video. She wears a red-and-white candy-stripe Christmas pajama set.\n\nAUDIO — generated from what is seen, NO MUSIC: her own voice, excited and playful, counting at the exact moments: 0.2 s \"Three...\", 0.7 s \"two...\", 1.2 s \"one!\", then at 1.8 s, as the robe drops open, a happy gasp and \"Oh my gosh!\". Soft whoosh of the fabric as it drops. Natural room tone. No music, no other voices.\n\nBright everyday phone video, real window daylight, real skin texture, natural colours, not golden, not orange. Vertical 9:16. No text anywhere."
+  }
+ },
+ {
+  "index": 804,
+  "params": {
+   "model": "seedance_2_5",
+   "mode": "omni_reference",
+   "aspect_ratio": "9:16",
+   "resolution": "480p",
+   "duration": 4,
+   "generate_audio": true,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "4ca60062-8fec-44f3-a62a-4424e6fc57cf",
+     "role": "image_references"
+    },
+    {
+     "value": "ca56f510-98fc-4fa3-91f5-e8ea6326c18e",
+     "role": "image_references"
+    },
+    {
+     "value": "a9337b7c-9654-48cb-a14d-7f5e4261d591",
+     "role": "image_references"
+    },
+    {
+     "value": "0c80fd38-7a79-48cb-9882-98af065bcba9",
+     "role": "image_references"
+    },
+    {
+     "value": "c6d64979-7459-4ff3-a912-1c6fe24f2419",
+     "role": "image_references"
+    },
+    {
+     "value": "4a18fbf2-3b3e-4a40-b2e9-1a056a072254",
+     "role": "image_references"
+    },
+    {
+     "value": "5d0e9d5e-e415-4faf-8da7-8b470e3ca554",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "Recreate the reference video exactly: same action, same timing, same static camera, same framing. She stands facing the camera holding the rolled-up robe horizontally above her head with both arms, counts down out loud, then lets it unroll and drop open in front of her so the whole robe hangs down full length.\n\nThe PERSON is the young American woman of Image 1 (very long straight dark-brown hair with a middle part, worn loose) — her face, hair and body exactly as in Image 1. The ROOM is Image 2 — same walls, furniture and decor; a small American flag is visible somewhere in the room. THE ROBE is the robe of Images 3-6 — REPRODUCE IT ONE TO ONE from these references, both rolled up and when it drops open. Do NOT copy the person, the clothes or the red robe of the reference video. She wears a plain white long-sleeve tee and American-flag pajama pants.\n\nAUDIO — generated from what is seen, NO MUSIC: her own voice, excited and playful, counting at the exact moments: 0.2 s \"Three...\", 0.7 s \"two...\", 1.2 s \"one!\", then at 1.8 s, as the robe drops open, a happy gasp and \"Oh my gosh!\". Soft whoosh of the fabric as it drops. Natural room tone. No music, no other voices.\n\nBright everyday phone video, real window daylight, real skin texture, natural colours, not golden, not orange. Vertical 9:16. No text anywhere."
+  }
+ },
+ {
+  "index": 805,
+  "params": {
+   "model": "seedance_2_5",
+   "mode": "omni_reference",
+   "aspect_ratio": "9:16",
+   "resolution": "480p",
+   "duration": 4,
+   "generate_audio": true,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "28f14d68-08a6-4e65-94a0-d70c3b46133d",
+     "role": "image_references"
+    },
+    {
+     "value": "631217da-e6e8-41d9-b01f-309e599fb81d",
+     "role": "image_references"
+    },
+    {
+     "value": "a9337b7c-9654-48cb-a14d-7f5e4261d591",
+     "role": "image_references"
+    },
+    {
+     "value": "0c80fd38-7a79-48cb-9882-98af065bcba9",
+     "role": "image_references"
+    },
+    {
+     "value": "c6d64979-7459-4ff3-a912-1c6fe24f2419",
+     "role": "image_references"
+    },
+    {
+     "value": "4a18fbf2-3b3e-4a40-b2e9-1a056a072254",
+     "role": "image_references"
+    },
+    {
+     "value": "5d0e9d5e-e415-4faf-8da7-8b470e3ca554",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "Recreate the reference video exactly: same action, same timing, same static camera, same framing. She stands facing the camera holding the rolled-up robe horizontally above her head with both arms, counts down out loud, then lets it unroll and drop open in front of her so the whole robe hangs down full length.\n\nThe PERSON is the young American woman of Image 1 (long straight brown hair with caramel highlights and a middle part, worn loose) — her face, hair and body exactly as in Image 1. The ROOM is Image 2 — same walls, furniture and decor; a small American flag is visible somewhere in the room. THE ROBE is the robe of Images 3-6 — REPRODUCE IT ONE TO ONE from these references, both rolled up and when it drops open. Do NOT copy the person, the clothes or the red robe of the reference video. She wears a red-and-black buffalo-plaid flannel pajama set.\n\nAUDIO — generated from what is seen, NO MUSIC: her own voice, excited and playful, counting at the exact moments: 0.2 s \"Three...\", 0.7 s \"two...\", 1.2 s \"one!\", then at 1.8 s, as the robe drops open, a happy gasp and \"Oh my gosh!\". Soft whoosh of the fabric as it drops. Natural room tone. No music, no other voices.\n\nBright everyday phone video, real window daylight, real skin texture, natural colours, not golden, not orange. Vertical 9:16. No text anywhere."
+  }
+ }
+]
