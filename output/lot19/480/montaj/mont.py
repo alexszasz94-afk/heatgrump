@@ -17,7 +17,7 @@ def build(name, segs, hook_audio, full_audio=None):
         fl += f"[{n}:a]atrim=0:{total},asetpts=PTS-STARTPTS,afade=t=out:st={max(0, total - 0.6)}:d=0.6[a]"
         hook_audio = None; mi = None
     else:
-        args += ["-ss", str(max(0, DROP - UNB)), "-i", MUSIC]; mi = n   # drop-ul cade la începutul B-roll-ului (după unboxing)
+        args += ["-ss", str(max(0, DROP - (0 if DROP_UNBOX else UNB))), "-i", MUSIC]; mi = n   # drop-ul cade la începutul B-roll-ului, sau la unboxing cu "drop_unbox" (Szasz 19 oct, video tir)
     ms = int(hd * 1000)
     if mi is not None: fl += f"[{mi}:a]atrim=0:{total - hd},asetpts=PTS-STARTPTS,volume=0.85,afade=t=out:st={max(0, total - hd - 0.6)}:d=0.6,adelay={ms}|{ms}[m];"
     if mi is None: pass
@@ -35,6 +35,7 @@ def build(name, segs, hook_audio, full_audio=None):
 spec = json.loads(sys.argv[1])
 G = spec.get("gen", "femeie")   # "barbat" pentru personaj masculin
 CON, TEL = (f"{FX}/conector-{G}-taiat.mp4", 0, 1.5), (f"{FX}/telecomanda-{G}-taiat.mp4", 0, 2.2)
+DROP_UNBOX = spec.get("drop_unbox", False)
 UNB = (spec["unbox"][2] - spec["unbox"][1]) if spec.get("unbox") else 0
 segs = [tuple(spec["hook"])] + ([tuple(spec["unbox"])] if spec.get("unbox") else []) + [tuple(spec["broll"]), CON, TEL, tuple(spec["cozy"])]   # unboxing opțional după hook
 build(spec["name"], segs, spec.get("hook_audio"), spec.get("full_audio"))
