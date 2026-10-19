@@ -129,6 +129,30 @@
    "taieturi": "B1 5.13-6.97, B2 6.97-9.8, stă în halat 9.8-11.77, cozy PE PAT 14.07-15.74",
    "bed": "library/motion/broll-standard-2-bed.mp4",
    "bun_pentru": "dormitoare (cozy pe pat)"
+  },
+  "ref3": {
+   "sursa": "snuglore DdpIYs0trT0",
+   "full": "library/style-ref/snuglore_DdpIYs0trT0.mp4",
+   "taieturi": "B1 3.8-5.13, B2 5.13-7.83, cozy canapea întinsă 11.47-12.87 + cozy canapea șezând 12.87-15.23",
+   "sofa": "library/motion/broll-standard-3-sofa.mp4",
+   "hf_sofa": "13aa2fa2-64ef-4071-a788-c1ca832091e7",
+   "diferenta": "două cadre de cozy pe canapea (întinsă, apoi șezând)"
+  },
+  "ciclu": [
+   "ref1",
+   "ref2",
+   "ref3"
+  ]
+ },
+ "hooks_dovedite_19oct": {
+  "321_rulou": {
+   "file": "library/motion/hook-321.mp4",
+   "hf": "5d0e9d5e-e415-4faf-8da7-8b470e3ca554"
+  },
+  "tava_tigaie": {
+   "file": "library/motion/hook-tray-pan.mp4",
+   "sursa": "snuglore DdLiUc7t1Yb 0-4.9 s",
+   "hf": "38fa49b7-3840-494c-a27e-2a20dee9d850"
   }
  }
 }
