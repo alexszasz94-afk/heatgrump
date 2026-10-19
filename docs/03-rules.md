@@ -135,3 +135,4 @@ Sursa: memoria Cowork + sesiunea 16–29 sept. Regula mai nouă bate regula mai 
 - 19 oct (Szasz, REGULĂ): la testele cerute de Szasz se generează CÂTE UN SINGUR video la 480p (nu 2 variante). Înlocuiește „2 variante video” de la hook-urile noi.
 - 19 oct (Szasz, REGULĂ): la start frame-urile de hook se folosesc CAMERELE NOASTRE exact cum sunt: poza camerei = fundal neatins (același unghi, aceleași obiecte), GPT Image 2 (high, 4k) doar ADAUGĂ oamenii („EDIT IMAGE 1, do not redraw it”). Nu se cere cameră din alt unghi — modelul o redesenează și iese de calitate proastă.
 - 19 oct (Szasz, REGULĂ, înlocuiește iPhone 18): la toate pozele și videourile: „UGC style, natural, shot on an iPhone 17 Pro Max”.
+- 19 oct (Szasz): format „The problem vs the solution”: „The problem 😩❄️” pe hook, „Vs…” pe tot B-roll-ul (cât se îmbracă), „The solution 🥹🎄” de la conector până la final (soluția = încălzirea cu halatul).
