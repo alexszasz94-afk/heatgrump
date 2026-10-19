@@ -1,0 +1,617 @@
+[
+ {
+  "index": 0,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "480p",
+   "duration": 4,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "dee13250-9dd1-437d-b82e-e0a6f2826705",
+     "role": "image_references"
+    },
+    {
+     "value": "28d630d7-9693-41df-8810-6b06c6909f03",
+     "role": "image_references"
+    },
+    {
+     "value": "a9337b7c-9654-48cb-a14d-7f5e4261d591",
+     "role": "image_references"
+    },
+    {
+     "value": "0c80fd38-7a79-48cb-9882-98af065bcba9",
+     "role": "image_references"
+    },
+    {
+     "value": "c6d64979-7459-4ff3-a912-1c6fe24f2419",
+     "role": "image_references"
+    },
+    {
+     "value": "4a18fbf2-3b3e-4a40-b2e9-1a056a072254",
+     "role": "image_references"
+    },
+    {
+     "value": "809bbc76-bc21-4446-a7f9-0d9cea561148",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "B1 \u2014 PUTTING THE ROBE ON. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK \u2014 BRIGHT, EVERYDAY UGC, ABSOLUTE RULE: a normal person filming on their own phone in a well-lit room, not a cinematic ad. Bright and evenly lit, colours clearly readable, whole frame well exposed, no dark corners, no moody grade, no orange tint, no vignette. Ordinary phone sharpness, small natural imperfections.\n\nIMAGE ROLES: Image 1 is the PERSON \u2014 a young American woman with long straight blonde hair with soft curtain bangs, worn loose (no bun, no ponytail); face, hair, skin tone, age, build and gender exactly as in Image 1 in every frame. Do NOT copy the face, hair or body of the person in the driving video. Image 2 is the ROOM \u2014 same walls, furniture, bed/sofa and decor as Image 2. Images 3-6 are THE ROBE.\n\nTHE ROBE \u2014 ABSOLUTE RULE, HIGHEST PRIORITY: the robe she wears is the robe of Images 3-6 \u2014 REPRODUCE IT ONE TO ONE from these references, every colour, part, trim, the hood with its face, the cuffs, the pockets and the length exactly as in the references, in every frame. Do NOT copy the robe, blanket or costume from the driving video. The robe must not drift between frames and is visible full length.\n\nCLOTHES UNDER THE ROBE \u2014 ABSOLUTE RULE: a navy-blue flannel pajama set printed with small white stars, with thin red piping, and white socks \u2014 the same in every clip. Do NOT copy any clothing from the driving video.\n\nULTRA-REALISTIC LIGHT \u2014 ABSOLUTE RULE: real-world light physics. One clear, motivated main light (window daylight or a lamp that exists in the scene), soft natural falloff across the room, soft contact shadows under hands, feet and objects, gentle bounce light from walls and floor onto skin, real catchlights in the eyes, accurate specular highlights. Skin with visible pores, fine hairs and slight natural redness on nose and cheeks; fabrics with visible fibres and weave. Shot on a modern iPhone main camera, 24 mm, natural HDR, true-to-life white balance, faint sensor grain in the shadows. Vivid, slightly warm colours \u2014 not golden, not orange. No beauty filter, no plastic skin, no AI glow, no CGI look, no over-sharpening, no cinematic grade, no vignette.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no subtitles, no burned-in text, no emoji, no watermarks \u2014 any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 1,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "480p",
+   "duration": 5,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "dee13250-9dd1-437d-b82e-e0a6f2826705",
+     "role": "image_references"
+    },
+    {
+     "value": "28d630d7-9693-41df-8810-6b06c6909f03",
+     "role": "image_references"
+    },
+    {
+     "value": "a9337b7c-9654-48cb-a14d-7f5e4261d591",
+     "role": "image_references"
+    },
+    {
+     "value": "0c80fd38-7a79-48cb-9882-98af065bcba9",
+     "role": "image_references"
+    },
+    {
+     "value": "c6d64979-7459-4ff3-a912-1c6fe24f2419",
+     "role": "image_references"
+    },
+    {
+     "value": "4a18fbf2-3b3e-4a40-b2e9-1a056a072254",
+     "role": "image_references"
+    },
+    {
+     "value": "93c57d89-b1f2-45b8-b25b-c12d49f121ba",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "B2 \u2014 STANDING IN THE ROBE, FACE VISIBLE, OPENING IT WIDE AND CLOSING IT AGAIN. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK \u2014 BRIGHT, EVERYDAY UGC, ABSOLUTE RULE: a normal person filming on their own phone in a well-lit room, not a cinematic ad. Bright and evenly lit, colours clearly readable, whole frame well exposed, no dark corners, no moody grade, no orange tint, no vignette. Ordinary phone sharpness, small natural imperfections.\n\nIMAGE ROLES: Image 1 is the PERSON \u2014 a young American woman with long straight blonde hair with soft curtain bangs, worn loose (no bun, no ponytail); face, hair, skin tone, age, build and gender exactly as in Image 1 in every frame. Do NOT copy the face, hair or body of the person in the driving video. Image 2 is the ROOM \u2014 same walls, furniture, bed/sofa and decor as Image 2. Images 3-6 are THE ROBE.\n\nTHE ROBE \u2014 ABSOLUTE RULE, HIGHEST PRIORITY: the robe she wears is the robe of Images 3-6 \u2014 REPRODUCE IT ONE TO ONE from these references, every colour, part, trim, the hood with its face, the cuffs, the pockets and the length exactly as in the references, in every frame. Do NOT copy the robe, blanket or costume from the driving video. The robe must not drift between frames and is visible full length.\n\nCLOTHES UNDER THE ROBE \u2014 ABSOLUTE RULE: a navy-blue flannel pajama set printed with small white stars, with thin red piping, and white socks \u2014 the same in every clip. Do NOT copy any clothing from the driving video.\n\nULTRA-REALISTIC LIGHT \u2014 ABSOLUTE RULE: real-world light physics. One clear, motivated main light (window daylight or a lamp that exists in the scene), soft natural falloff across the room, soft contact shadows under hands, feet and objects, gentle bounce light from walls and floor onto skin, real catchlights in the eyes, accurate specular highlights. Skin with visible pores, fine hairs and slight natural redness on nose and cheeks; fabrics with visible fibres and weave. Shot on a modern iPhone main camera, 24 mm, natural HDR, true-to-life white balance, faint sensor grain in the shadows. Vivid, slightly warm colours \u2014 not golden, not orange. No beauty filter, no plastic skin, no AI glow, no CGI look, no over-sharpening, no cinematic grade, no vignette.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no subtitles, no burned-in text, no emoji, no watermarks \u2014 any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 2,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "480p",
+   "duration": 4,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "dee13250-9dd1-437d-b82e-e0a6f2826705",
+     "role": "image_references"
+    },
+    {
+     "value": "28d630d7-9693-41df-8810-6b06c6909f03",
+     "role": "image_references"
+    },
+    {
+     "value": "a9337b7c-9654-48cb-a14d-7f5e4261d591",
+     "role": "image_references"
+    },
+    {
+     "value": "0c80fd38-7a79-48cb-9882-98af065bcba9",
+     "role": "image_references"
+    },
+    {
+     "value": "c6d64979-7459-4ff3-a912-1c6fe24f2419",
+     "role": "image_references"
+    },
+    {
+     "value": "4a18fbf2-3b3e-4a40-b2e9-1a056a072254",
+     "role": "image_references"
+    },
+    {
+     "value": "cd8401b9-bb43-4b70-9428-ff9db6ea5d25",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "COZY \u2014 SETTLING ON THE SOFA IN THE ROBE, snuggling into it, on the sofa of Image 2. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK \u2014 BRIGHT, EVERYDAY UGC, ABSOLUTE RULE: a normal person filming on their own phone in a well-lit room, not a cinematic ad. Bright and evenly lit, colours clearly readable, whole frame well exposed, no dark corners, no moody grade, no orange tint, no vignette. Ordinary phone sharpness, small natural imperfections.\n\nIMAGE ROLES: Image 1 is the PERSON \u2014 a young American woman with long straight blonde hair with soft curtain bangs, worn loose (no bun, no ponytail); face, hair, skin tone, age, build and gender exactly as in Image 1 in every frame. Do NOT copy the face, hair or body of the person in the driving video. Image 2 is the ROOM \u2014 same walls, furniture, bed/sofa and decor as Image 2. Images 3-6 are THE ROBE.\n\nTHE ROBE \u2014 ABSOLUTE RULE, HIGHEST PRIORITY: the robe she wears is the robe of Images 3-6 \u2014 REPRODUCE IT ONE TO ONE from these references, every colour, part, trim, the hood with its face, the cuffs, the pockets and the length exactly as in the references, in every frame. Do NOT copy the robe, blanket or costume from the driving video. The robe must not drift between frames and is visible full length.\n\nCLOTHES UNDER THE ROBE \u2014 ABSOLUTE RULE: a navy-blue flannel pajama set printed with small white stars, with thin red piping, and white socks \u2014 the same in every clip. Do NOT copy any clothing from the driving video.\n\nULTRA-REALISTIC LIGHT \u2014 ABSOLUTE RULE: real-world light physics. One clear, motivated main light (window daylight or a lamp that exists in the scene), soft natural falloff across the room, soft contact shadows under hands, feet and objects, gentle bounce light from walls and floor onto skin, real catchlights in the eyes, accurate specular highlights. Skin with visible pores, fine hairs and slight natural redness on nose and cheeks; fabrics with visible fibres and weave. Shot on a modern iPhone main camera, 24 mm, natural HDR, true-to-life white balance, faint sensor grain in the shadows. Vivid, slightly warm colours \u2014 not golden, not orange. No beauty filter, no plastic skin, no AI glow, no CGI look, no over-sharpening, no cinematic grade, no vignette.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no subtitles, no burned-in text, no emoji, no watermarks \u2014 any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 3,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "480p",
+   "duration": 4,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "f758131b-e464-4679-a316-92ca7481bd2a",
+     "role": "image_references"
+    },
+    {
+     "value": "8df806f7-705b-4b61-9530-fb73a6c9f8db",
+     "role": "image_references"
+    },
+    {
+     "value": "a9337b7c-9654-48cb-a14d-7f5e4261d591",
+     "role": "image_references"
+    },
+    {
+     "value": "0c80fd38-7a79-48cb-9882-98af065bcba9",
+     "role": "image_references"
+    },
+    {
+     "value": "c6d64979-7459-4ff3-a912-1c6fe24f2419",
+     "role": "image_references"
+    },
+    {
+     "value": "4a18fbf2-3b3e-4a40-b2e9-1a056a072254",
+     "role": "image_references"
+    },
+    {
+     "value": "90a914eb-98c4-441a-84f4-f229e7621fe5",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "B1 \u2014 PUTTING THE ROBE ON. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK \u2014 BRIGHT, EVERYDAY UGC, ABSOLUTE RULE: a normal person filming on their own phone in a well-lit room, not a cinematic ad. Bright and evenly lit, colours clearly readable, whole frame well exposed, no dark corners, no moody grade, no orange tint, no vignette. Ordinary phone sharpness, small natural imperfections.\n\nIMAGE ROLES: Image 1 is the PERSON \u2014 a young American woman with long straight golden-blonde hair worn loose (no bun, no ponytail); face, hair, skin tone, age, build and gender exactly as in Image 1 in every frame. Do NOT copy the face, hair or body of the person in the driving video. Image 2 is the ROOM \u2014 same walls, furniture, bed/sofa and decor as Image 2. Images 3-6 are THE ROBE.\n\nTHE ROBE \u2014 ABSOLUTE RULE, HIGHEST PRIORITY: the robe she wears is the robe of Images 3-6 \u2014 REPRODUCE IT ONE TO ONE from these references, every colour, part, trim, the hood with its face, the cuffs, the pockets and the length exactly as in the references, in every frame. Do NOT copy the robe, blanket or costume from the driving video. The robe must not drift between frames and is visible full length.\n\nCLOTHES UNDER THE ROBE \u2014 ABSOLUTE RULE: a cream crewneck sweatshirt with red and navy varsity stripes on the sleeves (no letters, no logo), navy sweatpants and white socks \u2014 the same in every clip. Do NOT copy any clothing from the driving video.\n\nULTRA-REALISTIC LIGHT \u2014 ABSOLUTE RULE: real-world light physics. One clear, motivated main light (window daylight or a lamp that exists in the scene), soft natural falloff across the room, soft contact shadows under hands, feet and objects, gentle bounce light from walls and floor onto skin, real catchlights in the eyes, accurate specular highlights. Skin with visible pores, fine hairs and slight natural redness on nose and cheeks; fabrics with visible fibres and weave. Shot on a modern iPhone main camera, 24 mm, natural HDR, true-to-life white balance, faint sensor grain in the shadows. Vivid, slightly warm colours \u2014 not golden, not orange. No beauty filter, no plastic skin, no AI glow, no CGI look, no over-sharpening, no cinematic grade, no vignette.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no subtitles, no burned-in text, no emoji, no watermarks \u2014 any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 4,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "480p",
+   "duration": 5,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "f758131b-e464-4679-a316-92ca7481bd2a",
+     "role": "image_references"
+    },
+    {
+     "value": "8df806f7-705b-4b61-9530-fb73a6c9f8db",
+     "role": "image_references"
+    },
+    {
+     "value": "a9337b7c-9654-48cb-a14d-7f5e4261d591",
+     "role": "image_references"
+    },
+    {
+     "value": "0c80fd38-7a79-48cb-9882-98af065bcba9",
+     "role": "image_references"
+    },
+    {
+     "value": "c6d64979-7459-4ff3-a912-1c6fe24f2419",
+     "role": "image_references"
+    },
+    {
+     "value": "4a18fbf2-3b3e-4a40-b2e9-1a056a072254",
+     "role": "image_references"
+    },
+    {
+     "value": "15f52307-1668-4815-a645-14e557751327",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "B2 \u2014 STANDING IN THE ROBE, FACE VISIBLE, OPENING IT WIDE AND CLOSING IT AGAIN. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK \u2014 BRIGHT, EVERYDAY UGC, ABSOLUTE RULE: a normal person filming on their own phone in a well-lit room, not a cinematic ad. Bright and evenly lit, colours clearly readable, whole frame well exposed, no dark corners, no moody grade, no orange tint, no vignette. Ordinary phone sharpness, small natural imperfections.\n\nIMAGE ROLES: Image 1 is the PERSON \u2014 a young American woman with long straight golden-blonde hair worn loose (no bun, no ponytail); face, hair, skin tone, age, build and gender exactly as in Image 1 in every frame. Do NOT copy the face, hair or body of the person in the driving video. Image 2 is the ROOM \u2014 same walls, furniture, bed/sofa and decor as Image 2. Images 3-6 are THE ROBE.\n\nTHE ROBE \u2014 ABSOLUTE RULE, HIGHEST PRIORITY: the robe she wears is the robe of Images 3-6 \u2014 REPRODUCE IT ONE TO ONE from these references, every colour, part, trim, the hood with its face, the cuffs, the pockets and the length exactly as in the references, in every frame. Do NOT copy the robe, blanket or costume from the driving video. The robe must not drift between frames and is visible full length.\n\nCLOTHES UNDER THE ROBE \u2014 ABSOLUTE RULE: a cream crewneck sweatshirt with red and navy varsity stripes on the sleeves (no letters, no logo), navy sweatpants and white socks \u2014 the same in every clip. Do NOT copy any clothing from the driving video.\n\nULTRA-REALISTIC LIGHT \u2014 ABSOLUTE RULE: real-world light physics. One clear, motivated main light (window daylight or a lamp that exists in the scene), soft natural falloff across the room, soft contact shadows under hands, feet and objects, gentle bounce light from walls and floor onto skin, real catchlights in the eyes, accurate specular highlights. Skin with visible pores, fine hairs and slight natural redness on nose and cheeks; fabrics with visible fibres and weave. Shot on a modern iPhone main camera, 24 mm, natural HDR, true-to-life white balance, faint sensor grain in the shadows. Vivid, slightly warm colours \u2014 not golden, not orange. No beauty filter, no plastic skin, no AI glow, no CGI look, no over-sharpening, no cinematic grade, no vignette.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no subtitles, no burned-in text, no emoji, no watermarks \u2014 any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 5,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "480p",
+   "duration": 4,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "f758131b-e464-4679-a316-92ca7481bd2a",
+     "role": "image_references"
+    },
+    {
+     "value": "8df806f7-705b-4b61-9530-fb73a6c9f8db",
+     "role": "image_references"
+    },
+    {
+     "value": "a9337b7c-9654-48cb-a14d-7f5e4261d591",
+     "role": "image_references"
+    },
+    {
+     "value": "0c80fd38-7a79-48cb-9882-98af065bcba9",
+     "role": "image_references"
+    },
+    {
+     "value": "c6d64979-7459-4ff3-a912-1c6fe24f2419",
+     "role": "image_references"
+    },
+    {
+     "value": "4a18fbf2-3b3e-4a40-b2e9-1a056a072254",
+     "role": "image_references"
+    },
+    {
+     "value": "a0bfb69e-0cac-45c1-95a7-77b34a20527e",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "COZY \u2014 SETTLING ON THE SOFA IN THE ROBE, snuggling into it, on the sofa of Image 2. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK \u2014 BRIGHT, EVERYDAY UGC, ABSOLUTE RULE: a normal person filming on their own phone in a well-lit room, not a cinematic ad. Bright and evenly lit, colours clearly readable, whole frame well exposed, no dark corners, no moody grade, no orange tint, no vignette. Ordinary phone sharpness, small natural imperfections.\n\nIMAGE ROLES: Image 1 is the PERSON \u2014 a young American woman with long straight golden-blonde hair worn loose (no bun, no ponytail); face, hair, skin tone, age, build and gender exactly as in Image 1 in every frame. Do NOT copy the face, hair or body of the person in the driving video. Image 2 is the ROOM \u2014 same walls, furniture, bed/sofa and decor as Image 2. Images 3-6 are THE ROBE.\n\nTHE ROBE \u2014 ABSOLUTE RULE, HIGHEST PRIORITY: the robe she wears is the robe of Images 3-6 \u2014 REPRODUCE IT ONE TO ONE from these references, every colour, part, trim, the hood with its face, the cuffs, the pockets and the length exactly as in the references, in every frame. Do NOT copy the robe, blanket or costume from the driving video. The robe must not drift between frames and is visible full length.\n\nCLOTHES UNDER THE ROBE \u2014 ABSOLUTE RULE: a cream crewneck sweatshirt with red and navy varsity stripes on the sleeves (no letters, no logo), navy sweatpants and white socks \u2014 the same in every clip. Do NOT copy any clothing from the driving video.\n\nULTRA-REALISTIC LIGHT \u2014 ABSOLUTE RULE: real-world light physics. One clear, motivated main light (window daylight or a lamp that exists in the scene), soft natural falloff across the room, soft contact shadows under hands, feet and objects, gentle bounce light from walls and floor onto skin, real catchlights in the eyes, accurate specular highlights. Skin with visible pores, fine hairs and slight natural redness on nose and cheeks; fabrics with visible fibres and weave. Shot on a modern iPhone main camera, 24 mm, natural HDR, true-to-life white balance, faint sensor grain in the shadows. Vivid, slightly warm colours \u2014 not golden, not orange. No beauty filter, no plastic skin, no AI glow, no CGI look, no over-sharpening, no cinematic grade, no vignette.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no subtitles, no burned-in text, no emoji, no watermarks \u2014 any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 6,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "480p",
+   "duration": 4,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "9b550b72-a36a-4a4a-a544-b196373256b9",
+     "role": "image_references"
+    },
+    {
+     "value": "45493b19-a251-4950-8132-6cfc6a0c5e9e",
+     "role": "image_references"
+    },
+    {
+     "value": "a9337b7c-9654-48cb-a14d-7f5e4261d591",
+     "role": "image_references"
+    },
+    {
+     "value": "0c80fd38-7a79-48cb-9882-98af065bcba9",
+     "role": "image_references"
+    },
+    {
+     "value": "c6d64979-7459-4ff3-a912-1c6fe24f2419",
+     "role": "image_references"
+    },
+    {
+     "value": "4a18fbf2-3b3e-4a40-b2e9-1a056a072254",
+     "role": "image_references"
+    },
+    {
+     "value": "0a610b65-0e66-4b77-9fd3-d47aff935724",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "B1 \u2014 PUTTING THE ROBE ON. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK \u2014 BRIGHT, EVERYDAY UGC, ABSOLUTE RULE: a normal person filming on their own phone in a well-lit room, not a cinematic ad. Bright and evenly lit, colours clearly readable, whole frame well exposed, no dark corners, no moody grade, no orange tint, no vignette. Ordinary phone sharpness, small natural imperfections.\n\nIMAGE ROLES: Image 1 is the PERSON \u2014 a young American woman with long straight dark-brown hair with a middle part, worn loose (no bun, no ponytail); face, hair, skin tone, age, build and gender exactly as in Image 1 in every frame. Do NOT copy the face, hair or body of the person in the driving video. Image 2 is the ROOM \u2014 same walls, furniture, bed/sofa and decor as Image 2. Images 3-6 are THE ROBE.\n\nTHE ROBE \u2014 ABSOLUTE RULE, HIGHEST PRIORITY: the robe she wears is the robe of Images 3-6 \u2014 REPRODUCE IT ONE TO ONE from these references, every colour, part, trim, the hood with its face, the cuffs, the pockets and the length exactly as in the references, in every frame. Do NOT copy the robe, blanket or costume from the driving video. The robe must not drift between frames and is visible full length.\n\nCLOTHES UNDER THE ROBE \u2014 ABSOLUTE RULE: a red-and-white candy-stripe Christmas pajama set and white socks \u2014 the same in every clip. Do NOT copy any clothing from the driving video.\n\nULTRA-REALISTIC LIGHT \u2014 ABSOLUTE RULE: real-world light physics. One clear, motivated main light (window daylight or a lamp that exists in the scene), soft natural falloff across the room, soft contact shadows under hands, feet and objects, gentle bounce light from walls and floor onto skin, real catchlights in the eyes, accurate specular highlights. Skin with visible pores, fine hairs and slight natural redness on nose and cheeks; fabrics with visible fibres and weave. Shot on a modern iPhone main camera, 24 mm, natural HDR, true-to-life white balance, faint sensor grain in the shadows. Vivid, slightly warm colours \u2014 not golden, not orange. No beauty filter, no plastic skin, no AI glow, no CGI look, no over-sharpening, no cinematic grade, no vignette.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no subtitles, no burned-in text, no emoji, no watermarks \u2014 any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 7,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "480p",
+   "duration": 5,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "9b550b72-a36a-4a4a-a544-b196373256b9",
+     "role": "image_references"
+    },
+    {
+     "value": "45493b19-a251-4950-8132-6cfc6a0c5e9e",
+     "role": "image_references"
+    },
+    {
+     "value": "a9337b7c-9654-48cb-a14d-7f5e4261d591",
+     "role": "image_references"
+    },
+    {
+     "value": "0c80fd38-7a79-48cb-9882-98af065bcba9",
+     "role": "image_references"
+    },
+    {
+     "value": "c6d64979-7459-4ff3-a912-1c6fe24f2419",
+     "role": "image_references"
+    },
+    {
+     "value": "4a18fbf2-3b3e-4a40-b2e9-1a056a072254",
+     "role": "image_references"
+    },
+    {
+     "value": "02c3cfff-e85c-4984-becd-1b167eaa5740",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "B2 \u2014 STANDING IN THE ROBE, FACE VISIBLE, OPENING IT WIDE AND CLOSING IT AGAIN. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK \u2014 BRIGHT, EVERYDAY UGC, ABSOLUTE RULE: a normal person filming on their own phone in a well-lit room, not a cinematic ad. Bright and evenly lit, colours clearly readable, whole frame well exposed, no dark corners, no moody grade, no orange tint, no vignette. Ordinary phone sharpness, small natural imperfections.\n\nIMAGE ROLES: Image 1 is the PERSON \u2014 a young American woman with long straight dark-brown hair with a middle part, worn loose (no bun, no ponytail); face, hair, skin tone, age, build and gender exactly as in Image 1 in every frame. Do NOT copy the face, hair or body of the person in the driving video. Image 2 is the ROOM \u2014 same walls, furniture, bed/sofa and decor as Image 2. Images 3-6 are THE ROBE.\n\nTHE ROBE \u2014 ABSOLUTE RULE, HIGHEST PRIORITY: the robe she wears is the robe of Images 3-6 \u2014 REPRODUCE IT ONE TO ONE from these references, every colour, part, trim, the hood with its face, the cuffs, the pockets and the length exactly as in the references, in every frame. Do NOT copy the robe, blanket or costume from the driving video. The robe must not drift between frames and is visible full length.\n\nCLOTHES UNDER THE ROBE \u2014 ABSOLUTE RULE: a red-and-white candy-stripe Christmas pajama set and white socks \u2014 the same in every clip. Do NOT copy any clothing from the driving video.\n\nULTRA-REALISTIC LIGHT \u2014 ABSOLUTE RULE: real-world light physics. One clear, motivated main light (window daylight or a lamp that exists in the scene), soft natural falloff across the room, soft contact shadows under hands, feet and objects, gentle bounce light from walls and floor onto skin, real catchlights in the eyes, accurate specular highlights. Skin with visible pores, fine hairs and slight natural redness on nose and cheeks; fabrics with visible fibres and weave. Shot on a modern iPhone main camera, 24 mm, natural HDR, true-to-life white balance, faint sensor grain in the shadows. Vivid, slightly warm colours \u2014 not golden, not orange. No beauty filter, no plastic skin, no AI glow, no CGI look, no over-sharpening, no cinematic grade, no vignette.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no subtitles, no burned-in text, no emoji, no watermarks \u2014 any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 8,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "480p",
+   "duration": 4,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "9b550b72-a36a-4a4a-a544-b196373256b9",
+     "role": "image_references"
+    },
+    {
+     "value": "45493b19-a251-4950-8132-6cfc6a0c5e9e",
+     "role": "image_references"
+    },
+    {
+     "value": "a9337b7c-9654-48cb-a14d-7f5e4261d591",
+     "role": "image_references"
+    },
+    {
+     "value": "0c80fd38-7a79-48cb-9882-98af065bcba9",
+     "role": "image_references"
+    },
+    {
+     "value": "c6d64979-7459-4ff3-a912-1c6fe24f2419",
+     "role": "image_references"
+    },
+    {
+     "value": "4a18fbf2-3b3e-4a40-b2e9-1a056a072254",
+     "role": "image_references"
+    },
+    {
+     "value": "cd8401b9-bb43-4b70-9428-ff9db6ea5d25",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "COZY \u2014 SETTLING ON THE SOFA IN THE ROBE, snuggling into it, on the sofa of Image 2. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK \u2014 BRIGHT, EVERYDAY UGC, ABSOLUTE RULE: a normal person filming on their own phone in a well-lit room, not a cinematic ad. Bright and evenly lit, colours clearly readable, whole frame well exposed, no dark corners, no moody grade, no orange tint, no vignette. Ordinary phone sharpness, small natural imperfections.\n\nIMAGE ROLES: Image 1 is the PERSON \u2014 a young American woman with long straight dark-brown hair with a middle part, worn loose (no bun, no ponytail); face, hair, skin tone, age, build and gender exactly as in Image 1 in every frame. Do NOT copy the face, hair or body of the person in the driving video. Image 2 is the ROOM \u2014 same walls, furniture, bed/sofa and decor as Image 2. Images 3-6 are THE ROBE.\n\nTHE ROBE \u2014 ABSOLUTE RULE, HIGHEST PRIORITY: the robe she wears is the robe of Images 3-6 \u2014 REPRODUCE IT ONE TO ONE from these references, every colour, part, trim, the hood with its face, the cuffs, the pockets and the length exactly as in the references, in every frame. Do NOT copy the robe, blanket or costume from the driving video. The robe must not drift between frames and is visible full length.\n\nCLOTHES UNDER THE ROBE \u2014 ABSOLUTE RULE: a red-and-white candy-stripe Christmas pajama set and white socks \u2014 the same in every clip. Do NOT copy any clothing from the driving video.\n\nULTRA-REALISTIC LIGHT \u2014 ABSOLUTE RULE: real-world light physics. One clear, motivated main light (window daylight or a lamp that exists in the scene), soft natural falloff across the room, soft contact shadows under hands, feet and objects, gentle bounce light from walls and floor onto skin, real catchlights in the eyes, accurate specular highlights. Skin with visible pores, fine hairs and slight natural redness on nose and cheeks; fabrics with visible fibres and weave. Shot on a modern iPhone main camera, 24 mm, natural HDR, true-to-life white balance, faint sensor grain in the shadows. Vivid, slightly warm colours \u2014 not golden, not orange. No beauty filter, no plastic skin, no AI glow, no CGI look, no over-sharpening, no cinematic grade, no vignette.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no subtitles, no burned-in text, no emoji, no watermarks \u2014 any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 9,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "480p",
+   "duration": 4,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "4ca60062-8fec-44f3-a62a-4424e6fc57cf",
+     "role": "image_references"
+    },
+    {
+     "value": "ca56f510-98fc-4fa3-91f5-e8ea6326c18e",
+     "role": "image_references"
+    },
+    {
+     "value": "a9337b7c-9654-48cb-a14d-7f5e4261d591",
+     "role": "image_references"
+    },
+    {
+     "value": "0c80fd38-7a79-48cb-9882-98af065bcba9",
+     "role": "image_references"
+    },
+    {
+     "value": "c6d64979-7459-4ff3-a912-1c6fe24f2419",
+     "role": "image_references"
+    },
+    {
+     "value": "4a18fbf2-3b3e-4a40-b2e9-1a056a072254",
+     "role": "image_references"
+    },
+    {
+     "value": "76950561-78c3-4f76-a1c9-d737e8b9fc35",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "B1 \u2014 PUTTING THE ROBE ON. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK \u2014 BRIGHT, EVERYDAY UGC, ABSOLUTE RULE: a normal person filming on their own phone in a well-lit room, not a cinematic ad. Bright and evenly lit, colours clearly readable, whole frame well exposed, no dark corners, no moody grade, no orange tint, no vignette. Ordinary phone sharpness, small natural imperfections.\n\nIMAGE ROLES: Image 1 is the PERSON \u2014 a young American woman with very long straight dark-brown hair with a middle part, worn loose (no bun, no ponytail); face, hair, skin tone, age, build and gender exactly as in Image 1 in every frame. Do NOT copy the face, hair or body of the person in the driving video. Image 2 is the ROOM \u2014 same walls, furniture, bed/sofa and decor as Image 2. Images 3-6 are THE ROBE.\n\nTHE ROBE \u2014 ABSOLUTE RULE, HIGHEST PRIORITY: the robe she wears is the robe of Images 3-6 \u2014 REPRODUCE IT ONE TO ONE from these references, every colour, part, trim, the hood with its face, the cuffs, the pockets and the length exactly as in the references, in every frame. Do NOT copy the robe, blanket or costume from the driving video. The robe must not drift between frames and is visible full length.\n\nCLOTHES UNDER THE ROBE \u2014 ABSOLUTE RULE: a plain white long-sleeve tee and pajama pants printed with the American flag (stars and stripes), white socks \u2014 the same in every clip. Do NOT copy any clothing from the driving video.\n\nULTRA-REALISTIC LIGHT \u2014 ABSOLUTE RULE: real-world light physics. One clear, motivated main light (window daylight or a lamp that exists in the scene), soft natural falloff across the room, soft contact shadows under hands, feet and objects, gentle bounce light from walls and floor onto skin, real catchlights in the eyes, accurate specular highlights. Skin with visible pores, fine hairs and slight natural redness on nose and cheeks; fabrics with visible fibres and weave. Shot on a modern iPhone main camera, 24 mm, natural HDR, true-to-life white balance, faint sensor grain in the shadows. Vivid, slightly warm colours \u2014 not golden, not orange. No beauty filter, no plastic skin, no AI glow, no CGI look, no over-sharpening, no cinematic grade, no vignette.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no subtitles, no burned-in text, no emoji, no watermarks \u2014 any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 10,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "480p",
+   "duration": 5,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "4ca60062-8fec-44f3-a62a-4424e6fc57cf",
+     "role": "image_references"
+    },
+    {
+     "value": "ca56f510-98fc-4fa3-91f5-e8ea6326c18e",
+     "role": "image_references"
+    },
+    {
+     "value": "a9337b7c-9654-48cb-a14d-7f5e4261d591",
+     "role": "image_references"
+    },
+    {
+     "value": "0c80fd38-7a79-48cb-9882-98af065bcba9",
+     "role": "image_references"
+    },
+    {
+     "value": "c6d64979-7459-4ff3-a912-1c6fe24f2419",
+     "role": "image_references"
+    },
+    {
+     "value": "4a18fbf2-3b3e-4a40-b2e9-1a056a072254",
+     "role": "image_references"
+    },
+    {
+     "value": "34ce9f18-c285-4bbd-809a-ddd7b4202724",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "B2 \u2014 STANDING IN THE ROBE, FACE VISIBLE, OPENING IT WIDE AND CLOSING IT AGAIN. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK \u2014 BRIGHT, EVERYDAY UGC, ABSOLUTE RULE: a normal person filming on their own phone in a well-lit room, not a cinematic ad. Bright and evenly lit, colours clearly readable, whole frame well exposed, no dark corners, no moody grade, no orange tint, no vignette. Ordinary phone sharpness, small natural imperfections.\n\nIMAGE ROLES: Image 1 is the PERSON \u2014 a young American woman with very long straight dark-brown hair with a middle part, worn loose (no bun, no ponytail); face, hair, skin tone, age, build and gender exactly as in Image 1 in every frame. Do NOT copy the face, hair or body of the person in the driving video. Image 2 is the ROOM \u2014 same walls, furniture, bed/sofa and decor as Image 2. Images 3-6 are THE ROBE.\n\nTHE ROBE \u2014 ABSOLUTE RULE, HIGHEST PRIORITY: the robe she wears is the robe of Images 3-6 \u2014 REPRODUCE IT ONE TO ONE from these references, every colour, part, trim, the hood with its face, the cuffs, the pockets and the length exactly as in the references, in every frame. Do NOT copy the robe, blanket or costume from the driving video. The robe must not drift between frames and is visible full length.\n\nCLOTHES UNDER THE ROBE \u2014 ABSOLUTE RULE: a plain white long-sleeve tee and pajama pants printed with the American flag (stars and stripes), white socks \u2014 the same in every clip. Do NOT copy any clothing from the driving video.\n\nULTRA-REALISTIC LIGHT \u2014 ABSOLUTE RULE: real-world light physics. One clear, motivated main light (window daylight or a lamp that exists in the scene), soft natural falloff across the room, soft contact shadows under hands, feet and objects, gentle bounce light from walls and floor onto skin, real catchlights in the eyes, accurate specular highlights. Skin with visible pores, fine hairs and slight natural redness on nose and cheeks; fabrics with visible fibres and weave. Shot on a modern iPhone main camera, 24 mm, natural HDR, true-to-life white balance, faint sensor grain in the shadows. Vivid, slightly warm colours \u2014 not golden, not orange. No beauty filter, no plastic skin, no AI glow, no CGI look, no over-sharpening, no cinematic grade, no vignette.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no subtitles, no burned-in text, no emoji, no watermarks \u2014 any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 11,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "480p",
+   "duration": 4,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "4ca60062-8fec-44f3-a62a-4424e6fc57cf",
+     "role": "image_references"
+    },
+    {
+     "value": "ca56f510-98fc-4fa3-91f5-e8ea6326c18e",
+     "role": "image_references"
+    },
+    {
+     "value": "a9337b7c-9654-48cb-a14d-7f5e4261d591",
+     "role": "image_references"
+    },
+    {
+     "value": "0c80fd38-7a79-48cb-9882-98af065bcba9",
+     "role": "image_references"
+    },
+    {
+     "value": "c6d64979-7459-4ff3-a912-1c6fe24f2419",
+     "role": "image_references"
+    },
+    {
+     "value": "4a18fbf2-3b3e-4a40-b2e9-1a056a072254",
+     "role": "image_references"
+    },
+    {
+     "value": "cd8401b9-bb43-4b70-9428-ff9db6ea5d25",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "COZY \u2014 SITTING ON THE EDGE OF THE BED of Image 2 IN THE ROBE, snuggling into it. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK \u2014 BRIGHT, EVERYDAY UGC, ABSOLUTE RULE: a normal person filming on their own phone in a well-lit room, not a cinematic ad. Bright and evenly lit, colours clearly readable, whole frame well exposed, no dark corners, no moody grade, no orange tint, no vignette. Ordinary phone sharpness, small natural imperfections.\n\nIMAGE ROLES: Image 1 is the PERSON \u2014 a young American woman with very long straight dark-brown hair with a middle part, worn loose (no bun, no ponytail); face, hair, skin tone, age, build and gender exactly as in Image 1 in every frame. Do NOT copy the face, hair or body of the person in the driving video. Image 2 is the ROOM \u2014 same walls, furniture, bed/sofa and decor as Image 2. Images 3-6 are THE ROBE.\n\nTHE ROBE \u2014 ABSOLUTE RULE, HIGHEST PRIORITY: the robe she wears is the robe of Images 3-6 \u2014 REPRODUCE IT ONE TO ONE from these references, every colour, part, trim, the hood with its face, the cuffs, the pockets and the length exactly as in the references, in every frame. Do NOT copy the robe, blanket or costume from the driving video. The robe must not drift between frames and is visible full length.\n\nCLOTHES UNDER THE ROBE \u2014 ABSOLUTE RULE: a plain white long-sleeve tee and pajama pants printed with the American flag (stars and stripes), white socks \u2014 the same in every clip. Do NOT copy any clothing from the driving video.\n\nULTRA-REALISTIC LIGHT \u2014 ABSOLUTE RULE: real-world light physics. One clear, motivated main light (window daylight or a lamp that exists in the scene), soft natural falloff across the room, soft contact shadows under hands, feet and objects, gentle bounce light from walls and floor onto skin, real catchlights in the eyes, accurate specular highlights. Skin with visible pores, fine hairs and slight natural redness on nose and cheeks; fabrics with visible fibres and weave. Shot on a modern iPhone main camera, 24 mm, natural HDR, true-to-life white balance, faint sensor grain in the shadows. Vivid, slightly warm colours \u2014 not golden, not orange. No beauty filter, no plastic skin, no AI glow, no CGI look, no over-sharpening, no cinematic grade, no vignette.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no subtitles, no burned-in text, no emoji, no watermarks \u2014 any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 12,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "480p",
+   "duration": 4,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "28f14d68-08a6-4e65-94a0-d70c3b46133d",
+     "role": "image_references"
+    },
+    {
+     "value": "631217da-e6e8-41d9-b01f-309e599fb81d",
+     "role": "image_references"
+    },
+    {
+     "value": "a9337b7c-9654-48cb-a14d-7f5e4261d591",
+     "role": "image_references"
+    },
+    {
+     "value": "0c80fd38-7a79-48cb-9882-98af065bcba9",
+     "role": "image_references"
+    },
+    {
+     "value": "c6d64979-7459-4ff3-a912-1c6fe24f2419",
+     "role": "image_references"
+    },
+    {
+     "value": "4a18fbf2-3b3e-4a40-b2e9-1a056a072254",
+     "role": "image_references"
+    },
+    {
+     "value": "809bbc76-bc21-4446-a7f9-0d9cea561148",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "B1 \u2014 PUTTING THE ROBE ON. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK \u2014 BRIGHT, EVERYDAY UGC, ABSOLUTE RULE: a normal person filming on their own phone in a well-lit room, not a cinematic ad. Bright and evenly lit, colours clearly readable, whole frame well exposed, no dark corners, no moody grade, no orange tint, no vignette. Ordinary phone sharpness, small natural imperfections.\n\nIMAGE ROLES: Image 1 is the PERSON \u2014 a young American woman with long straight brown hair with caramel highlights and a middle part, worn loose (no bun, no ponytail); face, hair, skin tone, age, build and gender exactly as in Image 1 in every frame. Do NOT copy the face, hair or body of the person in the driving video. Image 2 is the ROOM \u2014 same walls, furniture, bed/sofa and decor as Image 2. Images 3-6 are THE ROBE.\n\nTHE ROBE \u2014 ABSOLUTE RULE, HIGHEST PRIORITY: the robe she wears is the robe of Images 3-6 \u2014 REPRODUCE IT ONE TO ONE from these references, every colour, part, trim, the hood with its face, the cuffs, the pockets and the length exactly as in the references, in every frame. Do NOT copy the robe, blanket or costume from the driving video. The robe must not drift between frames and is visible full length.\n\nCLOTHES UNDER THE ROBE \u2014 ABSOLUTE RULE: a red-and-black buffalo-plaid flannel pajama set and grey socks \u2014 the same in every clip. Do NOT copy any clothing from the driving video.\n\nULTRA-REALISTIC LIGHT \u2014 ABSOLUTE RULE: real-world light physics. One clear, motivated main light (window daylight or a lamp that exists in the scene), soft natural falloff across the room, soft contact shadows under hands, feet and objects, gentle bounce light from walls and floor onto skin, real catchlights in the eyes, accurate specular highlights. Skin with visible pores, fine hairs and slight natural redness on nose and cheeks; fabrics with visible fibres and weave. Shot on a modern iPhone main camera, 24 mm, natural HDR, true-to-life white balance, faint sensor grain in the shadows. Vivid, slightly warm colours \u2014 not golden, not orange. No beauty filter, no plastic skin, no AI glow, no CGI look, no over-sharpening, no cinematic grade, no vignette.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no subtitles, no burned-in text, no emoji, no watermarks \u2014 any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 13,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "480p",
+   "duration": 5,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "28f14d68-08a6-4e65-94a0-d70c3b46133d",
+     "role": "image_references"
+    },
+    {
+     "value": "631217da-e6e8-41d9-b01f-309e599fb81d",
+     "role": "image_references"
+    },
+    {
+     "value": "a9337b7c-9654-48cb-a14d-7f5e4261d591",
+     "role": "image_references"
+    },
+    {
+     "value": "0c80fd38-7a79-48cb-9882-98af065bcba9",
+     "role": "image_references"
+    },
+    {
+     "value": "c6d64979-7459-4ff3-a912-1c6fe24f2419",
+     "role": "image_references"
+    },
+    {
+     "value": "4a18fbf2-3b3e-4a40-b2e9-1a056a072254",
+     "role": "image_references"
+    },
+    {
+     "value": "15f52307-1668-4815-a645-14e557751327",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "B2 \u2014 STANDING IN THE ROBE, FACE VISIBLE, OPENING IT WIDE AND CLOSING IT AGAIN. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK \u2014 BRIGHT, EVERYDAY UGC, ABSOLUTE RULE: a normal person filming on their own phone in a well-lit room, not a cinematic ad. Bright and evenly lit, colours clearly readable, whole frame well exposed, no dark corners, no moody grade, no orange tint, no vignette. Ordinary phone sharpness, small natural imperfections.\n\nIMAGE ROLES: Image 1 is the PERSON \u2014 a young American woman with long straight brown hair with caramel highlights and a middle part, worn loose (no bun, no ponytail); face, hair, skin tone, age, build and gender exactly as in Image 1 in every frame. Do NOT copy the face, hair or body of the person in the driving video. Image 2 is the ROOM \u2014 same walls, furniture, bed/sofa and decor as Image 2. Images 3-6 are THE ROBE.\n\nTHE ROBE \u2014 ABSOLUTE RULE, HIGHEST PRIORITY: the robe she wears is the robe of Images 3-6 \u2014 REPRODUCE IT ONE TO ONE from these references, every colour, part, trim, the hood with its face, the cuffs, the pockets and the length exactly as in the references, in every frame. Do NOT copy the robe, blanket or costume from the driving video. The robe must not drift between frames and is visible full length.\n\nCLOTHES UNDER THE ROBE \u2014 ABSOLUTE RULE: a red-and-black buffalo-plaid flannel pajama set and grey socks \u2014 the same in every clip. Do NOT copy any clothing from the driving video.\n\nULTRA-REALISTIC LIGHT \u2014 ABSOLUTE RULE: real-world light physics. One clear, motivated main light (window daylight or a lamp that exists in the scene), soft natural falloff across the room, soft contact shadows under hands, feet and objects, gentle bounce light from walls and floor onto skin, real catchlights in the eyes, accurate specular highlights. Skin with visible pores, fine hairs and slight natural redness on nose and cheeks; fabrics with visible fibres and weave. Shot on a modern iPhone main camera, 24 mm, natural HDR, true-to-life white balance, faint sensor grain in the shadows. Vivid, slightly warm colours \u2014 not golden, not orange. No beauty filter, no plastic skin, no AI glow, no CGI look, no over-sharpening, no cinematic grade, no vignette.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no subtitles, no burned-in text, no emoji, no watermarks \u2014 any text in the driving video is removed."
+  }
+ },
+ {
+  "index": 14,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "aspect_ratio": "9:16",
+   "resolution": "480p",
+   "duration": 4,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "28f14d68-08a6-4e65-94a0-d70c3b46133d",
+     "role": "image_references"
+    },
+    {
+     "value": "631217da-e6e8-41d9-b01f-309e599fb81d",
+     "role": "image_references"
+    },
+    {
+     "value": "a9337b7c-9654-48cb-a14d-7f5e4261d591",
+     "role": "image_references"
+    },
+    {
+     "value": "0c80fd38-7a79-48cb-9882-98af065bcba9",
+     "role": "image_references"
+    },
+    {
+     "value": "c6d64979-7459-4ff3-a912-1c6fe24f2419",
+     "role": "image_references"
+    },
+    {
+     "value": "4a18fbf2-3b3e-4a40-b2e9-1a056a072254",
+     "role": "image_references"
+    },
+    {
+     "value": "a0bfb69e-0cac-45c1-95a7-77b34a20527e",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "COZY \u2014 SITTING ON THE EDGE OF THE BED of Image 2 IN THE ROBE, snuggling into it. Transfer the movement and camera work from the driving video onto the subject in the reference images.\n\nLOOK \u2014 BRIGHT, EVERYDAY UGC, ABSOLUTE RULE: a normal person filming on their own phone in a well-lit room, not a cinematic ad. Bright and evenly lit, colours clearly readable, whole frame well exposed, no dark corners, no moody grade, no orange tint, no vignette. Ordinary phone sharpness, small natural imperfections.\n\nIMAGE ROLES: Image 1 is the PERSON \u2014 a young American woman with long straight brown hair with caramel highlights and a middle part, worn loose (no bun, no ponytail); face, hair, skin tone, age, build and gender exactly as in Image 1 in every frame. Do NOT copy the face, hair or body of the person in the driving video. Image 2 is the ROOM \u2014 same walls, furniture, bed/sofa and decor as Image 2. Images 3-6 are THE ROBE.\n\nTHE ROBE \u2014 ABSOLUTE RULE, HIGHEST PRIORITY: the robe she wears is the robe of Images 3-6 \u2014 REPRODUCE IT ONE TO ONE from these references, every colour, part, trim, the hood with its face, the cuffs, the pockets and the length exactly as in the references, in every frame. Do NOT copy the robe, blanket or costume from the driving video. The robe must not drift between frames and is visible full length.\n\nCLOTHES UNDER THE ROBE \u2014 ABSOLUTE RULE: a red-and-black buffalo-plaid flannel pajama set and grey socks \u2014 the same in every clip. Do NOT copy any clothing from the driving video.\n\nULTRA-REALISTIC LIGHT \u2014 ABSOLUTE RULE: real-world light physics. One clear, motivated main light (window daylight or a lamp that exists in the scene), soft natural falloff across the room, soft contact shadows under hands, feet and objects, gentle bounce light from walls and floor onto skin, real catchlights in the eyes, accurate specular highlights. Skin with visible pores, fine hairs and slight natural redness on nose and cheeks; fabrics with visible fibres and weave. Shot on a modern iPhone main camera, 24 mm, natural HDR, true-to-life white balance, faint sensor grain in the shadows. Vivid, slightly warm colours \u2014 not golden, not orange. No beauty filter, no plastic skin, no AI glow, no CGI look, no over-sharpening, no cinematic grade, no vignette.\n\nVertical 9:16. NO TEXT ANYWHERE: no captions, no subtitles, no burned-in text, no emoji, no watermarks \u2014 any text in the driving video is removed."
+  }
+ }
+]

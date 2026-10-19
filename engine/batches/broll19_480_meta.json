@@ -1,0 +1,137 @@
+[
+ {
+  "index": 0,
+  "set": 1,
+  "kind": "B1",
+  "girl": "girl1.jpg",
+  "room": "room1.jpg",
+  "clip": "b1_cB1.mp4",
+  "outfit": "a navy-blue flannel pajama set printed with small white stars, with thin red piping, and white socks"
+ },
+ {
+  "index": 1,
+  "set": 1,
+  "kind": "B2",
+  "girl": "girl1.jpg",
+  "room": "room1.jpg",
+  "clip": "b2_dB2.mp4",
+  "outfit": "a navy-blue flannel pajama set printed with small white stars, with thin red piping, and white socks"
+ },
+ {
+  "index": 2,
+  "set": 1,
+  "kind": "CZ",
+  "girl": "girl1.jpg",
+  "room": "room1.jpg",
+  "clip": "cz_c.mp4",
+  "outfit": "a navy-blue flannel pajama set printed with small white stars, with thin red piping, and white socks"
+ },
+ {
+  "index": 3,
+  "set": 2,
+  "kind": "B1",
+  "girl": "girl2.jpg",
+  "room": "room2.jpg",
+  "clip": "b1_bx2.mp4",
+  "outfit": "a cream crewneck sweatshirt with red and navy varsity stripes on the sleeves (no letters, no logo), navy sweatpants and white socks"
+ },
+ {
+  "index": 4,
+  "set": 2,
+  "kind": "B2",
+  "girl": "girl2.jpg",
+  "room": "room2.jpg",
+  "clip": "b2_dB2f.mp4",
+  "outfit": "a cream crewneck sweatshirt with red and navy varsity stripes on the sleeves (no letters, no logo), navy sweatpants and white socks"
+ },
+ {
+  "index": 5,
+  "set": 2,
+  "kind": "CZ",
+  "girl": "girl2.jpg",
+  "room": "room2.jpg",
+  "clip": "cz_x.mp4",
+  "outfit": "a cream crewneck sweatshirt with red and navy varsity stripes on the sleeves (no letters, no logo), navy sweatpants and white socks"
+ },
+ {
+  "index": 6,
+  "set": 3,
+  "kind": "B1",
+  "girl": "girl3.jpg",
+  "room": "room3.jpg",
+  "clip": "b1_bB1.mp4",
+  "outfit": "a red-and-white candy-stripe Christmas pajama set and white socks"
+ },
+ {
+  "index": 7,
+  "set": 3,
+  "kind": "B2",
+  "girl": "girl3.jpg",
+  "room": "room3.jpg",
+  "clip": "b2_cB2.mp4",
+  "outfit": "a red-and-white candy-stripe Christmas pajama set and white socks"
+ },
+ {
+  "index": 8,
+  "set": 3,
+  "kind": "CZ",
+  "girl": "girl3.jpg",
+  "room": "room3.jpg",
+  "clip": "cz_c.mp4",
+  "outfit": "a red-and-white candy-stripe Christmas pajama set and white socks"
+ },
+ {
+  "index": 9,
+  "set": 4,
+  "kind": "B1",
+  "girl": "girl4.jpg",
+  "room": "room4.jpg",
+  "clip": "b1_ax3.mp4",
+  "outfit": "a plain white long-sleeve tee and pajama pants printed with the American flag (stars and stripes), white socks"
+ },
+ {
+  "index": 10,
+  "set": 4,
+  "kind": "B2",
+  "girl": "girl4.jpg",
+  "room": "room4.jpg",
+  "clip": "b2_xb2.mp4",
+  "outfit": "a plain white long-sleeve tee and pajama pants printed with the American flag (stars and stripes), white socks"
+ },
+ {
+  "index": 11,
+  "set": 4,
+  "kind": "CZ",
+  "girl": "girl4.jpg",
+  "room": "room4.jpg",
+  "clip": "cz_c.mp4",
+  "outfit": "a plain white long-sleeve tee and pajama pants printed with the American flag (stars and stripes), white socks"
+ },
+ {
+  "index": 12,
+  "set": 5,
+  "kind": "B1",
+  "girl": "girl5.jpg",
+  "room": "room5.jpg",
+  "clip": "b1_cB1.mp4",
+  "outfit": "a red-and-black buffalo-plaid flannel pajama set and grey socks"
+ },
+ {
+  "index": 13,
+  "set": 5,
+  "kind": "B2",
+  "girl": "girl5.jpg",
+  "room": "room5.jpg",
+  "clip": "b2_dB2f.mp4",
+  "outfit": "a red-and-black buffalo-plaid flannel pajama set and grey socks"
+ },
+ {
+  "index": 14,
+  "set": 5,
+  "kind": "CZ",
+  "girl": "girl5.jpg",
+  "room": "room5.jpg",
+  "clip": "cz_x.mp4",
+  "outfit": "a red-and-black buffalo-plaid flannel pajama set and grey socks"
+ }
+]

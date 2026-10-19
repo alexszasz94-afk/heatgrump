@@ -33,7 +33,7 @@ Set de clipuri, în ordinea de montaj: **hook → unboxing → B1 (îmbracă hal
 ## Cum se produce fiecare clip
 | Clip | Metodă | Prompt | Aprobare |
 |---|---|---|---|
-| B1, B2, cozy | Genjutsu `hf_mult_motion_control`, clip de mișcare din bibliotecă (ROTIT între reel-uri) + personaj + cameră + 4 ref. produs | `prompts/b1-…`, `b2-…`, `cozy-…` | direct |
+| B1, B2, cozy | UN SINGUR CLIP per set (regula 19 oct): clipurile de mișcare B1+B2+cozy lipite într-un video, o generare Genjutsu `hf_mult_motion_control`, probă 480p apoi 1080p; clip de mișcare din bibliotecă (ROTIT între reel-uri) + personaj + cameră + 4 ref. produs | `prompts/b1-…`, `b2-…`, `cozy-…` | direct |
 | telecomandă | CLIP FIX refolosit (bărbat / femeie, `media.json` → `fixed_clips`); se generează doar dacă lipsește: placă gpt_image_2 → video seedance_2_5 | `controller-plate.txt` → `controller-video.txt` | direct |
 | conector | CLIP FIX refolosit (bărbat / femeie, `media.json` → `fixed_clips`); se generează doar dacă lipsește: placă gpt_image_2 → video seedance_2_5 | `connector-plate.txt` → `connector-video.txt` | direct |
 | unboxing | placă (cutia PE JOS) → video, cutie + 1-2 ref. produs | `unboxing-image.txt` → `unboxing-video.txt` | direct |
