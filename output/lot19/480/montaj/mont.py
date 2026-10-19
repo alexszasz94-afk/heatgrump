@@ -39,5 +39,5 @@ if spec.get("con"): CON = tuple(spec["con"])   # alt produs (ex. halatul de prin
 if spec.get("tel"): TEL = tuple(spec["tel"])
 DROP_UNBOX = spec.get("drop_unbox", False)
 UNB = (spec["unbox"][2] - spec["unbox"][1]) if spec.get("unbox") else 0
-segs = [tuple(spec["hook"])] + ([tuple(spec["unbox"])] if spec.get("unbox") else []) + [tuple(spec["broll"]), CON, TEL, tuple(spec["cozy"])]   # unboxing opțional după hook
+segs = [tuple(spec["hook"])] + ([tuple(spec["unbox"])] if spec.get("unbox") else []) + [tuple(spec["broll"]), CON, TEL] + ([tuple(spec["cozy"])] if spec.get("cozy") else [])   # unboxing opțional după hook
 build(spec["name"], segs, spec.get("hook_audio"), spec.get("full_audio"))
