@@ -60,7 +60,7 @@ După fiecare lot: regenerează `board/grinch-reel-board.html` (`python3 board/b
 ## Verificare (QA) înainte de livrare
 Pe fiecare rezultat descărcat, verifică vizual (Claude cu vedere):
 - 9:16, fără text, fără branduri; personajul = referința; camera = referința.
-- Halat: căptușeală verde, buzunare simple fără față, halat întreg până jos, lumină ultra-realistă.
+- Halat: căptușeală verde, buzunare simple fără față, halat întreg până jos, lumină ultra-realistă. GLUGA (regula 19 oct): verde, cu fața Grinch, margine albă și ciucure, în toate cadrele, inclusiv prim-planul din spate.
 - Telecomandă: exact 5 luminițe, toate stinse pe placă; în video urcă 1→5, una singură aprinsă.
 - Conector: gri, în două părți, în video intră COMPLET, fără gol — verifică ULTIMUL cadru mărit (regula 2 oct).
 - Unboxing: cutia pe podea; în video fereastra cutiei se golește când scoate halatul; fața nu e acoperită; un singur produs.
