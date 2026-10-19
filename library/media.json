@@ -110,5 +110,25 @@
   "telecomanda_barbat_piele_inchisa": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261002_223943_48307f0b-c059-403e-a95e-a50a6561e9bd.mp4",
   "conector_barbat_piele_inchisa": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261002_223619_2e330915-18da-4876-a87f-6656c98734c4.mp4",
   "_alegere": "după gen ȘI culoarea pielii personajului (regula 2 oct)"
+ },
+ "broll_standard": {
+  "_nota": "Regula 19 oct (Szasz): B-roll-ul se COPIAZĂ dintr-un clip de referință al nostru, într-o singură generare Genjutsu per set; se rotesc referințele între videouri.",
+  "ref1": {
+   "sursa": "facebook.com/reel/1091684610405387",
+   "full": "library/motion/broll-ref1-full.mp4",
+   "taieturi": "B1+B2 3.97-9.57 s, cozy canapea 13.27-15.19 s",
+   "sofa": "library/motion/broll-standard-sofa.mp4",
+   "b1b2": "library/motion/broll-standard-b1b2.mp4",
+   "hf_sofa": "17548f79-9721-4116-9b40-bd1ca1ae34e5",
+   "hf_b1b2": "7ae38111-1b06-4c3b-b1bb-bd0197e9ee3b",
+   "workspace": "private b28c13a8"
+  },
+  "ref2": {
+   "sursa": "upload Szasz 19 oct",
+   "full": "library/motion/broll-ref2-full.mp4",
+   "taieturi": "B1 5.13-6.97, B2 6.97-9.8, stă în halat 9.8-11.77, cozy PE PAT 14.07-15.74",
+   "bed": "library/motion/broll-standard-2-bed.mp4",
+   "bun_pentru": "dormitoare (cozy pe pat)"
+  }
  }
 }
