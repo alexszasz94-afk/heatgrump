@@ -118,7 +118,7 @@ def main(spec_path):
     out = os.path.join(ROOT, sp["out"])
     cmd = ["ffmpeg","-y","-loglevel","error",*inputs]
     if filt: cmd += ["-filter_complex", ";".join(filt)]
-    cmd += ["-map", vmap, "-map", amap, "-c:v","libx264","-crf","18","-preset","medium","-c:a","aac","-b:a","192k","-t",str(dur),out]
+    cmd += ["-map", vmap, "-map", amap, "-c:v","libx264","-profile:v","high","-pix_fmt","yuv420p","-r","30","-crf","18","-preset","medium","-c:a","aac","-b:a","192k","-ar","48000","-movflags","+faststart","-t",str(dur),out]   # format Reels/TikTok: 1080x1920 9:16, H.264 high, 30 fps, AAC 48 kHz, faststart (Meta, 19 oct)
     subprocess.run(cmd, check=True); print(out, round(dur, 2))
 
 if __name__ == "__main__":
