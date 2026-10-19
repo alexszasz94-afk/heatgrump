@@ -1,0 +1,41 @@
+{
+ "out": "output/lot19/1080/set1-321-FINAL.mp4",
+ "segments": [
+  {
+   "file": "output/lot19/1080/hook-321-set1.mp4",
+   "start": 0,
+   "end": 4.04
+  },
+  {
+   "file": "output/lot19/1080/broll-set1.mp4",
+   "start": 0,
+   "end": 5.48
+  },
+  {
+   "file": "output/fixed/conector-femeie-taiat.mp4",
+   "start": 0,
+   "end": 1.5
+  },
+  {
+   "file": "output/fixed/telecomanda-femeie-taiat.mp4",
+   "start": 0,
+   "end": 2.2
+  },
+  {
+   "file": "output/lot19/1080/broll-set1.mp4",
+   "start": 5.54,
+   "end": 7.04
+  }
+ ],
+ "texts": [
+  {
+   "t0": 0,
+   "t1": 14.72,
+   "text": "I made this for the cold-aholics.. 🤩💕"
+  }
+ ],
+ "music": "library/music/xmas/buble-beginning.mp3",
+ "music_start": 31.34,
+ "music_vol": 0.85,
+ "orig_vol": 0.0
+}
