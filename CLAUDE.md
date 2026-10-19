@@ -66,6 +66,7 @@ Pe fiecare rezultat descărcat, verifică vizual (Claude cu vedere):
 - Unboxing: cutia pe podea; în video fereastra cutiei se golește când scoate halatul; fața nu e acoperită; un singur produs.
 - Hook NOU (adaptat/creativ): FĂRĂ halat în cadru; acțiunea se leagă de textul propus; UN SINGUR video de test la 480p (regula 19 oct; înainte erau 2 variante).
 - Hook DOVEDIT (din `library/proven-hooks.json`): se reface exact conceptul (halatul poate apărea, e conceptul validat), cu alt personaj + altă cameră; Genjutsu unde există clip de mișcare; o singură variantă; nu mai des de o dată la 3 zile.
+- Analiză critică proprie la FIECARE start frame/video înainte de livrare (regula 19 oct): ce nu pare real (mâini, priviri, fizică, efecte, logică) → refac singur, apoi trimit cu lista a ce am verificat.
 Dacă pică, regenerează (max 3 încercări), apoi raportează.
 
 ## Capcane cunoscute
