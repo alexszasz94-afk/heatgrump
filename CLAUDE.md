@@ -28,7 +28,7 @@ Descarcă rezultatele Higgsfield în `output/reelN/` și verifică-le vizual (sk
 Szasz face în CapCut: textul pe ecran, muzica, mici tăieturi. Tu îi dai MP4-ul montat + fișierul .txt cu propunerea de text (EN, pe secunde), caption (EN, o propoziție + hashtag-uri) și idee de muzică. Tu răspunzi de: hook-uri (originale, din research), calitatea vizuală (ultra-realist), analiză și feedback.
 
 ## Ce e un reel
-Set de clipuri, în ordinea de montaj: **hook → unboxing → B1 (îmbracă halatul) → B2 (deschide halatul) → conector → telecomandă → cozy**. Hook-ul îl alege el din 3 propuneri; textul îl pune el în CapCut.
+Set de clipuri, în ordinea de montaj: **hook → (unboxing DOAR când hook-ul o cere, regula 19 oct) → B1 (îmbracă halatul) → B2 (deschide halatul) → conector → telecomandă → cozy**. Hook-ul îl alege el din 3 propuneri; textul îl pune el în CapCut.
 
 ## Cum se produce fiecare clip
 | Clip | Metodă | Prompt | Aprobare |
