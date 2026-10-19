@@ -4,7 +4,7 @@ sau [fișier, start] = sunetul original al viralului copiat); Bublé pornește d
 import subprocess, sys, json
 D = "/home/user/heatgrump/output/lot19/480"
 FX = "/home/user/heatgrump/output/fixed"
-MUSIC, DROP = "/home/user/heatgrump/library/music/xmas/buble-beginning.mp3", 35.38
+MUSIC, DROP = (sys.argv[2], float(sys.argv[3])) if len(sys.argv) > 3 else ("/home/user/heatgrump/library/music/xmas/buble-beginning.mp3", 35.38)   # piesa + secunda drop-ului (pornește la începutul B-roll-ului)
 def build(name, segs, hook_audio, full_audio=None):
     args, fl = [], ""
     for i, (f, a, b) in enumerate(segs):
