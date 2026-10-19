@@ -32,6 +32,7 @@ def build(name, segs, hook_audio, full_audio=None):
     out = f"{D}/montaj/{name}.mp4"
     subprocess.run(["ffmpeg", "-v", "error", "-y", *args, "-filter_complex", fl, "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-crf", "20", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-ar", "48000", "-t", str(total), "-movflags", "+faststart", out], check=True)
     print(name, round(total, 2))
-CON, TEL = (f"{FX}/conector-femeie-taiat.mp4", 0, 1.5), (f"{FX}/telecomanda-femeie-taiat.mp4", 0, 2.2)
 spec = json.loads(sys.argv[1])
+G = spec.get("gen", "femeie")   # "barbat" pentru personaj masculin
+CON, TEL = (f"{FX}/conector-{G}-taiat.mp4", 0, 1.5), (f"{FX}/telecomanda-{G}-taiat.mp4", 0, 2.2)
 build(spec["name"], [tuple(spec["hook"]), tuple(spec["broll"]), CON, TEL, tuple(spec["cozy"])], spec.get("hook_audio"), spec.get("full_audio"))
