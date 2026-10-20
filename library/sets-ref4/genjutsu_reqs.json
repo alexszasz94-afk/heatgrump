@@ -1,0 +1,143 @@
+[
+ {
+  "index": 0,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "resolution": "480p",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "5ba58dc5-9856-4a03-a17d-7e90e81ed40e",
+     "role": "image_references"
+    },
+    {
+     "value": "f8488615-c302-4e12-9a26-0792d5511795",
+     "role": "image_references"
+    },
+    {
+     "value": "a9337b7c-9654-48cb-a14d-7f5e4261d591",
+     "role": "image_references"
+    },
+    {
+     "value": "0c80fd38-7a79-48cb-9882-98af065bcba9",
+     "role": "image_references"
+    },
+    {
+     "value": "c6d64979-7459-4ff3-a912-1c6fe24f2419",
+     "role": "image_references"
+    },
+    {
+     "value": "4a18fbf2-3b3e-4a40-b2e9-1a056a072254",
+     "role": "image_references"
+    },
+    {
+     "value": "507ef90c-ce83-4f35-ba4e-f17fce7aeb86",
+     "role": "image_references"
+    },
+    {
+     "value": "20692bcd-53de-4622-9539-8f1fb8cd2bec",
+     "role": "image_references"
+    },
+    {
+     "value": "ac6317e8-fce7-4e6a-8db0-679f5fe187cc",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "Copy the driving video shot for shot, from the first frame to the last: same movements, same cuts, same camera work, same timing, same close-ups \u2014 she puts the robe on seen from behind and pulls the hood up, the full-length mirror shot holding the phone, opening the robe wide and closing it, the close-up of the hands plugging the cable connector together, the close-up of the thumb pressing the controller button, and the final cozy shot curled up on the sofa in the robe with the hood on. Only the person, the room and the products change.\n\nIMAGE ROLES: Image 1 is the PERSON \u2014 the young woman with long dark brown hair of Image 1, face, hair and build exactly as in Image 1 in every shot where they appear, including from behind. Do NOT copy the face, hair or body of the woman in the driving video. Image 2 is the ROOM \u2014 every shot happens in the room of Image 2: same vaulted ceiling, same big windows with snowy trees outside, same bed, same Christmas tree and decorations, same floor, same light; a small American flag on a shelf in the background. Images 3-6 are THE ROBE. Image 7 is THE CABLE CONNECTOR. Image 8 is THE CONTROLLER.\n\nTHE ROBE \u2014 ABSOLUTE RULE, HIGHEST PRIORITY: every robe in the video is the robe of Images 3-6 \u2014 REPRODUCE IT ONE TO ONE from these references, in every frame and every close-up, including from behind, from the inside and in the cozy shot. Do NOT use the dark red robe, its colours, its white trim or its pockets from the driving video.\nTHE HOOD \u2014 ALWAYS EXACTLY AS IN THE REFERENCES: the hood is the one of Images 3-6 with its embroidered face, white edge and white tassel, in every frame, including the shot from behind when the hood goes up. No bow, no ribbon, no plain hood.\n\nTHE CONNECTOR in the close-up is EXACTLY the grey two-part plug of Image 7: the two grey parts slide fully together with no gap. THE CONTROLLER in the close-up is EXACTLY the white oval controller of Image 8 with its grey cable, its 5 small lights in a column and its round button: when the thumb presses the button only ONE light turns on, green, the others stay off.\n\nCLOTHES UNDER THE ROBE: a cream waffle-knit thermal pajama set, the same in every shot. Do NOT copy the clothes of the woman in the driving video.\n\nUGC style, natural, shot on an iPhone 17 Pro Max: bright everyday phone video, real window daylight from the big windows, warm fairy-light glow from the Christmas tree as a soft rim light, real skin texture, natural colours, vivid and slightly warm \u2014 not golden, not orange, no AI glow. Every movement natural and smooth like the driving video, real weight and gravity for the fabric.\n\nVertical 9:16. NO TEXT ANYWHERE: the caption text at the top of the driving video (\"Send this to a Christmasholic\") is removed in every frame \u2014 no letters, no emojis, no captions, no logos."
+  }
+ },
+ {
+  "index": 1,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "resolution": "480p",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "cf15c885-681c-4d5c-9169-9eb3eb690767",
+     "role": "image_references"
+    },
+    {
+     "value": "f6e84308-4564-4dbb-b903-7bfe69538969",
+     "role": "image_references"
+    },
+    {
+     "value": "a9337b7c-9654-48cb-a14d-7f5e4261d591",
+     "role": "image_references"
+    },
+    {
+     "value": "0c80fd38-7a79-48cb-9882-98af065bcba9",
+     "role": "image_references"
+    },
+    {
+     "value": "c6d64979-7459-4ff3-a912-1c6fe24f2419",
+     "role": "image_references"
+    },
+    {
+     "value": "4a18fbf2-3b3e-4a40-b2e9-1a056a072254",
+     "role": "image_references"
+    },
+    {
+     "value": "507ef90c-ce83-4f35-ba4e-f17fce7aeb86",
+     "role": "image_references"
+    },
+    {
+     "value": "20692bcd-53de-4622-9539-8f1fb8cd2bec",
+     "role": "image_references"
+    },
+    {
+     "value": "ac6317e8-fce7-4e6a-8db0-679f5fe187cc",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "Copy the driving video shot for shot, from the first frame to the last: same movements, same cuts, same camera work, same timing, same close-ups \u2014 she puts the robe on seen from behind and pulls the hood up, the full-length mirror shot holding the phone, opening the robe wide and closing it, the close-up of the hands plugging the cable connector together, the close-up of the thumb pressing the controller button, and the final cozy shot curled up on the sofa in the robe with the hood on. Only the person, the room and the products change.\n\nIMAGE ROLES: Image 1 is the PERSON \u2014 the young woman with wavy blonde hair of Image 1, face, hair and build exactly as in Image 1 in every shot where they appear, including from behind. Do NOT copy the face, hair or body of the woman in the driving video. Image 2 is the ROOM \u2014 every shot happens in the room of Image 2: same vaulted ceiling, same big windows with snowy trees outside, same bed, same Christmas tree and decorations, same floor, same light; a small American flag on a shelf in the background. Images 3-6 are THE ROBE. Image 7 is THE CABLE CONNECTOR. Image 8 is THE CONTROLLER.\n\nTHE ROBE \u2014 ABSOLUTE RULE, HIGHEST PRIORITY: every robe in the video is the robe of Images 3-6 \u2014 REPRODUCE IT ONE TO ONE from these references, in every frame and every close-up, including from behind, from the inside and in the cozy shot. Do NOT use the dark red robe, its colours, its white trim or its pockets from the driving video.\nTHE HOOD \u2014 ALWAYS EXACTLY AS IN THE REFERENCES: the hood is the one of Images 3-6 with its embroidered face, white edge and white tassel, in every frame, including the shot from behind when the hood goes up. No bow, no ribbon, no plain hood.\n\nTHE CONNECTOR in the close-up is EXACTLY the grey two-part plug of Image 7: the two grey parts slide fully together with no gap. THE CONTROLLER in the close-up is EXACTLY the white oval controller of Image 8 with its grey cable, its 5 small lights in a column and its round button: when the thumb presses the button only ONE light turns on, green, the others stay off.\n\nCLOTHES UNDER THE ROBE: navy blue pajamas with small white stars, the same in every shot. Do NOT copy the clothes of the woman in the driving video.\n\nUGC style, natural, shot on an iPhone 17 Pro Max: bright everyday phone video, real window daylight from the big windows, warm fairy-light glow from the Christmas tree as a soft rim light, real skin texture, natural colours, vivid and slightly warm \u2014 not golden, not orange, no AI glow. Every movement natural and smooth like the driving video, real weight and gravity for the fabric.\n\nVertical 9:16. NO TEXT ANYWHERE: the caption text at the top of the driving video (\"Send this to a Christmasholic\") is removed in every frame \u2014 no letters, no emojis, no captions, no logos."
+  }
+ },
+ {
+  "index": 2,
+  "params": {
+   "model": "hf_mult_motion_control",
+   "resolution": "480p",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "value": "287a646d-61b5-41ff-8ab3-6df677605bbb",
+     "role": "image_references"
+    },
+    {
+     "value": "6292ded1-cfab-4136-80fe-019a1258a3dc",
+     "role": "image_references"
+    },
+    {
+     "value": "a9337b7c-9654-48cb-a14d-7f5e4261d591",
+     "role": "image_references"
+    },
+    {
+     "value": "0c80fd38-7a79-48cb-9882-98af065bcba9",
+     "role": "image_references"
+    },
+    {
+     "value": "c6d64979-7459-4ff3-a912-1c6fe24f2419",
+     "role": "image_references"
+    },
+    {
+     "value": "4a18fbf2-3b3e-4a40-b2e9-1a056a072254",
+     "role": "image_references"
+    },
+    {
+     "value": "507ef90c-ce83-4f35-ba4e-f17fce7aeb86",
+     "role": "image_references"
+    },
+    {
+     "value": "20692bcd-53de-4622-9539-8f1fb8cd2bec",
+     "role": "image_references"
+    },
+    {
+     "value": "ac6317e8-fce7-4e6a-8db0-679f5fe187cc",
+     "role": "video_references"
+    }
+   ],
+   "prompt": "Copy the driving video shot for shot, from the first frame to the last: same movements, same cuts, same camera work, same timing, same close-ups \u2014 she puts the robe on seen from behind and pulls the hood up, the full-length mirror shot holding the phone, opening the robe wide and closing it, the close-up of the hands plugging the cable connector together, the close-up of the thumb pressing the controller button, and the final cozy shot curled up on the sofa in the robe with the hood on. Only the person, the room and the products change.\n\nIMAGE ROLES: Image 1 is the PERSON \u2014 the man with short dark hair and light stubble of Image 1, face, hair and build exactly as in Image 1 in every shot where they appear, including from behind. Do NOT copy the face, hair or body of the woman in the driving video. Image 2 is the ROOM \u2014 every shot happens in the room of Image 2: same vaulted ceiling, same big windows with snowy trees outside, same bed, same Christmas tree and decorations, same floor, same light; a small American flag on a shelf in the background. Images 3-6 are THE ROBE. Image 7 is THE CABLE CONNECTOR. Image 8 is THE CONTROLLER.\n\nTHE ROBE \u2014 ABSOLUTE RULE, HIGHEST PRIORITY: every robe in the video is the robe of Images 3-6 \u2014 REPRODUCE IT ONE TO ONE from these references, in every frame and every close-up, including from behind, from the inside and in the cozy shot. Do NOT use the dark red robe, its colours, its white trim or its pockets from the driving video.\nTHE HOOD \u2014 ALWAYS EXACTLY AS IN THE REFERENCES: the hood is the one of Images 3-6 with its embroidered face, white edge and white tassel, in every frame, including the shot from behind when the hood goes up. No bow, no ribbon, no plain hood.\n\nTHE CONNECTOR in the close-up is EXACTLY the grey two-part plug of Image 7: the two grey parts slide fully together with no gap. THE CONTROLLER in the close-up is EXACTLY the white oval controller of Image 8 with its grey cable, its 5 small lights in a column and its round button: when the thumb presses the button only ONE light turns on, green, the others stay off.\n\nCLOTHES UNDER THE ROBE: a heather grey henley and red-and-green buffalo plaid flannel pajama pants, the same in every shot. Do NOT copy the clothes of the woman in the driving video.\n\nUGC style, natural, shot on an iPhone 17 Pro Max: bright everyday phone video, real window daylight from the big windows, warm fairy-light glow from the Christmas tree as a soft rim light, real skin texture, natural colours, vivid and slightly warm \u2014 not golden, not orange, no AI glow. Every movement natural and smooth like the driving video, real weight and gravity for the fabric.\n\nVertical 9:16. NO TEXT ANYWHERE: the caption text at the top of the driving video (\"Send this to a Christmasholic\") is removed in every frame \u2014 no letters, no emojis, no captions, no logos."
+  }
+ }
+]
