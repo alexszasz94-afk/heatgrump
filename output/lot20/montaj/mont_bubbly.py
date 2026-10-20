@@ -1,5 +1,5 @@
 """Montaj Bubblywarm (Szasz 20 oct): hook -> unboxing -> B-roll de Crăciun tăiat la telecomandă (sare direct la bule).
-Sunet: pe hook sunetul hook-ului; după hook Bublé (drop-ul la începutul unboxing-ului) + sunetul clipurilor încet dedesubt.
+Sunet: pe hook sunetul hook-ului; după hook Bublé (drop-ul la începutul unboxing-ului) + sunetul unboxing-ului încet dedesubt; B-roll-ul FĂRĂ sunet (Szasz 20 oct).
 Folosire: python3 mont_bubbly.py '{"name":..,"res":480,"segs":[[fișier,start,end],...]}'"""
 import subprocess, sys, json
 MUSIC, DROP = "/home/user/heatgrump/library/music/xmas/buble-beginning.mp3", 35.38
@@ -9,7 +9,7 @@ args, fl = [], ""
 for i, (f, a, b) in enumerate(segs):
     args += ["-ss", str(a), "-t", str(b - a), "-i", f]
     fl += f"[{i}:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps=30,setsar=1,setpts=PTS-STARTPTS[v{i}];"
-    fl += f"[{i}:a]aresample=48000,asetpts=PTS-STARTPTS,volume={1.0 if i == 0 else 0.45}[a{i}];"
+    fl += f"[{i}:a]aresample=48000,asetpts=PTS-STARTPTS,volume={1.0 if i == 0 else (0 if "broll" in f else 0.45)}[a{i}];"
 total = sum(b - a for _, a, b in segs); hd = segs[0][2] - segs[0][1]
 fl += "".join(f"[v{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=0[v];"
 fl += "".join(f"[a{i}]" for i in range(n)) + f"concat=n={n}:v=0:a=1[ca];"

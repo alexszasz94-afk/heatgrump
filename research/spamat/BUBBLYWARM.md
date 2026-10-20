@@ -6,3 +6,4 @@
 - Cutia Bubblywarm (aleasă 19 oct, mare, cozy, fără produsul pe ea): bubblywarm-cutie-mare.png (job 7611e785-59b6-4012-b817-a75c3a48efd3). Produsul real (site): covoraș alb cu pernuțe ALBASTRE, motor de aer alb cu mâner bleu, furtun, telecomandă ovală.
 - B-roll aprobat de Szasz (19 oct): broll-bubblywarm-b-sunet.mp4 (baie roz, robinet negru). În lucru: 3 variante de Crăciun (c1 albă+ghirlandă, c2 spa bej+brăduț, c3 cabană de lemn).
 - **Tăietura la telecomandă (Szasz 20 oct, MEREU):** după ce apasă pe telecomandă se sare direct la bule (c1/c2: 0–4,2 + 6,75–final; c3: 0–5,9 + 6,75–final).
+- **B-roll-ul fără sunet la montaj (Szasz 20 oct):** peste B-roll merge doar muzica.

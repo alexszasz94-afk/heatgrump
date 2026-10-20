@@ -148,3 +148,4 @@ Sursa: memoria Cowork + sesiunea 16–29 sept. Regula mai nouă bate regula mai 
 - 20 oct (Szasz): căderile/accidentele se întâmplă DINTR-O DATĂ, în timp real (~0,5 s), NICIODATĂ în slow motion. În prompt: „real time, normal 1x speed, no slow motion, no speed ramps”, plus durata exactă a căderii.
 - 20 oct (Szasz, REGULĂ, Bubblywarm): la B-roll, după ce apasă pe telecomandă se taie DIRECT la partea cu bule — fără cadrele cu cada nemișcată dintre ele. Tăieturi pe B-roll-urile de Crăciun: c1 0–4,2 s + 6,75 s–final; c2 0–4,2 s + 6,75 s–final; c3 0–5,9 s + 6,75 s–final. Video Bubblywarm complet = hook → unboxing (unboxing-bubblywarm-1080.mp4) → B-roll de Crăciun tăiat așa.
 - 20 oct (Szasz): la căderi de tip „leșin de șoc” cade DIRECT pe spate (nu se așază întâi pe fund) și după cădere rămâne nemișcată, fără să râdă.
+- 20 oct (Szasz, REGULĂ, Bubblywarm): la montaj B-roll-ul se pune FĂRĂ sunet (doar muzica peste). Implementat în output/lot20/montaj/mont_bubbly.py.
