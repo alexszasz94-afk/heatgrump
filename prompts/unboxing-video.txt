@@ -1,6 +1,6 @@
 # model seedance_2_5 · omni_reference · start_image = placa de unboxing · image_references = cutia + 1-2 product refs (regula 27 sept) · 4 s · 1080p · audio true
 # ȘABLONUL LUI, cuvânt cu cuvânt.
-# ATENȚIE filtru IP: cu 4 referințe de halat a fost respins de 6 ori; cu 2 a trecut la 3 din 4; cu 1 a trecut. Dacă ip_detected: retrimite cu 1 referință, apoi doar cutia.
+# REGULA 20 OCT: mereu TOATE cele 4 referințe de halat. Dacă ip_detected: NU scazi referințele, te oprești și îl întrebi pe Szasz.
 # ATENȚIE logica ferestrei transparente a cutiei: plușul se vede prin fereastră la început, fereastra se golește pe măsură ce scoate halatul, cutia nu e niciodată plină cât timp ține halatul în mână.
  (dat 17 sept, se rulează CUVÂNT CU CUVÂNT)
 Input: placa de unboxing tocmai generată ca start_image + referințele de produs.

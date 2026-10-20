@@ -40,7 +40,7 @@ Set de clipuri, în ordinea de montaj: **hook → (unboxing DOAR când hook-ul o
 | hook | le scrie Szasz (5-6), se rotesc prin videouri (regula 2 oct); montajul final cu text + muzică se face doar când există hook-ul | — | el |
 
 ## Setări fixe (nu se coboară niciodată)
-- HALATUL DOAR DUPĂ REFERINȚE (regula 18 oct): la orice clip cu halat se pun TOATE cele 4 referințe Grinch (`product_grinch_refs`); halatul nu se descrie niciodată în cuvinte, doar „REPRODUCE IT ONE TO ONE from Images N–M”. ID lipsă → reîncarci pozele, nu descrii.
+- HALATUL DOAR DUPĂ REFERINȚE (regula 18 oct, întărită 20 oct): la orice clip cu halat se pun TOATE cele 4 referințe Grinch (`product_grinch_refs`), niciodată 2 sau 1, nici la ip_detected; halatul nu se descrie niciodată în cuvinte, doar „REPRODUCE IT ONE TO ONE from Images N–M”. ID lipsă → reîncarci pozele, nu descrii.
 - Imagini: `gpt_image_2`, 9:16, quality high, resolution 4k.
 - Video: `seedance_2_5`, `mode: "omni_reference"` când există start_image, `aspect_ratio "9:16"` **și** width 1080 / height 1920, resolution 1080p, bitrate_mode high, generate_audio true.
 - Genjutsu motion control: 1080p, 4 s (B1, cozy) / 5 s (B2), roluri `image_references` / `video_references`.
@@ -70,7 +70,7 @@ Pe fiecare rezultat descărcat, verifică vizual (Claude cu vedere):
 Dacă pică, regenerează (max 3 încercări), apoi raportează.
 
 ## Capcane cunoscute
-- `ip_detected` la unboxing video cu multe referințe de halat → retrimite cu 1 referință, apoi doar cutia. Cozy cu unele personaje poate fi respins de 2 ori: schimbă clipul de mișcare.
+- `ip_detected` la orice generare cu halat → NU se scad referințele (regula 20 oct: MEREU toate cele 4); te oprești și îl întrebi pe Szasz. Cozy cu unele personaje poate fi respins de 2 ori: schimbă clipul de mișcare.
 - Clipurile de mișcare sub 2 s pică în Genjutsu (fără motiv afișat): B1 `ba61dc06` (0,9 s) și cozy `12959b84` (1,7 s) — scoase din rotație (2 oct). Folosește B1 `5133a653`, cozy `8042602c`.
 - Fără `aspect_ratio` explicit iese 16:9. Fără `resolution` iese 720p.
 - `nano_banana_2` = flash (slab). Dacă e nevoie de Nano Banana, cere `nano_banana_pro`.
