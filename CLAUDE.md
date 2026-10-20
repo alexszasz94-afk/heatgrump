@@ -45,7 +45,7 @@ Set de clipuri, în ordinea de montaj: **hook → (unboxing DOAR când hook-ul o
 - Video: `seedance_2_5`, `mode: "omni_reference"` când există start_image, `aspect_ratio "9:16"` **și** width 1080 / height 1920, resolution 1080p, bitrate_mode high, generate_audio true.
 - Genjutsu motion control: 1080p, 4 s (B1, cozy) / 5 s (B2), roluri `image_references` / `video_references`.
 - Mereu `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`.
-- Fiecare start frame și video: culori vii, semicalde (nu auriu/portocaliu) + blocul `prompts/blocks/light-ultra-real.txt`. Mereu „UGC style, natural, shot on an iPhone 17 Pro Max” (regula 19 oct, actualizată).
+- Fiecare start frame și video: culori vii, semicalde (nu auriu/portocaliu) + blocul `prompts/blocks/light-store-premium.txt` (stilul aprobat 20 oct, „perfect”; înlocuiește light-ultra-real.txt). Mereu „UGC style, natural, shot on an iPhone 17 Pro Max” (regula 19 oct, actualizată).
 - Fără text ars în imagine, fără zoom, fără branduri reale.
 
 ## Stil american (regula 18 oct)
