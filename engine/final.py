@@ -86,6 +86,7 @@ def text_png(text, path, size=88):
 
 def main(spec_path):
     sp = json.load(open(spec_path)); tmp = tempfile.mkdtemp(); segs = []
+    fps = str(sp.get("fps", 30))   # 24 la clipurile AI native 24 fps: conversia 24→30 dublează cadre = lag (Szasz 20 oct)
     for i, s in enumerate(sp["segments"]):
         f = os.path.join(ROOT, s["file"]) if not os.path.isabs(s["file"]) else s["file"]
         o = os.path.join(tmp, f"s{i:02d}.mp4")
@@ -93,7 +94,7 @@ def main(spec_path):
         keep = s.get("audio", "hooks/" in s["file"])   # sunetul rămâne doar la hook (B-roll-ul Genjutsu are muzică proprie)
         cmd = ["ffmpeg","-y","-loglevel","error","-ss",str(s["start"]),"-to",str(s["end"]),"-i",f]
         if not has_a or not keep: cmd += ["-f","lavfi","-i","anullsrc=r=48000:cl=stereo","-shortest"]
-        cmd += ["-vf","scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p","-c:v","libx264","-crf","16","-c:a","aac","-ar","48000","-ac","2"]
+        cmd += ["-vf",f"scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps={fps},format=yuv420p","-c:v","libx264","-crf","16","-c:a","aac","-ar","48000","-ac","2"]
         cmd += (["-map","0:v","-map","1:a"] if not has_a or not keep else []) + [o]
         subprocess.run(cmd, check=True); segs.append(o)
     lst = os.path.join(tmp, "l.txt"); open(lst, "w").write("\n".join(f"file '{x}'" for x in segs))
@@ -118,7 +119,7 @@ def main(spec_path):
     out = os.path.join(ROOT, sp["out"])
     cmd = ["ffmpeg","-y","-loglevel","error",*inputs]
     if filt: cmd += ["-filter_complex", ";".join(filt)]
-    cmd += ["-map", vmap, "-map", amap, "-c:v","libx264","-profile:v","high","-pix_fmt","yuv420p","-r","30","-crf","18","-preset","medium","-c:a","aac","-b:a","192k","-ar","48000","-movflags","+faststart","-t",str(dur),out]   # format Reels/TikTok: 1080x1920 9:16, H.264 high, 30 fps, AAC 48 kHz, faststart (Meta, 19 oct)
+    cmd += ["-map", vmap, "-map", amap, "-c:v","libx264","-profile:v","high","-pix_fmt","yuv420p","-r",fps,"-crf","18","-preset","medium","-c:a","aac","-b:a","192k","-ar","48000","-movflags","+faststart","-t",str(dur),out]   # format Reels/TikTok: 1080x1920 9:16, H.264 high, 30 fps, AAC 48 kHz, faststart (Meta, 19 oct)
     subprocess.run(cmd, check=True); print(out, round(dur, 2))
 
 if __name__ == "__main__":
