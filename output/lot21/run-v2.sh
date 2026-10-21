@@ -3,7 +3,7 @@
 # (hook → își pune halatul → conector+telecomandă „HEATED” → cadrul cozy).
 cd /home/user/heatgrump/output/lot21; X=library/music/xmas; M=$X/mariah-all-i-want.mp3; U=$X/buble-beginning.mp3; O=output/lot21/v2; K=output/lot21/hooks; R=output/lot21/broll
 mkdir -p v2
-A='"H+3.05"'; C='"H+6.05"'
+A='"H+3.05"'; C='"H+5.3"'
 v(){ ./mont2.sh $K/$1 $K/snd-$2.mp4 $R/$3 $4 $5 $O/$6 "$7"; }
 v hook-n-1080.mp4 n1 broll-n-1080.mp4 $M 53.48 video1-N "[[0,$A,\"POV: the robe every Grinch mom wants 🎄😱\"],[$A,$C,\"Wait… it's HEATED 🔌🔥\"],[$C,\"E\",\"Never taking it off 😌💚\"]]"
 v hook-i-1080.mp4 i2 broll-i-1080.mp4 $M 53.48 video2-I "[[0,$A,\"When the Grinch robe finally arrives 🥳🎄\"],[$A,$C,\"Plug it in… it's HEATED 🔌🔥\"],[$C,\"E\",\"Cozy level: 100 😌💚\"]]"
