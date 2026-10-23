@@ -46,6 +46,7 @@ Set de clipuri, în ordinea de montaj: **hook → (unboxing DOAR când hook-ul o
 - Genjutsu motion control: 1080p, 4 s (B1, cozy) / 5 s (B2), roluri `image_references` / `video_references`.
 - Mereu `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`.
 - Fiecare start frame și video: culori vii, semicalde (nu auriu/portocaliu) + blocul `prompts/blocks/light-store-premium.txt` (stilul aprobat 20 oct, „perfect”; înlocuiește light-ultra-real.txt). Mereu „UGC style, natural, shot on an iPhone 17 Pro Max” (regula 19 oct, actualizată).
+- LUMINA, regulă pe viață (23 oct): MEREU foarte moale și foarte naturală, la orice imagine/video — blocul `prompts/blocks/light-soft-natural.txt` în fiecare prompt; fără lumină dură, contrast dramatic, HDR, glow sau aspect CGI.
 - Fiecare video: blocul `prompts/blocks/motion-natural.txt` (regula 20 oct) — mișcări naturale, fără mișcări bruște, acțiunea rapidă; ce apare când se întoarce camera trebuie să fie acolo unde se uită personajul.
 - Prompturi LUNGI și DESCRIPTIVE, analizate critic înainte de trimitere (natural, logic, fizică, direcția privirii, fără cuvinte care declanșează filtre) — regula 20 oct. Aplic singur tot ce e în reguli, fără să mi se repete.
 - Fără text ars în imagine, fără zoom, fără branduri reale.
