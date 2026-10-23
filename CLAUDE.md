@@ -41,7 +41,7 @@ Set de clipuri, în ordinea de montaj: **hook → (unboxing DOAR când hook-ul o
 
 ## Setări fixe (nu se coboară niciodată)
 - HALATUL DOAR DUPĂ REFERINȚE (regula 18 oct, întărită 20 oct): la orice clip cu halat se pun TOATE cele 4 referințe Grinch (`product_grinch_refs`), niciodată 2 sau 1, nici la ip_detected; halatul nu se descrie niciodată în cuvinte, doar „REPRODUCE IT ONE TO ONE from Images N–M”. ID lipsă → reîncarci pozele, nu descrii.
-- Imagini: `gpt_image_2`, 9:16, quality high, resolution 4k.
+- Imagini: `nano_banana_pro`, 9:16, resolution 4k (regula 23 oct; înainte gpt_image_2 — ieșea prea procesat).
 - Video: `seedance_2_5`, `mode: "omni_reference"` când există start_image, `aspect_ratio "9:16"` **și** width 1080 / height 1920, resolution 1080p, bitrate_mode high, generate_audio true.
 - Genjutsu motion control: 1080p, 4 s (B1, cozy) / 5 s (B2), roluri `image_references` / `video_references`.
 - Mereu `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`.
