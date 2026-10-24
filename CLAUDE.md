@@ -41,6 +41,7 @@ Set de clipuri, în ordinea de montaj: **hook → (unboxing DOAR când hook-ul o
 
 ## Setări fixe (nu se coboară niciodată)
 - HALATUL DOAR DUPĂ REFERINȚE (regula 18 oct, întărită 20 oct): la orice clip cu halat se pun TOATE cele 4 referințe Grinch (`product_grinch_refs`), niciodată 2 sau 1, nici la ip_detected; halatul nu se descrie niciodată în cuvinte, doar „REPRODUCE IT ONE TO ONE from Images N–M”. ID lipsă → reîncarci pozele, nu descrii.
+- PERSONAJUL DOAR DUPĂ POZA LUI (regula 24 oct): la orice generare cu personaj (start frame, variantă, corectură, video) poza personajului se pune MEREU ca referință directă, chiar dacă pornim de la un frame deja generat; niciodată doar din frame-ul anterior.
 - Imagini: `nano_banana_pro`, 9:16, resolution 4k (regula 23 oct; înainte gpt_image_2 — ieșea prea procesat).
 - Video: **DOAR Kling 4.0 (`kling4_0`), 1080p** (24 oct, înlocuiește 720p) (regula 24 oct, Szasz: „folosim doar Kling 4.0 de acum, 720p, e foarte ieftin”): `video-edit` pe clipurile noastre de mișcare (B-roll, conector, telecomandă, hook copiat), `image-to-video` din start frame (hook, unboxing). `aspect_ratio "9:16"`. Seedance și Genjutsu nu se mai folosesc (rămân doar ca istoric).
 - Genjutsu motion control: 1080p, 4 s (B1, cozy) / 5 s (B2), roluri `image_references` / `video_references`.

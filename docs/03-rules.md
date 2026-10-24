@@ -164,3 +164,4 @@ Sursa: memoria Cowork + sesiunea 16–29 sept. Regula mai nouă bate regula mai 
 - 24 oct (Szasz): halate noi → B-roll + conector/telecomandă cu Kling 4.0 video-edit pe clipurile noastre (fără sunet), șablon limitless/products/snoopy-robe/prompts/broll-kling4.txt; hook animat cu Kling image-to-video. Detalii în limitless/docs/02-reguli.md.
 - 24 oct (Szasz, REGULĂ): video DOAR cu Kling 4.0 la 720p (video-edit pe clipurile noastre / image-to-video din start frame). Seedance și Genjutsu nu se mai folosesc. Fără upscale.
 - 24 oct (Szasz): Kling 4.0 direct la 1080p (înlocuiește 720p).
+- 24 oct (Szasz, REGULĂ): poza personajului se pune MEREU ca referință directă la orice generare cu personaj (start frame, variantă, corectură, video), chiar și când pornim de la un frame deja generat — niciodată doar din frame-ul anterior.
