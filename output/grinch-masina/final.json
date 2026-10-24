@@ -1,11 +1,56 @@
-{"fps":30,"segments":[
- {"file":"/home/user/heatgrump/output/grinch-masina/cadou.mp4","start":0,"end":2.2,"audio":true},
- {"file":"/home/user/heatgrump/output/grinch-masina/desface.mp4","start":0,"end":3.0,"audio":true},
- {"file":"/home/user/heatgrump/output/grinch-masina/broll.mp4","start":0.15,"end":3.38},
- {"file":"/home/user/heatgrump/output/fixed/conector-real.mp4","start":0,"end":2.0},
- {"file":"/home/user/heatgrump/output/fixed/telecomanda-reala.mp4","start":0,"end":2.5},
- {"file":"/home/user/heatgrump/output/grinch-masina/broll.mp4","start":3.48,"end":4.75},
- {"file":"/home/user/heatgrump/output/grinch-masina/cozy-zoom.mp4","start":0,"end":2.18}],
- "texts":[{"text":"Do NOT let a Grinch\nlover see this... 💚😍","t0":0,"t1":99,"size":76}],
- "music":"library/music/xmas/mean-one-grinch.mp3","music_start":9.1,"music_vol":0.75,"orig_vol":1.0,
- "out":"/home/user/heatgrump/output/grinch-masina/grinch-masina-FINAL.mp4"}
+{
+ "fps": 30,
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/grinch-masina/cadou-v2.mp4",
+   "start": 0,
+   "end": 3.0,
+   "audio": true
+  },
+  {
+   "file": "/home/user/heatgrump/output/grinch-masina/desface-v2.mp4",
+   "start": 0,
+   "end": 3.0,
+   "audio": true
+  },
+  {
+   "file": "/home/user/heatgrump/output/grinch-masina/broll.mp4",
+   "start": 0.15,
+   "end": 3.38
+  },
+  {
+   "file": "/home/user/heatgrump/output/fixed/conector-real.mp4",
+   "start": 0,
+   "end": 2.0
+  },
+  {
+   "file": "/home/user/heatgrump/output/fixed/telecomanda-reala.mp4",
+   "start": 0,
+   "end": 2.5
+  },
+  {
+   "file": "/home/user/heatgrump/output/grinch-masina/broll.mp4",
+   "start": 3.48,
+   "end": 4.75
+  },
+  {
+   "file": "/home/user/heatgrump/output/grinch-masina/cozy-zoom.mp4",
+   "start": 0,
+   "end": 2.18
+  }
+ ],
+ "texts": [
+  {
+   "text": "Do NOT let a Grinch\nlover see this... 💚😍",
+   "t0": 0,
+   "t1": 99,
+   "size": 76,
+   "y": 0.08
+  }
+ ],
+ "music": "library/music/xmas/mean-one-grinch.mp3",
+ "music_start": 9.1,
+ "music_vol": 0.75,
+ "orig_vol": 1.0,
+ "out": "/home/user/heatgrump/output/grinch-masina/grinch-masina-FINAL.mp4"
+}
