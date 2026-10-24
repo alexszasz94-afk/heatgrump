@@ -4,13 +4,13 @@
   {
    "file": "/home/user/heatgrump/output/grinch-walmart/exterior.mp4",
    "start": 0,
-   "end": 2.3,
+   "end": 1.7,
    "audio": true
   },
   {
    "file": "/home/user/heatgrump/output/grinch-walmart/scanare.mp4",
    "start": 0,
-   "end": 3.4,
+   "end": 2.6,
    "audio": true
   },
   {
@@ -43,14 +43,17 @@
   {
    "text": "GRINCH 😍💚\nX\nWALMART",
    "t0": 0,
-   "t1": 13.8
+   "t1": 12.37
   },
   {
    "text": "Comment \"GRINCH\"\nfor the link 💕",
-   "t0": 13.8,
+   "t0": 12.37,
    "t1": 99
   }
  ],
  "orig_vol": 1.0,
- "out": "/home/user/heatgrump/output/grinch-walmart/grinch-walmart-FARA-MUZICA.mp4"
+ "out": "output/grinch-walmart/grinch-walmart-FINAL.mp4",
+ "music": "library/music/xmas/mean-one-grinch.mp3",
+ "music_start": 9.1,
+ "music_vol": 0.8
 }
