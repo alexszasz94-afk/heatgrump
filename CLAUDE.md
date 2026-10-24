@@ -42,7 +42,7 @@ Set de clipuri, în ordinea de montaj: **hook → (unboxing DOAR când hook-ul o
 ## Setări fixe (nu se coboară niciodată)
 - HALATUL DOAR DUPĂ REFERINȚE (regula 18 oct, întărită 20 oct): la orice clip cu halat se pun TOATE cele 4 referințe Grinch (`product_grinch_refs`), niciodată 2 sau 1, nici la ip_detected; halatul nu se descrie niciodată în cuvinte, doar „REPRODUCE IT ONE TO ONE from Images N–M”. ID lipsă → reîncarci pozele, nu descrii.
 - Imagini: `nano_banana_pro`, 9:16, resolution 4k (regula 23 oct; înainte gpt_image_2 — ieșea prea procesat).
-- Video: `seedance_2_5`, `mode: "omni_reference"` când există start_image, `aspect_ratio "9:16"` **și** width 1080 / height 1920, resolution 1080p, bitrate_mode high, generate_audio true.
+- Video: **DOAR Kling 4.0 (`kling4_0`), 720p** (regula 24 oct, Szasz: „folosim doar Kling 4.0 de acum, 720p, e foarte ieftin”): `video-edit` pe clipurile noastre de mișcare (B-roll, conector, telecomandă, hook copiat), `image-to-video` din start frame (hook, unboxing). `aspect_ratio "9:16"`. Seedance și Genjutsu nu se mai folosesc (rămân doar ca istoric).
 - Genjutsu motion control: 1080p, 4 s (B1, cozy) / 5 s (B2), roluri `image_references` / `video_references`.
 - Mereu `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`.
 - Fiecare start frame și video: culori vii, semicalde (nu auriu/portocaliu) + blocul `prompts/blocks/light-store-premium.txt` (stilul aprobat 20 oct, „perfect”; înlocuiește light-ultra-real.txt). Mereu „UGC style, natural, shot on an iPhone 17 Pro Max” (regula 19 oct, actualizată).
@@ -73,7 +73,7 @@ Pe fiecare rezultat descărcat, verifică vizual (Claude cu vedere):
 Dacă pică, regenerează (max 3 încercări), apoi raportează.
 
 ## Halate noi — metoda Kling 4.0 (regula 24 oct, Szasz: „e genial”)
-Pentru orice halat nou (ex. HeatPup), B-roll-ul și conector+telecomandă se fac cu **Kling 4.0 `video-edit`** pe clipurile noastre de mișcare (`library/motion/broll-standard-3-sofa-heatpup.mp4`, `library/motion/conector-telecomanda-ref4.mp4`), fără sunet, după șablonul `limitless/products/snoopy-robe/prompts/broll-kling4.txt`. Detalii complete: `limitless/docs/02-reguli.md` (24 oct). Probă 720p, apoi upscale 1080p. Genjutsu rămâne pentru HeatGrump unde merge; unde dă `ip_detected`, se trece pe Kling.
+Pentru orice halat nou (ex. HeatPup), B-roll-ul și conector+telecomandă se fac cu **Kling 4.0 `video-edit`** pe clipurile noastre de mișcare (`library/motion/broll-standard-3-sofa-heatpup.mp4`, `library/motion/conector-telecomanda-ref4.mp4`), fără sunet, după șablonul `limitless/products/snoopy-robe/prompts/broll-kling4.txt`. Detalii complete: `limitless/docs/02-reguli.md` (24 oct). Rămân la 720p, fără upscale (Szasz 24 oct). Genjutsu rămâne pentru HeatGrump unde merge; unde dă `ip_detected`, se trece pe Kling.
 
 ## Capcane cunoscute
 - `ip_detected` la orice generare cu halat → NU se scad referințele (regula 20 oct: MEREU toate cele 4); te oprești și îl întrebi pe Szasz. Cozy cu unele personaje poate fi respins de 2 ori: schimbă clipul de mișcare.
