@@ -4,7 +4,7 @@
   {
    "file": "/home/user/heatgrump/output/grinch-elicopter/heli.mp4",
    "start": 0,
-   "end": 3.6,
+   "end": 2.75,
    "audio": true
   },
   {
@@ -43,11 +43,11 @@
   {
    "text": "They went CRAZY for it 😭💚",
    "t0": 0,
-   "t1": 14.6
+   "t1": 13.73
   },
   {
    "text": "Comment \"GRINCH\"\nfor the link 💕",
-   "t0": 14.6,
+   "t0": 13.73,
    "t1": 99
   }
  ],
