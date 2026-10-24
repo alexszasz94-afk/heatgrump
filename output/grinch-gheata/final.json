@@ -1,0 +1,10 @@
+{"fps":30,"segments":[
+ {"file":"/home/user/heatgrump/output/grinch-gheata/hook-gheata.mp4","start":0,"end":6.9,"audio":true},
+ {"file":"/home/user/heatgrump/output/grinch-gheata/broll.mp4","start":0.15,"end":3.58},
+ {"file":"/home/user/heatgrump/output/fixed/conector-real.mp4","start":0,"end":2.0},
+ {"file":"/home/user/heatgrump/output/fixed/telecomanda-reala.mp4","start":0,"end":2.5},
+ {"file":"/home/user/heatgrump/output/grinch-gheata/broll.mp4","start":3.67,"end":4.95},
+ {"file":"/home/user/heatgrump/output/grinch-gheata/broll.mp4","start":5.04,"end":7.04}],
+ "texts":[{"text":"\"The perfect Grinch robe\ndoesn't exi-\" 🤫💚","t0":0,"t1":99}],
+ "music":"library/music/xmas/mean-one-grinch.mp3","music_start":9.1,"music_vol":0.75,"orig_vol":1.0,
+ "out":"/home/user/heatgrump/output/grinch-gheata/grinch-gheata-FINAL.mp4"}
