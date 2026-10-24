@@ -1,0 +1,56 @@
+{
+ "fps": 30,
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/grinch-walmart/exterior.mp4",
+   "start": 0,
+   "end": 2.3,
+   "audio": true
+  },
+  {
+   "file": "/home/user/heatgrump/output/grinch-walmart/scanare.mp4",
+   "start": 0,
+   "end": 3.4,
+   "audio": true
+  },
+  {
+   "file": "/home/user/heatgrump/output/kling-test/grinch-broll-v3.mp4",
+   "start": 0.3,
+   "end": 3.55
+  },
+  {
+   "file": "/home/user/heatgrump/output/fixed/conector-real.mp4",
+   "start": 0,
+   "end": 2.0
+  },
+  {
+   "file": "/home/user/heatgrump/output/fixed/telecomanda-reala.mp4",
+   "start": 0,
+   "end": 2.5
+  },
+  {
+   "file": "/home/user/heatgrump/output/kling-test/grinch-broll-v3.mp4",
+   "start": 3.62,
+   "end": 4.54
+  },
+  {
+   "file": "/home/user/heatgrump/output/kling-test/grinch-broll-v3.mp4",
+   "start": 4.98,
+   "end": 7.04
+  }
+ ],
+ "texts": [
+  {
+   "text": "GRINCH 😍💚\nX\nWALMART",
+   "t0": 0,
+   "t1": 13.8
+  },
+  {
+   "text": "Comment \"GRINCH\"\nfor the link 💕",
+   "t0": 13.8,
+   "t1": 99
+  }
+ ],
+ "orig_vol": 1.0,
+ "out": "/home/user/heatgrump/output/grinch-walmart/grinch-walmart-FARA-MUZICA.mp4"
+}
