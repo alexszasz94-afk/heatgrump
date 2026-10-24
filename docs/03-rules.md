@@ -165,3 +165,4 @@ Sursa: memoria Cowork + sesiunea 16–29 sept. Regula mai nouă bate regula mai 
 - 24 oct (Szasz, REGULĂ): video DOAR cu Kling 4.0 la 720p (video-edit pe clipurile noastre / image-to-video din start frame). Seedance și Genjutsu nu se mai folosesc. Fără upscale.
 - 24 oct (Szasz): Kling 4.0 direct la 1080p (înlocuiește 720p).
 - 24 oct (Szasz, REGULĂ): poza personajului se pune MEREU ca referință directă la orice generare cu personaj (start frame, variantă, corectură, video), chiar și când pornim de la un frame deja generat — niciodată doar din frame-ul anterior.
+- 24 oct (Szasz, REGULĂ): la conector și telecomandă se folosesc de acum clipurile REALE filmate de Szasz — `output/fixed/conector-real.mp4` și `output/fixed/telecomanda-reala.mp4` (înlocuiesc clipurile fixe generate).

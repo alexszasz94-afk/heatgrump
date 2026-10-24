@@ -109,7 +109,10 @@
   },
   "telecomanda_barbat_piele_inchisa": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261002_223943_48307f0b-c059-403e-a95e-a50a6561e9bd.mp4",
   "conector_barbat_piele_inchisa": "https://d8j0ntlcm91z4.cloudfront.net/user_3BnHzwcq5oaeKgGG9H6HYOX1NFB/hf_20261002_223619_2e330915-18da-4876-a87f-6656c98734c4.mp4",
-  "_alegere": "după gen ȘI culoarea pielii personajului (regula 2 oct)"
+  "_alegere": "după gen ȘI culoarea pielii personajului (regula 2 oct)",
+  "_regula_24oct": "Szasz 24 oct: de acum la conector și telecomandă se folosesc clipurile REALE filmate de el: output/fixed/conector-real.mp4 și output/fixed/telecomanda-reala.mp4 (4,1 s fiecare).",
+  "conector_real": "output/fixed/conector-real.mp4",
+  "telecomanda_reala": "output/fixed/telecomanda-reala.mp4"
  },
  "broll_standard": {
   "_nota": "Regula 19 oct (Szasz): B-roll-ul se COPIAZĂ dintr-un clip de referință al nostru, într-o singură generare Genjutsu per set; se rotesc referințele între videouri.",

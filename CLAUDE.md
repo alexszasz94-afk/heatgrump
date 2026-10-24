@@ -34,6 +34,7 @@ Set de clipuri, în ordinea de montaj: **hook → (unboxing DOAR când hook-ul o
 | Clip | Metodă | Prompt | Aprobare |
 |---|---|---|---|
 | B1, B2, cozy | UN SINGUR CLIP per set (regula 19 oct): clipurile de mișcare B1+B2+cozy lipite într-un video, o generare Genjutsu `hf_mult_motion_control`, probă 480p apoi 1080p; clip de mișcare din bibliotecă (ROTIT între reel-uri) + personaj + cameră + 4 ref. produs | `prompts/b1-…`, `b2-…`, `cozy-…` | direct |
+| conector + telecomandă (regula 24 oct) | CLIPURILE REALE ale lui Szasz: `output/fixed/conector-real.mp4`, `output/fixed/telecomanda-reala.mp4` — nu se mai generează | — | — |
 | telecomandă | CLIP FIX refolosit (bărbat / femeie, `media.json` → `fixed_clips`); se generează doar dacă lipsește: placă gpt_image_2 → video seedance_2_5 | `controller-plate.txt` → `controller-video.txt` | direct |
 | conector | CLIP FIX refolosit (bărbat / femeie, `media.json` → `fixed_clips`); se generează doar dacă lipsește: placă gpt_image_2 → video seedance_2_5 | `connector-plate.txt` → `connector-video.txt` | direct |
 | unboxing | placă (cutia PE JOS) → video, cutie + 1-2 ref. produs | `unboxing-image.txt` → `unboxing-video.txt` | direct |
