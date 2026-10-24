@@ -72,6 +72,9 @@ Pe fiecare rezultat descărcat, verifică vizual (Claude cu vedere):
 - Analiză critică proprie la FIECARE start frame/video înainte de livrare (regula 19 oct): ce nu pare real (mâini, priviri, fizică, efecte, logică) → refac singur, apoi trimit cu lista a ce am verificat.
 Dacă pică, regenerează (max 3 încercări), apoi raportează.
 
+## Halate noi — metoda Kling 4.0 (regula 24 oct, Szasz: „e genial”)
+Pentru orice halat nou (ex. HeatPup), B-roll-ul și conector+telecomandă se fac cu **Kling 4.0 `video-edit`** pe clipurile noastre de mișcare (`library/motion/broll-standard-3-sofa-heatpup.mp4`, `library/motion/conector-telecomanda-ref4.mp4`), fără sunet, după șablonul `limitless/products/snoopy-robe/prompts/broll-kling4.txt`. Detalii complete: `limitless/docs/02-reguli.md` (24 oct). Probă 720p, apoi upscale 1080p. Genjutsu rămâne pentru HeatGrump unde merge; unde dă `ip_detected`, se trece pe Kling.
+
 ## Capcane cunoscute
 - `ip_detected` la orice generare cu halat → NU se scad referințele (regula 20 oct: MEREU toate cele 4); te oprești și îl întrebi pe Szasz. Cozy cu unele personaje poate fi respins de 2 ori: schimbă clipul de mișcare.
 - Clipurile de mișcare sub 2 s pică în Genjutsu (fără motiv afișat): B1 `ba61dc06` (0,9 s) și cozy `12959b84` (1,7 s) — scoase din rotație (2 oct). Folosește B1 `5133a653`, cozy `8042602c`.
