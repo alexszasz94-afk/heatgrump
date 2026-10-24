@@ -1,0 +1,59 @@
+{
+ "fps": 30,
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/grinch-elicopter/heli.mp4",
+   "start": 0,
+   "end": 3.6,
+   "audio": true
+  },
+  {
+   "file": "/home/user/heatgrump/output/grinch-elicopter/strada.mp4",
+   "start": 0,
+   "end": 2.8,
+   "audio": true
+  },
+  {
+   "file": "/home/user/heatgrump/output/grinch-elicopter/broll.mp4",
+   "start": 0.15,
+   "end": 3.5
+  },
+  {
+   "file": "/home/user/heatgrump/output/fixed/conector-real.mp4",
+   "start": 0,
+   "end": 2.0
+  },
+  {
+   "file": "/home/user/heatgrump/output/fixed/telecomanda-reala.mp4",
+   "start": 0,
+   "end": 2.5
+  },
+  {
+   "file": "/home/user/heatgrump/output/grinch-elicopter/broll.mp4",
+   "start": 3.6,
+   "end": 4.8
+  },
+  {
+   "file": "/home/user/heatgrump/output/grinch-elicopter/broll.mp4",
+   "start": 4.88,
+   "end": 7.04
+  }
+ ],
+ "texts": [
+  {
+   "text": "They went CRAZY for it 😭💚",
+   "t0": 0,
+   "t1": 14.6
+  },
+  {
+   "text": "Comment \"GRINCH\"\nfor the link 💕",
+   "t0": 14.6,
+   "t1": 99
+  }
+ ],
+ "music": "library/music/xmas/mean-one-grinch.mp3",
+ "music_start": 9.1,
+ "music_vol": 0.8,
+ "orig_vol": 0.9,
+ "out": "/home/user/heatgrump/output/grinch-elicopter/grinch-elicopter-FINAL.mp4"
+}
