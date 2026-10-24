@@ -163,3 +163,4 @@ Sursa: memoria Cowork + sesiunea 16–29 sept. Regula mai nouă bate regula mai 
 - 23 oct (Szasz, REGULĂ): imaginile (start frame-uri, poze de produs) se fac cu `nano_banana_pro` (9:16, 4k) — GPT Image 2 iese prea procesat. Video rămâne Seedance 2.5 / Genjutsu.
 - 24 oct (Szasz): halate noi → B-roll + conector/telecomandă cu Kling 4.0 video-edit pe clipurile noastre (fără sunet), șablon limitless/products/snoopy-robe/prompts/broll-kling4.txt; hook animat cu Kling image-to-video. Detalii în limitless/docs/02-reguli.md.
 - 24 oct (Szasz, REGULĂ): video DOAR cu Kling 4.0 la 720p (video-edit pe clipurile noastre / image-to-video din start frame). Seedance și Genjutsu nu se mai folosesc. Fără upscale.
+- 24 oct (Szasz): Kling 4.0 direct la 1080p (înlocuiește 720p).
