@@ -167,3 +167,4 @@ Sursa: memoria Cowork + sesiunea 16–29 sept. Regula mai nouă bate regula mai 
 - 24 oct (Szasz, REGULĂ): poza personajului se pune MEREU ca referință directă la orice generare cu personaj (start frame, variantă, corectură, video), chiar și când pornim de la un frame deja generat — niciodată doar din frame-ul anterior.
 - 24 oct (Szasz, REGULĂ): la conector și telecomandă se folosesc de acum clipurile REALE filmate de Szasz — `output/fixed/conector-real.mp4` și `output/fixed/telecomanda-reala.mp4` (înlocuiesc clipurile fixe generate).
 - 24 oct (Szasz): piesa Mr. Grinch e în library/music/xmas/mean-one-grinch.mp3; drop-ul (intră vocea) la 9,1 s → music_start 9.1, ca videoul să înceapă pe drop.
+- 25 oct (Szasz, REGULĂ): la hook-uri se transcrie MEREU ce zic personajele din videoul competitorului (Whisper, `limitless/creator-kit/engine/tools.py transcribe`), iar hook-ul nostru zice aceeași replică — vocea se face în Higgsfield (`seed_audio`) și se pune peste clip.
