@@ -169,3 +169,4 @@ Sursa: memoria Cowork + sesiunea 16–29 sept. Regula mai nouă bate regula mai 
 - 24 oct (Szasz): piesa Mr. Grinch e în library/music/xmas/mean-one-grinch.mp3; drop-ul (intră vocea) la 9,1 s → music_start 9.1, ca videoul să înceapă pe drop.
 - 25 oct (Szasz, REGULĂ): la hook-uri se transcrie MEREU ce zic personajele din videoul competitorului (Whisper, `limitless/creator-kit/engine/tools.py transcribe`), iar hook-ul nostru zice aceeași replică — vocea se face în Higgsfield (`seed_audio`) și se pune peste clip.
 - 26 oct (Szasz, REGULĂ): la fiecare hook audioul (vocea/replica) se face DOAR în Seedance, ca în hook-ul original: `seedance_2_5` t2v fără imagine de start, `generate_audio: true`, replica exactă în prompt; se păstrează doar sunetul, se aliniază pe mișcări și se lipește în montaj.
+- 26 oct (Szasz, REGULĂ): personajul MEREU în prim-plan, niciodată în spatele obiectelor (masă/plante/canapea în fața ei = se reface).
