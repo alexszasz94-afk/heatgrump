@@ -175,3 +175,4 @@ Sursa: memoria Cowork + sesiunea 16–29 sept. Regula mai nouă bate regula mai 
 - 26 oct (Szasz): „nu mai ștergem logouri niciodată” — logo-urile/firmele din clipul de referință rămân exact cum sunt; se blurează doar textul pus peste video. Înlocuiește „fără branduri reale” la hook-urile copiate.
 - 26 oct (Szasz): fără blur pe textul concurenței înainte de Kling — se scoate cu o poză curată (Nano Banana Pro) lipită peste zona textului; Kling copiază pata de blur.
 - 26 oct (Szasz): textul pe ecran = textul original al referinței, cuvânt cu cuvânt; la hook copiat personajele mereu altele decât în original; în B-roll persoana nu dispare niciodată.
+- 26 oct (Szasz): ordinea la montaj mereu: hook → se îmbracă → săculeții → conector → telecomandă → cozy.
