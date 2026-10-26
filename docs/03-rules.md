@@ -173,3 +173,4 @@ Sursa: memoria Cowork + sesiunea 16–29 sept. Regula mai nouă bate regula mai 
 - 26 oct (Szasz): hook copiat = Kling video-edit pe clipul original + replica în prompt cu secundele ei („perfect”, hook-ul 3-2-1 la prințesă). Mișcarea identică cu originalul, nu grăbită (halatul cade la fel, tăietura la aceeași secundă) — verificat pe benzi de 10 cadre/s.
 - 26 oct (Szasz): la hook copiat, în prompt fiecare acțiune cu secunda și viteza din original (analizat la 10 cadre/s), „never faster” — Kling grăbește căderea halatului.
 - 26 oct (Szasz): „nu mai ștergem logouri niciodată” — logo-urile/firmele din clipul de referință rămân exact cum sunt; se blurează doar textul pus peste video. Înlocuiește „fără branduri reale” la hook-urile copiate.
+- 26 oct (Szasz): fără blur pe textul concurenței înainte de Kling — se scoate cu o poză curată (Nano Banana Pro) lipită peste zona textului; Kling copiază pata de blur.
