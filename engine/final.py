@@ -8,7 +8,7 @@ spec.json:
   "music": "library/music/all-i-want.m4a", "music_start": 0, "music_vol": 1.0, "orig_vol": 0.15
 }
 """
-import sys, json, os, subprocess, tempfile, unicodedata
+import shutil, sys, json, os, subprocess, tempfile, unicodedata
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -121,6 +121,7 @@ def main(spec_path):
     if filt: cmd += ["-filter_complex", ";".join(filt)]
     cmd += ["-map", vmap, "-map", amap, "-c:v","libx264","-profile:v","high","-pix_fmt","yuv420p","-r",fps,"-crf","18","-preset","medium","-c:a","aac","-b:a","192k","-ar","48000","-movflags","+faststart","-t",str(dur),out]   # format Reels/TikTok: 1080x1920 9:16, H.264 high, 30 fps, AAC 48 kHz, faststart (Meta, 19 oct)
     subprocess.run(cmd, check=True); print(out, round(dur, 2))
+    shutil.rmtree(tmp, ignore_errors=True)   # temp clips otherwise fill the disk
 
 if __name__ == "__main__":
     main(sys.argv[1])
