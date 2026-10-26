@@ -51,7 +51,7 @@ Set de clipuri, în ordinea de montaj: **hook → (unboxing DOAR când hook-ul o
 - LUMINA, regulă pe viață (23 oct): MEREU foarte moale și foarte naturală, la orice imagine/video — blocul `prompts/blocks/light-soft-natural.txt` în fiecare prompt; fără lumină dură, contrast dramatic, HDR, glow sau aspect CGI.
 - Fiecare video: blocul `prompts/blocks/motion-natural.txt` (regula 20 oct) — mișcări naturale, fără mișcări bruște, acțiunea rapidă; ce apare când se întoarce camera trebuie să fie acolo unde se uită personajul.
 - Prompturi LUNGI și DESCRIPTIVE, analizate critic înainte de trimitere (natural, logic, fizică, direcția privirii, fără cuvinte care declanșează filtre) — regula 20 oct. Aplic singur tot ce e în reguli, fără să mi se repete.
-- Fără text ars în imagine, fără zoom, fără branduri reale.
+- Fără text ars în imagine, fără zoom (logo-urile din clipul de referință rămân — regula 26 oct; nu inventăm branduri noi).
 
 ## Stil american (regula 18 oct)
 - Fiecare hook are steagul american undeva în cadru; la B-roll hainele de dedesubt sunt în stil american; doar personaje care arată americane.
