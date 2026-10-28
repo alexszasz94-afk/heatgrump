@@ -195,3 +195,4 @@ Sursa: memoria Cowork + sesiunea 16–29 sept. Regula mai nouă bate regula mai 
 - 28 oct (Szasz): ORDINEA B-ROLL-ULUI: o „tăietură” găsită în mijlocul planului cu săculeții (sub 2,8 s) e falsă și se ignoră, altfel planul cu săculeții ajunge după telecomandă (greșeala de la Snoopy r4).
 - 28 oct (Szasz): PICIOARELE NU SE VĂD NICIODATĂ ÎN AFARA SĂCULEȚILOR — nici înainte să intre. Tivul halatului acoperă picioarele tot timpul, piciorul alunecă de sub tiv direct în săculeț. Se verifică la 8–15 cadre/s tot planul cu săculeții.
 - 28 oct (Szasz): ANALIZEAZĂ MEREU DACĂ E CORECT — orice rezultat (inclusiv al unui agent ajutător) îl verific eu cadru cu cadru înainte să-l trimit; „a trecut verificarea” nu e suficient.
+- 28 oct (Szasz): MUZICA — se pune mai încet pe porțiunea hook-ului (vocea rămâne clar deasupra) și la drop (tăietura hook → B-roll) merge un pic mai tare. Înlocuiește „fără muzică sub hook”.
