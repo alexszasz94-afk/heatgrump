@@ -43,7 +43,7 @@ Set de clipuri, în ordinea de montaj: **hook → (unboxing DOAR când hook-ul o
 ## Setări fixe (nu se coboară niciodată)
 - HALATUL DOAR DUPĂ REFERINȚE (regula 18 oct, întărită 20 oct): la orice clip cu halat se pun TOATE cele 4 referințe Grinch (`product_grinch_refs`), niciodată 2 sau 1, nici la ip_detected; halatul nu se descrie niciodată în cuvinte, doar „REPRODUCE IT ONE TO ONE from Images N–M”. ID lipsă → reîncarci pozele, nu descrii.
 - PERSONAJUL DOAR DUPĂ POZA LUI (regula 24 oct): la orice generare cu personaj (start frame, variantă, corectură, video) poza personajului se pune MEREU ca referință directă, chiar dacă pornim de la un frame deja generat; niciodată doar din frame-ul anterior.
-- Imagini: `nano_banana_pro`, 9:16, resolution 4k (regula 23 oct; înainte gpt_image_2 — ieșea prea procesat).
+- Imagini: DOAR `gpt_image_2_5` (GPT Image 2.5), `quality: "high"`, 9:16, resolution 4k (regula 28 oct, Szasz: „folosește de acum doar GPT Image 2.5”; înlocuiește nano_banana_pro — scria greșit logo-urile).
 - Video: **DOAR Kling 4.0 (`kling4_0`), 1080p** (24 oct, înlocuiește 720p) (regula 24 oct, Szasz: „folosim doar Kling 4.0 de acum, 720p, e foarte ieftin”): `video-edit` pe clipurile noastre de mișcare (B-roll, conector, telecomandă, hook copiat), `image-to-video` din start frame (hook, unboxing). `aspect_ratio "9:16"`. Seedance și Genjutsu nu se mai folosesc (rămân doar ca istoric).
 - Genjutsu motion control: 1080p, 4 s (B1, cozy) / 5 s (B2), roluri `image_references` / `video_references`.
 - Mereu `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`.
@@ -81,7 +81,7 @@ Pentru orice halat nou (ex. HeatPup), B-roll-ul și conector+telecomandă se fac
 - `ip_detected` la orice generare cu halat → NU se scad referințele (regula 20 oct: MEREU toate cele 4); te oprești și îl întrebi pe Szasz. Cozy cu unele personaje poate fi respins de 2 ori: schimbă clipul de mișcare.
 - Clipurile de mișcare sub 2 s pică în Genjutsu (fără motiv afișat): B1 `ba61dc06` (0,9 s) și cozy `12959b84` (1,7 s) — scoase din rotație (2 oct). Folosește B1 `5133a653`, cozy `8042602c`.
 - Fără `aspect_ratio` explicit iese 16:9. Fără `resolution` iese 720p.
-- `nano_banana_2` = flash (slab). Dacă e nevoie de Nano Banana, cere `nano_banana_pro`.
+- Nano Banana (orice versiune) nu se mai folosește (28 oct) — doar `gpt_image_2_5`.
 - Creditele: workspace shared; motion control 1080p ≈ 44 credite/clip, seedance ≈ 55, gpt_image_2 4k ≈ 15. Verifică `balance` înainte de loturi mari.
 
 ## Dacă rulezi în Claude Code pe web (claude.ai/code)

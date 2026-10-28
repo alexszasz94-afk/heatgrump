@@ -196,3 +196,4 @@ Sursa: memoria Cowork + sesiunea 16–29 sept. Regula mai nouă bate regula mai 
 - 28 oct (Szasz): PICIOARELE NU SE VĂD NICIODATĂ ÎN AFARA SĂCULEȚILOR — nici înainte să intre. Tivul halatului acoperă picioarele tot timpul, piciorul alunecă de sub tiv direct în săculeț. Se verifică la 8–15 cadre/s tot planul cu săculeții.
 - 28 oct (Szasz): ANALIZEAZĂ MEREU DACĂ E CORECT — orice rezultat (inclusiv al unui agent ajutător) îl verific eu cadru cu cadru înainte să-l trimit; „a trecut verificarea” nu e suficient.
 - 28 oct (Szasz): MUZICA — se pune mai încet pe porțiunea hook-ului (vocea rămâne clar deasupra) și la drop (tăietura hook → B-roll) merge un pic mai tare. Înlocuiește „fără muzică sub hook”.
+- 28 oct (Szasz): IMAGINI — de acum DOAR GPT Image 2.5 (`gpt_image_2_5`, quality high, 9:16, 4k) la orice imagine (start frame, cutie, recuzită, cameră fără masă). Nano Banana nu se mai folosește.
