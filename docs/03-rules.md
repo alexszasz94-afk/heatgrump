@@ -176,3 +176,4 @@ Sursa: memoria Cowork + sesiunea 16–29 sept. Regula mai nouă bate regula mai 
 - 26 oct (Szasz): fără blur pe textul concurenței înainte de Kling — se scoate cu o poză curată (Nano Banana Pro) lipită peste zona textului; Kling copiază pata de blur.
 - 26 oct (Szasz): textul pe ecran = textul original al referinței, cuvânt cu cuvânt; la hook copiat personajele mereu altele decât în original; în B-roll persoana nu dispare niciodată.
 - 26 oct (Szasz): ordinea la montaj mereu: hook → se îmbracă → săculeții → conector → telecomandă → cozy.
+- 28 oct (Szasz): textul pe ecran stă MEREU sus (y 0.08), în aceeași poziție tot videoul — nu se mai mută niciodată în jos pe B-roll, nici ca să ocolească o față.
