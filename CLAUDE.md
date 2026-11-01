@@ -78,3 +78,6 @@ Dacă pică, regenerează (max 3 încercări), apoi raportează.
 
 ## Dacă rulezi în Claude Code pe web (claude.ai/code)
 Nu e nimic de instalat local; `setup-cloud.sh` a rulat deja (ffmpeg, yt-dlp). Token-urile vin din variabilele mediului, nu din `.env`. După fiecare lot: `git add -A && git commit -m "lot <data>" && git push`, ca Szasz să-și descarce MP4-urile din GitHub. Dacă un domeniu e blocat (eroare de rețea la apify/facebook/cloudfront), spune-i exact ce domeniu să adauge în *Allowed domains* ale mediului — nu încerca ocolișuri.
+
+## HeatGrump Studio (1 nov) — kitul nou
+Pentru `video nou <link>` și `lot zilnic` citește `heatgrump-studio/CLAUDE.md` (rotație seturi, hook copiat cu Kling 4.0, clipuri fixe, montaj automat, plan 175/săptămână în `heatgrump-studio/PLAN-175.md`). Ce lipsește: `heatgrump-studio/KIT-NOTES.md`.
