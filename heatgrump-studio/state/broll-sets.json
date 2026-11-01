@@ -11,7 +11,8 @@
     "cozy_bg": "the white wall with the framed picture and the soft throw blanket on the sofa",
     "job": "743e5907-d66e-4cf0-a460-466ce9335d97",
     "status": "ok",
-    "uses": []
+    "uses": [],
+    "tail": "output/broll-grinch/set01/tail.mp4"
   },
   {
     "set": "set02",
@@ -24,9 +25,10 @@
     "sofa": "the cream sofa against the left wall of Image 2, with the round wooden side table and the lamp next to it",
     "cozy_bg": "the white wall and the small lit Christmas tree in the corner",
     "job": "c9423bd4-dac8-4b62-9d84-682ed05f6c0b",
-    "status": "generating",
+    "status": "ok",
     "uses": [],
-    "note": "try1/2 cu character-22.jpg au pastrat fata din clipul de referinta -> schimbat pe character-21.jpg"
+    "note": "try1/2 cu character-22.jpg au pastrat fata din clipul de referinta -> schimbat pe character-21.jpg",
+    "tail": "output/broll-grinch/set02/tail.mp4"
   },
   {
     "set": "set03",
@@ -40,7 +42,8 @@
     "cozy_bg": "the white wall with the framed picture and the olive tree in a pot",
     "job": "85c03b20-09d8-474e-b465-4a72f8bd0da9",
     "status": "ok",
-    "uses": []
+    "uses": [],
+    "tail": "output/broll-grinch/set03/tail.mp4"
   },
   {
     "set": "set04",
@@ -53,9 +56,10 @@
     "sofa": "the cream sofa against the left wall of Image 2, with the round wooden side table and the lamp next to it",
     "cozy_bg": "the plain white wall and the lamp on the side table",
     "job": "e4c9e68a-6d7b-4da2-ab0e-2b1a153c5d81",
-    "status": "generating",
+    "status": "ok",
     "uses": [],
-    "note": "try1/2 cu character-26.jpg au pastrat fata din clipul de referinta -> schimbat pe character-14.jpg"
+    "note": "try1/2 cu character-26.jpg au pastrat fata din clipul de referinta -> schimbat pe character-14.jpg",
+    "tail": "output/broll-grinch/set04/tail.mp4"
   },
   {
     "set": "set05",
@@ -69,7 +73,8 @@
     "cozy_bg": "the lit Christmas tree in a woven basket and the white wall with the framed picture",
     "job": "b4abde84-6b10-4602-9fbd-f452c98db69e",
     "status": "ok",
-    "uses": []
+    "uses": [],
+    "tail": "output/broll-grinch/set05/tail.mp4"
   },
   {
     "set": "set06",
@@ -83,7 +88,8 @@
     "cozy_bg": "the white wall with the abstract framed print and the green plant",
     "job": "3ab32f65-0f6e-4ee3-b3df-0613c1d0185f",
     "status": "ok",
-    "uses": []
+    "uses": [],
+    "tail": "output/broll-grinch/set06/tail.mp4"
   },
   {
     "set": "set07",
@@ -97,7 +103,8 @@
     "cozy_bg": "the plain white wall and the lamp",
     "job": "4c8dfdc6-f855-4753-946b-588847eb582b",
     "status": "ok",
-    "uses": []
+    "uses": [],
+    "tail": "output/broll-grinch/set07/tail.mp4"
   },
   {
     "set": "set08",
@@ -110,9 +117,10 @@
     "sofa": "the cream sofa against the left wall of Image 2, with the side table and the lamp next to it",
     "cozy_bg": "the decorated Christmas tree with red ornaments and the white wall",
     "job": "1079ed76-38eb-4f71-a5e5-0a189b8bae4b",
-    "status": "generating",
+    "status": "ok",
     "uses": [],
-    "note": "try1/2 cu character-35.jpg au pastrat fata din clipul de referinta -> schimbat pe character-15.jpg"
+    "note": "try1/2 cu character-35.jpg au pastrat fata din clipul de referinta -> schimbat pe character-15.jpg",
+    "tail": "output/broll-grinch/set08/tail.mp4"
   },
   {
     "set": "set09",
@@ -125,9 +133,10 @@
     "sofa": "the cream sofa against the left wall of Image 2, with the round wooden side table and the lamp next to it",
     "cozy_bg": "the lit Christmas tree and the framed snowy-landscape picture",
     "job": "98cb515e-341b-402c-93d9-dd2a54fc5859",
-    "status": "generating",
+    "status": "ok",
     "uses": [],
-    "note": "try1/2 cu character-37.jpg au pastrat fata din clipul de referinta -> schimbat pe character-30.jpg"
+    "note": "try1/2 cu character-37.jpg au pastrat fata din clipul de referinta -> schimbat pe character-30.jpg",
+    "tail": "output/broll-grinch/set09/tail.mp4"
   },
   {
     "set": "set10",
@@ -140,8 +149,9 @@
     "sofa": "the taupe sofa against the left wall of Image 2, with the round wooden side table and the lamp next to it",
     "cozy_bg": "the white wall with the abstract framed print",
     "job": "7e8969c0-e04e-4f17-b874-ba18523bf53a",
-    "status": "generating",
+    "status": "ok",
     "uses": [],
-    "note": "try1/2 cu character-02.jpg au pastrat fata din clipul de referinta -> schimbat pe character-25.jpg"
+    "note": "try1/2 cu character-02.jpg au pastrat fata din clipul de referinta -> schimbat pe character-25.jpg",
+    "tail": "output/broll-grinch/set10/tail.mp4"
   }
 ]
