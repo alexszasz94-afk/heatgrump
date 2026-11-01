@@ -256,7 +256,7 @@ def fixed_clips(robe, kind):
     """rule 31 Oct (Alex): connector and remote are ALWAYS the fixed clips. The fabric close-ups (fixed/<kind>-fabric-N.mp4)
     are used in every video; the old tree close-ups (fixed/<kind>-tree-N.mp4) are only alternates (e.g. a fabric clip fails the check)."""
     d = os.path.join(ROOT, "products", robe.lower(), "fixed")
-    fab = [os.path.basename(h) for h in sorted(glob.glob(os.path.join(d, f"{kind}-sofa-*.mp4")))]   # Grinch 1 Nov: sofa versions first
+    fab = [os.path.basename(h) for h in sorted(glob.glob(os.path.join(d, f"{kind}-sofa-close-*.mp4"))) + sorted(glob.glob(os.path.join(d, f"{kind}-sofa-[0-9]*.mp4")))]   # Grinch 1 Nov: sofa versions first
     fab += [os.path.basename(h) for h in sorted(glob.glob(os.path.join(d, f"{kind}-fabric-*.mp4")))]
     tree = [os.path.basename(h) for h in sorted(glob.glob(os.path.join(d, f"{kind}-tree-*.mp4")))]
     return fab, tree
@@ -290,6 +290,8 @@ def photo_ok(f, min_side=1080, min_sharp=150):
 
 
 FIXED_TIMES = {   # rule 31 Oct (Alex): checked frame by frame at 24 fps - princess connector: another hand 0-0.12 s; both: 1 flash frame at 1.67 s
+    ("grinch", "connector-sofa-close-1.mp4"): "0.05 -> 1.70 (fully joined)",
+    ("grinch", "remote-sofa-close-1.mp4"): "0.3 -> 3.0 (one light climbing)",
     ("grinch", "connector-sofa-1.mp4"): "0.05 -> 1.70 (fully joined; another shot from 1.79 s)",
     ("grinch", "remote-sofa-1.mp4"): "0.3 -> 3.0 (all off, then ONE light climbing)",
     ("grinch", "connector-fabric-1.mp4"): "0.05 -> 1.70 (checked 1 Nov at 24 fps: fully joined, no gap; a different shot starts at 1.77 s)",
