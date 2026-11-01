@@ -3,9 +3,9 @@
  "fps": 30,
  "segments": [
   {
-   "file": "/home/user/heatgrump/output/videos/v02/hook.mp4",
+   "file": "/home/user/heatgrump/output/videos/v02/hook-exact.mp4",
    "start": 0,
-   "end": 4.0,
+   "end": 4.08,
    "audio": true
   },
   {
@@ -20,12 +20,12 @@
     0,
     -1
    ],
-   "text": "DONT show this to your sister 😳❄️",
+   "text": "DONT show this to\nyour mom😳❄️",
    "size": 80,
    "y": 0.12
   }
  ],
  "music": "music/xmas/buble-beginning.mp3",
- "music_start": 31.35,
- "music_duck": 4.0
+ "music_start": 31.27,
+ "music_duck": 4.08
 }

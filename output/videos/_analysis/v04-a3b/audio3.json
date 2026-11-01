@@ -1,0 +1,251 @@
+{
+ "file": "/home/user/heatgrump/output/videos/v04/hook2-raw.mp4",
+ "hook_end": 5.0,
+ "higgsfield_line": "",
+ "no_voice": false,
+ "part1_voice": {
+  "who": "high voice (woman/child)",
+  "phrases": [
+   {
+    "text": "Three, two, one,",
+    "start": 0.75,
+    "end": 2.9,
+    "words_per_s": 1.4
+   },
+   {
+    "text": "let's see how it turns out.",
+    "start": 3.49,
+    "end": 4.61,
+    "words_per_s": 5.4
+   }
+  ],
+  "words": [
+   {
+    "word": "Three,",
+    "start": 0.75,
+    "end": 1.67,
+    "len": 0.92,
+    "peak_db": -2.0,
+    "pitch_hz": 241,
+    "tone": "stretched"
+   },
+   {
+    "word": "two,",
+    "start": 1.7,
+    "end": 2.47,
+    "len": 0.77,
+    "peak_db": -1.1,
+    "pitch_hz": 218,
+    "tone": "stretched"
+   },
+   {
+    "word": "one,",
+    "start": 2.49,
+    "end": 2.9,
+    "len": 0.41,
+    "peak_db": -0.3,
+    "pitch_hz": 212,
+    "tone": "normal"
+   },
+   {
+    "word": "let's",
+    "start": 3.49,
+    "end": 3.58,
+    "len": 0.09,
+    "peak_db": -1.3,
+    "pitch_hz": null,
+    "tone": "normal"
+   },
+   {
+    "word": "see",
+    "start": 3.73,
+    "end": 3.92,
+    "len": 0.19,
+    "peak_db": -3.1,
+    "pitch_hz": 198,
+    "tone": "normal"
+   },
+   {
+    "word": "how",
+    "start": 3.94,
+    "end": 4.01,
+    "len": 0.07,
+    "peak_db": -3.1,
+    "pitch_hz": null,
+    "tone": "normal"
+   },
+   {
+    "word": "it",
+    "start": 4.1,
+    "end": 4.2,
+    "len": 0.1,
+    "peak_db": -4.9,
+    "pitch_hz": null,
+    "tone": "normal"
+   },
+   {
+    "word": "turns",
+    "start": 4.22,
+    "end": 4.38,
+    "len": 0.16,
+    "peak_db": 0.0,
+    "pitch_hz": 254,
+    "tone": "normal"
+   },
+   {
+    "word": "out.",
+    "start": 4.4,
+    "end": 4.61,
+    "len": 0.21,
+    "peak_db": -0.3,
+    "pitch_hz": 274,
+    "tone": "normal"
+   }
+  ]
+ },
+ "part2_action_sounds": [
+  {
+   "start": 0.7,
+   "peak": 0.72,
+   "end": 1.1,
+   "peak_db": -52.1,
+   "centroid_hz": 1563,
+   "kind": "mid tap/knock/paper",
+   "during_speech": true,
+   "matches_movement": true
+  },
+  {
+   "start": 1.65,
+   "peak": 1.69,
+   "end": 2.04,
+   "peak_db": -50.9,
+   "centroid_hz": 2554,
+   "kind": "high swoosh/rustle/whoosh",
+   "during_speech": true,
+   "matches_movement": true
+  },
+  {
+   "start": 2.45,
+   "peak": 2.56,
+   "end": 2.92,
+   "peak_db": -51.6,
+   "centroid_hz": 1879,
+   "kind": "mid tap/knock/paper",
+   "during_speech": true,
+   "matches_movement": true
+  },
+  {
+   "start": 3.52,
+   "peak": 3.54,
+   "end": 3.62,
+   "peak_db": -55.6,
+   "centroid_hz": 2227,
+   "kind": "mid tap/knock/paper",
+   "during_speech": true,
+   "matches_movement": true
+  },
+  {
+   "start": 3.72,
+   "peak": 3.9,
+   "end": 4.03,
+   "peak_db": -51.4,
+   "centroid_hz": 2471,
+   "kind": "mid tap/knock/paper",
+   "during_speech": true,
+   "matches_movement": false
+  },
+  {
+   "start": 4.12,
+   "peak": 4.28,
+   "end": 4.62,
+   "peak_db": -47.7,
+   "centroid_hz": 1095,
+   "kind": "mid tap/knock/paper",
+   "during_speech": true,
+   "matches_movement": false
+  }
+ ],
+ "part2_picture_movements": [
+  {
+   "start": 0.43,
+   "end": 0.47,
+   "peak": 0.43,
+   "strength": 30.1,
+   "type": "hard cut"
+  },
+  {
+   "start": 0.77,
+   "end": 0.83,
+   "peak": 0.77,
+   "strength": 30.0,
+   "type": "hard cut"
+  },
+  {
+   "start": 1.27,
+   "end": 1.3,
+   "peak": 1.27,
+   "strength": 28.9,
+   "type": "hard cut"
+  },
+  {
+   "start": 1.6,
+   "end": 1.67,
+   "peak": 1.6,
+   "strength": 28.4,
+   "type": "hard cut"
+  },
+  {
+   "start": 2.1,
+   "end": 2.17,
+   "peak": 2.1,
+   "strength": 28.2,
+   "type": "hard cut"
+  },
+  {
+   "start": 2.43,
+   "end": 2.57,
+   "peak": 2.43,
+   "strength": 27.7,
+   "type": "movement"
+  },
+  {
+   "start": 3.6,
+   "end": 3.67,
+   "peak": 3.6,
+   "strength": 27.6,
+   "type": "hard cut"
+  }
+ ],
+ "part3_background": [
+  {
+   "t": "0.0-0.5",
+   "kind": "SILENT (dead gap)",
+   "level_db": -61.1
+  },
+  {
+   "t": "0.5-1.0",
+   "kind": "sound",
+   "level_db": -12.9
+  },
+  {
+   "t": "1.0-1.5",
+   "kind": "SILENT (dead gap)",
+   "level_db": -55.4
+  },
+  {
+   "t": "1.5-3.0",
+   "kind": "sound",
+   "level_db": -5.9
+  },
+  {
+   "t": "3.0-3.5",
+   "kind": "SILENT (dead gap)",
+   "level_db": -62.5
+  },
+  {
+   "t": "3.5-5.0",
+   "kind": "sound",
+   "level_db": -9.4
+  }
+ ]
+}

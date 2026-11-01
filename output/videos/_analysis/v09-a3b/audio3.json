@@ -1,0 +1,210 @@
+{
+ "file": "/home/user/heatgrump/output/videos/v09/hook2-raw.mp4",
+ "hook_end": 5.33,
+ "higgsfield_line": "",
+ "no_voice": false,
+ "part1_voice": {
+  "who": "high voice (woman/child)",
+  "phrases": [
+   {
+    "text": "Three, two, one,",
+    "start": 1.31,
+    "end": 3.87,
+    "words_per_s": 1.2
+   },
+   {
+    "text": "let's see how it turns",
+    "start": 4.58,
+    "end": 5.32,
+    "words_per_s": 6.8
+   }
+  ],
+  "words": [
+   {
+    "word": "Three,",
+    "start": 1.31,
+    "end": 2.39,
+    "len": 1.08,
+    "peak_db": -3.1,
+    "pitch_hz": 351,
+    "tone": "stretched"
+   },
+   {
+    "word": "two,",
+    "start": 2.42,
+    "end": 3.37,
+    "len": 0.95,
+    "peak_db": 0.0,
+    "pitch_hz": 380,
+    "tone": "stretched"
+   },
+   {
+    "word": "one,",
+    "start": 3.39,
+    "end": 3.87,
+    "len": 0.48,
+    "peak_db": -1.4,
+    "pitch_hz": 323,
+    "tone": "stretched"
+   },
+   {
+    "word": "let's",
+    "start": 4.58,
+    "end": 4.66,
+    "len": 0.08,
+    "peak_db": -0.9,
+    "pitch_hz": null,
+    "tone": "normal"
+   },
+   {
+    "word": "see",
+    "start": 4.78,
+    "end": 4.98,
+    "len": 0.2,
+    "peak_db": -1.8,
+    "pitch_hz": 357,
+    "tone": "normal"
+   },
+   {
+    "word": "how",
+    "start": 5.0,
+    "end": 5.06,
+    "len": 0.06,
+    "peak_db": -1.7,
+    "pitch_hz": null,
+    "tone": "normal"
+   },
+   {
+    "word": "it",
+    "start": 5.16,
+    "end": 5.26,
+    "len": 0.1,
+    "peak_db": -6.2,
+    "pitch_hz": null,
+    "tone": "normal"
+   },
+   {
+    "word": "turns",
+    "start": 5.28,
+    "end": 5.32,
+    "len": 0.04,
+    "peak_db": -10.0,
+    "pitch_hz": null,
+    "tone": "softer"
+   }
+  ]
+ },
+ "part2_action_sounds": [
+  {
+   "start": 1.31,
+   "peak": 1.32,
+   "end": 1.73,
+   "peak_db": -53.0,
+   "centroid_hz": 1442,
+   "kind": "mid tap/knock/paper",
+   "during_speech": true,
+   "matches_movement": false
+  },
+  {
+   "start": 2.42,
+   "peak": 2.44,
+   "end": 2.61,
+   "peak_db": -50.6,
+   "centroid_hz": 1790,
+   "kind": "mid tap/knock/paper",
+   "during_speech": true,
+   "matches_movement": true
+  },
+  {
+   "start": 3.48,
+   "peak": 3.49,
+   "end": 3.76,
+   "peak_db": -52.2,
+   "centroid_hz": 1461,
+   "kind": "mid tap/knock/paper",
+   "during_speech": true,
+   "matches_movement": false
+  },
+  {
+   "start": 4.6,
+   "peak": 4.61,
+   "end": 4.65,
+   "peak_db": -51.9,
+   "centroid_hz": 2253,
+   "kind": "mid tap/knock/paper",
+   "during_speech": true,
+   "matches_movement": false
+  },
+  {
+   "start": 4.81,
+   "peak": 4.93,
+   "end": 5.05,
+   "peak_db": -50.3,
+   "centroid_hz": 2162,
+   "kind": "mid tap/knock/paper",
+   "during_speech": true,
+   "matches_movement": true
+  }
+ ],
+ "part2_picture_movements": [
+  {
+   "start": 0.43,
+   "end": 0.57,
+   "peak": 0.43,
+   "strength": 13.1,
+   "type": "movement"
+  },
+  {
+   "start": 2.43,
+   "end": 2.57,
+   "peak": 2.43,
+   "strength": 12.3,
+   "type": "movement"
+  },
+  {
+   "start": 2.77,
+   "end": 2.8,
+   "peak": 2.77,
+   "strength": 10.6,
+   "type": "movement"
+  },
+  {
+   "start": 3.6,
+   "end": 3.7,
+   "peak": 3.6,
+   "strength": 11.3,
+   "type": "movement"
+  },
+  {
+   "start": 4.77,
+   "end": 4.9,
+   "peak": 4.77,
+   "strength": 11.7,
+   "type": "movement"
+  },
+  {
+   "start": 5.27,
+   "end": 5.3,
+   "peak": 5.27,
+   "strength": 11.3,
+   "type": "movement"
+  }
+ ],
+ "part3_background": [
+  {
+   "t": "0.0-3.0",
+   "kind": "sound",
+   "level_db": -51.6
+  },
+  {
+   "t": "3.0-3.5",
+   "kind": "SILENT (dead gap)",
+   "level_db": -55.9
+  },
+  {
+   "t": "3.5-5.3",
+   "kind": "sound",
+   "level_db": -10.1
+  }
+ ]
+}

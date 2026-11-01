@@ -1,0 +1,164 @@
+{
+ "file": "/home/user/heatgrump/output/videos/v01/hook2-raw.mp4",
+ "hook_end": 4.07,
+ "higgsfield_line": "",
+ "no_voice": false,
+ "part1_voice": {
+  "who": "high voice (woman/child)",
+  "phrases": [
+   {
+    "text": "One,",
+    "start": 0.98,
+    "end": 1.46,
+    "words_per_s": 2.1
+   },
+   {
+    "text": "two, three.",
+    "start": 2.15,
+    "end": 3.82,
+    "words_per_s": 1.2
+   }
+  ],
+  "words": [
+   {
+    "word": "One,",
+    "start": 0.98,
+    "end": 1.46,
+    "len": 0.48,
+    "peak_db": -0.9,
+    "pitch_hz": 230,
+    "tone": "stretched"
+   },
+   {
+    "word": "two,",
+    "start": 2.15,
+    "end": 3.32,
+    "len": 1.17,
+    "peak_db": -2.9,
+    "pitch_hz": 295,
+    "tone": "stretched"
+   },
+   {
+    "word": "three.",
+    "start": 3.35,
+    "end": 3.82,
+    "len": 0.47,
+    "peak_db": -0.1,
+    "pitch_hz": 402,
+    "tone": "stretched"
+   }
+  ]
+ },
+ "part2_action_sounds": [
+  {
+   "start": 3.21,
+   "peak": 3.23,
+   "end": 3.27,
+   "peak_db": -25.5,
+   "centroid_hz": 803,
+   "kind": "mid tap/knock/paper",
+   "during_speech": true,
+   "matches_movement": true
+  },
+  {
+   "start": 3.32,
+   "peak": 3.32,
+   "end": 3.35,
+   "peak_db": -24.2,
+   "centroid_hz": 602,
+   "kind": "low thump/step",
+   "during_speech": true,
+   "matches_movement": true
+  },
+  {
+   "start": 4.03,
+   "peak": 4.04,
+   "end": 4.07,
+   "peak_db": -33.1,
+   "centroid_hz": 829,
+   "kind": "mid tap/knock/paper",
+   "during_speech": false,
+   "matches_movement": true
+  }
+ ],
+ "part2_picture_movements": [
+  {
+   "start": 2.77,
+   "end": 2.9,
+   "peak": 2.87,
+   "strength": 10.5,
+   "type": "movement"
+  },
+  {
+   "start": 3.0,
+   "end": 3.07,
+   "peak": 3.03,
+   "strength": 32.6,
+   "type": "hard cut"
+  },
+  {
+   "start": 3.17,
+   "end": 3.23,
+   "peak": 3.17,
+   "strength": 21.2,
+   "type": "movement"
+  },
+  {
+   "start": 3.33,
+   "end": 3.4,
+   "peak": 3.33,
+   "strength": 8.6,
+   "type": "movement"
+  },
+  {
+   "start": 3.5,
+   "end": 3.57,
+   "peak": 3.5,
+   "strength": 5.8,
+   "type": "movement"
+  },
+  {
+   "start": 3.67,
+   "end": 3.73,
+   "peak": 3.7,
+   "strength": 4.7,
+   "type": "movement"
+  },
+  {
+   "start": 3.83,
+   "end": 3.9,
+   "peak": 3.87,
+   "strength": 4.0,
+   "type": "movement"
+  },
+  {
+   "start": 4.0,
+   "end": 4.07,
+   "peak": 4.0,
+   "strength": 5.3,
+   "type": "movement"
+  }
+ ],
+ "part3_background": [
+  {
+   "t": "0.0-1.0",
+   "kind": "SILENT (dead gap)",
+   "level_db": -59.8
+  },
+  {
+   "t": "1.0-1.5",
+   "kind": "sound",
+   "level_db": -5.0
+  },
+  {
+   "t": "1.5-2.0",
+   "kind": "SILENT (dead gap)",
+   "level_db": -58.8
+  },
+  {
+   "t": "2.0-4.1",
+   "kind": "sound",
+   "level_db": -11.3
+  }
+ ]
+}

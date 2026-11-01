@@ -26,3 +26,10 @@
 - Halatul arata corect (gluga cu fata, rosu/verde, mansete lime).
 - Camerele si hainele la v01-v07 continua din hook in B-roll.
 - B-roll, conector, telecomanda, cozy, muzica pe drop: OK.
+
+## Refacut (1 nov, seara)
+- Toate 10 hook-urile regenerate cu Kling 4.0: vocea originalului (3-2-1 / let's see how it turns out, 1-2-3), poza fetei din set ca referinta, hainele setului, camera setului, cronologia la secunda, lungimea exacta a originalului (retime).
+- v08 refacut a doua oara (tava goala pe halatul impaturit, ca in original).
+- v05, v06, v07, v08, v09: Kling a pus vocea cu 0.5-1 s mai tarziu -> mutata doar vocea (stem demucs, `engine/vshift.py`), sunetele actiunii si fondul raman pe loc; dupa mutare toate cuvintele sunt la max 0.3 s de original (compare-audio).
+- Golurile de liniste: `tools.py roomtone`. Fara muzica in hook (spectro); muzica noastra cu drop pe taietura.
+- Textele: cuvant cu cuvant, aceleasi emoji si randuri; v10 are "Me: 🥺💚" separat, in stanga, ca in original.

@@ -3,9 +3,9 @@
  "fps": 30,
  "segments": [
   {
-   "file": "/home/user/heatgrump/output/videos/v10/hook.mp4",
+   "file": "/home/user/heatgrump/output/videos/v10/hook-exact.mp4",
    "start": 0,
-   "end": 4.88,
+   "end": 4.92,
    "audio": true
   },
   {
@@ -20,12 +20,22 @@
     0,
     -1
    ],
-   "text": "\"Babe you don't need that...\"\nMe: 😏💚",
    "size": 80,
-   "y": 0.12
+   "y": 0.12,
+   "text": "\"Babe you don't\nneed that...\" 🙄"
+  },
+  {
+   "segs": [
+    0,
+    -1
+   ],
+   "size": 76,
+   "y": 0.27,
+   "text": "Me: 🥺💚",
+   "x": 0.17
   }
  ],
  "music": "music/xmas/wham-last-christmas.mp3",
  "music_start": 0.0,
- "music_duck": 4.88
+ "music_duck": 4.92
 }

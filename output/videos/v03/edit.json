@@ -3,9 +3,9 @@
  "fps": 30,
  "segments": [
   {
-   "file": "/home/user/heatgrump/output/videos/v03/hook.mp4",
+   "file": "/home/user/heatgrump/output/videos/v03/hook-exact.mp4",
    "start": 0,
-   "end": 4.92,
+   "end": 5.0,
    "audio": true
   },
   {
@@ -27,5 +27,5 @@
  ],
  "music": "music/xmas/wham-last-christmas.mp3",
  "music_start": 0.0,
- "music_duck": 4.92
+ "music_duck": 5.0
 }

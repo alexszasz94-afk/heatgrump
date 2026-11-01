@@ -83,11 +83,11 @@ def wrap(text, size, maxw):
         else: lines[-1] = t
     return lines
 
-def text_png(text, path, size=88, y0=None):
+def text_png(text, path, size=88, y0=None, x0=None):
     lines = [render_line(l, size) for l in wrap(text, size, W * 0.8)]
     canvas = Image.new("RGBA", (W, H), (0, 0, 0, 0)); y = int(H * (Y0 if y0 is None else y0))
-    for l in lines:
-        canvas.paste(l, ((W - l.width) // 2, y), l); y += int(size * 1.08)
+    for l in lines:   # x0 = left edge as a fraction of the width (a second text block on the side, like the original); default centred
+        canvas.paste(l, ((W - l.width) // 2 if x0 is None else int(W * x0), y), l); y += int(size * 1.08)
     canvas.save(path)
 
 def main(spec_path):
@@ -129,7 +129,7 @@ def _run(sp, tmp):
             t["t0"], t["t1"] = bounds[a], (bounds[b + 1] if b + 1 < len(lens) else 999)
     inputs = ["-i", base]; chain = "[0:v]"; filt = []
     for k, t in enumerate(sp.get("texts", [])):
-        png = os.path.join(tmp, f"t{k}.png"); text_png(t["text"], png, t.get("size", 88), t.get("y")); inputs += ["-i", png]
+        png = os.path.join(tmp, f"t{k}.png"); text_png(t["text"], png, t.get("size", 88), t.get("y"), t.get("x")); inputs += ["-i", png]
         out = f"[v{k}]"; filt.append(f"{chain}[{k+1}:v]overlay=0:0:enable='between(t,{t['t0']},{t['t1']})'{out}"); chain = out
     n = len(sp.get("texts", [])) + 1
     if sp.get("music"):

@@ -28,13 +28,15 @@ def next_song():
     return list(SONGS)[0]
 
 def make(name, hook, set_id, text, song=None):
-    text = text.replace("\\n", "\n"); s = load(); st = next(x for x in s if x["set"] == set_id)
+    # text = one block (\\n = new line), or a JSON list of blocks [{"text":..,"y":..,"x":..,"size":..}] to copy the original's layout
+    text = text.replace("\\n", "\n"); s = load()
+    texts = [dict({"segs": [0, -1], "size": 80, "y": 0.12}, **b) for b in json.loads(text, strict=False)] if text.strip().startswith("[") else [{"segs": [0, -1], "text": text, "size": 80, "y": 0.12}]; st = next(x for x in s if x["set"] == set_id)
     song = song or next_song(); drop = SONGS.get(os.path.basename(song), 0.0)
     tail = os.path.join(REPO, st["tail"]); hook = os.path.abspath(hook); hd = round(dur(hook), 2)
     out_dir = os.path.join(REPO, "output/videos", name); os.makedirs(out_dir, exist_ok=True)
     spec = {"out": os.path.join(out_dir, f"{name}-FINAL.mp4"), "fps": 30,
             "segments": [{"file": hook, "start": 0, "end": hd, "audio": True}, {"file": tail, "start": 0, "end": round(dur(tail), 2)}],
-            "texts": [{"segs": [0, -1], "text": text, "size": 80, "y": 0.12}],
+            "texts": texts,
             "music": f"music/xmas/{os.path.basename(song)}", "music_start": max(0.0, round(drop - hd, 2)), "music_duck": hd}
     sp = os.path.join(out_dir, "edit.json"); json.dump(spec, open(sp, "w"), indent=1, ensure_ascii=False)
     subprocess.check_call([sys.executable, os.path.join(ROOT, "engine/montage.py"), sp], cwd=ROOT)

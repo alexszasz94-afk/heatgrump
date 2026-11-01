@@ -3,9 +3,9 @@
  "fps": 30,
  "segments": [
   {
-   "file": "/home/user/heatgrump/output/videos/v04/hook.mp4",
+   "file": "/home/user/heatgrump/output/videos/v04/hook-exact.mp4",
    "start": 0,
-   "end": 4.92,
+   "end": 5.0,
    "audio": true
   },
   {
@@ -20,12 +20,12 @@
     0,
     -1
    ],
-   "text": "This is the warmest thing I own 😭🔥",
+   "text": "I'm literally crying 😭",
    "size": 80,
    "y": 0.12
   }
  ],
  "music": "music/xmas/mariah-all-i-want.mp3",
- "music_start": 48.48,
- "music_duck": 4.92
+ "music_start": 48.4,
+ "music_duck": 5.0
 }
