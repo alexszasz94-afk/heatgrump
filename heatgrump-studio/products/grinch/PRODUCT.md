@@ -19,7 +19,8 @@ ALL FOUR robe images (Images 3-6) go into EVERY generation that shows the robe (
 
 ## Fixed clips — connector + remote (ALWAYS these, never generated)
 Made once on 1 Nov 2026 from the kit's Snoopy fabric clips (same real connector and remote as ours), only the fabric changed to the Grinch robe (Kling 4.0 video-edit, recipe `recipes/from-limitless/connector-remote-fabric.md`). Checked frame by frame.
-- **Default, every video:** `fixed/connector-fabric-1.mp4` — grey connector slides COMPLETELY in on the lime-green cuff / red plush — use **0.05 → 1.70** (checked at 24 fps: fully joined, no gap at 1.70; a different shot starts at 1.77 s). `fixed/remote-fabric-1.mp4` (5 s, white remote on red plush, all 5 lights off, then ONE green light climbs, never two) — use **0.3 → 3.0**.
+- **Default, every video (Szasz 1 Nov: "mai natural"):** `fixed/connector-sofa-1.mp4` (same grey connector, on a cozy sofa with the robe draped around, lamp + tree lights blurred behind) — use **0.05 → 1.70** (fully joined, no gap; another shot from 1.79 s); `fixed/remote-sofa-1.mp4` (same white remote on the sofa with the robe around; all off, then ONE green light climbs 1 → 5, checked at 8 fps) — use **0.3 → 3.0**.
+- **Previous version (fabric close-ups, alternates):** `fixed/connector-fabric-1.mp4` — grey connector slides COMPLETELY in on the lime-green cuff / red plush — use **0.05 → 1.70** (checked at 24 fps: fully joined, no gap at 1.70; a different shot starts at 1.77 s). `fixed/remote-fabric-1.mp4` (5 s, white remote on red plush, all 5 lights off, then ONE green light climbs, never two) — use **0.3 → 3.0**.
 - **Alternates, only if a fabric clip fails the check:** `fixed/connector-tree-1.mp4` (woman's hand, next to the tree; use 1.8 → 3.3) and `fixed/remote-tree-1.mp4` (use 1.4 → 3.6).
 - Never make a new one.
 
@@ -69,7 +70,7 @@ LOOK: UGC style, a real unedited iPhone 16 video of a real person in a real home
 ## Standard edit order (ALWAYS: hook → B-roll → connector → remote → cozy; the cozy is ALWAYS the B-roll's own cozy shot — no custom cozy, Szasz 1 Nov)
 1. hook clip(s) `"audio": true` — as long as the original's hook
 2. B-roll part 1: v4 `broll-cut.mp4 0.10 → ~5.5` / v5 `broll.mp4 0.10 → ~3.55`
-3. `fixed/connector-fabric-1.mp4 0.05 → 1.70`
-4. `fixed/remote-fabric-1.mp4 0.3 → 3.0`
+3. `fixed/connector-sofa-1.mp4 0.05 → 1.70`
+4. `fixed/remote-sofa-1.mp4 0.3 → 3.0`
 5. B-roll cozy: v4 `broll-cut.mp4 ~5.75 → ~7.6` / v5 `broll.mp4 ~3.79 → ~5.9`
 `"texts": []` — suggested text in text.txt. Text examples: `DONT send this to a\nGrinch lover...🎄💚` · `my heating bill vs this robe 😳🥶` · `H&M X GRINCH 🎄🎅`.

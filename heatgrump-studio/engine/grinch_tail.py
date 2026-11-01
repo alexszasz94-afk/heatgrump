@@ -19,7 +19,7 @@ else:
     segs = [(src, 0.10, round(cozy - 0.12, 2))]
     tailcozy = (src, round(cozy + 0.12, 2), 5.9)
 fx = os.path.join(ROOT, "products/grinch/fixed")
-segs += [(os.path.join(fx, "connector-fabric-1.mp4"), 0.05, 1.70), (os.path.join(fx, "remote-fabric-1.mp4"), 0.3, 3.0), tailcozy]
+segs += [(os.path.join(fx, "connector-sofa-1.mp4"), 0.05, 1.70), (os.path.join(fx, "remote-sofa-1.mp4"), 0.3, 3.0), tailcozy]
 F = "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,setsar=1,format=yuv420p"
 args, fl = [], []
 for i, (f, a, b) in enumerate(segs):
