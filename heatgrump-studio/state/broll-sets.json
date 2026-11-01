@@ -164,9 +164,10 @@
     "outfit": "a red Fair Isle sweater and navy long pajama pants",
     "sofa": "the cream sectional sofa on the left side of Image 2, under the two framed botanical prints",
     "cozy_bg": "the sage-green wall with the two framed botanical prints",
-    "status": "generating",
+    "status": "ok",
     "uses": [],
-    "job": "a31880d2-6a23-4f69-9b23-71cd74f1b22b"
+    "job": "a31880d2-6a23-4f69-9b23-71cd74f1b22b",
+    "tail": "output/broll-grinch/set11/tail.mp4"
   },
   {
     "set": "set12",
@@ -178,9 +179,10 @@
     "outfit": "a white thermal top and red-and-white checked flannel pajama pants",
     "sofa": "the tan leather sofa on the right side of Image 2, near the white brick fireplace",
     "cozy_bg": "the window and the lit Christmas tree next to it",
-    "status": "generating",
+    "status": "ok",
     "uses": [],
-    "job": "0e0ddbe3-1a0e-4a59-89bd-5f91953cfcf1"
+    "job": "0e0ddbe3-1a0e-4a59-89bd-5f91953cfcf1",
+    "tail": "output/broll-grinch/set12/tail.mp4"
   },
   {
     "set": "set13",
@@ -192,9 +194,10 @@
     "outfit": "a navy Team USA hoodie and grey long joggers",
     "sofa": "the pink sectional sofa in the middle of Image 2",
     "cozy_bg": "the windows with white curtains and the framed pictures",
-    "status": "generating",
+    "status": "ok",
     "uses": [],
-    "job": "ef3dc476-3aff-41d9-b335-f84aa263c854"
+    "job": "ef3dc476-3aff-41d9-b335-f84aa263c854",
+    "tail": "output/broll-grinch/set13/tail.mp4"
   },
   {
     "set": "set14",
@@ -206,9 +209,10 @@
     "outfit": "a cream waffle-knit long-sleeve top and green tartan pajama pants",
     "sofa": "the light-blue sofa on the right side of Image 2, next to the bay window",
     "cozy_bg": "the bay window with the cushioned window seat and the Christmas tree",
-    "status": "generating",
+    "status": "ok",
     "uses": [],
-    "job": "be7a8555-716b-4b2a-bfd7-142622246a64"
+    "job": "be7a8555-716b-4b2a-bfd7-142622246a64",
+    "tail": "output/broll-grinch/set14/tail.mp4"
   },
   {
     "set": "set15",
@@ -220,9 +224,10 @@
     "outfit": "a red-white-and-blue striped long pajama set",
     "sofa": "the dark-green sofa in front of the built-in white shelves of Image 2",
     "cozy_bg": "the built-in white shelves with the TV and the Christmas tree on the left",
-    "status": "generating",
+    "status": "ok",
     "uses": [],
-    "job": "ff4ff19b-cd99-4ef5-8ad6-95711ea1287f"
+    "job": "ff4ff19b-cd99-4ef5-8ad6-95711ea1287f",
+    "tail": "output/broll-grinch/set15/tail.mp4"
   },
   {
     "set": "set16",
@@ -234,10 +239,11 @@
     "outfit": "a red-and-black buffalo-plaid flannel shirt and grey long sweatpants",
     "sofa": "the navy-blue sofa on the left side of Image 2, near the staircase with the garland",
     "cozy_bg": "the window with the woven blind and the framed picture on the white wall",
-    "status": "generating",
+    "status": "ok",
     "uses": [],
     "job": "5062efa6-88f7-4a49-bdf0-541f3eb17b69",
-    "note": "try1 cu 071 (bruneta) a pastrat fata din referinta"
+    "note": "try1 cu 071 (bruneta) a pastrat fata din referinta",
+    "tail": "output/broll-grinch/set16/tail.mp4"
   },
   {
     "set": "set17",
@@ -249,8 +255,9 @@
     "outfit": "a heather-grey Army-style crewneck and red plaid pajama pants",
     "sofa": "the cream sofa in front of the tall windows of Image 2",
     "cozy_bg": "the tall windows with the snowy trees outside",
-    "status": "generating",
-    "uses": []
+    "status": "ok",
+    "uses": [],
+    "tail": "output/broll-grinch/set17/tail.mp4"
   },
   {
     "set": "set18",
@@ -262,8 +269,9 @@
     "outfit": "a white long-sleeve tee and navy star-print long pajama pants",
     "sofa": "the curved mustard-yellow sofa in the middle of Image 2",
     "cozy_bg": "the wood-paneled wall with the abstract framed print and the lamp",
-    "status": "generating",
-    "uses": []
+    "status": "ok",
+    "uses": [],
+    "tail": "output/broll-grinch/set18/tail.mp4"
   },
   {
     "set": "set19",
@@ -275,10 +283,11 @@
     "outfit": "a forest-green waffle-knit top and red-and-green plaid pajama pants",
     "sofa": "the light-grey sofa with plaid pillows in the middle of Image 2",
     "cozy_bg": "the black-framed glass doors and the framed picture",
-    "status": "generating",
+    "status": "ok",
     "uses": [],
     "job": "a06912ec-b465-4bd5-be9b-fe372ed2cbab",
-    "note": "try1 cu 075 a pastrat fata din referinta"
+    "note": "try1 cu 075 a pastrat fata din referinta",
+    "tail": "output/broll-grinch/set19/tail.mp4"
   },
   {
     "set": "set20",
@@ -290,8 +299,9 @@
     "outfit": "a navy-and-red striped rugby sweater and light-grey long joggers",
     "sofa": "the brown leather sofa in front of the windows of Image 2",
     "cozy_bg": "the windows with woven blinds and the lit Christmas tree",
-    "status": "generating",
+    "status": "ok",
     "uses": [],
-    "job": "887dfc74-c64d-4a4e-a127-75ace6d95e93"
+    "job": "887dfc74-c64d-4a4e-a127-75ace6d95e93",
+    "tail": "output/broll-grinch/set20/tail.mp4"
   }
 ]
