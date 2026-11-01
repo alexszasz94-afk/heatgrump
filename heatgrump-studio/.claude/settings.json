@@ -1,0 +1,44 @@
+{
+  "enableAllProjectMcpServers": true,
+  "permissions": {
+    "allow": [
+      "Bash(python3 *)",
+      "Bash(py *)",
+      "Bash(ffmpeg *)",
+      "Bash(ffprobe *)",
+      "Bash(yt-dlp *)",
+      "Bash(curl *)",
+      "Bash(bash setup/check.sh)",
+      "Bash(mkdir *)",
+      "Bash(ls *)",
+      "Bash(cp *)",
+      "Bash(mv *)",
+      "Read",
+      "Write",
+      "Edit",
+      "Glob",
+      "Grep",
+      "mcp__higgsfield__*",
+      "Bash(git status*)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push*)",
+      "Bash(open output*)",
+      "Bash(explorer output*)",
+      "mcp__Higgsfield__*"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR\"/setup/session-start.sh",
+            "timeout": 600
+          }
+        ]
+      }
+    ]
+  }
+}

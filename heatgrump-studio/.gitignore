@@ -1,0 +1,5 @@
+output/*
+!output/.keep
+state/used.json
+library/candidates/
+.env

@@ -1,48 +1,74 @@
-# HOOKS — HeatGrump
+# How to make the hook (first 2–5 seconds)
 
-Un hook = singura parte nouă din fiecare video. Se copiază ACȚIUNEA + AUDIO din viral (structura), cu personajul și camera noastră, steagul american în cadru (18 oct). Textul de pe ecran se adaptează din viral (EN, cu emoji). Rotație: același hook nu de 2 ori în aceeași zi, nu pe același set.
+The hook is copied from a reference reel (Instagram/TikTok link) or built from the user's idea. The robe video after the hook is always the same structure (see `products/<robe>/PRODUCT.md`).
 
-## 1. Dovedite (au mers la noi) — `../library/proven-hooks.json`
+## Step by step
+1. `python3 engine/tools.py download <url> output/<name>/ref` → reference.mp4, its length and its cuts.
+2. SOUND ANALYSIS — ALWAYS (rule 31 Oct, Alex): cut the hook part, upload it and run Higgsfield `video_analysis_create` (WHO says WHAT — mandatory when anyone speaks), then `python3 engine/audio3.py output/<name>/ref/hook-part.mp4 <hook end> output/<name>/a3 "<line from the analysis>"` (add `--no-voice` when the analysis says nobody speaks) (the second of every word, the action sounds, the background). The hook must say the same thing (swap the product name), e.g. "3, 2, 1… let's see how it comes out!" — see "Hook sound" below.
+   `python3 engine/tools.py sheet output/<name>/ref/reference.mp4 output/<name>/ref/sheet.jpg 1.5` and LOOK at the sheet (Read the jpg). Write down: each shot of the hook (what happens, where, camera angle), where the hook ends and the robe part starts, the on-screen text (CLAUDE.md rule 9: word for word with its emojis, ONLY their product/character name swapped for ours), how long the hook is.
+3. For every hook shot pull one frame: `python3 engine/tools.py frame output/<name>/ref/reference.mp4 <second> output/<name>/ref/shot1.jpg` and upload it (it is the composition reference).
+4. Make one START FRAME per hook shot (image), check it, then ANIMATE it (video), check it, trim it.
+4b. OBJECT MAP — ALWAYS, before any prompt (rule 28 Oct, Alex: "when you start a video you study what objects there are"). Look at the sheet and write one line per object in their hook with its ROLE:
+   - PRODUCT (what they sell / reveal) → becomes OUR robe, and it must READ as a robe (hood with face, sleeves, length — never a cape, poncho or blanket).
+   - PACKAGING (their box/bag with their brand) → OUR box with OUR brand printed in the same place (HEATGRUMP box, HeatPup box…).
+   - PROP themed like their product (Elsa blanket, Disney Princess pillow, crown-embroidered cover cloth) → the SAME kind of object with OUR character print (Grinch/Snoopy blanket, pillow, cloth). A prop never becomes the robe.
+   - Neutral prop (plain white blanket, table, cart) and the place → stay exactly as they are; store logos stay.
+   - Something of their product that has no place in ours (their projector device, their sleigh light) → removed.
+   Make one `gpt_image_2_5` (`quality: "high"`) reference image (9:16, 4k) for every changed prop/packaging, check spelling and look, and give it to Kling as an image reference. Write the map in the prompt as `OBJECT MAP, exactly like the input: …`. After generating, check every frame against the map (`check`).
+5. Make it make sense for OUR robe: replace their product with ours (folded robe, robe on a hanger, our gift box, people wearing our robe). Logos and brands from the reference (store signs, H&M, Burger King, McDonald's, Walmart…) ALWAYS stay exactly as in the reference — never remove, blur or replace them (rule, 26 Oct). Blur ONLY the on-screen text the creator added on top of the video, never a logo or sign in the scene; and write in the prompt `KEEP the store/place exactly as in the input video, including its sign, logos and posters`.
 
-| cheie | concept | texte |
+## Best way: copy the reference shot itself (motion stays exactly like theirs)
+When a hook shot is a simple person+object action (holding/dropping the robe, unrolling, throwing it on), copy it 1:1 with Kling video-edit:
+1. Make the Kling input with `python3 engine/tools.py hookinput output/<name>/ref/reference.mp4 <hook end> output/<name>/hook-in.mp4` (rule 31 Oct, Alex): silent, 0 → hook end, the last frame frozen up to the next whole second (min 3 s) — never the next scene. (A single shot shorter than 3 s that must stay moving: slow it with `setpts=1.45*PTS` and speed the result back up with `setpts=PTS/1.45`.)
+2. Remove their on-screen text WITHOUT blur (Kling copies a blur patch into the video as a smudge). FIRST (rule 31 Oct, Alex — before any clean image is made): `python3 engine/tools.py still output/<name>/hook-in.mp4 0 <hook end>`. NO → skip cleantext completely: leave the caption in the input and write `remove the caption text completely` in the Kling prompt (that works). YES → also look that nothing (hand, product) passes through the caption box; then take one frame (`ffmpeg -ss 0.5 -i ref.mp4 -frames:v 1 -q:v 1 frame.jpg`), upload it and make it clean with `gpt_image_2_5` (`quality: "high"`) (9:16, 4k, frame as `image_references`): `Edit Image 1: keep the photo exactly the same, pixel for pixel - same place, same people, same logos and signs, same light, same framing. Change ONLY: remove the caption text '<their text>' and the emojis floating over the picture, and fill that area with what is naturally behind it. Do not change anything else. No added text.` Then `python3 engine/tools.py cleantext ref.mp4 frame-clean.jpg hook-ref.mp4 <l> <t> <r> <b>` with the box(es) of their text (fractions 0–1; one box per text line/emoji row, never over a face) and look at 3 frames: text gone, nothing smudged, faces untouched. (cleantext itself refuses when the camera moves.) Never use blur.
+3. Upload it (WITHOUT its sound: `-an`), `generate_video` `kling4_0`, `mode: "video-edit"`, `resolution: "1080p"`, `aspect_ratio: "9:16"`, `video_references` = that clip, `image_references` in this order (one numbering everywhere, rule 31 Oct, Alex): Image 1 = our woman (character photo, head+shoulders crop), Image 2 = the PLACE (rule 31 Oct, Alex: hook at home → our room; hook elsewhere — store, McDonald's drive-thru, car, street → THEIR place: a clean frame of the reference, store/restaurant/brand signs kept exactly, rule 9b; our room is then only for the B-roll), then the product refs (robe front = Image 3, back = Image 4) and after them any box/prop reference images (Image 5, 6…). Prompt: `Edit the input video. Keep EXACTLY the same shot, framing, camera position, body movements and timing: <one line of what happens>. Change only: the person to the woman of Image 1 (same face; she wears <the line in output/<name>/outfit.txt, copied word for word>), the place to Image 2 (at home: `the room becomes the living room of Image 2`; elsewhere: `keep the place of Image 2 exactly, with its signs and logos`), and the robe to Image 3 (front) and Image 4 (back) reproduced one to one: <robe words from PRODUCT.md>. No text anywhere. UGC style, real iPhone video, soft natural light, true colours. No text. Silent.`
+3b. BEFORE writing the prompt, analyze the original at 10 fps (`ffmpeg -i hook-ref.mp4 -vf "fps=10,scale=110:-1,tile=10x4" sheet.jpg`, Read it) and write a timeline of EVERY action with its seconds and speed, then put that timeline in the prompt, e.g. `0.0–2.7 s: she holds the rolled robe at face height and sways it slowly left and right. 2.8 s: she lets go of the bottom; the robe unrolls downward SLOWLY and softly with real fabric weight, taking about 0.4 s, fully hanging at 3.1 s. Every action at exactly the same speed and second as the input video, never faster, never rushed.` Kling tends to speed actions up (the robe falls too fast) — the timeline with seconds + `slowly, with real weight, same speed as the input` is what holds it.
+4. Write the sound into this same prompt: replace `Silent.` with the 3-layer SOUND block (CLAUDE.md rule 9e, seconds from audio3; a full sentence after a pause asked 0.4 s earlier; room tone only, never music). Only when nobody speaks and there are no action sounds worth keeping, leave `Silent.`.
+5. MOTION MUST BE IDENTICAL, never rushed (main action early/late by > 0.3 s → `tools.py hold`, CLAUDE.md 9f.5; for a long still wait > 2 s before the action, a start frame + image-to-video is the second option): make a 10 fps strip of the original and of ours for the key moment (e.g. the robe dropping) and put them one above the other (`ffmpeg ... -vf "fps=10,scale=110:-1,tile=14x1"` for both, then `vstack`). The robe must start falling on the same frame, fall at the same speed and hang the same way; the cut must be at the same second as the original (find it with `cuts` on both). Off by more than 0.1 s → trim our clip to the original's cut second; action faster/different → generate again with `Keep the exact speed of the input video, not faster` and the exact second of the action in the prompt.
+6. Check the end on a 10 fps sheet and trim before anything strange (e.g. a hood suddenly filled like a mannequin).
+Use start frame + animate (below) only when the shot needs a new place or object that the reference doesn't have.
+
+## Start frame = image
+`generate_image_batch` with `model: "gpt_image_2_5"`, `quality: "high"`, `aspect_ratio: "9:16"`, `resolution: "4k"`, every media with role `"image_references"`, in this order (one numbering everywhere, rule 31 Oct, Alex): Image 1 = our woman (character photo, if a person is visible), Image 2 = the place (our room if the hook is at home; elsewhere a clean frame of THEIR place, signs kept — rule 31 Oct, Alex), then the reference frame (composition), then the robe refs needed (front + hood for Snoopy; front + back for the princess), then box/prop refs if they appear. Number the images in the prompt in exactly this order.
+Prompt pattern:
+```
+A new real candid photo with the SAME composition, framing and camera angle as Image <N of the reference frame>: <where (the place of Image 2), what is around, people in the background, Christmas details>. THE WOMAN: exactly the woman of Image 1, same face one to one, <hair>, wearing <the line in output/<name>/outfit.txt, word for word (rule 31 Oct, Alex)>. <what she does / holds, with sizes>. THE ROBE: reproduced one to one from Image(s) <N–M>: <short robe description from PRODUCT.md>; copy it, do not design it. <expression: natural, spontaneous, not posing>. Correct hands with five fingers. <then the quality blocks: prompts/blocks/look.txt + light.txt + no-text.txt, word for word>
+```
+Shot WITHOUT the robe visible (wrapped gift, bundle, closed box, line outside a store, selfie before the reveal): same pattern, but drop the "THE ROBE" sentence and attach NO robe refs; describe the object instead with its size and material, e.g. `She holds in both arms a big soft bundle (about 50 cm wide) wrapped in cream satin and tied with a red ribbon; it is clearly a separate object from her dress, held in front of her chest.` If the next shot reveals the robe, say what colour the wrap is so it can never be mistaken for the robe.
+
+CHECK every start frame before animating (Read the image): same face as the character photo, robe matches the refs (hood, colours, trim, embroidery), hands have five fingers, no text, box/props big and realistic, nothing weird. If something is wrong → generate again with the fix written in the prompt.
+
+## Animate = video
+`generate_video_batch` with `model: "kling4_0"`, `mode: "image-to-video"`, `resolution: "1080p"`, `aspect_ratio: "9:16"`, `duration: 3` (5 for longer actions), `declined_preset_id: "24bae836-2c4a-48e0-89b6-49fcc0b21612"`, medias: start frame job id with role `"start_image"` + the character photo with role `"image_references"` when a face is visible. Do NOT add white-background product photos here (Kling jumps to them at the end). The character photo can ALSO make Kling jump to it in the last 0.3–1 s — that is normal, you just trim it (see Trim). Objects held against clothes (a wrapped bundle against a dress) tend to melt into the clothes: write `the bundle stays a separate object with its own shape and colour the whole time; it never merges with her dress` and keep the action short (duration 3).
+Prompt pattern:
+```
+One continuous real handheld phone video, starting exactly on the start image, no cuts, no zoom. <exact action, step by step, natural>. <what must stay the same: the robe/box/place exactly as in the start image>. No flicker, correct hands with five fingers. <quality blocks: prompts/blocks/look.txt + light.txt + motion.txt + no-text.txt, word for word>. <the 3-layer SOUND block of CLAUDE.md rule 9e, or `Silent.` when nobody speaks>
+```
+Never ask for snow/dust blowing in the wind (it makes a fake steam cloud).
+
+## Hook sound (rule 31 Oct, Alex — the ONE way)
+The sound is made by Kling in the SAME generation as the picture, never afterwards and never with another model (no Seedance, ever). Steps = CLAUDE.md rule 9e: Higgsfield `video_analysis` (who says what) → `engine/audio3.py` (seconds of every word, action sounds, background) → the 3-layer SOUND block in the hook prompt (sentences after a pause asked 0.4 s earlier; room tone only, our song comes in the edit) → after generating `tools.py compare-audio` = ADVICE ONLY (rule 31 Oct, Alex): listen yourself and regenerate only for a real problem you hear (wrong/missing/extra words, music, a word clearly > 0.3 s off); the reveal second in the picture early/late → `tools.py hold` in the edit, not a regeneration.
+No speech in the analysis (song only) → audio3 with `--no-voice`, no voice in ours; our song from PRODUCT.md, drop on the hook → B-roll cut.
+
+## Trim (always)
+Kling often ends the clip by jumping to one of the reference photos or fading to black. Run `python3 engine/tools.py safe-end <clip>` AND look at `sheet <clip> ... 4`; cut the clip before the jump. Also cut slow starts and anything unnatural. safe-end only finds hard cuts: always check the end on a 10 fps sheet yourself (zoom jumps, melting, a face that changes).
+
+## Short hook (only a little of a clip is usable)
+A copied hook is EXACTLY as long as the original's hook (CLAUDE.md rule 9o); a hook from an idea is 3–7 s, each shot 1.2–3.5 s. If a clip is only usable for ~1.2 s:
+1. Try once more with the fix in the prompt (shorter action, "stays a separate object").
+2. Still short → keep the good 1.2 s and make the NEXT shot longer (up to 3.5 s), or add one extra simple shot from the same start frame (e.g. a closer framing of the same moment, `generate_image` with the first start frame as composition ref + "closer, waist up"), animated 3 s.
+3. A 2.5–3 s hook that looks real is better than a 4 s hook with a glitch — never keep a melting/morphing frame to reach the length.
+
+## Proven hook concepts (all made and approved)
+| concept | shots (start frames) | text |
 |---|---|---|
-| 321_reveal | 3, 2, 1 reveal | 3… 2… 1… / Wait for it… |
-| store_customer | În magazin – clienta cu coșul | Found it at the store and I'm not leaving without it / Nope. Not walking past this one. |
-| store_launch | În magazin – lansare cu panglică | Grand opening. 3… 2… 1… / They finally opened it |
-| store_employee_reveal | În magazin – angajații dezvăluie raionul | Restock day. Blink and it's gone. / We're not supposed to show you this yet |
-| gifting | Gifting – 'I'm freezing' / 'Take this' | Oh my God, I'm freezing / Take this. |
-
-## 2. Virale NEFOLOSITE (coadă) — `../library/style-ref/index.json`, sortate după vizualizări
-
-| cont | cod | views | durată | caption |
-|---|---|---|---|---|
-| merry.jammies | [DdoAhGnqbp9](https://www.instagram.com/p/DdoAhGnqbp9/) | 10,662 | 16 s | Who’s getting you this? 😭🎁 |
-| merry.jammies | [Ddd1-f7quwj](https://www.instagram.com/p/Ddd1-f7quwj/) | 9,739 | 15 s | Who you getting this with? 😂👇 |
-| snuglore | [DdrN-2yNZSP](https://www.instagram.com/p/DdrN-2yNZSP/) | 8,566 | 15 s | 1987 vs 2027 😭🩸 comment "COZY" for the link 🎄 |
-| merry.jammies | [DdKpI0GPfzI](https://www.instagram.com/p/DdKpI0GPfzI/) | 6,762 | 13 s | The best gift I’ve ever received 🥹🎁 |
-| merry.jammies | [DdzbBzRq60t](https://www.instagram.com/p/DdzbBzRq60t/) | 4,744 | 15 s | It’s like a portable sauna 🤩 |
-| snuglore | [DdpEr61txnq](https://www.instagram.com/p/DdpEr61txnq/) | 4,591 | 19 s | DONT send this to an anemicholic… 🎅❄️ she will never be cold |
-| merry.jammies | [Dda8n1dqQQb](https://www.instagram.com/p/Dda8n1dqQQb/) | 4,364 | 13 s | She won’t take it off 🤭🎁 |
-| snuglore | [DdtvDfxtaWd](https://www.instagram.com/p/DdtvDfxtaWd/) | 4,157 | 16 s | DONT show this to a mom… 🎅🎄 she'll buy one for every kid. |
-| snuglore | [DdpKVE7N1_y](https://www.instagram.com/p/DdpKVE7N1_y/) | 4,141 | 16 s | the concept: a hairdryer. the result: this 😭❄️ |
-| snuglore | [Ddt6XSQt13d](https://www.instagram.com/p/Ddt6XSQt13d/) | 3,789 | 13 s | moms, look away 😳🎄 comment "COZY" for the link 🫶 |
-| snuglore | [DdrRz19tHXy](https://www.instagram.com/p/DdrRz19tHXy/) | 3,711 | 11 s | stop heating the whole house 😳🥶 comment "COZY" for the link  |
-| merry.jammies | [DdzZprOKOBH](https://www.instagram.com/p/DdzZprOKOBH/) | 3,544 | 15 s | Yes… I do 🤭 |
-| snuglore | [Ddtb0HgN4E5](https://www.instagram.com/p/Ddtb0HgN4E5/) | 2,691 | 11 s | my heating bill vs this robe 😳🥶 not even close. |
-| snuglore | [Dd9qF7SN4vl](https://www.instagram.com/p/Dd9qF7SN4vl/) | 2,048 | 17 s | my heating bill vs this robe 😳🥶 not even close. |
-| snuglore | [Dd_9vGdNAMm](https://www.instagram.com/p/Dd_9vGdNAMm/) | 499 | 17 s | DON'T send this to your mom… unless you're ready to buy two. |
-| snuglore | [DeAEm2xtRXy](https://www.instagram.com/p/DeAEm2xtRXy/) | 201 | 17 s | Best gift for your boyfriend… and the one you'll end up stea |
-| snuglore | [DeAJs3ZNZON](https://www.instagram.com/p/DeAJs3ZNZON/) | 1 | 19 s | "I'll just try it on real quick" — her, three hours ago. 🤍 |
-
-## 3. Deja folosite (nu se refac fără motiv)
-
-Dc-rr2WKSRR, Dd6Ik80yLIE, Dd9h35Ly2Ca, DdK34IiqRx4, DdLiUc7t1Yb, DdM8MhjyQwF, DdPQK-CPQ6r, DdQw1jyKI63, DdSNI1ITcu6, DdTC2suKD0l, DdX3q9kzIls, Ddii6mOKO2G, DdmI16ft-rc, DdpIYs0trT0, DeAepvaSfSf, DeAgPjvyBF1, DeAgyTpyKYj, DeCsbOaSJAY, DeDAprJSrPO, DeDFKhASW-w
-
-## 4. Tipare de text care merg (din captions virale)
-
-- „DONT send this to a mom… 🎅🎄” · „my heating bill vs this robe 😳🥶” · „the concept: a hairdryer. the result: this 😭❄️”
-- „Who's getting you this? 😭🎁” · „She won't take it off 🤭🎁” · „The best gift I've ever received 🥹🎁”
-- „stop heating the whole house 😳🥶” · „1987 vs 2027 😭” · „Yes… I do 🤭”
-
-## 5. Hook-wall Grinch din limitless
-`limitless/creators-board/site/competition.json` (nișa Grinch) — NEACCESAT încă (vezi KIT-NOTES.md). Când e disponibil, se adaugă aici linkurile dovedite.
+| Castle gift reveal | 1) woman in a long cream dress in front of a snowy Christmas castle holding a soft bundle wrapped in satin/linen with a ribbon → animate: pulls the ribbon. 2) same place, she holds the robe up by the shoulders, wrap hanging from her arm → animate: shakes it, hugs it | `Snoopy girlies, pls\ndon't hate... 🥺🐶` / `Princess girlies, pls\ndon't hate...🥺👑` |
+| Fast-food collab | 1) restaurant outside: long line of people in Christmas sweaters, poster of our robe in the window 2) POV at the counter: cashier pushes a tray with a drink + our big gift box 3) POV carrying the tray to a table, lifting the box | `Burger King\nX\nSNOOPY 🐶🎄` then `Jk, we make them 🤭\n(Link in bio)` |
+| Store opening | 1) ribbon cutting at an H&M entrance, balloon arch, staff clapping, mannequins in our robe, phones filming 2) line at the store 3) POV taking our robe off a rail | `H&M X SNOOPY\n🤩🐶` |
+| Store curtains | 1) two sales assistants open cream curtains → shelves full of folded robes 2) POV unfolding a folded robe on a fluffy rug, cat in the back | `Don't show this to a\nSnoopy lover...🥺🐶` |
+| Mall run | 1) front-camera selfie in a mall with a coffee, shocked face, drops the coffee 2) look down from the railing at a huge line 3) line at the store 4) POV grabbing the robe from the rail | `DONT Show this to a\nSNOOPY LOVER...❄️🎄` |
+| Yule log | woman holds a platter with the robe rolled up like a Christmas yule-log cake, a wooden board on top → lifts the board and tosses it | `DONT Show this to a\nSNOOPY LOVER...🎄🐶` |
+| Two friends | two women hold rolled robes in front of their faces (hood on top) → they let the robes drop open to full length | `DONT Show this to a\nSNOOPY LOVER...🎄❄️` |
+| Bag + trash | 1) hand holds the robe folded in a clear plastic bag in a home library 2) woman in the robe walks out the front door (from behind, robe trailing) 3) woman in the robe rolls the trash bin down the driveway | `Do NOT show this to a\nSnoopy lover 😍🐶` |
+| Car gift | 1) at night in the car, woman with a BIG wrapped gift on her lap, laughs 2) top-down POV tearing the paper → our big gift box | `Do NOT let a Snoopy\nlover see this... 🐶💕` |
+| "It's just a robe" (whole clip, no B-roll) | top-down from the ceiling: 1) woman lying on a rug in pyjamas, bored 2) same place in the robe, hood up, dreamy 3) wrapped in the robe hugging herself. Add `fanwipe` at each cut | `"It's just a robe..🙄"` then `The robe: ...🥺🐶` (both at the top, y 0.08) |

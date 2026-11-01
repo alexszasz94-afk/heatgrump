@@ -1,0 +1,15 @@
+{
+  "grinch_front": "a9ebff95-7b4e-4a10-92f5-4c9377d01fd4",
+  "grinch_side": "b3adf7e2-adcd-4ffc-9989-1fa0c822c78f",
+  "grinch_hood": "28a3d14b-3578-4569-bcf2-33a84d478cc0",
+  "grinch_back": "71882d2b-aeab-4cc1-afa3-4f9d1a1951c5",
+  "grinch_pockets_1": "4c8447f5-3760-4a6a-956b-8274b75d234d",
+  "grinch_pockets_2": "387d0b88-6bcf-46ed-aeae-bb80ab41d32a",
+  "grinch_box": "5e8840d4-d514-4016-9fa3-e0893a13bdee",
+  "characters": {
+    "character-05.jpg": "364e53ee-260c-4f0e-95ea-1cf856049d64"
+  },
+  "rooms": {
+    "room-4k-04.jpg": "c1715b7c-c317-4b96-9d7c-24f47c6d18f7"
+  }
+}

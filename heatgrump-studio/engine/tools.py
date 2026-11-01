@@ -201,7 +201,7 @@ def fanwipe(f, out, times):
 BROLL_VARIANTS = {   # rule 31 Oct (Alex): ONLY the 2 proven B-roll variants per robe, rotating (never the same twice in a row).
     # key: (motion file = OUR finished silent reference B-roll, duration for Kling, edit note). Prompt = PRODUCT.md section "B-roll v4" / "B-roll v5".
     "v4": ("motion/{robe}-v4.mp4", 8, "put on (back, hood) + foot pockets + cozy sitting WIDE on the real sofa; AFTER generating ALWAYS run `tools.py cutjerk` (cuts 3.10-3.40 s)"),
-    "v5": ("motion/{robe}-v5.mp4", {"princess": 6, "snoopy": 7}, "sleeves + back + lying on the sofa + cozy lying WIDE on the real sofa; no foot-pocket shot"),
+    "v5": ("motion/{robe}-v5.mp4", {"princess": 6, "snoopy": 7, "grinch": 6}, "sleeves + back + lying on the sofa + cozy lying WIDE on the real sofa; no foot-pocket shot"),
 }
 
 XMAS_SONGS = {   # rule 30 Oct (Alex): rotating Christmas songs, shared pool for both robes - file in music/xmas/, drop second (the full-band/chorus entry, LISTEN-checked)
@@ -289,6 +289,8 @@ def photo_ok(f, min_side=1080, min_sharp=150):
 
 
 FIXED_TIMES = {   # rule 31 Oct (Alex): checked frame by frame at 24 fps - princess connector: another hand 0-0.12 s; both: 1 flash frame at 1.67 s
+    ("grinch", "connector-fabric-1.mp4"): "0.05 -> 1.70 (checked 1 Nov at 24 fps: fully joined, no gap; a different shot starts at 1.77 s)",
+    ("grinch", "remote-fabric-1.mp4"): "0.3 -> 3.0 (all off, then ONE light climbing, never two)",
     ("princess", "connector-fabric-1.mp4"): "0.15 -> 1.63 (clean range: another hand before 0.13 s, a flash frame at 1.67 s)",
     ("snoopy", "connector-fabric-1.mp4"): "0.05 -> 1.63 (clean range: a flash frame at 1.67 s)",
     ("princess", "remote-fabric-1.mp4"): "0.3 -> 3.0 (one light climbing, never two)", ("snoopy", "remote-fabric-1.mp4"): "0.3 -> 3.0 (one light climbing, never two)",
