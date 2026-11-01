@@ -7,9 +7,31 @@
   "grinch_pockets_2": "387d0b88-6bcf-46ed-aeae-bb80ab41d32a",
   "grinch_box": "5e8840d4-d514-4016-9fa3-e0893a13bdee",
   "characters": {
-    "character-05.jpg": "364e53ee-260c-4f0e-95ea-1cf856049d64"
+    "character-05.jpg": "364e53ee-260c-4f0e-95ea-1cf856049d64",
+    "character-07.jpg": "f558503b-aebe-4a44-8f5b-0610ac823073",
+    "character-22.jpg": "b0961725-8949-4f08-992c-95eb229770ef",
+    "character-25.jpg": "d2c4f79c-d2d0-4c6a-bcac-d61f18f48fb0",
+    "character-26.jpg": "fe30fcf0-3ccf-4b7a-8d7c-82f8bd9561cb",
+    "character-29.jpg": "eea7024d-d2e1-4b34-9a1b-d5ecf5b723ab",
+    "character-30.jpg": "58996f04-f9e8-45fa-97b9-ede3cf7c28d6",
+    "character-31.jpg": "dcd16144-13d4-4db0-9b90-3ca8104685b2",
+    "character-35.jpg": "883c70ac-004f-4d6d-9997-b360d9314aff",
+    "character-37.jpg": "fb422c73-4f40-4cfb-95ad-2e6d23f094dc",
+    "character-02.jpg": "46a5845b-0378-4bc6-a40e-b4ab597a20a7"
   },
   "rooms": {
-    "room-4k-04.jpg": "c1715b7c-c317-4b96-9d7c-24f47c6d18f7"
-  }
+    "room-4k-04.jpg": "c1715b7c-c317-4b96-9d7c-24f47c6d18f7",
+    "room-4k-01.jpg": "b22bf3fd-7406-4f4a-8a29-6932af0bf795",
+    "room-4k-02.jpg": "61e267d6-e007-47a3-b791-3139622089bd",
+    "room-4k-03.jpg": "53866703-61a6-4eef-9b32-f6968f8a729b",
+    "room-4k-06.jpg": "b837cdfe-4894-4c6e-8d3e-048bbfd0f8e0",
+    "room-4k-07.jpg": "89805af7-71c8-4930-9df3-f4a7d30f405c",
+    "room-4k-08.jpg": "c5289bb6-d236-420a-a91f-997c191e7d6c",
+    "room-4k-10.jpg": "d5db4701-b956-478a-8d65-dec4a35c0779",
+    "room-4k-13.jpg": "7f5b4d51-6433-422e-b9fc-15aa1b23c31a",
+    "room-4k-15.jpg": "85020cef-1e80-48db-a2b8-b2f9d76acc48",
+    "room-4k-16.jpg": "acb8848d-d70d-4af6-bdb7-eb6f7b3da9c5"
+  },
+  "grinch_v4": "6f687894-2999-4f37-8e92-8eabadcec02d",
+  "grinch_v5": "418f9628-f6eb-43df-828b-eab97667fb27"
 }
