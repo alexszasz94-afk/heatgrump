@@ -1,0 +1,51 @@
+{
+ "file": "/home/user/heatgrump/output/videos/v05/hook-raw.mp4",
+ "hook_end": 4.97,
+ "higgsfield_line": "",
+ "no_voice": false,
+ "part1_voice": {
+  "who": "nobody speaks",
+  "phrases": [],
+  "words": []
+ },
+ "part2_action_sounds": [
+  {
+   "start": 1.43,
+   "peak": 1.44,
+   "end": 1.5,
+   "peak_db": -5.6,
+   "centroid_hz": 399,
+   "kind": "low thump/step",
+   "during_speech": false,
+   "matches_movement": false
+  },
+  {
+   "start": 1.91,
+   "peak": 1.91,
+   "end": 2.03,
+   "peak_db": -7.7,
+   "centroid_hz": 491,
+   "kind": "low thump/step",
+   "during_speech": false,
+   "matches_movement": false
+  },
+  {
+   "start": 4.39,
+   "peak": 4.42,
+   "end": 4.49,
+   "peak_db": -5.3,
+   "centroid_hz": 560,
+   "kind": "low thump/step",
+   "during_speech": false,
+   "matches_movement": false
+  }
+ ],
+ "part2_picture_movements": [],
+ "part3_background": [
+  {
+   "t": "0.0-5.0",
+   "kind": "sound",
+   "level_db": -13.2
+  }
+ ]
+}

@@ -1,0 +1,113 @@
+{
+ "file": "/home/user/heatgrump/output/videos/v02/hook-raw.mp4",
+ "hook_end": 4.07,
+ "higgsfield_line": "",
+ "no_voice": false,
+ "part1_voice": {
+  "who": "high voice (woman/child)",
+  "phrases": [
+   {
+    "text": "Whites?",
+    "start": 1.02,
+    "end": 1.41,
+    "words_per_s": 2.6
+   },
+   {
+    "text": "Drooms?",
+    "start": 2.12,
+    "end": 3.46,
+    "words_per_s": 0.7
+   }
+  ],
+  "words": [
+   {
+    "word": "Whites?",
+    "start": 1.02,
+    "end": 1.41,
+    "len": 0.39,
+    "peak_db": -0.0,
+    "pitch_hz": 188,
+    "tone": "normal"
+   },
+   {
+    "word": "Drooms?",
+    "start": 2.12,
+    "end": 3.46,
+    "len": 1.34,
+    "peak_db": -2.6,
+    "pitch_hz": 256,
+    "tone": "stretched"
+   }
+  ]
+ },
+ "part2_action_sounds": [
+  {
+   "start": 3.32,
+   "peak": 3.4,
+   "end": 3.63,
+   "peak_db": -7.6,
+   "centroid_hz": 277,
+   "kind": "low thump/step",
+   "during_speech": true,
+   "matches_movement": true
+  }
+ ],
+ "part2_picture_movements": [
+  {
+   "start": 3.03,
+   "end": 3.07,
+   "peak": 3.03,
+   "strength": 3.5,
+   "type": "movement"
+  },
+  {
+   "start": 3.17,
+   "end": 3.23,
+   "peak": 3.2,
+   "strength": 17.7,
+   "type": "movement"
+  },
+  {
+   "start": 3.33,
+   "end": 3.4,
+   "peak": 3.37,
+   "strength": 21.8,
+   "type": "movement"
+  },
+  {
+   "start": 3.5,
+   "end": 3.57,
+   "peak": 3.53,
+   "strength": 13.6,
+   "type": "movement"
+  },
+  {
+   "start": 3.67,
+   "end": 3.73,
+   "peak": 3.67,
+   "strength": 8.9,
+   "type": "movement"
+  },
+  {
+   "start": 3.83,
+   "end": 3.9,
+   "peak": 3.87,
+   "strength": 5.8,
+   "type": "movement"
+  },
+  {
+   "start": 4.0,
+   "end": 4.03,
+   "peak": 4.0,
+   "strength": 9.5,
+   "type": "movement"
+  }
+ ],
+ "part3_background": [
+  {
+   "t": "0.0-4.0",
+   "kind": "sound",
+   "level_db": -32.5
+  }
+ ]
+}

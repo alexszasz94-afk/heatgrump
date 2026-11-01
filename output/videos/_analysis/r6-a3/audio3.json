@@ -1,0 +1,120 @@
+{
+ "file": "/home/user/heatgrump/output/videos/_analysis/r6-hookpart.mp4",
+ "hook_end": 4.07,
+ "higgsfield_line": "",
+ "no_voice": false,
+ "part1_voice": {
+  "who": "high voice (woman/child)",
+  "phrases": [
+   {
+    "text": "One,",
+    "start": 0.89,
+    "end": 1.47,
+    "words_per_s": 1.7
+   },
+   {
+    "text": "two,",
+    "start": 2.05,
+    "end": 2.55,
+    "words_per_s": 2.0
+   },
+   {
+    "text": "three.",
+    "start": 3.43,
+    "end": 4.02,
+    "words_per_s": 1.7
+   }
+  ],
+  "words": [
+   {
+    "word": "One,",
+    "start": 0.89,
+    "end": 1.47,
+    "len": 0.58,
+    "peak_db": -5.4,
+    "pitch_hz": 216,
+    "tone": "stretched"
+   },
+   {
+    "word": "two,",
+    "start": 2.05,
+    "end": 2.55,
+    "len": 0.5,
+    "peak_db": -4.4,
+    "pitch_hz": 241,
+    "tone": "stretched"
+   },
+   {
+    "word": "three.",
+    "start": 3.43,
+    "end": 4.02,
+    "len": 0.59,
+    "peak_db": 0.0,
+    "pitch_hz": 271,
+    "tone": "louder/shouted, stretched"
+   }
+  ]
+ },
+ "part2_action_sounds": [
+  {
+   "start": 1.35,
+   "peak": 1.36,
+   "end": 1.39,
+   "peak_db": -51.2,
+   "centroid_hz": 924,
+   "kind": "mid tap/knock/paper",
+   "during_speech": true,
+   "matches_movement": false
+  },
+  {
+   "start": 3.43,
+   "peak": 3.54,
+   "end": 3.64,
+   "peak_db": -41.4,
+   "centroid_hz": 2107,
+   "kind": "mid tap/knock/paper",
+   "during_speech": true,
+   "matches_movement": true
+  },
+  {
+   "start": 4.01,
+   "peak": 4.02,
+   "end": 4.07,
+   "peak_db": -51.4,
+   "centroid_hz": 1413,
+   "kind": "mid tap/knock/paper",
+   "during_speech": true,
+   "matches_movement": true
+  }
+ ],
+ "part2_picture_movements": [
+  {
+   "start": 3.6,
+   "end": 3.7,
+   "peak": 3.67,
+   "strength": 3.7,
+   "type": "movement"
+  },
+  {
+   "start": 3.8,
+   "end": 3.87,
+   "peak": 3.83,
+   "strength": 10.8,
+   "type": "movement"
+  },
+  {
+   "start": 3.97,
+   "end": 4.03,
+   "peak": 4.0,
+   "strength": 24.1,
+   "type": "movement"
+  }
+ ],
+ "part3_background": [
+  {
+   "t": "0.0-4.1",
+   "kind": "sound",
+   "level_db": -35.3
+  }
+ ]
+}

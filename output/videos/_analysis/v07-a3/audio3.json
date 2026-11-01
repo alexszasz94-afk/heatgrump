@@ -1,0 +1,148 @@
+{
+ "file": "/home/user/heatgrump/output/videos/v07/hook-raw.mp4",
+ "hook_end": 5.4,
+ "higgsfield_line": "",
+ "no_voice": false,
+ "part1_voice": {
+  "who": "high voice (woman/child)",
+  "phrases": [
+   {
+    "text": "... ... ... ... You",
+    "start": 0.0,
+    "end": 5.39,
+    "words_per_s": 0.9
+   }
+  ],
+  "words": [
+   {
+    "word": "...",
+    "start": 0.0,
+    "end": 3.19,
+    "len": 3.19,
+    "peak_db": -40.9,
+    "pitch_hz": null,
+    "tone": "louder/shouted, stretched"
+   },
+   {
+    "word": "...",
+    "start": 3.21,
+    "end": 3.39,
+    "len": 0.18,
+    "peak_db": -23.3,
+    "pitch_hz": 70,
+    "tone": "louder/shouted"
+   },
+   {
+    "word": "...",
+    "start": 3.48,
+    "end": 4.26,
+    "len": 0.78,
+    "peak_db": -53.9,
+    "pitch_hz": 499,
+    "tone": "stretched"
+   },
+   {
+    "word": "...",
+    "start": 4.28,
+    "end": 5.22,
+    "len": 0.94,
+    "peak_db": -54.5,
+    "pitch_hz": 499,
+    "tone": "stretched"
+   },
+   {
+    "word": "You",
+    "start": 5.24,
+    "end": 5.39,
+    "len": 0.15,
+    "peak_db": -54.6,
+    "pitch_hz": null,
+    "tone": "normal"
+   }
+  ]
+ },
+ "part2_action_sounds": [
+  {
+   "start": 3.14,
+   "peak": 3.16,
+   "end": 3.29,
+   "peak_db": -8.7,
+   "centroid_hz": 321,
+   "kind": "low thump/step",
+   "during_speech": true,
+   "matches_movement": true
+  }
+ ],
+ "part2_picture_movements": [
+  {
+   "start": 1.03,
+   "end": 1.07,
+   "peak": 1.03,
+   "strength": 6.2,
+   "type": "movement"
+  },
+  {
+   "start": 2.93,
+   "end": 3.07,
+   "peak": 3.0,
+   "strength": 14.1,
+   "type": "movement"
+  },
+  {
+   "start": 3.17,
+   "end": 3.23,
+   "peak": 3.2,
+   "strength": 25.8,
+   "type": "hard cut"
+  },
+  {
+   "start": 3.33,
+   "end": 3.4,
+   "peak": 3.33,
+   "strength": 24.9,
+   "type": "movement"
+  },
+  {
+   "start": 3.5,
+   "end": 3.57,
+   "peak": 3.5,
+   "strength": 24.3,
+   "type": "movement"
+  },
+  {
+   "start": 3.67,
+   "end": 3.73,
+   "peak": 3.67,
+   "strength": 13.6,
+   "type": "movement"
+  },
+  {
+   "start": 3.83,
+   "end": 3.9,
+   "peak": 3.83,
+   "strength": 9.0,
+   "type": "movement"
+  },
+  {
+   "start": 4.0,
+   "end": 4.07,
+   "peak": 4.0,
+   "strength": 9.3,
+   "type": "movement"
+  },
+  {
+   "start": 4.17,
+   "end": 4.23,
+   "peak": 4.17,
+   "strength": 7.2,
+   "type": "movement"
+  }
+ ],
+ "part3_background": [
+  {
+   "t": "0.0-5.4",
+   "kind": "sound",
+   "level_db": -33.4
+  }
+ ]
+}

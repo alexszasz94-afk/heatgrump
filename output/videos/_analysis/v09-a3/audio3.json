@@ -1,0 +1,91 @@
+{
+ "file": "/home/user/heatgrump/output/videos/v09/hook-raw.mp4",
+ "hook_end": 5.33,
+ "higgsfield_line": "",
+ "no_voice": false,
+ "part1_voice": {
+  "who": "nobody speaks",
+  "phrases": [],
+  "words": []
+ },
+ "part2_action_sounds": [],
+ "part2_picture_movements": [
+  {
+   "start": 0.2,
+   "end": 0.23,
+   "peak": 0.2,
+   "strength": 9.9,
+   "type": "movement"
+  },
+  {
+   "start": 0.43,
+   "end": 0.57,
+   "peak": 0.43,
+   "strength": 12.9,
+   "type": "movement"
+  },
+  {
+   "start": 0.77,
+   "end": 0.8,
+   "peak": 0.77,
+   "strength": 9.0,
+   "type": "movement"
+  },
+  {
+   "start": 1.43,
+   "end": 1.57,
+   "peak": 1.43,
+   "strength": 9.1,
+   "type": "movement"
+  },
+  {
+   "start": 1.77,
+   "end": 1.8,
+   "peak": 1.77,
+   "strength": 8.4,
+   "type": "movement"
+  },
+  {
+   "start": 2.27,
+   "end": 2.4,
+   "peak": 2.27,
+   "strength": 9.5,
+   "type": "movement"
+  },
+  {
+   "start": 2.5,
+   "end": 2.57,
+   "peak": 2.5,
+   "strength": 9.0,
+   "type": "movement"
+  },
+  {
+   "start": 2.67,
+   "end": 2.73,
+   "peak": 2.67,
+   "strength": 9.1,
+   "type": "movement"
+  },
+  {
+   "start": 3.43,
+   "end": 3.57,
+   "peak": 3.43,
+   "strength": 12.0,
+   "type": "movement"
+  },
+  {
+   "start": 4.1,
+   "end": 4.17,
+   "peak": 4.1,
+   "strength": 8.1,
+   "type": "movement"
+  }
+ ],
+ "part3_background": [
+  {
+   "t": "0.0-5.0",
+   "kind": "sound",
+   "level_db": -25.3
+  }
+ ]
+}

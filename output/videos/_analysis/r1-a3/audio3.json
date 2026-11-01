@@ -1,0 +1,163 @@
+{
+ "file": "/home/user/heatgrump/output/videos/_analysis/r1-hookpart.mp4",
+ "hook_end": 4.23,
+ "higgsfield_line": "",
+ "no_voice": false,
+ "part1_voice": {
+  "who": "low voice (man)",
+  "phrases": [
+   {
+    "text": "three, two, one, let's see how it turns out.",
+    "start": 0.1,
+    "end": 4.22,
+    "words_per_s": 2.2
+   }
+  ],
+  "words": [
+   {
+    "word": "three,",
+    "start": 0.1,
+    "end": 1.15,
+    "len": 1.05,
+    "peak_db": 0.0,
+    "pitch_hz": 122,
+    "tone": "stretched"
+   },
+   {
+    "word": "two,",
+    "start": 1.17,
+    "end": 1.59,
+    "len": 0.42,
+    "peak_db": -0.9,
+    "pitch_hz": 203,
+    "tone": "normal"
+   },
+   {
+    "word": "one,",
+    "start": 1.61,
+    "end": 2.95,
+    "len": 1.34,
+    "peak_db": -0.6,
+    "pitch_hz": 191,
+    "tone": "stretched"
+   },
+   {
+    "word": "let's",
+    "start": 2.97,
+    "end": 3.22,
+    "len": 0.25,
+    "peak_db": -1.0,
+    "pitch_hz": 150,
+    "tone": "normal"
+   },
+   {
+    "word": "see",
+    "start": 3.24,
+    "end": 3.32,
+    "len": 0.08,
+    "peak_db": -2.7,
+    "pitch_hz": null,
+    "tone": "normal"
+   },
+   {
+    "word": "how",
+    "start": 3.34,
+    "end": 3.54,
+    "len": 0.2,
+    "peak_db": -0.3,
+    "pitch_hz": 147,
+    "tone": "normal"
+   },
+   {
+    "word": "it",
+    "start": 3.56,
+    "end": 3.72,
+    "len": 0.16,
+    "peak_db": -4.7,
+    "pitch_hz": null,
+    "tone": "normal"
+   },
+   {
+    "word": "turns",
+    "start": 3.74,
+    "end": 3.96,
+    "len": 0.22,
+    "peak_db": -4.5,
+    "pitch_hz": 159,
+    "tone": "normal"
+   },
+   {
+    "word": "out.",
+    "start": 3.98,
+    "end": 4.22,
+    "len": 0.24,
+    "peak_db": -3.5,
+    "pitch_hz": 122,
+    "tone": "normal"
+   }
+  ]
+ },
+ "part2_action_sounds": [
+  {
+   "start": 4.02,
+   "peak": 4.04,
+   "end": 4.09,
+   "peak_db": -21.9,
+   "centroid_hz": 5551,
+   "kind": "high swoosh/rustle/whoosh",
+   "during_speech": true,
+   "matches_movement": true
+  }
+ ],
+ "part2_picture_movements": [
+  {
+   "start": 1.67,
+   "end": 1.7,
+   "peak": 1.67,
+   "strength": 21.0,
+   "type": "movement"
+  },
+  {
+   "start": 2.5,
+   "end": 2.53,
+   "peak": 2.5,
+   "strength": 17.7,
+   "type": "movement"
+  },
+  {
+   "start": 2.67,
+   "end": 2.7,
+   "peak": 2.67,
+   "strength": 19.1,
+   "type": "movement"
+  },
+  {
+   "start": 3.67,
+   "end": 3.7,
+   "peak": 3.67,
+   "strength": 20.5,
+   "type": "movement"
+  },
+  {
+   "start": 3.8,
+   "end": 3.87,
+   "peak": 3.83,
+   "strength": 22.6,
+   "type": "movement"
+  },
+  {
+   "start": 4.0,
+   "end": 4.03,
+   "peak": 4.0,
+   "strength": 16.2,
+   "type": "movement"
+  }
+ ],
+ "part3_background": [
+  {
+   "t": "0.0-4.2",
+   "kind": "sound",
+   "level_db": -10.2
+  }
+ ]
+}

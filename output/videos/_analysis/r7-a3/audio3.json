@@ -1,0 +1,132 @@
+{
+ "file": "/home/user/heatgrump/output/videos/_analysis/r7-hookpart.mp4",
+ "hook_end": 4.9,
+ "higgsfield_line": "",
+ "no_voice": false,
+ "part1_voice": {
+  "who": "low voice (man)",
+  "phrases": [
+   {
+    "text": "You're a mean one, Mr. Grinch.",
+    "start": 0.22,
+    "end": 4.89,
+    "words_per_s": 1.3
+   }
+  ],
+  "words": [
+   {
+    "word": "You're",
+    "start": 0.22,
+    "end": 0.5,
+    "len": 0.28,
+    "peak_db": -6.8,
+    "pitch_hz": 112,
+    "tone": "normal"
+   },
+   {
+    "word": "a",
+    "start": 0.52,
+    "end": 0.66,
+    "len": 0.14,
+    "peak_db": -8.6,
+    "pitch_hz": 131,
+    "tone": "normal"
+   },
+   {
+    "word": "mean",
+    "start": 0.68,
+    "end": 0.86,
+    "len": 0.18,
+    "peak_db": -7.9,
+    "pitch_hz": 145,
+    "tone": "normal"
+   },
+   {
+    "word": "one,",
+    "start": 0.88,
+    "end": 2.08,
+    "len": 1.2,
+    "peak_db": -8.6,
+    "pitch_hz": 97,
+    "tone": "stretched"
+   },
+   {
+    "word": "Mr.",
+    "start": 2.1,
+    "end": 2.85,
+    "len": 0.75,
+    "peak_db": -6.0,
+    "pitch_hz": 112,
+    "tone": "stretched"
+   },
+   {
+    "word": "Grinch.",
+    "start": 2.87,
+    "end": 4.89,
+    "len": 2.02,
+    "peak_db": -0.7,
+    "pitch_hz": 119,
+    "tone": "louder/shouted, stretched"
+   }
+  ]
+ },
+ "part2_action_sounds": [],
+ "part2_picture_movements": [
+  {
+   "start": 0.03,
+   "end": 0.13,
+   "peak": 0.03,
+   "strength": 21.1,
+   "type": "movement"
+  },
+  {
+   "start": 0.23,
+   "end": 0.3,
+   "peak": 0.27,
+   "strength": 23.0,
+   "type": "movement"
+  },
+  {
+   "start": 0.4,
+   "end": 0.47,
+   "peak": 0.4,
+   "strength": 26.8,
+   "type": "hard cut"
+  },
+  {
+   "start": 0.57,
+   "end": 0.63,
+   "peak": 0.57,
+   "strength": 18.3,
+   "type": "movement"
+  },
+  {
+   "start": 1.2,
+   "end": 1.23,
+   "peak": 1.2,
+   "strength": 36.5,
+   "type": "hard cut"
+  },
+  {
+   "start": 2.23,
+   "end": 2.3,
+   "peak": 2.23,
+   "strength": 15.4,
+   "type": "movement"
+  },
+  {
+   "start": 2.9,
+   "end": 2.93,
+   "peak": 2.9,
+   "strength": 26.4,
+   "type": "hard cut"
+  }
+ ],
+ "part3_background": [
+  {
+   "t": "0.0-4.9",
+   "kind": "sound",
+   "level_db": -10.9
+  }
+ ]
+}
