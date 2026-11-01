@@ -22,7 +22,10 @@ fx = os.path.join(ROOT, "products/grinch/fixed")
 segs += [(os.path.join(fx, "connector-sofa-close-1.mp4"), 0.05, 1.70), (os.path.join(fx, "remote-sofa-close-1.mp4"), 0.3, 3.0), tailcozy]
 F = "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,setsar=1,format=yuv420p"
 ZOOM_FIXED = 0.06   # Szasz 1 Nov: conector + telecomanda = zoom-in usor, lin (6% pe toata bucata)
-COZY_CLOSE = 1.30   # Szasz 1 Nov: cozy mai de aproape (crop 1.30x, centrat pe ea)
+COZY_CLOSE = 1.60   # Szasz 1 Nov (2): cozy MEREU zoom-in, fata ei SUB textul de sus (textul ii acoperea fata)
+# coltul de sus-stanga al decupajului (fractii din cadru): v4 = sta pe canapea in mijloc, gluga la ~0.18-0.20 din inaltime;
+# v5 = culcata in dreapta, fata la ~0.85 / 0.45. Gluga ajunge la ~0.26+ din inaltime, sub text (textul se termina la ~0.22).
+COZY_X0Y0 = {"v4": (0.43 - 0.5 / COZY_CLOSE, 0.02), "v5": (1 - 1 / COZY_CLOSE, 0.17)}
 args, fl = [], []
 for i, (f, a, b) in enumerate(segs):
     args += ["-ss", str(a), "-to", str(b), "-i", f]
@@ -31,8 +34,8 @@ for i, (f, a, b) in enumerate(segs):
         z = f"(1+{ZOOM_FIXED}*(1-pow(1-t/{d_:.3f},2)))"
         pre = f"fps=30,scale=w='2*trunc(540*{z})':h='2*trunc(960*{z})':eval=frame:flags=lanczos,crop=1080:1920,"
     elif i == 3:      # cozy: mai aproape (v5: ea e culcata in dreapta cadrului -> crop spre dreapta)
-        fx_, fy_ = (0.95, 0.55) if var == "v5" else (0.5, 0.62)
-        pre = f"crop=iw/{COZY_CLOSE}:ih/{COZY_CLOSE}:(iw-iw/{COZY_CLOSE})*{fx_}:(ih-ih/{COZY_CLOSE})*{fy_},"
+        x0, y0 = COZY_X0Y0[var]
+        pre = f"crop=iw/{COZY_CLOSE}:ih/{COZY_CLOSE}:iw*{x0:.4f}:ih*{y0:.4f},scale=1080:1920:flags=lanczos,unsharp=5:5:0.6,"
     else:
         pre = ""
     fl.append(f"[{i}:v]{pre}{F}[v{i}]")

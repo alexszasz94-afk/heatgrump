@@ -37,7 +37,7 @@ def make(name, hook, set_id, text, song=None):
     spec = {"out": os.path.join(out_dir, f"{name}-FINAL.mp4"), "fps": 30,
             "segments": [{"file": hook, "start": 0, "end": hd, "audio": True}, {"file": tail, "start": 0, "end": round(dur(tail), 2)}],
             "texts": texts,
-            "music": f"music/xmas/{os.path.basename(song)}", "music_start": max(0.0, round(drop - hd, 2)), "music_duck": hd}
+            "music": f"music/xmas/{os.path.basename(song)}", "music_start": max(0.0, round(drop - hd, 2)), "music_duck": hd, "music_hook_vol": 0.0}
     sp = os.path.join(out_dir, "edit.json"); json.dump(spec, open(sp, "w"), indent=1, ensure_ascii=False)
     subprocess.check_call([sys.executable, os.path.join(ROOT, "engine/montage.py"), sp], cwd=ROOT)
     st.setdefault("uses", []).append({"video": name, "date": datetime.datetime.now().isoformat(timespec="seconds"), "song": os.path.basename(song), "text": text, "set": set_id})
