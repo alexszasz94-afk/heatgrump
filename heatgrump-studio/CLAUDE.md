@@ -8,6 +8,13 @@ Talk to the creator (Szasz) in simple Romanian, no jargon — assume they have n
 
 Read before working: `products/<robe>/PRODUCT.md` (robe, refs, B-roll prompt, edit order), `HOOKS.md` (how to copy a hook + proven concepts). Copy prompts word for word; only fill the `<...>` parts.
 
+
+## Lucrul cu Szasz în chatul Grinch (1 nov, Szasz) — REGULI
+- **Doar cele 20 de seturi de B-roll gata** (`state/broll-sets.json`, `../output/broll-grinch/setNN/tail.mp4`). NU se mai generează B-roll nou în acest chat (economie de credite).
+- Szasz trimite **doar linkuri de hook**. Pentru fiecare: `python3 engine/grinch_video.py next` → setul (fata + camera + ținuta), hook-ul copiat cu Kling 4.0 (HOOKS.md) cu fata și camera setului, apoi `python3 engine/grinch_video.py make <nume> <hook.mp4> <setNN> "<text>"`.
+- Videoul livrat are **textul pe ecran ars în montaj** (EN, cu emoji, sus, pe tot videoul) + muzică de Crăciun cu drop-ul pe tăietura hook → B-roll. Se trimite direct în chat, cu caption.
+- Montaj (deja în `tail.mp4`, `engine/grinch_tail.py`): cozy mai de aproape (crop 1.30x), conector + telecomandă close-up pe canapea cu zoom-in ușor și lin (6%).
+
 ## The creator just talks — no commands (rule 26 Oct)
 Creators write to you like to a person, in normal sentences. Understand what they want and do it; never ask them to type a command. Examples and what you do:
 - First message / "hi" / "set me up" / anything when `state/media.json` has no robe ids → run the skill `setup` (if the Higgsfield tools are missing, tell them in one simple step how to connect it).
