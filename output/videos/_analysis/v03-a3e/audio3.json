@@ -1,0 +1,144 @@
+{
+ "file": "/home/user/heatgrump/output/videos/v03/hook5.mp4",
+ "hook_end": 5.0,
+ "higgsfield_line": "",
+ "no_voice": false,
+ "part1_voice": {
+  "who": "high voice (woman/child)",
+  "phrases": [
+   {
+    "text": "Three, two, one,",
+    "start": 0.67,
+    "end": 2.79,
+    "words_per_s": 1.4
+   },
+   {
+    "text": "let's see how it turns out.",
+    "start": 3.78,
+    "end": 4.84,
+    "words_per_s": 5.7
+   }
+  ],
+  "words": [
+   {
+    "word": "Three,",
+    "start": 0.67,
+    "end": 1.5,
+    "len": 0.83,
+    "peak_db": -0.6,
+    "pitch_hz": 230,
+    "tone": "stretched"
+   },
+   {
+    "word": "two,",
+    "start": 1.52,
+    "end": 2.36,
+    "len": 0.84,
+    "peak_db": -0.4,
+    "pitch_hz": 225,
+    "tone": "stretched"
+   },
+   {
+    "word": "one,",
+    "start": 2.38,
+    "end": 2.79,
+    "len": 0.41,
+    "peak_db": -0.0,
+    "pitch_hz": 212,
+    "tone": "normal"
+   },
+   {
+    "word": "let's",
+    "start": 3.78,
+    "end": 3.86,
+    "len": 0.08,
+    "peak_db": -0.1,
+    "pitch_hz": null,
+    "tone": "normal"
+   },
+   {
+    "word": "see",
+    "start": 4.02,
+    "end": 4.2,
+    "len": 0.18,
+    "peak_db": -1.0,
+    "pitch_hz": 225,
+    "tone": "normal"
+   },
+   {
+    "word": "how",
+    "start": 4.22,
+    "end": 4.4,
+    "len": 0.18,
+    "peak_db": -3.0,
+    "pitch_hz": 198,
+    "tone": "normal"
+   },
+   {
+    "word": "it",
+    "start": 4.43,
+    "end": 4.55,
+    "len": 0.12,
+    "peak_db": -3.8,
+    "pitch_hz": 196,
+    "tone": "normal"
+   },
+   {
+    "word": "turns",
+    "start": 4.57,
+    "end": 4.73,
+    "len": 0.16,
+    "peak_db": -0.3,
+    "pitch_hz": 192,
+    "tone": "normal"
+   },
+   {
+    "word": "out.",
+    "start": 4.75,
+    "end": 4.84,
+    "len": 0.09,
+    "peak_db": -5.5,
+    "pitch_hz": null,
+    "tone": "normal"
+   }
+  ]
+ },
+ "part2_action_sounds": [
+  {
+   "start": 1.51,
+   "peak": 1.61,
+   "end": 1.87,
+   "peak_db": -46.6,
+   "centroid_hz": 1889,
+   "kind": "mid tap/knock/paper",
+   "during_speech": true,
+   "matches_movement": false
+  },
+  {
+   "start": 4.64,
+   "peak": 4.64,
+   "end": 4.73,
+   "peak_db": -48.7,
+   "centroid_hz": 1690,
+   "kind": "mid tap/knock/paper",
+   "during_speech": true,
+   "matches_movement": false
+  }
+ ],
+ "part2_picture_movements": [
+  {
+   "start": 4.93,
+   "end": 5.0,
+   "peak": 4.97,
+   "strength": 35.1,
+   "type": "hard cut"
+  }
+ ],
+ "part3_background": [
+  {
+   "t": "0.0-5.0",
+   "kind": "sound",
+   "level_db": -23.6
+  }
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "file": "/home/user/heatgrump/output/videos/v06/hook5v.mp4",
+ "hook_end": 4.97,
+ "higgsfield_line": "",
+ "no_voice": false,
+ "part1_voice": {
+  "who": "high voice (woman/child)",
+  "phrases": [
+   {
+    "text": "Three two one. Let's see how it turns out",
+    "start": 0.29,
+    "end": 4.15,
+    "words_per_s": 2.3
+   }
+  ],
+  "words": [
+   {
+    "word": "Three",
+    "start": 0.29,
+    "end": 1.24,
+    "len": 0.95,
+    "peak_db": -5.0,
+    "pitch_hz": 226,
+    "tone": "stretched"
+   },
+   {
+    "word": "two",
+    "start": 1.28,
+    "end": 2.14,
+    "len": 0.86,
+    "peak_db": -3.6,
+    "pitch_hz": 222,
+    "tone": "stretched"
+   },
+   {
+    "word": "one.",
+    "start": 2.16,
+    "end": 2.69,
+    "len": 0.53,
+    "peak_db": -2.2,
+    "pitch_hz": 207,
+    "tone": "stretched"
+   },
+   {
+    "word": "Let's",
+    "start": 3.01,
+    "end": 3.09,
+    "len": 0.08,
+    "peak_db": -0.1,
+    "pitch_hz": null,
+    "tone": "normal"
+   },
+   {
+    "word": "see",
+    "start": 3.25,
+    "end": 3.43,
+    "len": 0.18,
+    "peak_db": -1.2,
+    "pitch_hz": 286,
+    "tone": "normal"
+   },
+   {
+    "word": "how",
+    "start": 3.45,
+    "end": 3.55,
+    "len": 0.1,
+    "peak_db": -1.9,
+    "pitch_hz": null,
+    "tone": "normal"
+   },
+   {
+    "word": "it",
+    "start": 3.57,
+    "end": 3.69,
+    "len": 0.12,
+    "peak_db": -8.8,
+    "pitch_hz": 295,
+    "tone": "softer"
+   },
+   {
+    "word": "turns",
+    "start": 3.71,
+    "end": 3.89,
+    "len": 0.18,
+    "peak_db": -1.8,
+    "pitch_hz": 283,
+    "tone": "normal"
+   },
+   {
+    "word": "out",
+    "start": 3.91,
+    "end": 4.15,
+    "len": 0.24,
+    "peak_db": -0.0,
+    "pitch_hz": 336,
+    "tone": "normal"
+   }
+  ]
+ },
+ "part2_action_sounds": [],
+ "part2_picture_movements": [
+  {
+   "start": 1.87,
+   "end": 1.9,
+   "peak": 1.87,
+   "strength": 8.9,
+   "type": "movement"
+  },
+  {
+   "start": 2.0,
+   "end": 2.07,
+   "peak": 2.03,
+   "strength": 10.0,
+   "type": "movement"
+  }
+ ],
+ "part3_background": [
+  {
+   "t": "0.0-5.0",
+   "kind": "sound",
+   "level_db": -26.5
+  }
+ ]
+}

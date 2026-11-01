@@ -1,0 +1,150 @@
+{
+ "file": "/home/user/heatgrump/output/videos/v09/hook5.mp4",
+ "hook_end": 5.33,
+ "higgsfield_line": "",
+ "no_voice": false,
+ "part1_voice": {
+  "who": "high voice (woman/child)",
+  "phrases": [
+   {
+    "text": "three,",
+    "start": 0.4,
+    "end": 0.97,
+    "words_per_s": 1.8
+   },
+   {
+    "text": "two, one,",
+    "start": 1.59,
+    "end": 3.62,
+    "words_per_s": 1.0
+   },
+   {
+    "text": "let's see how it turns",
+    "start": 4.52,
+    "end": 5.32,
+    "words_per_s": 6.2
+   }
+  ],
+  "words": [
+   {
+    "word": "three,",
+    "start": 0.4,
+    "end": 0.97,
+    "len": 0.57,
+    "peak_db": -3.7,
+    "pitch_hz": 215,
+    "tone": "stretched"
+   },
+   {
+    "word": "two,",
+    "start": 1.59,
+    "end": 2.77,
+    "len": 1.18,
+    "peak_db": -1.5,
+    "pitch_hz": 218,
+    "tone": "stretched"
+   },
+   {
+    "word": "one,",
+    "start": 2.79,
+    "end": 3.62,
+    "len": 0.83,
+    "peak_db": 0.0,
+    "pitch_hz": 200,
+    "tone": "stretched"
+   },
+   {
+    "word": "let's",
+    "start": 4.52,
+    "end": 4.6,
+    "len": 0.08,
+    "peak_db": -0.1,
+    "pitch_hz": null,
+    "tone": "normal"
+   },
+   {
+    "word": "see",
+    "start": 4.81,
+    "end": 5.06,
+    "len": 0.25,
+    "peak_db": -0.6,
+    "pitch_hz": 236,
+    "tone": "normal"
+   },
+   {
+    "word": "how",
+    "start": 5.08,
+    "end": 5.24,
+    "len": 0.16,
+    "peak_db": -2.7,
+    "pitch_hz": 252,
+    "tone": "normal"
+   },
+   {
+    "word": "it",
+    "start": 5.26,
+    "end": 5.32,
+    "len": 0.06,
+    "peak_db": -7.7,
+    "pitch_hz": null,
+    "tone": "normal"
+   },
+   {
+    "word": "turns",
+    "start": 5.28,
+    "end": 5.32,
+    "len": 0.04,
+    "peak_db": -7.7,
+    "pitch_hz": null,
+    "tone": "normal"
+   }
+  ]
+ },
+ "part2_action_sounds": [
+  {
+   "start": 4.1,
+   "peak": 4.17,
+   "end": 4.32,
+   "peak_db": -26.7,
+   "centroid_hz": 1599,
+   "kind": "mid tap/knock/paper",
+   "during_speech": false,
+   "matches_movement": false
+  }
+ ],
+ "part2_picture_movements": [
+  {
+   "start": 0.43,
+   "end": 0.57,
+   "peak": 0.43,
+   "strength": 13.7,
+   "type": "movement"
+  },
+  {
+   "start": 2.43,
+   "end": 2.57,
+   "peak": 2.43,
+   "strength": 11.8,
+   "type": "movement"
+  },
+  {
+   "start": 4.93,
+   "end": 5.0,
+   "peak": 4.93,
+   "strength": 12.2,
+   "type": "movement"
+  }
+ ],
+ "part3_background": [
+  {
+   "t": "0.0-0.5",
+   "kind": "SILENT (dead gap)",
+   "level_db": -56.0
+  },
+  {
+   "t": "0.5-5.3",
+   "kind": "sound",
+   "level_db": -16.6
+  }
+ ]
+}
