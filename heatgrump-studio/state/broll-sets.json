@@ -10,22 +10,23 @@
     "sofa": "the cream sofa against the left wall of Image 2, with the round wooden side table and the lamp next to it",
     "cozy_bg": "the white wall with the framed picture and the soft throw blanket on the sofa",
     "job": "743e5907-d66e-4cf0-a460-466ce9335d97",
-    "status": "generating",
+    "status": "ok",
     "uses": []
   },
   {
     "set": "set02",
     "variant": "v4",
-    "character": "character-22.jpg",
-    "character_id": "b0961725-8949-4f08-992c-95eb229770ef",
+    "character": "character-21.jpg",
+    "character_id": "dd6534c6-107c-44b1-a746-20e26536e2da",
     "room": "room-4k-02.jpg",
     "room_id": "61e267d6-e007-47a3-b791-3139622089bd",
     "outfit": "a grey USA varsity crewneck sweatshirt and navy long jogger pants",
     "sofa": "the cream sofa against the left wall of Image 2, with the round wooden side table and the lamp next to it",
     "cozy_bg": "the white wall and the small lit Christmas tree in the corner",
-    "job": "3c133bf1-73d7-40f1-baa9-f1baf5f97c34",
+    "job": "c9423bd4-dac8-4b62-9d84-682ed05f6c0b",
     "status": "generating",
-    "uses": []
+    "uses": [],
+    "note": "try1/2 cu character-22.jpg au pastrat fata din clipul de referinta -> schimbat pe character-21.jpg"
   },
   {
     "set": "set03",
@@ -38,22 +39,23 @@
     "sofa": "the cream sofa against the left wall of Image 2, with the round wooden side table and the lamp next to it",
     "cozy_bg": "the white wall with the framed picture and the olive tree in a pot",
     "job": "85c03b20-09d8-474e-b465-4a72f8bd0da9",
-    "status": "generating",
+    "status": "ok",
     "uses": []
   },
   {
     "set": "set04",
     "variant": "v4",
-    "character": "character-26.jpg",
-    "character_id": "fe30fcf0-3ccf-4b7a-8d7c-82f8bd9561cb",
+    "character": "character-14.jpg",
+    "character_id": "d7b0d063-6585-4aa3-8d96-193359a973a4",
     "room": "room-4k-06.jpg",
     "room_id": "b837cdfe-4894-4c6e-8d3e-048bbfd0f8e0",
     "outfit": "a navy-and-white striped long pajama set",
     "sofa": "the cream sofa against the left wall of Image 2, with the round wooden side table and the lamp next to it",
     "cozy_bg": "the plain white wall and the lamp on the side table",
-    "job": "4fc361fb-a54d-4b6e-92b6-70ffb8a138e6",
+    "job": "e4c9e68a-6d7b-4da2-ab0e-2b1a153c5d81",
     "status": "generating",
-    "uses": []
+    "uses": [],
+    "note": "try1/2 cu character-26.jpg au pastrat fata din clipul de referinta -> schimbat pe character-14.jpg"
   },
   {
     "set": "set05",
@@ -66,7 +68,7 @@
     "sofa": "the light-grey sofa against the left wall of Image 2, with the side table and the lamp next to it",
     "cozy_bg": "the lit Christmas tree in a woven basket and the white wall with the framed picture",
     "job": "b4abde84-6b10-4602-9fbd-f452c98db69e",
-    "status": "generating",
+    "status": "ok",
     "uses": []
   },
   {
@@ -80,7 +82,7 @@
     "sofa": "the cream sofa against the left wall of Image 2, with the round wooden side table and the lamp next to it",
     "cozy_bg": "the white wall with the abstract framed print and the green plant",
     "job": "3ab32f65-0f6e-4ee3-b3df-0613c1d0185f",
-    "status": "generating",
+    "status": "ok",
     "uses": []
   },
   {
@@ -94,49 +96,52 @@
     "sofa": "the white sofa against the left wall of Image 2, with the small round side table and the lamp next to it",
     "cozy_bg": "the plain white wall and the lamp",
     "job": "4c8dfdc6-f855-4753-946b-588847eb582b",
-    "status": "generating",
+    "status": "ok",
     "uses": []
   },
   {
     "set": "set08",
     "variant": "v5",
-    "character": "character-35.jpg",
-    "character_id": "883c70ac-004f-4d6d-9997-b360d9314aff",
+    "character": "character-15.jpg",
+    "character_id": "03f46759-1d2a-4943-9cf9-c7b09fe01177",
     "room": "room-4k-13.jpg",
     "room_id": "7f5b4d51-6433-422e-b9fc-15aa1b23c31a",
     "outfit": "a green-and-red Christmas plaid long pajama set with white piping",
     "sofa": "the cream sofa against the left wall of Image 2, with the side table and the lamp next to it",
     "cozy_bg": "the decorated Christmas tree with red ornaments and the white wall",
-    "job": "e823faaf-cc50-4d85-9045-49bd9ea710e9",
+    "job": "1079ed76-38eb-4f71-a5e5-0a189b8bae4b",
     "status": "generating",
-    "uses": []
+    "uses": [],
+    "note": "try1/2 cu character-35.jpg au pastrat fata din clipul de referinta -> schimbat pe character-15.jpg"
   },
   {
     "set": "set09",
     "variant": "v5",
-    "character": "character-37.jpg",
-    "character_id": "fb422c73-4f40-4cfb-95ad-2e6d23f094dc",
+    "character": "character-30.jpg",
+    "character_id": "58996f04-f9e8-45fa-97b9-ede3cf7c28d6",
     "room": "room-4k-15.jpg",
     "room_id": "85020cef-1e80-48db-a2b8-b2f9d76acc48",
     "outfit": "a cream cable-knit sweater and light-blue straight jeans",
     "sofa": "the cream sofa against the left wall of Image 2, with the round wooden side table and the lamp next to it",
     "cozy_bg": "the lit Christmas tree and the framed snowy-landscape picture",
-    "job": "f79ecb71-4120-41f7-bc2b-eac413df54a6",
+    "job": "98cb515e-341b-402c-93d9-dd2a54fc5859",
     "status": "generating",
-    "uses": []
+    "uses": [],
+    "note": "try1/2 cu character-37.jpg au pastrat fata din clipul de referinta -> schimbat pe character-30.jpg"
   },
   {
     "set": "set10",
     "variant": "v5",
-    "character": "character-02.jpg",
-    "character_id": "46a5845b-0378-4bc6-a40e-b4ab597a20a7",
+    "character": "character-25.jpg",
+    "character_id": "d2c4f79c-d2d0-4c6a-bcac-d61f18f48fb0",
     "room": "room-4k-16.jpg",
     "room_id": "acb8848d-d70d-4af6-bdb7-eb6f7b3da9c5",
     "outfit": "a navy long-sleeve pajama top with small white stars and red-and-white striped long pajama pants",
     "sofa": "the taupe sofa against the left wall of Image 2, with the round wooden side table and the lamp next to it",
     "cozy_bg": "the white wall with the abstract framed print",
-    "job": "29fe0061-cb9d-40de-a393-c01b1eaef3f0",
+    "job": "7e8969c0-e04e-4f17-b874-ba18523bf53a",
     "status": "generating",
-    "uses": []
+    "uses": [],
+    "note": "try1/2 cu character-02.jpg au pastrat fata din clipul de referinta -> schimbat pe character-25.jpg"
   }
 ]
