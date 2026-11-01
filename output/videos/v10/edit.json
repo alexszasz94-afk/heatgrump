@@ -1,0 +1,31 @@
+{
+ "out": "/home/user/heatgrump/output/videos/v10/v10-FINAL.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/videos/v10/hook.mp4",
+   "start": 0,
+   "end": 4.88,
+   "audio": true
+  },
+  {
+   "file": "/home/user/heatgrump/output/broll-grinch/set06/tail.mp4",
+   "start": 0,
+   "end": 11.73
+  }
+ ],
+ "texts": [
+  {
+   "segs": [
+    0,
+    -1
+   ],
+   "text": "\"Babe you don't need that...\"\nMe: 😏💚",
+   "size": 80,
+   "y": 0.12
+  }
+ ],
+ "music": "music/xmas/wham-last-christmas.mp3",
+ "music_start": 0.0,
+ "music_duck": 4.88
+}

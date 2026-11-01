@@ -1,0 +1,31 @@
+{
+ "out": "/home/user/heatgrump/output/videos/v08/v08-FINAL.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/videos/v08/hook.mp4",
+   "start": 0,
+   "end": 3.83,
+   "audio": true
+  },
+  {
+   "file": "/home/user/heatgrump/output/broll-grinch/set02/tail.mp4",
+   "start": 0,
+   "end": 11.73
+  }
+ ],
+ "texts": [
+  {
+   "segs": [
+    0,
+    -1
+   ],
+   "text": "Imagine this on the first snow day 😮‍💨❄️",
+   "size": 80,
+   "y": 0.12
+  }
+ ],
+ "music": "music/xmas/mariah-all-i-want.mp3",
+ "music_start": 49.57,
+ "music_duck": 3.83
+}

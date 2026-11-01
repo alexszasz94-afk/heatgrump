@@ -1,0 +1,31 @@
+{
+ "out": "/home/user/heatgrump/output/videos/v09/v09-FINAL.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/videos/v09/hook.mp4",
+   "start": 0,
+   "end": 4.21,
+   "audio": true
+  },
+  {
+   "file": "/home/user/heatgrump/output/broll-grinch/set08/tail.mp4",
+   "start": 0,
+   "end": 10.03
+  }
+ ],
+ "texts": [
+  {
+   "segs": [
+    0,
+    -1
+   ],
+   "text": "Imagine this on day 2 of your period 🩸😩",
+   "size": 80,
+   "y": 0.12
+  }
+ ],
+ "music": "music/xmas/buble-beginning.mp3",
+ "music_start": 31.14,
+ "music_duck": 4.21
+}

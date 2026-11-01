@@ -11,7 +11,15 @@
     "cozy_bg": "the white wall with the framed picture and the soft throw blanket on the sofa",
     "job": "743e5907-d66e-4cf0-a460-466ce9335d97",
     "status": "ok",
-    "uses": [],
+    "uses": [
+      {
+        "video": "v01",
+        "date": "2026-11-01T19:29:56",
+        "song": "mariah-all-i-want.mp3",
+        "text": "DONT show this to your mom 😳❄️",
+        "set": "set01"
+      }
+    ],
     "tail": "output/broll-grinch/set01/tail.mp4"
   },
   {
@@ -26,7 +34,15 @@
     "cozy_bg": "the white wall and the small lit Christmas tree in the corner",
     "job": "c9423bd4-dac8-4b62-9d84-682ed05f6c0b",
     "status": "ok",
-    "uses": [],
+    "uses": [
+      {
+        "video": "v08",
+        "date": "2026-11-01T19:33:29",
+        "song": "mariah-all-i-want.mp3",
+        "text": "Imagine this on the first snow day 😮‍💨❄️",
+        "set": "set02"
+      }
+    ],
     "note": "try1/2 cu character-22.jpg au pastrat fata din clipul de referinta -> schimbat pe character-21.jpg",
     "tail": "output/broll-grinch/set02/tail.mp4"
   },
@@ -42,7 +58,15 @@
     "cozy_bg": "the white wall with the framed picture and the olive tree in a pot",
     "job": "85c03b20-09d8-474e-b465-4a72f8bd0da9",
     "status": "ok",
-    "uses": [],
+    "uses": [
+      {
+        "video": "v03",
+        "date": "2026-11-01T19:31:03",
+        "song": "wham-last-christmas.mp3",
+        "text": "I'm literally crying 😭",
+        "set": "set03"
+      }
+    ],
     "tail": "output/broll-grinch/set03/tail.mp4"
   },
   {
@@ -73,7 +97,15 @@
     "cozy_bg": "the lit Christmas tree in a woven basket and the white wall with the framed picture",
     "job": "b4abde84-6b10-4602-9fbd-f452c98db69e",
     "status": "ok",
-    "uses": [],
+    "uses": [
+      {
+        "video": "v05",
+        "date": "2026-11-01T19:32:20",
+        "song": "buble-beginning.mp3",
+        "text": "\"Moms are so hard to gift\"\n😩❄️",
+        "set": "set05"
+      }
+    ],
     "tail": "output/broll-grinch/set05/tail.mp4"
   },
   {
@@ -88,7 +120,15 @@
     "cozy_bg": "the white wall with the abstract framed print and the green plant",
     "job": "3ab32f65-0f6e-4ee3-b3df-0613c1d0185f",
     "status": "ok",
-    "uses": [],
+    "uses": [
+      {
+        "video": "v10",
+        "date": "2026-11-01T19:34:43",
+        "song": "wham-last-christmas.mp3",
+        "text": "\"Babe you don't need that...\"\nMe: 😏💚",
+        "set": "set06"
+      }
+    ],
     "tail": "output/broll-grinch/set06/tail.mp4"
   },
   {
@@ -103,7 +143,15 @@
     "cozy_bg": "the plain white wall and the lamp",
     "job": "4c8dfdc6-f855-4753-946b-588847eb582b",
     "status": "ok",
-    "uses": [],
+    "uses": [
+      {
+        "video": "v07",
+        "date": "2026-11-01T19:35:48",
+        "song": "mariah-all-i-want.mp3",
+        "text": "Christmas-holics this is for YOU 🎄🎅",
+        "set": "set07"
+      }
+    ],
     "tail": "output/broll-grinch/set07/tail.mp4"
   },
   {
@@ -118,7 +166,15 @@
     "cozy_bg": "the decorated Christmas tree with red ornaments and the white wall",
     "job": "1079ed76-38eb-4f71-a5e5-0a189b8bae4b",
     "status": "ok",
-    "uses": [],
+    "uses": [
+      {
+        "video": "v09",
+        "date": "2026-11-01T19:34:04",
+        "song": "buble-beginning.mp3",
+        "text": "Imagine this on day 2 of your period 🩸😩",
+        "set": "set08"
+      }
+    ],
     "note": "try1/2 cu character-35.jpg au pastrat fata din clipul de referinta -> schimbat pe character-15.jpg",
     "tail": "output/broll-grinch/set08/tail.mp4"
   },
@@ -165,7 +221,15 @@
     "sofa": "the cream sectional sofa on the left side of Image 2, under the two framed botanical prints",
     "cozy_bg": "the sage-green wall with the two framed botanical prints",
     "status": "ok",
-    "uses": [],
+    "uses": [
+      {
+        "video": "v02",
+        "date": "2026-11-01T19:30:26",
+        "song": "buble-beginning.mp3",
+        "text": "DONT show this to your sister 😳❄️",
+        "set": "set11"
+      }
+    ],
     "job": "a31880d2-6a23-4f69-9b23-71cd74f1b22b",
     "tail": "output/broll-grinch/set11/tail.mp4"
   },
@@ -195,7 +259,15 @@
     "sofa": "the pink sectional sofa in the middle of Image 2",
     "cozy_bg": "the windows with white curtains and the framed pictures",
     "status": "ok",
-    "uses": [],
+    "uses": [
+      {
+        "video": "v06",
+        "date": "2026-11-01T19:32:54",
+        "song": "wham-last-christmas.mp3",
+        "text": "\"Grandmas are so hard to gift\"\n😩🎄",
+        "set": "set13"
+      }
+    ],
     "job": "ef3dc476-3aff-41d9-b335-f84aa263c854",
     "tail": "output/broll-grinch/set13/tail.mp4"
   },
@@ -256,7 +328,15 @@
     "sofa": "the cream sofa in front of the tall windows of Image 2",
     "cozy_bg": "the tall windows with the snowy trees outside",
     "status": "ok",
-    "uses": [],
+    "uses": [
+      {
+        "video": "v04",
+        "date": "2026-11-01T19:31:40",
+        "song": "mariah-all-i-want.mp3",
+        "text": "This is the warmest thing I own 😭🔥",
+        "set": "set17"
+      }
+    ],
     "tail": "output/broll-grinch/set17/tail.mp4"
   },
   {
