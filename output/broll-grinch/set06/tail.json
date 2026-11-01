@@ -1,0 +1,29 @@
+{
+ "variant": "v4",
+ "cuts": [
+  1.96,
+  5.79
+ ],
+ "segments": [
+  [
+   "../output/broll-grinch/set06/broll-cut.mp4",
+   0.1,
+   5.67
+  ],
+  [
+   "products/grinch/fixed/connector-fabric-1.mp4",
+   0.05,
+   1.7
+  ],
+  [
+   "products/grinch/fixed/remote-fabric-1.mp4",
+   0.3,
+   3.0
+  ],
+  [
+   "../output/broll-grinch/set06/broll-cut.mp4",
+   5.91,
+   7.6
+  ]
+ ]
+}
