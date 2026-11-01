@@ -1,0 +1,8 @@
+{"out": "/home/user/heatgrump/output/studio/test-grinch/grinch-v5-demo.mp4", "fps": 30,
+ "segments": [
+  {"file": "/home/user/heatgrump/output/studio/test-grinch/gv5b.mp4", "start": 0.10, "end": 3.55},
+  {"file": "/home/user/heatgrump/heatgrump-studio/products/grinch/fixed/connector-fabric-1.mp4", "start": 0.05, "end": 1.70},
+  {"file": "/home/user/heatgrump/heatgrump-studio/products/grinch/fixed/remote-fabric-1.mp4", "start": 0.3, "end": 3.0},
+  {"file": "/home/user/heatgrump/output/studio/test-grinch/gv5b.mp4", "start": 3.79, "end": 5.9}],
+ "texts": [],
+ "music": "music/xmas/buble-beginning.mp3", "music_start": 35.35, "music_duck": 0.0}

@@ -27,7 +27,7 @@ Made once on 1 Nov 2026 from the kit's Snoopy fabric clips (same real connector 
 `music/xmas/` — `tools.py next-set grinch` picks the song (never the same as the last 2 videos) and prints the edit.json lines. The drop ALWAYS lands exactly on the hook → B-roll cut: `"music_start": <drop> - <hook end>`, `"music_duck": <hook end>`.
 
 ## Content filter (`nsfw` / `ip_detected`)
-`nsfw` (refunded): crop the character photo to head + shoulders (`tools.py crop`), `<OUTFIT>` = long pajamas. `ip_detected`: send the same call once more; if it repeats, tell Szasz. Kling 4.0 accepts the Grinch robe (tested 1 Nov: B-roll, v4, v5, connector, remote — no refusal).
+`nsfw` (refunded): crop the character photo to head + shoulders (`tools.py crop`), `<OUTFIT>` = long pajamas. `ip_detected`: send the same call once more; if it repeats, tell Szasz. Kling 4.0 accepts the Grinch robe (tested 1 Nov: B-roll, v4, v5, connector, remote — no refusal). v5 try 1 showed the grumpy face on the BACK of her head (hood worn backwards) → regenerated once with the same prompt → OK.
 
 ## B-roll — ONLY v4 and v5, rotating (method C, like the creators' kit)
 The B-roll is made from OUR finished Grinch reference B-roll (`motion/grinch-v4.mp4` / `grinch-v5.mp4`, made 1 Nov): Kling keeps its shots, cuts, movements and seconds; the prompt replaces the person, the room and the robe (robe from the 6 reference images). `tools.py next-set grinch` says which variant (never the same twice in a row). The prompts are FROZEN: copy word for word; fill ONLY `<OUTFIT>`, `<SOFA>`, `<COZY_BG>`.
@@ -52,7 +52,7 @@ LOOK: UGC style, a real unedited iPhone 16 video of a real person in a real home
 **Check:** her face in every front shot; the back shot cut not later than ~1.8 s; in the cozy shot she SITS on the real sofa. Fail → regenerate ONCE with the SAME prompt. Feet / pajama legs while she steps into the pockets are NOT a fail.
 
 ### B-roll v5 (motion `motion/grinch-v5.mp4`, duration 6)
-Shots: sleeves 0–1.1 · from behind, the hood is pulled up ~1.1–2.4 · lying on her back on the sofa 2.4–3.5 · cozy: curled up on her side WIDE on the real sofa 3.5–6.0. No foot-pocket shot.
+Shots (cuts 1.08 · 1.88 · 2.46 · 3.67): sleeves 0–1.9 (jump cut at 1.08) · from behind, the hood is pulled up 1.9–2.46 (only the red back of the hood) · lying on her back on the sofa 2.46–3.67 · cozy: curled up on her side WIDE on the real sofa 3.67–6.0. No foot-pocket shot.
 ```
 Edit the input video. Keep exactly the same four shots, the same cuts, the same camera position and framing, the same body movements and the same timing as the input video, second by second; the output has exactly the same length as the input. Change only the person, the room and the robe. PERSON: exactly the woman of Image 1, same face and hair; under the robe she wears <OUTFIT>, the same in every shot. ROOM: exactly the living room of Image 2, only what is in Image 2; the lying shots are on its sofa. THE SOFA: <SOFA>. Never add, move or invent furniture: she uses only the sofa that is already in Image 2, in its real place, seen from a camera angle where that sofa really is; the background behind her in the cozy shot is the part of Image 2 that is really behind that sofa: <COZY_BG>. ROBE: the hooded robe of Images 3-6: REPRODUCE IT ONE TO ONE from Images 3-6 in every frame, every colour, every trim, the black belt, the red-and-green inside (never white) and the red Santa-hat hood with the green grumpy face exactly like Image 5; from behind only the red back of the hood with its white pompom is seen. The foot pockets are exactly like Image 7 and Image 8.
 SHOT 1 (0 to 1.8 s, with the same small jump cut at 1.0 s): close, from the side, she slides her arm into the long sleeve of the robe and pulls the robe onto her shoulder; her face is mostly out of the frame.
@@ -61,13 +61,13 @@ SHOT 3 (2.4 to 3.5 s): she lies stretched out on her back on the sofa of Image 2
 SHOT 4 (3.5 s to the end, a SEPARATE shot with a hard cut at 3.5 s - never skip or merge this shot): THE COZY SHOT, A WIDE SHOT exactly as framed in the input: we see the whole sofa of Image 2 and her full body lying on it, her face small in the frame; the room of Image 2 around the sofa. She lies curled up on her side on the sofa of Image 2, completely wrapped in the closed robe, the hood UP on her head (the red Santa-hat hood with the green grumpy face exactly like Image 5), eyes closed, cozy; her legs are completely covered by the closed robe down to the feet, the hem closed over them; no pajama pants, no knee and no foot visible. From 5.5 s to the end she holds still.
 LOOK: UGC style, a real unedited iPhone 16 video of a real person in a real home, Full HD, completely realistic; warm, very soft, very natural light, diffuse daylight and the warm glow of real lamps, gentle low contrast, true slightly warm colours; no HDR, no glow, no orange cast, no CGI look. Natural real movements with real weight and gravity, no morphing, no flicker. Correct hands with five fingers. NO TEXT: the caption text of the input video is removed completely; no captions, no emoji, no subtitles, no watermark, no other logos. No cable connector and no remote anywhere. Silent.
 ```
-**Edit times (±0.1 s, real cuts from `tools.py cuts`):** puts it on + lying 0.10 → ~3.38 (one segment) · cozy ~3.62 → ~5.9.
+**Edit times (±0.1 s, real cuts from `tools.py cuts`):** puts it on + lying 0.10 → ~3.55 (one segment) · cozy ~3.79 → ~5.9.
 **Check:** the SAME woman in every shot; from behind NEVER the green face (only the red back of the hood with the pompom); the real sofa. Fail → regenerate ONCE with the SAME prompt.
 
 ## Standard edit order (ALWAYS: hook → B-roll → connector → remote → cozy; the cozy is ALWAYS the B-roll's own cozy shot — no custom cozy, Szasz 1 Nov)
 1. hook clip(s) `"audio": true` — as long as the original's hook
-2. B-roll part 1: v4 `broll-cut.mp4 0.10 → ~5.5` / v5 `broll.mp4 0.10 → ~3.38`
+2. B-roll part 1: v4 `broll-cut.mp4 0.10 → ~5.5` / v5 `broll.mp4 0.10 → ~3.55`
 3. `fixed/connector-fabric-1.mp4 0.05 → 1.70`
 4. `fixed/remote-fabric-1.mp4 0.3 → 3.0`
-5. B-roll cozy: v4 `broll-cut.mp4 ~5.75 → ~7.6` / v5 `broll.mp4 ~3.62 → ~5.9`
+5. B-roll cozy: v4 `broll-cut.mp4 ~5.75 → ~7.6` / v5 `broll.mp4 ~3.79 → ~5.9`
 `"texts": []` — suggested text in text.txt. Text examples: `DONT send this to a\nGrinch lover...🎄💚` · `my heating bill vs this robe 😳🥶` · `H&M X GRINCH 🎄🎅`.
