@@ -1,0 +1,114 @@
+{
+ "file": "/home/user/heatgrump/output/videos/v01/hook-final.mp4",
+ "hook_end": 4.07,
+ "higgsfield_line": "",
+ "no_voice": false,
+ "part1_voice": {
+  "who": "high voice (woman/child)",
+  "phrases": [
+   {
+    "text": "One, two,",
+    "start": 1.0,
+    "end": 2.66,
+    "words_per_s": 1.2
+   },
+   {
+    "text": "three.",
+    "start": 3.49,
+    "end": 4.06,
+    "words_per_s": 1.8
+   }
+  ],
+  "words": [
+   {
+    "word": "One,",
+    "start": 1.0,
+    "end": 2.19,
+    "len": 1.19,
+    "peak_db": -3.1,
+    "pitch_hz": 227,
+    "tone": "stretched"
+   },
+   {
+    "word": "two,",
+    "start": 2.22,
+    "end": 2.66,
+    "len": 0.44,
+    "peak_db": -1.2,
+    "pitch_hz": 272,
+    "tone": "normal"
+   },
+   {
+    "word": "three.",
+    "start": 3.49,
+    "end": 4.06,
+    "len": 0.57,
+    "peak_db": -0.0,
+    "pitch_hz": 402,
+    "tone": "stretched"
+   }
+  ]
+ },
+ "part2_action_sounds": [
+  {
+   "start": 1.21,
+   "peak": 1.23,
+   "end": 1.49,
+   "peak_db": -51.6,
+   "centroid_hz": 2459,
+   "kind": "mid tap/knock/paper",
+   "during_speech": true,
+   "matches_movement": false
+  },
+  {
+   "start": 2.22,
+   "peak": 2.23,
+   "end": 2.64,
+   "peak_db": -49.7,
+   "centroid_hz": 1821,
+   "kind": "mid tap/knock/paper",
+   "during_speech": true,
+   "matches_movement": false
+  },
+  {
+   "start": 3.59,
+   "peak": 3.82,
+   "end": 3.98,
+   "peak_db": -46.1,
+   "centroid_hz": 2183,
+   "kind": "mid tap/knock/paper",
+   "during_speech": true,
+   "matches_movement": true
+  }
+ ],
+ "part2_picture_movements": [
+  {
+   "start": 3.7,
+   "end": 3.73,
+   "peak": 3.7,
+   "strength": 3.3,
+   "type": "movement"
+  },
+  {
+   "start": 3.83,
+   "end": 3.9,
+   "peak": 3.87,
+   "strength": 8.8,
+   "type": "movement"
+  },
+  {
+   "start": 4.0,
+   "end": 4.07,
+   "peak": 4.03,
+   "strength": 26.4,
+   "type": "hard cut"
+  }
+ ],
+ "part3_background": [
+  {
+   "t": "0.0-4.1",
+   "kind": "sound",
+   "level_db": -34.6
+  }
+ ]
+}

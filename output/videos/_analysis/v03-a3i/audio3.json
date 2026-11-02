@@ -1,0 +1,158 @@
+{
+ "file": "/home/user/heatgrump/output/videos/v03/hook-final.mp4",
+ "hook_end": 5.0,
+ "higgsfield_line": "",
+ "no_voice": false,
+ "part1_voice": {
+  "who": "low voice (man)",
+  "phrases": [
+   {
+    "text": "Let's see how it turns out.",
+    "start": 3.14,
+    "end": 4.31,
+    "words_per_s": 5.1
+   }
+  ],
+  "words": [
+   {
+    "word": "Let's",
+    "start": 3.14,
+    "end": 3.4,
+    "len": 0.26,
+    "peak_db": -0.0,
+    "pitch_hz": 178,
+    "tone": "normal"
+   },
+   {
+    "word": "see",
+    "start": 3.42,
+    "end": 3.64,
+    "len": 0.22,
+    "peak_db": -0.4,
+    "pitch_hz": 175,
+    "tone": "normal"
+   },
+   {
+    "word": "how",
+    "start": 3.66,
+    "end": 3.8,
+    "len": 0.14,
+    "peak_db": -2.5,
+    "pitch_hz": 158,
+    "tone": "normal"
+   },
+   {
+    "word": "it",
+    "start": 3.82,
+    "end": 3.94,
+    "len": 0.12,
+    "peak_db": -3.3,
+    "pitch_hz": 157,
+    "tone": "normal"
+   },
+   {
+    "word": "turns",
+    "start": 3.96,
+    "end": 4.07,
+    "len": 0.11,
+    "peak_db": -5.6,
+    "pitch_hz": 142,
+    "tone": "normal"
+   },
+   {
+    "word": "out.",
+    "start": 4.09,
+    "end": 4.31,
+    "len": 0.22,
+    "peak_db": -0.2,
+    "pitch_hz": null,
+    "tone": "normal"
+   }
+  ]
+ },
+ "part2_action_sounds": [
+  {
+   "start": 3.17,
+   "peak": 3.19,
+   "end": 3.25,
+   "peak_db": -43.3,
+   "centroid_hz": 1677,
+   "kind": "mid tap/knock/paper",
+   "during_speech": true,
+   "matches_movement": true
+  },
+  {
+   "start": 3.57,
+   "peak": 3.57,
+   "end": 3.67,
+   "peak_db": -45.8,
+   "centroid_hz": 2045,
+   "kind": "mid tap/knock/paper",
+   "during_speech": true,
+   "matches_movement": true
+  },
+  {
+   "start": 3.88,
+   "peak": 4.03,
+   "end": 4.23,
+   "peak_db": -38.0,
+   "centroid_hz": 1084,
+   "kind": "mid tap/knock/paper",
+   "during_speech": true,
+   "matches_movement": false
+  }
+ ],
+ "part2_picture_movements": [
+  {
+   "start": 3.1,
+   "end": 3.23,
+   "peak": 3.1,
+   "strength": 26.0,
+   "type": "movement"
+  },
+  {
+   "start": 3.6,
+   "end": 3.63,
+   "peak": 3.6,
+   "strength": 20.6,
+   "type": "movement"
+  }
+ ],
+ "part3_background": [
+  {
+   "t": "0.0-0.5",
+   "kind": "SILENT (dead gap)",
+   "level_db": -58.5
+  },
+  {
+   "t": "0.5-1.0",
+   "kind": "sound",
+   "level_db": -52.8
+  },
+  {
+   "t": "1.0-1.5",
+   "kind": "SILENT (dead gap)",
+   "level_db": -58.5
+  },
+  {
+   "t": "1.5-2.0",
+   "kind": "sound",
+   "level_db": -52.0
+  },
+  {
+   "t": "2.0-2.5",
+   "kind": "SILENT (dead gap)",
+   "level_db": -58.0
+  },
+  {
+   "t": "2.5-4.5",
+   "kind": "sound",
+   "level_db": -15.2
+  },
+  {
+   "t": "4.5-5.0",
+   "kind": "SILENT (dead gap)",
+   "level_db": -56.4
+  }
+ ]
+}
