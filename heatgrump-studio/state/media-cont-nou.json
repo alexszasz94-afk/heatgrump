@@ -38,5 +38,19 @@
   "bed_corner1": "d0d294ab-ce24-4b13-81c6-7f2db738c313",
   "bed_corner2": "d9841aa0-e9be-4f3c-a163-84e228e5ec94"
  },
- "not_yet": "personajele nefolosite (01,02,06,13,22,26,27,35,37,43), camerele clasice și Princess, clipurile de hook — se urcă din fișierele locale când e nevoie"
+ "not_yet": "personajele nefolosite (01,02,06,13,22,26,27,35,37,43), camerele clasice și Princess, clipurile de hook — se urcă din fișierele locale când e nevoie",
+ "grinch_box": "35147aad-dbc4-4b7a-8fde-feb48f945b84",
+ "hooks": {
+  "store-mug": {
+   "start_szasz": "9ba9e6d9-9b2d-476c-82ed-0223b254bb05",
+   "shelf_jobs": [
+    "2cf7907a-1b63-4ac5-91f4-c2c6c3475747",
+    "ebe68026-9c4d-4fe9-a8ce-a9e39f1660d5"
+   ],
+   "clipA_jobs": [
+    "1fa42dab-32c9-4181-bc86-f8d67bc55216",
+    "5b19d4d3-6026-4530-a85b-04292fc32a5e"
+   ]
+  }
+ }
 }
