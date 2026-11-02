@@ -117,3 +117,6 @@ Final file: `output/<name>/<name>-FINAL.mp4`. Also write `output/<name>/caption.
 
 ### Montaj B-roll — corecții pe set (Szasz 2 nov)
 Înainte de livrare, fiecare B-roll se compară cadru cu cadru (4 fps) cu mișcarea de referință `output/studio/test-grinch/gv4-cut.mp4` (spate 0–1,75 s, în picioare până la ~5,6 s, cozy după). Unde Kling a pus o scenă în plus (gluga trasă de două ori), a ținut spatele prea mult sau stă prea mult în picioare înainte de cozy, se taie în montaj cu `broll_segs` în `state/broll-sets.json` (bucățile păstrate din broll-cut.mp4). Cozy sub ~1,2 s → `cozy_slow: 1.4`. Apoi `python3 engine/grinch_tail.py <set>`.
+
+### Cont Higgsfield nou (Szasz 2 nov)
+Contul s-a schimbat: ID-urile vechi (job-uri, media) NU mai merg. ID-urile valabile acum sunt în `state/media-cont-nou.json` (halat 4 ref + 2 buzunare, clipul de mișcare grinch_v4, 12 personaje, camerele reale). Orice altceva se urcă din nou din fișierele locale (`media_upload` → PUT → `media_confirm`, sau `media_import_url` pentru URL-uri publice cloudfront) și se adaugă în fișier.

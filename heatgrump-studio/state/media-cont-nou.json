@@ -1,0 +1,42 @@
+{
+ "account": "cont Higgsfield nou (Ultra), din 2 nov 2026",
+ "robe": {
+  "front": "9029726e-837e-40e3-8cb2-1ac4daf7c177",
+  "side": "166a93a0-5025-45d9-9218-e18dd23f6b68",
+  "hood": "aa6cec63-febe-4b78-8dbc-f8a9d23e3325",
+  "back": "7627cdd3-f38e-40b3-b06c-bdc5ba25f20f",
+  "pockets_1": "bed64f9a-d763-405d-aece-501c8e15604e",
+  "pockets_2": "5e7b5d3c-081e-4cdc-8a5a-eb25b40e12a0"
+ },
+ "motion_grinch_v4": "2ad49052-3b26-4b26-9afe-80260a5cd52c",
+ "characters": {
+  "character-07.jpg": "90f777e7-3570-458c-a380-7ea78c196efc",
+  "character-21.jpg": "500725a5-09ed-4f45-be78-1ffc3e80dfbc",
+  "character-25.jpg": "fa860dd8-02d8-44df-8b3f-919e0f6593d7",
+  "character-14.jpg": "8cb48b1b-8f47-4c6a-8cd0-527645d51353",
+  "character-29.jpg": "7217e822-1749-4d62-b25c-ea3a7b30aed2",
+  "character-30.jpg": "815e70f8-b7cc-4cbe-82ae-81308705cd61",
+  "character-31.jpg": "5fa02d46-a6bf-4232-a0fe-45bab40e0b90",
+  "character-15.jpg": "f570d377-27ef-416f-88d6-446c50e1a8c0",
+  "character-05.jpg": "3e58785d-d02a-49f0-9225-df494f69a2a8",
+  "ci-2026-10-02_072.jpg": "1f5d9dcc-7c73-4a61-b542-96494b8fefc8",
+  "ci-2026-10-02_073.jpg": "e76fa7d4-a885-4a89-9e5c-1176b60611bf",
+  "ci-2026-10-02_080.jpg": "6fefdd4e-f643-42f3-897e-dde01519e153"
+ },
+ "rooms_real": {
+  "liv0": "989280c7-7d8c-4b0f-ad82-03f945eb06b4",
+  "liv1": "0eedd133-a7c3-41e4-b4ce-1cd1c2ea7614",
+  "liv2": "47f42f50-9578-4c63-a51f-f2850f0d1b33",
+  "liv3": "95c8c99b-3458-413c-a4f1-a4d1b71d05c9",
+  "liv4": "558964f8-5bab-482f-8408-223f8d735165",
+  "liv5": "dd451505-6df7-419b-a73d-b16a725dcfb3",
+  "sofa_corner": "dfbdcdff-68b1-432e-ada6-f90f3f5d991d",
+  "bed1": "de34ea34-36d0-468b-b1f5-7f1876445757",
+  "bed2": "5981aa4a-91eb-4aac-84c0-e02c44e6010a",
+  "bed3": "21fd8779-8e95-4724-8140-8360e327479a",
+  "bed4": "fcedc0ab-deba-4d9e-ab79-f41eed0f8260",
+  "bed_corner1": "d0d294ab-ce24-4b13-81c6-7f2db738c313",
+  "bed_corner2": "d9841aa0-e9be-4f3c-a163-84e228e5ec94"
+ },
+ "not_yet": "personajele nefolosite (01,02,06,13,22,26,27,35,37,43), camerele clasice și Princess, clipurile de hook — se urcă din fișierele locale când e nevoie"
+}
