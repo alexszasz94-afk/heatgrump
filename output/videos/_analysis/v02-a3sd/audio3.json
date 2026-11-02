@@ -1,0 +1,110 @@
+{
+ "file": "/home/user/heatgrump/output/videos/v02/hook-sd.mp4",
+ "hook_end": 4.07,
+ "higgsfield_line": "",
+ "no_voice": false,
+ "part1_voice": {
+  "who": "high voice (woman/child)",
+  "phrases": [
+   {
+    "text": "One,",
+    "start": 1.0,
+    "end": 1.44,
+    "words_per_s": 2.3
+   },
+   {
+    "text": "two,",
+    "start": 2.24,
+    "end": 2.54,
+    "words_per_s": 3.3
+   },
+   {
+    "text": "three.",
+    "start": 3.49,
+    "end": 3.81,
+    "words_per_s": 3.1
+   }
+  ],
+  "words": [
+   {
+    "word": "One,",
+    "start": 1.0,
+    "end": 1.44,
+    "len": 0.44,
+    "peak_db": -0.0,
+    "pitch_hz": 207,
+    "tone": "normal"
+   },
+   {
+    "word": "two,",
+    "start": 2.24,
+    "end": 2.54,
+    "len": 0.3,
+    "peak_db": -0.5,
+    "pitch_hz": 235,
+    "tone": "normal"
+   },
+   {
+    "word": "three.",
+    "start": 3.49,
+    "end": 3.81,
+    "len": 0.32,
+    "peak_db": -2.7,
+    "pitch_hz": 341,
+    "tone": "normal"
+   }
+  ]
+ },
+ "part2_action_sounds": [
+  {
+   "start": 0.0,
+   "peak": 0.05,
+   "end": 0.58,
+   "peak_db": -33.6,
+   "centroid_hz": 672,
+   "kind": "low thump/step",
+   "during_speech": false,
+   "matches_movement": false
+  }
+ ],
+ "part2_picture_movements": [
+  {
+   "start": 3.7,
+   "end": 3.73,
+   "peak": 3.7,
+   "strength": 3.8,
+   "type": "movement"
+  },
+  {
+   "start": 3.83,
+   "end": 3.9,
+   "peak": 3.87,
+   "strength": 8.3,
+   "type": "movement"
+  },
+  {
+   "start": 4.0,
+   "end": 4.07,
+   "peak": 4.03,
+   "strength": 25.9,
+   "type": "hard cut"
+  }
+ ],
+ "part3_background": [
+  {
+   "t": "0.0-3.0",
+   "kind": "sound",
+   "level_db": -39.8
+  },
+  {
+   "t": "3.0-3.5",
+   "kind": "SILENT (dead gap)",
+   "level_db": -55.5
+  },
+  {
+   "t": "3.5-4.1",
+   "kind": "sound",
+   "level_db": -20.1
+  }
+ ]
+}

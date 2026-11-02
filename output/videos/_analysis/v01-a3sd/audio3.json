@@ -1,0 +1,120 @@
+{
+ "file": "/home/user/heatgrump/output/videos/v01/hook-sd.mp4",
+ "hook_end": 4.07,
+ "higgsfield_line": "",
+ "no_voice": false,
+ "part1_voice": {
+  "who": "high voice (woman/child)",
+  "phrases": [
+   {
+    "text": "One,",
+    "start": 1.03,
+    "end": 1.38,
+    "words_per_s": 2.9
+   },
+   {
+    "text": "two,",
+    "start": 2.26,
+    "end": 2.54,
+    "words_per_s": 3.6
+   },
+   {
+    "text": "three.",
+    "start": 3.53,
+    "end": 3.85,
+    "words_per_s": 3.1
+   }
+  ],
+  "words": [
+   {
+    "word": "One,",
+    "start": 1.03,
+    "end": 1.38,
+    "len": 0.35,
+    "peak_db": -0.0,
+    "pitch_hz": 201,
+    "tone": "normal"
+   },
+   {
+    "word": "two,",
+    "start": 2.26,
+    "end": 2.54,
+    "len": 0.28,
+    "peak_db": -2.8,
+    "pitch_hz": 249,
+    "tone": "normal"
+   },
+   {
+    "word": "three.",
+    "start": 3.53,
+    "end": 3.85,
+    "len": 0.32,
+    "peak_db": -3.4,
+    "pitch_hz": 285,
+    "tone": "normal"
+   }
+  ]
+ },
+ "part2_action_sounds": [
+  {
+   "start": 0.0,
+   "peak": 0.02,
+   "end": 0.59,
+   "peak_db": -34.4,
+   "centroid_hz": 757,
+   "kind": "mid tap/knock/paper",
+   "during_speech": false,
+   "matches_movement": false
+  },
+  {
+   "start": 1.12,
+   "peak": 1.15,
+   "end": 1.24,
+   "peak_db": -38.4,
+   "centroid_hz": 1393,
+   "kind": "mid tap/knock/paper",
+   "during_speech": true,
+   "matches_movement": false
+  }
+ ],
+ "part2_picture_movements": [
+  {
+   "start": 3.7,
+   "end": 3.73,
+   "peak": 3.7,
+   "strength": 3.2,
+   "type": "movement"
+  },
+  {
+   "start": 3.83,
+   "end": 3.9,
+   "peak": 3.87,
+   "strength": 7.9,
+   "type": "movement"
+  },
+  {
+   "start": 4.0,
+   "end": 4.07,
+   "peak": 4.03,
+   "strength": 23.1,
+   "type": "movement"
+  }
+ ],
+ "part3_background": [
+  {
+   "t": "0.0-3.0",
+   "kind": "sound",
+   "level_db": -41.1
+  },
+  {
+   "t": "3.0-3.5",
+   "kind": "SILENT (dead gap)",
+   "level_db": -55.7
+  },
+  {
+   "t": "3.5-4.1",
+   "kind": "sound",
+   "level_db": -28.8
+  }
+ ]
+}
