@@ -6,7 +6,7 @@
    "file": "/home/user/heatgrump/output/videos/nogift/hook-set36-orig.mp4",
    "start": 0,
    "end": 2.46,
-   "audio": true
+   "audio": false
   },
   {
    "file": "/home/user/heatgrump/output/broll-grinch/set36/tail.mp4",
@@ -25,8 +25,7 @@
    "text": "👱: \"No gift is perfect\"\nMe: 😏"
   }
  ],
- "music": "music/xmas/wham-last-christmas.mp3",
- "music_start": 0.0,
- "music_duck": 2.46,
- "music_hook_vol": 0.0
+ "music": "/home/user/heatgrump/output/videos/nogift/ref/music-ref-pad.m4a",
+ "music_start": 0,
+ "music_vol": 1.0
 }

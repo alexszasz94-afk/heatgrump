@@ -6,7 +6,7 @@
    "file": "/home/user/heatgrump/output/videos/twofriends/hook-set27-orig.mp4",
    "start": 0,
    "end": 4.67,
-   "audio": true
+   "audio": false
   },
   {
    "file": "/home/user/heatgrump/output/broll-grinch/set27/tail.mp4",
@@ -22,11 +22,10 @@
    ],
    "size": 80,
    "y": 0.05,
-   "text": "DO NOT Show this to a\nGRINCH LOVER...💚🎄"
+   "text": "Grinch girlies, pls\ndon't hate... 🥺💚"
   }
  ],
- "music": "music/xmas/buble-beginning.mp3",
- "music_start": 30.68,
- "music_duck": 4.67,
- "music_hook_vol": 0.0
+ "music": "/home/user/heatgrump/output/videos/twofriends/ref/music-ref-pad.m4a",
+ "music_start": 0,
+ "music_vol": 1.0
 }
