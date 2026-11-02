@@ -29,13 +29,36 @@ time{font-family:var(--f-m);font-size:15px;color:var(--pine);font-variant-numeri
 .act button:focus-visible,.act a:focus-visible{outline:2px solid var(--berry);outline-offset:2px}
 .act a.dl{font:700 12px var(--f-b);background:var(--berry);color:var(--panel);padding:5px 10px;border-radius:6px;text-decoration:none}
 .set{font-family:var(--f-m);font-size:11px;color:var(--muted);margin-left:auto}
+.post{display:flex;align-items:center;gap:8px;font:700 14px var(--f-b);cursor:pointer;padding:6px 10px;border:2px solid var(--line);border-radius:8px;width:max-content;user-select:none}
+.post input{width:20px;height:20px;accent-color:var(--pine);margin:0;cursor:pointer}
+.card.done{opacity:.6}
+.card.done .post{border-color:var(--pine);background:var(--pine);color:var(--panel)}
+.card.done time::after{content:"  ✓ POSTAT";font:700 11px var(--f-b);color:var(--pine);letter-spacing:.05em}
+.status{font-size:12px;color:var(--muted)}
 @media (max-width:900px){.grid{grid-template-columns:1fr}}
 </style>
 <div class="wrap">
 <header><h1>Postări <span>__DAY__</span></h1><p class="lede">__N__ videouri pe 3 conturi. Ore în fusul SUA Est. Apasă play ca să vezi videoul; „Descarcă MP4” ia fișierul la calitate maximă de pe GitHub (trebuie să fii logat pe GitHub). Pe fiecare cont tipurile de hook se alternează și aceeași fată nu apare de două ori la rând.</p></header>
+<p class="status" id="status" role="status">Se încarcă bifele…</p>
 <div class="grid">__COLS__</div></div>
 <script>
 document.querySelectorAll("[data-copy]").forEach(b=>b.addEventListener("click",()=>{const t=document.getElementById(b.dataset.copy).textContent;
 const done=()=>{b.textContent="Copiat";setTimeout(()=>b.textContent="Copiază caption",1500)};
 if(navigator.clipboard)navigator.clipboard.writeText(t).then(done).catch(()=>{const r=document.createRange();r.selectNodeContents(document.getElementById(b.dataset.copy));const s=getSelection();s.removeAllRanges();s.addRange(r)});}));
+
+const boxes=[...document.querySelectorAll("[data-post]")];
+let state={},db=null;
+function paint(){boxes.forEach(b=>{const on=!!state[b.dataset.post];b.checked=on;b.closest(".card").classList.toggle("done",on);});
+document.querySelectorAll(".cnt").forEach(c=>{c.textContent=boxes.filter(b=>b.checked&&b.dataset.post.split("_")[1]===c.dataset.acc).length;});}
+function local(){try{state=JSON.parse(localStorage.getItem("posted")||"{}")}catch(e){state={}}paint();
+document.getElementById("status").textContent="Bifele se țin doar pe acest dispozitiv.";}
+boxes.forEach(b=>b.addEventListener("change",async()=>{const k=b.dataset.post,on=b.checked;state[k]=on;paint();
+if(db){try{const ref=db.collection("posted").doc(k);on?await ref.set({posted:true,at:Date.now()}):await ref.delete();}
+catch(e){state[k]=!on;paint();document.getElementById("status").textContent="Nu s-a putut salva bifa ("+(e&&e.code||"eroare")+").";}}
+else{try{localStorage.setItem("posted",JSON.stringify(state))}catch(e){}}}));
+(async()=>{const st=document.getElementById("status");let t=setTimeout(()=>{if(!db)local()},10000);
+try{db=await claude.use("db")}catch(e){db=null}
+if(!db){clearTimeout(t);local();return;}
+db.collection("posted").onSnapshot(s=>{clearTimeout(t);state={};s.docs.forEach(d=>{state[d.id]=true});paint();st.textContent="Bifele se salvează automat și se văd pe orice telefon/calculator.";},
+e=>{clearTimeout(t);st.textContent="Bifele nu s-au putut încărca ("+(e&&e.code||"eroare")+").";});})();
 </script>

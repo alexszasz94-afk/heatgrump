@@ -1,912 +1,1082 @@
 [
-  {
-    "set": "set01",
-    "variant": "v4",
-    "character": "character-07.jpg",
-    "character_id": "f558503b-aebe-4a44-8f5b-0610ac823073",
-    "room": "room-4k-01.jpg",
-    "room_id": "b22bf3fd-7406-4f4a-8a29-6932af0bf795",
-    "outfit": "a red-and-green buffalo-plaid flannel long pajama set",
-    "sofa": "the cream sofa against the left wall of Image 2, with the round wooden side table and the lamp next to it",
-    "cozy_bg": "the white wall with the framed picture and the soft throw blanket on the sofa",
-    "job": "743e5907-d66e-4cf0-a460-466ce9335d97",
-    "status": "ok",
-    "uses": [
-      {
-        "video": "v01",
-        "date": "2026-11-02T10:02:36",
-        "song": "wham-last-christmas.mp3",
-        "text": "DONT show this to\nyour mom😳❄️",
-        "set": "set01"
-      }
-    ],
-    "tail": "output/broll-grinch/set01/tail.mp4"
-  },
-  {
-    "set": "set02",
-    "variant": "v4",
-    "character": "character-21.jpg",
-    "character_id": "dd6534c6-107c-44b1-a746-20e26536e2da",
-    "room": "room-4k-02.jpg",
-    "room_id": "61e267d6-e007-47a3-b791-3139622089bd",
-    "outfit": "a grey USA varsity crewneck sweatshirt and navy long jogger pants",
-    "sofa": "the cream sofa against the left wall of Image 2, with the round wooden side table and the lamp next to it",
-    "cozy_bg": "the white wall and the small lit Christmas tree in the corner",
-    "job": "c9423bd4-dac8-4b62-9d84-682ed05f6c0b",
-    "status": "ok",
-    "uses": [
-      {
-        "video": "v08",
-        "date": "2026-11-02T10:03:43",
-        "song": "mariah-all-i-want.mp3",
-        "text": "Imagine this on the first\nsnow day.. 😌❄️☃️",
-        "set": "set02"
-      }
-    ],
-    "note": "try1/2 cu character-22.jpg au pastrat fata din clipul de referinta -> schimbat pe character-21.jpg",
-    "tail": "output/broll-grinch/set02/tail.mp4"
-  },
-  {
-    "set": "set03",
-    "variant": "v4",
-    "character": "character-25.jpg",
-    "character_id": "d2c4f79c-d2d0-4c6a-bcac-d61f18f48fb0",
-    "room": "room-4k-03.jpg",
-    "room_id": "53866703-61a6-4eef-9b32-f6968f8a729b",
-    "outfit": "a white long-sleeve tee with a small American flag and red plaid flannel pajama pants",
-    "sofa": "the cream sofa against the left wall of Image 2, with the round wooden side table and the lamp next to it",
-    "cozy_bg": "the white wall with the framed picture and the olive tree in a pot",
-    "job": "85c03b20-09d8-474e-b465-4a72f8bd0da9",
-    "status": "ok",
-    "uses": [
-      {
-        "video": "v03",
-        "date": "2026-11-02T09:03:28",
-        "song": "mariah-all-i-want.mp3",
-        "text": "I'm literally crying 😭",
-        "set": "set03"
-      }
-    ],
-    "tail": "output/broll-grinch/set03/tail.mp4"
-  },
-  {
-    "set": "set04",
-    "variant": "v4",
-    "character": "character-14.jpg",
-    "character_id": "d7b0d063-6585-4aa3-8d96-193359a973a4",
-    "room": "room-4k-06.jpg",
-    "room_id": "b837cdfe-4894-4c6e-8d3e-048bbfd0f8e0",
-    "outfit": "a navy-and-white striped long pajama set",
-    "sofa": "the cream sofa against the left wall of Image 2, with the round wooden side table and the lamp next to it",
-    "cozy_bg": "the plain white wall and the lamp on the side table",
-    "job": "e4c9e68a-6d7b-4da2-ab0e-2b1a153c5d81",
-    "status": "ok",
-    "uses": [],
-    "note": "try1/2 cu character-26.jpg au pastrat fata din clipul de referinta -> schimbat pe character-14.jpg",
-    "tail": "output/broll-grinch/set04/tail.mp4"
-  },
-  {
-    "set": "set05",
-    "variant": "v4",
-    "character": "character-29.jpg",
-    "character_id": "eea7024d-d2e1-4b34-9a1b-d5ecf5b723ab",
-    "room": "room-4k-07.jpg",
-    "room_id": "89805af7-71c8-4930-9df3-f4a7d30f405c",
-    "outfit": "a red long-sleeve thermal top and navy plaid flannel pajama pants",
-    "sofa": "the light-grey sofa against the left wall of Image 2, with the side table and the lamp next to it",
-    "cozy_bg": "the lit Christmas tree in a woven basket and the white wall with the framed picture",
-    "job": "b4abde84-6b10-4602-9fbd-f452c98db69e",
-    "status": "ok",
-    "uses": [
-      {
-        "video": "v05",
-        "date": "2026-11-02T09:04:45",
-        "song": "wham-last-christmas.mp3",
-        "text": "[{\"text\": \"\\\"Moms are so hard to gift\\\"\n🤶❄️🥹\", \"size\": 68}]",
-        "set": "set05"
-      }
-    ],
-    "tail": "output/broll-grinch/set05/tail.mp4"
-  },
-  {
-    "set": "set06",
-    "variant": "v4",
-    "character": "character-30.jpg",
-    "character_id": "58996f04-f9e8-45fa-97b9-ede3cf7c28d6",
-    "room": "room-4k-08.jpg",
-    "room_id": "c5289bb6-d236-420a-a91f-997c191e7d6c",
-    "outfit": "a navy hooded college sweatshirt and grey long sweatpants",
-    "sofa": "the cream sofa against the left wall of Image 2, with the round wooden side table and the lamp next to it",
-    "cozy_bg": "the white wall with the abstract framed print and the green plant",
-    "job": "3ab32f65-0f6e-4ee3-b3df-0613c1d0185f",
-    "status": "ok",
-    "uses": [
-      {
-        "video": "v10",
-        "date": "2026-11-01T23:20:56",
-        "song": "mariah-all-i-want.mp3",
-        "text": "[{\"text\": \"\\\"Babe you don't\nneed that...\\\" 🙄\", \"y\": 0.12}, {\"text\": \"Me: 🥺💚\", \"x\": 0.17, \"y\": 0.27, \"size\": 76}]",
-        "set": "set06"
-      }
-    ],
-    "tail": "output/broll-grinch/set06/tail.mp4"
-  },
-  {
-    "set": "set07",
-    "variant": "v4",
-    "character": "character-31.jpg",
-    "character_id": "dcd16144-13d4-4db0-9b90-3ca8104685b2",
-    "room": "room-4k-10.jpg",
-    "room_id": "d5db4701-b956-478a-8d65-dec4a35c0779",
-    "outfit": "a heather-grey long-sleeve henley and red-and-white candy-stripe pajama pants",
-    "sofa": "the white sofa against the left wall of Image 2, with the small round side table and the lamp next to it",
-    "cozy_bg": "the plain white wall and the lamp",
-    "job": "4c8dfdc6-f855-4753-946b-588847eb582b",
-    "status": "ok",
-    "uses": [
-      {
-        "video": "v07",
-        "date": "2026-11-02T09:06:05",
-        "song": "buble-beginning.mp3",
-        "text": "Christmas-holics this is\nfor YOU..🎄🎅",
-        "set": "set07"
-      }
-    ],
-    "tail": "output/broll-grinch/set07/tail.mp4"
-  },
-  {
-    "set": "set08",
-    "variant": "v5",
-    "character": "character-15.jpg",
-    "character_id": "03f46759-1d2a-4943-9cf9-c7b09fe01177",
-    "room": "room-4k-13.jpg",
-    "room_id": "7f5b4d51-6433-422e-b9fc-15aa1b23c31a",
-    "outfit": "a green-and-red Christmas plaid long pajama set with white piping",
-    "sofa": "the cream sofa against the left wall of Image 2, with the side table and the lamp next to it",
-    "cozy_bg": "the decorated Christmas tree with red ornaments and the white wall",
-    "job": "1079ed76-38eb-4f71-a5e5-0a189b8bae4b",
-    "status": "ok",
-    "uses": [
-      {
-        "video": "v09",
-        "date": "2026-11-02T09:07:18",
-        "song": "mariah-all-i-want.mp3",
-        "text": "Imagine this on day 2\nof your period..😳🩸",
-        "set": "set08"
-      }
-    ],
-    "note": "try1/2 cu character-35.jpg au pastrat fata din clipul de referinta -> schimbat pe character-15.jpg",
-    "tail": "output/broll-grinch/set08/tail.mp4"
-  },
-  {
-    "set": "set09",
-    "variant": "v5",
-    "character": "character-30.jpg",
-    "character_id": "58996f04-f9e8-45fa-97b9-ede3cf7c28d6",
-    "room": "room-4k-15.jpg",
-    "room_id": "85020cef-1e80-48db-a2b8-b2f9d76acc48",
-    "outfit": "a cream cable-knit sweater and light-blue straight jeans",
-    "sofa": "the cream sofa against the left wall of Image 2, with the round wooden side table and the lamp next to it",
-    "cozy_bg": "the lit Christmas tree and the framed snowy-landscape picture",
-    "job": "98cb515e-341b-402c-93d9-dd2a54fc5859",
-    "status": "ok",
-    "uses": [],
-    "note": "try1/2 cu character-37.jpg au pastrat fata din clipul de referinta -> schimbat pe character-30.jpg",
-    "tail": "output/broll-grinch/set09/tail.mp4"
-  },
-  {
-    "set": "set10",
-    "variant": "v5",
-    "character": "character-25.jpg",
-    "character_id": "d2c4f79c-d2d0-4c6a-bcac-d61f18f48fb0",
-    "room": "room-4k-16.jpg",
-    "room_id": "acb8848d-d70d-4af6-bdb7-eb6f7b3da9c5",
-    "outfit": "a navy long-sleeve pajama top with small white stars and red-and-white striped long pajama pants",
-    "sofa": "the taupe sofa against the left wall of Image 2, with the round wooden side table and the lamp next to it",
-    "cozy_bg": "the white wall with the abstract framed print",
-    "job": "7e8969c0-e04e-4f17-b874-ba18523bf53a",
-    "status": "ok",
-    "uses": [],
-    "note": "try1/2 cu character-02.jpg au pastrat fata din clipul de referinta -> schimbat pe character-25.jpg",
-    "tail": "output/broll-grinch/set10/tail.mp4"
-  },
-  {
-    "set": "set11",
-    "variant": "v4",
-    "character": "character-05.jpg",
-    "character_id": "364e53ee-260c-4f0e-95ea-1cf856049d64",
-    "room": "room-4k-21.jpg",
-    "room_id": "7c92036e-c174-4eac-8cd8-9b78a08eaa99",
-    "outfit": "a red Fair Isle sweater and navy long pajama pants",
-    "sofa": "the cream sectional sofa on the left side of Image 2, under the two framed botanical prints",
-    "cozy_bg": "the sage-green wall with the two framed botanical prints",
-    "status": "ok",
-    "uses": [
-      {
-        "video": "v02",
-        "date": "2026-11-02T10:03:08",
-        "song": "buble-beginning.mp3",
-        "text": "DONT show this to\nyour mom😳❄️",
-        "set": "set11"
-      }
-    ],
-    "job": "a31880d2-6a23-4f69-9b23-71cd74f1b22b",
-    "tail": "output/broll-grinch/set11/tail.mp4"
-  },
-  {
-    "set": "set12",
-    "variant": "v4",
-    "character": "character-29.jpg",
-    "character_id": "eea7024d-d2e1-4b34-9a1b-d5ecf5b723ab",
-    "room": "room-4k-22.jpg",
-    "room_id": "4fede309-3668-4f39-b4d5-05c97ca43411",
-    "outfit": "a white thermal top and red-and-white checked flannel pajama pants",
-    "sofa": "the tan leather sofa on the right side of Image 2, near the white brick fireplace",
-    "cozy_bg": "the window and the lit Christmas tree next to it",
-    "status": "ok",
-    "uses": [],
-    "job": "0e0ddbe3-1a0e-4a59-89bd-5f91953cfcf1",
-    "tail": "output/broll-grinch/set12/tail.mp4"
-  },
-  {
-    "set": "set13",
-    "variant": "v4",
-    "character": "character-31.jpg",
-    "character_id": "dcd16144-13d4-4db0-9b90-3ca8104685b2",
-    "room": "room-4k-24.jpg",
-    "room_id": "f4c5b6c5-43b7-4147-9aeb-d9b357f35309",
-    "outfit": "a navy Team USA hoodie and grey long joggers",
-    "sofa": "the pink sectional sofa in the middle of Image 2",
-    "cozy_bg": "the windows with white curtains and the framed pictures",
-    "status": "ok",
-    "uses": [
-      {
-        "video": "v06",
-        "date": "2026-11-02T09:05:23",
-        "song": "mariah-all-i-want.mp3",
-        "text": "[{\"text\": \"\\\"Moms are so hard to gift\\\"\n🤶❄️🥹\", \"size\": 68}]",
-        "set": "set13"
-      }
-    ],
-    "job": "ef3dc476-3aff-41d9-b335-f84aa263c854",
-    "tail": "output/broll-grinch/set13/tail.mp4"
-  },
-  {
-    "set": "set14",
-    "variant": "v4",
-    "character": "character-21.jpg",
-    "character_id": "dd6534c6-107c-44b1-a746-20e26536e2da",
-    "room": "room-4k-27.jpg",
-    "room_id": "81dab7bb-ae4f-4e7b-af3e-2932e7abf77a",
-    "outfit": "a cream waffle-knit long-sleeve top and green tartan pajama pants",
-    "sofa": "the light-blue sofa on the right side of Image 2, next to the bay window",
-    "cozy_bg": "the bay window with the cushioned window seat and the Christmas tree",
-    "status": "ok",
-    "uses": [],
-    "job": "be7a8555-716b-4b2a-bfd7-142622246a64",
-    "tail": "output/broll-grinch/set14/tail.mp4"
-  },
-  {
-    "set": "set15",
-    "variant": "v4",
-    "character": "character-15.jpg",
-    "character_id": "03f46759-1d2a-4943-9cf9-c7b09fe01177",
-    "room": "room-4k-37.jpg",
-    "room_id": "0b9d44f7-1607-460c-8e4b-47fe9e8a73be",
-    "outfit": "a red-white-and-blue striped long pajama set",
-    "sofa": "the dark-green sofa in front of the built-in white shelves of Image 2",
-    "cozy_bg": "the built-in white shelves with the TV and the Christmas tree on the left",
-    "status": "ok",
-    "uses": [],
-    "job": "ff4ff19b-cd99-4ef5-8ad6-95711ea1287f",
-    "tail": "output/broll-grinch/set15/tail.mp4"
-  },
-  {
-    "set": "set16",
-    "variant": "v4",
-    "character": "character-14.jpg",
-    "character_id": "d7b0d063-6585-4aa3-8d96-193359a973a4",
-    "room": "room-4k-25.jpg",
-    "room_id": "4c535c56-3c33-427a-9fb5-517b0244a246",
-    "outfit": "a red-and-black buffalo-plaid flannel shirt and grey long sweatpants",
-    "sofa": "the navy-blue sofa on the left side of Image 2, near the staircase with the garland",
-    "cozy_bg": "the window with the woven blind and the framed picture on the white wall",
-    "status": "ok",
-    "uses": [],
-    "job": "5062efa6-88f7-4a49-bdf0-541f3eb17b69",
-    "note": "try1 cu 071 (bruneta) a pastrat fata din referinta",
-    "tail": "output/broll-grinch/set16/tail.mp4"
-  },
-  {
-    "set": "set17",
-    "variant": "v4",
-    "character": "ci-2026-10-02_072.jpg",
-    "character_id": "ec5d73de-79a9-49fa-9afd-760083974862",
-    "room": "room-4k-28.jpg",
-    "room_id": "54c64620-7908-46d6-917e-08e604f106f1",
-    "outfit": "a heather-grey Army-style crewneck and red plaid pajama pants",
-    "sofa": "the cream sofa in front of the tall windows of Image 2",
-    "cozy_bg": "the tall windows with the snowy trees outside",
-    "status": "ok",
-    "uses": [
-      {
-        "video": "v04",
-        "date": "2026-11-02T09:04:06",
-        "song": "buble-beginning.mp3",
-        "text": "I'm literally crying 😭",
-        "set": "set17"
-      }
-    ],
-    "tail": "output/broll-grinch/set17/tail.mp4"
-  },
-  {
-    "set": "set18",
-    "variant": "v4",
-    "character": "ci-2026-10-02_073.jpg",
-    "character_id": "80d99198-699e-41da-8ba6-0369614a2185",
-    "room": "room-4k-33.jpg",
-    "room_id": "e1a81fb5-fe25-4d9c-b175-4a82c4815e13",
-    "outfit": "a white long-sleeve tee and navy star-print long pajama pants",
-    "sofa": "the curved mustard-yellow sofa in the middle of Image 2",
-    "cozy_bg": "the wood-paneled wall with the abstract framed print and the lamp",
-    "status": "ok",
-    "uses": [],
-    "tail": "output/broll-grinch/set18/tail.mp4"
-  },
-  {
-    "set": "set19",
-    "variant": "v4",
-    "character": "character-31.jpg",
-    "character_id": "dcd16144-13d4-4db0-9b90-3ca8104685b2",
-    "room": "room-4k-34.jpg",
-    "room_id": "1189916e-f987-4243-a887-8caff587a7cd",
-    "outfit": "a forest-green waffle-knit top and red-and-green plaid pajama pants",
-    "sofa": "the light-grey sofa with plaid pillows in the middle of Image 2",
-    "cozy_bg": "the black-framed glass doors and the framed picture",
-    "status": "ok",
-    "uses": [],
-    "job": "a06912ec-b465-4bd5-be9b-fe372ed2cbab",
-    "note": "try1 cu 075 a pastrat fata din referinta",
-    "tail": "output/broll-grinch/set19/tail.mp4"
-  },
-  {
-    "set": "set20",
-    "variant": "v4",
-    "character": "ci-2026-10-02_080.jpg",
-    "character_id": "ae522001-88a4-40b3-8cc2-1b9a11cc4b4c",
-    "room": "room-4k-38.jpg",
-    "room_id": "46a3e19d-9e9b-4c4f-9301-1271cdc980ef",
-    "outfit": "a navy-and-red striped rugby sweater and light-grey long joggers",
-    "sofa": "the brown leather sofa in front of the windows of Image 2",
-    "cozy_bg": "the windows with woven blinds and the lit Christmas tree",
-    "status": "ok",
-    "uses": [],
-    "job": "887dfc74-c64d-4a4e-a127-75ace6d95e93",
-    "tail": "output/broll-grinch/set20/tail.mp4"
-  },
-  {
-    "set": "set21",
-    "variant": "v4",
-    "character": "character-07.jpg",
-    "character_id": "f558503b-aebe-4a44-8f5b-0610ac823073",
-    "room": "princess-style-set01",
-    "room_id": "46ffdc8e-b9ae-499e-bae3-ee029ad9ca48",
-    "outfit": "a red-and-green buffalo-plaid flannel long pajama set",
-    "sofa": "the cream sofa against the left wall of Image 2, with the round wooden side table and the lamp next to it",
-    "cozy_bg": "the white wall with the framed picture and the soft throw blanket on the sofa",
-    "job": "b8c193b5-bec9-4474-b821-88cb9a5f45b1",
-    "status": "ok",
-    "uses": [],
-    "tail": "output/broll-grinch/set21/tail.mp4"
-  },
-  {
-    "set": "set22",
-    "variant": "v4",
-    "character": "character-05.jpg",
-    "character_id": "364e53ee-260c-4f0e-95ea-1cf856049d64",
-    "room": "princess-style-set11",
-    "room_id": "aa9a427e-855c-4278-b80a-dc661d1178e3",
-    "outfit": "a red Fair Isle sweater and navy long pajama pants",
-    "sofa": "the cream sectional sofa on the left side of Image 2, under the two framed botanical prints",
-    "cozy_bg": "the sage-green wall with the two framed botanical prints",
-    "status": "ok",
-    "uses": [],
-    "job": "56fb68ff-e367-4351-8d3c-efc03799af71",
-    "tail": "output/broll-grinch/set22/tail.mp4"
-  },
-  {
-    "set": "set23",
-    "variant": "v4",
-    "character": "character-31.jpg",
-    "character_id": "dcd16144-13d4-4db0-9b90-3ca8104685b2",
-    "room": "princess-style-set07",
-    "room_id": "e99dcfc6-4e30-4cac-ab94-44a3d11cbbae",
-    "outfit": "a heather-grey long-sleeve henley and red-and-white candy-stripe pajama pants",
-    "sofa": "the white sofa against the left wall of Image 2, with the small round side table and the lamp next to it",
-    "cozy_bg": "the plain white wall and the lamp",
-    "job": "5a6be245-cad4-4088-b2c5-39ae96d050bc",
-    "status": "ok",
-    "uses": [],
-    "tail": "output/broll-grinch/set23/tail.mp4"
-  },
-  {
-    "set": "set24",
-    "variant": "v4",
-    "character": "character-21.jpg",
-    "character_id": "dd6534c6-107c-44b1-a746-20e26536e2da",
-    "room": "princess-style-set02",
-    "room_id": "417ca2c4-4da5-4b88-8e53-96cdc7e9c8ac",
-    "outfit": "a grey USA varsity crewneck sweatshirt and navy long jogger pants",
-    "sofa": "the cream sofa against the left wall of Image 2, with the round wooden side table and the lamp next to it",
-    "cozy_bg": "the white wall and the small lit Christmas tree in the corner",
-    "job": "8fbe20b1-b624-48ca-87b6-1cb9650bf4c2",
-    "status": "ok",
-    "uses": [],
-    "note": "try1/2 cu character-22.jpg au pastrat fata din clipul de referinta -> schimbat pe character-21.jpg",
-    "tail": "output/broll-grinch/set24/tail.mp4"
-  },
-  {
-    "set": "set25",
-    "variant": "v4",
-    "character": "character-30.jpg",
-    "character_id": "58996f04-f9e8-45fa-97b9-ede3cf7c28d6",
-    "room": "princess-style-set06",
-    "room_id": "d81b2510-29ce-4508-bec0-a7ffd7126eb3",
-    "outfit": "a navy hooded college sweatshirt and grey long sweatpants",
-    "sofa": "the cream sofa against the left wall of Image 2, with the round wooden side table and the lamp next to it",
-    "cozy_bg": "the white wall with the abstract framed print and the green plant",
-    "job": "05616d8e-70bc-4c9b-be9f-5935a286bfab",
-    "status": "ok",
-    "uses": [],
-    "tail": "output/broll-grinch/set25/tail.mp4"
-  },
-  {
-    "set": "set26",
-    "variant": "v4",
-    "character_id": "364e53ee-260c-4f0e-95ea-1cf856049d64",
-    "room": "real-liv0",
-    "room_id": "7ce7fe3f-6f14-48bb-bde6-4776dadf1892",
-    "cozy_ref_id": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72",
-    "outfit": "a red Fair Isle sweater and navy long pajama pants",
-    "kling_job": "48a20ddc-d345-45ff-baf2-ed1f94ee28b3",
-    "status": "ok",
-    "note": "camere reale din reel-urile FB (2 nov), cu brad",
-    "tail": "output/broll-grinch/set26/tail.mp4",
-    "uses": [
-      {
-        "video": "nogift-set26",
-        "date": "2026-11-02T19:32:38",
-        "song": "mariah-all-i-want.mp3",
-        "text": "[{\"text\":\"👱: \\\"No gift is perfect\\\"\nMe: 😏\",\"y\":0.12}]",
-        "set": "set26"
-      },
-      {
-        "video": "mallwindow-set26",
-        "date": "2026-11-02T19:41:56",
-        "song": "mariah-all-i-want.mp3",
-        "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...🎄💚\",\"y\":0.12}]",
-        "set": "set26"
-      },
-      {
-        "video": "twofriends-set26",
-        "date": "2026-11-02T19:49:24",
-        "song": "wham-last-christmas.mp3",
-        "text": "[{\"text\":\"DO NOT Show this to a\nGRINCH LOVER...💚🎄\",\"y\":0.12}]",
-        "set": "set26"
-      }
-    ]
-  },
-  {
-    "set": "set27",
-    "variant": "v4",
-    "character_id": "f558503b-aebe-4a44-8f5b-0610ac823073",
-    "room": "real-liv1",
-    "room_id": "58e86937-6c64-4039-9a4d-2371582a8ec3",
-    "cozy_ref_id": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72",
-    "outfit": "a red-and-green buffalo-plaid flannel long pajama set",
-    "kling_job": "52494e88-4e3a-47cd-a6e9-b160a4edac3b",
-    "status": "ok",
-    "note": "camere reale din reel-urile FB (2 nov), cu brad",
-    "tail": "output/broll-grinch/set27/tail.mp4",
-    "uses": [
-      {
-        "video": "storemug",
-        "date": "2026-11-02T19:06:49",
-        "song": "wham-last-christmas.mp3",
-        "text": "Moms dont walk..\nRUN to target",
-        "set": "set27"
-      },
-      {
-        "video": "storemug",
-        "date": "2026-11-02T19:10:50",
-        "song": "buble-beginning.mp3",
-        "text": "[{\"text\":\"Moms DONT walk.. 🏃‍♀️\nRUN to target 🎯🎄\",\"y\":0.07}]",
-        "set": "set27"
-      },
-      {
-        "video": "storemug",
-        "date": "2026-11-02T19:12:04",
-        "song": "mariah-all-i-want.mp3",
-        "text": "[{\"text\":\"Moms DONT walk.. 🏃‍♀️\nRUN to target 🎯🎄\",\"y\":0.07}]",
-        "set": "set27"
-      },
-      {
-        "video": "nogift-set27",
-        "date": "2026-11-02T19:33:07",
-        "song": "wham-last-christmas.mp3",
-        "text": "[{\"text\":\"👱: \\\"No gift is perfect\\\"\nMe: 😏\",\"y\":0.12}]",
-        "set": "set27"
-      },
-      {
-        "video": "mallrun-set27",
-        "date": "2026-11-02T19:45:56",
-        "song": "wham-last-christmas.mp3",
-        "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...💚🎄\",\"y\":0.12}]",
-        "set": "set27"
-      },
-      {
-        "video": "twofriends-set27",
-        "date": "2026-11-02T19:49:56",
-        "song": "buble-beginning.mp3",
-        "text": "[{\"text\":\"DO NOT Show this to a\nGRINCH LOVER...💚🎄\",\"y\":0.12}]",
-        "set": "set27"
-      }
-    ]
-  },
-  {
-    "set": "set28",
-    "variant": "v4",
-    "character_id": "d7b0d063-6585-4aa3-8d96-193359a973a4",
-    "room": "real-liv2",
-    "room_id": "5f38a485-f4ed-48aa-9cff-72dd8113b0cd",
-    "cozy_ref_id": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72",
-    "outfit": "a navy-and-white striped long pajama set",
-    "kling_job": "423d1bc0-1c0b-43f7-9302-9d74c94467ba",
-    "status": "ok",
-    "note": "camere reale din reel-urile FB (2 nov), cu brad",
-    "broll_segs": [
-      [
-        0.1,
-        1.75
-      ],
-      [
-        2.12,
-        5.6
-      ]
-    ],
-    "tail": "output/broll-grinch/set28/tail.mp4",
-    "uses": [
-      {
-        "video": "nogift-set28",
-        "date": "2026-11-02T19:33:36",
-        "song": "buble-beginning.mp3",
-        "text": "[{\"text\":\"👱: \\\"No gift is perfect\\\"\nMe: 😏\",\"y\":0.12}]",
-        "set": "set28"
-      },
-      {
-        "video": "mallrun-set28",
-        "date": "2026-11-02T19:46:33",
-        "song": "buble-beginning.mp3",
-        "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...💚🎄\",\"y\":0.12}]",
-        "set": "set28"
-      },
-      {
-        "video": "twofriends-set28",
-        "date": "2026-11-02T19:50:28",
-        "song": "mariah-all-i-want.mp3",
-        "text": "[{\"text\":\"DO NOT Show this to a\nGRINCH LOVER...💚🎄\",\"y\":0.12}]",
-        "set": "set28"
-      }
-    ]
-  },
-  {
-    "set": "set29",
-    "variant": "v4",
-    "character_id": "03f46759-1d2a-4943-9cf9-c7b09fe01177",
-    "room": "real-liv3",
-    "room_id": "4a77c378-f324-41a6-ba36-5d9ff4cfe808",
-    "cozy_ref_id": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72",
-    "outfit": "a green-and-red Christmas plaid long pajama set with white piping",
-    "kling_job": "90c7593d-ea8b-44f3-9793-afe93d719da6",
-    "status": "ok",
-    "note": "camere reale din reel-urile FB (2 nov), cu brad",
-    "broll_segs": [
-      [
-        0.1,
-        1.75
-      ],
-      [
-        2.54,
-        5.6
-      ]
-    ],
-    "tail": "output/broll-grinch/set29/tail.mp4",
-    "uses": [
-      {
-        "video": "mallwindow-set29",
-        "date": "2026-11-02T19:39:48",
-        "song": "buble-beginning.mp3",
-        "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...🎄💚\",\"y\":0.12}]",
-        "set": "set29"
-      },
-      {
-        "video": "mallrun-set29",
-        "date": "2026-11-02T19:47:10",
-        "song": "mariah-all-i-want.mp3",
-        "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...💚🎄\",\"y\":0.12}]",
-        "set": "set29"
-      },
-      {
-        "video": "twofriends-set29",
-        "date": "2026-11-02T19:51:01",
-        "song": "wham-last-christmas.mp3",
-        "text": "[{\"text\":\"DO NOT Show this to a\nGRINCH LOVER...💚🎄\",\"y\":0.12}]",
-        "set": "set29"
-      }
-    ]
-  },
-  {
-    "set": "set30",
-    "variant": "v4",
-    "character_id": "dd6534c6-107c-44b1-a746-20e26536e2da",
-    "room": "real-liv4",
-    "room_id": "07e77b34-7deb-40ca-bee4-912d5be3195a",
-    "cozy_ref_id": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72",
-    "outfit": "a grey USA varsity crewneck sweatshirt and navy long jogger pants",
-    "kling_job": "313148be-a8b9-4d00-a97b-1c0ebde7dccd",
-    "status": "ok",
-    "note": "camere reale din reel-urile FB (2 nov), cu brad",
-    "broll_segs": [
-      [
-        0.1,
-        1.75
-      ],
-      [
-        2.38,
-        5.85
-      ]
-    ],
-    "tail": "output/broll-grinch/set30/tail.mp4",
-    "uses": [
-      {
-        "video": "mallwindow-set30",
-        "date": "2026-11-02T19:40:19",
-        "song": "mariah-all-i-want.mp3",
-        "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...🎄💚\",\"y\":0.12}]",
-        "set": "set30"
-      },
-      {
-        "video": "mallrun-set30",
-        "date": "2026-11-02T19:47:46",
-        "song": "wham-last-christmas.mp3",
-        "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...💚🎄\",\"y\":0.12}]",
-        "set": "set30"
-      }
-    ]
-  },
-  {
-    "set": "set31",
-    "variant": "v4",
-    "character_id": "d2c4f79c-d2d0-4c6a-bcac-d61f18f48fb0",
-    "room": "real-liv5",
-    "room_id": "26bc8bcb-0b85-4d0f-a73f-326a280ac21e",
-    "cozy_ref_id": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72",
-    "outfit": "a white long-sleeve tee with a small American flag and red plaid flannel pajama pants",
-    "kling_job": "6df48fa8-2cbf-49b7-8b32-8d93d02cc256",
-    "status": "ok",
-    "note": "camere reale din reel-urile FB (2 nov), cu brad",
-    "broll_segs": [
-      [
-        0.1,
-        1.71
-      ],
-      [
-        2.67,
-        5.85
-      ]
-    ],
-    "cozy_slow": 1.4,
-    "tail": "output/broll-grinch/set31/tail.mp4",
-    "uses": [
-      {
-        "video": "mallwindow-set31",
-        "date": "2026-11-02T19:40:51",
-        "song": "wham-last-christmas.mp3",
-        "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...🎄💚\",\"y\":0.12}]",
-        "set": "set31"
-      },
-      {
-        "video": "mallrun-set31",
-        "date": "2026-11-02T19:48:22",
-        "song": "buble-beginning.mp3",
-        "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...💚🎄\",\"y\":0.12}]",
-        "set": "set31"
-      }
-    ]
-  },
-  {
-    "set": "set32",
-    "variant": "v4",
-    "character_id": "eea7024d-d2e1-4b34-9a1b-d5ecf5b723ab",
-    "room": "real-bed1",
-    "room_id": "26e498f2-4ae7-4d76-b424-35984446546a",
-    "cozy_ref_id": "08edb738-c9b7-40ea-8cf5-97995c61471e",
-    "outfit": "a red long-sleeve thermal top and navy plaid flannel pajama pants",
-    "kling_job": "179d953c-edc3-4883-b2b5-c911dab5ba8e",
-    "status": "ok",
-    "note": "camere reale din reel-urile FB (2 nov), cu brad",
-    "tail": "output/broll-grinch/set32/tail.mp4",
-    "uses": [
-      {
-        "video": "tray123-set32",
-        "date": "2026-11-02T19:37:09",
-        "song": "mariah-all-i-want.mp3",
-        "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...🎄💚\",\"y\":0.12}]",
-        "set": "set32"
-      }
-    ]
-  },
-  {
-    "set": "set33",
-    "variant": "v4",
-    "character_id": "58996f04-f9e8-45fa-97b9-ede3cf7c28d6",
-    "room": "real-bed2",
-    "room_id": "15868b68-4526-42b3-8e44-2acb098d8b75",
-    "cozy_ref_id": "b8b6095e-f9c4-448f-8f6f-e11263210d95",
-    "outfit": "a navy hooded college sweatshirt and grey long sweatpants",
-    "kling_job": "a97d4018-57d2-4004-b411-70db35b03d69",
-    "status": "ok",
-    "note": "camere reale din reel-urile FB (2 nov), cu brad",
-    "broll_segs": [
-      [
-        0.1,
-        1.71
-      ],
-      [
-        2.54,
-        5.6
-      ]
-    ],
-    "cozy_slow": 1.4,
-    "tail": "output/broll-grinch/set33/tail.mp4",
-    "uses": [
-      {
-        "video": "tray123-set33",
-        "date": "2026-11-02T19:37:41",
-        "song": "wham-last-christmas.mp3",
-        "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...🎄💚\",\"y\":0.12}]",
-        "set": "set33"
-      }
-    ]
-  },
-  {
-    "set": "set34",
-    "variant": "v4",
-    "character_id": "dcd16144-13d4-4db0-9b90-3ca8104685b2",
-    "room": "real-bed3",
-    "room_id": "bc52d115-ccd3-475d-8b1f-5a849d86b509",
-    "cozy_ref_id": "08edb738-c9b7-40ea-8cf5-97995c61471e",
-    "outfit": "a heather-grey long-sleeve henley and red-and-white candy-stripe pajama pants",
-    "kling_job": "aba1d7f1-593f-44c1-b645-195520331b85",
-    "status": "ok",
-    "note": "camere reale din reel-urile FB (2 nov), cu brad",
-    "tail": "output/broll-grinch/set34/tail.mp4",
-    "uses": [
-      {
-        "video": "tray123-set34",
-        "date": "2026-11-02T19:38:13",
-        "song": "buble-beginning.mp3",
-        "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...🎄💚\",\"y\":0.12}]",
-        "set": "set34"
-      }
-    ]
-  },
-  {
-    "set": "set35",
-    "variant": "v4",
-    "character_id": "ec5d73de-79a9-49fa-9afd-760083974862",
-    "room": "real-bed4",
-    "room_id": "d1ddae71-faef-4ab9-b009-d2a64b1a6cfd",
-    "cozy_ref_id": "b8b6095e-f9c4-448f-8f6f-e11263210d95",
-    "outfit": "a heather-grey Army-style crewneck and red plaid pajama pants",
-    "kling_job": "5a9660ca-8eb0-4cc4-8a79-b25293f04558",
-    "status": "ok",
-    "note": "camere reale din reel-urile FB (2 nov), cu brad",
-    "tail": "output/broll-grinch/set35/tail.mp4",
-    "uses": [
-      {
-        "video": "tray123-set35",
-        "date": "2026-11-02T19:38:45",
-        "song": "mariah-all-i-want.mp3",
-        "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...🎄💚\",\"y\":0.12}]",
-        "set": "set35"
-      }
-    ]
-  },
-  {
-    "set": "set36",
-    "variant": "v4",
-    "character_id": "80d99198-699e-41da-8ba6-0369614a2185",
-    "room": "real-liv0b",
-    "room_id": "7ce7fe3f-6f14-48bb-bde6-4776dadf1892",
-    "cozy_ref_id": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72",
-    "outfit": "a white long-sleeve tee and navy star-print long pajama pants",
-    "kling_job": "8d88cf3b-d03c-400a-97f4-3739c7e78380",
-    "status": "ok",
-    "note": "camere reale din reel-urile FB (2 nov), cu brad",
-    "broll_segs": [
-      [
-        0.1,
-        1.75
-      ],
-      [
-        2.54,
-        5.85
-      ]
-    ],
-    "cozy_slow": 1.4,
-    "tail": "output/broll-grinch/set36/tail.mp4",
-    "uses": [
-      {
-        "video": "nogift-set36",
-        "date": "2026-11-02T19:31:40",
-        "song": "wham-last-christmas.mp3",
-        "text": "[{\"text\":\"👱: \\\"No gift is perfect\\\"\nMe: 😏\",\"y\":0.12}]",
-        "set": "set36"
-      },
-      {
-        "video": "mallwindow-set36",
-        "date": "2026-11-02T19:41:23",
-        "song": "buble-beginning.mp3",
-        "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...🎄💚\",\"y\":0.12}]",
-        "set": "set36"
-      },
-      {
-        "video": "twofriends-set36",
-        "date": "2026-11-02T19:48:52",
-        "song": "mariah-all-i-want.mp3",
-        "text": "[{\"text\":\"DO NOT Show this to a\nGRINCH LOVER...💚🎄\",\"y\":0.12}]",
-        "set": "set36"
-      }
-    ]
-  },
-  {
-    "set": "set37",
-    "variant": "v4",
-    "character_id": "ae522001-88a4-40b3-8cc2-1b9a11cc4b4c",
-    "room": "real-bed1b",
-    "room_id": "26e498f2-4ae7-4d76-b424-35984446546a",
-    "cozy_ref_id": "08edb738-c9b7-40ea-8cf5-97995c61471e",
-    "outfit": "a navy-and-red striped rugby sweater and light-grey long joggers",
-    "kling_job": "19613fb5-4628-4d35-8788-8d9a7a1a7662",
-    "status": "ok",
-    "note": "camere reale din reel-urile FB (2 nov), cu brad",
-    "broll_segs": [
-      [
-        0.1,
-        1.75
-      ],
-      [
-        2.0,
-        5.71
-      ]
-    ],
-    "tail": "output/broll-grinch/set37/tail.mp4",
-    "uses": [
-      {
-        "video": "nogift-set37",
-        "date": "2026-11-02T19:32:09",
-        "song": "buble-beginning.mp3",
-        "text": "[{\"text\":\"👱: \\\"No gift is perfect\\\"\nMe: 😏\",\"y\":0.12}]",
-        "set": "set37"
-      },
-      {
-        "video": "tray123-set37",
-        "date": "2026-11-02T19:39:17",
-        "song": "wham-last-christmas.mp3",
-        "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...🎄💚\",\"y\":0.12}]",
-        "set": "set37"
-      }
-    ]
-  }
+ {
+  "set": "set01",
+  "variant": "v4",
+  "character": "character-07.jpg",
+  "character_id": "f558503b-aebe-4a44-8f5b-0610ac823073",
+  "room": "room-4k-01.jpg",
+  "room_id": "b22bf3fd-7406-4f4a-8a29-6932af0bf795",
+  "outfit": "a red-and-green buffalo-plaid flannel long pajama set",
+  "sofa": "the cream sofa against the left wall of Image 2, with the round wooden side table and the lamp next to it",
+  "cozy_bg": "the white wall with the framed picture and the soft throw blanket on the sofa",
+  "job": "743e5907-d66e-4cf0-a460-466ce9335d97",
+  "status": "ok",
+  "uses": [
+   {
+    "video": "v01",
+    "date": "2026-11-02T10:02:36",
+    "song": "wham-last-christmas.mp3",
+    "text": "DONT show this to\nyour mom😳❄️",
+    "set": "set01"
+   }
+  ],
+  "tail": "output/broll-grinch/set01/tail.mp4",
+  "broll_segs": [
+   [
+    0.1,
+    5.46
+   ]
+  ]
+ },
+ {
+  "set": "set02",
+  "variant": "v4",
+  "character": "character-21.jpg",
+  "character_id": "dd6534c6-107c-44b1-a746-20e26536e2da",
+  "room": "room-4k-02.jpg",
+  "room_id": "61e267d6-e007-47a3-b791-3139622089bd",
+  "outfit": "a grey USA varsity crewneck sweatshirt and navy long jogger pants",
+  "sofa": "the cream sofa against the left wall of Image 2, with the round wooden side table and the lamp next to it",
+  "cozy_bg": "the white wall and the small lit Christmas tree in the corner",
+  "job": "c9423bd4-dac8-4b62-9d84-682ed05f6c0b",
+  "status": "ok",
+  "uses": [
+   {
+    "video": "v08",
+    "date": "2026-11-02T10:03:43",
+    "song": "mariah-all-i-want.mp3",
+    "text": "Imagine this on the first\nsnow day.. 😌❄️☃️",
+    "set": "set02"
+   }
+  ],
+  "note": "try1/2 cu character-22.jpg au pastrat fata din clipul de referinta -> schimbat pe character-21.jpg",
+  "tail": "output/broll-grinch/set02/tail.mp4",
+  "broll_segs": [
+   [
+    0.1,
+    5.36
+   ]
+  ]
+ },
+ {
+  "set": "set03",
+  "variant": "v4",
+  "character": "character-25.jpg",
+  "character_id": "d2c4f79c-d2d0-4c6a-bcac-d61f18f48fb0",
+  "room": "room-4k-03.jpg",
+  "room_id": "53866703-61a6-4eef-9b32-f6968f8a729b",
+  "outfit": "a white long-sleeve tee with a small American flag and red plaid flannel pajama pants",
+  "sofa": "the cream sofa against the left wall of Image 2, with the round wooden side table and the lamp next to it",
+  "cozy_bg": "the white wall with the framed picture and the olive tree in a pot",
+  "job": "85c03b20-09d8-474e-b465-4a72f8bd0da9",
+  "status": "ok",
+  "uses": [
+   {
+    "video": "v03",
+    "date": "2026-11-02T09:03:28",
+    "song": "mariah-all-i-want.mp3",
+    "text": "I'm literally crying 😭",
+    "set": "set03"
+   }
+  ],
+  "tail": "output/broll-grinch/set03/tail.mp4",
+  "broll_segs": [
+   [
+    0.1,
+    5.32
+   ]
+  ]
+ },
+ {
+  "set": "set04",
+  "variant": "v4",
+  "character": "character-14.jpg",
+  "character_id": "d7b0d063-6585-4aa3-8d96-193359a973a4",
+  "room": "room-4k-06.jpg",
+  "room_id": "b837cdfe-4894-4c6e-8d3e-048bbfd0f8e0",
+  "outfit": "a navy-and-white striped long pajama set",
+  "sofa": "the cream sofa against the left wall of Image 2, with the round wooden side table and the lamp next to it",
+  "cozy_bg": "the plain white wall and the lamp on the side table",
+  "job": "e4c9e68a-6d7b-4da2-ab0e-2b1a153c5d81",
+  "status": "ok",
+  "uses": [],
+  "note": "try1/2 cu character-26.jpg au pastrat fata din clipul de referinta -> schimbat pe character-14.jpg",
+  "tail": "output/broll-grinch/set04/tail.mp4",
+  "broll_segs": [
+   [
+    0.1,
+    5.28
+   ]
+  ]
+ },
+ {
+  "set": "set05",
+  "variant": "v4",
+  "character": "character-29.jpg",
+  "character_id": "eea7024d-d2e1-4b34-9a1b-d5ecf5b723ab",
+  "room": "room-4k-07.jpg",
+  "room_id": "89805af7-71c8-4930-9df3-f4a7d30f405c",
+  "outfit": "a red long-sleeve thermal top and navy plaid flannel pajama pants",
+  "sofa": "the light-grey sofa against the left wall of Image 2, with the side table and the lamp next to it",
+  "cozy_bg": "the lit Christmas tree in a woven basket and the white wall with the framed picture",
+  "job": "b4abde84-6b10-4602-9fbd-f452c98db69e",
+  "status": "ok",
+  "uses": [
+   {
+    "video": "v05",
+    "date": "2026-11-02T09:04:45",
+    "song": "wham-last-christmas.mp3",
+    "text": "[{\"text\": \"\\\"Moms are so hard to gift\\\"\n🤶❄️🥹\", \"size\": 68}]",
+    "set": "set05"
+   }
+  ],
+  "tail": "output/broll-grinch/set05/tail.mp4",
+  "broll_segs": [
+   [
+    0.1,
+    5.37
+   ]
+  ]
+ },
+ {
+  "set": "set06",
+  "variant": "v4",
+  "character": "character-30.jpg",
+  "character_id": "58996f04-f9e8-45fa-97b9-ede3cf7c28d6",
+  "room": "room-4k-08.jpg",
+  "room_id": "c5289bb6-d236-420a-a91f-997c191e7d6c",
+  "outfit": "a navy hooded college sweatshirt and grey long sweatpants",
+  "sofa": "the cream sofa against the left wall of Image 2, with the round wooden side table and the lamp next to it",
+  "cozy_bg": "the white wall with the abstract framed print and the green plant",
+  "job": "3ab32f65-0f6e-4ee3-b3df-0613c1d0185f",
+  "status": "ok",
+  "uses": [
+   {
+    "video": "v10",
+    "date": "2026-11-01T23:20:56",
+    "song": "mariah-all-i-want.mp3",
+    "text": "[{\"text\": \"\\\"Babe you don't\nneed that...\\\" 🙄\", \"y\": 0.12}, {\"text\": \"Me: 🥺💚\", \"x\": 0.17, \"y\": 0.27, \"size\": 76}]",
+    "set": "set06"
+   }
+  ],
+  "tail": "output/broll-grinch/set06/tail.mp4",
+  "broll_segs": [
+   [
+    0.1,
+    5.39
+   ]
+  ]
+ },
+ {
+  "set": "set07",
+  "variant": "v4",
+  "character": "character-31.jpg",
+  "character_id": "dcd16144-13d4-4db0-9b90-3ca8104685b2",
+  "room": "room-4k-10.jpg",
+  "room_id": "d5db4701-b956-478a-8d65-dec4a35c0779",
+  "outfit": "a heather-grey long-sleeve henley and red-and-white candy-stripe pajama pants",
+  "sofa": "the white sofa against the left wall of Image 2, with the small round side table and the lamp next to it",
+  "cozy_bg": "the plain white wall and the lamp",
+  "job": "4c8dfdc6-f855-4753-946b-588847eb582b",
+  "status": "ok",
+  "uses": [
+   {
+    "video": "v07",
+    "date": "2026-11-02T09:06:05",
+    "song": "buble-beginning.mp3",
+    "text": "Christmas-holics this is\nfor YOU..🎄🎅",
+    "set": "set07"
+   }
+  ],
+  "tail": "output/broll-grinch/set07/tail.mp4",
+  "broll_segs": [
+   [
+    0.1,
+    5.32
+   ]
+  ]
+ },
+ {
+  "set": "set08",
+  "variant": "v5",
+  "character": "character-15.jpg",
+  "character_id": "03f46759-1d2a-4943-9cf9-c7b09fe01177",
+  "room": "room-4k-13.jpg",
+  "room_id": "7f5b4d51-6433-422e-b9fc-15aa1b23c31a",
+  "outfit": "a green-and-red Christmas plaid long pajama set with white piping",
+  "sofa": "the cream sofa against the left wall of Image 2, with the side table and the lamp next to it",
+  "cozy_bg": "the decorated Christmas tree with red ornaments and the white wall",
+  "job": "1079ed76-38eb-4f71-a5e5-0a189b8bae4b",
+  "status": "ok",
+  "uses": [
+   {
+    "video": "v09",
+    "date": "2026-11-02T09:07:18",
+    "song": "mariah-all-i-want.mp3",
+    "text": "Imagine this on day 2\nof your period..😳🩸",
+    "set": "set08"
+   }
+  ],
+  "note": "try1/2 cu character-35.jpg au pastrat fata din clipul de referinta -> schimbat pe character-15.jpg",
+  "tail": "output/broll-grinch/set08/tail.mp4"
+ },
+ {
+  "set": "set09",
+  "variant": "v5",
+  "character": "character-30.jpg",
+  "character_id": "58996f04-f9e8-45fa-97b9-ede3cf7c28d6",
+  "room": "room-4k-15.jpg",
+  "room_id": "85020cef-1e80-48db-a2b8-b2f9d76acc48",
+  "outfit": "a cream cable-knit sweater and light-blue straight jeans",
+  "sofa": "the cream sofa against the left wall of Image 2, with the round wooden side table and the lamp next to it",
+  "cozy_bg": "the lit Christmas tree and the framed snowy-landscape picture",
+  "job": "98cb515e-341b-402c-93d9-dd2a54fc5859",
+  "status": "ok",
+  "uses": [],
+  "note": "try1/2 cu character-37.jpg au pastrat fata din clipul de referinta -> schimbat pe character-30.jpg",
+  "tail": "output/broll-grinch/set09/tail.mp4"
+ },
+ {
+  "set": "set10",
+  "variant": "v5",
+  "character": "character-25.jpg",
+  "character_id": "d2c4f79c-d2d0-4c6a-bcac-d61f18f48fb0",
+  "room": "room-4k-16.jpg",
+  "room_id": "acb8848d-d70d-4af6-bdb7-eb6f7b3da9c5",
+  "outfit": "a navy long-sleeve pajama top with small white stars and red-and-white striped long pajama pants",
+  "sofa": "the taupe sofa against the left wall of Image 2, with the round wooden side table and the lamp next to it",
+  "cozy_bg": "the white wall with the abstract framed print",
+  "job": "7e8969c0-e04e-4f17-b874-ba18523bf53a",
+  "status": "ok",
+  "uses": [],
+  "note": "try1/2 cu character-02.jpg au pastrat fata din clipul de referinta -> schimbat pe character-25.jpg",
+  "tail": "output/broll-grinch/set10/tail.mp4"
+ },
+ {
+  "set": "set11",
+  "variant": "v4",
+  "character": "character-05.jpg",
+  "character_id": "364e53ee-260c-4f0e-95ea-1cf856049d64",
+  "room": "room-4k-21.jpg",
+  "room_id": "7c92036e-c174-4eac-8cd8-9b78a08eaa99",
+  "outfit": "a red Fair Isle sweater and navy long pajama pants",
+  "sofa": "the cream sectional sofa on the left side of Image 2, under the two framed botanical prints",
+  "cozy_bg": "the sage-green wall with the two framed botanical prints",
+  "status": "ok",
+  "uses": [
+   {
+    "video": "v02",
+    "date": "2026-11-02T10:03:08",
+    "song": "buble-beginning.mp3",
+    "text": "DONT show this to\nyour mom😳❄️",
+    "set": "set11"
+   }
+  ],
+  "job": "a31880d2-6a23-4f69-9b23-71cd74f1b22b",
+  "tail": "output/broll-grinch/set11/tail.mp4",
+  "broll_segs": [
+   [
+    0.1,
+    5.37
+   ]
+  ]
+ },
+ {
+  "set": "set12",
+  "variant": "v4",
+  "character": "character-29.jpg",
+  "character_id": "eea7024d-d2e1-4b34-9a1b-d5ecf5b723ab",
+  "room": "room-4k-22.jpg",
+  "room_id": "4fede309-3668-4f39-b4d5-05c97ca43411",
+  "outfit": "a white thermal top and red-and-white checked flannel pajama pants",
+  "sofa": "the tan leather sofa on the right side of Image 2, near the white brick fireplace",
+  "cozy_bg": "the window and the lit Christmas tree next to it",
+  "status": "ok",
+  "uses": [],
+  "job": "0e0ddbe3-1a0e-4a59-89bd-5f91953cfcf1",
+  "tail": "output/broll-grinch/set12/tail.mp4",
+  "broll_segs": [
+   [
+    0.1,
+    5.29
+   ]
+  ]
+ },
+ {
+  "set": "set13",
+  "variant": "v4",
+  "character": "character-31.jpg",
+  "character_id": "dcd16144-13d4-4db0-9b90-3ca8104685b2",
+  "room": "room-4k-24.jpg",
+  "room_id": "f4c5b6c5-43b7-4147-9aeb-d9b357f35309",
+  "outfit": "a navy Team USA hoodie and grey long joggers",
+  "sofa": "the pink sectional sofa in the middle of Image 2",
+  "cozy_bg": "the windows with white curtains and the framed pictures",
+  "status": "ok",
+  "uses": [
+   {
+    "video": "v06",
+    "date": "2026-11-02T09:05:23",
+    "song": "mariah-all-i-want.mp3",
+    "text": "[{\"text\": \"\\\"Moms are so hard to gift\\\"\n🤶❄️🥹\", \"size\": 68}]",
+    "set": "set13"
+   }
+  ],
+  "job": "ef3dc476-3aff-41d9-b335-f84aa263c854",
+  "tail": "output/broll-grinch/set13/tail.mp4",
+  "broll_segs": [
+   [
+    0.1,
+    5.32
+   ]
+  ]
+ },
+ {
+  "set": "set14",
+  "variant": "v4",
+  "character": "character-21.jpg",
+  "character_id": "dd6534c6-107c-44b1-a746-20e26536e2da",
+  "room": "room-4k-27.jpg",
+  "room_id": "81dab7bb-ae4f-4e7b-af3e-2932e7abf77a",
+  "outfit": "a cream waffle-knit long-sleeve top and green tartan pajama pants",
+  "sofa": "the light-blue sofa on the right side of Image 2, next to the bay window",
+  "cozy_bg": "the bay window with the cushioned window seat and the Christmas tree",
+  "status": "ok",
+  "uses": [],
+  "job": "be7a8555-716b-4b2a-bfd7-142622246a64",
+  "tail": "output/broll-grinch/set14/tail.mp4",
+  "broll_segs": [
+   [
+    0.1,
+    5.3
+   ]
+  ]
+ },
+ {
+  "set": "set15",
+  "variant": "v4",
+  "character": "character-15.jpg",
+  "character_id": "03f46759-1d2a-4943-9cf9-c7b09fe01177",
+  "room": "room-4k-37.jpg",
+  "room_id": "0b9d44f7-1607-460c-8e4b-47fe9e8a73be",
+  "outfit": "a red-white-and-blue striped long pajama set",
+  "sofa": "the dark-green sofa in front of the built-in white shelves of Image 2",
+  "cozy_bg": "the built-in white shelves with the TV and the Christmas tree on the left",
+  "status": "ok",
+  "uses": [],
+  "job": "ff4ff19b-cd99-4ef5-8ad6-95711ea1287f",
+  "tail": "output/broll-grinch/set15/tail.mp4",
+  "broll_segs": [
+   [
+    0.1,
+    5.39
+   ]
+  ]
+ },
+ {
+  "set": "set16",
+  "variant": "v4",
+  "character": "character-14.jpg",
+  "character_id": "d7b0d063-6585-4aa3-8d96-193359a973a4",
+  "room": "room-4k-25.jpg",
+  "room_id": "4c535c56-3c33-427a-9fb5-517b0244a246",
+  "outfit": "a red-and-black buffalo-plaid flannel shirt and grey long sweatpants",
+  "sofa": "the navy-blue sofa on the left side of Image 2, near the staircase with the garland",
+  "cozy_bg": "the window with the woven blind and the framed picture on the white wall",
+  "status": "ok",
+  "uses": [],
+  "job": "5062efa6-88f7-4a49-bdf0-541f3eb17b69",
+  "note": "try1 cu 071 (bruneta) a pastrat fata din referinta",
+  "tail": "output/broll-grinch/set16/tail.mp4",
+  "broll_segs": [
+   [
+    0.1,
+    1.66
+   ],
+   [
+    2.76,
+    5.41
+   ]
+  ]
+ },
+ {
+  "set": "set17",
+  "variant": "v4",
+  "character": "ci-2026-10-02_072.jpg",
+  "character_id": "ec5d73de-79a9-49fa-9afd-760083974862",
+  "room": "room-4k-28.jpg",
+  "room_id": "54c64620-7908-46d6-917e-08e604f106f1",
+  "outfit": "a heather-grey Army-style crewneck and red plaid pajama pants",
+  "sofa": "the cream sofa in front of the tall windows of Image 2",
+  "cozy_bg": "the tall windows with the snowy trees outside",
+  "status": "ok",
+  "uses": [
+   {
+    "video": "v04",
+    "date": "2026-11-02T09:04:06",
+    "song": "buble-beginning.mp3",
+    "text": "I'm literally crying 😭",
+    "set": "set17"
+   }
+  ],
+  "tail": "output/broll-grinch/set17/tail.mp4",
+  "broll_segs": [
+   [
+    0.1,
+    5.28
+   ]
+  ]
+ },
+ {
+  "set": "set18",
+  "variant": "v4",
+  "character": "ci-2026-10-02_073.jpg",
+  "character_id": "80d99198-699e-41da-8ba6-0369614a2185",
+  "room": "room-4k-33.jpg",
+  "room_id": "e1a81fb5-fe25-4d9c-b175-4a82c4815e13",
+  "outfit": "a white long-sleeve tee and navy star-print long pajama pants",
+  "sofa": "the curved mustard-yellow sofa in the middle of Image 2",
+  "cozy_bg": "the wood-paneled wall with the abstract framed print and the lamp",
+  "status": "ok",
+  "uses": [],
+  "tail": "output/broll-grinch/set18/tail.mp4",
+  "broll_segs": [
+   [
+    0.1,
+    5.32
+   ]
+  ]
+ },
+ {
+  "set": "set19",
+  "variant": "v4",
+  "character": "character-31.jpg",
+  "character_id": "dcd16144-13d4-4db0-9b90-3ca8104685b2",
+  "room": "room-4k-34.jpg",
+  "room_id": "1189916e-f987-4243-a887-8caff587a7cd",
+  "outfit": "a forest-green waffle-knit top and red-and-green plaid pajama pants",
+  "sofa": "the light-grey sofa with plaid pillows in the middle of Image 2",
+  "cozy_bg": "the black-framed glass doors and the framed picture",
+  "status": "ok",
+  "uses": [],
+  "job": "a06912ec-b465-4bd5-be9b-fe372ed2cbab",
+  "note": "try1 cu 075 a pastrat fata din referinta",
+  "tail": "output/broll-grinch/set19/tail.mp4",
+  "broll_segs": [
+   [
+    0.1,
+    5.39
+   ]
+  ]
+ },
+ {
+  "set": "set20",
+  "variant": "v4",
+  "character": "ci-2026-10-02_080.jpg",
+  "character_id": "ae522001-88a4-40b3-8cc2-1b9a11cc4b4c",
+  "room": "room-4k-38.jpg",
+  "room_id": "46a3e19d-9e9b-4c4f-9301-1271cdc980ef",
+  "outfit": "a navy-and-red striped rugby sweater and light-grey long joggers",
+  "sofa": "the brown leather sofa in front of the windows of Image 2",
+  "cozy_bg": "the windows with woven blinds and the lit Christmas tree",
+  "status": "ok",
+  "uses": [],
+  "job": "887dfc74-c64d-4a4e-a127-75ace6d95e93",
+  "tail": "output/broll-grinch/set20/tail.mp4",
+  "broll_segs": [
+   [
+    0.1,
+    5.28
+   ]
+  ]
+ },
+ {
+  "set": "set21",
+  "variant": "v4",
+  "character": "character-07.jpg",
+  "character_id": "f558503b-aebe-4a44-8f5b-0610ac823073",
+  "room": "princess-style-set01",
+  "room_id": "46ffdc8e-b9ae-499e-bae3-ee029ad9ca48",
+  "outfit": "a red-and-green buffalo-plaid flannel long pajama set",
+  "sofa": "the cream sofa against the left wall of Image 2, with the round wooden side table and the lamp next to it",
+  "cozy_bg": "the white wall with the framed picture and the soft throw blanket on the sofa",
+  "job": "b8c193b5-bec9-4474-b821-88cb9a5f45b1",
+  "status": "ok",
+  "uses": [],
+  "tail": "output/broll-grinch/set21/tail.mp4",
+  "broll_segs": [
+   [
+    0.1,
+    5.34
+   ]
+  ]
+ },
+ {
+  "set": "set22",
+  "variant": "v4",
+  "character": "character-05.jpg",
+  "character_id": "364e53ee-260c-4f0e-95ea-1cf856049d64",
+  "room": "princess-style-set11",
+  "room_id": "aa9a427e-855c-4278-b80a-dc661d1178e3",
+  "outfit": "a red Fair Isle sweater and navy long pajama pants",
+  "sofa": "the cream sectional sofa on the left side of Image 2, under the two framed botanical prints",
+  "cozy_bg": "the sage-green wall with the two framed botanical prints",
+  "status": "ok",
+  "uses": [],
+  "job": "56fb68ff-e367-4351-8d3c-efc03799af71",
+  "tail": "output/broll-grinch/set22/tail.mp4",
+  "broll_segs": [
+   [
+    0.1,
+    5.34
+   ]
+  ]
+ },
+ {
+  "set": "set23",
+  "variant": "v4",
+  "character": "character-31.jpg",
+  "character_id": "dcd16144-13d4-4db0-9b90-3ca8104685b2",
+  "room": "princess-style-set07",
+  "room_id": "e99dcfc6-4e30-4cac-ab94-44a3d11cbbae",
+  "outfit": "a heather-grey long-sleeve henley and red-and-white candy-stripe pajama pants",
+  "sofa": "the white sofa against the left wall of Image 2, with the small round side table and the lamp next to it",
+  "cozy_bg": "the plain white wall and the lamp",
+  "job": "5a6be245-cad4-4088-b2c5-39ae96d050bc",
+  "status": "ok",
+  "uses": [],
+  "tail": "output/broll-grinch/set23/tail.mp4",
+  "broll_segs": [
+   [
+    0.1,
+    1.41
+   ],
+   [
+    2.76,
+    5.41
+   ]
+  ]
+ },
+ {
+  "set": "set24",
+  "variant": "v4",
+  "character": "character-21.jpg",
+  "character_id": "dd6534c6-107c-44b1-a746-20e26536e2da",
+  "room": "princess-style-set02",
+  "room_id": "417ca2c4-4da5-4b88-8e53-96cdc7e9c8ac",
+  "outfit": "a grey USA varsity crewneck sweatshirt and navy long jogger pants",
+  "sofa": "the cream sofa against the left wall of Image 2, with the round wooden side table and the lamp next to it",
+  "cozy_bg": "the white wall and the small lit Christmas tree in the corner",
+  "job": "8fbe20b1-b624-48ca-87b6-1cb9650bf4c2",
+  "status": "ok",
+  "uses": [],
+  "note": "try1/2 cu character-22.jpg au pastrat fata din clipul de referinta -> schimbat pe character-21.jpg",
+  "tail": "output/broll-grinch/set24/tail.mp4",
+  "broll_segs": [
+   [
+    0.1,
+    5.47
+   ]
+  ]
+ },
+ {
+  "set": "set25",
+  "variant": "v4",
+  "character": "character-30.jpg",
+  "character_id": "58996f04-f9e8-45fa-97b9-ede3cf7c28d6",
+  "room": "princess-style-set06",
+  "room_id": "d81b2510-29ce-4508-bec0-a7ffd7126eb3",
+  "outfit": "a navy hooded college sweatshirt and grey long sweatpants",
+  "sofa": "the cream sofa against the left wall of Image 2, with the round wooden side table and the lamp next to it",
+  "cozy_bg": "the white wall with the abstract framed print and the green plant",
+  "job": "05616d8e-70bc-4c9b-be9f-5935a286bfab",
+  "status": "ok",
+  "uses": [],
+  "tail": "output/broll-grinch/set25/tail.mp4",
+  "broll_segs": [
+   [
+    0.1,
+    5.42
+   ]
+  ]
+ },
+ {
+  "set": "set26",
+  "variant": "v4",
+  "character_id": "364e53ee-260c-4f0e-95ea-1cf856049d64",
+  "room": "real-liv0",
+  "room_id": "7ce7fe3f-6f14-48bb-bde6-4776dadf1892",
+  "cozy_ref_id": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72",
+  "outfit": "a red Fair Isle sweater and navy long pajama pants",
+  "kling_job": "48a20ddc-d345-45ff-baf2-ed1f94ee28b3",
+  "status": "ok",
+  "note": "camere reale din reel-urile FB (2 nov), cu brad",
+  "tail": "output/broll-grinch/set26/tail.mp4",
+  "uses": [
+   {
+    "video": "nogift-set26",
+    "date": "2026-11-02T19:32:38",
+    "song": "mariah-all-i-want.mp3",
+    "text": "[{\"text\":\"👱: \\\"No gift is perfect\\\"\nMe: 😏\",\"y\":0.12}]",
+    "set": "set26"
+   },
+   {
+    "video": "mallwindow-set26",
+    "date": "2026-11-02T19:41:56",
+    "song": "mariah-all-i-want.mp3",
+    "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...🎄💚\",\"y\":0.12}]",
+    "set": "set26"
+   },
+   {
+    "video": "twofriends-set26",
+    "date": "2026-11-02T19:49:24",
+    "song": "wham-last-christmas.mp3",
+    "text": "[{\"text\":\"DO NOT Show this to a\nGRINCH LOVER...💚🎄\",\"y\":0.12}]",
+    "set": "set26"
+   }
+  ],
+  "broll_segs": [
+   [
+    0.1,
+    5.42
+   ]
+  ]
+ },
+ {
+  "set": "set27",
+  "variant": "v4",
+  "character_id": "f558503b-aebe-4a44-8f5b-0610ac823073",
+  "room": "real-liv1",
+  "room_id": "58e86937-6c64-4039-9a4d-2371582a8ec3",
+  "cozy_ref_id": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72",
+  "outfit": "a red-and-green buffalo-plaid flannel long pajama set",
+  "kling_job": "52494e88-4e3a-47cd-a6e9-b160a4edac3b",
+  "status": "ok",
+  "note": "camere reale din reel-urile FB (2 nov), cu brad",
+  "tail": "output/broll-grinch/set27/tail.mp4",
+  "uses": [
+   {
+    "video": "storemug",
+    "date": "2026-11-02T19:06:49",
+    "song": "wham-last-christmas.mp3",
+    "text": "Moms dont walk..\nRUN to target",
+    "set": "set27"
+   },
+   {
+    "video": "storemug",
+    "date": "2026-11-02T19:10:50",
+    "song": "buble-beginning.mp3",
+    "text": "[{\"text\":\"Moms DONT walk.. 🏃‍♀️\nRUN to target 🎯🎄\",\"y\":0.07}]",
+    "set": "set27"
+   },
+   {
+    "video": "storemug",
+    "date": "2026-11-02T19:12:04",
+    "song": "mariah-all-i-want.mp3",
+    "text": "[{\"text\":\"Moms DONT walk.. 🏃‍♀️\nRUN to target 🎯🎄\",\"y\":0.07}]",
+    "set": "set27"
+   },
+   {
+    "video": "nogift-set27",
+    "date": "2026-11-02T19:33:07",
+    "song": "wham-last-christmas.mp3",
+    "text": "[{\"text\":\"👱: \\\"No gift is perfect\\\"\nMe: 😏\",\"y\":0.12}]",
+    "set": "set27"
+   },
+   {
+    "video": "mallrun-set27",
+    "date": "2026-11-02T19:45:56",
+    "song": "wham-last-christmas.mp3",
+    "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...💚🎄\",\"y\":0.12}]",
+    "set": "set27"
+   },
+   {
+    "video": "twofriends-set27",
+    "date": "2026-11-02T19:49:56",
+    "song": "buble-beginning.mp3",
+    "text": "[{\"text\":\"DO NOT Show this to a\nGRINCH LOVER...💚🎄\",\"y\":0.12}]",
+    "set": "set27"
+   }
+  ],
+  "broll_segs": [
+   [
+    0.1,
+    5.42
+   ]
+  ]
+ },
+ {
+  "set": "set28",
+  "variant": "v4",
+  "character_id": "d7b0d063-6585-4aa3-8d96-193359a973a4",
+  "room": "real-liv2",
+  "room_id": "5f38a485-f4ed-48aa-9cff-72dd8113b0cd",
+  "cozy_ref_id": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72",
+  "outfit": "a navy-and-white striped long pajama set",
+  "kling_job": "423d1bc0-1c0b-43f7-9302-9d74c94467ba",
+  "status": "ok",
+  "note": "camere reale din reel-urile FB (2 nov), cu brad",
+  "broll_segs": [
+   [
+    0.1,
+    1.75
+   ],
+   [
+    2.12,
+    5.42
+   ]
+  ],
+  "tail": "output/broll-grinch/set28/tail.mp4",
+  "uses": [
+   {
+    "video": "nogift-set28",
+    "date": "2026-11-02T19:33:36",
+    "song": "buble-beginning.mp3",
+    "text": "[{\"text\":\"👱: \\\"No gift is perfect\\\"\nMe: 😏\",\"y\":0.12}]",
+    "set": "set28"
+   },
+   {
+    "video": "mallrun-set28",
+    "date": "2026-11-02T19:46:33",
+    "song": "buble-beginning.mp3",
+    "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...💚🎄\",\"y\":0.12}]",
+    "set": "set28"
+   },
+   {
+    "video": "twofriends-set28",
+    "date": "2026-11-02T19:50:28",
+    "song": "mariah-all-i-want.mp3",
+    "text": "[{\"text\":\"DO NOT Show this to a\nGRINCH LOVER...💚🎄\",\"y\":0.12}]",
+    "set": "set28"
+   }
+  ]
+ },
+ {
+  "set": "set29",
+  "variant": "v4",
+  "character_id": "03f46759-1d2a-4943-9cf9-c7b09fe01177",
+  "room": "real-liv3",
+  "room_id": "4a77c378-f324-41a6-ba36-5d9ff4cfe808",
+  "cozy_ref_id": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72",
+  "outfit": "a green-and-red Christmas plaid long pajama set with white piping",
+  "kling_job": "90c7593d-ea8b-44f3-9793-afe93d719da6",
+  "status": "ok",
+  "note": "camere reale din reel-urile FB (2 nov), cu brad",
+  "broll_segs": [
+   [
+    0.1,
+    1.64
+   ],
+   [
+    2.54,
+    5.42
+   ]
+  ],
+  "tail": "output/broll-grinch/set29/tail.mp4",
+  "uses": [
+   {
+    "video": "mallwindow-set29",
+    "date": "2026-11-02T19:39:48",
+    "song": "buble-beginning.mp3",
+    "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...🎄💚\",\"y\":0.12}]",
+    "set": "set29"
+   },
+   {
+    "video": "mallrun-set29",
+    "date": "2026-11-02T19:47:10",
+    "song": "mariah-all-i-want.mp3",
+    "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...💚🎄\",\"y\":0.12}]",
+    "set": "set29"
+   },
+   {
+    "video": "twofriends-set29",
+    "date": "2026-11-02T19:51:01",
+    "song": "wham-last-christmas.mp3",
+    "text": "[{\"text\":\"DO NOT Show this to a\nGRINCH LOVER...💚🎄\",\"y\":0.12}]",
+    "set": "set29"
+   }
+  ]
+ },
+ {
+  "set": "set30",
+  "variant": "v4",
+  "character_id": "dd6534c6-107c-44b1-a746-20e26536e2da",
+  "room": "real-liv4",
+  "room_id": "07e77b34-7deb-40ca-bee4-912d5be3195a",
+  "cozy_ref_id": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72",
+  "outfit": "a grey USA varsity crewneck sweatshirt and navy long jogger pants",
+  "kling_job": "313148be-a8b9-4d00-a97b-1c0ebde7dccd",
+  "status": "ok",
+  "note": "camere reale din reel-urile FB (2 nov), cu brad",
+  "broll_segs": [
+   [
+    0.1,
+    1.75
+   ],
+   [
+    2.38,
+    5.42
+   ]
+  ],
+  "tail": "output/broll-grinch/set30/tail.mp4",
+  "uses": [
+   {
+    "video": "mallwindow-set30",
+    "date": "2026-11-02T19:40:19",
+    "song": "mariah-all-i-want.mp3",
+    "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...🎄💚\",\"y\":0.12}]",
+    "set": "set30"
+   },
+   {
+    "video": "mallrun-set30",
+    "date": "2026-11-02T19:47:46",
+    "song": "wham-last-christmas.mp3",
+    "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...💚🎄\",\"y\":0.12}]",
+    "set": "set30"
+   }
+  ]
+ },
+ {
+  "set": "set31",
+  "variant": "v4",
+  "character_id": "d2c4f79c-d2d0-4c6a-bcac-d61f18f48fb0",
+  "room": "real-liv5",
+  "room_id": "26bc8bcb-0b85-4d0f-a73f-326a280ac21e",
+  "cozy_ref_id": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72",
+  "outfit": "a white long-sleeve tee with a small American flag and red plaid flannel pajama pants",
+  "kling_job": "6df48fa8-2cbf-49b7-8b32-8d93d02cc256",
+  "status": "ok",
+  "note": "camere reale din reel-urile FB (2 nov), cu brad",
+  "broll_segs": [
+   [
+    0.1,
+    1.64
+   ],
+   [
+    2.67,
+    5.42
+   ]
+  ],
+  "cozy_slow": 1.4,
+  "tail": "output/broll-grinch/set31/tail.mp4",
+  "uses": [
+   {
+    "video": "mallwindow-set31",
+    "date": "2026-11-02T19:40:51",
+    "song": "wham-last-christmas.mp3",
+    "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...🎄💚\",\"y\":0.12}]",
+    "set": "set31"
+   },
+   {
+    "video": "mallrun-set31",
+    "date": "2026-11-02T19:48:22",
+    "song": "buble-beginning.mp3",
+    "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...💚🎄\",\"y\":0.12}]",
+    "set": "set31"
+   }
+  ]
+ },
+ {
+  "set": "set32",
+  "variant": "v4",
+  "character_id": "eea7024d-d2e1-4b34-9a1b-d5ecf5b723ab",
+  "room": "real-bed1",
+  "room_id": "26e498f2-4ae7-4d76-b424-35984446546a",
+  "cozy_ref_id": "08edb738-c9b7-40ea-8cf5-97995c61471e",
+  "outfit": "a red long-sleeve thermal top and navy plaid flannel pajama pants",
+  "kling_job": "179d953c-edc3-4883-b2b5-c911dab5ba8e",
+  "status": "ok",
+  "note": "camere reale din reel-urile FB (2 nov), cu brad",
+  "tail": "output/broll-grinch/set32/tail.mp4",
+  "uses": [
+   {
+    "video": "tray123-set32",
+    "date": "2026-11-02T19:37:09",
+    "song": "mariah-all-i-want.mp3",
+    "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...🎄💚\",\"y\":0.12}]",
+    "set": "set32"
+   }
+  ],
+  "broll_segs": [
+   [
+    0.1,
+    5.42
+   ]
+  ]
+ },
+ {
+  "set": "set33",
+  "variant": "v4",
+  "character_id": "58996f04-f9e8-45fa-97b9-ede3cf7c28d6",
+  "room": "real-bed2",
+  "room_id": "15868b68-4526-42b3-8e44-2acb098d8b75",
+  "cozy_ref_id": "b8b6095e-f9c4-448f-8f6f-e11263210d95",
+  "outfit": "a navy hooded college sweatshirt and grey long sweatpants",
+  "kling_job": "a97d4018-57d2-4004-b411-70db35b03d69",
+  "status": "ok",
+  "note": "camere reale din reel-urile FB (2 nov), cu brad",
+  "broll_segs": [
+   [
+    0.1,
+    1.64
+   ],
+   [
+    2.54,
+    5.42
+   ]
+  ],
+  "cozy_slow": 1.4,
+  "tail": "output/broll-grinch/set33/tail.mp4",
+  "uses": [
+   {
+    "video": "tray123-set33",
+    "date": "2026-11-02T19:37:41",
+    "song": "wham-last-christmas.mp3",
+    "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...🎄💚\",\"y\":0.12}]",
+    "set": "set33"
+   }
+  ]
+ },
+ {
+  "set": "set34",
+  "variant": "v4",
+  "character_id": "dcd16144-13d4-4db0-9b90-3ca8104685b2",
+  "room": "real-bed3",
+  "room_id": "bc52d115-ccd3-475d-8b1f-5a849d86b509",
+  "cozy_ref_id": "08edb738-c9b7-40ea-8cf5-97995c61471e",
+  "outfit": "a heather-grey long-sleeve henley and red-and-white candy-stripe pajama pants",
+  "kling_job": "aba1d7f1-593f-44c1-b645-195520331b85",
+  "status": "ok",
+  "note": "camere reale din reel-urile FB (2 nov), cu brad",
+  "tail": "output/broll-grinch/set34/tail.mp4",
+  "uses": [
+   {
+    "video": "tray123-set34",
+    "date": "2026-11-02T19:38:13",
+    "song": "buble-beginning.mp3",
+    "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...🎄💚\",\"y\":0.12}]",
+    "set": "set34"
+   }
+  ],
+  "broll_segs": [
+   [
+    0.1,
+    5.42
+   ]
+  ]
+ },
+ {
+  "set": "set35",
+  "variant": "v4",
+  "character_id": "ec5d73de-79a9-49fa-9afd-760083974862",
+  "room": "real-bed4",
+  "room_id": "d1ddae71-faef-4ab9-b009-d2a64b1a6cfd",
+  "cozy_ref_id": "b8b6095e-f9c4-448f-8f6f-e11263210d95",
+  "outfit": "a heather-grey Army-style crewneck and red plaid pajama pants",
+  "kling_job": "5a9660ca-8eb0-4cc4-8a79-b25293f04558",
+  "status": "ok",
+  "note": "camere reale din reel-urile FB (2 nov), cu brad",
+  "tail": "output/broll-grinch/set35/tail.mp4",
+  "uses": [
+   {
+    "video": "tray123-set35",
+    "date": "2026-11-02T19:38:45",
+    "song": "mariah-all-i-want.mp3",
+    "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...🎄💚\",\"y\":0.12}]",
+    "set": "set35"
+   }
+  ],
+  "broll_segs": [
+   [
+    0.1,
+    5.42
+   ]
+  ]
+ },
+ {
+  "set": "set36",
+  "variant": "v4",
+  "character_id": "80d99198-699e-41da-8ba6-0369614a2185",
+  "room": "real-liv0b",
+  "room_id": "7ce7fe3f-6f14-48bb-bde6-4776dadf1892",
+  "cozy_ref_id": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72",
+  "outfit": "a white long-sleeve tee and navy star-print long pajama pants",
+  "kling_job": "8d88cf3b-d03c-400a-97f4-3739c7e78380",
+  "status": "ok",
+  "note": "camere reale din reel-urile FB (2 nov), cu brad",
+  "broll_segs": [
+   [
+    0.1,
+    1.64
+   ],
+   [
+    2.54,
+    5.42
+   ]
+  ],
+  "cozy_slow": 1.4,
+  "tail": "output/broll-grinch/set36/tail.mp4",
+  "uses": [
+   {
+    "video": "nogift-set36",
+    "date": "2026-11-02T19:31:40",
+    "song": "wham-last-christmas.mp3",
+    "text": "[{\"text\":\"👱: \\\"No gift is perfect\\\"\nMe: 😏\",\"y\":0.12}]",
+    "set": "set36"
+   },
+   {
+    "video": "mallwindow-set36",
+    "date": "2026-11-02T19:41:23",
+    "song": "buble-beginning.mp3",
+    "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...🎄💚\",\"y\":0.12}]",
+    "set": "set36"
+   },
+   {
+    "video": "twofriends-set36",
+    "date": "2026-11-02T19:48:52",
+    "song": "mariah-all-i-want.mp3",
+    "text": "[{\"text\":\"DO NOT Show this to a\nGRINCH LOVER...💚🎄\",\"y\":0.12}]",
+    "set": "set36"
+   }
+  ]
+ },
+ {
+  "set": "set37",
+  "variant": "v4",
+  "character_id": "ae522001-88a4-40b3-8cc2-1b9a11cc4b4c",
+  "room": "real-bed1b",
+  "room_id": "26e498f2-4ae7-4d76-b424-35984446546a",
+  "cozy_ref_id": "08edb738-c9b7-40ea-8cf5-97995c61471e",
+  "outfit": "a navy-and-red striped rugby sweater and light-grey long joggers",
+  "kling_job": "19613fb5-4628-4d35-8788-8d9a7a1a7662",
+  "status": "ok",
+  "note": "camere reale din reel-urile FB (2 nov), cu brad",
+  "broll_segs": [
+   [
+    0.1,
+    1.75
+   ],
+   [
+    2.0,
+    5.42
+   ]
+  ],
+  "tail": "output/broll-grinch/set37/tail.mp4",
+  "uses": [
+   {
+    "video": "nogift-set37",
+    "date": "2026-11-02T19:32:09",
+    "song": "buble-beginning.mp3",
+    "text": "[{\"text\":\"👱: \\\"No gift is perfect\\\"\nMe: 😏\",\"y\":0.12}]",
+    "set": "set37"
+   },
+   {
+    "video": "tray123-set37",
+    "date": "2026-11-02T19:39:17",
+    "song": "wham-last-christmas.mp3",
+    "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...🎄💚\",\"y\":0.12}]",
+    "set": "set37"
+   }
+  ]
+ }
 ]

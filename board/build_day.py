@@ -14,12 +14,12 @@ for k,lst in D["accounts"].items():
         if not os.path.exists(f"{out}/{th}"):
             subprocess.run(["ffmpeg","-loglevel","error","-y","-ss","1.2","-i",f"{R}/{v['file']}","-frames:v","1","-vf","scale=240:-2","-q:v","5",f"{out}/{th}"])
         cid=f"c-{k}-{v['dir']}"
-        cards.append(f'''<article class="card"><video src="v/{v['dir']}.mp4" poster="{th}" controls playsinline preload="none" aria-label="{html.escape(NAMES[v['type']])}"></video>
+        cards.append(f'''<article class="card" data-key="{day}_{k}_{v['dir']}"><video src="v/{v['dir']}.mp4" poster="{th}" controls playsinline preload="none" aria-label="{html.escape(NAMES[v['type']])}"></video>
 <div class="meta"><div class="top"><time>{v['time']}</time><span class="tag t-{v['type']}">{NAMES[v['type']]}</span></div>
 <p class="ost">{html.escape(v['text']).replace(chr(10),'<br>')}</p>
 <p class="cap" id="{cid}">{html.escape(v['caption'])}</p>
-<div class="act"><button type="button" data-copy="{cid}">Copiază caption</button><a class="dl" href="{RAW}{v['file']}" target="_blank" rel="noopener">Descarcă MP4</a><span class="set">{v['set']}</span></div></div></article>''')
-    cols.append(f'<section class="acc"><h2>{ACC[k]} <small>{len(lst)} videouri</small></h2>{"".join(cards)}</section>')
+<label class="post"><input type="checkbox" data-post="{day}_{k}_{v['dir']}"> Postat</label><div class="act"><button type="button" data-copy="{cid}">Copiază caption</button><a class="dl" href="{RAW}{v['file']}" target="_blank" rel="noopener">Descarcă MP4</a><span class="set">{v['set']}</span></div></div></article>''')
+    cols.append(f'<section class="acc"><h2>{ACC[k]} <small><b class="cnt" data-acc="{k}">0</b>/{len(lst)} postate</small></h2>{"".join(cards)}</section>')
 tpl=open(f"{R}/board/day_template.html").read()
 open(f"{out}/index.html","w").write(tpl.replace("__DAY__",day).replace("__COLS__","".join(cols)).replace("__N__",str(sum(len(l) for l in D['accounts'].values()))))
 print(out)
