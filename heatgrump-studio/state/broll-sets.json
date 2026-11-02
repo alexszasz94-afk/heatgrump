@@ -484,7 +484,16 @@
     "kling_job": "52494e88-4e3a-47cd-a6e9-b160a4edac3b",
     "status": "ok",
     "note": "camere reale din reel-urile FB (2 nov), cu brad",
-    "tail": "output/broll-grinch/set27/tail.mp4"
+    "tail": "output/broll-grinch/set27/tail.mp4",
+    "uses": [
+      {
+        "video": "storemug",
+        "date": "2026-11-02T19:06:49",
+        "song": "wham-last-christmas.mp3",
+        "text": "Moms dont walk..\nRUN to target",
+        "set": "set27"
+      }
+    ]
   },
   {
     "set": "set28",
