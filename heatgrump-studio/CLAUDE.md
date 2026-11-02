@@ -123,3 +123,4 @@ Contul s-a schimbat: ID-urile vechi (job-uri, media) NU mai merg. ID-urile valab
 
 ### B-roll la videouri (Szasz 2 nov — REGULĂ)
 Când facem videouri, folosim MEREU B-roll-urile deja generate și montate (`output/broll-grinch/broll-grinch-setNN.mp4`, lista în `state/broll-sets.json`), nu generăm B-roll nou pentru un video. Prioritate: seturile din camerele reale de Crăciun (set26–set37), rotite între videouri (un set nu de două ori la rând). B-roll nou se face doar când Szasz cere seturi noi.
+Implicit, fata din hook = fata din setul de B-roll ales pentru acel video (același personaj, ID în `state/media-cont-nou.json` → characters), ca hook-ul și B-roll-ul să fie aceeași persoană. Nu se aleg personaje din afara seturilor decât dacă cere Szasz.
