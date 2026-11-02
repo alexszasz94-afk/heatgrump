@@ -479,6 +479,13 @@
         "song": "mariah-all-i-want.mp3",
         "text": "[{\"text\":\"👱: \\\"No gift is perfect\\\"\nMe: 😏\",\"y\":0.12}]",
         "set": "set26"
+      },
+      {
+        "video": "mallwindow-set26",
+        "date": "2026-11-02T19:41:56",
+        "song": "mariah-all-i-want.mp3",
+        "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...🎄💚\",\"y\":0.12}]",
+        "set": "set26"
       }
     ]
   },
@@ -578,7 +585,16 @@
         5.6
       ]
     ],
-    "tail": "output/broll-grinch/set29/tail.mp4"
+    "tail": "output/broll-grinch/set29/tail.mp4",
+    "uses": [
+      {
+        "video": "mallwindow-set29",
+        "date": "2026-11-02T19:39:48",
+        "song": "buble-beginning.mp3",
+        "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...🎄💚\",\"y\":0.12}]",
+        "set": "set29"
+      }
+    ]
   },
   {
     "set": "set30",
@@ -601,7 +617,16 @@
         5.85
       ]
     ],
-    "tail": "output/broll-grinch/set30/tail.mp4"
+    "tail": "output/broll-grinch/set30/tail.mp4",
+    "uses": [
+      {
+        "video": "mallwindow-set30",
+        "date": "2026-11-02T19:40:19",
+        "song": "mariah-all-i-want.mp3",
+        "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...🎄💚\",\"y\":0.12}]",
+        "set": "set30"
+      }
+    ]
   },
   {
     "set": "set31",
@@ -625,7 +650,16 @@
       ]
     ],
     "cozy_slow": 1.4,
-    "tail": "output/broll-grinch/set31/tail.mp4"
+    "tail": "output/broll-grinch/set31/tail.mp4",
+    "uses": [
+      {
+        "video": "mallwindow-set31",
+        "date": "2026-11-02T19:40:51",
+        "song": "wham-last-christmas.mp3",
+        "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...🎄💚\",\"y\":0.12}]",
+        "set": "set31"
+      }
+    ]
   },
   {
     "set": "set32",
@@ -638,7 +672,16 @@
     "kling_job": "179d953c-edc3-4883-b2b5-c911dab5ba8e",
     "status": "ok",
     "note": "camere reale din reel-urile FB (2 nov), cu brad",
-    "tail": "output/broll-grinch/set32/tail.mp4"
+    "tail": "output/broll-grinch/set32/tail.mp4",
+    "uses": [
+      {
+        "video": "tray123-set32",
+        "date": "2026-11-02T19:37:09",
+        "song": "mariah-all-i-want.mp3",
+        "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...🎄💚\",\"y\":0.12}]",
+        "set": "set32"
+      }
+    ]
   },
   {
     "set": "set33",
@@ -662,7 +705,16 @@
       ]
     ],
     "cozy_slow": 1.4,
-    "tail": "output/broll-grinch/set33/tail.mp4"
+    "tail": "output/broll-grinch/set33/tail.mp4",
+    "uses": [
+      {
+        "video": "tray123-set33",
+        "date": "2026-11-02T19:37:41",
+        "song": "wham-last-christmas.mp3",
+        "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...🎄💚\",\"y\":0.12}]",
+        "set": "set33"
+      }
+    ]
   },
   {
     "set": "set34",
@@ -675,7 +727,16 @@
     "kling_job": "aba1d7f1-593f-44c1-b645-195520331b85",
     "status": "ok",
     "note": "camere reale din reel-urile FB (2 nov), cu brad",
-    "tail": "output/broll-grinch/set34/tail.mp4"
+    "tail": "output/broll-grinch/set34/tail.mp4",
+    "uses": [
+      {
+        "video": "tray123-set34",
+        "date": "2026-11-02T19:38:13",
+        "song": "buble-beginning.mp3",
+        "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...🎄💚\",\"y\":0.12}]",
+        "set": "set34"
+      }
+    ]
   },
   {
     "set": "set35",
@@ -688,7 +749,16 @@
     "kling_job": "5a9660ca-8eb0-4cc4-8a79-b25293f04558",
     "status": "ok",
     "note": "camere reale din reel-urile FB (2 nov), cu brad",
-    "tail": "output/broll-grinch/set35/tail.mp4"
+    "tail": "output/broll-grinch/set35/tail.mp4",
+    "uses": [
+      {
+        "video": "tray123-set35",
+        "date": "2026-11-02T19:38:45",
+        "song": "mariah-all-i-want.mp3",
+        "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...🎄💚\",\"y\":0.12}]",
+        "set": "set35"
+      }
+    ]
   },
   {
     "set": "set36",
@@ -719,6 +789,13 @@
         "date": "2026-11-02T19:31:40",
         "song": "wham-last-christmas.mp3",
         "text": "[{\"text\":\"👱: \\\"No gift is perfect\\\"\nMe: 😏\",\"y\":0.12}]",
+        "set": "set36"
+      },
+      {
+        "video": "mallwindow-set36",
+        "date": "2026-11-02T19:41:23",
+        "song": "buble-beginning.mp3",
+        "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...🎄💚\",\"y\":0.12}]",
         "set": "set36"
       }
     ]
@@ -751,6 +828,13 @@
         "date": "2026-11-02T19:32:09",
         "song": "buble-beginning.mp3",
         "text": "[{\"text\":\"👱: \\\"No gift is perfect\\\"\nMe: 😏\",\"y\":0.12}]",
+        "set": "set37"
+      },
+      {
+        "video": "tray123-set37",
+        "date": "2026-11-02T19:39:17",
+        "song": "wham-last-christmas.mp3",
+        "text": "[{\"text\":\"DONT Show this to a\nGRINCH LOVER...🎄💚\",\"y\":0.12}]",
         "set": "set37"
       }
     ]
