@@ -1,0 +1,41 @@
+<title>HeatGrump Postări</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Figtree:wght@400;600;700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: 3 coloane = 3 conturi, carduri în ordinea orelor de postare; pe telefon coloanele se stivuiesc */
+:root{--bg:#f4f6f3;--panel:#fff;--ink:#17231c;--muted:#5b6a61;--line:#dbe2dd;--pine:#1d5a3c;--berry:#b02a3f;--chip:#e9efeb;
+--f-d:"Fraunces",Georgia,serif;--f-b:"Figtree",system-ui,sans-serif;--f-m:"JetBrains Mono",ui-monospace,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1512;--panel:#17211c;--ink:#e5ece8;--muted:#9babA1;--line:#27342d;--pine:#73d3a0;--berry:#ff7b90;--chip:#1e2b24;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f1512;--panel:#17211c;--ink:#e5ece8;--muted:#9baba1;--line:#27342d;--pine:#73d3a0;--berry:#ff7b90;--chip:#1e2b24;color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-b);font-size:14px;line-height:1.4}
+.wrap{max-width:1300px;margin:0 auto;padding-block:24px 60px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:20px}
+h1{font-family:var(--f-d);font-weight:600;font-size:clamp(28px,5vw,44px);margin:0;text-wrap:balance}
+h1 span{color:var(--berry)}
+.lede{color:var(--muted);margin:6px 0 0;max-width:70ch}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;align-items:start}
+.acc{display:grid;gap:10px;min-width:0}
+.acc h2{font-family:var(--f-d);font-weight:600;font-size:22px;margin:0;display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid var(--pine);padding-bottom:6px}
+.acc h2 small{font-family:var(--f-b);font-size:12px;color:var(--muted);font-weight:600}
+.card{display:grid;grid-template-columns:84px 1fr;gap:10px;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px}
+.card img{width:84px;aspect-ratio:9/16;object-fit:cover;border-radius:4px;max-width:100%}
+.meta{display:grid;gap:5px;min-width:0;align-content:start}
+.top{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+time{font-family:var(--f-m);font-size:15px;color:var(--pine);font-variant-numeric:tabular-nums}
+.tag{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;background:var(--chip);color:var(--ink)}
+.ost{margin:0;font-weight:700;font-size:13px}
+.cap{margin:0;color:var(--muted);font-size:12px;overflow-wrap:anywhere}
+.act{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.act button{font:600 12px var(--f-b);border:1px solid var(--pine);background:transparent;color:var(--pine);padding:4px 10px;border-radius:6px;cursor:pointer}
+.act button:focus-visible,.act a:focus-visible{outline:2px solid var(--berry);outline-offset:2px}
+.act a{font-size:12px;font-weight:700;color:var(--berry);text-decoration:none}
+.set{font-family:var(--f-m);font-size:11px;color:var(--muted);margin-left:auto}
+@media (max-width:900px){.grid{grid-template-columns:1fr}}
+</style>
+<div class="wrap">
+<header><h1>Postări <span>__DAY__</span></h1><p class="lede">__N__ videouri pe 3 conturi. Ore în fusul SUA Est. Pe fiecare cont tipurile de hook se alternează și aceeași fată nu apare de două ori la rând.</p></header>
+<div class="grid">__COLS__</div></div>
+<script>
+document.querySelectorAll("[data-copy]").forEach(b=>b.addEventListener("click",()=>{const t=document.getElementById(b.dataset.copy).textContent;
+const done=()=>{b.textContent="Copiat";setTimeout(()=>b.textContent="Copiază caption",1500)};
+if(navigator.clipboard)navigator.clipboard.writeText(t).then(done).catch(()=>{const r=document.createRange();r.selectNodeContents(document.getElementById(b.dataset.copy));const s=getSelection();s.removeAllRanges();s.addRange(r)});}));
+</script>

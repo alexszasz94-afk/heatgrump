@@ -124,3 +124,7 @@ Contul s-a schimbat: ID-urile vechi (job-uri, media) NU mai merg. ID-urile valab
 ### B-roll la videouri (Szasz 2 nov — REGULĂ)
 Când facem videouri, folosim MEREU B-roll-urile deja generate și montate (`output/broll-grinch/broll-grinch-setNN.mp4`, lista în `state/broll-sets.json`), nu generăm B-roll nou pentru un video. Prioritate: seturile din camerele reale de Crăciun (set26–set37), rotite între videouri (un set nu de două ori la rând). B-roll nou se face doar când Szasz cere seturi noi.
 Implicit, fata din hook = fata din setul de B-roll ales pentru acel video (același personaj, ID în `state/media-cont-nou.json` → characters), ca hook-ul și B-roll-ul să fie aceeași persoană. Nu se aleg personaje din afara seturilor decât dacă cere Szasz.
+
+### Postare pe 3 conturi + board zilnic (Szasz 2 nov)
+Videourile făcute într-o zi se împart pe 3 conturi: `python3 board/plan_day.py <zi> tip:dir1,dir2 ...` (amestecă tipurile de hook, fata nu se repetă la rând pe același cont, ore decalate, caption diferit pe cont) → `board/days/<zi>.json`; apoi `python3 board/build_day.py <zi> <folder>` și publici board-ul zilei. La fiecare zi nouă = board nou.
+Sunet: hook fără voce → melodia se aude și sub hook (`music_hook_vol` 0.7), drop-ul pe tăietura hook → B-roll (când începe să se îmbrace). Hook cu voce → vocea + melodia încet (0.25). Tava 1-2-3: hook-ul se taie imediat după „three”.
