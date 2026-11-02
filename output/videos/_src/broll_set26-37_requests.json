@@ -1,0 +1,722 @@
+[
+ {
+  "index": 26,
+  "set": "set26",
+  "room": "liv0",
+  "room_id": "7ce7fe3f-6f14-48bb-bde6-4776dadf1892",
+  "cozy_id": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72",
+  "character_id": "364e53ee-260c-4f0e-95ea-1cf856049d64",
+  "outfit": "a red Fair Isle sweater and navy long pajama pants",
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "duration": 8,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "6f687894-2999-4f37-8e92-8eabadcec02d"
+    },
+    {
+     "role": "image_references",
+     "value": "364e53ee-260c-4f0e-95ea-1cf856049d64"
+    },
+    {
+     "role": "image_references",
+     "value": "7ce7fe3f-6f14-48bb-bde6-4776dadf1892"
+    },
+    {
+     "role": "image_references",
+     "value": "a9ebff95-7b4e-4a10-92f5-4c9377d01fd4"
+    },
+    {
+     "role": "image_references",
+     "value": "b3adf7e2-adcd-4ffc-9989-1fa0c822c78f"
+    },
+    {
+     "role": "image_references",
+     "value": "28a3d14b-3578-4569-bcf2-33a84d478cc0"
+    },
+    {
+     "role": "image_references",
+     "value": "71882d2b-aeab-4cc1-afa3-4f9d1a1951c5"
+    },
+    {
+     "role": "image_references",
+     "value": "4c8447f5-3760-4a6a-956b-8274b75d234d"
+    },
+    {
+     "role": "image_references",
+     "value": "387d0b88-6bcf-46ed-aeae-bb80ab41d32a"
+    },
+    {
+     "role": "image_references",
+     "value": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72"
+    }
+   ],
+   "prompt": "Edit the input video. Keep exactly the same four shots, the same cuts, the same camera position and framing (except the last shot, which is filmed WIDE from about 3 metres away), the same body movements and the same timing as the input video, second by second; the output has exactly the same length as the input. Change only the person, the room and the robe. PERSON: exactly the woman of Image 1, same face and hair (a different woman from the one in the input video - her face, hair colour and hair length come ONLY from Image 1, in every shot, also lying on the sofa); under the robe she wears a red Fair Isle sweater and navy long pajama pants, the same in every shot. ROOM: exactly the open-plan living room and kitchen of Image 2, only what is in Image 2, with its Christmas tree and decorations, same wall colour. THE SOFA: the cream sofa of Image 9 - it stands in this same living room, against a wall painted the same colour as in Image 2, with the Christmas decorations of Image 9. Never add, move or invent other furniture. ROBE: the hooded robe of Images 3-6: REPRODUCE IT ONE TO ONE from Images 3-6 in every frame, every colour, every trim, the black belt, the red-and-green inside (never white) and the red Santa-hat hood with the green grumpy face exactly like Image 5; from behind only the red back of the hood with its white pompom is seen. The foot pockets are exactly like Image 7 and Image 8.\nSHOT 1 (0 to 0.8 s): close, seen from behind, the robe is already on her shoulders, the hood down on her back, she lifts the hood with both hands; her face is not seen.\nSHOT 2 (0.8 to 1.7 s): hard cut at exactly 1.67 s, never later; the back shot never lasts longer than in the input. Seen from behind, the hood is pulled up over her head, we see the back of the hood up on her head exactly like Image 6; her face is not seen.\nSHOT 3 (1.7 to 5.8 s): full body, she stands on the floor in the FOREGROUND facing the camera, nothing between her and the camera, the hood DOWN on her back in this shot, her whole face visible. Exactly like the input: the robe is open, she holds one side out and slides one foot down behind the hem into a foot pocket, then she holds the robe wide open with both arms showing the red-and-green inside of the robe, never white, she slides the other foot down behind the hem into the other foot pocket, then she wraps the robe closed and stands wrapped in it. THE HEM COVERS HER FEET AT ALL TIMES: the robe is extra long, its white hem lies flat on the floor all around her and touches the floor, there is NO gap between the hem and the floor, so her feet are always hidden behind the hem and inside the pockets - never visible on the floor, before, during and after she steps in, also when the robe is still closed. She slides each foot from behind the hem straight down into its pocket, so the pocket fills up and rests full on the floor; only the green fabric and the white fluffy band are seen on the floor, never a sock, a foot or a heel. FEET STAY IN THE POCKETS UNTIL THE END: once both feet are inside the foot pockets they never come out again.\nSHOT 4 (5.8 s to the end): In the final shot she is SITTING DOWN on the cream sofa of Image 9 - her bottom on the seat cushion, her back against the backrest, knees bent, wrapped in the robe, hood up; she is NEVER standing, never standing in front of the sofa, never between armchairs. Wide framing, about 3 metres away: the whole sofa and her full seated body, face small. Around the sofa the same room as Image 2 and Image 9. She sits on the cream sofa of Image 9, wrapped in the closed robe, the hood UP on her head (the red Santa-hat hood with the green grumpy face exactly like Image 5), and pulls the white fluffy collar up to her face with both hands and closes her eyes, smiling; her legs are completely covered by the closed robe down to the feet, the hem closed over them; no pajama pants, no knee and no foot visible. From 7.8 s to the end she holds still.\nLOOK: UGC style, a real unedited iPhone 16 video of a real person in a real home, Full HD, completely realistic; the same light exactly like the room of Image 2 (an ordinary real home filmed on a phone), the Christmas tree lights glowing, gentle low contrast, true colours, very sharp and clear; no HDR, no glow, no orange cast, no CGI look. Natural real movements with real weight and gravity, no morphing, no flicker. Correct hands with five fingers. NO TEXT: the caption text of the input video is removed completely; no captions, no emoji, no subtitles, no watermark, no other logos. No cable connector and no remote anywhere. Silent."
+  }
+ },
+ {
+  "index": 27,
+  "set": "set27",
+  "room": "liv1",
+  "room_id": "58e86937-6c64-4039-9a4d-2371582a8ec3",
+  "cozy_id": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72",
+  "character_id": "f558503b-aebe-4a44-8f5b-0610ac823073",
+  "outfit": "a red-and-green buffalo-plaid flannel long pajama set",
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "duration": 8,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "6f687894-2999-4f37-8e92-8eabadcec02d"
+    },
+    {
+     "role": "image_references",
+     "value": "f558503b-aebe-4a44-8f5b-0610ac823073"
+    },
+    {
+     "role": "image_references",
+     "value": "58e86937-6c64-4039-9a4d-2371582a8ec3"
+    },
+    {
+     "role": "image_references",
+     "value": "a9ebff95-7b4e-4a10-92f5-4c9377d01fd4"
+    },
+    {
+     "role": "image_references",
+     "value": "b3adf7e2-adcd-4ffc-9989-1fa0c822c78f"
+    },
+    {
+     "role": "image_references",
+     "value": "28a3d14b-3578-4569-bcf2-33a84d478cc0"
+    },
+    {
+     "role": "image_references",
+     "value": "71882d2b-aeab-4cc1-afa3-4f9d1a1951c5"
+    },
+    {
+     "role": "image_references",
+     "value": "4c8447f5-3760-4a6a-956b-8274b75d234d"
+    },
+    {
+     "role": "image_references",
+     "value": "387d0b88-6bcf-46ed-aeae-bb80ab41d32a"
+    },
+    {
+     "role": "image_references",
+     "value": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72"
+    }
+   ],
+   "prompt": "Edit the input video. Keep exactly the same four shots, the same cuts, the same camera position and framing (except the last shot, which is filmed WIDE from about 3 metres away), the same body movements and the same timing as the input video, second by second; the output has exactly the same length as the input. Change only the person, the room and the robe. PERSON: exactly the woman of Image 1, same face and hair (a different woman from the one in the input video - her face, hair colour and hair length come ONLY from Image 1, in every shot, also lying on the sofa); under the robe she wears a red-and-green buffalo-plaid flannel long pajama set, the same in every shot. ROOM: exactly the open-plan living room and kitchen of Image 2, only what is in Image 2, with its Christmas tree and decorations, same wall colour. THE SOFA: the cream sofa of Image 9 - it stands in this same living room, against a wall painted the same colour as in Image 2, with the Christmas decorations of Image 9. Never add, move or invent other furniture. ROBE: the hooded robe of Images 3-6: REPRODUCE IT ONE TO ONE from Images 3-6 in every frame, every colour, every trim, the black belt, the red-and-green inside (never white) and the red Santa-hat hood with the green grumpy face exactly like Image 5; from behind only the red back of the hood with its white pompom is seen. The foot pockets are exactly like Image 7 and Image 8.\nSHOT 1 (0 to 0.8 s): close, seen from behind, the robe is already on her shoulders, the hood down on her back, she lifts the hood with both hands; her face is not seen.\nSHOT 2 (0.8 to 1.7 s): hard cut at exactly 1.67 s, never later; the back shot never lasts longer than in the input. Seen from behind, the hood is pulled up over her head, we see the back of the hood up on her head exactly like Image 6; her face is not seen.\nSHOT 3 (1.7 to 5.8 s): full body, she stands on the floor in the FOREGROUND facing the camera, nothing between her and the camera, the hood DOWN on her back in this shot, her whole face visible. Exactly like the input: the robe is open, she holds one side out and slides one foot down behind the hem into a foot pocket, then she holds the robe wide open with both arms showing the red-and-green inside of the robe, never white, she slides the other foot down behind the hem into the other foot pocket, then she wraps the robe closed and stands wrapped in it. THE HEM COVERS HER FEET AT ALL TIMES: the robe is extra long, its white hem lies flat on the floor all around her and touches the floor, there is NO gap between the hem and the floor, so her feet are always hidden behind the hem and inside the pockets - never visible on the floor, before, during and after she steps in, also when the robe is still closed. She slides each foot from behind the hem straight down into its pocket, so the pocket fills up and rests full on the floor; only the green fabric and the white fluffy band are seen on the floor, never a sock, a foot or a heel. FEET STAY IN THE POCKETS UNTIL THE END: once both feet are inside the foot pockets they never come out again.\nSHOT 4 (5.8 s to the end): In the final shot she is SITTING DOWN on the cream sofa of Image 9 - her bottom on the seat cushion, her back against the backrest, knees bent, wrapped in the robe, hood up; she is NEVER standing, never standing in front of the sofa, never between armchairs. Wide framing, about 3 metres away: the whole sofa and her full seated body, face small. Around the sofa the same room as Image 2 and Image 9. She sits on the cream sofa of Image 9, wrapped in the closed robe, the hood UP on her head (the red Santa-hat hood with the green grumpy face exactly like Image 5), and pulls the white fluffy collar up to her face with both hands and closes her eyes, smiling; her legs are completely covered by the closed robe down to the feet, the hem closed over them; no pajama pants, no knee and no foot visible. From 7.8 s to the end she holds still.\nLOOK: UGC style, a real unedited iPhone 16 video of a real person in a real home, Full HD, completely realistic; the same light exactly like the room of Image 2 (an ordinary real home filmed on a phone), the Christmas tree lights glowing, gentle low contrast, true colours, very sharp and clear; no HDR, no glow, no orange cast, no CGI look. Natural real movements with real weight and gravity, no morphing, no flicker. Correct hands with five fingers. NO TEXT: the caption text of the input video is removed completely; no captions, no emoji, no subtitles, no watermark, no other logos. No cable connector and no remote anywhere. Silent."
+  }
+ },
+ {
+  "index": 28,
+  "set": "set28",
+  "room": "liv2",
+  "room_id": "5f38a485-f4ed-48aa-9cff-72dd8113b0cd",
+  "cozy_id": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72",
+  "character_id": "d7b0d063-6585-4aa3-8d96-193359a973a4",
+  "outfit": "a navy-and-white striped long pajama set",
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "duration": 8,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "6f687894-2999-4f37-8e92-8eabadcec02d"
+    },
+    {
+     "role": "image_references",
+     "value": "d7b0d063-6585-4aa3-8d96-193359a973a4"
+    },
+    {
+     "role": "image_references",
+     "value": "5f38a485-f4ed-48aa-9cff-72dd8113b0cd"
+    },
+    {
+     "role": "image_references",
+     "value": "a9ebff95-7b4e-4a10-92f5-4c9377d01fd4"
+    },
+    {
+     "role": "image_references",
+     "value": "b3adf7e2-adcd-4ffc-9989-1fa0c822c78f"
+    },
+    {
+     "role": "image_references",
+     "value": "28a3d14b-3578-4569-bcf2-33a84d478cc0"
+    },
+    {
+     "role": "image_references",
+     "value": "71882d2b-aeab-4cc1-afa3-4f9d1a1951c5"
+    },
+    {
+     "role": "image_references",
+     "value": "4c8447f5-3760-4a6a-956b-8274b75d234d"
+    },
+    {
+     "role": "image_references",
+     "value": "387d0b88-6bcf-46ed-aeae-bb80ab41d32a"
+    },
+    {
+     "role": "image_references",
+     "value": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72"
+    }
+   ],
+   "prompt": "Edit the input video. Keep exactly the same four shots, the same cuts, the same camera position and framing (except the last shot, which is filmed WIDE from about 3 metres away), the same body movements and the same timing as the input video, second by second; the output has exactly the same length as the input. Change only the person, the room and the robe. PERSON: exactly the woman of Image 1, same face and hair (a different woman from the one in the input video - her face, hair colour and hair length come ONLY from Image 1, in every shot, also lying on the sofa); under the robe she wears a navy-and-white striped long pajama set, the same in every shot. ROOM: exactly the open-plan living room and kitchen of Image 2, only what is in Image 2, with its Christmas tree and decorations, same wall colour. THE SOFA: the cream sofa of Image 9 - it stands in this same living room, against a wall painted the same colour as in Image 2, with the Christmas decorations of Image 9. Never add, move or invent other furniture. ROBE: the hooded robe of Images 3-6: REPRODUCE IT ONE TO ONE from Images 3-6 in every frame, every colour, every trim, the black belt, the red-and-green inside (never white) and the red Santa-hat hood with the green grumpy face exactly like Image 5; from behind only the red back of the hood with its white pompom is seen. The foot pockets are exactly like Image 7 and Image 8.\nSHOT 1 (0 to 0.8 s): close, seen from behind, the robe is already on her shoulders, the hood down on her back, she lifts the hood with both hands; her face is not seen.\nSHOT 2 (0.8 to 1.7 s): hard cut at exactly 1.67 s, never later; the back shot never lasts longer than in the input. Seen from behind, the hood is pulled up over her head, we see the back of the hood up on her head exactly like Image 6; her face is not seen.\nSHOT 3 (1.7 to 5.8 s): full body, she stands on the floor in the FOREGROUND facing the camera, nothing between her and the camera, the hood DOWN on her back in this shot, her whole face visible. Exactly like the input: the robe is open, she holds one side out and slides one foot down behind the hem into a foot pocket, then she holds the robe wide open with both arms showing the red-and-green inside of the robe, never white, she slides the other foot down behind the hem into the other foot pocket, then she wraps the robe closed and stands wrapped in it. THE HEM COVERS HER FEET AT ALL TIMES: the robe is extra long, its white hem lies flat on the floor all around her and touches the floor, there is NO gap between the hem and the floor, so her feet are always hidden behind the hem and inside the pockets - never visible on the floor, before, during and after she steps in, also when the robe is still closed. She slides each foot from behind the hem straight down into its pocket, so the pocket fills up and rests full on the floor; only the green fabric and the white fluffy band are seen on the floor, never a sock, a foot or a heel. FEET STAY IN THE POCKETS UNTIL THE END: once both feet are inside the foot pockets they never come out again.\nSHOT 4 (5.8 s to the end): In the final shot she is SITTING DOWN on the cream sofa of Image 9 - her bottom on the seat cushion, her back against the backrest, knees bent, wrapped in the robe, hood up; she is NEVER standing, never standing in front of the sofa, never between armchairs. Wide framing, about 3 metres away: the whole sofa and her full seated body, face small. Around the sofa the same room as Image 2 and Image 9. She sits on the cream sofa of Image 9, wrapped in the closed robe, the hood UP on her head (the red Santa-hat hood with the green grumpy face exactly like Image 5), and pulls the white fluffy collar up to her face with both hands and closes her eyes, smiling; her legs are completely covered by the closed robe down to the feet, the hem closed over them; no pajama pants, no knee and no foot visible. From 7.8 s to the end she holds still.\nLOOK: UGC style, a real unedited iPhone 16 video of a real person in a real home, Full HD, completely realistic; the same light exactly like the room of Image 2 (an ordinary real home filmed on a phone), the Christmas tree lights glowing, gentle low contrast, true colours, very sharp and clear; no HDR, no glow, no orange cast, no CGI look. Natural real movements with real weight and gravity, no morphing, no flicker. Correct hands with five fingers. NO TEXT: the caption text of the input video is removed completely; no captions, no emoji, no subtitles, no watermark, no other logos. No cable connector and no remote anywhere. Silent."
+  }
+ },
+ {
+  "index": 29,
+  "set": "set29",
+  "room": "liv3",
+  "room_id": "4a77c378-f324-41a6-ba36-5d9ff4cfe808",
+  "cozy_id": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72",
+  "character_id": "03f46759-1d2a-4943-9cf9-c7b09fe01177",
+  "outfit": "a green-and-red Christmas plaid long pajama set with white piping",
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "duration": 8,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "6f687894-2999-4f37-8e92-8eabadcec02d"
+    },
+    {
+     "role": "image_references",
+     "value": "03f46759-1d2a-4943-9cf9-c7b09fe01177"
+    },
+    {
+     "role": "image_references",
+     "value": "4a77c378-f324-41a6-ba36-5d9ff4cfe808"
+    },
+    {
+     "role": "image_references",
+     "value": "a9ebff95-7b4e-4a10-92f5-4c9377d01fd4"
+    },
+    {
+     "role": "image_references",
+     "value": "b3adf7e2-adcd-4ffc-9989-1fa0c822c78f"
+    },
+    {
+     "role": "image_references",
+     "value": "28a3d14b-3578-4569-bcf2-33a84d478cc0"
+    },
+    {
+     "role": "image_references",
+     "value": "71882d2b-aeab-4cc1-afa3-4f9d1a1951c5"
+    },
+    {
+     "role": "image_references",
+     "value": "4c8447f5-3760-4a6a-956b-8274b75d234d"
+    },
+    {
+     "role": "image_references",
+     "value": "387d0b88-6bcf-46ed-aeae-bb80ab41d32a"
+    },
+    {
+     "role": "image_references",
+     "value": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72"
+    }
+   ],
+   "prompt": "Edit the input video. Keep exactly the same four shots, the same cuts, the same camera position and framing (except the last shot, which is filmed WIDE from about 3 metres away), the same body movements and the same timing as the input video, second by second; the output has exactly the same length as the input. Change only the person, the room and the robe. PERSON: exactly the woman of Image 1, same face and hair (a different woman from the one in the input video - her face, hair colour and hair length come ONLY from Image 1, in every shot, also lying on the sofa); under the robe she wears a green-and-red Christmas plaid long pajama set with white piping, the same in every shot. ROOM: exactly the open-plan living room and kitchen of Image 2, only what is in Image 2, with its Christmas tree and decorations, same wall colour. THE SOFA: the cream sofa of Image 9 - it stands in this same living room, against a wall painted the same colour as in Image 2, with the Christmas decorations of Image 9. Never add, move or invent other furniture. ROBE: the hooded robe of Images 3-6: REPRODUCE IT ONE TO ONE from Images 3-6 in every frame, every colour, every trim, the black belt, the red-and-green inside (never white) and the red Santa-hat hood with the green grumpy face exactly like Image 5; from behind only the red back of the hood with its white pompom is seen. The foot pockets are exactly like Image 7 and Image 8.\nSHOT 1 (0 to 0.8 s): close, seen from behind, the robe is already on her shoulders, the hood down on her back, she lifts the hood with both hands; her face is not seen.\nSHOT 2 (0.8 to 1.7 s): hard cut at exactly 1.67 s, never later; the back shot never lasts longer than in the input. Seen from behind, the hood is pulled up over her head, we see the back of the hood up on her head exactly like Image 6; her face is not seen.\nSHOT 3 (1.7 to 5.8 s): full body, she stands on the floor in the FOREGROUND facing the camera, nothing between her and the camera, the hood DOWN on her back in this shot, her whole face visible. Exactly like the input: the robe is open, she holds one side out and slides one foot down behind the hem into a foot pocket, then she holds the robe wide open with both arms showing the red-and-green inside of the robe, never white, she slides the other foot down behind the hem into the other foot pocket, then she wraps the robe closed and stands wrapped in it. THE HEM COVERS HER FEET AT ALL TIMES: the robe is extra long, its white hem lies flat on the floor all around her and touches the floor, there is NO gap between the hem and the floor, so her feet are always hidden behind the hem and inside the pockets - never visible on the floor, before, during and after she steps in, also when the robe is still closed. She slides each foot from behind the hem straight down into its pocket, so the pocket fills up and rests full on the floor; only the green fabric and the white fluffy band are seen on the floor, never a sock, a foot or a heel. FEET STAY IN THE POCKETS UNTIL THE END: once both feet are inside the foot pockets they never come out again.\nSHOT 4 (5.8 s to the end): In the final shot she is SITTING DOWN on the cream sofa of Image 9 - her bottom on the seat cushion, her back against the backrest, knees bent, wrapped in the robe, hood up; she is NEVER standing, never standing in front of the sofa, never between armchairs. Wide framing, about 3 metres away: the whole sofa and her full seated body, face small. Around the sofa the same room as Image 2 and Image 9. She sits on the cream sofa of Image 9, wrapped in the closed robe, the hood UP on her head (the red Santa-hat hood with the green grumpy face exactly like Image 5), and pulls the white fluffy collar up to her face with both hands and closes her eyes, smiling; her legs are completely covered by the closed robe down to the feet, the hem closed over them; no pajama pants, no knee and no foot visible. From 7.8 s to the end she holds still.\nLOOK: UGC style, a real unedited iPhone 16 video of a real person in a real home, Full HD, completely realistic; the same light exactly like the room of Image 2 (an ordinary real home filmed on a phone), the Christmas tree lights glowing, gentle low contrast, true colours, very sharp and clear; no HDR, no glow, no orange cast, no CGI look. Natural real movements with real weight and gravity, no morphing, no flicker. Correct hands with five fingers. NO TEXT: the caption text of the input video is removed completely; no captions, no emoji, no subtitles, no watermark, no other logos. No cable connector and no remote anywhere. Silent."
+  }
+ },
+ {
+  "index": 30,
+  "set": "set30",
+  "room": "liv4",
+  "room_id": "07e77b34-7deb-40ca-bee4-912d5be3195a",
+  "cozy_id": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72",
+  "character_id": "dd6534c6-107c-44b1-a746-20e26536e2da",
+  "outfit": "a grey USA varsity crewneck sweatshirt and navy long jogger pants",
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "duration": 8,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "6f687894-2999-4f37-8e92-8eabadcec02d"
+    },
+    {
+     "role": "image_references",
+     "value": "dd6534c6-107c-44b1-a746-20e26536e2da"
+    },
+    {
+     "role": "image_references",
+     "value": "07e77b34-7deb-40ca-bee4-912d5be3195a"
+    },
+    {
+     "role": "image_references",
+     "value": "a9ebff95-7b4e-4a10-92f5-4c9377d01fd4"
+    },
+    {
+     "role": "image_references",
+     "value": "b3adf7e2-adcd-4ffc-9989-1fa0c822c78f"
+    },
+    {
+     "role": "image_references",
+     "value": "28a3d14b-3578-4569-bcf2-33a84d478cc0"
+    },
+    {
+     "role": "image_references",
+     "value": "71882d2b-aeab-4cc1-afa3-4f9d1a1951c5"
+    },
+    {
+     "role": "image_references",
+     "value": "4c8447f5-3760-4a6a-956b-8274b75d234d"
+    },
+    {
+     "role": "image_references",
+     "value": "387d0b88-6bcf-46ed-aeae-bb80ab41d32a"
+    },
+    {
+     "role": "image_references",
+     "value": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72"
+    }
+   ],
+   "prompt": "Edit the input video. Keep exactly the same four shots, the same cuts, the same camera position and framing (except the last shot, which is filmed WIDE from about 3 metres away), the same body movements and the same timing as the input video, second by second; the output has exactly the same length as the input. Change only the person, the room and the robe. PERSON: exactly the woman of Image 1, same face and hair (a different woman from the one in the input video - her face, hair colour and hair length come ONLY from Image 1, in every shot, also lying on the sofa); under the robe she wears a grey USA varsity crewneck sweatshirt and navy long jogger pants, the same in every shot. ROOM: exactly the open-plan living room and kitchen of Image 2, only what is in Image 2, with its Christmas tree and decorations, same wall colour. THE SOFA: the cream sofa of Image 9 - it stands in this same living room, against a wall painted the same colour as in Image 2, with the Christmas decorations of Image 9. Never add, move or invent other furniture. ROBE: the hooded robe of Images 3-6: REPRODUCE IT ONE TO ONE from Images 3-6 in every frame, every colour, every trim, the black belt, the red-and-green inside (never white) and the red Santa-hat hood with the green grumpy face exactly like Image 5; from behind only the red back of the hood with its white pompom is seen. The foot pockets are exactly like Image 7 and Image 8.\nSHOT 1 (0 to 0.8 s): close, seen from behind, the robe is already on her shoulders, the hood down on her back, she lifts the hood with both hands; her face is not seen.\nSHOT 2 (0.8 to 1.7 s): hard cut at exactly 1.67 s, never later; the back shot never lasts longer than in the input. Seen from behind, the hood is pulled up over her head, we see the back of the hood up on her head exactly like Image 6; her face is not seen.\nSHOT 3 (1.7 to 5.8 s): full body, she stands on the floor in the FOREGROUND facing the camera, nothing between her and the camera, the hood DOWN on her back in this shot, her whole face visible. Exactly like the input: the robe is open, she holds one side out and slides one foot down behind the hem into a foot pocket, then she holds the robe wide open with both arms showing the red-and-green inside of the robe, never white, she slides the other foot down behind the hem into the other foot pocket, then she wraps the robe closed and stands wrapped in it. THE HEM COVERS HER FEET AT ALL TIMES: the robe is extra long, its white hem lies flat on the floor all around her and touches the floor, there is NO gap between the hem and the floor, so her feet are always hidden behind the hem and inside the pockets - never visible on the floor, before, during and after she steps in, also when the robe is still closed. She slides each foot from behind the hem straight down into its pocket, so the pocket fills up and rests full on the floor; only the green fabric and the white fluffy band are seen on the floor, never a sock, a foot or a heel. FEET STAY IN THE POCKETS UNTIL THE END: once both feet are inside the foot pockets they never come out again.\nSHOT 4 (5.8 s to the end): In the final shot she is SITTING DOWN on the cream sofa of Image 9 - her bottom on the seat cushion, her back against the backrest, knees bent, wrapped in the robe, hood up; she is NEVER standing, never standing in front of the sofa, never between armchairs. Wide framing, about 3 metres away: the whole sofa and her full seated body, face small. Around the sofa the same room as Image 2 and Image 9. She sits on the cream sofa of Image 9, wrapped in the closed robe, the hood UP on her head (the red Santa-hat hood with the green grumpy face exactly like Image 5), and pulls the white fluffy collar up to her face with both hands and closes her eyes, smiling; her legs are completely covered by the closed robe down to the feet, the hem closed over them; no pajama pants, no knee and no foot visible. From 7.8 s to the end she holds still.\nLOOK: UGC style, a real unedited iPhone 16 video of a real person in a real home, Full HD, completely realistic; the same light exactly like the room of Image 2 (an ordinary real home filmed on a phone), the Christmas tree lights glowing, gentle low contrast, true colours, very sharp and clear; no HDR, no glow, no orange cast, no CGI look. Natural real movements with real weight and gravity, no morphing, no flicker. Correct hands with five fingers. NO TEXT: the caption text of the input video is removed completely; no captions, no emoji, no subtitles, no watermark, no other logos. No cable connector and no remote anywhere. Silent."
+  }
+ },
+ {
+  "index": 31,
+  "set": "set31",
+  "room": "liv5",
+  "room_id": "26bc8bcb-0b85-4d0f-a73f-326a280ac21e",
+  "cozy_id": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72",
+  "character_id": "d2c4f79c-d2d0-4c6a-bcac-d61f18f48fb0",
+  "outfit": "a white long-sleeve tee with a small American flag and red plaid flannel pajama pants",
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "duration": 8,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "6f687894-2999-4f37-8e92-8eabadcec02d"
+    },
+    {
+     "role": "image_references",
+     "value": "d2c4f79c-d2d0-4c6a-bcac-d61f18f48fb0"
+    },
+    {
+     "role": "image_references",
+     "value": "26bc8bcb-0b85-4d0f-a73f-326a280ac21e"
+    },
+    {
+     "role": "image_references",
+     "value": "a9ebff95-7b4e-4a10-92f5-4c9377d01fd4"
+    },
+    {
+     "role": "image_references",
+     "value": "b3adf7e2-adcd-4ffc-9989-1fa0c822c78f"
+    },
+    {
+     "role": "image_references",
+     "value": "28a3d14b-3578-4569-bcf2-33a84d478cc0"
+    },
+    {
+     "role": "image_references",
+     "value": "71882d2b-aeab-4cc1-afa3-4f9d1a1951c5"
+    },
+    {
+     "role": "image_references",
+     "value": "4c8447f5-3760-4a6a-956b-8274b75d234d"
+    },
+    {
+     "role": "image_references",
+     "value": "387d0b88-6bcf-46ed-aeae-bb80ab41d32a"
+    },
+    {
+     "role": "image_references",
+     "value": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72"
+    }
+   ],
+   "prompt": "Edit the input video. Keep exactly the same four shots, the same cuts, the same camera position and framing (except the last shot, which is filmed WIDE from about 3 metres away), the same body movements and the same timing as the input video, second by second; the output has exactly the same length as the input. Change only the person, the room and the robe. PERSON: exactly the woman of Image 1, same face and hair (a different woman from the one in the input video - her face, hair colour and hair length come ONLY from Image 1, in every shot, also lying on the sofa); under the robe she wears a white long-sleeve tee with a small American flag and red plaid flannel pajama pants, the same in every shot. ROOM: exactly the open-plan living room and kitchen of Image 2, only what is in Image 2, with its Christmas tree and decorations, same wall colour. THE SOFA: the cream sofa of Image 9 - it stands in this same living room, against a wall painted the same colour as in Image 2, with the Christmas decorations of Image 9. Never add, move or invent other furniture. ROBE: the hooded robe of Images 3-6: REPRODUCE IT ONE TO ONE from Images 3-6 in every frame, every colour, every trim, the black belt, the red-and-green inside (never white) and the red Santa-hat hood with the green grumpy face exactly like Image 5; from behind only the red back of the hood with its white pompom is seen. The foot pockets are exactly like Image 7 and Image 8.\nSHOT 1 (0 to 0.8 s): close, seen from behind, the robe is already on her shoulders, the hood down on her back, she lifts the hood with both hands; her face is not seen.\nSHOT 2 (0.8 to 1.7 s): hard cut at exactly 1.67 s, never later; the back shot never lasts longer than in the input. Seen from behind, the hood is pulled up over her head, we see the back of the hood up on her head exactly like Image 6; her face is not seen.\nSHOT 3 (1.7 to 5.8 s): full body, she stands on the floor in the FOREGROUND facing the camera, nothing between her and the camera, the hood DOWN on her back in this shot, her whole face visible. Exactly like the input: the robe is open, she holds one side out and slides one foot down behind the hem into a foot pocket, then she holds the robe wide open with both arms showing the red-and-green inside of the robe, never white, she slides the other foot down behind the hem into the other foot pocket, then she wraps the robe closed and stands wrapped in it. THE HEM COVERS HER FEET AT ALL TIMES: the robe is extra long, its white hem lies flat on the floor all around her and touches the floor, there is NO gap between the hem and the floor, so her feet are always hidden behind the hem and inside the pockets - never visible on the floor, before, during and after she steps in, also when the robe is still closed. She slides each foot from behind the hem straight down into its pocket, so the pocket fills up and rests full on the floor; only the green fabric and the white fluffy band are seen on the floor, never a sock, a foot or a heel. FEET STAY IN THE POCKETS UNTIL THE END: once both feet are inside the foot pockets they never come out again.\nSHOT 4 (5.8 s to the end): In the final shot she is SITTING DOWN on the cream sofa of Image 9 - her bottom on the seat cushion, her back against the backrest, knees bent, wrapped in the robe, hood up; she is NEVER standing, never standing in front of the sofa, never between armchairs. Wide framing, about 3 metres away: the whole sofa and her full seated body, face small. Around the sofa the same room as Image 2 and Image 9. She sits on the cream sofa of Image 9, wrapped in the closed robe, the hood UP on her head (the red Santa-hat hood with the green grumpy face exactly like Image 5), and pulls the white fluffy collar up to her face with both hands and closes her eyes, smiling; her legs are completely covered by the closed robe down to the feet, the hem closed over them; no pajama pants, no knee and no foot visible. From 7.8 s to the end she holds still.\nLOOK: UGC style, a real unedited iPhone 16 video of a real person in a real home, Full HD, completely realistic; the same light exactly like the room of Image 2 (an ordinary real home filmed on a phone), the Christmas tree lights glowing, gentle low contrast, true colours, very sharp and clear; no HDR, no glow, no orange cast, no CGI look. Natural real movements with real weight and gravity, no morphing, no flicker. Correct hands with five fingers. NO TEXT: the caption text of the input video is removed completely; no captions, no emoji, no subtitles, no watermark, no other logos. No cable connector and no remote anywhere. Silent."
+  }
+ },
+ {
+  "index": 32,
+  "set": "set32",
+  "room": "bed1",
+  "room_id": "26e498f2-4ae7-4d76-b424-35984446546a",
+  "cozy_id": "08edb738-c9b7-40ea-8cf5-97995c61471e",
+  "character_id": "eea7024d-d2e1-4b34-9a1b-d5ecf5b723ab",
+  "outfit": "a red long-sleeve thermal top and navy plaid flannel pajama pants",
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "duration": 8,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "6f687894-2999-4f37-8e92-8eabadcec02d"
+    },
+    {
+     "role": "image_references",
+     "value": "eea7024d-d2e1-4b34-9a1b-d5ecf5b723ab"
+    },
+    {
+     "role": "image_references",
+     "value": "26e498f2-4ae7-4d76-b424-35984446546a"
+    },
+    {
+     "role": "image_references",
+     "value": "a9ebff95-7b4e-4a10-92f5-4c9377d01fd4"
+    },
+    {
+     "role": "image_references",
+     "value": "b3adf7e2-adcd-4ffc-9989-1fa0c822c78f"
+    },
+    {
+     "role": "image_references",
+     "value": "28a3d14b-3578-4569-bcf2-33a84d478cc0"
+    },
+    {
+     "role": "image_references",
+     "value": "71882d2b-aeab-4cc1-afa3-4f9d1a1951c5"
+    },
+    {
+     "role": "image_references",
+     "value": "4c8447f5-3760-4a6a-956b-8274b75d234d"
+    },
+    {
+     "role": "image_references",
+     "value": "387d0b88-6bcf-46ed-aeae-bb80ab41d32a"
+    },
+    {
+     "role": "image_references",
+     "value": "08edb738-c9b7-40ea-8cf5-97995c61471e"
+    }
+   ],
+   "prompt": "Edit the input video. Keep exactly the same four shots, the same cuts, the same camera position and framing (except the last shot, which is filmed WIDE from about 3 metres away), the same body movements and the same timing as the input video, second by second; the output has exactly the same length as the input. Change only the person, the room and the robe. PERSON: exactly the woman of Image 1, same face and hair (a different woman from the one in the input video - her face, hair colour and hair length come ONLY from Image 1, in every shot, also lying on the sofa); under the robe she wears a red long-sleeve thermal top and navy plaid flannel pajama pants, the same in every shot. ROOM: exactly the bedroom of Image 2, only what is in Image 2, with its Christmas tree and decorations, same wall colour, same warm evening lamp light. THE BED: the bed of Image 2; in the last shot the bed is seen like in Image 9 (the headboard wall with the shelf, the paintings and the Christmas lights), painted the same colour as in Image 2. Never add, move or invent other furniture. ROBE: the hooded robe of Images 3-6: REPRODUCE IT ONE TO ONE from Images 3-6 in every frame, every colour, every trim, the black belt, the red-and-green inside (never white) and the red Santa-hat hood with the green grumpy face exactly like Image 5; from behind only the red back of the hood with its white pompom is seen. The foot pockets are exactly like Image 7 and Image 8.\nSHOT 1 (0 to 0.8 s): close, seen from behind, the robe is already on her shoulders, the hood down on her back, she lifts the hood with both hands; her face is not seen.\nSHOT 2 (0.8 to 1.7 s): hard cut at exactly 1.67 s, never later; the back shot never lasts longer than in the input. Seen from behind, the hood is pulled up over her head, we see the back of the hood up on her head exactly like Image 6; her face is not seen.\nSHOT 3 (1.7 to 5.8 s): full body, she stands on the floor in the FOREGROUND facing the camera, nothing between her and the camera, the hood DOWN on her back in this shot, her whole face visible. Exactly like the input: the robe is open, she holds one side out and slides one foot down behind the hem into a foot pocket, then she holds the robe wide open with both arms showing the red-and-green inside of the robe, never white, she slides the other foot down behind the hem into the other foot pocket, then she wraps the robe closed and stands wrapped in it. THE HEM COVERS HER FEET AT ALL TIMES: the robe is extra long, its white hem lies flat on the floor all around her and touches the floor, there is NO gap between the hem and the floor, so her feet are always hidden behind the hem and inside the pockets - never visible on the floor, before, during and after she steps in, also when the robe is still closed. She slides each foot from behind the hem straight down into its pocket, so the pocket fills up and rests full on the floor; only the green fabric and the white fluffy band are seen on the floor, never a sock, a foot or a heel. FEET STAY IN THE POCKETS UNTIL THE END: once both feet are inside the foot pockets they never come out again.\nSHOT 4 (5.8 s to the end): In the final shot she is SITTING on the bed of Image 2 and Image 9, leaning back against the pillows at the headboard, knees bent, wrapped in the robe, hood up; she is NEVER standing. Wide framing, about 3 metres away: the whole bed and her full seated body, face small, the headboard wall of Image 9 behind her. She is wrapped in the closed robe, the hood UP on her head (the red Santa-hat hood with the green grumpy face exactly like Image 5), and pulls the white fluffy collar up to her face with both hands and closes her eyes, smiling; her legs are completely covered by the closed robe down to the feet, the hem closed over them; no pajama pants, no knee and no foot visible. From 7.8 s to the end she holds still.\nLOOK: UGC style, a real unedited iPhone 16 video of a real person in a real home, Full HD, completely realistic; the same light exactly like the room of Image 2 (an ordinary real home filmed on a phone), the Christmas tree lights glowing, gentle low contrast, true colours, very sharp and clear; no HDR, no glow, no orange cast, no CGI look. Natural real movements with real weight and gravity, no morphing, no flicker. Correct hands with five fingers. NO TEXT: the caption text of the input video is removed completely; no captions, no emoji, no subtitles, no watermark, no other logos. No cable connector and no remote anywhere. Silent."
+  }
+ },
+ {
+  "index": 33,
+  "set": "set33",
+  "room": "bed2",
+  "room_id": "15868b68-4526-42b3-8e44-2acb098d8b75",
+  "cozy_id": "b8b6095e-f9c4-448f-8f6f-e11263210d95",
+  "character_id": "58996f04-f9e8-45fa-97b9-ede3cf7c28d6",
+  "outfit": "a navy hooded college sweatshirt and grey long sweatpants",
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "duration": 8,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "6f687894-2999-4f37-8e92-8eabadcec02d"
+    },
+    {
+     "role": "image_references",
+     "value": "58996f04-f9e8-45fa-97b9-ede3cf7c28d6"
+    },
+    {
+     "role": "image_references",
+     "value": "15868b68-4526-42b3-8e44-2acb098d8b75"
+    },
+    {
+     "role": "image_references",
+     "value": "a9ebff95-7b4e-4a10-92f5-4c9377d01fd4"
+    },
+    {
+     "role": "image_references",
+     "value": "b3adf7e2-adcd-4ffc-9989-1fa0c822c78f"
+    },
+    {
+     "role": "image_references",
+     "value": "28a3d14b-3578-4569-bcf2-33a84d478cc0"
+    },
+    {
+     "role": "image_references",
+     "value": "71882d2b-aeab-4cc1-afa3-4f9d1a1951c5"
+    },
+    {
+     "role": "image_references",
+     "value": "4c8447f5-3760-4a6a-956b-8274b75d234d"
+    },
+    {
+     "role": "image_references",
+     "value": "387d0b88-6bcf-46ed-aeae-bb80ab41d32a"
+    },
+    {
+     "role": "image_references",
+     "value": "b8b6095e-f9c4-448f-8f6f-e11263210d95"
+    }
+   ],
+   "prompt": "Edit the input video. Keep exactly the same four shots, the same cuts, the same camera position and framing (except the last shot, which is filmed WIDE from about 3 metres away), the same body movements and the same timing as the input video, second by second; the output has exactly the same length as the input. Change only the person, the room and the robe. PERSON: exactly the woman of Image 1, same face and hair (a different woman from the one in the input video - her face, hair colour and hair length come ONLY from Image 1, in every shot, also lying on the sofa); under the robe she wears a navy hooded college sweatshirt and grey long sweatpants, the same in every shot. ROOM: exactly the bedroom of Image 2, only what is in Image 2, with its Christmas tree and decorations, same wall colour, same warm evening lamp light. THE BED: the bed of Image 2; in the last shot the bed is seen like in Image 9 (the headboard wall with the shelf, the paintings and the Christmas lights), painted the same colour as in Image 2. Never add, move or invent other furniture. ROBE: the hooded robe of Images 3-6: REPRODUCE IT ONE TO ONE from Images 3-6 in every frame, every colour, every trim, the black belt, the red-and-green inside (never white) and the red Santa-hat hood with the green grumpy face exactly like Image 5; from behind only the red back of the hood with its white pompom is seen. The foot pockets are exactly like Image 7 and Image 8.\nSHOT 1 (0 to 0.8 s): close, seen from behind, the robe is already on her shoulders, the hood down on her back, she lifts the hood with both hands; her face is not seen.\nSHOT 2 (0.8 to 1.7 s): hard cut at exactly 1.67 s, never later; the back shot never lasts longer than in the input. Seen from behind, the hood is pulled up over her head, we see the back of the hood up on her head exactly like Image 6; her face is not seen.\nSHOT 3 (1.7 to 5.8 s): full body, she stands on the floor in the FOREGROUND facing the camera, nothing between her and the camera, the hood DOWN on her back in this shot, her whole face visible. Exactly like the input: the robe is open, she holds one side out and slides one foot down behind the hem into a foot pocket, then she holds the robe wide open with both arms showing the red-and-green inside of the robe, never white, she slides the other foot down behind the hem into the other foot pocket, then she wraps the robe closed and stands wrapped in it. THE HEM COVERS HER FEET AT ALL TIMES: the robe is extra long, its white hem lies flat on the floor all around her and touches the floor, there is NO gap between the hem and the floor, so her feet are always hidden behind the hem and inside the pockets - never visible on the floor, before, during and after she steps in, also when the robe is still closed. She slides each foot from behind the hem straight down into its pocket, so the pocket fills up and rests full on the floor; only the green fabric and the white fluffy band are seen on the floor, never a sock, a foot or a heel. FEET STAY IN THE POCKETS UNTIL THE END: once both feet are inside the foot pockets they never come out again.\nSHOT 4 (5.8 s to the end): In the final shot she is SITTING on the bed of Image 2 and Image 9, leaning back against the pillows at the headboard, knees bent, wrapped in the robe, hood up; she is NEVER standing. Wide framing, about 3 metres away: the whole bed and her full seated body, face small, the headboard wall of Image 9 behind her. She is wrapped in the closed robe, the hood UP on her head (the red Santa-hat hood with the green grumpy face exactly like Image 5), and pulls the white fluffy collar up to her face with both hands and closes her eyes, smiling; her legs are completely covered by the closed robe down to the feet, the hem closed over them; no pajama pants, no knee and no foot visible. From 7.8 s to the end she holds still.\nLOOK: UGC style, a real unedited iPhone 16 video of a real person in a real home, Full HD, completely realistic; the same light exactly like the room of Image 2 (an ordinary real home filmed on a phone), the Christmas tree lights glowing, gentle low contrast, true colours, very sharp and clear; no HDR, no glow, no orange cast, no CGI look. Natural real movements with real weight and gravity, no morphing, no flicker. Correct hands with five fingers. NO TEXT: the caption text of the input video is removed completely; no captions, no emoji, no subtitles, no watermark, no other logos. No cable connector and no remote anywhere. Silent."
+  }
+ },
+ {
+  "index": 34,
+  "set": "set34",
+  "room": "bed3",
+  "room_id": "bc52d115-ccd3-475d-8b1f-5a849d86b509",
+  "cozy_id": "08edb738-c9b7-40ea-8cf5-97995c61471e",
+  "character_id": "dcd16144-13d4-4db0-9b90-3ca8104685b2",
+  "outfit": "a heather-grey long-sleeve henley and red-and-white candy-stripe pajama pants",
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "duration": 8,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "6f687894-2999-4f37-8e92-8eabadcec02d"
+    },
+    {
+     "role": "image_references",
+     "value": "dcd16144-13d4-4db0-9b90-3ca8104685b2"
+    },
+    {
+     "role": "image_references",
+     "value": "bc52d115-ccd3-475d-8b1f-5a849d86b509"
+    },
+    {
+     "role": "image_references",
+     "value": "a9ebff95-7b4e-4a10-92f5-4c9377d01fd4"
+    },
+    {
+     "role": "image_references",
+     "value": "b3adf7e2-adcd-4ffc-9989-1fa0c822c78f"
+    },
+    {
+     "role": "image_references",
+     "value": "28a3d14b-3578-4569-bcf2-33a84d478cc0"
+    },
+    {
+     "role": "image_references",
+     "value": "71882d2b-aeab-4cc1-afa3-4f9d1a1951c5"
+    },
+    {
+     "role": "image_references",
+     "value": "4c8447f5-3760-4a6a-956b-8274b75d234d"
+    },
+    {
+     "role": "image_references",
+     "value": "387d0b88-6bcf-46ed-aeae-bb80ab41d32a"
+    },
+    {
+     "role": "image_references",
+     "value": "08edb738-c9b7-40ea-8cf5-97995c61471e"
+    }
+   ],
+   "prompt": "Edit the input video. Keep exactly the same four shots, the same cuts, the same camera position and framing (except the last shot, which is filmed WIDE from about 3 metres away), the same body movements and the same timing as the input video, second by second; the output has exactly the same length as the input. Change only the person, the room and the robe. PERSON: exactly the woman of Image 1, same face and hair (a different woman from the one in the input video - her face, hair colour and hair length come ONLY from Image 1, in every shot, also lying on the sofa); under the robe she wears a heather-grey long-sleeve henley and red-and-white candy-stripe pajama pants, the same in every shot. ROOM: exactly the bedroom of Image 2, only what is in Image 2, with its Christmas tree and decorations, same wall colour, same warm evening lamp light. THE BED: the bed of Image 2; in the last shot the bed is seen like in Image 9 (the headboard wall with the shelf, the paintings and the Christmas lights), painted the same colour as in Image 2. Never add, move or invent other furniture. ROBE: the hooded robe of Images 3-6: REPRODUCE IT ONE TO ONE from Images 3-6 in every frame, every colour, every trim, the black belt, the red-and-green inside (never white) and the red Santa-hat hood with the green grumpy face exactly like Image 5; from behind only the red back of the hood with its white pompom is seen. The foot pockets are exactly like Image 7 and Image 8.\nSHOT 1 (0 to 0.8 s): close, seen from behind, the robe is already on her shoulders, the hood down on her back, she lifts the hood with both hands; her face is not seen.\nSHOT 2 (0.8 to 1.7 s): hard cut at exactly 1.67 s, never later; the back shot never lasts longer than in the input. Seen from behind, the hood is pulled up over her head, we see the back of the hood up on her head exactly like Image 6; her face is not seen.\nSHOT 3 (1.7 to 5.8 s): full body, she stands on the floor in the FOREGROUND facing the camera, nothing between her and the camera, the hood DOWN on her back in this shot, her whole face visible. Exactly like the input: the robe is open, she holds one side out and slides one foot down behind the hem into a foot pocket, then she holds the robe wide open with both arms showing the red-and-green inside of the robe, never white, she slides the other foot down behind the hem into the other foot pocket, then she wraps the robe closed and stands wrapped in it. THE HEM COVERS HER FEET AT ALL TIMES: the robe is extra long, its white hem lies flat on the floor all around her and touches the floor, there is NO gap between the hem and the floor, so her feet are always hidden behind the hem and inside the pockets - never visible on the floor, before, during and after she steps in, also when the robe is still closed. She slides each foot from behind the hem straight down into its pocket, so the pocket fills up and rests full on the floor; only the green fabric and the white fluffy band are seen on the floor, never a sock, a foot or a heel. FEET STAY IN THE POCKETS UNTIL THE END: once both feet are inside the foot pockets they never come out again.\nSHOT 4 (5.8 s to the end): In the final shot she is SITTING on the bed of Image 2 and Image 9, leaning back against the pillows at the headboard, knees bent, wrapped in the robe, hood up; she is NEVER standing. Wide framing, about 3 metres away: the whole bed and her full seated body, face small, the headboard wall of Image 9 behind her. She is wrapped in the closed robe, the hood UP on her head (the red Santa-hat hood with the green grumpy face exactly like Image 5), and pulls the white fluffy collar up to her face with both hands and closes her eyes, smiling; her legs are completely covered by the closed robe down to the feet, the hem closed over them; no pajama pants, no knee and no foot visible. From 7.8 s to the end she holds still.\nLOOK: UGC style, a real unedited iPhone 16 video of a real person in a real home, Full HD, completely realistic; the same light exactly like the room of Image 2 (an ordinary real home filmed on a phone), the Christmas tree lights glowing, gentle low contrast, true colours, very sharp and clear; no HDR, no glow, no orange cast, no CGI look. Natural real movements with real weight and gravity, no morphing, no flicker. Correct hands with five fingers. NO TEXT: the caption text of the input video is removed completely; no captions, no emoji, no subtitles, no watermark, no other logos. No cable connector and no remote anywhere. Silent."
+  }
+ },
+ {
+  "index": 35,
+  "set": "set35",
+  "room": "bed4",
+  "room_id": "d1ddae71-faef-4ab9-b009-d2a64b1a6cfd",
+  "cozy_id": "b8b6095e-f9c4-448f-8f6f-e11263210d95",
+  "character_id": "ec5d73de-79a9-49fa-9afd-760083974862",
+  "outfit": "a heather-grey Army-style crewneck and red plaid pajama pants",
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "duration": 8,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "6f687894-2999-4f37-8e92-8eabadcec02d"
+    },
+    {
+     "role": "image_references",
+     "value": "ec5d73de-79a9-49fa-9afd-760083974862"
+    },
+    {
+     "role": "image_references",
+     "value": "d1ddae71-faef-4ab9-b009-d2a64b1a6cfd"
+    },
+    {
+     "role": "image_references",
+     "value": "a9ebff95-7b4e-4a10-92f5-4c9377d01fd4"
+    },
+    {
+     "role": "image_references",
+     "value": "b3adf7e2-adcd-4ffc-9989-1fa0c822c78f"
+    },
+    {
+     "role": "image_references",
+     "value": "28a3d14b-3578-4569-bcf2-33a84d478cc0"
+    },
+    {
+     "role": "image_references",
+     "value": "71882d2b-aeab-4cc1-afa3-4f9d1a1951c5"
+    },
+    {
+     "role": "image_references",
+     "value": "4c8447f5-3760-4a6a-956b-8274b75d234d"
+    },
+    {
+     "role": "image_references",
+     "value": "387d0b88-6bcf-46ed-aeae-bb80ab41d32a"
+    },
+    {
+     "role": "image_references",
+     "value": "b8b6095e-f9c4-448f-8f6f-e11263210d95"
+    }
+   ],
+   "prompt": "Edit the input video. Keep exactly the same four shots, the same cuts, the same camera position and framing (except the last shot, which is filmed WIDE from about 3 metres away), the same body movements and the same timing as the input video, second by second; the output has exactly the same length as the input. Change only the person, the room and the robe. PERSON: exactly the woman of Image 1, same face and hair (a different woman from the one in the input video - her face, hair colour and hair length come ONLY from Image 1, in every shot, also lying on the sofa); under the robe she wears a heather-grey Army-style crewneck and red plaid pajama pants, the same in every shot. ROOM: exactly the bedroom of Image 2, only what is in Image 2, with its Christmas tree and decorations, same wall colour, same warm evening lamp light. THE BED: the bed of Image 2; in the last shot the bed is seen like in Image 9 (the headboard wall with the shelf, the paintings and the Christmas lights), painted the same colour as in Image 2. Never add, move or invent other furniture. ROBE: the hooded robe of Images 3-6: REPRODUCE IT ONE TO ONE from Images 3-6 in every frame, every colour, every trim, the black belt, the red-and-green inside (never white) and the red Santa-hat hood with the green grumpy face exactly like Image 5; from behind only the red back of the hood with its white pompom is seen. The foot pockets are exactly like Image 7 and Image 8.\nSHOT 1 (0 to 0.8 s): close, seen from behind, the robe is already on her shoulders, the hood down on her back, she lifts the hood with both hands; her face is not seen.\nSHOT 2 (0.8 to 1.7 s): hard cut at exactly 1.67 s, never later; the back shot never lasts longer than in the input. Seen from behind, the hood is pulled up over her head, we see the back of the hood up on her head exactly like Image 6; her face is not seen.\nSHOT 3 (1.7 to 5.8 s): full body, she stands on the floor in the FOREGROUND facing the camera, nothing between her and the camera, the hood DOWN on her back in this shot, her whole face visible. Exactly like the input: the robe is open, she holds one side out and slides one foot down behind the hem into a foot pocket, then she holds the robe wide open with both arms showing the red-and-green inside of the robe, never white, she slides the other foot down behind the hem into the other foot pocket, then she wraps the robe closed and stands wrapped in it. THE HEM COVERS HER FEET AT ALL TIMES: the robe is extra long, its white hem lies flat on the floor all around her and touches the floor, there is NO gap between the hem and the floor, so her feet are always hidden behind the hem and inside the pockets - never visible on the floor, before, during and after she steps in, also when the robe is still closed. She slides each foot from behind the hem straight down into its pocket, so the pocket fills up and rests full on the floor; only the green fabric and the white fluffy band are seen on the floor, never a sock, a foot or a heel. FEET STAY IN THE POCKETS UNTIL THE END: once both feet are inside the foot pockets they never come out again.\nSHOT 4 (5.8 s to the end): In the final shot she is SITTING on the bed of Image 2 and Image 9, leaning back against the pillows at the headboard, knees bent, wrapped in the robe, hood up; she is NEVER standing. Wide framing, about 3 metres away: the whole bed and her full seated body, face small, the headboard wall of Image 9 behind her. She is wrapped in the closed robe, the hood UP on her head (the red Santa-hat hood with the green grumpy face exactly like Image 5), and pulls the white fluffy collar up to her face with both hands and closes her eyes, smiling; her legs are completely covered by the closed robe down to the feet, the hem closed over them; no pajama pants, no knee and no foot visible. From 7.8 s to the end she holds still.\nLOOK: UGC style, a real unedited iPhone 16 video of a real person in a real home, Full HD, completely realistic; the same light exactly like the room of Image 2 (an ordinary real home filmed on a phone), the Christmas tree lights glowing, gentle low contrast, true colours, very sharp and clear; no HDR, no glow, no orange cast, no CGI look. Natural real movements with real weight and gravity, no morphing, no flicker. Correct hands with five fingers. NO TEXT: the caption text of the input video is removed completely; no captions, no emoji, no subtitles, no watermark, no other logos. No cable connector and no remote anywhere. Silent."
+  }
+ },
+ {
+  "index": 36,
+  "set": "set36",
+  "room": "liv0b",
+  "room_id": "7ce7fe3f-6f14-48bb-bde6-4776dadf1892",
+  "cozy_id": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72",
+  "character_id": "80d99198-699e-41da-8ba6-0369614a2185",
+  "outfit": "a white long-sleeve tee and navy star-print long pajama pants",
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "duration": 8,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "6f687894-2999-4f37-8e92-8eabadcec02d"
+    },
+    {
+     "role": "image_references",
+     "value": "80d99198-699e-41da-8ba6-0369614a2185"
+    },
+    {
+     "role": "image_references",
+     "value": "7ce7fe3f-6f14-48bb-bde6-4776dadf1892"
+    },
+    {
+     "role": "image_references",
+     "value": "a9ebff95-7b4e-4a10-92f5-4c9377d01fd4"
+    },
+    {
+     "role": "image_references",
+     "value": "b3adf7e2-adcd-4ffc-9989-1fa0c822c78f"
+    },
+    {
+     "role": "image_references",
+     "value": "28a3d14b-3578-4569-bcf2-33a84d478cc0"
+    },
+    {
+     "role": "image_references",
+     "value": "71882d2b-aeab-4cc1-afa3-4f9d1a1951c5"
+    },
+    {
+     "role": "image_references",
+     "value": "4c8447f5-3760-4a6a-956b-8274b75d234d"
+    },
+    {
+     "role": "image_references",
+     "value": "387d0b88-6bcf-46ed-aeae-bb80ab41d32a"
+    },
+    {
+     "role": "image_references",
+     "value": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72"
+    }
+   ],
+   "prompt": "Edit the input video. Keep exactly the same four shots, the same cuts, the same camera position and framing (except the last shot, which is filmed WIDE from about 3 metres away), the same body movements and the same timing as the input video, second by second; the output has exactly the same length as the input. Change only the person, the room and the robe. PERSON: exactly the woman of Image 1, same face and hair (a different woman from the one in the input video - her face, hair colour and hair length come ONLY from Image 1, in every shot, also lying on the sofa); under the robe she wears a white long-sleeve tee and navy star-print long pajama pants, the same in every shot. ROOM: exactly the open-plan living room and kitchen of Image 2, only what is in Image 2, with its Christmas tree and decorations, same wall colour. THE SOFA: the cream sofa of Image 9 - it stands in this same living room, against a wall painted the same colour as in Image 2, with the Christmas decorations of Image 9. Never add, move or invent other furniture. ROBE: the hooded robe of Images 3-6: REPRODUCE IT ONE TO ONE from Images 3-6 in every frame, every colour, every trim, the black belt, the red-and-green inside (never white) and the red Santa-hat hood with the green grumpy face exactly like Image 5; from behind only the red back of the hood with its white pompom is seen. The foot pockets are exactly like Image 7 and Image 8.\nSHOT 1 (0 to 0.8 s): close, seen from behind, the robe is already on her shoulders, the hood down on her back, she lifts the hood with both hands; her face is not seen.\nSHOT 2 (0.8 to 1.7 s): hard cut at exactly 1.67 s, never later; the back shot never lasts longer than in the input. Seen from behind, the hood is pulled up over her head, we see the back of the hood up on her head exactly like Image 6; her face is not seen.\nSHOT 3 (1.7 to 5.8 s): full body, she stands on the floor in the FOREGROUND facing the camera, nothing between her and the camera, the hood DOWN on her back in this shot, her whole face visible. Exactly like the input: the robe is open, she holds one side out and slides one foot down behind the hem into a foot pocket, then she holds the robe wide open with both arms showing the red-and-green inside of the robe, never white, she slides the other foot down behind the hem into the other foot pocket, then she wraps the robe closed and stands wrapped in it. THE HEM COVERS HER FEET AT ALL TIMES: the robe is extra long, its white hem lies flat on the floor all around her and touches the floor, there is NO gap between the hem and the floor, so her feet are always hidden behind the hem and inside the pockets - never visible on the floor, before, during and after she steps in, also when the robe is still closed. She slides each foot from behind the hem straight down into its pocket, so the pocket fills up and rests full on the floor; only the green fabric and the white fluffy band are seen on the floor, never a sock, a foot or a heel. FEET STAY IN THE POCKETS UNTIL THE END: once both feet are inside the foot pockets they never come out again.\nSHOT 4 (5.8 s to the end): In the final shot she is SITTING DOWN on the cream sofa of Image 9 - her bottom on the seat cushion, her back against the backrest, knees bent, wrapped in the robe, hood up; she is NEVER standing, never standing in front of the sofa, never between armchairs. Wide framing, about 3 metres away: the whole sofa and her full seated body, face small. Around the sofa the same room as Image 2 and Image 9. She sits on the cream sofa of Image 9, wrapped in the closed robe, the hood UP on her head (the red Santa-hat hood with the green grumpy face exactly like Image 5), and pulls the white fluffy collar up to her face with both hands and closes her eyes, smiling; her legs are completely covered by the closed robe down to the feet, the hem closed over them; no pajama pants, no knee and no foot visible. From 7.8 s to the end she holds still.\nLOOK: UGC style, a real unedited iPhone 16 video of a real person in a real home, Full HD, completely realistic; the same light exactly like the room of Image 2 (an ordinary real home filmed on a phone), the Christmas tree lights glowing, gentle low contrast, true colours, very sharp and clear; no HDR, no glow, no orange cast, no CGI look. Natural real movements with real weight and gravity, no morphing, no flicker. Correct hands with five fingers. NO TEXT: the caption text of the input video is removed completely; no captions, no emoji, no subtitles, no watermark, no other logos. No cable connector and no remote anywhere. Silent."
+  }
+ },
+ {
+  "index": 37,
+  "set": "set37",
+  "room": "bed1b",
+  "room_id": "26e498f2-4ae7-4d76-b424-35984446546a",
+  "cozy_id": "08edb738-c9b7-40ea-8cf5-97995c61471e",
+  "character_id": "ae522001-88a4-40b3-8cc2-1b9a11cc4b4c",
+  "outfit": "a navy-and-red striped rugby sweater and light-grey long joggers",
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "duration": 8,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "6f687894-2999-4f37-8e92-8eabadcec02d"
+    },
+    {
+     "role": "image_references",
+     "value": "ae522001-88a4-40b3-8cc2-1b9a11cc4b4c"
+    },
+    {
+     "role": "image_references",
+     "value": "26e498f2-4ae7-4d76-b424-35984446546a"
+    },
+    {
+     "role": "image_references",
+     "value": "a9ebff95-7b4e-4a10-92f5-4c9377d01fd4"
+    },
+    {
+     "role": "image_references",
+     "value": "b3adf7e2-adcd-4ffc-9989-1fa0c822c78f"
+    },
+    {
+     "role": "image_references",
+     "value": "28a3d14b-3578-4569-bcf2-33a84d478cc0"
+    },
+    {
+     "role": "image_references",
+     "value": "71882d2b-aeab-4cc1-afa3-4f9d1a1951c5"
+    },
+    {
+     "role": "image_references",
+     "value": "4c8447f5-3760-4a6a-956b-8274b75d234d"
+    },
+    {
+     "role": "image_references",
+     "value": "387d0b88-6bcf-46ed-aeae-bb80ab41d32a"
+    },
+    {
+     "role": "image_references",
+     "value": "08edb738-c9b7-40ea-8cf5-97995c61471e"
+    }
+   ],
+   "prompt": "Edit the input video. Keep exactly the same four shots, the same cuts, the same camera position and framing (except the last shot, which is filmed WIDE from about 3 metres away), the same body movements and the same timing as the input video, second by second; the output has exactly the same length as the input. Change only the person, the room and the robe. PERSON: exactly the woman of Image 1, same face and hair (a different woman from the one in the input video - her face, hair colour and hair length come ONLY from Image 1, in every shot, also lying on the sofa); under the robe she wears a navy-and-red striped rugby sweater and light-grey long joggers, the same in every shot. ROOM: exactly the bedroom of Image 2, only what is in Image 2, with its Christmas tree and decorations, same wall colour, same warm evening lamp light. THE BED: the bed of Image 2; in the last shot the bed is seen like in Image 9 (the headboard wall with the shelf, the paintings and the Christmas lights), painted the same colour as in Image 2. Never add, move or invent other furniture. ROBE: the hooded robe of Images 3-6: REPRODUCE IT ONE TO ONE from Images 3-6 in every frame, every colour, every trim, the black belt, the red-and-green inside (never white) and the red Santa-hat hood with the green grumpy face exactly like Image 5; from behind only the red back of the hood with its white pompom is seen. The foot pockets are exactly like Image 7 and Image 8.\nSHOT 1 (0 to 0.8 s): close, seen from behind, the robe is already on her shoulders, the hood down on her back, she lifts the hood with both hands; her face is not seen.\nSHOT 2 (0.8 to 1.7 s): hard cut at exactly 1.67 s, never later; the back shot never lasts longer than in the input. Seen from behind, the hood is pulled up over her head, we see the back of the hood up on her head exactly like Image 6; her face is not seen.\nSHOT 3 (1.7 to 5.8 s): full body, she stands on the floor in the FOREGROUND facing the camera, nothing between her and the camera, the hood DOWN on her back in this shot, her whole face visible. Exactly like the input: the robe is open, she holds one side out and slides one foot down behind the hem into a foot pocket, then she holds the robe wide open with both arms showing the red-and-green inside of the robe, never white, she slides the other foot down behind the hem into the other foot pocket, then she wraps the robe closed and stands wrapped in it. THE HEM COVERS HER FEET AT ALL TIMES: the robe is extra long, its white hem lies flat on the floor all around her and touches the floor, there is NO gap between the hem and the floor, so her feet are always hidden behind the hem and inside the pockets - never visible on the floor, before, during and after she steps in, also when the robe is still closed. She slides each foot from behind the hem straight down into its pocket, so the pocket fills up and rests full on the floor; only the green fabric and the white fluffy band are seen on the floor, never a sock, a foot or a heel. FEET STAY IN THE POCKETS UNTIL THE END: once both feet are inside the foot pockets they never come out again.\nSHOT 4 (5.8 s to the end): In the final shot she is SITTING on the bed of Image 2 and Image 9, leaning back against the pillows at the headboard, knees bent, wrapped in the robe, hood up; she is NEVER standing. Wide framing, about 3 metres away: the whole bed and her full seated body, face small, the headboard wall of Image 9 behind her. She is wrapped in the closed robe, the hood UP on her head (the red Santa-hat hood with the green grumpy face exactly like Image 5), and pulls the white fluffy collar up to her face with both hands and closes her eyes, smiling; her legs are completely covered by the closed robe down to the feet, the hem closed over them; no pajama pants, no knee and no foot visible. From 7.8 s to the end she holds still.\nLOOK: UGC style, a real unedited iPhone 16 video of a real person in a real home, Full HD, completely realistic; the same light exactly like the room of Image 2 (an ordinary real home filmed on a phone), the Christmas tree lights glowing, gentle low contrast, true colours, very sharp and clear; no HDR, no glow, no orange cast, no CGI look. Natural real movements with real weight and gravity, no morphing, no flicker. Correct hands with five fingers. NO TEXT: the caption text of the input video is removed completely; no captions, no emoji, no subtitles, no watermark, no other logos. No cable connector and no remote anywhere. Silent."
+  }
+ }
+]
