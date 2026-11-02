@@ -3,7 +3,7 @@
  "fps": 30,
  "segments": [
   {
-   "file": "/home/user/heatgrump/output/videos/nogift/hook-set27-cut.mp4",
+   "file": "/home/user/heatgrump/output/videos/nogift/hook-set27-orig.mp4",
    "start": 0,
    "end": 2.46,
    "audio": true
@@ -28,5 +28,5 @@
  "music": "music/xmas/wham-last-christmas.mp3",
  "music_start": 0.0,
  "music_duck": 2.46,
- "music_hook_vol": 0.7
+ "music_hook_vol": 0.0
 }
