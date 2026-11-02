@@ -471,7 +471,16 @@
     "kling_job": "48a20ddc-d345-45ff-baf2-ed1f94ee28b3",
     "status": "ok",
     "note": "camere reale din reel-urile FB (2 nov), cu brad",
-    "tail": "output/broll-grinch/set26/tail.mp4"
+    "tail": "output/broll-grinch/set26/tail.mp4",
+    "uses": [
+      {
+        "video": "nogift-set26",
+        "date": "2026-11-02T19:32:38",
+        "song": "mariah-all-i-want.mp3",
+        "text": "[{\"text\":\"👱: \\\"No gift is perfect\\\"\nMe: 😏\",\"y\":0.12}]",
+        "set": "set26"
+      }
+    ]
   },
   {
     "set": "set27",
@@ -506,6 +515,13 @@
         "song": "mariah-all-i-want.mp3",
         "text": "[{\"text\":\"Moms DONT walk.. 🏃‍♀️\nRUN to target 🎯🎄\",\"y\":0.07}]",
         "set": "set27"
+      },
+      {
+        "video": "nogift-set27",
+        "date": "2026-11-02T19:33:07",
+        "song": "wham-last-christmas.mp3",
+        "text": "[{\"text\":\"👱: \\\"No gift is perfect\\\"\nMe: 😏\",\"y\":0.12}]",
+        "set": "set27"
       }
     ]
   },
@@ -530,7 +546,16 @@
         5.6
       ]
     ],
-    "tail": "output/broll-grinch/set28/tail.mp4"
+    "tail": "output/broll-grinch/set28/tail.mp4",
+    "uses": [
+      {
+        "video": "nogift-set28",
+        "date": "2026-11-02T19:33:36",
+        "song": "buble-beginning.mp3",
+        "text": "[{\"text\":\"👱: \\\"No gift is perfect\\\"\nMe: 😏\",\"y\":0.12}]",
+        "set": "set28"
+      }
+    ]
   },
   {
     "set": "set29",
@@ -687,7 +712,16 @@
       ]
     ],
     "cozy_slow": 1.4,
-    "tail": "output/broll-grinch/set36/tail.mp4"
+    "tail": "output/broll-grinch/set36/tail.mp4",
+    "uses": [
+      {
+        "video": "nogift-set36",
+        "date": "2026-11-02T19:31:40",
+        "song": "wham-last-christmas.mp3",
+        "text": "[{\"text\":\"👱: \\\"No gift is perfect\\\"\nMe: 😏\",\"y\":0.12}]",
+        "set": "set36"
+      }
+    ]
   },
   {
     "set": "set37",
@@ -710,6 +744,15 @@
         5.71
       ]
     ],
-    "tail": "output/broll-grinch/set37/tail.mp4"
+    "tail": "output/broll-grinch/set37/tail.mp4",
+    "uses": [
+      {
+        "video": "nogift-set37",
+        "date": "2026-11-02T19:32:09",
+        "song": "buble-beginning.mp3",
+        "text": "[{\"text\":\"👱: \\\"No gift is perfect\\\"\nMe: 😏\",\"y\":0.12}]",
+        "set": "set37"
+      }
+    ]
   }
 ]

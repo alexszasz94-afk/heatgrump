@@ -1,0 +1,31 @@
+{
+ "out": "/home/user/heatgrump/output/videos/grinchmom-set30/grinchmom-set30-FINAL.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/videos/grinchmom/hook-set30-held.mp4",
+   "start": 0,
+   "end": 3.97,
+   "audio": false
+  },
+  {
+   "file": "/home/user/heatgrump/output/broll-grinch/set30/tail.mp4",
+   "start": 0,
+   "end": 11.0
+  }
+ ],
+ "texts": [
+  {
+   "segs": [
+    0,
+    -1
+   ],
+   "size": 80,
+   "y": 0.12,
+   "text": "Do NOT let a Grinch\nmom see this... 🤩🎄"
+  }
+ ],
+ "music": "/home/user/heatgrump/output/videos/grinchmom/ref/music-ref-pad.m4a",
+ "music_start": 0,
+ "music_vol": 1.0
+}
