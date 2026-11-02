@@ -1,0 +1,30 @@
+{
+ "variant": "v4",
+ "cuts": [
+  2.12,
+  3.12,
+  5.92
+ ],
+ "segments": [
+  [
+   "../output/broll-grinch/set28/broll-cut.mp4",
+   0.1,
+   5.8
+  ],
+  [
+   "products/grinch/fixed/connector-sofa-close-1.mp4",
+   0.05,
+   1.7
+  ],
+  [
+   "products/grinch/fixed/remote-sofa-close-1.mp4",
+   0.3,
+   3.0
+  ],
+  [
+   "../output/broll-grinch/set28/broll-cut.mp4",
+   6.04,
+   7.6
+  ]
+ ]
+}

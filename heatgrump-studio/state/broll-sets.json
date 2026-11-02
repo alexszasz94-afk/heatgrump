@@ -469,7 +469,7 @@
   "cozy_ref_id": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72",
   "outfit": "a red Fair Isle sweater and navy long pajama pants",
   "kling_job": "48a20ddc-d345-45ff-baf2-ed1f94ee28b3",
-  "status": "generating",
+  "status": "ok",
   "note": "camere reale din reel-urile FB (2 nov), cu brad"
  },
  {
@@ -480,8 +480,8 @@
   "room_id": "58e86937-6c64-4039-9a4d-2371582a8ec3",
   "cozy_ref_id": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72",
   "outfit": "a red-and-green buffalo-plaid flannel long pajama set",
-  "kling_job": "91265d14-1d4f-4f8f-abbf-ba807c3b1377",
-  "status": "generating",
+  "kling_job": "52494e88-4e3a-47cd-a6e9-b160a4edac3b",
+  "status": "regen",
   "note": "camere reale din reel-urile FB (2 nov), cu brad"
  },
  {
@@ -493,7 +493,7 @@
   "cozy_ref_id": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72",
   "outfit": "a navy-and-white striped long pajama set",
   "kling_job": "423d1bc0-1c0b-43f7-9302-9d74c94467ba",
-  "status": "generating",
+  "status": "ok",
   "note": "camere reale din reel-urile FB (2 nov), cu brad"
  },
  {
@@ -505,7 +505,7 @@
   "cozy_ref_id": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72",
   "outfit": "a green-and-red Christmas plaid long pajama set with white piping",
   "kling_job": "90c7593d-ea8b-44f3-9793-afe93d719da6",
-  "status": "generating",
+  "status": "ok",
   "note": "camere reale din reel-urile FB (2 nov), cu brad"
  },
  {
@@ -517,7 +517,7 @@
   "cozy_ref_id": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72",
   "outfit": "a grey USA varsity crewneck sweatshirt and navy long jogger pants",
   "kling_job": "313148be-a8b9-4d00-a97b-1c0ebde7dccd",
-  "status": "generating",
+  "status": "ok",
   "note": "camere reale din reel-urile FB (2 nov), cu brad"
  },
  {
@@ -529,7 +529,7 @@
   "cozy_ref_id": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72",
   "outfit": "a white long-sleeve tee with a small American flag and red plaid flannel pajama pants",
   "kling_job": "6df48fa8-2cbf-49b7-8b32-8d93d02cc256",
-  "status": "generating",
+  "status": "ok",
   "note": "camere reale din reel-urile FB (2 nov), cu brad"
  },
  {
@@ -541,7 +541,7 @@
   "cozy_ref_id": "08edb738-c9b7-40ea-8cf5-97995c61471e",
   "outfit": "a red long-sleeve thermal top and navy plaid flannel pajama pants",
   "kling_job": "179d953c-edc3-4883-b2b5-c911dab5ba8e",
-  "status": "generating",
+  "status": "ok",
   "note": "camere reale din reel-urile FB (2 nov), cu brad"
  },
  {
@@ -553,7 +553,7 @@
   "cozy_ref_id": "b8b6095e-f9c4-448f-8f6f-e11263210d95",
   "outfit": "a navy hooded college sweatshirt and grey long sweatpants",
   "kling_job": "a97d4018-57d2-4004-b411-70db35b03d69",
-  "status": "generating",
+  "status": "ok",
   "note": "camere reale din reel-urile FB (2 nov), cu brad"
  },
  {
@@ -565,7 +565,7 @@
   "cozy_ref_id": "08edb738-c9b7-40ea-8cf5-97995c61471e",
   "outfit": "a heather-grey long-sleeve henley and red-and-white candy-stripe pajama pants",
   "kling_job": "aba1d7f1-593f-44c1-b645-195520331b85",
-  "status": "generating",
+  "status": "ok",
   "note": "camere reale din reel-urile FB (2 nov), cu brad"
  },
  {
@@ -577,7 +577,7 @@
   "cozy_ref_id": "b8b6095e-f9c4-448f-8f6f-e11263210d95",
   "outfit": "a heather-grey Army-style crewneck and red plaid pajama pants",
   "kling_job": "5a9660ca-8eb0-4cc4-8a79-b25293f04558",
-  "status": "generating",
+  "status": "ok",
   "note": "camere reale din reel-urile FB (2 nov), cu brad"
  },
  {
@@ -589,7 +589,7 @@
   "cozy_ref_id": "5d160baf-6ad5-49a3-ada9-0147a8f9dc72",
   "outfit": "a white long-sleeve tee and navy star-print long pajama pants",
   "kling_job": "8d88cf3b-d03c-400a-97f4-3739c7e78380",
-  "status": "generating",
+  "status": "ok",
   "note": "camere reale din reel-urile FB (2 nov), cu brad"
  },
  {
@@ -601,7 +601,7 @@
   "cozy_ref_id": "08edb738-c9b7-40ea-8cf5-97995c61471e",
   "outfit": "a navy-and-red striped rugby sweater and light-grey long joggers",
   "kling_job": "19613fb5-4628-4d35-8788-8d9a7a1a7662",
-  "status": "generating",
+  "status": "ok",
   "note": "camere reale din reel-urile FB (2 nov), cu brad"
  }
 ]
