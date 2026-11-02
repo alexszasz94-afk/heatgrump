@@ -16,23 +16,23 @@ h1 span{color:var(--berry)}
 .acc{display:grid;gap:10px;min-width:0}
 .acc h2{font-family:var(--f-d);font-weight:600;font-size:22px;margin:0;display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid var(--pine);padding-bottom:6px}
 .acc h2 small{font-family:var(--f-b);font-size:12px;color:var(--muted);font-weight:600}
-.card{display:grid;grid-template-columns:84px 1fr;gap:10px;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px}
-.card img{width:84px;aspect-ratio:9/16;object-fit:cover;border-radius:4px;max-width:100%}
+.card{display:grid;grid-template-columns:140px 1fr;gap:10px;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px}
+.card video{width:140px;aspect-ratio:9/16;object-fit:cover;border-radius:6px;max-width:100%;background:#000}
 .meta{display:grid;gap:5px;min-width:0;align-content:start}
 .top{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 time{font-family:var(--f-m);font-size:15px;color:var(--pine);font-variant-numeric:tabular-nums}
 .tag{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;background:var(--chip);color:var(--ink)}
 .ost{margin:0;font-weight:700;font-size:13px}
-.cap{margin:0;color:var(--muted);font-size:12px;overflow-wrap:anywhere}
+.cap{margin:0;color:var(--muted);font-size:12px;overflow-wrap:anywhere;white-space:pre-line}
 .act{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .act button{font:600 12px var(--f-b);border:1px solid var(--pine);background:transparent;color:var(--pine);padding:4px 10px;border-radius:6px;cursor:pointer}
 .act button:focus-visible,.act a:focus-visible{outline:2px solid var(--berry);outline-offset:2px}
-.act a{font-size:12px;font-weight:700;color:var(--berry);text-decoration:none}
+.act a.dl{font:700 12px var(--f-b);background:var(--berry);color:var(--panel);padding:5px 10px;border-radius:6px;text-decoration:none}
 .set{font-family:var(--f-m);font-size:11px;color:var(--muted);margin-left:auto}
 @media (max-width:900px){.grid{grid-template-columns:1fr}}
 </style>
 <div class="wrap">
-<header><h1>Postări <span>__DAY__</span></h1><p class="lede">__N__ videouri pe 3 conturi. Ore în fusul SUA Est. Pe fiecare cont tipurile de hook se alternează și aceeași fată nu apare de două ori la rând.</p></header>
+<header><h1>Postări <span>__DAY__</span></h1><p class="lede">__N__ videouri pe 3 conturi. Ore în fusul SUA Est. Apasă play ca să vezi videoul; „Descarcă MP4” ia fișierul la calitate maximă de pe GitHub (trebuie să fii logat pe GitHub). Pe fiecare cont tipurile de hook se alternează și aceeași fată nu apare de două ori la rând.</p></header>
 <div class="grid">__COLS__</div></div>
 <script>
 document.querySelectorAll("[data-copy]").forEach(b=>b.addEventListener("click",()=>{const t=document.getElementById(b.dataset.copy).textContent;

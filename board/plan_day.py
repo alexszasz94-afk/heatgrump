@@ -11,6 +11,8 @@ CAP={
  "mallrun":["The line was worth it 🏃‍♀️💚","Ran across the whole mall for this 😮‍💨🎄"],
  "twofriends":["Matching with my bestie this Christmas 💚💚","Bestie gift solved 🎁🎄"]}
 TAGS={"a":"#grinch #christmas #cozy #giftideas #heatedrobe","b":"#grinchmas #christmasgift #momlife #cozyvibes #wintervibes","c":"#grinchy #holidaygifts #cozyseason #giftsforher #christmas2026"}
+CTA=['Type "GRINCH" if you want this 💚','Comment "GRINCH" and I\'ll send you the link 🎄','Type "GRINCH" if you need this 😏','Drop a "GRINCH" below if you want one 💚','Type "GRINCH" for the link 🎁','Comment "GRINCH" if this is so you 🤭']
+POOL=["#grinch","#christmas","#cozy","#giftideas","#heatedrobe","#grinchmas","#christmasgift","#momlife","#cozyvibes","#wintervibes","#grinchy","#holidaygifts","#cozyseason","#giftsforher","#christmas2026","#wearableblanket","#christmasvibes","#giftsformom","#hoodedblanket","#christmasmorning","#cozyhome","#holidayseason","#stockingstuffer","#christmasshopping","#grinchlover","#xmasgifts","#cozyathome","#winterfashion","#giftguide","#merrychristmas"]
 SLOTS=["07:40","09:10","10:40","12:10","13:40","15:10","16:40","18:10","19:30","20:30","21:30","22:30"]
 OFF={"a":0,"b":20,"c":40}
 def run(day,groups):
@@ -33,7 +35,7 @@ def run(day,groups):
             v=random.choice(cand); pool.remove(v); order.append(v)
         for j,v in enumerate(order):
             h,m=map(int,SLOTS[j%len(SLOTS)].split(':')); m+=OFF[k]; h+=m//60; m%=60
-            v['time']=f"{h:02d}:{m:02d}"; c=CAP[v['type']]; v['caption']=c[(j+keys.index(k))%len(c)]+" "+TAGS[k]
+            v['time']=f"{h:02d}:{m:02d}"; c=CAP[v['type']]; rr=random.Random(day+k+v['dir']); tags=" ".join(rr.sample(POOL,6)); v['caption']=c[(j+keys.index(k))%len(c)]+"\n"+CTA[(j*3+keys.index(k))%len(CTA)]+"\n"+tags
             ed=json.load(open(f"{R}/output/videos/{v['dir']}/edit.json")); v['text']=ed['texts'][0]['text'] if ed.get('texts') else ''
             v['file']=f"output/videos/{v['dir']}/{os.path.basename(ed['out'])}"
         out["accounts"][k]=order
