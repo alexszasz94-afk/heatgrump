@@ -120,3 +120,6 @@ Final file: `output/<name>/<name>-FINAL.mp4`. Also write `output/<name>/caption.
 
 ### Cont Higgsfield nou (Szasz 2 nov)
 Contul s-a schimbat: ID-urile vechi (job-uri, media) NU mai merg. ID-urile valabile acum sunt în `state/media-cont-nou.json` (halat 4 ref + 2 buzunare, clipul de mișcare grinch_v4, 12 personaje, camerele reale). Orice altceva se urcă din nou din fișierele locale (`media_upload` → PUT → `media_confirm`, sau `media_import_url` pentru URL-uri publice cloudfront) și se adaugă în fișier.
+
+### B-roll la videouri (Szasz 2 nov — REGULĂ)
+Când facem videouri, folosim MEREU B-roll-urile deja generate și montate (`output/broll-grinch/broll-grinch-setNN.mp4`, lista în `state/broll-sets.json`), nu generăm B-roll nou pentru un video. Prioritate: seturile din camerele reale de Crăciun (set26–set37), rotite între videouri (un set nu de două ori la rând). B-roll nou se face doar când Szasz cere seturi noi.
