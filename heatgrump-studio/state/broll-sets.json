@@ -494,7 +494,17 @@
   "outfit": "a navy-and-white striped long pajama set",
   "kling_job": "423d1bc0-1c0b-43f7-9302-9d74c94467ba",
   "status": "ok",
-  "note": "camere reale din reel-urile FB (2 nov), cu brad"
+  "note": "camere reale din reel-urile FB (2 nov), cu brad",
+  "broll_segs": [
+   [
+    0.1,
+    1.75
+   ],
+   [
+    2.12,
+    5.6
+   ]
+  ]
  },
  {
   "set": "set29",
@@ -506,7 +516,17 @@
   "outfit": "a green-and-red Christmas plaid long pajama set with white piping",
   "kling_job": "90c7593d-ea8b-44f3-9793-afe93d719da6",
   "status": "ok",
-  "note": "camere reale din reel-urile FB (2 nov), cu brad"
+  "note": "camere reale din reel-urile FB (2 nov), cu brad",
+  "broll_segs": [
+   [
+    0.1,
+    1.75
+   ],
+   [
+    2.54,
+    5.6
+   ]
+  ]
  },
  {
   "set": "set30",
@@ -518,7 +538,17 @@
   "outfit": "a grey USA varsity crewneck sweatshirt and navy long jogger pants",
   "kling_job": "313148be-a8b9-4d00-a97b-1c0ebde7dccd",
   "status": "ok",
-  "note": "camere reale din reel-urile FB (2 nov), cu brad"
+  "note": "camere reale din reel-urile FB (2 nov), cu brad",
+  "broll_segs": [
+   [
+    0.1,
+    1.75
+   ],
+   [
+    2.38,
+    5.85
+   ]
+  ]
  },
  {
   "set": "set31",
@@ -530,7 +560,18 @@
   "outfit": "a white long-sleeve tee with a small American flag and red plaid flannel pajama pants",
   "kling_job": "6df48fa8-2cbf-49b7-8b32-8d93d02cc256",
   "status": "ok",
-  "note": "camere reale din reel-urile FB (2 nov), cu brad"
+  "note": "camere reale din reel-urile FB (2 nov), cu brad",
+  "broll_segs": [
+   [
+    0.1,
+    1.71
+   ],
+   [
+    2.67,
+    5.85
+   ]
+  ],
+  "cozy_slow": 1.4
  },
  {
   "set": "set32",
@@ -554,7 +595,18 @@
   "outfit": "a navy hooded college sweatshirt and grey long sweatpants",
   "kling_job": "a97d4018-57d2-4004-b411-70db35b03d69",
   "status": "ok",
-  "note": "camere reale din reel-urile FB (2 nov), cu brad"
+  "note": "camere reale din reel-urile FB (2 nov), cu brad",
+  "broll_segs": [
+   [
+    0.1,
+    1.71
+   ],
+   [
+    2.54,
+    5.6
+   ]
+  ],
+  "cozy_slow": 1.4
  },
  {
   "set": "set34",
@@ -590,7 +642,18 @@
   "outfit": "a white long-sleeve tee and navy star-print long pajama pants",
   "kling_job": "8d88cf3b-d03c-400a-97f4-3739c7e78380",
   "status": "ok",
-  "note": "camere reale din reel-urile FB (2 nov), cu brad"
+  "note": "camere reale din reel-urile FB (2 nov), cu brad",
+  "broll_segs": [
+   [
+    0.1,
+    1.75
+   ],
+   [
+    2.54,
+    5.85
+   ]
+  ],
+  "cozy_slow": 1.4
  },
  {
   "set": "set37",
@@ -602,6 +665,16 @@
   "outfit": "a navy-and-red striped rugby sweater and light-grey long joggers",
   "kling_job": "19613fb5-4628-4d35-8788-8d9a7a1a7662",
   "status": "ok",
-  "note": "camere reale din reel-urile FB (2 nov), cu brad"
+  "note": "camere reale din reel-urile FB (2 nov), cu brad",
+  "broll_segs": [
+   [
+    0.1,
+    1.75
+   ],
+   [
+    2.0,
+    5.71
+   ]
+  ]
  }
 ]

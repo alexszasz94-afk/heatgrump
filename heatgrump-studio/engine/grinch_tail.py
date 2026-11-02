@@ -18,6 +18,10 @@ else:
     c = tools.cuts(src); cozy = [x for x in c if x > 3.0][0]
     segs = [(src, 0.10, round(cozy - 0.12, 2))]
     tailcozy = (src, round(cozy + 0.12, 2), 5.9)
+# Szasz 2 nov: corecții de montaj pe set (broll_segs = bucățile din broll-cut.mp4 până la cozy: taie scene în plus / spate prea lung / stat prea mult în picioare)
+if sets[name].get("broll_segs"):
+    segs = [(segs[0][0], a, b) for a, b in sets[name]["broll_segs"]]
+nb = len(segs)
 fx = os.path.join(ROOT, "products/grinch/fixed")
 segs += [(os.path.join(fx, "connector-sofa-close-1.mp4"), 0.05, 1.70), (os.path.join(fx, "remote-sofa-close-1.mp4"), 0.3, 3.0), tailcozy]
 F = "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,setsar=1,format=yuv420p"
@@ -30,12 +34,12 @@ args, fl = [], []
 for i, (f, a, b) in enumerate(segs):
     args += ["-ss", str(a), "-to", str(b), "-i", f]
     d_ = b - a
-    if i in (1, 2):   # conector, telecomanda: zoom-in lin, ease-out
+    if i in (nb, nb + 1):   # conector, telecomanda: zoom-in lin, ease-out
         z = f"(1+{ZOOM_FIXED}*(1-pow(1-t/{d_:.3f},2)))"
         pre = f"fps=30,scale=w='2*trunc(540*{z})':h='2*trunc(960*{z})':eval=frame:flags=lanczos,crop=1080:1920,"
-    elif i == 3:      # cozy: mai aproape (v5: ea e culcata in dreapta cadrului -> crop spre dreapta)
+    elif i == nb + 2:      # cozy: mai aproape (v5: ea e culcata in dreapta cadrului -> crop spre dreapta)
         x0, y0 = COZY_X0Y0[var]
-        pre = f"crop=iw/{COZY_CLOSE}:ih/{COZY_CLOSE}:iw*{x0:.4f}:ih*{y0:.4f},scale=1080:1920:flags=lanczos,unsharp=5:5:0.6,"
+        pre = (f"setpts={sets[name]['cozy_slow']}*PTS," if sets[name].get("cozy_slow") else "") + f"crop=iw/{COZY_CLOSE}:ih/{COZY_CLOSE}:iw*{x0:.4f}:ih*{y0:.4f},scale=1080:1920:flags=lanczos,unsharp=5:5:0.6,"
     else:
         pre = ""
     fl.append(f"[{i}:v]{pre}{F}[v{i}]")
