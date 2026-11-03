@@ -1,0 +1,71 @@
+[
+ {
+  "index": 31,
+  "params": {
+   "model": "seedance_2_5",
+   "mode": "video_edit",
+   "resolution": "1080p",
+   "bitrate_mode": "high",
+   "generate_audio": false,
+   "aspect_ratio": "9:16",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "prompt": "Edit the input video. Copy it ONE TO ONE: the same top-down shots, the same framing, the same camera moves, the same hand movements and the same timing second by second; the output has exactly the same length as the input video. TIMING, identical to the input: 0 to 1.3 s - top-down view, a hand drops and lays the HEAT GRUMP package (the shiny red bag with the green grumpy face and the HEAT GRUMP logo) on the surface; 1.3 to 4.9 s - her hands roll a pink lint roller over the bag and cut it open along the edge with a small cutter; 4.9 to 7.0 s - her hands tear the bag open and pull it apart, the folded red-and-green robe with its green grumpy-face hood and white sherpa trim comes out; 7.0 to 7.7 s - she lifts the robe out of the bag towards the camera. Every action at exactly the same speed and second as the input, never faster. Change ONLY two things. BACKGROUND: the surface under the bag (the plaid blanket and the teddy-bear fleece of the input video) becomes a red-and-green tartan flannel blanket on a bed, with a chunky cream knit pillow, a few pinecones and warm fairy lights scattered around; a cozy, real Christmas look, nothing from the background of the input video remains. HANDS: the hands and arms are the hands of the woman of Image 1 (same skin tone, natural short nails). KEEP the HEAT GRUMP bag, its print and logo, the lint roller, the cutter and the robe exactly as in the input video - they are our real product, do not change them. Keep the exact look, light and camera feel of the input video: a real unedited iPhone video, soft natural light, true colours. Natural real movements with real weight, no morphing, no flicker, correct hands with five fingers. NO OVERLAY TEXT: the white caption text 'Babe you don't need that...' and 'Me:' with their emoji are an overlay, not part of the scene - remove them completely; no captions, no subtitles, no watermark. The only lettering is the HEAT GRUMP logo printed on the bag.",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "d12e8196-38aa-4e18-b33b-ad7b3ea16e52"
+    },
+    {
+     "role": "image_references",
+     "value": "fa860dd8-02d8-44df-8b3f-919e0f6593d7"
+    }
+   ]
+  }
+ },
+ {
+  "index": 28,
+  "params": {
+   "model": "seedance_2_5",
+   "mode": "video_edit",
+   "resolution": "1080p",
+   "bitrate_mode": "high",
+   "generate_audio": false,
+   "aspect_ratio": "9:16",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "prompt": "Edit the input video. Copy it ONE TO ONE: the same top-down shots, the same framing, the same camera moves, the same hand movements and the same timing second by second; the output has exactly the same length as the input video. TIMING, identical to the input: 0 to 1.3 s - top-down view, a hand drops and lays the HEAT GRUMP package (the shiny red bag with the green grumpy face and the HEAT GRUMP logo) on the surface; 1.3 to 4.9 s - her hands roll a pink lint roller over the bag and cut it open along the edge with a small cutter; 4.9 to 7.0 s - her hands tear the bag open and pull it apart, the folded red-and-green robe with its green grumpy-face hood and white sherpa trim comes out; 7.0 to 7.7 s - she lifts the robe out of the bag towards the camera. Every action at exactly the same speed and second as the input, never faster. Change ONLY two things. BACKGROUND: the surface under the bag (the plaid blanket and the teddy-bear fleece of the input video) becomes a soft white faux-fur rug with shiny red and silver Christmas ornaments, a few candy canes and warm white fairy lights scattered around; a cozy, real Christmas look, nothing from the background of the input video remains. HANDS: the hands and arms are the hands of the woman of Image 1 (same skin tone, natural short nails). KEEP the HEAT GRUMP bag, its print and logo, the lint roller, the cutter and the robe exactly as in the input video - they are our real product, do not change them. Keep the exact look, light and camera feel of the input video: a real unedited iPhone video, soft natural light, true colours. Natural real movements with real weight, no morphing, no flicker, correct hands with five fingers. NO OVERLAY TEXT: the white caption text 'Babe you don't need that...' and 'Me:' with their emoji are an overlay, not part of the scene - remove them completely; no captions, no subtitles, no watermark. The only lettering is the HEAT GRUMP logo printed on the bag.",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "d12e8196-38aa-4e18-b33b-ad7b3ea16e52"
+    },
+    {
+     "role": "image_references",
+     "value": "8cb48b1b-8f47-4c6a-8cd0-527645d51353"
+    }
+   ]
+  }
+ },
+ {
+  "index": 29,
+  "params": {
+   "model": "seedance_2_5",
+   "mode": "video_edit",
+   "resolution": "1080p",
+   "bitrate_mode": "high",
+   "generate_audio": false,
+   "aspect_ratio": "9:16",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "prompt": "Edit the input video. Copy it ONE TO ONE: the same top-down shots, the same framing, the same camera moves, the same hand movements and the same timing second by second; the output has exactly the same length as the input video. TIMING, identical to the input: 0 to 1.3 s - top-down view, a hand drops and lays the HEAT GRUMP package (the shiny red bag with the green grumpy face and the HEAT GRUMP logo) on the surface; 1.3 to 4.9 s - her hands roll a pink lint roller over the bag and cut it open along the edge with a small cutter; 4.9 to 7.0 s - her hands tear the bag open and pull it apart, the folded red-and-green robe with its green grumpy-face hood and white sherpa trim comes out; 7.0 to 7.7 s - she lifts the robe out of the bag towards the camera. Every action at exactly the same speed and second as the input, never faster. Change ONLY two things. BACKGROUND: the surface under the bag (the plaid blanket and the teddy-bear fleece of the input video) becomes a deep green velvet throw with warm gold string lights, a few sprigs of pine, cinnamon sticks and a red ribbon around; a cozy, real Christmas look, nothing from the background of the input video remains. HANDS: the hands and arms are the hands of the woman of Image 1 (same skin tone, natural short nails). KEEP the HEAT GRUMP bag, its print and logo, the lint roller, the cutter and the robe exactly as in the input video - they are our real product, do not change them. Keep the exact look, light and camera feel of the input video: a real unedited iPhone video, soft natural light, true colours. Natural real movements with real weight, no morphing, no flicker, correct hands with five fingers. NO OVERLAY TEXT: the white caption text 'Babe you don't need that...' and 'Me:' with their emoji are an overlay, not part of the scene - remove them completely; no captions, no subtitles, no watermark. The only lettering is the HEAT GRUMP logo printed on the bag.",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "d12e8196-38aa-4e18-b33b-ad7b3ea16e52"
+    },
+    {
+     "role": "image_references",
+     "value": "f570d377-27ef-416f-88d6-446c50e1a8c0"
+    }
+   ]
+  }
+ }
+]

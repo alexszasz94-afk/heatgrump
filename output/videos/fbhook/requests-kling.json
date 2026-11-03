@@ -1,0 +1,68 @@
+[
+ {
+  "index": 31,
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "duration": 8,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "prompt": "Copy the input video ONE TO ONE: the same top-down shots, the same framing, the same camera moves, the same hand movements and the same timing second by second; the output has exactly the same length as the input video. TIMING, identical to the input: 0 to 1.3 s - a hand lays the shiny red HEAT GRUMP bag on the surface; 1.3 to 4.9 s - her hands roll a pink lint roller over the bag and cut it open along the edge with a small cutter; 4.9 to 7.0 s - her hands tear the bag open and pull it apart and our folded robe comes out; 7.0 to 7.7 s - she lifts the robe towards the camera; after that the last frame stays still. Every action at exactly the same speed and second as the input, never faster. Change ONLY two things. BACKGROUND: the surface under the bag (the plaid blanket and the teddy fleece of the input video) becomes a red-and-green tartan flannel blanket on a bed, with a chunky cream knit pillow, a few pinecones and warm fairy lights scattered around; a cozy, real Christmas look, nothing from the background of the input video remains. HANDS: the hands and arms are the hands of the woman of Image 1 (same skin tone, natural short nails). KEEP the HEAT GRUMP bag with its print and logo, the lint roller, the cutter and the robe EXACTLY as in the input video - our real product, do not change them. Keep the exact look and light of the input video. NO OVERLAY TEXT: the white caption text 'Babe you don't need that...' and 'Me:' with their emoji are an overlay, not part of the scene - remove them completely; no captions, no subtitles, no watermark. The only lettering in the video is the HEAT GRUMP logo printed on the bag. Silent.",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "5b50e120-3760-449d-9210-7456e302df89"
+    },
+    {
+     "role": "image_references",
+     "value": "fa860dd8-02d8-44df-8b3f-919e0f6593d7"
+    }
+   ]
+  }
+ },
+ {
+  "index": 28,
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "duration": 8,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "prompt": "Copy the input video ONE TO ONE: the same top-down shots, the same framing, the same camera moves, the same hand movements and the same timing second by second; the output has exactly the same length as the input video. TIMING, identical to the input: 0 to 1.3 s - a hand lays the shiny red HEAT GRUMP bag on the surface; 1.3 to 4.9 s - her hands roll a pink lint roller over the bag and cut it open along the edge with a small cutter; 4.9 to 7.0 s - her hands tear the bag open and pull it apart and our folded robe comes out; 7.0 to 7.7 s - she lifts the robe towards the camera; after that the last frame stays still. Every action at exactly the same speed and second as the input, never faster. Change ONLY two things. BACKGROUND: the surface under the bag (the plaid blanket and the teddy fleece of the input video) becomes a soft white faux-fur rug with shiny red and silver Christmas ornaments, a few candy canes and warm white fairy lights scattered around; a cozy, real Christmas look, nothing from the background of the input video remains. HANDS: the hands and arms are the hands of the woman of Image 1 (same skin tone, natural short nails). KEEP the HEAT GRUMP bag with its print and logo, the lint roller, the cutter and the robe EXACTLY as in the input video - our real product, do not change them. Keep the exact look and light of the input video. NO OVERLAY TEXT: the white caption text 'Babe you don't need that...' and 'Me:' with their emoji are an overlay, not part of the scene - remove them completely; no captions, no subtitles, no watermark. The only lettering in the video is the HEAT GRUMP logo printed on the bag. Silent.",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "5b50e120-3760-449d-9210-7456e302df89"
+    },
+    {
+     "role": "image_references",
+     "value": "8cb48b1b-8f47-4c6a-8cd0-527645d51353"
+    }
+   ]
+  }
+ },
+ {
+  "index": 29,
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "duration": 8,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "prompt": "Copy the input video ONE TO ONE: the same top-down shots, the same framing, the same camera moves, the same hand movements and the same timing second by second; the output has exactly the same length as the input video. TIMING, identical to the input: 0 to 1.3 s - a hand lays the shiny red HEAT GRUMP bag on the surface; 1.3 to 4.9 s - her hands roll a pink lint roller over the bag and cut it open along the edge with a small cutter; 4.9 to 7.0 s - her hands tear the bag open and pull it apart and our folded robe comes out; 7.0 to 7.7 s - she lifts the robe towards the camera; after that the last frame stays still. Every action at exactly the same speed and second as the input, never faster. Change ONLY two things. BACKGROUND: the surface under the bag (the plaid blanket and the teddy fleece of the input video) becomes a deep green velvet throw with warm gold string lights, a few sprigs of pine, cinnamon sticks and a red ribbon around; a cozy, real Christmas look, nothing from the background of the input video remains. HANDS: the hands and arms are the hands of the woman of Image 1 (same skin tone, natural short nails). KEEP the HEAT GRUMP bag with its print and logo, the lint roller, the cutter and the robe EXACTLY as in the input video - our real product, do not change them. Keep the exact look and light of the input video. NO OVERLAY TEXT: the white caption text 'Babe you don't need that...' and 'Me:' with their emoji are an overlay, not part of the scene - remove them completely; no captions, no subtitles, no watermark. The only lettering in the video is the HEAT GRUMP logo printed on the bag. Silent.",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "5b50e120-3760-449d-9210-7456e302df89"
+    },
+    {
+     "role": "image_references",
+     "value": "f570d377-27ef-416f-88d6-446c50e1a8c0"
+    }
+   ]
+  }
+ }
+]

@@ -26,10 +26,11 @@ fx = os.path.join(ROOT, "products/grinch/fixed")
 segs += [(os.path.join(fx, "connector-sofa-close-1.mp4"), 0.05, 1.70), (os.path.join(fx, "remote-sofa-close-1.mp4"), 0.3, 3.0), tailcozy]
 F = "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,setsar=1,format=yuv420p"
 ZOOM_FIXED = 0.06   # Szasz 1 Nov: conector + telecomanda = zoom-in usor, lin (6% pe toata bucata)
+BROLL_ZOOM = 1.25   # Szasz 3 nov: textul sta ca in referinte (y ~0.165) -> B-roll-ul (spate + saculeti) cu zoom 1.25 ancorat SUS, ca fata ei sa coboare sub text; saculetii raman in cadru
 COZY_CLOSE = 1.60   # Szasz 1 Nov (2): cozy MEREU zoom-in, fata ei SUB textul de sus (textul ii acoperea fata)
 # coltul de sus-stanga al decupajului (fractii din cadru): v4 = sta pe canapea in mijloc, gluga la ~0.18-0.20 din inaltime;
 # v5 = culcata in dreapta, fata la ~0.85 / 0.45. Gluga ajunge la ~0.26+ din inaltime, sub text (textul se termina la ~0.22).
-COZY_X0Y0 = {"v4": (0.43 - 0.5 / COZY_CLOSE, 0.02), "v5": (1 - 1 / COZY_CLOSE, 0.17)}
+COZY_X0Y0 = {"v4": (0.43 - 0.5 / COZY_CLOSE, 0.0), "v5": (1 - 1 / COZY_CLOSE, 0.17)}
 args, fl = [], []
 for i, (f, a, b) in enumerate(segs):
     args += ["-ss", str(a), "-to", str(b), "-i", f]
@@ -41,7 +42,7 @@ for i, (f, a, b) in enumerate(segs):
         x0, y0 = COZY_X0Y0[var]
         pre = (f"setpts={sets[name]['cozy_slow']}*PTS," if sets[name].get("cozy_slow") else "") + f"crop=iw/{COZY_CLOSE}:ih/{COZY_CLOSE}:iw*{x0:.4f}:ih*{y0:.4f},scale=1080:1920:flags=lanczos,unsharp=5:5:0.6,"
     else:
-        pre = ""
+        pre = f"crop=iw/{BROLL_ZOOM}:ih/{BROLL_ZOOM}:(iw-iw/{BROLL_ZOOM})/2:0,scale=1080:1920:flags=lanczos," if BROLL_ZOOM != 1 else ""
     fl.append(f"[{i}:v]{pre}{F}[v{i}]")
 fl.append("".join(f"[v{i}]" for i in range(len(segs))) + f"concat=n={len(segs)}:v=1:a=0[v]")
 subprocess.check_call(["ffmpeg", "-v", "error", "-y", *args, "-filter_complex", ";".join(fl), "-map", "[v]", "-an", "-c:v", "libx264", "-crf", "17", "-preset", "medium", os.path.join(d, "tail.mp4")])
