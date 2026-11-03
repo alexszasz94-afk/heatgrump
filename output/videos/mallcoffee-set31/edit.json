@@ -1,0 +1,32 @@
+{
+ "out": "/home/user/heatgrump/output/videos/mallcoffee-set31/mallcoffee-set31-FINAL.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/videos/mallcoffee/raw-set31.mp4",
+   "start": 0,
+   "end": 4.28,
+   "audio": true
+  },
+  {
+   "file": "/home/user/heatgrump/output/broll-grinch/set31/tail.mp4",
+   "start": 0,
+   "end": 10.28
+  }
+ ],
+ "texts": [
+  {
+   "segs": [
+    0,
+    -1
+   ],
+   "size": 80,
+   "y": 0.05,
+   "text": "Christmas lovers, this is\nfor you! 🥰🎄"
+  }
+ ],
+ "music": "music/xmas/wham-last-christmas.mp3",
+ "music_start": 0.0,
+ "music_duck": 4.28,
+ "music_hook_vol": 0.7
+}

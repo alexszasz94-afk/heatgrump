@@ -1,0 +1,32 @@
+{
+ "out": "/home/user/heatgrump/output/videos/hmstore-set27/hmstore-set27-FINAL.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/videos/hmstore/raw-set27.mp4",
+   "start": 0,
+   "end": 4.45,
+   "audio": true
+  },
+  {
+   "file": "/home/user/heatgrump/output/broll-grinch/set27/tail.mp4",
+   "start": 0,
+   "end": 11.71
+  }
+ ],
+ "texts": [
+  {
+   "segs": [
+    0,
+    -1
+   ],
+   "size": 80,
+   "y": 0.05,
+   "text": "Christmas-holics this is for YOU..🎄🎅"
+  }
+ ],
+ "music": "music/xmas/mariah-all-i-want.mp3",
+ "music_start": 48.95,
+ "music_duck": 4.45,
+ "music_hook_vol": 0.25
+}

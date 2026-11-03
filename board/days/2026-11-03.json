@@ -1,0 +1,119 @@
+{
+ "day": "2026-11-03",
+ "accounts": {
+  "a": [
+   {
+    "type": "hmstore",
+    "dir": "hmstore-set26",
+    "set": "set26",
+    "time": "07:40",
+    "caption": "3, 2, 1… the Grinch drop is HERE 🤩🎄\nType \"GRINCH\" if you want this 💚\n#christmas2026 #hoodedblanket #christmasvibes #heatedrobe #cozyseason #giftguide",
+    "text": "H&M X GRINCH\n🤩🎄",
+    "file": "output/videos/hmstore-set26/hmstore-set26-FINAL.mp4"
+   },
+   {
+    "type": "unroll",
+    "dir": "unroll-set32",
+    "set": "set32",
+    "time": "09:10",
+    "caption": "Mom is getting one too 😳❄️\nDrop a \"GRINCH\" below if you want one 💚\n#grinchlover #cozy #hoodedblanket #holidaygifts #christmas #christmasmorning",
+    "text": "DONT show this to\nyour mom...😳❄️",
+    "file": "output/videos/unroll-set32/unroll-set32-FINAL.mp4"
+   },
+   {
+    "type": "rollcake",
+    "dir": "rollcake-set35",
+    "set": "set35",
+    "time": "10:40",
+    "caption": "Freshly baked Grinch robe, anyone? 🎂💚\nType \"GRINCH\" if you want this 💚\n#grinch #christmas #christmasshopping #hoodedblanket #wintervibes #cozy",
+    "text": "Christmas aholics this\none's for you.. 😭❄️🎅",
+    "file": "output/videos/rollcake-set35/rollcake-set35-FINAL.mp4"
+   },
+   {
+    "type": "mallcoffee",
+    "dir": "mallcoffee-set29",
+    "set": "set29",
+    "time": "12:10",
+    "caption": "Saw the window and lost it 😭🎄\nDrop a \"GRINCH\" below if you want one 💚\n#xmasgifts #wearableblanket #grinchy #cozyathome #grinchmas #christmasshopping",
+    "text": "Christmas lovers, this is\nfor you! 🥰🎄",
+    "file": "output/videos/mallcoffee-set29/mallcoffee-set29-FINAL.mp4"
+   }
+  ],
+  "b": [
+   {
+    "type": "rollcake",
+    "dir": "rollcake-set27",
+    "set": "set27",
+    "time": "08:00",
+    "caption": "Best thing I made all season 😂❄️\nComment \"GRINCH\" and I'll send you the link 🎄\n#holidayseason #christmasvibes #giftsformom #grinchy #cozyhome #giftsforher",
+    "text": "Christmas aholics this\none's for you.. 😭❄️🎅",
+    "file": "output/videos/rollcake-set27/rollcake-set27-FINAL.mp4"
+   },
+   {
+    "type": "unroll",
+    "dir": "unroll-set33",
+    "set": "set33",
+    "time": "09:30",
+    "caption": "Unrolling my new favorite thing 🥹💚\nType \"GRINCH\" for the link 🎁\n#holidayseason #hoodedblanket #wearableblanket #giftsforher #grinchmas #merrychristmas",
+    "text": "Imagine this on the\nfirst snow day.. 😌❄️☃️",
+    "file": "output/videos/unroll-set33/unroll-set33-FINAL.mp4"
+   },
+   {
+    "type": "mallcoffee",
+    "dir": "mallcoffee-set30",
+    "set": "set30",
+    "time": "11:00",
+    "caption": "Saw the window and lost it 😭🎄\nComment \"GRINCH\" and I'll send you the link 🎄\n#wintervibes #giftsforher #holidayseason #wearableblanket #christmasvibes #stockingstuffer",
+    "text": "DONT Show this to a\nGRINCH LOVER...💚🎄",
+    "file": "output/videos/mallcoffee-set30/mallcoffee-set30-FINAL.mp4"
+   },
+   {
+    "type": "hmstore",
+    "dir": "hmstore-set27",
+    "set": "set27",
+    "time": "12:30",
+    "caption": "3, 2, 1… the Grinch drop is HERE 🤩🎄\nType \"GRINCH\" for the link 🎁\n#christmas #holidayseason #stockingstuffer #grinchy #xmasgifts #momlife",
+    "text": "Christmas-holics this is for YOU..🎄🎅",
+    "file": "output/videos/hmstore-set27/hmstore-set27-FINAL.mp4"
+   }
+  ],
+  "c": [
+   {
+    "type": "rollcake",
+    "dir": "rollcake-set30",
+    "set": "set30",
+    "time": "08:20",
+    "caption": "Freshly baked Grinch robe, anyone? 🎂💚\nType \"GRINCH\" if you need this 😏\n#cozyathome #christmas2026 #grinch #holidayseason #christmasshopping #christmas",
+    "text": "I made this for the\ncold-aholics.. 🤩💚",
+    "file": "output/videos/rollcake-set30/rollcake-set30-FINAL.mp4"
+   },
+   {
+    "type": "mallcoffee",
+    "dir": "mallcoffee-set31",
+    "set": "set31",
+    "time": "09:50",
+    "caption": "Saw the window and lost it 😭🎄\nComment \"GRINCH\" if this is so you 🤭\n#christmasmorning #grinchy #wintervibes #cozyseason #cozy #holidayseason",
+    "text": "Christmas lovers, this is\nfor you! 🥰🎄",
+    "file": "output/videos/mallcoffee-set31/mallcoffee-set31-FINAL.mp4"
+   },
+   {
+    "type": "hmstore",
+    "dir": "hmstore-set28",
+    "set": "set28",
+    "time": "11:20",
+    "caption": "3, 2, 1… the Grinch drop is HERE 🤩🎄\nType \"GRINCH\" if you need this 😏\n#christmasvibes #cozy #grinch #christmasshopping #christmasmorning #cozyhome",
+    "text": "H&M X GRINCH\n🤩🎄",
+    "file": "output/videos/hmstore-set28/hmstore-set28-FINAL.mp4"
+   },
+   {
+    "type": "unroll",
+    "dir": "unroll-set34",
+    "set": "set34",
+    "time": "12:50",
+    "caption": "Mom is getting one too 😳❄️\nComment \"GRINCH\" if this is so you 🤭\n#stockingstuffer #christmasgift #christmas2026 #cozy #holidayseason #wintervibes",
+    "text": "Grinch girlies, pls\ndon't hate... 🥺💚",
+    "file": "output/videos/unroll-set34/unroll-set34-FINAL.mp4"
+   }
+  ]
+ }
+}

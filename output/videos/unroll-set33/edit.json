@@ -1,0 +1,31 @@
+{
+ "out": "/home/user/heatgrump/output/videos/unroll-set33/unroll-set33-FINAL.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/videos/unroll/raw-set33.mp4",
+   "start": 0,
+   "end": 4.0,
+   "audio": false
+  },
+  {
+   "file": "/home/user/heatgrump/output/broll-grinch/set33/tail.mp4",
+   "start": 0,
+   "end": 10.48
+  }
+ ],
+ "texts": [
+  {
+   "segs": [
+    0,
+    -1
+   ],
+   "size": 80,
+   "y": 0.05,
+   "text": "Imagine this on the\nfirst snow day.. 😌❄️☃️"
+  }
+ ],
+ "music": "/home/user/heatgrump/output/videos/unroll/ref/music-ref-pad.m4a",
+ "music_start": 0,
+ "music_vol": 1.0
+}

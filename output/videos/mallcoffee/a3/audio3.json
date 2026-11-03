@@ -1,0 +1,169 @@
+{
+ "file": "../output/videos/mallcoffee/ref/hook-part.mp4",
+ "hook_end": 4.28,
+ "higgsfield_line": "",
+ "no_voice": false,
+ "part1_voice": {
+  "who": "high voice (woman/child)",
+  "phrases": [
+   {
+    "text": "Whoa, someone to rely on me, I guess",
+    "start": 0.11,
+    "end": 4.27,
+    "words_per_s": 1.9
+   }
+  ],
+  "words": [
+   {
+    "word": "Whoa,",
+    "start": 0.11,
+    "end": 0.71,
+    "len": 0.6,
+    "peak_db": -5.3,
+    "pitch_hz": 316,
+    "tone": "stretched"
+   },
+   {
+    "word": "someone",
+    "start": 0.73,
+    "end": 0.99,
+    "len": 0.26,
+    "peak_db": -7.5,
+    "pitch_hz": 353,
+    "tone": "normal"
+   },
+   {
+    "word": "to",
+    "start": 1.01,
+    "end": 1.49,
+    "len": 0.48,
+    "peak_db": -6.9,
+    "pitch_hz": 352,
+    "tone": "stretched"
+   },
+   {
+    "word": "rely",
+    "start": 1.51,
+    "end": 2.02,
+    "len": 0.51,
+    "peak_db": -8.4,
+    "pitch_hz": 279,
+    "tone": "stretched"
+   },
+   {
+    "word": "on",
+    "start": 2.05,
+    "end": 2.79,
+    "len": 0.74,
+    "peak_db": -8.1,
+    "pitch_hz": 304,
+    "tone": "stretched"
+   },
+   {
+    "word": "me,",
+    "start": 2.81,
+    "end": 3.74,
+    "len": 0.93,
+    "peak_db": -4.3,
+    "pitch_hz": 349,
+    "tone": "stretched"
+   },
+   {
+    "word": "I",
+    "start": 3.76,
+    "end": 4.16,
+    "len": 0.4,
+    "peak_db": -10.3,
+    "pitch_hz": null,
+    "tone": "normal"
+   },
+   {
+    "word": "guess",
+    "start": 4.18,
+    "end": 4.27,
+    "len": 0.09,
+    "peak_db": -17.6,
+    "pitch_hz": null,
+    "tone": "softer"
+   }
+  ]
+ },
+ "part2_action_sounds": [
+  {
+   "start": 1.0,
+   "peak": 1.03,
+   "end": 1.26,
+   "peak_db": -22.4,
+   "centroid_hz": 933,
+   "kind": "mid tap/knock/paper",
+   "during_speech": true,
+   "matches_movement": true
+  },
+  {
+   "start": 1.57,
+   "peak": 1.6,
+   "end": 1.68,
+   "peak_db": -19.6,
+   "centroid_hz": 620,
+   "kind": "low thump/step",
+   "during_speech": true,
+   "matches_movement": false
+  },
+  {
+   "start": 2.13,
+   "peak": 2.21,
+   "end": 2.26,
+   "peak_db": -22.3,
+   "centroid_hz": 615,
+   "kind": "low thump/step",
+   "during_speech": true,
+   "matches_movement": false
+  },
+  {
+   "start": 2.41,
+   "peak": 2.44,
+   "end": 2.57,
+   "peak_db": -20.3,
+   "centroid_hz": 830,
+   "kind": "mid tap/knock/paper",
+   "during_speech": true,
+   "matches_movement": false
+  },
+  {
+   "start": 2.96,
+   "peak": 3.45,
+   "end": 3.71,
+   "peak_db": -17.9,
+   "centroid_hz": 582,
+   "kind": "low thump/step",
+   "during_speech": true,
+   "matches_movement": false
+  },
+  {
+   "start": 4.02,
+   "peak": 4.08,
+   "end": 4.27,
+   "peak_db": -18.8,
+   "centroid_hz": 852,
+   "kind": "mid tap/knock/paper",
+   "during_speech": true,
+   "matches_movement": false
+  }
+ ],
+ "part2_picture_movements": [
+  {
+   "start": 0.9,
+   "end": 1.03,
+   "peak": 0.9,
+   "strength": 37.6,
+   "type": "movement"
+  }
+ ],
+ "part3_background": [
+  {
+   "t": "0.0-4.3",
+   "kind": "sound",
+   "level_db": -9.1
+  }
+ ]
+}

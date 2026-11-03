@@ -9,7 +9,12 @@ CAP={
  "tray123":["1, 2, 3… and I'm never taking it off 💚","The unwrapping I've been waiting for all year 🎁"],
  "mallwindow":["I literally fell for it 😭💚","Saw it in the window and that was it 🫠🎄"],
  "mallrun":["The line was worth it 🏃‍♀️💚","Ran across the whole mall for this 😮‍💨🎄"],
- "twofriends":["Matching with my bestie this Christmas 💚💚","Bestie gift solved 🎁🎄"]}
+ "twofriends":["Matching with my bestie this Christmas 💚💚","Bestie gift solved 🎁🎄"],
+ "hmstore":["3, 2, 1… the Grinch drop is HERE 🤩🎄","They finally pulled the cover off 😭💚"],
+ "mallcoffee":["Dropped my coffee for this and no regrets ☕💚","Saw the window and lost it 😭🎄"],
+ "unroll":["Unrolling my new favorite thing 🥹💚","Mom is getting one too 😳❄️"],
+ "rollcake":["Freshly baked Grinch robe, anyone? 🎂💚","Best thing I made all season 😂❄️"],
+ "fbhook":["Christmas mode: ON 💚🎄","This is your sign to get cozy 🎄"]}
 TAGS={"a":"#grinch #christmas #cozy #giftideas #heatedrobe","b":"#grinchmas #christmasgift #momlife #cozyvibes #wintervibes","c":"#grinchy #holidaygifts #cozyseason #giftsforher #christmas2026"}
 CTA=['Type "GRINCH" if you want this 💚','Comment "GRINCH" and I\'ll send you the link 🎄','Type "GRINCH" if you need this 😏','Drop a "GRINCH" below if you want one 💚','Type "GRINCH" for the link 🎁','Comment "GRINCH" if this is so you 🤭']
 POOL=["#grinch","#christmas","#cozy","#giftideas","#heatedrobe","#grinchmas","#christmasgift","#momlife","#cozyvibes","#wintervibes","#grinchy","#holidaygifts","#cozyseason","#giftsforher","#christmas2026","#wearableblanket","#christmasvibes","#giftsformom","#hoodedblanket","#christmasmorning","#cozyhome","#holidayseason","#stockingstuffer","#christmasshopping","#grinchlover","#xmasgifts","#cozyathome","#winterfashion","#giftguide","#merrychristmas"]

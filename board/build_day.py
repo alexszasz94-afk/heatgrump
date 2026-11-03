@@ -4,7 +4,7 @@ R=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 day,out=sys.argv[1],sys.argv[2]; os.makedirs(f"{out}/thumbs",exist_ok=True)
 D=json.load(open(f"{R}/board/days/{day}.json"))
 RAW="https://github.com/alexszasz94-afk/heatgrump/raw/heatgrump-studio/"
-NAMES={"storemug":"Magazin – cana","grinchmom":"Grinch mom","nogift":"No gift is perfect","tray123":"Tava 1-2-3","mallwindow":"Vitrina mall","mallrun":"Mall run","twofriends":"Două prietene"}
+NAMES={"storemug":"Magazin – cana","grinchmom":"Grinch mom","nogift":"No gift is perfect","tray123":"Tava 1-2-3","mallwindow":"Vitrina mall","mallrun":"Mall run","twofriends":"Două prietene","hmstore":"H&M dezvelire","mallcoffee":"Mall cafea + vitrină","unroll":"Rulou desfăcut","rollcake":"Rulou cu tava","fbhook":"Hook Facebook"}
 ACC={"a":"Cont 1","b":"Cont 2","c":"Cont 3"}
 cols=[]
 for k,lst in D["accounts"].items():

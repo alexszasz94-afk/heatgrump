@@ -1,0 +1,194 @@
+[
+ {
+  "index": 26,
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "duration": 5,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "prompt": "Copy the input video ONE TO ONE: the same clothing store, the same framing, the same static camera, the same body movements and the same timing second by second; the output has exactly the same length as the input video. TIMING, identical to the input: 0 to 3.5 s - two store employees in black polo shirts stand behind a long table and hold the top corners of a big red satin cloth that covers the table, counting down; 3.6 to 4.1 s - they pull the red cloth down and towards themselves in one swift motion, uncovering the table; 4.1 to 4.45 s - the cloth drops away and the table is fully visible; after that the last frame stays still. Every action at exactly the same speed and second as the input, never faster. Change ONLY: PERSON - the woman on the right is exactly the woman of Image 1 (same face and hair, hair tied back), in the same black staff polo; the man on the left is a completely different person from the input video (short light-brown hair and a short beard, fair skin), also in a black polo. PRODUCT - under the cloth, instead of the products of the input video, the table holds a long neat row of our folded heated robes standing side by side, each folded robe showing on top its red Santa-hat hood with the green grumpy-face front panel and the white pompom, red plush body, white sherpa trim and bright lime-green fur cuffs, reproduced one to one from Image 2 (the robe) and Image 3 (the hood); copy it, do not design it. LOGIC OF THE SCENE, exactly like the input: the red satin cloth is only a cover and stays a plain red cloth; the robes are hidden until 3.6 s and fully visible on the table at the end. KEEP the store exactly as in the input video, including the H&M sign, logos, clothing racks and posters. Keep the exact look and light of the input video. NO OVERLAY TEXT: the white caption text and the emoji of the input video are removed completely; no captions, no subtitles, no watermark. The only lettering in the video is the store's own H&M sign. SOUND - made by you, with the picture, in three layers. ABSOLUTELY NO MUSIC: no song, no beat, no melody, no instruments, no jingle bells, no humming. VOICE (layer 1): the woman of Image 1, bright excited young female voice, playful countdown, lips in perfect sync. She says ONLY these words, each word starting exactly on its second: \"Three,\" from 0.2 s to 1.07 s (stretched); \"two,\" from 1.09 s to 1.62 s (stretched); \"one.\" from 1.64 s to 2.47 s (stretched); \"Let's\" from 2.49 s to 2.83 s; \"see\" from 2.85 s to 3.09 s; \"how\" from 3.11 s to 3.25 s; \"it\" from 3.27 s to 3.37 s; \"comes\" from 3.39 s to 3.59 s; \"out!\" from 3.61 s to 4.44 s (stretched, happy). After \"out\" nobody says anything else. No other words, no other voice, no narrator, no whisper. ACTION SOUNDS (layer 2), exactly when they happen in the picture: at 3.6-4.1 s a soft whoosh and rustle of the satin cloth as it is pulled off; at 4.2-4.4 s the soft flop of the cloth falling. BACKGROUND (layer 3): from 0 s to the end only the quiet room tone of a big clothing store (soft air conditioning hum, faint distant shoppers), continuous, never silent, never louder than the voice.",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "dcbbca54-a0d6-4713-8eeb-2d0525447866"
+    },
+    {
+     "role": "image_references",
+     "value": "3e58785d-d02a-49f0-9225-df494f69a2a8"
+    },
+    {
+     "role": "image_references",
+     "value": "9029726e-837e-40e3-8cb2-1ac4daf7c177"
+    },
+    {
+     "role": "image_references",
+     "value": "aa6cec63-febe-4b78-8dbc-f8a9d23e3325"
+    }
+   ]
+  }
+ },
+ {
+  "index": 27,
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "duration": 5,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "prompt": "Copy the input video ONE TO ONE: the same clothing store, the same framing, the same static camera, the same body movements and the same timing second by second; the output has exactly the same length as the input video. TIMING, identical to the input: 0 to 3.5 s - two store employees in black polo shirts stand behind a long table and hold the top corners of a big red satin cloth that covers the table, counting down; 3.6 to 4.1 s - they pull the red cloth down and towards themselves in one swift motion, uncovering the table; 4.1 to 4.45 s - the cloth drops away and the table is fully visible; after that the last frame stays still. Every action at exactly the same speed and second as the input, never faster. Change ONLY: PERSON - the woman on the right is exactly the woman of Image 1 (same face and hair, hair tied back), in the same black staff polo; the man on the left is a completely different person from the input video (short blond hair, clean-shaven, fair skin), also in a black polo. PRODUCT - under the cloth, instead of the products of the input video, the table holds a long neat row of our folded heated robes standing side by side, each folded robe showing on top its red Santa-hat hood with the green grumpy-face front panel and the white pompom, red plush body, white sherpa trim and bright lime-green fur cuffs, reproduced one to one from Image 2 (the robe) and Image 3 (the hood); copy it, do not design it. LOGIC OF THE SCENE, exactly like the input: the red satin cloth is only a cover and stays a plain red cloth; the robes are hidden until 3.6 s and fully visible on the table at the end. KEEP the store exactly as in the input video, including the H&M sign, logos, clothing racks and posters. Keep the exact look and light of the input video. NO OVERLAY TEXT: the white caption text and the emoji of the input video are removed completely; no captions, no subtitles, no watermark. The only lettering in the video is the store's own H&M sign. SOUND - made by you, with the picture, in three layers. ABSOLUTELY NO MUSIC: no song, no beat, no melody, no instruments, no jingle bells, no humming. VOICE (layer 1): the woman of Image 1, bright excited young female voice, playful countdown, lips in perfect sync. She says ONLY these words, each word starting exactly on its second: \"Three,\" from 0.2 s to 1.07 s (stretched); \"two,\" from 1.09 s to 1.62 s (stretched); \"one.\" from 1.64 s to 2.47 s (stretched); \"Let's\" from 2.49 s to 2.83 s; \"see\" from 2.85 s to 3.09 s; \"how\" from 3.11 s to 3.25 s; \"it\" from 3.27 s to 3.37 s; \"comes\" from 3.39 s to 3.59 s; \"out!\" from 3.61 s to 4.44 s (stretched, happy). After \"out\" nobody says anything else. No other words, no other voice, no narrator, no whisper. ACTION SOUNDS (layer 2), exactly when they happen in the picture: at 3.6-4.1 s a soft whoosh and rustle of the satin cloth as it is pulled off; at 4.2-4.4 s the soft flop of the cloth falling. BACKGROUND (layer 3): from 0 s to the end only the quiet room tone of a big clothing store (soft air conditioning hum, faint distant shoppers), continuous, never silent, never louder than the voice.",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "dcbbca54-a0d6-4713-8eeb-2d0525447866"
+    },
+    {
+     "role": "image_references",
+     "value": "90f777e7-3570-458c-a380-7ea78c196efc"
+    },
+    {
+     "role": "image_references",
+     "value": "9029726e-837e-40e3-8cb2-1ac4daf7c177"
+    },
+    {
+     "role": "image_references",
+     "value": "aa6cec63-febe-4b78-8dbc-f8a9d23e3325"
+    }
+   ]
+  }
+ },
+ {
+  "index": 28,
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "duration": 5,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "prompt": "Copy the input video ONE TO ONE: the same clothing store, the same framing, the same static camera, the same body movements and the same timing second by second; the output has exactly the same length as the input video. TIMING, identical to the input: 0 to 3.5 s - two store employees in black polo shirts stand behind a long table and hold the top corners of a big red satin cloth that covers the table, counting down; 3.6 to 4.1 s - they pull the red cloth down and towards themselves in one swift motion, uncovering the table; 4.1 to 4.45 s - the cloth drops away and the table is fully visible; after that the last frame stays still. Every action at exactly the same speed and second as the input, never faster. Change ONLY: PERSON - the woman on the right is exactly the woman of Image 1 (same face and hair, hair tied back), in the same black staff polo; the man on the left is a completely different person from the input video (short dark-blond curly hair and glasses, fair skin), also in a black polo. PRODUCT - under the cloth, instead of the products of the input video, the table holds a long neat row of our folded heated robes standing side by side, each folded robe showing on top its red Santa-hat hood with the green grumpy-face front panel and the white pompom, red plush body, white sherpa trim and bright lime-green fur cuffs, reproduced one to one from Image 2 (the robe) and Image 3 (the hood); copy it, do not design it. LOGIC OF THE SCENE, exactly like the input: the red satin cloth is only a cover and stays a plain red cloth; the robes are hidden until 3.6 s and fully visible on the table at the end. KEEP the store exactly as in the input video, including the H&M sign, logos, clothing racks and posters. Keep the exact look and light of the input video. NO OVERLAY TEXT: the white caption text and the emoji of the input video are removed completely; no captions, no subtitles, no watermark. The only lettering in the video is the store's own H&M sign. SOUND - made by you, with the picture, in three layers. ABSOLUTELY NO MUSIC: no song, no beat, no melody, no instruments, no jingle bells, no humming. VOICE (layer 1): the woman of Image 1, bright excited young female voice, playful countdown, lips in perfect sync. She says ONLY these words, each word starting exactly on its second: \"Three,\" from 0.2 s to 1.07 s (stretched); \"two,\" from 1.09 s to 1.62 s (stretched); \"one.\" from 1.64 s to 2.47 s (stretched); \"Let's\" from 2.49 s to 2.83 s; \"see\" from 2.85 s to 3.09 s; \"how\" from 3.11 s to 3.25 s; \"it\" from 3.27 s to 3.37 s; \"comes\" from 3.39 s to 3.59 s; \"out!\" from 3.61 s to 4.44 s (stretched, happy). After \"out\" nobody says anything else. No other words, no other voice, no narrator, no whisper. ACTION SOUNDS (layer 2), exactly when they happen in the picture: at 3.6-4.1 s a soft whoosh and rustle of the satin cloth as it is pulled off; at 4.2-4.4 s the soft flop of the cloth falling. BACKGROUND (layer 3): from 0 s to the end only the quiet room tone of a big clothing store (soft air conditioning hum, faint distant shoppers), continuous, never silent, never louder than the voice.",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "dcbbca54-a0d6-4713-8eeb-2d0525447866"
+    },
+    {
+     "role": "image_references",
+     "value": "8cb48b1b-8f47-4c6a-8cd0-527645d51353"
+    },
+    {
+     "role": "image_references",
+     "value": "9029726e-837e-40e3-8cb2-1ac4daf7c177"
+    },
+    {
+     "role": "image_references",
+     "value": "aa6cec63-febe-4b78-8dbc-f8a9d23e3325"
+    }
+   ]
+  }
+ },
+ {
+  "index": 29,
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "duration": 5,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "prompt": "Copy the input video ONE TO ONE: the same shopping mall, the same framing, the same handheld camera moves, the same body movements and the same timing second by second; the output has exactly the same length as the input video. TIMING, identical to the input: 0 to 0.9 s - in a bright shopping mall she stands next to a store window decorated with pine garlands, holding a clear plastic cup of iced latte in one hand, the other hand at her mouth in shock, staring at the window; 0.9 to 1.3 s - she lets the cup fall, the camera tilts down and follows it hitting the white marble floor, the coffee splashes near her boots; 1.3 to 2.3 s - the camera swings up to the store window while her hand points at it; 2.3 to 4.28 s - the camera holds on the window display; after that the last frame stays still. Every action at exactly the same speed and second as the input, never faster. Change ONLY: PERSON - she is exactly the woman of Image 1 (same face and hair), wearing an open black quilted puffer jacket over a green-and-red Christmas plaid long pajama set with white piping, with tan suede boots. WINDOW DISPLAY - instead of the products of the input video, the window shows a pyramid of our HEAT GRUMP boxes of Image 2 (the red box with the yellow-green HEAT GRUMP logo and a window showing the robe), reproduced one to one, among small Christmas trees with warm fairy lights and white faux snow, and next to them our robe of Image 3 (front) and Image 4 (hood) hanging on a display stand, reproduced one to one. LOGIC OF THE SCENE, exactly like the input: she is shocked by what is in the window, drops her coffee and points at the display; the boxes are there the whole time. KEEP the mall and the store front exactly as in the input video, with its garlands, signs and logos. Keep the exact look and light of the input video. She is in the foreground with nothing between her and the camera. NO OVERLAY TEXT: the white caption text and the emoji of the input video are removed completely; no captions, no subtitles, no watermark. The only lettering in the video is the HEAT GRUMP logo printed on our boxes and the real signs of the mall. SOUND - made by you, with the picture, in three layers. ABSOLUTELY NO MUSIC: no song, no beat, no melody, no instruments, no jingle bells, no humming. VOICE (layer 1): nobody speaks - no voice, no words, no humming, only a tiny surprised gasp at 0.1 s. ACTION SOUNDS (layer 2), exactly when they happen in the picture: at 1.0-1.3 s the plastic cup hits the marble floor with a wet splash and ice cubes rattling; at 1.5-2.2 s a few quick footsteps and the rustle of her puffer jacket as she points. BACKGROUND (layer 3): from 0 s to the end only the quiet room tone of a busy shopping mall (soft murmur of distant shoppers, faint footsteps echoing), continuous, never silent.",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "aa86a9a0-74f5-4d2c-bfce-ecd8879d9068"
+    },
+    {
+     "role": "image_references",
+     "value": "f570d377-27ef-416f-88d6-446c50e1a8c0"
+    },
+    {
+     "role": "image_references",
+     "value": "35147aad-dbc4-4b7a-8fde-feb48f945b84"
+    },
+    {
+     "role": "image_references",
+     "value": "9029726e-837e-40e3-8cb2-1ac4daf7c177"
+    },
+    {
+     "role": "image_references",
+     "value": "aa6cec63-febe-4b78-8dbc-f8a9d23e3325"
+    }
+   ]
+  }
+ },
+ {
+  "index": 30,
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "duration": 5,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "prompt": "Copy the input video ONE TO ONE: the same shopping mall, the same framing, the same handheld camera moves, the same body movements and the same timing second by second; the output has exactly the same length as the input video. TIMING, identical to the input: 0 to 0.9 s - in a bright shopping mall she stands next to a store window decorated with pine garlands, holding a clear plastic cup of iced latte in one hand, the other hand at her mouth in shock, staring at the window; 0.9 to 1.3 s - she lets the cup fall, the camera tilts down and follows it hitting the white marble floor, the coffee splashes near her boots; 1.3 to 2.3 s - the camera swings up to the store window while her hand points at it; 2.3 to 4.28 s - the camera holds on the window display; after that the last frame stays still. Every action at exactly the same speed and second as the input, never faster. Change ONLY: PERSON - she is exactly the woman of Image 1 (same face and hair), wearing an open black quilted puffer jacket over a grey USA varsity crewneck sweatshirt and navy long jogger pants, with tan suede boots. WINDOW DISPLAY - instead of the products of the input video, the window shows a pyramid of our HEAT GRUMP boxes of Image 2 (the red box with the yellow-green HEAT GRUMP logo and a window showing the robe), reproduced one to one, among small Christmas trees with warm fairy lights and white faux snow, and next to them our robe of Image 3 (front) and Image 4 (hood) hanging on a display stand, reproduced one to one. LOGIC OF THE SCENE, exactly like the input: she is shocked by what is in the window, drops her coffee and points at the display; the boxes are there the whole time. KEEP the mall and the store front exactly as in the input video, with its garlands, signs and logos. Keep the exact look and light of the input video. She is in the foreground with nothing between her and the camera. NO OVERLAY TEXT: the white caption text and the emoji of the input video are removed completely; no captions, no subtitles, no watermark. The only lettering in the video is the HEAT GRUMP logo printed on our boxes and the real signs of the mall. SOUND - made by you, with the picture, in three layers. ABSOLUTELY NO MUSIC: no song, no beat, no melody, no instruments, no jingle bells, no humming. VOICE (layer 1): nobody speaks - no voice, no words, no humming, only a tiny surprised gasp at 0.1 s. ACTION SOUNDS (layer 2), exactly when they happen in the picture: at 1.0-1.3 s the plastic cup hits the marble floor with a wet splash and ice cubes rattling; at 1.5-2.2 s a few quick footsteps and the rustle of her puffer jacket as she points. BACKGROUND (layer 3): from 0 s to the end only the quiet room tone of a busy shopping mall (soft murmur of distant shoppers, faint footsteps echoing), continuous, never silent.",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "aa86a9a0-74f5-4d2c-bfce-ecd8879d9068"
+    },
+    {
+     "role": "image_references",
+     "value": "500725a5-09ed-4f45-be78-1ffc3e80dfbc"
+    },
+    {
+     "role": "image_references",
+     "value": "35147aad-dbc4-4b7a-8fde-feb48f945b84"
+    },
+    {
+     "role": "image_references",
+     "value": "9029726e-837e-40e3-8cb2-1ac4daf7c177"
+    },
+    {
+     "role": "image_references",
+     "value": "aa6cec63-febe-4b78-8dbc-f8a9d23e3325"
+    }
+   ]
+  }
+ },
+ {
+  "index": 31,
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "duration": 5,
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "prompt": "Copy the input video ONE TO ONE: the same shopping mall, the same framing, the same handheld camera moves, the same body movements and the same timing second by second; the output has exactly the same length as the input video. TIMING, identical to the input: 0 to 0.9 s - in a bright shopping mall she stands next to a store window decorated with pine garlands, holding a clear plastic cup of iced latte in one hand, the other hand at her mouth in shock, staring at the window; 0.9 to 1.3 s - she lets the cup fall, the camera tilts down and follows it hitting the white marble floor, the coffee splashes near her boots; 1.3 to 2.3 s - the camera swings up to the store window while her hand points at it; 2.3 to 4.28 s - the camera holds on the window display; after that the last frame stays still. Every action at exactly the same speed and second as the input, never faster. Change ONLY: PERSON - she is exactly the woman of Image 1 (same face and hair), wearing an open black quilted puffer jacket over a white long-sleeve tee with a small American flag and red plaid flannel pajama pants, with tan suede boots. WINDOW DISPLAY - instead of the products of the input video, the window shows a pyramid of our HEAT GRUMP boxes of Image 2 (the red box with the yellow-green HEAT GRUMP logo and a window showing the robe), reproduced one to one, among small Christmas trees with warm fairy lights and white faux snow, and next to them our robe of Image 3 (front) and Image 4 (hood) hanging on a display stand, reproduced one to one. LOGIC OF THE SCENE, exactly like the input: she is shocked by what is in the window, drops her coffee and points at the display; the boxes are there the whole time. KEEP the mall and the store front exactly as in the input video, with its garlands, signs and logos. Keep the exact look and light of the input video. She is in the foreground with nothing between her and the camera. NO OVERLAY TEXT: the white caption text and the emoji of the input video are removed completely; no captions, no subtitles, no watermark. The only lettering in the video is the HEAT GRUMP logo printed on our boxes and the real signs of the mall. SOUND - made by you, with the picture, in three layers. ABSOLUTELY NO MUSIC: no song, no beat, no melody, no instruments, no jingle bells, no humming. VOICE (layer 1): nobody speaks - no voice, no words, no humming, only a tiny surprised gasp at 0.1 s. ACTION SOUNDS (layer 2), exactly when they happen in the picture: at 1.0-1.3 s the plastic cup hits the marble floor with a wet splash and ice cubes rattling; at 1.5-2.2 s a few quick footsteps and the rustle of her puffer jacket as she points. BACKGROUND (layer 3): from 0 s to the end only the quiet room tone of a busy shopping mall (soft murmur of distant shoppers, faint footsteps echoing), continuous, never silent.",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "aa86a9a0-74f5-4d2c-bfce-ecd8879d9068"
+    },
+    {
+     "role": "image_references",
+     "value": "fa860dd8-02d8-44df-8b3f-919e0f6593d7"
+    },
+    {
+     "role": "image_references",
+     "value": "35147aad-dbc4-4b7a-8fde-feb48f945b84"
+    },
+    {
+     "role": "image_references",
+     "value": "9029726e-837e-40e3-8cb2-1ac4daf7c177"
+    },
+    {
+     "role": "image_references",
+     "value": "aa6cec63-febe-4b78-8dbc-f8a9d23e3325"
+    }
+   ]
+  }
+ }
+]

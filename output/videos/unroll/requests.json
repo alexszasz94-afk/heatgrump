@@ -1,0 +1,230 @@
+[
+ {
+  "index": 32,
+  "params": {
+   "model": "seedance_2_5",
+   "mode": "video_edit",
+   "resolution": "1080p",
+   "bitrate_mode": "high",
+   "generate_audio": false,
+   "aspect_ratio": "9:16",
+   "prompt": "Edit the input video. Copy it ONE TO ONE: the same single shot, the same framing, the same static camera, the same body movements and the same timing second by second; the output has exactly the same length as the input video. TIMING, identical to the input: 0 to 2.3 s - she stands in the room facing the camera and holds a big rolled-up robe horizontally above her head with both raised hands, the roll covering her face, she sways it a little; 2.3 to 2.8 s - she lets the roll fall open downward in one soft swing with real fabric weight; 2.8 s to the end - she holds the open robe up by its shoulders in front of her body, the robe hanging to its full length down to the floor, its inside facing the camera and the hood at the top. Every action at exactly the same speed and second as the input, never faster. Change ONLY three things. PERSON: exactly the woman of Image 1 (same face, same hair colour and length), wearing a red long-sleeve thermal top and navy plaid flannel pajama pants. ROOM: the room becomes the room of Image 2 EXACTLY as it is - the same walls, windows, floor, furniture, Christmas tree, decorations and light as Image 2; nothing from the room of the input video remains. ROBE: the robe becomes our heated robe of Images 3, 4 and 5, reproduced one to one, copy it, do not design it: deep-red plush top and long sleeves, a long olive-green velvet lower part down to the floor, white fluffy sherpa trim along the front edges and the hem, bright shaggy lime-green fur cuffs, and a red Santa-hat hood with a white pompom whose front panel is green with the grumpy face. Rolled up, the roll shows our red plush and olive-green velvet with the white sherpa edges; open, the inside shows the red top and the olive-green lower part with the white sherpa trim, the lime-green cuffs at the sleeves and the hood with the grumpy face at the top. Nothing of the robe of the input video remains (no white lining, no other pattern). Keep the exact look, light and camera feel of the input video: a real unedited iPhone video, soft natural light, true colours. Natural real movements with real weight and gravity, no morphing, no flicker, correct hands with five fingers. NO OVERLAY TEXT: the white caption text and the emoji of the input video are removed completely; no captions, no subtitles, no watermark, no text anywhere.",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "b78ff962-5fbf-4708-ac74-5a3f663d898f"
+    },
+    {
+     "role": "image_references",
+     "value": "7217e822-1749-4d62-b25c-ea3a7b30aed2"
+    },
+    {
+     "role": "image_references",
+     "value": "de34ea34-36d0-468b-b1f5-7f1876445757"
+    },
+    {
+     "role": "image_references",
+     "value": "9029726e-837e-40e3-8cb2-1ac4daf7c177"
+    },
+    {
+     "role": "image_references",
+     "value": "aa6cec63-febe-4b78-8dbc-f8a9d23e3325"
+    },
+    {
+     "role": "image_references",
+     "value": "166a93a0-5025-45d9-9218-e18dd23f6b68"
+    }
+   ]
+  }
+ },
+ {
+  "index": 33,
+  "params": {
+   "model": "seedance_2_5",
+   "mode": "video_edit",
+   "resolution": "1080p",
+   "bitrate_mode": "high",
+   "generate_audio": false,
+   "aspect_ratio": "9:16",
+   "prompt": "Edit the input video. Copy it ONE TO ONE: the same single shot, the same framing, the same static camera, the same body movements and the same timing second by second; the output has exactly the same length as the input video. TIMING, identical to the input: 0 to 2.3 s - she stands in the room facing the camera and holds a big rolled-up robe horizontally above her head with both raised hands, the roll covering her face, she sways it a little; 2.3 to 2.8 s - she lets the roll fall open downward in one soft swing with real fabric weight; 2.8 s to the end - she holds the open robe up by its shoulders in front of her body, the robe hanging to its full length down to the floor, its inside facing the camera and the hood at the top. Every action at exactly the same speed and second as the input, never faster. Change ONLY three things. PERSON: exactly the woman of Image 1 (same face, same hair colour and length), wearing a navy hooded college sweatshirt and grey long sweatpants. ROOM: the room becomes the room of Image 2 EXACTLY as it is - the same walls, windows, floor, furniture, Christmas tree, decorations and light as Image 2; nothing from the room of the input video remains. ROBE: the robe becomes our heated robe of Images 3, 4 and 5, reproduced one to one, copy it, do not design it: deep-red plush top and long sleeves, a long olive-green velvet lower part down to the floor, white fluffy sherpa trim along the front edges and the hem, bright shaggy lime-green fur cuffs, and a red Santa-hat hood with a white pompom whose front panel is green with the grumpy face. Rolled up, the roll shows our red plush and olive-green velvet with the white sherpa edges; open, the inside shows the red top and the olive-green lower part with the white sherpa trim, the lime-green cuffs at the sleeves and the hood with the grumpy face at the top. Nothing of the robe of the input video remains (no white lining, no other pattern). Keep the exact look, light and camera feel of the input video: a real unedited iPhone video, soft natural light, true colours. Natural real movements with real weight and gravity, no morphing, no flicker, correct hands with five fingers. NO OVERLAY TEXT: the white caption text and the emoji of the input video are removed completely; no captions, no subtitles, no watermark, no text anywhere.",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "b78ff962-5fbf-4708-ac74-5a3f663d898f"
+    },
+    {
+     "role": "image_references",
+     "value": "815e70f8-b7cc-4cbe-82ae-81308705cd61"
+    },
+    {
+     "role": "image_references",
+     "value": "5981aa4a-91eb-4aac-84c0-e02c44e6010a"
+    },
+    {
+     "role": "image_references",
+     "value": "9029726e-837e-40e3-8cb2-1ac4daf7c177"
+    },
+    {
+     "role": "image_references",
+     "value": "aa6cec63-febe-4b78-8dbc-f8a9d23e3325"
+    },
+    {
+     "role": "image_references",
+     "value": "166a93a0-5025-45d9-9218-e18dd23f6b68"
+    }
+   ]
+  }
+ },
+ {
+  "index": 34,
+  "params": {
+   "model": "seedance_2_5",
+   "mode": "video_edit",
+   "resolution": "1080p",
+   "bitrate_mode": "high",
+   "generate_audio": false,
+   "aspect_ratio": "9:16",
+   "prompt": "Edit the input video. Copy it ONE TO ONE: the same single shot, the same framing, the same static camera, the same body movements and the same timing second by second; the output has exactly the same length as the input video. TIMING, identical to the input: 0 to 2.3 s - she stands in the room facing the camera and holds a big rolled-up robe horizontally above her head with both raised hands, the roll covering her face, she sways it a little; 2.3 to 2.8 s - she lets the roll fall open downward in one soft swing with real fabric weight; 2.8 s to the end - she holds the open robe up by its shoulders in front of her body, the robe hanging to its full length down to the floor, its inside facing the camera and the hood at the top. Every action at exactly the same speed and second as the input, never faster. Change ONLY three things. PERSON: exactly the woman of Image 1 (same face, same hair colour and length), wearing a heather-grey long-sleeve henley and red-and-white candy-stripe pajama pants. ROOM: the room becomes the room of Image 2 EXACTLY as it is - the same walls, windows, floor, furniture, Christmas tree, decorations and light as Image 2; nothing from the room of the input video remains. ROBE: the robe becomes our heated robe of Images 3, 4 and 5, reproduced one to one, copy it, do not design it: deep-red plush top and long sleeves, a long olive-green velvet lower part down to the floor, white fluffy sherpa trim along the front edges and the hem, bright shaggy lime-green fur cuffs, and a red Santa-hat hood with a white pompom whose front panel is green with the grumpy face. Rolled up, the roll shows our red plush and olive-green velvet with the white sherpa edges; open, the inside shows the red top and the olive-green lower part with the white sherpa trim, the lime-green cuffs at the sleeves and the hood with the grumpy face at the top. Nothing of the robe of the input video remains (no white lining, no other pattern). Keep the exact look, light and camera feel of the input video: a real unedited iPhone video, soft natural light, true colours. Natural real movements with real weight and gravity, no morphing, no flicker, correct hands with five fingers. NO OVERLAY TEXT: the white caption text and the emoji of the input video are removed completely; no captions, no subtitles, no watermark, no text anywhere.",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "b78ff962-5fbf-4708-ac74-5a3f663d898f"
+    },
+    {
+     "role": "image_references",
+     "value": "5fa02d46-a6bf-4232-a0fe-45bab40e0b90"
+    },
+    {
+     "role": "image_references",
+     "value": "21fd8779-8e95-4724-8140-8360e327479a"
+    },
+    {
+     "role": "image_references",
+     "value": "9029726e-837e-40e3-8cb2-1ac4daf7c177"
+    },
+    {
+     "role": "image_references",
+     "value": "aa6cec63-febe-4b78-8dbc-f8a9d23e3325"
+    },
+    {
+     "role": "image_references",
+     "value": "166a93a0-5025-45d9-9218-e18dd23f6b68"
+    }
+   ]
+  }
+ },
+ {
+  "index": 35,
+  "params": {
+   "model": "seedance_2_5",
+   "mode": "video_edit",
+   "resolution": "1080p",
+   "bitrate_mode": "high",
+   "generate_audio": false,
+   "aspect_ratio": "9:16",
+   "prompt": "Edit the input video. Copy it ONE TO ONE: the same shots, the same cut at 4.4 s, the same framing, the same handheld camera moves, the same hand and body movements and the same timing second by second; the output has exactly the same length as the input video. TIMING, identical to the input: 0 to 2.6 s - seen from a high angle (chest to knees), she stands on the rug and holds a big rolled-up robe horizontally in front of her like a cake, a silver metal baking tray lying flat on top of the roll; 2.6 to 3.2 s - she lifts the baking tray off and puts it away, under it a round clear glass pot lid with a silver rim rests on top of the roll; 3.2 to 4.4 s - she turns and tilts the roll towards the camera until the robe fabric fills the frame; 4.4 to 5.3 s - point-of-view shot: her hand pushes the rolled robe down onto the sofa of the room. Every action at exactly the same speed and second as the input, never faster. Change ONLY three things. PERSON: the man of the input video becomes exactly the woman of Image 1 (her hands, arms and body, same skin; when her face or hair is seen it is hers), wearing a heather-grey Army-style crewneck and red plaid pajama pants. ROOM: the room becomes the room of Image 2 EXACTLY as it is - the same walls, floor, rug, furniture, sofa, Christmas tree, decorations and light as Image 2; nothing from the room of the input video remains. ROBE: the rolled robe becomes our heated robe of Images 3, 4 and 5, reproduced one to one, copy it, do not design it: deep-red plush top and long sleeves, a long olive-green velvet lower part down to the floor, white fluffy sherpa trim along the front edges and the hem, bright shaggy lime-green fur cuffs, and a red Santa-hat hood with a white pompom whose front panel is green with the grumpy face; the roll shows our red plush and olive-green velvet with the white sherpa edges and a lime-green fur cuff. The silver baking tray and the round glass pot lid stay exactly as in the input video (they are only props); nothing of the robe of the input video remains. Keep the exact look, light and camera feel of the input video: a real unedited iPhone video, soft natural light, true colours. Natural real movements with real weight and gravity, no morphing, no flicker, correct hands with five fingers. NO OVERLAY TEXT: the white caption text and the emoji of the input video are removed completely; no captions, no subtitles, no watermark, no text anywhere.",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "58256b9e-0fb3-4010-bd61-1f8fc046bcd6"
+    },
+    {
+     "role": "image_references",
+     "value": "1f5d9dcc-7c73-4a61-b542-96494b8fefc8"
+    },
+    {
+     "role": "image_references",
+     "value": "fcedc0ab-deba-4d9e-ab79-f41eed0f8260"
+    },
+    {
+     "role": "image_references",
+     "value": "9029726e-837e-40e3-8cb2-1ac4daf7c177"
+    },
+    {
+     "role": "image_references",
+     "value": "aa6cec63-febe-4b78-8dbc-f8a9d23e3325"
+    },
+    {
+     "role": "image_references",
+     "value": "166a93a0-5025-45d9-9218-e18dd23f6b68"
+    }
+   ]
+  }
+ },
+ {
+  "index": 27,
+  "params": {
+   "model": "seedance_2_5",
+   "mode": "video_edit",
+   "resolution": "1080p",
+   "bitrate_mode": "high",
+   "generate_audio": false,
+   "aspect_ratio": "9:16",
+   "prompt": "Edit the input video. Copy it ONE TO ONE: the same shots, the same cut at 4.4 s, the same framing, the same handheld camera moves, the same hand and body movements and the same timing second by second; the output has exactly the same length as the input video. TIMING, identical to the input: 0 to 2.6 s - seen from a high angle (chest to knees), she stands on the rug and holds a big rolled-up robe horizontally in front of her like a cake, a silver metal baking tray lying flat on top of the roll; 2.6 to 3.2 s - she lifts the baking tray off and puts it away, under it a round clear glass pot lid with a silver rim rests on top of the roll; 3.2 to 4.4 s - she turns and tilts the roll towards the camera until the robe fabric fills the frame; 4.4 to 5.3 s - point-of-view shot: her hand pushes the rolled robe down onto the sofa of the room. Every action at exactly the same speed and second as the input, never faster. Change ONLY three things. PERSON: the man of the input video becomes exactly the woman of Image 1 (her hands, arms and body, same skin; when her face or hair is seen it is hers), wearing a red-and-green buffalo-plaid flannel long pajama set. ROOM: the room becomes the room of Image 2 EXACTLY as it is - the same walls, floor, rug, furniture, sofa, Christmas tree, decorations and light as Image 2; nothing from the room of the input video remains. ROBE: the rolled robe becomes our heated robe of Images 3, 4 and 5, reproduced one to one, copy it, do not design it: deep-red plush top and long sleeves, a long olive-green velvet lower part down to the floor, white fluffy sherpa trim along the front edges and the hem, bright shaggy lime-green fur cuffs, and a red Santa-hat hood with a white pompom whose front panel is green with the grumpy face; the roll shows our red plush and olive-green velvet with the white sherpa edges and a lime-green fur cuff. The silver baking tray and the round glass pot lid stay exactly as in the input video (they are only props); nothing of the robe of the input video remains. Keep the exact look, light and camera feel of the input video: a real unedited iPhone video, soft natural light, true colours. Natural real movements with real weight and gravity, no morphing, no flicker, correct hands with five fingers. NO OVERLAY TEXT: the white caption text and the emoji of the input video are removed completely; no captions, no subtitles, no watermark, no text anywhere.",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "58256b9e-0fb3-4010-bd61-1f8fc046bcd6"
+    },
+    {
+     "role": "image_references",
+     "value": "90f777e7-3570-458c-a380-7ea78c196efc"
+    },
+    {
+     "role": "image_references",
+     "value": "0eedd133-a7c3-41e4-b4ce-1cd1c2ea7614"
+    },
+    {
+     "role": "image_references",
+     "value": "9029726e-837e-40e3-8cb2-1ac4daf7c177"
+    },
+    {
+     "role": "image_references",
+     "value": "aa6cec63-febe-4b78-8dbc-f8a9d23e3325"
+    },
+    {
+     "role": "image_references",
+     "value": "166a93a0-5025-45d9-9218-e18dd23f6b68"
+    }
+   ]
+  }
+ },
+ {
+  "index": 30,
+  "params": {
+   "model": "seedance_2_5",
+   "mode": "video_edit",
+   "resolution": "1080p",
+   "bitrate_mode": "high",
+   "generate_audio": false,
+   "aspect_ratio": "9:16",
+   "prompt": "Edit the input video. Copy it ONE TO ONE: the same shots, the same cut at 4.4 s, the same framing, the same handheld camera moves, the same hand and body movements and the same timing second by second; the output has exactly the same length as the input video. TIMING, identical to the input: 0 to 2.6 s - seen from a high angle (chest to knees), she stands on the rug and holds a big rolled-up robe horizontally in front of her like a cake, a silver metal baking tray lying flat on top of the roll; 2.6 to 3.2 s - she lifts the baking tray off and puts it away, under it a round clear glass pot lid with a silver rim rests on top of the roll; 3.2 to 4.4 s - she turns and tilts the roll towards the camera until the robe fabric fills the frame; 4.4 to 5.3 s - point-of-view shot: her hand pushes the rolled robe down onto the sofa of the room. Every action at exactly the same speed and second as the input, never faster. Change ONLY three things. PERSON: the man of the input video becomes exactly the woman of Image 1 (her hands, arms and body, same skin; when her face or hair is seen it is hers), wearing a grey USA varsity crewneck sweatshirt and navy long jogger pants. ROOM: the room becomes the room of Image 2 EXACTLY as it is - the same walls, floor, rug, furniture, sofa, Christmas tree, decorations and light as Image 2; nothing from the room of the input video remains. ROBE: the rolled robe becomes our heated robe of Images 3, 4 and 5, reproduced one to one, copy it, do not design it: deep-red plush top and long sleeves, a long olive-green velvet lower part down to the floor, white fluffy sherpa trim along the front edges and the hem, bright shaggy lime-green fur cuffs, and a red Santa-hat hood with a white pompom whose front panel is green with the grumpy face; the roll shows our red plush and olive-green velvet with the white sherpa edges and a lime-green fur cuff. The silver baking tray and the round glass pot lid stay exactly as in the input video (they are only props); nothing of the robe of the input video remains. Keep the exact look, light and camera feel of the input video: a real unedited iPhone video, soft natural light, true colours. Natural real movements with real weight and gravity, no morphing, no flicker, correct hands with five fingers. NO OVERLAY TEXT: the white caption text and the emoji of the input video are removed completely; no captions, no subtitles, no watermark, no text anywhere.",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "58256b9e-0fb3-4010-bd61-1f8fc046bcd6"
+    },
+    {
+     "role": "image_references",
+     "value": "500725a5-09ed-4f45-be78-1ffc3e80dfbc"
+    },
+    {
+     "role": "image_references",
+     "value": "558964f8-5bab-482f-8408-223f8d735165"
+    },
+    {
+     "role": "image_references",
+     "value": "9029726e-837e-40e3-8cb2-1ac4daf7c177"
+    },
+    {
+     "role": "image_references",
+     "value": "aa6cec63-febe-4b78-8dbc-f8a9d23e3325"
+    },
+    {
+     "role": "image_references",
+     "value": "166a93a0-5025-45d9-9218-e18dd23f6b68"
+    }
+   ]
+  }
+ }
+]
