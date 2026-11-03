@@ -1,0 +1,41 @@
+{
+ "out": "/home/user/heatgrump/output/videos/fbhook-set28/fbhook-set28-FINAL.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/videos/fbhook/raw-set28.mp4",
+   "start": 0,
+   "end": 7.7,
+   "audio": false
+  },
+  {
+   "file": "/home/user/heatgrump/output/broll-grinch/set28/tail.mp4",
+   "start": 0,
+   "end": 11.05
+  }
+ ],
+ "texts": [
+  {
+   "segs": [
+    0,
+    -1
+   ],
+   "size": 66,
+   "y": 0.125,
+   "text": "\"Babe you don't\nneed that...\" 🙄"
+  },
+  {
+   "segs": [
+    0,
+    -1
+   ],
+   "size": 66,
+   "y": 0.266,
+   "text": "Me: 🥹💚",
+   "x": 0.175
+  }
+ ],
+ "music": "/home/user/heatgrump/output/videos/fbhook/ref/music-ref-pad.m4a",
+ "music_start": 0,
+ "music_vol": 1.0
+}
