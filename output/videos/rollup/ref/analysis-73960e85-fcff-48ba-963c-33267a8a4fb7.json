@@ -1,0 +1,30 @@
+{
+ "id": "73960e85-fcff-48ba-963c-33267a8a4fb7",
+ "video_input_id": "f7669181-ac41-4523-b47c-74151cd70eef",
+ "youtube_url": null,
+ "status": "completed",
+ "fail_reason": null,
+ "video_s3_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KsWrQxZNrTAkYgl7XLuLD8eERf/f7669181-ac41-4523-b47c-74151cd70eef.mp4",
+ "scenes": [
+  {
+   "audio": "Female voice: Three, two, one...",
+   "label": "Opening Hook",
+   "visual": "A young female character in her early 20s with fair skin, long blonde hair tied back, wearing a white long-sleeve thermal top, white shorts, and white socks stands in a living room. She holds a large, rolled-up red velvet blanket above her head with both hands. The room features a lit Christmas tree on the left, a fireplace mantle with three red stockings, and gift-wrapped boxes on the floor. Lighting is warm and soft, originating from the Christmas tree and ambient room lights. The camera is static and at eye level.",
+   "shot_type": "Medium Shot",
+   "scene_number": 1,
+   "timestamp_end": "0:02",
+   "timestamp_start": "0:00"
+  },
+  {
+   "audio": "Female voice: Let's see how it turns out. Upbeat, mid-tempo pop-style background music begins with a light rhythmic beat.",
+   "label": "Product Information",
+   "visual": "The character performs a downward throwing motion, unrolling the red velvet blanket so it falls vertically, momentarily covering her entire body from the waist up. The blanket is a rich, dark red with a plush, reflective texture. The background remains the same festive living room setting. The movement is captured with a slight speed ramp to emphasize the unfolding fabric.",
+   "shot_type": "Medium Shot",
+   "scene_number": 2,
+   "timestamp_end": "0:04",
+   "timestamp_start": "0:02"
+  }
+ ],
+ "created_at": "2026-11-05T18:08:57.052446Z",
+ "updated_at": "2026-11-05T18:11:09.725440Z"
+}

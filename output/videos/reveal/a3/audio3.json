@@ -1,22 +1,117 @@
 {
  "file": "../output/videos/reveal/ref/hook-part.mp4",
  "hook_end": 4.07,
- "higgsfield_line": "",
+ "higgsfield_line": "Three, two, one... let's see how it comes out.",
  "no_voice": false,
  "part1_voice": {
-  "who": "nobody speaks",
-  "phrases": [],
-  "words": []
+  "who": "high voice (woman/child)",
+  "phrases": [
+   {
+    "text": "Three, two, one,",
+    "start": 0.22,
+    "end": 2.34,
+    "words_per_s": 1.4
+   },
+   {
+    "text": "let's see how it comes out.",
+    "start": 3.16,
+    "end": 4.06,
+    "words_per_s": 6.7
+   }
+  ],
+  "words": [
+   {
+    "word": "Three,",
+    "start": 0.22,
+    "end": 1.2,
+    "len": 0.98,
+    "peak_db": -4.4,
+    "pitch_hz": 287,
+    "tone": "stretched"
+   },
+   {
+    "word": "two,",
+    "start": 1.22,
+    "end": 2.1,
+    "len": 0.88,
+    "peak_db": -4.6,
+    "pitch_hz": 288,
+    "tone": "stretched"
+   },
+   {
+    "word": "one,",
+    "start": 2.12,
+    "end": 2.34,
+    "len": 0.22,
+    "peak_db": -3.2,
+    "pitch_hz": 229,
+    "tone": "normal"
+   },
+   {
+    "word": "let's",
+    "start": 3.16,
+    "end": 3.34,
+    "len": 0.18,
+    "peak_db": -9.2,
+    "pitch_hz": 210,
+    "tone": "normal"
+   },
+   {
+    "word": "see",
+    "start": 3.36,
+    "end": 3.42,
+    "len": 0.06,
+    "peak_db": -6.4,
+    "pitch_hz": null,
+    "tone": "normal"
+   },
+   {
+    "word": "how",
+    "start": 3.42,
+    "end": 3.48,
+    "len": 0.06,
+    "peak_db": -4.4,
+    "pitch_hz": null,
+    "tone": "normal"
+   },
+   {
+    "word": "it",
+    "start": 3.48,
+    "end": 3.58,
+    "len": 0.1,
+    "peak_db": -6.3,
+    "pitch_hz": null,
+    "tone": "normal"
+   },
+   {
+    "word": "comes",
+    "start": 3.6,
+    "end": 3.72,
+    "len": 0.12,
+    "peak_db": -6.0,
+    "pitch_hz": 218,
+    "tone": "normal"
+   },
+   {
+    "word": "out.",
+    "start": 3.74,
+    "end": 4.06,
+    "len": 0.32,
+    "peak_db": -3.2,
+    "pitch_hz": 474,
+    "tone": "normal"
+   }
+  ]
  },
  "part2_action_sounds": [
   {
-   "start": 2.35,
+   "start": 2.36,
    "peak": 2.38,
-   "end": 2.46,
+   "end": 2.45,
    "peak_db": -3.9,
-   "centroid_hz": 1071,
+   "centroid_hz": 1072,
    "kind": "mid tap/knock/paper",
-   "during_speech": false,
+   "during_speech": true,
    "matches_movement": false
   }
  ],

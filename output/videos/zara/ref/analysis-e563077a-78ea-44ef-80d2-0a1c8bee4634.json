@@ -1,0 +1,39 @@
+{
+ "id": "e563077a-78ea-44ef-80d2-0a1c8bee4634",
+ "video_input_id": "696549c6-f9e3-4927-b089-0cd38678f8e1",
+ "youtube_url": null,
+ "status": "completed",
+ "fail_reason": null,
+ "video_s3_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KsWrQxZNrTAkYgl7XLuLD8eERf/696549c6-f9e3-4927-b089-0cd38678f8e1.mp4",
+ "scenes": [
+  {
+   "audio": "Whimsical, orchestral music begins. A deep, raspy male voice sings: \"You're a mean one, Mr. Grinch.\"",
+   "label": "Opening Hook",
+   "visual": "A static camera captures two retail employees standing behind a white table in a brightly lit clothing store. Character 1 (left) is a middle-aged woman with fair skin, short blonde hair, wearing a black long-sleeved shirt with a lanyard, black trousers, and a red and white Santa hat. Character 2 (right) is a middle-aged man with fair skin, a short grey beard, wearing a black long-sleeved shirt with a lanyard, black trousers, and a red and white Santa hat. They are both smiling and looking directly at the camera. On the table, several folded hoodies in red, pink, and light green with cartoon character face designs are covered by a thin sheet of clear plastic. In a synchronized motion, both characters grab the edge of the plastic and pull it back to reveal the products. The background shows racks of clothing and overhead retail lighting.",
+   "shot_type": "Wide Shot",
+   "scene_number": 1,
+   "timestamp_end": "0:02",
+   "timestamp_start": "0:00"
+  },
+  {
+   "audio": "The music continues with a playful, sinister tempo. The male voice continues singing: \"You really are a heel.\"",
+   "label": "Product Information",
+   "visual": "The camera looks down from a first-person perspective onto a white quilted bed. A pair of hands with fair skin, wearing a white cable-knit sweater, reach into the frame to open the red lid of a cardboard gift box. Inside the box, a red zip-up hoodie is neatly folded on white tissue paper. The hoodie features a green character face on the hood with yellow eyes and black line-art features. The lighting is warm and domestic, with soft golden highlights from out-of-focus string lights in the background.",
+   "shot_type": "POV Shot",
+   "scene_number": 2,
+   "timestamp_end": "0:04",
+   "timestamp_start": "0:02"
+  },
+  {
+   "audio": "The music ends with a sharp, whimsical orchestral sting as the vocal phrase completes.",
+   "label": "Product Selling Points",
+   "visual": "Continuing the POV from the previous scene, the hands in the white sweater grasp the red hoodie by the shoulders and lift it upward out of the box. The focus is on the soft texture of the red fabric and the printed green character face on the hood. The camera remains static while the subject movement provides the dynamic action.",
+   "shot_type": "Close-Up",
+   "scene_number": 3,
+   "timestamp_end": "0:05",
+   "timestamp_start": "0:04"
+  }
+ ],
+ "created_at": "2026-11-05T18:08:54.523603Z",
+ "updated_at": "2026-11-05T18:11:39.459244Z"
+}

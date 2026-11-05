@@ -126,7 +126,8 @@ def main(f, end, out, line="", no_voice=False, keep_stems=False):
     else:
         try:
             from faster_whisper import WhisperModel
-            segs, _ = WhisperModel("small.en", device="cpu", compute_type="int8").transcribe(voc, word_timestamps=True, language="en", beam_size=5, temperature=0.0, condition_on_previous_text=False)
+            import numpy as _np; _pcm = _np.ascontiguousarray(voc, dtype=_np.float32)  # 5 nov: dam direct PCM (nu fisier)
+            segs, _ = WhisperModel("small.en", device="cpu", compute_type="int8").transcribe(_pcm, word_timestamps=True, language="en", beam_size=5, temperature=0.0, condition_on_previous_text=False)
             raw = [(x.word.strip(), float(x.start), float(x.end)) for s in segs for x in (s.words or [])]
         except Exception as e:
             print("WHISPER_UNAVAILABLE:", str(e)[:100]); raw = []

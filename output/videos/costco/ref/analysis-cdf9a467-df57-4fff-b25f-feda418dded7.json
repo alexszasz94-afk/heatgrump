@@ -1,0 +1,75 @@
+{
+ "id": "cdf9a467-df57-4fff-b25f-feda418dded7",
+ "video_input_id": "3fc0352f-c439-4e8f-a01c-bb7d0fa65781",
+ "youtube_url": null,
+ "status": "completed",
+ "fail_reason": null,
+ "video_s3_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KsWrQxZNrTAkYgl7XLuLD8eERf/3fc0352f-c439-4e8f-a01c-bb7d0fa65781.mp4",
+ "scenes": [
+  {
+   "audio": "An upbeat, high-tempo holiday pop track featuring jingle bells, a rhythmic drum beat, and a festive melody. Ambient sounds of crowd chatter, excited shouting, and the rustling/thumping of cardboard boxes are audible.",
+   "label": "Opening Hook",
+   "visual": "A static, slightly elevated shot inside a warehouse retail store. A diverse crowd of approximately 15 adults, primarily aged 40-60 with light skin complexions, frantically grabs dark green square boxes from a wooden pallet. Each box features a heart-shaped cutout revealing red fabric. In the foreground left, a man in his 40s with short brown hair wearing a maroon long-sleeved shirt and blue jeans pulls a box. On the right, a man in his 50s with grey hair wearing a grey zip-up hoodie over a red polo shirt assists. The background shows towering industrial shelving units filled with bulk goods under bright, cool-toned overhead fluorescent lighting. The floor is grey polished concrete.",
+   "shot_type": "Wide Shot",
+   "scene_number": 1,
+   "timestamp_end": "0:02",
+   "timestamp_start": "0:00"
+  },
+  {
+   "audio": "The upbeat holiday music continues. The distinct sound of a cardboard lid being lifted and set aside is heard over the track.",
+   "label": "Product Information",
+   "visual": "A top-down perspective looking at a dark green box resting on a beige, chunky-knit textile surface. A pair of hands with light skin and a natural manicure enter the frame from the sides and lift the green lid. Inside, a deep red plush garment with thick white faux-fur trim and a large white pom-pom is neatly folded. The lighting transitions to a warm, soft domestic glow with gentle shadows.",
+   "shot_type": "POV Shot",
+   "scene_number": 2,
+   "timestamp_end": "0:03",
+   "timestamp_start": "0:02"
+  },
+  {
+   "audio": "The holiday pop music continues at a steady volume.",
+   "label": "Product Selling Points",
+   "visual": "A woman in her mid-30s with light skin and long, straight blonde hair is seen from behind. She stands in a cozy living room, wearing a floor-length, oversized red plush robe with white faux-fur trim along the opening and hem. She extends her arms to the sides, demonstrating the wide, batwing-style sleeves and the heavy drape of the fabric. In the background, a large Christmas tree is decorated with warm white lights and gold ornaments. The lighting is warm and ambient, focusing on the texture of the robe.",
+   "shot_type": "Medium Shot",
+   "scene_number": 3,
+   "timestamp_end": "0:05",
+   "timestamp_start": "0:03"
+  },
+  {
+   "audio": "The holiday pop music continues. A soft fabric rustling sound is layered over the beat.",
+   "label": "Product Selling Points",
+   "visual": "A close-up shot focused on the back of the blonde woman's head and shoulders. She reaches up with both hands and pulls a large, red plush hood lined with thick white faux fur over her hair. The camera is static, capturing the soft texture of the material. Lighting is warm and directional from the side.",
+   "shot_type": "Close-Up",
+   "scene_number": 4,
+   "timestamp_end": "0:06",
+   "timestamp_start": "0:05"
+  },
+  {
+   "audio": "The holiday music continues with prominent sleigh bell sounds.",
+   "label": "Usage Scenarios",
+   "visual": "A young girl, approximately 6 years old, with light skin and shoulder-length blonde hair, is shown wearing a child-sized version of the red and white plush hooded robe. She stands on a hardwood floor in front of a blurred Christmas tree. She smiles at the camera and does a playful dance, stepping side-to-side while holding the edges of the robe. The lighting is bright and warm.",
+   "shot_type": "Medium Shot",
+   "scene_number": 5,
+   "timestamp_end": "0:08",
+   "timestamp_start": "0:06"
+  },
+  {
+   "audio": "The music remains upbeat and festive, matching the energetic movement of the subjects.",
+   "label": "Real Experience",
+   "visual": "The blonde woman and the young girl are both in frame, wearing their matching red and white robes in a decorated living room. The woman kneels down, and the girl leans in for a hug. They then stand up, hold hands, and spin together in a circle. The background features holiday decorations and warm glowing lights, creating a soft bokeh effect. The camera follows their movement slightly.",
+   "shot_type": "Medium Shot",
+   "scene_number": 6,
+   "timestamp_end": "0:10",
+   "timestamp_start": "0:08"
+  },
+  {
+   "audio": "The music reaches a final melodic phrase and concludes with a shimmering chime sound as the video ends.",
+   "label": "Call to Action",
+   "visual": "A final close-up of the young girl. She stands near the Christmas tree, looking directly into the camera lens with a wide, joyful smile. She is still wearing the hooded robe. The color grading is rich and warm, emphasizing the vibrant red of the product. The depth of field is shallow, keeping the focus entirely on her facial expression.",
+   "shot_type": "Close-Up",
+   "scene_number": 7,
+   "timestamp_end": "0:12",
+   "timestamp_start": "0:10"
+  }
+ ],
+ "created_at": "2026-11-05T18:08:55.186859Z",
+ "updated_at": "2026-11-05T18:14:38.652152Z"
+}

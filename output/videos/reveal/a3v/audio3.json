@@ -1,0 +1,74 @@
+{
+ "file": "../output/videos/reveal/ref/hook-part.mp4",
+ "hook_end": 4.07,
+ "higgsfield_line": "Three, two, one... let's see how it comes out.",
+ "no_voice": false,
+ "part1_voice": {
+  "who": "nobody speaks",
+  "phrases": [],
+  "words": []
+ },
+ "part2_action_sounds": [
+  {
+   "start": 2.35,
+   "peak": 2.38,
+   "end": 2.46,
+   "peak_db": -4.3,
+   "centroid_hz": 936,
+   "kind": "mid tap/knock/paper",
+   "during_speech": false,
+   "matches_movement": false
+  }
+ ],
+ "part2_picture_movements": [
+  {
+   "start": 1.87,
+   "end": 1.9,
+   "peak": 1.87,
+   "strength": 4.7,
+   "type": "movement"
+  },
+  {
+   "start": 2.67,
+   "end": 2.77,
+   "peak": 2.7,
+   "strength": 27.5,
+   "type": "movement"
+  },
+  {
+   "start": 2.87,
+   "end": 2.93,
+   "peak": 2.87,
+   "strength": 5.7,
+   "type": "movement"
+  },
+  {
+   "start": 3.03,
+   "end": 3.1,
+   "peak": 3.03,
+   "strength": 5.2,
+   "type": "movement"
+  },
+  {
+   "start": 3.37,
+   "end": 3.43,
+   "peak": 3.37,
+   "strength": 6.4,
+   "type": "movement"
+  },
+  {
+   "start": 3.53,
+   "end": 4.03,
+   "peak": 3.87,
+   "strength": 15.9,
+   "type": "movement"
+  }
+ ],
+ "part3_background": [
+  {
+   "t": "0.0-4.1",
+   "kind": "sound",
+   "level_db": -8.6
+  }
+ ]
+}

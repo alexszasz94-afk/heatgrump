@@ -1,0 +1,39 @@
+{
+ "id": "f7aec3c2-24d9-42df-bd9d-8e3c78c0b86c",
+ "video_input_id": "3a250421-a979-4147-afe8-831c34c9310c",
+ "youtube_url": null,
+ "status": "completed",
+ "fail_reason": null,
+ "video_s3_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KsWrQxZNrTAkYgl7XLuLD8eERf/3a250421-a979-4147-afe8-831c34c9310c.mp4",
+ "scenes": [
+  {
+   "audio": "A high-tempo, energetic pop remix of a classic Christmas carol featuring upbeat female vocals, sleigh bells, and a driving electronic synth beat.",
+   "label": "Opening Hook",
+   "visual": "A top-down static shot captures a white mailing envelope with a printed red bow and snowflake motif resting on a plush white faux fur rug. In the upper background, a small Christmas tree decorated with warm yellow fairy lights and a lit white pillar candle are visible, creating a cozy atmosphere. A person with light skin, wearing a white long-sleeved sweatshirt and silver rings, reaches into the frame from the bottom. Their hands feature long, pink-to-white ombre manicured nails. The person holds a pair of silver scissors in their right hand, poised to cut the package.",
+   "shot_type": "Close-Up",
+   "scene_number": 1,
+   "timestamp_end": "0:02",
+   "timestamp_start": "0:00"
+  },
+  {
+   "audio": "The upbeat Christmas remix continues at a consistent volume. The crisp sound of scissors cutting plastic followed by the sound of tearing plastic is clearly heard.",
+   "label": "Opening Hook",
+   "visual": "The same person uses the silver scissors to cut a horizontal line across the top of the white mailer. They set the scissors down and use both hands to pull the plastic packaging apart, revealing a layer of white tissue paper inside. The lighting is warm and directional from the top-left, casting soft shadows on the fur texture below.",
+   "shot_type": "Close-Up",
+   "scene_number": 2,
+   "timestamp_end": "0:04",
+   "timestamp_start": "0:02"
+  },
+  {
+   "audio": "The energetic Christmas music continues. Soft rustling sounds of paper and fabric are audible as the product is revealed and handled.",
+   "label": "Product Information",
+   "visual": "The person pulls back the white tissue paper with both hands to reveal a pair of folded, deep red trousers. The fabric appears to be a heavy cotton or denim. A vertical panel of intricate white snowflake lace is visible on the side of the pant leg, accented by three small red satin bows spaced evenly apart. The hands lift the garment slightly to show the texture and detail of the lace against the red fabric. The color palette is dominated by vibrant reds, crisp whites, and the warm yellow glow from the background lights.",
+   "shot_type": "Close-Up",
+   "scene_number": 3,
+   "timestamp_end": "0:07",
+   "timestamp_start": "0:04"
+  }
+ ],
+ "created_at": "2026-11-05T18:08:53.863387Z",
+ "updated_at": "2026-11-05T18:12:11.124197Z"
+}

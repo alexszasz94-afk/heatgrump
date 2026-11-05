@@ -1,0 +1,30 @@
+{
+ "id": "2b001d20-cc93-4a80-a775-fd911934d502",
+ "video_input_id": "9787d83b-7c9f-4850-9db9-75d8a977a3a3",
+ "youtube_url": null,
+ "status": "completed",
+ "fail_reason": null,
+ "video_s3_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KsWrQxZNrTAkYgl7XLuLD8eERf/9787d83b-7c9f-4850-9db9-75d8a977a3a3.mp4",
+ "scenes": [
+  {
+   "audio": "Three, two, one...",
+   "label": "Opening Hook",
+   "visual": "A young woman in her early 20s with fair skin and straight, shoulder-length blonde hair is centered in the frame. She is wearing a thick, red ribbed-knit crewneck sweater, light blue denim jeans, and small gold hoop earrings. She holds a folded beige linen cloth in front of her chest with both hands, concealing an object behind it. She looks directly at the camera with an expectant expression. The setting is a cozy, brightly lit living room. To the left is a tall Christmas tree decorated with warm lights and red and gold ornaments. In the background, an American flag hangs on a white wall above a fireplace mantel decorated with evergreen garlands and five red stockings. The camera is static with a very subtle handheld movement.",
+   "shot_type": "Medium Shot",
+   "scene_number": 1,
+   "timestamp_end": "0:02",
+   "timestamp_start": "0:00"
+  },
+  {
+   "audio": "...let's see how it comes out.",
+   "label": "Product Information",
+   "visual": "The woman previously described pulls the beige linen cloth downward and to her right, revealing a dark green rectangular box held in her left hand. The box features the text 'Holly Glow' and a plastic window showing a green, stylized Christmas tree-shaped device. She looks into the camera with a wide, enthusiastic smile and wide eyes. The background, lighting, and camera position remain consistent with the previous scene. The lighting is warm and domestic, with soft shadows cast by indoor lights.",
+   "shot_type": "Medium Shot",
+   "scene_number": 2,
+   "timestamp_end": "0:05",
+   "timestamp_start": "0:02"
+  }
+ ],
+ "created_at": "2026-11-05T18:08:56.282378Z",
+ "updated_at": "2026-11-05T18:12:12.057086Z"
+}
