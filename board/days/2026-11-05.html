@@ -1,0 +1,124 @@
+<title>HeatGrump Postări</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Figtree:wght@400;600;700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: 3 coloane = 3 conturi, carduri în ordinea orelor de postare; pe telefon coloanele se stivuiesc */
+:root{--bg:#f4f6f3;--panel:#fff;--ink:#17231c;--muted:#5b6a61;--line:#dbe2dd;--pine:#1d5a3c;--berry:#b02a3f;--chip:#e9efeb;
+--f-d:"Fraunces",Georgia,serif;--f-b:"Figtree",system-ui,sans-serif;--f-m:"JetBrains Mono",ui-monospace,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1512;--panel:#17211c;--ink:#e5ece8;--muted:#9babA1;--line:#27342d;--pine:#73d3a0;--berry:#ff7b90;--chip:#1e2b24;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f1512;--panel:#17211c;--ink:#e5ece8;--muted:#9baba1;--line:#27342d;--pine:#73d3a0;--berry:#ff7b90;--chip:#1e2b24;color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-b);font-size:14px;line-height:1.4}
+.wrap{max-width:1300px;margin:0 auto;padding-block:24px 60px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:20px}
+h1{font-family:var(--f-d);font-weight:600;font-size:clamp(28px,5vw,44px);margin:0;text-wrap:balance}
+h1 span{color:var(--berry)}
+.lede{color:var(--muted);margin:6px 0 0;max-width:70ch}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:start}
+.acc{display:grid;gap:10px;min-width:0}
+.acc h2{font-family:var(--f-d);font-weight:600;font-size:22px;margin:0;display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid var(--pine);padding-bottom:6px}
+.acc h2 small{font-family:var(--f-b);font-size:12px;color:var(--muted);font-weight:600}
+.card{display:grid;grid-template-columns:140px 1fr;gap:10px;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px}
+.card video{width:140px;aspect-ratio:9/16;object-fit:cover;border-radius:6px;max-width:100%;background:#000}
+.meta{display:grid;gap:5px;min-width:0;align-content:start}
+.top{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+time{font-family:var(--f-m);font-size:15px;color:var(--pine);font-variant-numeric:tabular-nums}
+.tag{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;background:var(--chip);color:var(--ink)}
+.ost{margin:0;font-weight:700;font-size:13px}
+.cap{margin:0;color:var(--muted);font-size:12px;overflow-wrap:anywhere;white-space:pre-line}
+.act{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.act button{font:600 12px var(--f-b);border:1px solid var(--pine);background:transparent;color:var(--pine);padding:4px 10px;border-radius:6px;cursor:pointer}
+.act button:focus-visible,.act a:focus-visible{outline:2px solid var(--berry);outline-offset:2px}
+.act a.dl{font:700 12px var(--f-b);background:var(--berry);color:var(--panel);padding:5px 10px;border-radius:6px;text-decoration:none}
+.set{font-family:var(--f-m);font-size:11px;color:var(--muted);margin-left:auto}
+.post{display:flex;align-items:center;gap:8px;font:700 14px var(--f-b);cursor:pointer;padding:6px 10px;border:2px solid var(--line);border-radius:8px;width:max-content;user-select:none}
+.post input{width:20px;height:20px;accent-color:var(--pine);margin:0;cursor:pointer}
+.card.done{opacity:.6}
+.card.done .post{border-color:var(--pine);background:var(--pine);color:var(--panel)}
+.card.done time::after{content:"  ✓ POSTAT";font:700 11px var(--f-b);color:var(--pine);letter-spacing:.05em}
+.status{font-size:12px;color:var(--muted)}
+@media (max-width:900px){.grid{grid-template-columns:1fr}}
+</style>
+<div class="wrap">
+<header><h1>Postări <span>2026-11-05</span></h1><p class="lede">10 videouri pe 3 conturi. Ore în fusul SUA Est. Apasă play ca să vezi videoul; „Descarcă MP4” ia fișierul la calitate maximă de pe GitHub (trebuie să fii logat pe GitHub). Pe fiecare cont tipurile de hook se alternează și aceeași fată nu apare de două ori la rând.</p></header>
+<p class="status" id="status" role="status">Se încarcă bifele…</p>
+<div class="grid"><section class="acc"><h2>Cont 1 <small><b class="cnt" data-acc="a">0</b>/5 postate</small></h2><article class="card" data-key="2026-11-05_a_unbox-set26"><video src="v/unbox-set26.mp4" poster="thumbs/unbox-set26.jpg" controls playsinline preload="none" aria-label="Unboxing mailer"></video>
+<div class="meta"><div class="top"><time>07:40</time><span class="tag t-unbox">Unboxing mailer</span></div>
+<p class="ost">The best purchase I&#x27;ve EVER made...😍💚</p>
+<p class="cap" id="c-a-unbox-set26">Best purchase of the year, no contest 😍💚
+Type &quot;GRINCH&quot; if you want this 💚
+#cozyvibes #wintervibes #momlife #merrychristmas #winterfashion #giftideas</p>
+<label class="post"><input type="checkbox" data-post="2026-11-05_a_unbox-set26"> Postat</label><div class="act"><button type="button" data-copy="c-a-unbox-set26">Copiază caption</button><a class="dl" href="https://github.com/alexszasz94-afk/heatgrump/raw/heatgrump-studio/output/videos/unbox-set26/unbox-set26-FINAL.mp4" target="_blank" rel="noopener">Descarcă MP4</a><span class="set">set26</span></div></div></article><article class="card" data-key="2026-11-05_a_reveal-set32"><video src="v/reveal-set32.mp4" poster="thumbs/reveal-set32.jpg" controls playsinline preload="none" aria-label="Dezvelire cu pânză"></video>
+<div class="meta"><div class="top"><time>09:10</time><span class="tag t-reveal">Dezvelire cu pânză</span></div>
+<p class="ost">DO NOT show this to a Christmas-aholic 😱🤫</p>
+<p class="cap" id="c-a-reveal-set32">Wait for it… 😱💚
+Drop a &quot;GRINCH&quot; below if you want one 💚
+#christmasgift #cozy #grinchy #cozyseason #grinch #giftsforher</p>
+<label class="post"><input type="checkbox" data-post="2026-11-05_a_reveal-set32"> Postat</label><div class="act"><button type="button" data-copy="c-a-reveal-set32">Copiază caption</button><a class="dl" href="https://github.com/alexszasz94-afk/heatgrump/raw/heatgrump-studio/output/videos/reveal-set32/reveal-set32-FINAL.mp4" target="_blank" rel="noopener">Descarcă MP4</a><span class="set">set32</span></div></div></article><article class="card" data-key="2026-11-05_a_zara-set28"><video src="v/zara-set28.mp4" poster="thumbs/zara-set28.jpg" controls playsinline preload="none" aria-label="Grinch x ZARA"></video>
+<div class="meta"><div class="top"><time>10:40</time><span class="tag t-zara">Grinch x ZARA</span></div>
+<p class="ost">GRINCH X ZARA 🤭</p>
+<p class="cap" id="c-a-zara-set28">Designer drop? Nope, it&#x27;s the Grinch 😏💚
+Type &quot;GRINCH&quot; if you want this 💚
+#holidaygifts #grinchy #hoodedblanket #giftsforher #wintervibes #cozyseason</p>
+<label class="post"><input type="checkbox" data-post="2026-11-05_a_zara-set28"> Postat</label><div class="act"><button type="button" data-copy="c-a-zara-set28">Copiază caption</button><a class="dl" href="https://github.com/alexszasz94-afk/heatgrump/raw/heatgrump-studio/output/videos/zara-set28/zara-set28-FINAL.mp4" target="_blank" rel="noopener">Descarcă MP4</a><span class="set">set28</span></div></div></article><article class="card" data-key="2026-11-05_a_costco-set30"><video src="v/costco-set30.mp4" poster="thumbs/costco-set30.jpg" controls playsinline preload="none" aria-label="Costco rush"></video>
+<div class="meta"><div class="top"><time>12:10</time><span class="tag t-costco">Costco rush</span></div>
+<p class="ost">Moms, don’t walk… RUN for this 😱🏃‍♀️</p>
+<p class="cap" id="c-a-costco-set30">Moms, this is THE gift this year 😱🎄
+Drop a &quot;GRINCH&quot; below if you want one 💚
+#christmas2026 #grinchlover #cozyseason #christmasvibes #wearableblanket #grinch</p>
+<label class="post"><input type="checkbox" data-post="2026-11-05_a_costco-set30"> Postat</label><div class="act"><button type="button" data-copy="c-a-costco-set30">Copiază caption</button><a class="dl" href="https://github.com/alexszasz94-afk/heatgrump/raw/heatgrump-studio/output/videos/costco-set30/costco-set30-FINAL.mp4" target="_blank" rel="noopener">Descarcă MP4</a><span class="set">set30</span></div></div></article><article class="card" data-key="2026-11-05_a_rollup-set34"><video src="v/rollup-set34.mp4" poster="thumbs/rollup-set34.jpg" controls playsinline preload="none" aria-label="Rulou deasupra capului"></video>
+<div class="meta"><div class="top"><time>13:40</time><span class="tag t-rollup">Rulou deasupra capului</span></div>
+<p class="ost">Send this to your aunt… trust me ❄️😏</p>
+<p class="cap" id="c-a-rollup-set34">Say less, aunt is getting one 😏❄️
+Type &quot;GRINCH&quot; if you want this 💚
+#wearableblanket #giftsformom #giftsforher #cozy #giftideas #winterfashion</p>
+<label class="post"><input type="checkbox" data-post="2026-11-05_a_rollup-set34"> Postat</label><div class="act"><button type="button" data-copy="c-a-rollup-set34">Copiază caption</button><a class="dl" href="https://github.com/alexszasz94-afk/heatgrump/raw/heatgrump-studio/output/videos/rollup-set34/rollup-set34-FINAL.mp4" target="_blank" rel="noopener">Descarcă MP4</a><span class="set">set34</span></div></div></article></section><section class="acc"><h2>Cont 2 <small><b class="cnt" data-acc="b">0</b>/5 postate</small></h2><article class="card" data-key="2026-11-05_b_costco-set31"><video src="v/costco-set31.mp4" poster="thumbs/costco-set31.jpg" controls playsinline preload="none" aria-label="Costco rush"></video>
+<div class="meta"><div class="top"><time>08:00</time><span class="tag t-costco">Costco rush</span></div>
+<p class="ost">Moms, this is THE gift this year… RUN 😱🏃‍♀️</p>
+<p class="cap" id="c-b-costco-set31">Moms, this is THE gift this year 😱🎄
+Comment &quot;GRINCH&quot; and I&#x27;ll send you the link 🎄
+#wintervibes #giftsformom #christmas #grinch #holidayseason #xmasgifts</p>
+<label class="post"><input type="checkbox" data-post="2026-11-05_b_costco-set31"> Postat</label><div class="act"><button type="button" data-copy="c-b-costco-set31">Copiază caption</button><a class="dl" href="https://github.com/alexszasz94-afk/heatgrump/raw/heatgrump-studio/output/videos/costco-set31/costco-set31-FINAL.mp4" target="_blank" rel="noopener">Descarcă MP4</a><span class="set">set31</span></div></div></article><article class="card" data-key="2026-11-05_b_rollup-set35"><video src="v/rollup-set35.mp4" poster="thumbs/rollup-set35.jpg" controls playsinline preload="none" aria-label="Rulou deasupra capului"></video>
+<div class="meta"><div class="top"><time>09:30</time><span class="tag t-rollup">Rulou deasupra capului</span></div>
+<p class="ost">DONT send this to an aunt… ❄️😏</p>
+<p class="cap" id="c-b-rollup-set35">Say less, aunt is getting one 😏❄️
+Type &quot;GRINCH&quot; for the link 🎁
+#grinchlover #wintervibes #christmasshopping #cozy #cozyseason #christmasmorning</p>
+<label class="post"><input type="checkbox" data-post="2026-11-05_b_rollup-set35"> Postat</label><div class="act"><button type="button" data-copy="c-b-rollup-set35">Copiază caption</button><a class="dl" href="https://github.com/alexszasz94-afk/heatgrump/raw/heatgrump-studio/output/videos/rollup-set35/rollup-set35-FINAL.mp4" target="_blank" rel="noopener">Descarcă MP4</a><span class="set">set35</span></div></div></article><article class="card" data-key="2026-11-05_b_zara-set29"><video src="v/zara-set29.mp4" poster="thumbs/zara-set29.jpg" controls playsinline preload="none" aria-label="Grinch x ZARA"></video>
+<div class="meta"><div class="top"><time>11:00</time><span class="tag t-zara">Grinch x ZARA</span></div>
+<p class="ost">GRINCH X ZARA 🤭</p>
+<p class="cap" id="c-b-zara-set29">The only collab I care about this Christmas 🤭🎄
+Comment &quot;GRINCH&quot; and I&#x27;ll send you the link 🎄
+#grinch #stockingstuffer #cozyhome #giftideas #merrychristmas #cozyseason</p>
+<label class="post"><input type="checkbox" data-post="2026-11-05_b_zara-set29"> Postat</label><div class="act"><button type="button" data-copy="c-b-zara-set29">Copiază caption</button><a class="dl" href="https://github.com/alexszasz94-afk/heatgrump/raw/heatgrump-studio/output/videos/zara-set29/zara-set29-FINAL.mp4" target="_blank" rel="noopener">Descarcă MP4</a><span class="set">set29</span></div></div></article><article class="card" data-key="2026-11-05_b_unbox-set27"><video src="v/unbox-set27.mp4" poster="thumbs/unbox-set27.jpg" controls playsinline preload="none" aria-label="Unboxing mailer"></video>
+<div class="meta"><div class="top"><time>12:30</time><span class="tag t-unbox">Unboxing mailer</span></div>
+<p class="ost">Best thing I&#x27;ve bought all year...🥹💚</p>
+<p class="cap" id="c-b-unbox-set27">Best purchase of the year, no contest 😍💚
+Type &quot;GRINCH&quot; for the link 🎁
+#christmas2026 #cozyhome #stockingstuffer #cozyseason #giftsforher #xmasgifts</p>
+<label class="post"><input type="checkbox" data-post="2026-11-05_b_unbox-set27"> Postat</label><div class="act"><button type="button" data-copy="c-b-unbox-set27">Copiază caption</button><a class="dl" href="https://github.com/alexszasz94-afk/heatgrump/raw/heatgrump-studio/output/videos/unbox-set27/unbox-set27-FINAL.mp4" target="_blank" rel="noopener">Descarcă MP4</a><span class="set">set27</span></div></div></article><article class="card" data-key="2026-11-05_b_reveal-set33"><video src="v/reveal-set33.mp4" poster="thumbs/reveal-set33.jpg" controls playsinline preload="none" aria-label="Dezvelire cu pânză"></video>
+<div class="meta"><div class="top"><time>14:00</time><span class="tag t-reveal">Dezvelire cu pânză</span></div>
+<p class="ost">DO NOT show this to a Grinch lover 😱🤫</p>
+<p class="cap" id="c-b-reveal-set33">Wait for it… 😱💚
+Comment &quot;GRINCH&quot; and I&#x27;ll send you the link 🎄
+#christmasgift #grinchmas #cozyseason #stockingstuffer #merrychristmas #christmas2026</p>
+<label class="post"><input type="checkbox" data-post="2026-11-05_b_reveal-set33"> Postat</label><div class="act"><button type="button" data-copy="c-b-reveal-set33">Copiază caption</button><a class="dl" href="https://github.com/alexszasz94-afk/heatgrump/raw/heatgrump-studio/output/videos/reveal-set33/reveal-set33-FINAL.mp4" target="_blank" rel="noopener">Descarcă MP4</a><span class="set">set33</span></div></div></article></section></div></div>
+<script>
+document.querySelectorAll("[data-copy]").forEach(b=>b.addEventListener("click",()=>{const t=document.getElementById(b.dataset.copy).textContent;
+const done=()=>{b.textContent="Copiat";setTimeout(()=>b.textContent="Copiază caption",1500)};
+if(navigator.clipboard)navigator.clipboard.writeText(t).then(done).catch(()=>{const r=document.createRange();r.selectNodeContents(document.getElementById(b.dataset.copy));const s=getSelection();s.removeAllRanges();s.addRange(r)});}));
+
+const boxes=[...document.querySelectorAll("[data-post]")];
+let state={},db=null;
+function paint(){boxes.forEach(b=>{const on=!!state[b.dataset.post];b.checked=on;b.closest(".card").classList.toggle("done",on);});
+document.querySelectorAll(".cnt").forEach(c=>{c.textContent=boxes.filter(b=>b.checked&&b.dataset.post.split("_")[1]===c.dataset.acc).length;});}
+function local(){try{state=JSON.parse(localStorage.getItem("posted")||"{}")}catch(e){state={}}paint();
+document.getElementById("status").textContent="Bifele se țin doar pe acest dispozitiv.";}
+boxes.forEach(b=>b.addEventListener("change",async()=>{const k=b.dataset.post,on=b.checked;state[k]=on;paint();
+if(db){try{const ref=db.collection("posted").doc(k);on?await ref.set({posted:true,at:Date.now()}):await ref.delete();}
+catch(e){state[k]=!on;paint();document.getElementById("status").textContent="Nu s-a putut salva bifa ("+(e&&e.code||"eroare")+").";}}
+else{try{localStorage.setItem("posted",JSON.stringify(state))}catch(e){}}}));
+(async()=>{const st=document.getElementById("status");let t=setTimeout(()=>{if(!db)local()},10000);
+try{db=await claude.use("db")}catch(e){db=null}
+if(!db){clearTimeout(t);local();return;}
+db.collection("posted").onSnapshot(s=>{clearTimeout(t);state={};s.docs.forEach(d=>{state[d.id]=true});paint();st.textContent="Bifele se salvează automat și se văd pe orice telefon/calculator.";},
+e=>{clearTimeout(t);st.textContent="Bifele nu s-au putut încărca ("+(e&&e.code||"eroare")+").";});})();
+</script>
