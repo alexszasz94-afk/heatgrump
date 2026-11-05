@@ -1,0 +1,53 @@
+{
+ "file": "/home/user/heatgrump/output/videos/costco/hook-set30.mp4",
+ "hook_end": 2.53,
+ "higgsfield_line": "",
+ "no_voice": true,
+ "part1_voice": {
+  "who": "nobody speaks",
+  "phrases": [],
+  "words": []
+ },
+ "part2_action_sounds": [
+  {
+   "start": 0.9,
+   "peak": 0.9,
+   "end": 1.06,
+   "peak_db": -2.6,
+   "centroid_hz": 602,
+   "kind": "low thump/step",
+   "during_speech": false,
+   "matches_movement": false
+  }
+ ],
+ "part2_picture_movements": [
+  {
+   "start": 1.67,
+   "end": 1.7,
+   "peak": 1.67,
+   "strength": 49.6,
+   "type": "hard cut"
+  },
+  {
+   "start": 2.1,
+   "end": 2.23,
+   "peak": 2.2,
+   "strength": 22.5,
+   "type": "movement"
+  },
+  {
+   "start": 2.33,
+   "end": 2.4,
+   "peak": 2.33,
+   "strength": 18.2,
+   "type": "movement"
+  }
+ ],
+ "part3_background": [
+  {
+   "t": "0.0-2.5",
+   "kind": "sound",
+   "level_db": -9.6
+  }
+ ]
+}

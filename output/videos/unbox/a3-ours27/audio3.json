@@ -1,0 +1,160 @@
+{
+ "file": "/home/user/heatgrump/output/videos/unbox/hook-set27.mp4",
+ "hook_end": 7.96,
+ "higgsfield_line": "",
+ "no_voice": true,
+ "part1_voice": {
+  "who": "nobody speaks",
+  "phrases": [],
+  "words": []
+ },
+ "part2_action_sounds": [
+  {
+   "start": 0.7,
+   "peak": 0.71,
+   "end": 0.74,
+   "peak_db": -13.4,
+   "centroid_hz": 1621,
+   "kind": "mid tap/knock/paper",
+   "during_speech": false,
+   "matches_movement": false
+  },
+  {
+   "start": 2.07,
+   "peak": 2.09,
+   "end": 2.12,
+   "peak_db": -8.9,
+   "centroid_hz": 2253,
+   "kind": "mid tap/knock/paper",
+   "during_speech": false,
+   "matches_movement": false
+  },
+  {
+   "start": 2.49,
+   "peak": 2.5,
+   "end": 2.53,
+   "peak_db": -14.4,
+   "centroid_hz": 2734,
+   "kind": "high swoosh/rustle/whoosh",
+   "during_speech": false,
+   "matches_movement": false
+  }
+ ],
+ "part2_picture_movements": [
+  {
+   "start": 0.03,
+   "end": 0.07,
+   "peak": 0.03,
+   "strength": 21.7,
+   "type": "movement"
+  },
+  {
+   "start": 0.17,
+   "end": 0.23,
+   "peak": 0.2,
+   "strength": 30.3,
+   "type": "hard cut"
+  },
+  {
+   "start": 0.33,
+   "end": 0.4,
+   "peak": 0.33,
+   "strength": 26.1,
+   "type": "hard cut"
+  },
+  {
+   "start": 1.2,
+   "end": 1.23,
+   "peak": 1.2,
+   "strength": 20.8,
+   "type": "movement"
+  },
+  {
+   "start": 2.7,
+   "end": 2.73,
+   "peak": 2.7,
+   "strength": 18.5,
+   "type": "movement"
+  },
+  {
+   "start": 3.03,
+   "end": 3.07,
+   "peak": 3.03,
+   "strength": 30.2,
+   "type": "hard cut"
+  },
+  {
+   "start": 5.83,
+   "end": 5.87,
+   "peak": 5.83,
+   "strength": 36.4,
+   "type": "hard cut"
+  },
+  {
+   "start": 6.43,
+   "end": 6.57,
+   "peak": 6.43,
+   "strength": 14.3,
+   "type": "movement"
+  },
+  {
+   "start": 6.8,
+   "end": 6.83,
+   "peak": 6.8,
+   "strength": 39.2,
+   "type": "hard cut"
+  }
+ ],
+ "part3_background": [
+  {
+   "t": "0.0-0.5",
+   "kind": "SILENT (dead gap)",
+   "level_db": -59.0
+  },
+  {
+   "t": "0.5-1.0",
+   "kind": "sound",
+   "level_db": -43.3
+  },
+  {
+   "t": "1.0-2.5",
+   "kind": "SILENT (dead gap)",
+   "level_db": -58.7
+  },
+  {
+   "t": "2.5-4.0",
+   "kind": "sound",
+   "level_db": -47.4
+  },
+  {
+   "t": "4.0-5.0",
+   "kind": "SILENT (dead gap)",
+   "level_db": -59.3
+  },
+  {
+   "t": "5.0-5.5",
+   "kind": "sound",
+   "level_db": -30.5
+  },
+  {
+   "t": "5.5-6.0",
+   "kind": "SILENT (dead gap)",
+   "level_db": -59.6
+  },
+  {
+   "t": "6.0-6.5",
+   "kind": "sound",
+   "level_db": -45.2
+  },
+  {
+   "t": "6.5-7.0",
+   "kind": "SILENT (dead gap)",
+   "level_db": -56.6
+  },
+  {
+   "t": "7.0-8.0",
+   "kind": "sound",
+   "level_db": -45.2
+  }
+ ]
+}

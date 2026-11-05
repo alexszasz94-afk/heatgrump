@@ -1,0 +1,112 @@
+{
+ "file": "/home/user/heatgrump/output/videos/zara/hook-set29.mp4",
+ "hook_end": 5.98,
+ "higgsfield_line": "",
+ "no_voice": true,
+ "part1_voice": {
+  "who": "nobody speaks",
+  "phrases": [],
+  "words": []
+ },
+ "part2_action_sounds": [
+  {
+   "start": 4.54,
+   "peak": 4.56,
+   "end": 4.62,
+   "peak_db": -17.1,
+   "centroid_hz": 711,
+   "kind": "mid tap/knock/paper",
+   "during_speech": false,
+   "matches_movement": true
+  },
+  {
+   "start": 4.75,
+   "peak": 4.77,
+   "end": 4.8,
+   "peak_db": -11.0,
+   "centroid_hz": 332,
+   "kind": "low thump/step",
+   "during_speech": false,
+   "matches_movement": true
+  }
+ ],
+ "part2_picture_movements": [
+  {
+   "start": 2.0,
+   "end": 2.07,
+   "peak": 2.0,
+   "strength": 9.5,
+   "type": "movement"
+  },
+  {
+   "start": 4.17,
+   "end": 4.23,
+   "peak": 4.17,
+   "strength": 69.1,
+   "type": "hard cut"
+  },
+  {
+   "start": 4.33,
+   "end": 4.4,
+   "peak": 4.37,
+   "strength": 11.9,
+   "type": "movement"
+  },
+  {
+   "start": 4.5,
+   "end": 4.57,
+   "peak": 4.5,
+   "strength": 8.5,
+   "type": "movement"
+  },
+  {
+   "start": 4.83,
+   "end": 4.9,
+   "peak": 4.83,
+   "strength": 47.4,
+   "type": "hard cut"
+  },
+  {
+   "start": 5.1,
+   "end": 5.23,
+   "peak": 5.1,
+   "strength": 8.3,
+   "type": "movement"
+  },
+  {
+   "start": 5.33,
+   "end": 5.4,
+   "peak": 5.37,
+   "strength": 9.0,
+   "type": "movement"
+  },
+  {
+   "start": 5.5,
+   "end": 5.57,
+   "peak": 5.53,
+   "strength": 14.0,
+   "type": "movement"
+  },
+  {
+   "start": 5.67,
+   "end": 5.73,
+   "peak": 5.67,
+   "strength": 18.6,
+   "type": "movement"
+  },
+  {
+   "start": 5.83,
+   "end": 5.9,
+   "peak": 5.83,
+   "strength": 11.1,
+   "type": "movement"
+  }
+ ],
+ "part3_background": [
+  {
+   "t": "0.0-6.0",
+   "kind": "sound",
+   "level_db": -37.4
+  }
+ ]
+}

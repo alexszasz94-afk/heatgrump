@@ -127,3 +127,4 @@ Sursa: memoria Cowork + sesiunea 16–29 sept. Regula mai nouă bate regula mai 
   - Fiecare hook are undeva în cadru steagul american (pe perete, pe verandă, pe o pernă, pe o cană etc.), vizibil dar natural.
   - La B-roll-uri, îmbrăcămintea de dedesubt e în stil american (ex. pijama cu stele și dungi, hanorac de colegiu/varsity, tricou cu steag, flanel + jeans).
   - Folosim doar personaje care arată ca oameni obișnuiți din SUA (aspect, coafură, stil, casă americană), diverși ca înainte; camerele să arate ca locuințe americane.
+- 2026-11-05 (Szasz): sunetul hook-urilor Kling se verifică pe spectrogramă (voce/muzică/tic/liniște) înainte de montaj; bucățile proaste se curăță (engine/fixa.py), se studiază fiecare video cadru cu cadru.

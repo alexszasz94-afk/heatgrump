@@ -1,0 +1,83 @@
+{
+ "file": "/home/user/heatgrump/output/videos/costco/hook-set31e.mp4",
+ "hook_end": 2.53,
+ "higgsfield_line": "",
+ "no_voice": true,
+ "part1_voice": {
+  "who": "nobody speaks",
+  "phrases": [],
+  "words": []
+ },
+ "part2_action_sounds": [
+  {
+   "start": 0.6,
+   "peak": 0.61,
+   "end": 0.7,
+   "peak_db": -24.1,
+   "centroid_hz": 583,
+   "kind": "low thump/step",
+   "during_speech": false,
+   "matches_movement": false
+  },
+  {
+   "start": 1.13,
+   "peak": 1.13,
+   "end": 1.17,
+   "peak_db": -26.1,
+   "centroid_hz": 671,
+   "kind": "low thump/step",
+   "during_speech": false,
+   "matches_movement": false
+  },
+  {
+   "start": 1.22,
+   "peak": 1.22,
+   "end": 1.25,
+   "peak_db": -18.2,
+   "centroid_hz": 546,
+   "kind": "low thump/step",
+   "during_speech": false,
+   "matches_movement": false
+  },
+  {
+   "start": 2.16,
+   "peak": 2.17,
+   "end": 2.27,
+   "peak_db": -26.1,
+   "centroid_hz": 572,
+   "kind": "low thump/step",
+   "during_speech": false,
+   "matches_movement": true
+  }
+ ],
+ "part2_picture_movements": [
+  {
+   "start": 1.93,
+   "end": 1.97,
+   "peak": 1.93,
+   "strength": 48.9,
+   "type": "hard cut"
+  },
+  {
+   "start": 2.13,
+   "end": 2.23,
+   "peak": 2.2,
+   "strength": 22.6,
+   "type": "movement"
+  },
+  {
+   "start": 2.33,
+   "end": 2.4,
+   "peak": 2.33,
+   "strength": 24.9,
+   "type": "movement"
+  }
+ ],
+ "part3_background": [
+  {
+   "t": "0.0-2.5",
+   "kind": "sound",
+   "level_db": -12.4
+  }
+ ]
+}

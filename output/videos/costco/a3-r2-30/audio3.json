@@ -1,0 +1,73 @@
+{
+ "file": "/home/user/heatgrump/output/videos/costco/r2-30.mp4",
+ "hook_end": 2.53,
+ "higgsfield_line": "",
+ "no_voice": true,
+ "part1_voice": {
+  "who": "nobody speaks",
+  "phrases": [],
+  "words": []
+ },
+ "part2_action_sounds": [
+  {
+   "start": 0.73,
+   "peak": 0.78,
+   "end": 0.83,
+   "peak_db": -7.8,
+   "centroid_hz": 478,
+   "kind": "low thump/step",
+   "during_speech": false,
+   "matches_movement": false
+  },
+  {
+   "start": 1.05,
+   "peak": 1.06,
+   "end": 1.09,
+   "peak_db": -14.3,
+   "centroid_hz": 361,
+   "kind": "low thump/step",
+   "during_speech": false,
+   "matches_movement": false
+  },
+  {
+   "start": 1.16,
+   "peak": 1.18,
+   "end": 1.35,
+   "peak_db": -7.1,
+   "centroid_hz": 485,
+   "kind": "low thump/step",
+   "during_speech": false,
+   "matches_movement": false
+  }
+ ],
+ "part2_picture_movements": [
+  {
+   "start": 1.87,
+   "end": 1.9,
+   "peak": 1.87,
+   "strength": 46.5,
+   "type": "hard cut"
+  },
+  {
+   "start": 2.13,
+   "end": 2.23,
+   "peak": 2.2,
+   "strength": 21.7,
+   "type": "movement"
+  },
+  {
+   "start": 2.33,
+   "end": 2.4,
+   "peak": 2.33,
+   "strength": 16.6,
+   "type": "movement"
+  }
+ ],
+ "part3_background": [
+  {
+   "t": "0.0-2.5",
+   "kind": "sound",
+   "level_db": -22.3
+  }
+ ]
+}

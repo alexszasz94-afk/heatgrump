@@ -1,0 +1,115 @@
+{
+ "file": "/home/user/heatgrump/output/videos/reveal/r2-32.mp4",
+ "hook_end": 4.07,
+ "higgsfield_line": "",
+ "no_voice": true,
+ "part1_voice": {
+  "who": "nobody speaks",
+  "phrases": [],
+  "words": []
+ },
+ "part2_action_sounds": [
+  {
+   "start": 2.84,
+   "peak": 2.86,
+   "end": 2.95,
+   "peak_db": -26.2,
+   "centroid_hz": 1768,
+   "kind": "mid tap/knock/paper",
+   "during_speech": false,
+   "matches_movement": true
+  },
+  {
+   "start": 3.64,
+   "peak": 3.66,
+   "end": 3.69,
+   "peak_db": -31.4,
+   "centroid_hz": 1527,
+   "kind": "mid tap/knock/paper",
+   "during_speech": false,
+   "matches_movement": true
+  },
+  {
+   "start": 4.03,
+   "peak": 4.05,
+   "end": 4.07,
+   "peak_db": -28.2,
+   "centroid_hz": 1707,
+   "kind": "mid tap/knock/paper",
+   "during_speech": false,
+   "matches_movement": true
+  }
+ ],
+ "part2_picture_movements": [
+  {
+   "start": 1.97,
+   "end": 2.0,
+   "peak": 1.97,
+   "strength": 3.5,
+   "type": "movement"
+  },
+  {
+   "start": 2.7,
+   "end": 2.73,
+   "peak": 2.7,
+   "strength": 5.4,
+   "type": "movement"
+  },
+  {
+   "start": 2.83,
+   "end": 2.9,
+   "peak": 2.83,
+   "strength": 20.2,
+   "type": "movement"
+  },
+  {
+   "start": 3.0,
+   "end": 3.07,
+   "peak": 3.0,
+   "strength": 4.0,
+   "type": "movement"
+  },
+  {
+   "start": 3.17,
+   "end": 3.23,
+   "peak": 3.17,
+   "strength": 3.7,
+   "type": "movement"
+  },
+  {
+   "start": 3.43,
+   "end": 3.57,
+   "peak": 3.47,
+   "strength": 5.6,
+   "type": "movement"
+  },
+  {
+   "start": 3.67,
+   "end": 3.73,
+   "peak": 3.67,
+   "strength": 7.4,
+   "type": "movement"
+  },
+  {
+   "start": 3.83,
+   "end": 3.9,
+   "peak": 3.87,
+   "strength": 11.3,
+   "type": "movement"
+  },
+  {
+   "start": 4.0,
+   "end": 4.07,
+   "peak": 4.0,
+   "strength": 11.5,
+   "type": "movement"
+  }
+ ],
+ "part3_background": [
+  {
+   "t": "0.0-4.1",
+   "kind": "sound",
+   "level_db": -42.9
+  }
+ ]
+}

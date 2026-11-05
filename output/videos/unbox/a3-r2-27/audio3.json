@@ -1,0 +1,77 @@
+{
+ "file": "/home/user/heatgrump/output/videos/unbox/r2-27.mp4",
+ "hook_end": 7.96,
+ "higgsfield_line": "",
+ "no_voice": true,
+ "part1_voice": {
+  "who": "nobody speaks",
+  "phrases": [],
+  "words": []
+ },
+ "part2_action_sounds": [],
+ "part2_picture_movements": [
+  {
+   "start": 0.03,
+   "end": 0.07,
+   "peak": 0.03,
+   "strength": 22.1,
+   "type": "movement"
+  },
+  {
+   "start": 0.17,
+   "end": 0.23,
+   "peak": 0.2,
+   "strength": 30.8,
+   "type": "hard cut"
+  },
+  {
+   "start": 0.33,
+   "end": 0.4,
+   "peak": 0.33,
+   "strength": 26.1,
+   "type": "hard cut"
+  },
+  {
+   "start": 1.2,
+   "end": 1.23,
+   "peak": 1.2,
+   "strength": 22.0,
+   "type": "movement"
+  },
+  {
+   "start": 2.7,
+   "end": 2.73,
+   "peak": 2.7,
+   "strength": 19.8,
+   "type": "movement"
+  },
+  {
+   "start": 3.03,
+   "end": 3.07,
+   "peak": 3.03,
+   "strength": 31.5,
+   "type": "hard cut"
+  },
+  {
+   "start": 5.83,
+   "end": 5.87,
+   "peak": 5.83,
+   "strength": 35.2,
+   "type": "hard cut"
+  },
+  {
+   "start": 6.83,
+   "end": 6.87,
+   "peak": 6.83,
+   "strength": 37.5,
+   "type": "hard cut"
+  }
+ ],
+ "part3_background": [
+  {
+   "t": "0.0-8.0",
+   "kind": "sound",
+   "level_db": -19.3
+  }
+ ]
+}

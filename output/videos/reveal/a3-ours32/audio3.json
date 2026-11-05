@@ -1,0 +1,132 @@
+{
+ "file": "/home/user/heatgrump/output/videos/reveal/hook-set32.mp4",
+ "hook_end": 4.07,
+ "higgsfield_line": "",
+ "no_voice": true,
+ "part1_voice": {
+  "who": "nobody speaks",
+  "phrases": [],
+  "words": []
+ },
+ "part2_action_sounds": [
+  {
+   "start": 2.8,
+   "peak": 2.86,
+   "end": 2.91,
+   "peak_db": -32.7,
+   "centroid_hz": 911,
+   "kind": "mid tap/knock/paper",
+   "during_speech": false,
+   "matches_movement": true
+  },
+  {
+   "start": 3.22,
+   "peak": 3.24,
+   "end": 3.26,
+   "peak_db": -32.1,
+   "centroid_hz": 1300,
+   "kind": "mid tap/knock/paper",
+   "during_speech": false,
+   "matches_movement": true
+  },
+  {
+   "start": 3.53,
+   "peak": 3.54,
+   "end": 3.57,
+   "peak_db": -36.2,
+   "centroid_hz": 1045,
+   "kind": "mid tap/knock/paper",
+   "during_speech": false,
+   "matches_movement": true
+  },
+  {
+   "start": 3.96,
+   "peak": 3.98,
+   "end": 4.03,
+   "peak_db": -30.3,
+   "centroid_hz": 1564,
+   "kind": "mid tap/knock/paper",
+   "during_speech": false,
+   "matches_movement": true
+  }
+ ],
+ "part2_picture_movements": [
+  {
+   "start": 1.93,
+   "end": 2.03,
+   "peak": 1.97,
+   "strength": 3.8,
+   "type": "movement"
+  },
+  {
+   "start": 2.7,
+   "end": 2.73,
+   "peak": 2.7,
+   "strength": 4.2,
+   "type": "movement"
+  },
+  {
+   "start": 2.83,
+   "end": 2.9,
+   "peak": 2.83,
+   "strength": 20.7,
+   "type": "movement"
+  },
+  {
+   "start": 3.0,
+   "end": 3.07,
+   "peak": 3.0,
+   "strength": 5.2,
+   "type": "movement"
+  },
+  {
+   "start": 3.17,
+   "end": 3.23,
+   "peak": 3.17,
+   "strength": 4.0,
+   "type": "movement"
+  },
+  {
+   "start": 3.37,
+   "end": 3.4,
+   "peak": 3.37,
+   "strength": 3.8,
+   "type": "movement"
+  },
+  {
+   "start": 3.5,
+   "end": 3.57,
+   "peak": 3.5,
+   "strength": 5.9,
+   "type": "movement"
+  },
+  {
+   "start": 3.67,
+   "end": 3.73,
+   "peak": 3.7,
+   "strength": 9.1,
+   "type": "movement"
+  },
+  {
+   "start": 3.83,
+   "end": 3.9,
+   "peak": 3.87,
+   "strength": 12.2,
+   "type": "movement"
+  },
+  {
+   "start": 4.0,
+   "end": 4.07,
+   "peak": 4.0,
+   "strength": 14.9,
+   "type": "movement"
+  }
+ ],
+ "part3_background": [
+  {
+   "t": "0.0-4.1",
+   "kind": "sound",
+   "level_db": -47.3
+  }
+ ]
+}
