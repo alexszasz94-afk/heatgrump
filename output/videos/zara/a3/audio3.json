@@ -1,0 +1,81 @@
+{
+ "file": "../output/videos/zara/ref/hook-part.mp4",
+ "hook_end": 5.98,
+ "higgsfield_line": "",
+ "no_voice": false,
+ "part1_voice": {
+  "who": "nobody speaks",
+  "phrases": [],
+  "words": []
+ },
+ "part2_action_sounds": [
+  {
+   "start": 5.49,
+   "peak": 5.49,
+   "end": 5.6,
+   "peak_db": -14.5,
+   "centroid_hz": 1809,
+   "kind": "mid tap/knock/paper",
+   "during_speech": false,
+   "matches_movement": true
+  }
+ ],
+ "part2_picture_movements": [
+  {
+   "start": 3.5,
+   "end": 3.97,
+   "peak": 3.93,
+   "strength": 8.6,
+   "type": "movement"
+  },
+  {
+   "start": 4.1,
+   "end": 4.13,
+   "peak": 4.1,
+   "strength": 8.1,
+   "type": "movement"
+  },
+  {
+   "start": 4.23,
+   "end": 4.67,
+   "peak": 4.3,
+   "strength": 10.1,
+   "type": "movement"
+  },
+  {
+   "start": 4.77,
+   "end": 4.8,
+   "peak": 4.77,
+   "strength": 34.3,
+   "type": "hard cut"
+  },
+  {
+   "start": 5.03,
+   "end": 5.13,
+   "peak": 5.03,
+   "strength": 9.6,
+   "type": "movement"
+  },
+  {
+   "start": 5.23,
+   "end": 5.3,
+   "peak": 5.27,
+   "strength": 7.2,
+   "type": "movement"
+  },
+  {
+   "start": 5.4,
+   "end": 6.0,
+   "peak": 5.53,
+   "strength": 21.6,
+   "type": "movement"
+  }
+ ],
+ "part3_background": [
+  {
+   "t": "0.0-6.0",
+   "kind": "sound",
+   "level_db": -10.2
+  }
+ ]
+}

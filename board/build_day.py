@@ -4,7 +4,7 @@ R=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 day,out=sys.argv[1],sys.argv[2]; os.makedirs(f"{out}/thumbs",exist_ok=True)
 D=json.load(open(f"{R}/board/days/{day}.json"))
 RAW="https://github.com/alexszasz94-afk/heatgrump/raw/heatgrump-studio/"
-NAMES={"storemug":"Magazin – cana","grinchmom":"Grinch mom","nogift":"No gift is perfect","tray123":"Tava 1-2-3","mallwindow":"Vitrina mall","mallrun":"Mall run","twofriends":"Două prietene","hmstore":"H&M dezvelire","mallcoffee":"Mall cafea + vitrină","unroll":"Rulou desfăcut","rollcake":"Rulou cu tava","fbhook":"Hook Facebook"}
+NAMES={"storemug":"Magazin – cana","grinchmom":"Grinch mom","nogift":"No gift is perfect","tray123":"Tava 1-2-3","mallwindow":"Vitrina mall","mallrun":"Mall run","twofriends":"Două prietene","hmstore":"H&M dezvelire","mallcoffee":"Mall cafea + vitrină","unroll":"Rulou desfăcut","rollcake":"Rulou cu tava","fbhook":"Hook Facebook","unbox":"Unboxing mailer","zara":"Grinch x ZARA","costco":"Costco rush","reveal":"Dezvelire cu pânză","rollup":"Rulou deasupra capului"}
 ACC={"a":"Cont 1","b":"Cont 2","c":"Cont 3"}
 cols=[]
 for k,lst in D["accounts"].items():
@@ -21,5 +21,5 @@ for k,lst in D["accounts"].items():
 <label class="post"><input type="checkbox" data-post="{day}_{k}_{v['dir']}"> Postat</label><div class="act"><button type="button" data-copy="{cid}">Copiază caption</button><a class="dl" href="{RAW}{v['file']}" target="_blank" rel="noopener">Descarcă MP4</a><span class="set">{v['set']}</span></div></div></article>''')
     cols.append(f'<section class="acc"><h2>{ACC[k]} <small><b class="cnt" data-acc="{k}">0</b>/{len(lst)} postate</small></h2>{"".join(cards)}</section>')
 tpl=open(f"{R}/board/day_template.html").read()
-open(f"{out}/index.html","w").write(tpl.replace("__DAY__",day).replace("__COLS__","".join(cols)).replace("__N__",str(sum(len(l) for l in D['accounts'].values()))))
+open(f"{out}/index.html","w").write(tpl.replace("__DAY__",day).replace("__COLS__","".join(cols)).replace("__NC__",str(len(D["accounts"]))).replace("__N__",str(sum(len(l) for l in D['accounts'].values()))))
 print(out)

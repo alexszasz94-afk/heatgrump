@@ -1,0 +1,32 @@
+{
+ "out": "/home/user/heatgrump/output/videos/reveal-set33/reveal-set33-FINAL.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/videos/reveal/hook-set33.mp4",
+   "start": 0,
+   "end": 4.07,
+   "audio": true
+  },
+  {
+   "file": "/home/user/heatgrump/output/broll-grinch/set33/tail.mp4",
+   "start": 0,
+   "end": 10.48
+  }
+ ],
+ "texts": [
+  {
+   "segs": [
+    0,
+    -1
+   ],
+   "size": 72,
+   "y": 0.165,
+   "text": "DO NOT show this to a Grinch lover 😱🤫"
+  }
+ ],
+ "music": "music/xmas/wham-last-christmas.mp3",
+ "music_start": 0.0,
+ "music_duck": 4.07,
+ "music_hook_vol": 0.7
+}

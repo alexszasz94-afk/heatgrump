@@ -1,0 +1,32 @@
+{
+ "out": "/home/user/heatgrump/output/videos/costco-set30/costco-set30-FINAL.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/videos/costco/hook-set30.mp4",
+   "start": 0,
+   "end": 2.53,
+   "audio": true
+  },
+  {
+   "file": "/home/user/heatgrump/output/broll-grinch/set30/tail.mp4",
+   "start": 0,
+   "end": 10.51
+  }
+ ],
+ "texts": [
+  {
+   "segs": [
+    0,
+    -1
+   ],
+   "size": 72,
+   "y": 0.165,
+   "text": "Moms, don’t walk… RUN for this 😱🏃‍♀️"
+  }
+ ],
+ "music": "music/xmas/wham-last-christmas.mp3",
+ "music_start": 0.0,
+ "music_duck": 2.53,
+ "music_hook_vol": 0.7
+}

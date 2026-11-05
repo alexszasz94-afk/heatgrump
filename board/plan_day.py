@@ -14,7 +14,12 @@ CAP={
  "mallcoffee":["Dropped my coffee for this and no regrets ☕💚","Saw the window and lost it 😭🎄"],
  "unroll":["Unrolling my new favorite thing 🥹💚","Mom is getting one too 😳❄️"],
  "rollcake":["Freshly baked Grinch robe, anyone? 🎂💚","Best thing I made all season 😂❄️"],
- "fbhook":["Christmas mode: ON 💚🎄","This is your sign to get cozy 🎄"]}
+ "fbhook":["Christmas mode: ON 💚🎄","This is your sign to get cozy 🎄"],
+ "unbox":["Best purchase of the year, no contest 😍💚","Opened it and immediately put it on 🥹🎄"],
+ "zara":["Designer drop? Nope, it's the Grinch 😏💚","The only collab I care about this Christmas 🤭🎄"],
+ "costco":["Grab one before they're gone 🏃‍♀️💚","Moms, this is THE gift this year 😱🎄"],
+ "reveal":["The reveal she was waiting for 🤩🎁","Wait for it… 😱💚"],
+ "rollup":["Say less, aunt is getting one 😏❄️","The softest thing I own now 🥹💚"]}
 TAGS={"a":"#grinch #christmas #cozy #giftideas #heatedrobe","b":"#grinchmas #christmasgift #momlife #cozyvibes #wintervibes","c":"#grinchy #holidaygifts #cozyseason #giftsforher #christmas2026"}
 CTA=['Type "GRINCH" if you want this 💚','Comment "GRINCH" and I\'ll send you the link 🎄','Type "GRINCH" if you need this 😏','Drop a "GRINCH" below if you want one 💚','Type "GRINCH" for the link 🎁','Comment "GRINCH" if this is so you 🤭']
 POOL=["#grinch","#christmas","#cozy","#giftideas","#heatedrobe","#grinchmas","#christmasgift","#momlife","#cozyvibes","#wintervibes","#grinchy","#holidaygifts","#cozyseason","#giftsforher","#christmas2026","#wearableblanket","#christmasvibes","#giftsformom","#hoodedblanket","#christmasmorning","#cozyhome","#holidayseason","#stockingstuffer","#christmasshopping","#grinchlover","#xmasgifts","#cozyathome","#winterfashion","#giftguide","#merrychristmas"]
@@ -26,11 +31,11 @@ def run(day,groups):
         for d in dirs:
             st=d.split('-set')[-1] if '-set' in d else 'set27'
             vids.append({"type":g,"dir":d,"set":"set"+st if not st.startswith('set') else st})
-    acc={"a":[],"b":[],"c":[]}; keys=list(acc)
+    acc={k:[] for k in "abc"[:int(os.environ.get("NACC","3"))]}; keys=list(acc)
     i=0
     for t in sorted({v['type'] for v in vids},key=lambda t:-sum(v['type']==t for v in vids)):
         for v in [x for x in vids if x['type']==t]:
-            acc[keys[i%3]].append(v); i+=1
+            acc[keys[i%len(keys)]].append(v); i+=1
     out={"day":day,"accounts":{}}
     for k,lst in acc.items():
         random.seed(day+k); order=[]; pool=lst[:]

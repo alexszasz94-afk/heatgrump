@@ -1,0 +1,98 @@
+{
+ "file": "../output/videos/unbox/ref/hook-part.mp4",
+ "hook_end": 7.96,
+ "higgsfield_line": "",
+ "no_voice": false,
+ "part1_voice": {
+  "who": "nobody speaks",
+  "phrases": [],
+  "words": []
+ },
+ "part2_action_sounds": [],
+ "part2_picture_movements": [
+  {
+   "start": 0.03,
+   "end": 0.07,
+   "peak": 0.03,
+   "strength": 21.1,
+   "type": "movement"
+  },
+  {
+   "start": 0.17,
+   "end": 0.23,
+   "peak": 0.2,
+   "strength": 28.3,
+   "type": "hard cut"
+  },
+  {
+   "start": 0.33,
+   "end": 0.4,
+   "peak": 0.33,
+   "strength": 23.0,
+   "type": "movement"
+  },
+  {
+   "start": 1.2,
+   "end": 1.23,
+   "peak": 1.2,
+   "strength": 22.0,
+   "type": "movement"
+  },
+  {
+   "start": 2.7,
+   "end": 2.73,
+   "peak": 2.7,
+   "strength": 21.9,
+   "type": "movement"
+  },
+  {
+   "start": 3.03,
+   "end": 3.07,
+   "peak": 3.03,
+   "strength": 30.8,
+   "type": "hard cut"
+  },
+  {
+   "start": 4.47,
+   "end": 4.57,
+   "peak": 4.47,
+   "strength": 13.5,
+   "type": "movement"
+  },
+  {
+   "start": 5.83,
+   "end": 5.87,
+   "peak": 5.83,
+   "strength": 39.0,
+   "type": "hard cut"
+  },
+  {
+   "start": 6.37,
+   "end": 6.4,
+   "peak": 6.37,
+   "strength": 13.4,
+   "type": "movement"
+  },
+  {
+   "start": 6.8,
+   "end": 6.83,
+   "peak": 6.8,
+   "strength": 39.7,
+   "type": "hard cut"
+  },
+  {
+   "start": 7.97,
+   "end": 8.0,
+   "peak": 7.97,
+   "strength": 57.3,
+   "type": "hard cut"
+  }
+ ],
+ "part3_background": [
+  {
+   "t": "0.0-8.0",
+   "kind": "sound",
+   "level_db": -5.3
+  }
+ ]
+}

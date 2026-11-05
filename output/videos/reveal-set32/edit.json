@@ -1,0 +1,32 @@
+{
+ "out": "/home/user/heatgrump/output/videos/reveal-set32/reveal-set32-FINAL.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/videos/reveal/hook-set32.mp4",
+   "start": 0,
+   "end": 4.07,
+   "audio": true
+  },
+  {
+   "file": "/home/user/heatgrump/output/broll-grinch/set32/tail.mp4",
+   "start": 0,
+   "end": 11.71
+  }
+ ],
+ "texts": [
+  {
+   "segs": [
+    0,
+    -1
+   ],
+   "size": 72,
+   "y": 0.165,
+   "text": "DO NOT show this to a Christmas-aholic 😱🤫"
+  }
+ ],
+ "music": "music/xmas/let-it-go.mp3",
+ "music_start": 54.43,
+ "music_duck": 4.07,
+ "music_hook_vol": 0.7
+}
