@@ -128,3 +128,4 @@ Sursa: memoria Cowork + sesiunea 16–29 sept. Regula mai nouă bate regula mai 
   - La B-roll-uri, îmbrăcămintea de dedesubt e în stil american (ex. pijama cu stele și dungi, hanorac de colegiu/varsity, tricou cu steag, flanel + jeans).
   - Folosim doar personaje care arată ca oameni obișnuiți din SUA (aspect, coafură, stil, casă americană), diverși ca înainte; camerele să arate ca locuințe americane.
 - 2026-11-05 (Szasz): sunetul hook-urilor Kling se verifică pe spectrogramă (voce/muzică/tic/liniște) înainte de montaj; bucățile proaste se curăță (engine/fixa.py), se studiază fiecare video cadru cu cadru.
+- 5 nov (Szasz): sunetul hook-ului = Kling, din analiza Higgsfield (`video_analysis`) + audio3; după generare spectrograma pe fiecare hook (fără voce/„woo”, fără muzică/beat, fără liniște). Hook-ul se oprește la sfârșitul scenei principale — fără cadrul de după (cutia deschisă) când în referință acela e deja B-roll-ul lor.
