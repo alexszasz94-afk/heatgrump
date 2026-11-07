@@ -23,7 +23,12 @@ if sets[name].get("broll_segs"):
     segs = [(segs[0][0], a, b) for a, b in sets[name]["broll_segs"]]
 nb = len(segs)
 fx = os.path.join(ROOT, "products/grinch/fixed")
-segs += [(os.path.join(fx, "connector-sofa-close-1.mp4"), 0.05, 1.70), (os.path.join(fx, "remote-sofa-close-1.mp4"), 0.3, 3.0), tailcozy]
+# 7 nov: clipurile fixe se pot schimba din mediu: FIX_CONN="fisier:start:end" FIX_REMOTE="fisier:start:end"
+def _fix(env, dflt):
+    v = os.environ.get(env)
+    if not v: return dflt
+    f, a, b = v.rsplit(":", 2); return (f if os.path.isabs(f) else os.path.join(fx, f), float(a), float(b))
+segs += [_fix("FIX_CONN", (os.path.join(fx, "connector-sofa-close-1.mp4"), 0.05, 1.70)), _fix("FIX_REMOTE", (os.path.join(fx, "remote-sofa-close-1.mp4"), 0.3, 3.0)), tailcozy]
 F = "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,setsar=1,format=yuv420p"
 ZOOM_FIXED = 0.06   # Szasz 1 Nov: conector + telecomanda = zoom-in usor, lin (6% pe toata bucata)
 BROLL_ZOOM = 1.25   # Szasz 3 nov: textul sta ca in referinte (y ~0.165) -> B-roll-ul (spate + saculeti) cu zoom 1.25 ancorat SUS, ca fata ei sa coboare sub text; saculetii raman in cadru
