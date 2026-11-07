@@ -1,0 +1,99 @@
+{
+ "day": "2026-11-07",
+ "accounts": {
+  "a": [
+   {
+    "type": "unroll",
+    "dir": "unroll-set42",
+    "set": "set42",
+    "time": "07:40",
+    "caption": "Unrolling my new favorite thing 🥹💚\nType \"GRINCH\" if you want this 💚\n#cozy #xmasgifts #cozyvibes #winterfashion #grinchmas #giftsforher",
+    "text": "Do NOT let a Grinch mom see this...🤩🎄",
+    "file": "output/videos/unroll-set42/unroll-set42-FINAL.mp4"
+   },
+   {
+    "type": "unroll",
+    "dir": "unroll-set48",
+    "set": "set48",
+    "time": "09:10",
+    "caption": "Mom is getting one too 😳❄️\nDrop a \"GRINCH\" below if you want one 💚\n#hoodedblanket #giftideas #stockingstuffer #cozyseason #christmas2026 #cozyvibes",
+    "text": "Do NOT let a Grinch mom see this...🤩🎄",
+    "file": "output/videos/unroll-set48/unroll-set48-FINAL.mp4"
+   },
+   {
+    "type": "unroll",
+    "dir": "unroll-set44",
+    "set": "set44",
+    "time": "10:40",
+    "caption": "Unrolling my new favorite thing 🥹💚\nType \"GRINCH\" if you want this 💚\n#grinchmas #christmas2026 #hoodedblanket #wearableblanket #giftideas #cozyseason",
+    "text": "Do NOT let a Grinch mom see this...🤩🎄",
+    "file": "output/videos/unroll-set44/unroll-set44-FINAL.mp4"
+   },
+   {
+    "type": "unroll",
+    "dir": "unroll-set46",
+    "set": "set46",
+    "time": "12:10",
+    "caption": "Mom is getting one too 😳❄️\nDrop a \"GRINCH\" below if you want one 💚\n#cozyvibes #christmasmorning #cozy #grinchlover #wearableblanket #giftideas",
+    "text": "Do NOT let a Grinch mom see this...🤩🎄",
+    "file": "output/videos/unroll-set46/unroll-set46-FINAL.mp4"
+   },
+   {
+    "type": "unroll",
+    "dir": "unroll-set40",
+    "set": "set40",
+    "time": "13:40",
+    "caption": "Unrolling my new favorite thing 🥹💚\nType \"GRINCH\" if you want this 💚\n#christmasshopping #heatedrobe #cozyseason #christmasvibes #momlife #grinchmas",
+    "text": "Do NOT let a Grinch mom see this...🤩🎄",
+    "file": "output/videos/unroll-set40/unroll-set40-FINAL.mp4"
+   }
+  ],
+  "b": [
+   {
+    "type": "unroll",
+    "dir": "unroll-set43",
+    "set": "set43",
+    "time": "08:00",
+    "caption": "Mom is getting one too 😳❄️\nComment \"GRINCH\" and I'll send you the link 🎄\n#grinchlover #christmasshopping #cozyhome #xmasgifts #stockingstuffer #grinch",
+    "text": "Do NOT let a Grinch mom see this...🤩🎄",
+    "file": "output/videos/unroll-set43/unroll-set43-FINAL.mp4"
+   },
+   {
+    "type": "unroll",
+    "dir": "unroll-set47",
+    "set": "set47",
+    "time": "09:30",
+    "caption": "Unrolling my new favorite thing 🥹💚\nType \"GRINCH\" for the link 🎁\n#momlife #cozyseason #xmasgifts #christmasvibes #cozyvibes #merrychristmas",
+    "text": "Do NOT let a Grinch mom see this...🤩🎄",
+    "file": "output/videos/unroll-set47/unroll-set47-FINAL.mp4"
+   },
+   {
+    "type": "unroll",
+    "dir": "unroll-set49",
+    "set": "set49",
+    "time": "11:00",
+    "caption": "Mom is getting one too 😳❄️\nComment \"GRINCH\" and I'll send you the link 🎄\n#cozyathome #heatedrobe #winterfashion #giftideas #christmas2026 #christmasvibes",
+    "text": "Do NOT let a Grinch mom see this...🤩🎄",
+    "file": "output/videos/unroll-set49/unroll-set49-FINAL.mp4"
+   },
+   {
+    "type": "unroll",
+    "dir": "unroll-set45",
+    "set": "set45",
+    "time": "12:30",
+    "caption": "Unrolling my new favorite thing 🥹💚\nType \"GRINCH\" for the link 🎁\n#hoodedblanket #cozyvibes #wearableblanket #christmas2026 #cozyathome #christmas",
+    "text": "Do NOT let a Grinch mom see this...🤩🎄",
+    "file": "output/videos/unroll-set45/unroll-set45-FINAL.mp4"
+   },
+   {
+    "type": "unroll",
+    "dir": "unroll-set41",
+    "set": "set41",
+    "time": "14:00",
+    "caption": "Mom is getting one too 😳❄️\nComment \"GRINCH\" and I'll send you the link 🎄\n#wearableblanket #giftsforher #christmasgift #giftideas #holidayseason #grinchmas",
+    "text": "Do NOT let a Grinch mom see this...🤩🎄",
+    "file": "output/videos/unroll-set41/unroll-set41-FINAL.mp4"
+   }
+  ]
+ }
+}

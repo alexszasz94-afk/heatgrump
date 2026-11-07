@@ -1,0 +1,6 @@
+Lot 7 nov – hook „rulou desfăcut” (din reelul trimis), 10 videouri, set40–set49
+Text pe ecran (exact ca în reel, tot videoul): Do NOT let a Grinch mom see this...🤩🎄
+Sunet: exact sunetul reelului, pe tot montajul.
+Hook: Kling 4.0 video-edit (Seedance a respins de 2 ori – ip_detected), tăiat la 3.97 s.
+Conector nou peste halat: products/grinch/fixed/connector-robe-1.mp4 (1.0–2.9 s)
+Telecomandă nouă: products/grinch/fixed/remote-robe-2.mp4 (0.6–5.0 s, 1.5x) – o singură luminiță, 1→5

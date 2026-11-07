@@ -8,3 +8,15 @@ broll set46 b31291de-0bc2-40fa-9d08-f26b8ba42cec
 broll set47 f774edff-303e-47a4-b0a0-2ec850968d2c
 broll set48 e5deb0de-db27-468a-a726-8d3150b74cb1
 broll set49 5c80c89b-6ea4-4523-a419-6f2250706ba7
+plate connector 584d0a47-cf0c-41e8-9932-8d7d0a746b74
+plate remote 5c8f4844-78c3-44c1-8110-4b0769d806e8
+hook set40 kling 5199455d-04a6-481c-82a9-a7c0da0fde06
+hook set41 619b6cb7-2d24-4766-b551-cae8ff50fdc2
+hook set42 717f6f1b-9d31-4ac1-8b02-6203d44b78c9
+hook set43 4e126e1a-f71d-4033-a104-170472c72ec2
+hook set44 6bdb6703-88a9-4b63-b6e3-adb61da9e63f
+hook set45 abefd790-1363-45c4-9641-1c669f125597
+hook set46 5201a36c-9507-4daf-b5ae-89440d769f52
+hook set47 66858b6c-aedd-4e5b-bc71-4df787d074fc
+hook set48 21f3abe0-5ed3-402c-9a40-08bc6a637b11
+hook set49 f592a214-619b-48b9-96e4-59df9ecb421f

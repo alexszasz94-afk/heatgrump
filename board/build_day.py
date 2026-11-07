@@ -18,7 +18,7 @@ for k,lst in D["accounts"].items():
 <div class="meta"><div class="top"><time>{v['time']}</time><span class="tag t-{v['type']}">{NAMES[v['type']]}</span></div>
 <p class="ost">{html.escape(v['text']).replace(chr(10),'<br>')}</p>
 <p class="cap" id="{cid}">{html.escape(v['caption'])}</p>
-<label class="post"><input type="checkbox" data-post="{day}_{k}_{v['dir']}"> Postat</label><div class="act"><button type="button" data-copy="{cid}">Copiază caption</button><a class="dl" href="{RAW}{v['file']}" target="_blank" rel="noopener">Descarcă MP4</a><span class="set">{v['set']}</span></div></div></article>''')
+<label class="post"><input type="checkbox" data-post="{day}_{k}_{v['dir']}"> Postat</label><div class="act"><button type="button" data-copy="{cid}">Copiază caption</button><a class="dl" href="v/{v['dir']}.mp4" download="{v['dir']}.mp4">Descarcă MP4</a><span class="set">{v['set']}</span></div></div></article>''')
     cols.append(f'<section class="acc"><h2>{ACC[k]} <small><b class="cnt" data-acc="{k}">0</b>/{len(lst)} postate</small></h2>{"".join(cards)}</section>')
 tpl=open(f"{R}/board/day_template.html").read()
 open(f"{out}/index.html","w").write(tpl.replace("__DAY__",day).replace("__COLS__","".join(cols)).replace("__NC__",str(len(D["accounts"]))).replace("__N__",str(sum(len(l) for l in D['accounts'].values()))))
