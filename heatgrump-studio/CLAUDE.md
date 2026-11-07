@@ -152,3 +152,5 @@ Hook copiat cu sunetul referinței → sunetul referinței rămâne pe TOT video
 4. Hook-ul se taie la SFÂRȘITUL scenei principale: dacă referința are după acțiune un al doilea cadru care e de fapt începutul B-roll-ului lor (deschide cutia → apoi îl poartă), îl tăiem — la noi urmează direct B-roll-ul nostru (ZARA: 4,20 s, nu 5,98; Costco: tăietura magazin→cutie, nu 2,53).
 5. Fiecare video final: grilă la 4–5 fps original-sus/al nostru-jos pe hook + 30 fps la fiecare îmbinare; abia apoi livrare.
 6. Fața: la fiecare hook cu persoană, cadru mărit lângă poza personajului din set (5 nov: ZARA 28 păstrase fața angajatei din referință).
+
+**7 nov (Szasz) — TEXTUL DE PE MONTAJ:** NU inventa texte. Pui textul exact din referință (aceleași cuvinte și emoji, la aceleași momente relative: textul care apare în B-roll-ul lor apare și în al nostru), sau textul dat de Szasz. Regula cu „~jumătate din videouri primesc alt text” e ANULATĂ.
