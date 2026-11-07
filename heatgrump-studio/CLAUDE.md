@@ -154,3 +154,5 @@ Hook copiat cu sunetul referinței → sunetul referinței rămâne pe TOT video
 6. Fața: la fiecare hook cu persoană, cadru mărit lângă poza personajului din set (5 nov: ZARA 28 păstrase fața angajatei din referință).
 
 **7 nov (Szasz) — TEXTUL DE PE MONTAJ:** NU inventa texte. Pui textul exact din referință (aceleași cuvinte și emoji, la aceleași momente relative: textul care apare în B-roll-ul lor apare și în al nostru), sau textul dat de Szasz. Regula cu „~jumătate din videouri primesc alt text” e ANULATĂ.
+
+**7 nov (Szasz):** start frame-uri și hook-uri doar în camere de SEARĂ (afară întuneric; lumina din lămpi, brad, șemineu). Pentru start frame realist: `nano_banana_pro` 4k cu prompt de poză iPhone reală.
