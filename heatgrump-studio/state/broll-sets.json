@@ -1078,5 +1078,155 @@
     "set": "set37"
    }
   ]
+ },
+ {
+  "set": "set40",
+  "variant": "v4",
+  "character_id": "31c76fed-3043-4167-99ae-b566ca80374e",
+  "character": "character-50.jpg",
+  "room": "room-4k-21.jpg",
+  "room_id": "4a15b8e3-d558-4e5b-a13a-039453d766f2",
+  "outfit": "a red-and-white Fair Isle knit pajama set",
+  "sofa": "the cream sectional sofa",
+  "kling_job": "d4c0cc6e-764a-4491-b56b-f7ad0a2ceb7e",
+  "status": "generating",
+  "note": "lot 7 nov: fete noi Pinterest, camere de seara asemanatoare reel-ului rulou"
+ },
+ {
+  "set": "set41",
+  "variant": "v4",
+  "character_id": "9a13d5b4-27bb-4c06-94da-d8da6c135bed",
+  "character": "character-51.jpg",
+  "room": "room-4k-24.jpg",
+  "room_id": "fa6d8e59-d1c8-426a-9fec-84328927d49b",
+  "outfit": "a navy flannel pajama set with small white stars",
+  "sofa": "the blush-pink sectional sofa",
+  "kling_job": "310c9c90-b03a-4560-825e-36ebec73e821",
+  "status": "generating",
+  "note": "lot 7 nov: fete noi Pinterest, camere de seara asemanatoare reel-ului rulou"
+ },
+ {
+  "set": "set42",
+  "variant": "v4",
+  "character_id": "306ef3f5-d679-4347-b77e-6b70904c3c7f",
+  "character": "character-52.jpg",
+  "room": "room-4k-40.jpg",
+  "room_id": "397ee55f-a2a2-4463-94ea-a30e2600a3e9",
+  "outfit": "a white long-sleeve thermal top and red buffalo-plaid flannel pajama pants",
+  "sofa": "the cream curved boucle sofa",
+  "kling_job": "1d5ab662-665d-4e1f-af55-9d35e5d3e961",
+  "status": "generating",
+  "note": "lot 7 nov: fete noi Pinterest, camere de seara asemanatoare reel-ului rulou"
+ },
+ {
+  "set": "set43",
+  "variant": "v4",
+  "character_id": "b82d2ce8-67e9-4491-9fba-4c5187fec797",
+  "character": "character-53.jpg",
+  "room": "room-4k-30.jpg",
+  "room_id": "5f8df571-e81c-4650-8ed0-b5a627d659b9",
+  "outfit": "a heather-grey USA college crewneck and red plaid flannel pajama pants",
+  "sofa": "the cream sofa with the rust throw",
+  "kling_job": "9ced3d0b-5949-4aa5-8dce-afdd3439b000",
+  "status": "generating",
+  "note": "lot 7 nov: fete noi Pinterest, camere de seara asemanatoare reel-ului rulou",
+  "broll_segs": [
+   [
+    0.1,
+    1.55
+   ],
+   [
+    1.96,
+    5.59
+   ]
+  ]
+ },
+ {
+  "set": "set44",
+  "variant": "v4",
+  "character_id": "b447f20e-f4a0-4788-a1d4-e230baa54bef",
+  "character": "character-54.jpg",
+  "room": "room-4k-26.jpg",
+  "room_id": "032618ab-386e-4f2b-b678-10734031f638",
+  "outfit": "a white thermal henley and green-and-red plaid flannel pajama pants",
+  "sofa": "the dark-green velvet sofa",
+  "kling_job": "a674f82d-7c94-4ac4-80d7-7a14eab2f0e4",
+  "status": "generating",
+  "note": "lot 7 nov: fete noi Pinterest, camere de seara asemanatoare reel-ului rulou",
+  "broll_segs": [
+   [
+    0.1,
+    0.75
+   ],
+   [
+    1.45,
+    6.05
+   ]
+  ]
+ },
+ {
+  "set": "set45",
+  "variant": "v4",
+  "character_id": "da12ddf4-c16c-4271-b9eb-7834efa08d6c",
+  "character": "character-55.jpg",
+  "room": "room-4k-31.jpg",
+  "room_id": "22048d3d-e38f-47c3-a96f-6f7fa263014b",
+  "outfit": "a cream knit sweater and red-and-green striped pajama pants",
+  "sofa": "the white sofa",
+  "kling_job": "1b47b1a3-6bff-49bd-bf7d-0afb799e78e0",
+  "status": "generating",
+  "note": "lot 7 nov: fete noi Pinterest, camere de seara asemanatoare reel-ului rulou"
+ },
+ {
+  "set": "set46",
+  "variant": "v4",
+  "character_id": "8e6e112a-2d87-4441-b6b4-515484077f42",
+  "character": "character-56.jpg",
+  "room": "room-4k-37.jpg",
+  "room_id": "07f2ec34-b6c1-4233-bf07-d4a9a3b97690",
+  "outfit": "a red long-sleeve thermal top and navy plaid flannel pajama pants",
+  "sofa": "the dark-green sofa",
+  "kling_job": "b31291de-0bc2-40fa-9d08-f26b8ba42cec",
+  "status": "generating",
+  "note": "lot 7 nov: fete noi Pinterest, camere de seara asemanatoare reel-ului rulou"
+ },
+ {
+  "set": "set47",
+  "variant": "v4",
+  "character_id": "c81f1422-4c85-43f6-b117-d60667ac3b46",
+  "character": "character-57.jpg",
+  "room": "room-4k-36.jpg",
+  "room_id": "23efaca3-37f1-46ee-b444-eb225abbe64c",
+  "outfit": "a heather-grey tee with a small American flag and red flannel pajama pants",
+  "sofa": "the blush-pink sofa",
+  "kling_job": "f774edff-303e-47a4-b0a0-2ec850968d2c",
+  "status": "generating",
+  "note": "lot 7 nov: fete noi Pinterest, camere de seara asemanatoare reel-ului rulou"
+ },
+ {
+  "set": "set48",
+  "variant": "v4",
+  "character_id": "57c4e8fb-9287-4dec-8bf8-bf874f1aa88c",
+  "character": "character-58.jpg",
+  "room": "room-4k-33.jpg",
+  "room_id": "41e5191b-70f0-4a1e-ba63-d454d030e5b7",
+  "outfit": "a forest-green waffle-knit top and red-and-white plaid pajama pants",
+  "sofa": "the mustard-yellow curved sofa",
+  "kling_job": "e5deb0de-db27-468a-a726-8d3150b74cb1",
+  "status": "generating",
+  "note": "lot 7 nov: fete noi Pinterest, camere de seara asemanatoare reel-ului rulou"
+ },
+ {
+  "set": "set49",
+  "variant": "v4",
+  "character_id": "0e8d7d64-aca4-4e9d-ab5f-ab7dbaa15383",
+  "character": "character-59.jpg",
+  "room": "room-4k-38.jpg",
+  "room_id": "25956c91-0fe1-4c75-8aeb-a7c231c43835",
+  "outfit": "a white long-sleeve tee and red candy-cane print pajama pants",
+  "sofa": "the brown leather sofa",
+  "kling_job": "5c80c89b-6ea4-4523-a419-6f2250706ba7",
+  "status": "generating",
+  "note": "lot 7 nov: fete noi Pinterest, camere de seara asemanatoare reel-ului rulou"
  }
 ]
