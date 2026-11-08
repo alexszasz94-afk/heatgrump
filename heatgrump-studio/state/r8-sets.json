@@ -1,0 +1,92 @@
+[
+ {
+  "set": "set50",
+  "char": "character-60.jpg",
+  "char_id": "e3ec1d73-5ec9-4725-9978-b844e29e17a8",
+  "room": "bed-01.jpg",
+  "room_id": "cbe78922-2a9b-4ba9-9b98-7b508077b6ec",
+  "outfit": "a red-and-white candy-stripe pajama set",
+  "hair": "long wavy light-brown hair"
+ },
+ {
+  "set": "set51",
+  "char": "character-61.jpg",
+  "char_id": "6067fdd8-15c8-400b-a86d-3a68f8302ce5",
+  "room": "bed-02.jpg",
+  "room_id": "0444b187-c798-4747-b628-21da33e131c9",
+  "outfit": "a white long-sleeve tee and green-and-red tartan flannel pajama pants",
+  "hair": "long honey-blonde hair"
+ },
+ {
+  "set": "set52",
+  "char": "character-62.jpg",
+  "char_id": "0009540b-76e9-4456-b351-3efb30c30600",
+  "room": "bed-03.jpg",
+  "room_id": "9481ef05-30a0-47da-b141-e2d8786ea0ed",
+  "outfit": "a navy flannel pajama set with small white stars",
+  "hair": "long straight copper-red hair"
+ },
+ {
+  "set": "set53",
+  "char": "character-63.jpg",
+  "char_id": "1f1c270c-059a-48bc-bd7b-8b0f6069e255",
+  "room": "bed-04.jpg",
+  "room_id": "785e03ec-850e-4e61-bd65-e9f4ad12069d",
+  "outfit": "a cream waffle-knit top and red buffalo-plaid flannel pajama pants",
+  "hair": "long blonde balayage hair"
+ },
+ {
+  "set": "set54",
+  "char": "character-64.jpg",
+  "char_id": "290e5cdc-80eb-4e86-8b26-9fce69a83b4b",
+  "room": "bed-05.jpg",
+  "room_id": "e49a0130-ffdf-4d70-b731-0bdb1feb78d4",
+  "outfit": "a plain heather-grey crewneck with a small American flag patch and red plaid flannel pajama pants",
+  "hair": "shoulder-length strawberry-blonde hair"
+ },
+ {
+  "set": "set55",
+  "char": "character-65.jpg",
+  "char_id": "35c0f38b-259c-4555-b708-1af88b7ea55d",
+  "room": "bed-06.jpg",
+  "room_id": "1140a811-8d9e-4a8d-95b3-aa8314efc6ac",
+  "outfit": "a red long-sleeve thermal top and green plaid flannel pajama pants",
+  "hair": "long straight brown hair"
+ },
+ {
+  "set": "set56",
+  "char": "character-66.jpg",
+  "char_id": "92296996-c254-4f3c-93b8-6fdab83202f0",
+  "room": "bed-07.jpg",
+  "room_id": "013c3fae-be7d-4240-a0f7-7c31854bb3c4",
+  "outfit": "a white pajama set with tiny red snowflakes",
+  "hair": "long straight blonde hair"
+ },
+ {
+  "set": "set57",
+  "char": "character-67.jpg",
+  "char_id": "0a6f04f0-9d0f-4aa6-8d90-aaa2492ea85d",
+  "room": "bed-08.jpg",
+  "room_id": "83ee1c52-dac1-4fa0-8b58-24af02c80026",
+  "outfit": "a forest-green knit sweater and red-and-white striped pajama pants",
+  "hair": "long wavy blonde hair"
+ },
+ {
+  "set": "set58",
+  "char": "character-68.jpg",
+  "char_id": "4fc39e5a-52cb-4f8c-964c-8285afe964b9",
+  "room": "bed-09.jpg",
+  "room_id": "17121eb6-571b-4363-bf07-10f7b6e3d7d4",
+  "outfit": "a red-and-white Fair Isle knit pajama set",
+  "hair": "caramel-brown wavy hair"
+ },
+ {
+  "set": "set59",
+  "char": "character-69.jpg",
+  "char_id": "c6f82115-1022-4a08-9b9f-10e3597523e1",
+  "room": "bed-10.jpg",
+  "room_id": "c3b4b922-57e6-466c-88e8-f3bddd65cdf9",
+  "outfit": "a pink-and-red plaid flannel pajama set",
+  "hair": "long strawberry-blonde hair"
+ }
+]
