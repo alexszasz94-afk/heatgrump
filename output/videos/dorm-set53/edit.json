@@ -1,0 +1,31 @@
+{
+ "out": "/home/user/heatgrump/output/videos/dorm-set53/dorm-set53-FINAL.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/videos/r8nov/hooks/hook-set53.mp4",
+   "start": 0,
+   "end": 3.97,
+   "audio": false
+  },
+  {
+   "file": "/home/user/heatgrump/output/broll-grinch/set53/tail.mp4",
+   "start": 0,
+   "end": 11.71
+  }
+ ],
+ "texts": [
+  {
+   "segs": [
+    0,
+    -1
+   ],
+   "size": 72,
+   "y": 0.165,
+   "text": "Do NOT let a Grinch mom see this...🤩🎄"
+  }
+ ],
+ "music": "/home/user/heatgrump/output/videos/r7nov/ref/music-ref-pad.m4a",
+ "music_start": 0,
+ "music_vol": 1.0
+}
