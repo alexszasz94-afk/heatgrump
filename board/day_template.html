@@ -61,4 +61,11 @@ try{db=await claude.use("db")}catch(e){db=null}
 if(!db){clearTimeout(t);local();return;}
 db.collection("posted").onSnapshot(s=>{clearTimeout(t);state={};s.docs.forEach(d=>{state[d.id]=true});paint();st.textContent="Bifele se salvează automat și se văd pe orice telefon/calculator.";},
 e=>{clearTimeout(t);st.textContent="Bifele nu s-au putut încărca ("+(e&&e.code||"eroare")+").";});})();
+document.querySelectorAll("a.dl").forEach(a=>a.addEventListener("click",async ev=>{ev.preventDefault();const st=document.getElementById("status");
+let dl=null;try{dl=await claude.use("downloads")}catch(e){}
+if(!dl){st.textContent="Descărcarea nu e disponibilă aici – apasă pe ⋮ din video ca să-l salvezi.";return;}
+const old=a.textContent;a.textContent="Se pregătește…";
+try{const b=await (await fetch(a.getAttribute("href"))).blob();await dl.save({filename:a.getAttribute("download"),data:b});}
+catch(e){if(!e||e.code!=="declined")st.textContent="Nu s-a putut descărca ("+(e&&e.code||"eroare")+").";}
+a.textContent=old;}));
 </script>
