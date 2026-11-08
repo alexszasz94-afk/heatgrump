@@ -1,0 +1,30 @@
+{
+ "out": "/home/user/heatgrump/output/videos/ig-frozen/ig-frozen-FINAL.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/videos/ig-frozen/ig-frozen-grinch.mp4",
+   "start": 0,
+   "end": 11.0
+  }
+ ],
+ "texts": [
+  {
+   "t0": 0,
+   "t1": 9.53,
+   "text": "I made this for the\ncold-aholics.. 🥶❄️",
+   "size": 72,
+   "y": 0.165
+  },
+  {
+   "t0": 9.53,
+   "t1": 999,
+   "text": "Comment \"GRINCH\"\nif you NEED this! 😍🎄",
+   "size": 72,
+   "y": 0.165
+  }
+ ],
+ "music": "music/xmas/mariah-all-i-want.mp3",
+ "music_start": 53.4,
+ "music_vol": 1.0
+}
