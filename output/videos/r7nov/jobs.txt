@@ -21,3 +21,21 @@ hook set47 66858b6c-aedd-4e5b-bc71-4df787d074fc
 hook set48 21f3abe0-5ed3-402c-9a40-08bc6a637b11
 hook set49 f592a214-619b-48b9-96e4-59df9ecb421f
 hook set41 retry e3e5bdd9-5d29-4b30-abb8-f357212642ac
+broll2 set40 9dc5164e-76ed-41a0-967f-c4b37bff2a05
+genjutsu test set40 0f5933b8 ip_detected
+motion_control test set40 659891d9 (fata ok, miscare proasta)
+still set40 d320bd56
+seedance faceswap front40 d35a8b1b-52e8-498d-a7f1-9068a9a93584 OK
+faceswap 41 cb1889bd-1fc9-408c-bc44-53e7e7843c49
+faceswap 42 34461165-028b-42c2-8ff4-8e0ec5e4504d
+faceswap 43 28824ec5-adb4-4a99-8c6e-f67f65a60f80
+faceswap 44 151b2d77-85f0-4f3d-9ae8-83415ee82ac1
+faceswap 45 b45952df-7bfb-416b-b6dd-58189122e8b6
+faceswap 46 e4a7cdc3-fb8c-4fa2-a336-eb0c6502af28
+faceswap 47 d5411409-22f4-4c95-b7f6-69f5786f3e5f
+faceswap 48 7da277bc-62fe-4cb7-8da8-624a5c65273c
+faceswap 49 7d7e9c16-fe64-40c4-9422-0e014a1ad27f
+faceswap retry 41 0c5fd33f-abaf-4c12-accb-74a47f2baf7e (folosit)
+faceswap retry 43 7312dff2-c176-4399-84d0-5154905fd03c (folosit)
+faceswap retry 45 8b648d0d-a8ec-4ab7-b69b-062cea4bd634 (folosit)
+faceswap retry 48 e47cfb08-84f4-4d41-9fb5-b7e592e00c78 (folosit)

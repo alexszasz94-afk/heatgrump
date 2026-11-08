@@ -208,7 +208,7 @@ XMAS_SONGS = {   # rule 30 Oct (Alex): rotating Christmas songs, shared pool for
     "mariah-all-i-want.mp3": 53.4,
     "buble-beginning.mp3": 35.35,
     "wham-last-christmas.mp3": 0.0,   # steady from the start, no clear drop
-    "let-it-go.mp3": 58.5,            # chorus; Alex: fits the Princess robe best
+    # "let-it-go.mp3": 58.5,  # SCOASĂ (Szasz 8 nov): piesa de la prințesă NU se mai pune la Grinch
 }
 
 

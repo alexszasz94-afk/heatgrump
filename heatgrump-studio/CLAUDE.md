@@ -156,3 +156,5 @@ Hook copiat cu sunetul referinței → sunetul referinței rămâne pe TOT video
 **7 nov (Szasz) — TEXTUL DE PE MONTAJ:** NU inventa texte. Pui textul exact din referință (aceleași cuvinte și emoji, la aceleași momente relative: textul care apare în B-roll-ul lor apare și în al nostru), sau textul dat de Szasz. Regula cu „~jumătate din videouri primesc alt text” e ANULATĂ.
 
 **7 nov (Szasz):** start frame-uri și hook-uri doar în camere de SEARĂ (afară întuneric; lumina din lămpi, brad, șemineu). Pentru start frame realist: `nano_banana_pro` 4k cu prompt de poză iPhone reală.
+
+**8 nov (Szasz):** fără piesa de la prințesă (`let-it-go.mp3`) la Grinch. Hook și B-roll = aceeași fată (față mărită lângă poza ei; Kling video-edit pe gv4 păstrează fața actriței → scena din față se reface cu motion control din poza ei în halat). Conector + telecomandă = clipurile vechi (connector-sofa-close-1 / remote-sofa-close-1). În B-roll se taie a doua mișcare de picior / gluga de două ori, tăietură verificată la 30 fps.
