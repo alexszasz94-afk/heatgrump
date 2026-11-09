@@ -49,3 +49,6 @@ LOT DORMITOARE: hook-uri gata (output/videos/r8nov/hooks); B-roll gata 50-59; fa
 9 nov grinch decor: 33dfe8ff 25a31b07 2e3a1766 8e4db615 9969f6b7
 9 nov living alive: f861aced e0b58b2a c794c09b ecbe3244 5ad3f6e6 08b1fe3e d22c6041 5922e39b 0db96be9 1e6f0f72 a960b07f cc829ce0 204215ab
 9 nov living sofa-only: 927ab83a 5e68d183 2f7c221f 07296758 88e0baef fbf53439 423d86cf 7506af71 235fcff7 ccaff8b9 0ce067eb 4e357a80 4d0573d9
+9 nov princess (5 dorm, 5 living): e62aa951 fb853e07 bfda6bf0 bede638d fd66d95d cc7b92e2 a0808cda f3165b45 ab68a440 d5ffa4bf
+9 nov grinch (5 dorm, 5 living): 4e8d9822 8511a5be c75d9e4d f4a1e75d 8835ed6b 50ea7199 41473b05 7c8f3cae a62fea19 5e9d73ff
+9 nov snoopy (5 dorm, 5 living): 49666486 65040166 d1f62d94 3dad7f41 41a525d3 f2c3a0e9 13036027 589d75ea b3b2cac5 e106c98a
