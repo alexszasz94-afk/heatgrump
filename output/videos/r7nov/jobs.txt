@@ -46,3 +46,5 @@ LOT DORMITOARE: hook-uri gata (output/videos/r8nov/hooks); B-roll gata 50-59; fa
 9 nov dormitoare zi 4k: ef92ef18 e64b857b a1379866 7592ef22 ef1aeaa2 d3fa903b c1b42249 0f4a997c 379003b8 36e1d520
 9 nov dormitoare apus: e200c3dc bbcb1747 bb1d86a4 133290ce 3c634cfa 33b4fef8 cdacfd3e 9764397e 5b68db44 966c8df4
 9 nov living elegant: 64cd535a b21c4539 faf2fdb0 d442a7e9 d36ba721 82d7cc08 164ce371 a0d37f05 73044fe4 9246349a
+9 nov grinch decor: 33dfe8ff 25a31b07 2e3a1766 8e4db615 9969f6b7
+9 nov living alive: f861aced e0b58b2a c794c09b ecbe3244 5ad3f6e6 08b1fe3e d22c6041 5922e39b 0db96be9 1e6f0f72 a960b07f cc829ce0 204215ab
