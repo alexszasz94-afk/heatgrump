@@ -48,3 +48,4 @@ LOT DORMITOARE: hook-uri gata (output/videos/r8nov/hooks); B-roll gata 50-59; fa
 9 nov living elegant: 64cd535a b21c4539 faf2fdb0 d442a7e9 d36ba721 82d7cc08 164ce371 a0d37f05 73044fe4 9246349a
 9 nov grinch decor: 33dfe8ff 25a31b07 2e3a1766 8e4db615 9969f6b7
 9 nov living alive: f861aced e0b58b2a c794c09b ecbe3244 5ad3f6e6 08b1fe3e d22c6041 5922e39b 0db96be9 1e6f0f72 a960b07f cc829ce0 204215ab
+9 nov living sofa-only: 927ab83a 5e68d183 2f7c221f 07296758 88e0baef fbf53439 423d86cf 7506af71 235fcff7 ccaff8b9 0ce067eb 4e357a80 4d0573d9
