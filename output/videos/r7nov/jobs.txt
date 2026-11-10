@@ -75,3 +75,6 @@ LOT DORMITOARE: hook-uri gata (output/videos/r8nov/hooks); B-roll gata 50-59; fa
 P2-green-lily broll retry (2 botosei): ea22a0eb-896e-4b26-ba9e-e79cd6d179b7
 P2-snow-apple cozy retry (rosu jos): bc6ffbda-83ba-408c-9ff1-6617a10cb438
 P3-golden-rose cozy retry (taburet): e7b44cc2-25f9-4b5c-845d-21d981d8dff9
+P3-golden cozy retry2: 1adf292b-5cf7-4e23-beef-23f93a0574cb
+P5 cozy retries: golden d2459355 green 080c8087
+P5-golden broll retry (2 pungi): 25e2aacc-c0a3-4ae1-8279-ab8f46c341b0

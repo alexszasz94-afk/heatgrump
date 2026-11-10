@@ -55,3 +55,13 @@ Canapeaua = cea reală din camera originală (NU se refac camerele), descrisă e
 - Conector + telecomandă noi: `../library/motion/conector-telecomanda-DfdeJPkjuE4.mp4` (4,0 s; 0–1,33 conector alb în două părți, 1,33–2,67 mufa în sherpa, 2,67–4 telecomanda albă cu ecran 86°). Video-edit: mâinile fetei (scrie explicit „very fair, pale skin… no dark skin”, altfel rămân mâinile din original), stofa verde → stofa halatului.
 - Halatul REAL de prințesă (din reel): interior alb pufos (sherpa), UN SINGUR săculet larg alb pe toată lățimea tivului, glugă mare ROTUNJITĂ cu bordură albă groasă și emblema sus deasupra frunții.
 - Referințe glugă purtată (10 nov): `products/princess/refs/<halat>-hood-up.jpg` (job-uri: golden 1fcb438b, ice c63f81fd, snow 0e5c7675, green 7ac84995). Se atașează MEREU la B-roll și cozy. Grinch: `products/grinch/refs/hood.jpg`; Snoopy: kit `refs/hood.jpg` (ambele deja cu gluga purtată).
+
+## Board Prințesă (10 nov) — 5 conturi × 4 halate, B-roll nou la toate
+- Board: https://claude.ai/artifact/11pR6oHUpYqkZWPaz2XP4T (video + fata + camera la fiecare set). Planul și promptumile exacte: `output/boards/printesa/plan.json`.
+- Montaj: B-roll nou DfdeJ (0–4,97) → conector + telecomandă de la ei, curățate de text (`../library/motion/conector-telecomanda-DfdeJ-curat.mp4`, 0–3,97) → cozy (0–2,97).
+- Formulări care au rezolvat greșelile (se păstrează în toate prompturile):
+  - săculet: „ONE single wide pouch … one piece from the left edge of the robe to the right edge; never two separate pouches, never booties, never slippers, never boots” (altfel ies 2 botoșei);
+  - cozy pe canapea: „She sits ON THE LONG … SOFA OF IMAGE 2 … the sofa's seat cushion is under her, the sofa's backrest is directly behind her back … There is no pouf, no ottoman, no stool, no armchair and no round seat anywhere” (altfel inventează un taburet în mijlocul camerei — mai ales livingul printesa-08);
+  - picioare: „At the bottom of the frame there is ONLY the robe and its white hem resting on the floor: no toes, no feet, no slippers, no socks and no pajama below the hem”.
+- Verificare obligatorie pe fiecare set: cadre mari (jumătatea de jos) la 3,0 / 3,5 / 4,0 s (săculet) și 9,3 / 10,3 / 11,5 s (cozy) + fața la 2,2 s.
+- Disc: videourile NU se mai urcă în git (umplu discul); merg direct în board.
