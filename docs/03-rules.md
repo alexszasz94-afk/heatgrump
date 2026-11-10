@@ -144,3 +144,4 @@ Sursa: memoria Cowork + sesiunea 16–29 sept. Regula mai nouă bate regula mai 
 - 10 nov (Szasz): la cozy promptul spune clar că picioarele sunt complet acoperite de halat (nu se vede pijama, genunchi, șosete, tălpi). Camerele nu se refac pentru cozy; canapeaua reală se descrie exact.
 - 10 nov (Szasz): în B-roll nu se schimbă unghiul la aceeași mișcare; orice plan în plus pus de Kling se taie la montaj (verificare 10–30 fps).
 - 10 nov (Szasz): la săculeți picioarele pornesc AFARĂ (desculță, pe podea, în spatele tivului) și le bagă pe rând, câte o dată fiecare; niciodată deja înăuntru și băgate iar; mereu un picior pe podea, nu stă în aer. Scris explicit în prompt (vezi heatgrump-studio/RETETA-HALATE.md).
+- 10 nov (Szasz): săculeții NU se refac cu Kling (era mai bine originalul). Se rezolvă din montaj: tăietură de la ~2,5 s (începe să deschidă a doua parte) direct la ~3,1 s (piciorul al doilea sus, gata să intre). Vezi output/boards/grinch/montaj-v6.sh.
