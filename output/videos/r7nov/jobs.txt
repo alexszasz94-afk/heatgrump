@@ -91,3 +91,4 @@ GRINCH living retry4: 73a12bea gluga/fata OK dar sosete sub saculeti + cadru 1 u
 GRINCH living retry5 ALES: 988d81dd (cadru 1 curat cu ochi Grinch pe gluga, fata vizibila, picioare in saculeti). Montaj: broll 0-4.97 + conector-telecomanda-alb 0-3.97 + cozy ea748687 0.6-2.97 (inceput cu fata ascunsa taiat) = 11.37 s
 10 nov GRINCH 5 conturi x 3 seturi: plan+joburi in output/boards/grinch/{plan,jobs}.json (14 broll + 12 cozy noi; G1-1 = testul living, G2-1 cozy = test dormitor db42542f; camere living printesa P06-P10 la cerere)
 10 nov seara: B-roll v4 (interior gluga simplu) test G1-2 e244998a G2-1 e6594e5c G3-1 1676be34
+10 nov: ref spate gluga jos cu ochii pe exterior: A manechin 87b2904a, B fata 8213ece6 (asteapta OK Szasz)
