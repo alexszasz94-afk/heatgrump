@@ -80,3 +80,8 @@ Canapeaua = cea reală din camera originală (NU se refac camerele), descrisă e
 - Cozy: tăiem primele 0,6 s (stă aplecată, fața ascunsă). Montaj 11,37 s.
 - Rată: ~1 din 3 B-roll-uri trece din prima; buget ~2,5 încercări / set.
 - CORECTURĂ 10 nov seara (Szasz): fața Grinch e DOAR pe exteriorul glugii; interiorul glugii e verde simplu. Formula „GREEN GRINCH-FACE PANEL ON TOP … on the back” a făcut Kling să pună fața pe interior la TOATE cele 15 → anulată. Nouă: „THE INSIDE OF THE HOOD is plain green plush with NO face … WHEN THE HOOD HANGS DOWN HER BACK it looks exactly like Image 4 (red outside + pompom)”. QA: în shot 1 NU trebuie să apară ochi Grinch pe căptușeală.
+
+### Săculeții — ordinea corectă (10 nov, Szasz)
+Clipul de bază are picioarele deja în săculeți și le „bagă” din nou: n-are sens. În prompt scrie MEREU ordinea explicită:
+„AT THE START BOTH BARE FEET ARE OUTSIDE THE POCKETS, standing on the floor behind the robe hem, the two empty pockets hang open at the bottom of the open robe (sewn to the robe, never loose on the floor). She puts her right foot into the right pocket for the FIRST time and sets it down, then her left foot for the FIRST time and sets it down. Each foot goes in exactly ONCE; a foot already inside is never put in again. At every moment at least one foot stands firmly on the floor; she never floats.”
+Dă ca referință și poza halatului din față + săculeții deschiși + piciorul în săculeț (altfel Kling schimbă halatul sau face săculeții covorașe pe jos).
