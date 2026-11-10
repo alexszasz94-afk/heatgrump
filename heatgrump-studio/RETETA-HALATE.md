@@ -70,3 +70,12 @@ Canapeaua = cea reală din camera originală (NU se refac camerele), descrisă e
 - Pe SPATELE glugii trebuie să fie emblema halatului (ca în reel, unde nufărul e pe spatele glugii): golden = tiara cu trandafir, ice = tiara cu cristal, snow = funda roșie cu volute aurii, green = nufărul. În prompt: „THE BACK OF THE HOOD: the <emblem> is clearly embroidered on the BACK of the hood, centred, big and visible when the hood hangs down her back” + în SHOT 1 „the hood down on her back with its embroidered emblem clearly visible”. Verificare: cadrele 10/20/30 (0,3–1,0 s) mărite.
 - Gluga nu are voie să acopere ochii: „The hood sits back on her head: its front edge is ABOVE her eyebrows, her eyes, eyebrows and whole face are always clearly visible”.
 - Conector + telecomandă UNIC pentru toate halatele: `../library/motion/conector-telecomanda-alb.mp4` (mână albă, doar sherpa albă în cadru, telecomanda cu ecran 86°), 0–3,97 în montaj.
+
+## 10 nov — Grinch 5 conturi × 3 seturi (tabla https://claude.ai/artifact/2bDAHZ7a6YjVe7RfGu3JMZ)
+- Plan + prompturi: `output/boards/grinch/plan.json` (generat de `make_plan.py`), joburi finale: `jobs.json` → `final`. Camere: dormitoare Grinch 01-05, living Grinch 06-10, living prințesă P06-P10.
+- Ce a stricat Kling cel mai des și formula care a reparat:
+  - gluga pe spate doar roșie (fără ochi): „From 0.5 s to 1.13 s the hood lies on her upper back with its GREEN GRINCH-FACE PANEL ON TOP, facing the camera … never folded with only its red side showing”.
+  - gluga peste ochi: „the hood sits back on her head … white sherpa border at her hairline” (B-roll) / „pushed far back … border on top of her head, well above her forehead” (cozy). Fără descriere grea a glugii.
+  - degete sub săculeți (mai ales camerele roz de prințesă): „the bottoms of both pockets … completely contain her feet: the floor around and in front of the pockets is empty”. Verifică MEREU banda de jos 2.6–5 s la 4 fps, mărit.
+- Cozy: tăiem primele 0,6 s (stă aplecată, fața ascunsă). Montaj 11,37 s.
+- Rată: ~1 din 3 B-roll-uri trece din prima; buget ~2,5 încercări / set.

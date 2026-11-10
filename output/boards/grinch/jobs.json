@@ -199,22 +199,18 @@
    "broll": "150303_db61bdb2-af2d-4183-b9e2-75f00ebf48a5",
    "cozy": "145927_33641d7a-894b-47d2-8e26-a152b484cc5b",
    "cozy_start": 0.6
+  },
+  "G3-3": {
+   "broll": "151152_46bc52ed-f804-4f74-82e0-10cc828043d3",
+   "cozy": "145930_c71aadbe-2815-4cdf-9903-b7404d1eb613",
+   "cozy_start": 0.6
+  },
+  "G5-3": {
+   "broll": "151151_c554167d-d2e5-4cca-9384-a7ae3e41234c",
+   "cozy": "143330_f23f2a96-2101-4553-96c6-d5d50a455b89",
+   "cozy_start": 0.6
   }
  },
- "pending": {
-  "broll": {
-   "G3-3": [
-    "46bc52ed-f804-4f74-82e0-10cc828043d3",
-    "603e77b9-03b9-4c7d-924a-ca9b04c98530"
-   ],
-   "G5-3": [
-    "b18ae40b-2fe6-49ed-9804-174d20f914c6",
-    "c554167d-d2e5-4cca-9384-a7ae3e41234c"
-   ]
-  },
-  "cozy_ok": {
-   "G3-3": "145930_c71aadbe-2815-4cdf-9903-b7404d1eb613",
-   "G5-3": "143330_f23f2a96-2101-4553-96c6-d5d50a455b89"
-  }
- }
+ "board": "https://claude.ai/artifact/2bDAHZ7a6YjVe7RfGu3JMZ",
+ "montage": "broll 0-4.97 + library/motion/conector-telecomanda-alb.mp4 0-3.97 + cozy 0.6-2.97, 1080x1920 30fps crf27 (script /tmp/pp/gm.sh); URL = https://d8j0ntlcm91z4.cloudfront.net/user_3LswZFi3bwZ0V3rYUwLSMwk6kIB/hf_20261110_<key>.mp4"
 }
