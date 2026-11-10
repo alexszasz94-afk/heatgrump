@@ -133,5 +133,89 @@
   "bkey": "135552_988d81dd-2324-4f4e-a090-b2de00250dc0",
   "ckey": "133144_ea748687-496e-4898-bd5f-9c9a67d72cac",
   "cstart": 0.6
+ },
+ "final": {
+  "G1-1": {
+   "broll": "135552_988d81dd-2324-4f4e-a090-b2de00250dc0",
+   "cozy": "133144_ea748687-496e-4898-bd5f-9c9a67d72cac",
+   "cozy_start": 0.6
+  },
+  "G1-2": {
+   "broll": "145316_4fa787c2-7ae1-49d9-b4e3-ad11fc55a3f6",
+   "cozy": "143224_bb5a4be6-cc36-4dd4-a816-98efc9763c54",
+   "cozy_start": 0.6
+  },
+  "G1-3": {
+   "broll": "142827_60644716-92b3-4d41-8275-12ad249470a9",
+   "cozy": "143224_0f9de78f-090b-46b0-bd84-2af13d49e74a",
+   "cozy_start": 0.6
+  },
+  "G2-1": {
+   "broll": "142828_1f2c20f1-ccd7-4d62-8184-d33e24cf1b23",
+   "cozy": "131905_db42542f-0d40-4dff-a8c0-26fec996543b",
+   "cozy_start": 0.6
+  },
+  "G2-2": {
+   "broll": "145316_d4d0b837-b9d2-46f8-89bd-ed0f5c40fd02",
+   "cozy": "143223_20bf5691-d405-41a2-b422-65ed9811d4f3",
+   "cozy_start": 0.6
+  },
+  "G2-3": {
+   "broll": "144254_4f640978-7743-4898-a366-532f1ae38706",
+   "cozy": "143224_8a8c79a4-a1d8-4ddf-abfc-0e28faac4c6c",
+   "cozy_start": 0.6
+  },
+  "G3-1": {
+   "broll": "142955_1968724c-d9b9-45e5-8679-9560ed7191c3",
+   "cozy": "143224_d1a2909d-25f4-4a27-a7a1-abae9a21ffe2",
+   "cozy_start": 0.6
+  },
+  "G3-2": {
+   "broll": "144254_7dfe20ad-ab8c-4d12-9563-2345f43e3757",
+   "cozy": "143224_26368c24-3265-4cab-bb2c-c5982ba8ca31",
+   "cozy_start": 0.6
+  },
+  "G4-1": {
+   "broll": "144432_2f095f56-62ec-40a3-8ed5-1d6e8dd05b7b",
+   "cozy": "143330_f84bd900-9fef-4e4a-8ed9-1c17299fb102",
+   "cozy_start": 0.6
+  },
+  "G4-3": {
+   "broll": "144431_e34ea7bb-2eef-4f53-85f9-1730df21baf8",
+   "cozy": null,
+   "cozy_start": 0.6
+  },
+  "G5-1": {
+   "broll": "144432_bd900fde-3f93-44c2-ad0f-3369fa9a5e2a",
+   "cozy": null,
+   "cozy_start": 0.6
+  },
+  "G5-2": {
+   "broll": "143111_18031b3f-53af-4212-a7f9-19c0efac0123",
+   "cozy": "143330_005e21fa-b69f-4192-9d43-a3657985d631",
+   "cozy_start": 0.6
+  }
+ },
+ "pending": {
+  "broll": {
+   "G3-3": [
+    "21ee0f33",
+    "68b9f9ca"
+   ],
+   "G4-2": [
+    "42f6aabd",
+    "db61bdb2"
+   ],
+   "G5-3": [
+    "3e4f379c",
+    "5cab8d62"
+   ]
+  },
+  "cozy": {
+   "G3-3": "c71aadbe-2815-4cdf-9903-b7404d1eb613",
+   "G4-2": "33641d7a-894b-47d2-8e26-a152b484cc5b",
+   "G4-3": "c9ee96a4-36b9-4530-a205-1083a6bc46b2",
+   "G5-1": "949704cb-a2f7-4776-af14-43513ffe8959"
+  }
  }
 }
