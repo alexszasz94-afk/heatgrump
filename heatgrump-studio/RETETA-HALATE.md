@@ -79,3 +79,4 @@ Canapeaua = cea reală din camera originală (NU se refac camerele), descrisă e
   - degete sub săculeți (mai ales camerele roz de prințesă): „the bottoms of both pockets … completely contain her feet: the floor around and in front of the pockets is empty”. Verifică MEREU banda de jos 2.6–5 s la 4 fps, mărit.
 - Cozy: tăiem primele 0,6 s (stă aplecată, fața ascunsă). Montaj 11,37 s.
 - Rată: ~1 din 3 B-roll-uri trece din prima; buget ~2,5 încercări / set.
+- CORECTURĂ 10 nov seara (Szasz): fața Grinch e DOAR pe exteriorul glugii; interiorul glugii e verde simplu. Formula „GREEN GRINCH-FACE PANEL ON TOP … on the back” a făcut Kling să pună fața pe interior la TOATE cele 15 → anulată. Nouă: „THE INSIDE OF THE HOOD is plain green plush with NO face … WHEN THE HOOD HANGS DOWN HER BACK it looks exactly like Image 4 (red outside + pompom)”. QA: în shot 1 NU trebuie să apară ochi Grinch pe căptușeală.
