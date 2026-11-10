@@ -131,3 +131,6 @@ G2-1c_b 3599c310-cd6d-4eee-914f-47df27ec3690
 G5-3 endframe b06597fa-e826-4afe-9816-5356a61575a2
 G5-3 i2v a 57abdf73-575f-47e7-8fc2-88a09beaaf00
 G5-3 i2v b abe82b64-405e-470e-bff2-ed8b67832bce
+# test saculeti (shot2 1.134-5.134)
+G1-1p d0eff93e-f6d5-4182-9c10-abe17969a027
+G5-2p 62aa1fb2-bd2d-429c-a56d-77c17891518f

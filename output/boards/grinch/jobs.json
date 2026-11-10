@@ -236,9 +236,9 @@
   "G5-3": {
    "broll": "151151_c554167d-d2e5-4cca-9384-a7ae3e41234c",
    "cozy": "221401_acbaeee6-7003-452b-938f-df0eaae19f2f",
-   "cozy_start": 0.6,
-   "hood_fix": "215318_2f22bdf1-4d66-458b-9474-7ccacb816729",
-   "hood_fix_use": "0-1.125s, then broll from 1.134s"
+   "cozy_start": 1.0,
+   "hood_fix": "222221_abe82b64-405e-470e-bff2-ed8b67832bce",
+   "hood_fix_use": "i2v start/end frame, 0-1.5s sped 1.333x, then broll from 1.134s"
   }
  },
  "board": "https://claude.ai/artifact/2bDAHZ7a6YjVe7RfGu3JMZ",
