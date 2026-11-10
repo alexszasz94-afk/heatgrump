@@ -82,3 +82,7 @@ P5-golden broll retry (2 pungi): 25e2aacc-c0a3-4ae1-8279-ab8f46c341b0
 snow P1-P3 retry (gluga pe ochi): a21e2a3f f512a86a 39578116
 snow P2/P3 retry2: 0f7a84d3 0802f4d9
 10 nov GRINCH test dormitor (fata-06, grinch-01): broll 350911b6 cozy 8c42b6da ; refs grinch front ccf9632e back 26930d56 hood dfb3995b
+10 nov GRINCH test living (fata-08, grinch-06 50ea7199, gluga detaliata): broll 55ed12d3 cozy ea748687
+GRINCH living broll retry (fata acoperita, covor): 2cbc6067
+GRINCH living broll retry2 (gluga ca o caciula): 5c6dd9c2
+GRINCH living broll retry3 (formulare dormitor; A cu ref gluga / B fara): 403c4bf5 / 9cccc6e0
