@@ -68,3 +68,9 @@ LOT DORMITOARE: hook-uri gata (output/videos/r8nov/hooks); B-roll gata 50-59; fa
 10 nov conn+remote golden retry (maini deschise): 10057b8e-5e65-4e5a-be93-9e13aabf497d
 10 nov hood-worn refs printesa: golden 1fcb438b ice c63f81fd snow 0e5c7675 green 7ac84995 ; cozy golden v5 ba241e13
 10 nov PRINTESA P1 1080p broll/cozy: golden 6de4ddaf/6734293b ice 0b92f3b8/d218e0db snow cf3cb598/6a30f7ff green 2f6fffe7/94790efa ; conn+remote text-free 6685e855
+10 nov PRINTESA P2: golden 756b778f/0de184c9 ice c9941e12/b4c0d48b snow bec84552/0f77c20c green 9aef6017/dee1f9d8
+10 nov PRINTESA P3: golden 16f69f14/7a27b2f0 ice c3aaaa17/a4b17651 snow cda112ab/3e76c276 green 223a0171/82c1cd02
+10 nov PRINTESA P4: golden 1042a586/69b0dd4b ice 068d93d0/db8f0340 snow db933075/edff28b3 green 1762330c/7e306eb5
+10 nov PRINTESA P5: golden 94534c6e/7af08054 ice 55d9560d/97f3d1a1 snow 6690741d/1f0ad934 green 8fb99e2a/b4af0d63
+P2-green-lily broll retry (2 botosei): ea22a0eb-896e-4b26-ba9e-e79cd6d179b7
+P2-snow-apple cozy retry (rosu jos): bc6ffbda-83ba-408c-9ff1-6617a10cb438

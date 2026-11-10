@@ -17,5 +17,69 @@
  ],
  "CONN-REMOTE": [
   "6685e855-3b91-4e2a-b09e-3c82c3d87abd"
+ ],
+ "P2-golden-rose": [
+  "756b778f-a6dc-406a-94c8-9029abcb18de",
+  "0de184c9-44e1-4346-98be-0d1b17b943b6"
+ ],
+ "P2-ice-blue": [
+  "c9941e12-76a2-4381-9ef2-b1c8aca3c9e2",
+  "b4c0d48b-9368-4f3c-9776-482d8d31bd8a"
+ ],
+ "P2-snow-apple": [
+  "bec84552-d5ea-485c-b135-246d0bb5d390",
+  "0f77c20c-7a92-4632-ada1-17bd1c31d7d5"
+ ],
+ "P2-green-lily": [
+  "9aef6017-0073-4bce-a374-2851b22e3424",
+  "dee1f9d8-21da-408b-9351-57da01d6f5e5"
+ ],
+ "P3-golden-rose": [
+  "16f69f14-db5e-4d08-bb4f-1a8364d33b13",
+  "7a27b2f0-1da4-4ec3-8beb-d5b6daa31096"
+ ],
+ "P3-ice-blue": [
+  "c3aaaa17-ab29-42a7-86e9-004c3fb27b76",
+  "a4b17651-f30b-4484-8356-853275775a21"
+ ],
+ "P3-snow-apple": [
+  "cda112ab-1bcf-4200-8ad9-e6abb816f8ed",
+  "3e76c276-1a55-4403-9167-7049454f09ca"
+ ],
+ "P3-green-lily": [
+  "223a0171-5a04-4942-ae62-f616fc5cc3bf",
+  "82c1cd02-8a45-412e-85cb-6ed78fcb528d"
+ ],
+ "P4-golden-rose": [
+  "1042a586-b5db-4367-a4d9-70c355f8c229",
+  "69b0dd4b-14fc-4125-9861-a50ef0e5cede"
+ ],
+ "P4-ice-blue": [
+  "068d93d0-0dd2-4f9b-a929-007d989b61fe",
+  "db8f0340-6f95-4148-9d04-c6e703956971"
+ ],
+ "P4-snow-apple": [
+  "db933075-5d49-49c6-874b-fa92c390b406",
+  "edff28b3-df2e-4665-8941-95c0fca973f3"
+ ],
+ "P4-green-lily": [
+  "1762330c-db7c-46dc-aeb1-9b1619c4f209",
+  "7e306eb5-ad64-4db7-b5ac-2354e5a26a54"
+ ],
+ "P5-golden-rose": [
+  "94534c6e-576e-4bf1-ab25-3a2d37548cb0",
+  "7af08054-379c-483d-b71f-ac4aa97c8c10"
+ ],
+ "P5-ice-blue": [
+  "55d9560d-35de-49f9-bf54-bde47481c685",
+  "97f3d1a1-ddbe-4ff0-8c59-331ca8fd59b3"
+ ],
+ "P5-snow-apple": [
+  "6690741d-d333-485f-96e1-999e79dedef5",
+  "1f0ad934-ca30-4ccf-a3f1-b7d90af0a9ac"
+ ],
+ "P5-green-lily": [
+  "8fb99e2a-142b-4b86-94a2-a66a2c255b0a",
+  "b4af0d63-6442-4831-8719-0f0ede2885f6"
  ]
 }
