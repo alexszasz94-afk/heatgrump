@@ -80,3 +80,4 @@ P5 cozy retries: golden d2459355 green 080c8087
 P5-golden broll retry (2 pungi): 25e2aacc-c0a3-4ae1-8279-ab8f46c341b0
 10 nov emblema pe spatele glugii: golden P1 1be5e414 P2 d6ba8700 P5 845dbba8 ; snow P1 5b2eb74c P2 e074b12f P3 be324a60 P4 e68dc1c3 P5 21d9b07d ; conector+telecomanda mana alba/sherpa alb: c0a62920
 snow P1-P3 retry (gluga pe ochi): a21e2a3f f512a86a 39578116
+snow P2/P3 retry2: 0f7a84d3 0802f4d9
