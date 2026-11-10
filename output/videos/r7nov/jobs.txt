@@ -57,3 +57,5 @@ LOT DORMITOARE: hook-uri gata (output/videos/r8nov/hooks); B-roll gata 50-59; fa
 10 nov princess refs front 2k: golden 0dbc3cfe ice f7cafb9c snow 8c3b2195 green ae7136f8
 10 nov princess refs: golden back 6cc1c096 hood 0be15d9e open 6763e5c4 | ice back 3fedeb57 hood 6af2922f open 4b1c455e | snow back c0d91740 hood 7f2a577b open 32bdb76d | green back f9cf9f1d hood 6e972c3f open f01e5601 | grinch-v4 media b84506c2 | pockets ex 7d7c5351
 10 nov test printesa galben gv4 720p: 89744401
+10 nov princess open W-pockets: golden 54c7ba06 ice d9449123 snow ec57251c green 8aea3f74 | pockets_2 media 2cb89cc9
+10 nov test seturi printesa 720p (broll/cozy): golden 57bab14f/2a2d1077 ice 5a7aa651/a90efecb snow 7f28d511/d0aa9af8 green 5dead618/76966545
