@@ -74,3 +74,4 @@ LOT DORMITOARE: hook-uri gata (output/videos/r8nov/hooks); B-roll gata 50-59; fa
 10 nov PRINTESA P5: golden 94534c6e/7af08054 ice 55d9560d/97f3d1a1 snow 6690741d/1f0ad934 green 8fb99e2a/b4af0d63
 P2-green-lily broll retry (2 botosei): ea22a0eb-896e-4b26-ba9e-e79cd6d179b7
 P2-snow-apple cozy retry (rosu jos): bc6ffbda-83ba-408c-9ff1-6617a10cb438
+P3-golden-rose cozy retry (taburet): e7b44cc2-25f9-4b5c-845d-21d981d8dff9
