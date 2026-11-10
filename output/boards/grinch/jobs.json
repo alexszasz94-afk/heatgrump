@@ -1,62 +1,137 @@
 {
  "1": {
   "broll": "6f23f818-b17f-48b3-a562-8295c1fe6111",
-  "cozy": "bb5a4be6-cc36-4dd4-a816-98efc9763c54"
+  "cozy": "bb5a4be6-cc36-4dd4-a816-98efc9763c54",
+  "bkey": "142828_6f23f818-b17f-48b3-a562-8295c1fe6111",
+  "ckey": "143224_bb5a4be6-cc36-4dd4-a816-98efc9763c54",
+  "broll_rejected": [
+   "6f23f818-b17f-48b3-a562-8295c1fe6111"
+  ],
+  "broll_retry": "eda304ae-882f-4d27-a256-a94eae21bfa8"
  },
  "2": {
   "broll": "60644716-92b3-4d41-8275-12ad249470a9",
-  "cozy": "0f9de78f-090b-46b0-bd84-2af13d49e74a"
+  "cozy": "0f9de78f-090b-46b0-bd84-2af13d49e74a",
+  "bkey": "142827_60644716-92b3-4d41-8275-12ad249470a9",
+  "ckey": "143224_0f9de78f-090b-46b0-bd84-2af13d49e74a",
+  "broll_ok": true
  },
  "3": {
   "broll": "1f2c20f1-ccd7-4d62-8184-d33e24cf1b23",
-  "cozy": "db42542f-0d40-4dff-a8c0-26fec996543b"
+  "cozy": "db42542f-0d40-4dff-a8c0-26fec996543b",
+  "bkey": "142828_1f2c20f1-ccd7-4d62-8184-d33e24cf1b23",
+  "ckey": "131905_db42542f-0d40-4dff-a8c0-26fec996543b",
+  "broll_ok": true
  },
  "4": {
   "broll": "271da6ee-7c86-4096-8f5d-ee901ebdcd76",
-  "cozy": "20bf5691-d405-41a2-b422-65ed9811d4f3"
+  "cozy": "20bf5691-d405-41a2-b422-65ed9811d4f3",
+  "bkey": "142828_271da6ee-7c86-4096-8f5d-ee901ebdcd76",
+  "ckey": "143223_20bf5691-d405-41a2-b422-65ed9811d4f3",
+  "broll_rejected": [
+   "271da6ee-7c86-4096-8f5d-ee901ebdcd76"
+  ],
+  "broll_retry": "1ed6f8c2-25ba-4652-8298-d06eab8546ec"
  },
  "5": {
   "broll": "5a7bb983-db33-4784-827e-1304aefc7b5f",
-  "cozy": "8a8c79a4-a1d8-4ddf-abfc-0e28faac4c6c"
+  "cozy": "8a8c79a4-a1d8-4ddf-abfc-0e28faac4c6c",
+  "bkey": "142828_5a7bb983-db33-4784-827e-1304aefc7b5f",
+  "ckey": "143224_8a8c79a4-a1d8-4ddf-abfc-0e28faac4c6c",
+  "broll_rejected": [
+   "5a7bb983-db33-4784-827e-1304aefc7b5f"
+  ],
+  "broll_retry": "4f640978-7743-4898-a366-532f1ae38706"
  },
  "6": {
   "broll": "1968724c-d9b9-45e5-8679-9560ed7191c3",
-  "cozy": "d1a2909d-25f4-4a27-a7a1-abae9a21ffe2"
+  "cozy": "d1a2909d-25f4-4a27-a7a1-abae9a21ffe2",
+  "bkey": "142955_1968724c-d9b9-45e5-8679-9560ed7191c3",
+  "ckey": "143224_d1a2909d-25f4-4a27-a7a1-abae9a21ffe2",
+  "broll_ok": true
  },
  "7": {
   "broll": "7f3fb7b8-65a7-4ae5-a30c-a894c39e8ac1",
-  "cozy": "26368c24-3265-4cab-bb2c-c5982ba8ca31"
+  "cozy": "26368c24-3265-4cab-bb2c-c5982ba8ca31",
+  "bkey": "142956_7f3fb7b8-65a7-4ae5-a30c-a894c39e8ac1",
+  "ckey": "143224_26368c24-3265-4cab-bb2c-c5982ba8ca31",
+  "broll_rejected": [
+   "7f3fb7b8-65a7-4ae5-a30c-a894c39e8ac1"
+  ],
+  "broll_retry": "7dfe20ad-ab8c-4d12-9563-2345f43e3757"
  },
  "8": {
   "broll": "8ee9572f-cbee-44d2-9f53-09f75c3c0c3c",
-  "cozy": "96b67787-5620-4ec6-8865-c1bb5dc2da26"
+  "cozy": "96b67787-5620-4ec6-8865-c1bb5dc2da26",
+  "bkey": "142958_8ee9572f-cbee-44d2-9f53-09f75c3c0c3c",
+  "ckey": "143223_96b67787-5620-4ec6-8865-c1bb5dc2da26",
+  "broll_rejected": [
+   "8ee9572f-cbee-44d2-9f53-09f75c3c0c3c"
+  ],
+  "broll_retry": "096eb109-f622-4a3f-a60d-ab2a8ebac45d"
  },
  "9": {
   "broll": "4c91b3bc-65d3-4d39-9232-1b6e4e51bce8",
-  "cozy": "f84bd900-9fef-4e4a-8ed9-1c17299fb102"
+  "cozy": "f84bd900-9fef-4e4a-8ed9-1c17299fb102",
+  "bkey": "142956_4c91b3bc-65d3-4d39-9232-1b6e4e51bce8",
+  "ckey": "143330_f84bd900-9fef-4e4a-8ed9-1c17299fb102",
+  "broll_rejected": [
+   "4c91b3bc-65d3-4d39-9232-1b6e4e51bce8"
+  ],
+  "broll_retry": "2f095f56-62ec-40a3-8ed5-1d6e8dd05b7b"
  },
  "10": {
   "broll": "742625e0-3470-4491-90ea-12611f15be2a",
-  "cozy": "9eaa7fc4-86b3-48dc-9313-5573953d81a4"
+  "cozy": "9eaa7fc4-86b3-48dc-9313-5573953d81a4",
+  "bkey": "142955_742625e0-3470-4491-90ea-12611f15be2a",
+  "ckey": "143330_9eaa7fc4-86b3-48dc-9313-5573953d81a4",
+  "broll_rejected": [
+   "742625e0-3470-4491-90ea-12611f15be2a"
+  ],
+  "broll_retry": "f7818493-f476-4726-9768-7622ffcac6d5"
  },
  "11": {
   "broll": "1a544320-f592-420d-b516-d028c4917fde",
-  "cozy": "ecbe7b0f-42b7-4174-8395-115d0c297e5e"
+  "cozy": "ecbe7b0f-42b7-4174-8395-115d0c297e5e",
+  "bkey": "143110_1a544320-f592-420d-b516-d028c4917fde",
+  "ckey": "143330_ecbe7b0f-42b7-4174-8395-115d0c297e5e",
+  "broll_rejected": [
+   "1a544320-f592-420d-b516-d028c4917fde"
+  ],
+  "broll_retry": "e34ea7bb-2eef-4f53-85f9-1730df21baf8"
  },
  "12": {
   "broll": "041dd069-1b92-4ad1-959d-5d31d1268c5e",
-  "cozy": "8b1f3cf6-9951-42d9-8dc4-7bff26bdae04"
+  "cozy": "8b1f3cf6-9951-42d9-8dc4-7bff26bdae04",
+  "bkey": "143110_041dd069-1b92-4ad1-959d-5d31d1268c5e",
+  "ckey": "143329_8b1f3cf6-9951-42d9-8dc4-7bff26bdae04",
+  "broll_rejected": [
+   "041dd069-1b92-4ad1-959d-5d31d1268c5e"
+  ],
+  "broll_retry": "bd900fde-3f93-44c2-ad0f-3369fa9a5e2a"
  },
  "13": {
   "broll": "18031b3f-53af-4212-a7f9-19c0efac0123",
-  "cozy": "005e21fa-b69f-4192-9d43-a3657985d631"
+  "cozy": "005e21fa-b69f-4192-9d43-a3657985d631",
+  "bkey": "143111_18031b3f-53af-4212-a7f9-19c0efac0123",
+  "ckey": "143330_005e21fa-b69f-4192-9d43-a3657985d631",
+  "broll_ok": true
  },
  "14": {
   "broll": "73e505af-b274-4886-804f-ec9de66c1dc8",
-  "cozy": "f23f2a96-2101-4553-96c6-d5d50a455b89"
+  "cozy": "f23f2a96-2101-4553-96c6-d5d50a455b89",
+  "bkey": "143110_73e505af-b274-4886-804f-ec9de66c1dc8",
+  "ckey": "143330_f23f2a96-2101-4553-96c6-d5d50a455b89",
+  "broll_rejected": [
+   "73e505af-b274-4886-804f-ec9de66c1dc8"
+  ],
+  "broll_retry": "2186a788-1916-40b2-8204-f7456d41ccbb"
  },
  "0": {
   "broll": "988d81dd-2324-4f4e-a090-b2de00250dc0",
-  "cozy": "ea748687-496e-4898-bd5f-9c9a67d72cac"
+  "cozy": "ea748687-496e-4898-bd5f-9c9a67d72cac",
+  "bkey": "135552_988d81dd-2324-4f4e-a090-b2de00250dc0",
+  "ckey": "133144_ea748687-496e-4898-bd5f-9c9a67d72cac",
+  "cstart": 0.6
  }
 }
