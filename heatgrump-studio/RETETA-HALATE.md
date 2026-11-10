@@ -36,3 +36,9 @@ Un set = aceeași cameră-temă pentru hook și B-roll; cozy într-un living din
 - aceeași fată în hook și B-roll; halatul = pozele produsului (culori, broderie, glugă, lungime până jos, săculeți);
 - 9:16, 1080p, fără text ars, fără logo/branduri, fără personaje în decor;
 - cozy: canapea mare frumoasă, gluga pe cap, se strânge în halat; fără gol/salturi la tăieturi (verificat la 30 fps).
+
+## Ținuta de sub halat (10 nov, Szasz)
+MEREU o pijama de Crăciun foarte drăguță, potrivită cu halatul, aceeași în hook, B-roll și cozy:
+- Prințesă: pijama de satin roz/pastel cu coronițe mici și fundițe (sau culorile halatului);
+- Grinch: pijama verde lime cu roșu, carouri/dungi, stil Grinch (fără personaj);
+- Snoopy: pijama roșie/albă cu cățeluși mici și oscioare.
