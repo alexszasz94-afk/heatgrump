@@ -146,7 +146,7 @@
    "broll": "145316_4fa787c2-7ae1-49d9-b4e3-ad11fc55a3f6",
    "cozy": "143224_bb5a4be6-cc36-4dd4-a816-98efc9763c54",
    "cozy_start": 0.6,
-   "hood_fix": "213947_1269515e-bad8-46c0-ba80-b9f1c1642224",
+   "hood_fix": "220906_7d2abe83-066f-49a7-8397-42156d5a84d6",
    "hood_fix_use": "0-1.125s, then broll from 1.134s"
   },
   "G1-3": {
@@ -158,9 +158,9 @@
   },
   "G2-1": {
    "broll": "142828_1f2c20f1-ccd7-4d62-8184-d33e24cf1b23",
-   "cozy": "131905_db42542f-0d40-4dff-a8c0-26fec996543b",
+   "cozy": "221742_c7972cb3-d799-4860-8329-96830e5cf6ff",
    "cozy_start": 0.6,
-   "hood_fix": "215318_c673316f-1291-41a3-89be-dac6e154a27c",
+   "hood_fix": "220905_534547fc-ee5b-4768-905d-a1bcafe1d0d6",
    "hood_fix_use": "0-1.125s, then broll from 1.134s"
   },
   "G2-2": {
@@ -186,8 +186,8 @@
   },
   "G3-2": {
    "broll": "144254_7dfe20ad-ab8c-4d12-9563-2345f43e3757",
-   "cozy": "143224_26368c24-3265-4cab-bb2c-c5982ba8ca31",
-   "cozy_start": 0.6,
+   "cozy": "221526_fd1bc340-b975-4bfb-a19f-5e25187a1323",
+   "cozy_start": 1.0,
    "hood_fix": "215318_b2b95ef0-1ccb-424a-b7b3-b33dce66ec10",
    "hood_fix_use": "0-1.125s, then broll from 1.134s"
   },
@@ -195,7 +195,7 @@
    "broll": "144432_2f095f56-62ec-40a3-8ed5-1d6e8dd05b7b",
    "cozy": "143330_f84bd900-9fef-4e4a-8ed9-1c17299fb102",
    "cozy_start": 0.6,
-   "hood_fix": "215319_82f95fa4-91e9-4370-a919-9ab003916d42",
+   "hood_fix": "220906_544475ca-04f8-47dd-9b21-50e727bbd7ff",
    "hood_fix_use": "0-1.125s, then broll from 1.134s"
   },
   "G4-3": {
@@ -235,7 +235,7 @@
   },
   "G5-3": {
    "broll": "151151_c554167d-d2e5-4cca-9384-a7ae3e41234c",
-   "cozy": "143330_f23f2a96-2101-4553-96c6-d5d50a455b89",
+   "cozy": "221401_acbaeee6-7003-452b-938f-df0eaae19f2f",
    "cozy_start": 0.6,
    "hood_fix": "215318_2f22bdf1-4d66-458b-9474-7ccacb816729",
    "hood_fix_use": "0-1.125s, then broll from 1.134s"

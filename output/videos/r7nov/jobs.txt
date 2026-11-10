@@ -109,3 +109,25 @@ G5-1 1b3246bc-0920-4268-b89f-9740eb8bb3b3
 G5-2 14b44ef0-dcd0-4afd-a882-bd2bd690ec69
 G5-3 2f22bdf1-4d66-458b-9474-7ccacb816729
 G1-1 retry 0176f6ab-ad46-4b7b-8201-c9206cc23b35
+# refacere 2: lining/fara personaj
+G2-1 d9defc5c-b417-426c-8c78-c25bb241e4fc
+G4-1 e1b6a34f-c348-4b2a-9eb9-165772d171c3
+G1-2 596943d7-d274-47be-b351-149724848680
+# refacere 3 (2 variante)
+G2-1a d6224d0a-737c-4c1c-8978-9138175730b1
+G2-1b 534547fc-ee5b-4768-905d-a1bcafe1d0d6
+G4-1a 0cfdbcfa-7435-4e78-92af-e4b8c8679560
+G4-1b 544475ca-04f8-47dd-9b21-50e727bbd7ff
+G1-2a 7d2abe83-066f-49a7-8397-42156d5a84d6
+G1-2b 6b513d6d-b1e7-4ecd-82c4-9aaca29a1f5c
+# G5-3 refacere (hood a/b, cozy a/b)
+G5-3h_a aee90bd4-2c45-4303-b5a1-2a9e6dac40f4
+G5-3h_b d6d1c162-df5f-498e-9dfb-1bb84130dd2b
+G5-3c_a acbaeee6-7003-452b-938f-df0eaae19f2f
+G5-3c_b 633796e5-45ca-4446-aea0-cffb619967da
+G3-2c fd1bc340-b975-4bfb-a19f-5e25187a1323
+G2-1c_a c7972cb3-d799-4860-8329-96830e5cf6ff
+G2-1c_b 3599c310-cd6d-4eee-914f-47df27ec3690
+G5-3 endframe b06597fa-e826-4afe-9816-5356a61575a2
+G5-3 i2v a 57abdf73-575f-47e7-8fc2-88a09beaaf00
+G5-3 i2v b abe82b64-405e-470e-bff2-ed8b67832bce
