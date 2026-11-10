@@ -1,0 +1,21 @@
+{
+ "P1-golden-rose": [
+  "6de4ddaf-3afb-42dd-8678-07d0791fb62d",
+  "6734293b-dafe-4388-ac0c-95d6e9f77281"
+ ],
+ "P1-ice-blue": [
+  "0b92f3b8-3e4a-47f3-85b6-7a54b3e41610",
+  "d218e0db-a01a-4cab-bbe2-37f669e93e8f"
+ ],
+ "P1-snow-apple": [
+  "cf3cb598-2f6e-446b-b40d-464900f9c3e4",
+  "6a30f7ff-df11-47f0-a524-8d71b7550756"
+ ],
+ "P1-green-lily": [
+  "2f6fffe7-f912-4e1b-b79b-8c2f35b377f2",
+  "94790efa-f400-465a-9754-c92f6c3c4085"
+ ],
+ "CONN-REMOTE": [
+  "6685e855-3b91-4e2a-b09e-3c82c3d87abd"
+ ]
+}
