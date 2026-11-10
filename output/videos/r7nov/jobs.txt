@@ -95,3 +95,17 @@ GRINCH living retry5 ALES: 988d81dd (cadru 1 curat cu ochi Grinch pe gluga, fata
 10 nov: montaj shot1 (15x34 cadre, 17s) media 2bb2d7eb -> Kling edit gluga (ref spate B 8213ece6 + hood dfb3995b): job 2dcd83ea
   -> rezultat 2dcd83ea: RESPINS - Kling a facut toate fetele la fel (par saten lung), fata Grinch tot pe interior in unele cadre
 10 nov: fix gluga pe 3s (test): G1-2 1269515e (src 9cf87703) G1-3 f4f9766d (src ff23ce60) G3-1 10d08b64 (src 3ab3d760)
+# grinch hood fix 3s kling4 video-edit (12 sets)
+G1-1 26ffd8e2-fce9-4c46-9629-b0279af174d5
+G2-1 c673316f-1291-41a3-89be-dac6e154a27c
+G2-2 ad82fc4a-130d-4559-a5d9-8d769c97c49e
+G2-3 c0616188-4f9a-4f7f-a6e3-34d896c2f7e9
+G3-2 b2b95ef0-1ccb-424a-b7b3-b33dce66ec10
+G3-3 d81ec5fa-886d-4f50-bd77-6384208f7146
+G4-1 82f95fa4-91e9-4370-a919-9ab003916d42
+G4-2 090d78f0-0eb4-4fe1-aa8b-656e2935af6a
+G4-3 b8ed1148-7043-4adf-8418-5c2dc9c9ee25
+G5-1 1b3246bc-0920-4268-b89f-9740eb8bb3b3
+G5-2 14b44ef0-dcd0-4afd-a882-bd2bd690ec69
+G5-3 2f22bdf1-4d66-458b-9474-7ccacb816729
+G1-1 retry 0176f6ab-ad46-4b7b-8201-c9206cc23b35
