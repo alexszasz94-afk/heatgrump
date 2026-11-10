@@ -93,3 +93,4 @@ GRINCH living retry5 ALES: 988d81dd (cadru 1 curat cu ochi Grinch pe gluga, fata
 10 nov seara: B-roll v4 (interior gluga simplu) test G1-2 e244998a G2-1 e6594e5c G3-1 1676be34
 10 nov: ref spate gluga jos cu ochii pe exterior: A manechin 87b2904a, B fata 8213ece6 (asteapta OK Szasz)
 10 nov: montaj shot1 (15x34 cadre, 17s) media 2bb2d7eb -> Kling edit gluga (ref spate B 8213ece6 + hood dfb3995b): job 2dcd83ea
+  -> rezultat 2dcd83ea: RESPINS - Kling a facut toate fetele la fel (par saten lung), fata Grinch tot pe interior in unele cadre
