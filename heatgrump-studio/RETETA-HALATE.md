@@ -65,3 +65,8 @@ Canapeaua = cea reală din camera originală (NU se refac camerele), descrisă e
   - picioare: „At the bottom of the frame there is ONLY the robe and its white hem resting on the floor: no toes, no feet, no slippers, no socks and no pajama below the hem”.
 - Verificare obligatorie pe fiecare set: cadre mari (jumătatea de jos) la 3,0 / 3,5 / 4,0 s (săculet) și 9,3 / 10,3 / 11,5 s (cozy) + fața la 2,2 s.
 - Disc: videourile NU se mai urcă în git (umplu discul); merg direct în board.
+
+## 10 nov (Szasz) — spatele glugii + conector unic
+- Pe SPATELE glugii trebuie să fie emblema halatului (ca în reel, unde nufărul e pe spatele glugii): golden = tiara cu trandafir, ice = tiara cu cristal, snow = funda roșie cu volute aurii, green = nufărul. În prompt: „THE BACK OF THE HOOD: the <emblem> is clearly embroidered on the BACK of the hood, centred, big and visible when the hood hangs down her back” + în SHOT 1 „the hood down on her back with its embroidered emblem clearly visible”. Verificare: cadrele 10/20/30 (0,3–1,0 s) mărite.
+- Gluga nu are voie să acopere ochii: „The hood sits back on her head: its front edge is ABOVE her eyebrows, her eyes, eyebrows and whole face are always clearly visible”.
+- Conector + telecomandă UNIC pentru toate halatele: `../library/motion/conector-telecomanda-alb.mp4` (mână albă, doar sherpa albă în cadru, telecomanda cu ecran 86°), 0–3,97 în montaj.

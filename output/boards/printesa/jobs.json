@@ -81,5 +81,15 @@
  "P5-green-lily": [
   "8fb99e2a-142b-4b86-94a2-a66a2c255b0a",
   "b4af0d63-6442-4831-8719-0f0ede2885f6"
- ]
+ ],
+ "_new_broll": {
+  "P1-golden-rose": "1be5e414-73f3-4991-8c30-b19e57a680c2",
+  "P2-golden-rose": "d6ba8700-3e7e-481a-bae9-0823f3e8d113",
+  "P5-golden-rose": "845dbba8-2585-4cae-a25f-6db1b7477bf2",
+  "P1-snow-apple": "5b2eb74c-06ee-49e7-89c0-ed8cb2236ba3",
+  "P2-snow-apple": "e074b12f-5863-43d9-b3a1-9d81747f9d50",
+  "P3-snow-apple": "be324a60-22d5-43e2-8787-1acf10e5660f",
+  "P4-snow-apple": "e68dc1c3-a588-41e0-92d4-61dfd27418a8",
+  "P5-snow-apple": "21d9b07d-5a90-4be8-a117-d10acd4a4a89"
+ }
 }
