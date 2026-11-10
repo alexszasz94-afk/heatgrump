@@ -86,3 +86,4 @@ snow P2/P3 retry2: 0f7a84d3 0802f4d9
 GRINCH living broll retry (fata acoperita, covor): 2cbc6067
 GRINCH living broll retry2 (gluga ca o caciula): 5c6dd9c2
 GRINCH living broll retry3 (formulare dormitor; A cu ref gluga / B fara): 403c4bf5 / 9cccc6e0
+GRINCH living retry3 rezultat: A 403c4bf5 fata OK dar degete goale sub tiv; B 9cccc6e0 ochi pe jumatate acoperiti. retry4 (A + sosete/picioare ascunse): 73a12bea / ca5f3838
