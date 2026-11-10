@@ -41,3 +41,17 @@ MEREU o pijama de Crăciun foarte drăguță, potrivită cu halatul, aceeași î
 - Prințesă: pijama de satin roz/pastel cu coronițe mici și fundițe (sau culorile halatului);
 - Grinch: pijama verde lime cu roșu, carouri/dungi, stil Grinch (fără personaj);
 - Snoopy: pijama roșie/albă cu cățeluși mici și oscioare.
+
+## Montaj fără cadre în plus (10 nov, Szasz)
+La fiecare montaj de B-roll se verifică LA 30 FPS fiecare îmbinare (6 cadre înainte + 6 după): niciun cadru dintr-un alt plan (ex. primul cadru din cozy-ul propriu al B-roll-ului, un flash, alt unghi). Partea cu săculeții din grinch-v4 se taie la **5,70 s** (la 5,73 s apare deja cozy-ul B-roll-ului). Conector Snoopy 0,05–1,63, telecomandă 0,3–3,0.
+
+## Cozy – picioarele acoperite (10 nov, Szasz)
+În promptul de cozy scrie MEREU: „Her legs and feet are COMPLETELY covered by the long closed robe: the robe is wrapped closed over her knees and its hem falls down over her feet to the floor; no pajama pants, no knee, no sock and no foot is visible at any moment.”
+Canapeaua = cea reală din camera originală (NU se refac camerele), descrisă exact în prompt: culoare, perne, pled, ce e în spatele ei.
+- **Fără unghi în plus (10 nov, Szasz):** în B-roll nu are voie să se schimbe unghiul în timpul aceleiași mișcări. Kling mai bagă uneori un al doilea unghi (alt plan) peste aceeași mișcare → se caută la 10–30 fps și se TAIE din montaj; rămân doar planurile din clipul de referință, în ordinea lor.
+
+## B-roll alternativ în rotație: reel DfdeJPkjuE4 (test 10 nov)
+- Clip de mișcare: `../library/motion/broll-DfdeJPkjuE4.mp4` (5,0 s, mut; din reel 5,13–10,13): spate, își pune halatul (0–1,13) → față, gluga pe cap, deschide, piciorul drept în săculet, halatul larg deschis, piciorul stâng, închide. Kling video-edit, duration 5. Media: video, fata, livingul, halat front/back/hood (+ hood-up).
+- Conector + telecomandă noi: `../library/motion/conector-telecomanda-DfdeJPkjuE4.mp4` (4,0 s; 0–1,33 conector alb în două părți, 1,33–2,67 mufa în sherpa, 2,67–4 telecomanda albă cu ecran 86°). Video-edit: mâinile fetei (scrie explicit „very fair, pale skin… no dark skin”, altfel rămân mâinile din original), stofa verde → stofa halatului.
+- Halatul REAL de prințesă (din reel): interior alb pufos (sherpa), UN SINGUR săculet larg alb pe toată lățimea tivului, glugă mare ROTUNJITĂ cu bordură albă groasă și emblema sus deasupra frunții.
+- Referințe glugă purtată (10 nov): `products/princess/refs/<halat>-hood-up.jpg` (job-uri: golden 1fcb438b, ice c63f81fd, snow 0e5c7675, green 7ac84995). Se atașează MEREU la B-roll și cozy. Grinch: `products/grinch/refs/hood.jpg`; Snoopy: kit `refs/hood.jpg` (ambele deja cu gluga purtată).

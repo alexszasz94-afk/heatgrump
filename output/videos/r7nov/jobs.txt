@@ -62,3 +62,8 @@ LOT DORMITOARE: hook-uri gata (output/videos/r8nov/hooks); B-roll gata 50-59; fa
 10 nov sofa-view princess living 09/07/06/10: e6d04d4c aecc739e 4ea7b092 022e1c12
 10 nov snoopy test 720p (fata-03, snoopy-08 orig): broll 1426e4e7-b141-4b65-8b58-908a64d9a147 cozy 6d377303-d6a1-47c5-8905-af95e5e07ed5
 10 nov cozy printesa v2 (camere originale, canapea descrisa, pufos): golden 90ef003c ice 35c7baf3 snow b33ed0d2 green b9dd1457
+10 nov cozy v3 (picioare acoperite): golden 35ca3b50 ice 7eb42027 snow 22ebaa03 green 5784d867 snoopy 16d4b081
+10 nov test broll DfdeJPkjuE4 (golden, fata-01, living 09) inputs broll 0f47593e conn+remote 6cb4b327: broll 20d32238-485c-4dee-be68-e8cc751606f2 conn+remote 447807c9-cb47-4cc3-9c6b-4869e4953cc9
+10 nov cozy v4 (legs never seen): golden 1e4844a1 snow 50fabae2 snoopy 284d7fd1 ; v3 ok: ice 7eb42027 green 5784d867
+10 nov conn+remote golden retry (maini deschise): 10057b8e-5e65-4e5a-be93-9e13aabf497d
+10 nov hood-worn refs printesa: golden 1fcb438b ice c63f81fd snow 0e5c7675 green 7ac84995 ; cozy golden v5 ba241e13
