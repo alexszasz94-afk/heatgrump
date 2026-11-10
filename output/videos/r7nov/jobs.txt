@@ -59,3 +59,6 @@ LOT DORMITOARE: hook-uri gata (output/videos/r8nov/hooks); B-roll gata 50-59; fa
 10 nov test printesa galben gv4 720p: 89744401
 10 nov princess open W-pockets: golden 54c7ba06 ice d9449123 snow ec57251c green 8aea3f74 | pockets_2 media 2cb89cc9
 10 nov test seturi printesa 720p (broll/cozy): golden 57bab14f/2a2d1077 ice 5a7aa651/a90efecb snow 7f28d511/d0aa9af8 green 5dead618/76966545
+10 nov sofa-view princess living 09/07/06/10: e6d04d4c aecc739e 4ea7b092 022e1c12
+10 nov snoopy test 720p (fata-03, snoopy-08 orig): broll 1426e4e7-b141-4b65-8b58-908a64d9a147 cozy 6d377303-d6a1-47c5-8905-af95e5e07ed5
+10 nov cozy printesa v2 (camere originale, canapea descrisa, pufos): golden 90ef003c ice 35c7baf3 snow b33ed0d2 green b9dd1457
