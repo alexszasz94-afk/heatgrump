@@ -1,0 +1,306 @@
+[
+ {
+  "index": 0,
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "duration": 4,
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "d64c5a76-f153-4672-8b04-e12dd3413e6d"
+    },
+    {
+     "role": "image_references",
+     "value": "17f4d19c-bd12-4b5b-b946-21f85411dc52"
+    },
+    {
+     "role": "image_references",
+     "value": "a0808cda-85b8-41f2-b482-c3b292c22e41"
+    },
+    {
+     "role": "image_references",
+     "value": "f7cafb9c-556c-47a5-b677-4e001bb3c843"
+    },
+    {
+     "role": "image_references",
+     "value": "3fedeb57-0618-40ef-a423-2f03e9cc0017"
+    },
+    {
+     "role": "image_references",
+     "value": "c63f81fd-a557-4f1a-b4c2-12d4efe2fb1f"
+    }
+   ],
+   "prompt": "Edit the input video. Copy it ONE TO ONE: the same shots, the same camera position and framing, the same body movements and the same timing, second by second; the output has exactly the same length as the input video. Keep the exact look of the input video. TIMING, identical to the input, one single shot, fixed camera: 0-3.5 s she stands in the middle of the room, full body, holding the robe ROLLED UP into one long horizontal roll with both raised hands in front of her face and chest, and moves it slightly; at about 3.5 s she releases the roll and it unfolds downward in one quick natural movement, so the whole robe hangs open in front of her body, its front facing the camera; 3.5-4.0 s the unfolded robe hangs in front of her. Change ONLY these three things. PERSON: exactly the woman of Image 1 (same face, light skin, long straight dark-brown hair), a completely different woman from the one in the input video; under the robe she wears a very cute light-blue satin Christmas pajama set with long sleeves and long pants and a tiny white snowflake print. ROOM: the room becomes the living room of Image 2 EXACTLY as it is - the same walls, windows, floor, sofa, furniture, Christmas tree, decorations and light as Image 2; nothing from the room of the input video remains; a small American flag hangs naturally on the wall in the background. ROBE: the robe is the princess robe of Images 3-5 (Image 3 front, Image 4 back, Image 5 the hood up), reproduced one to one: ice-blue plush velvet outside with the silver snowflake and swirl embroidery exactly where it is in Images 3-5, the silver tiara with a blue crystal on the hood, thick white fluffy sherpa trims, cuffs and belt. When it is rolled up, the outside of the roll shows this same fabric and its white sherpa trims; when it unfolds it is exactly the robe of Image 3, full length to the floor, with its hood. Never the robe of the input video, never its colours or embroidery. She stands in the FOREGROUND, closest to the camera, with NOTHING between her and the camera; furniture is behind her or to the side. Natural real movement with real weight, no morphing. NO OVERLAY TEXT: no captions, no emoji, no watermark; any text of the input video is removed. Silent."
+  }
+ },
+ {
+  "index": 1,
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "duration": 4,
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "a6c2508d-24d0-49d5-ac95-ee5d78bacc8a"
+    },
+    {
+     "role": "image_references",
+     "value": "5fdb82c7-13eb-4cf4-a5c8-5b66b2cb55ce"
+    },
+    {
+     "role": "image_references",
+     "value": "f3165b45-c185-4632-9a6d-b53be1212616"
+    },
+    {
+     "role": "image_references",
+     "value": "8c3b2195-d81d-4edd-af08-4f3c476c155d"
+    },
+    {
+     "role": "image_references",
+     "value": "c0d91740-2039-49b0-8685-7462836137b2"
+    },
+    {
+     "role": "image_references",
+     "value": "0e5c7675-8785-4c4c-9c5e-afae4936d8c7"
+    }
+   ],
+   "prompt": "Edit the input video. Copy it ONE TO ONE: the same shots, the same camera position and framing, the same body movements and the same timing, second by second; the output has exactly the same length as the input video. Keep the exact look of the input video. TIMING, identical to the input, one single shot, fixed camera: 0-3.0 s she stands in the middle of the room, full body, holding the robe ROLLED UP into one long horizontal roll with both raised hands in front of her face and chest, and moves it slightly; at about 3.0 s she releases the roll and it unfolds downward in one quick natural movement, so the whole robe hangs open in front of her body, its front facing the camera; 3.5-4.0 s the unfolded robe hangs in front of her. Change ONLY these three things. PERSON: exactly the woman of Image 1 (same face, light skin, short auburn-red bob), a completely different woman from the one in the input video; under the robe she wears a very cute red satin Christmas pajama set with long sleeves and long pants and a tiny white polka-dot and bow print. ROOM: the room becomes the living room of Image 2 EXACTLY as it is - the same walls, windows, floor, sofa, furniture, Christmas tree, decorations and light as Image 2; nothing from the room of the input video remains; a small American flag hangs naturally on the wall in the background. ROBE: the robe is the princess robe of Images 3-5 (Image 3 front, Image 4 back, Image 5 the hood up), reproduced one to one: a navy-blue plush velvet top with red-and-blue puff sleeves, a yellow plush lower part, the red belt, the red bow on the navy hood and the small red apple embroidery exactly where they are in Images 3-5, thick white fluffy sherpa trims and cuffs. When it is rolled up, the outside of the roll shows this same fabric and its white sherpa trims; when it unfolds it is exactly the robe of Image 3, full length to the floor, with its hood. Never the robe of the input video, never its colours or embroidery. She stands in the FOREGROUND, closest to the camera, with NOTHING between her and the camera; furniture is behind her or to the side. Natural real movement with real weight, no morphing. NO OVERLAY TEXT: no captions, no emoji, no watermark; any text of the input video is removed. Silent."
+  }
+ },
+ {
+  "index": 2,
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "duration": 7,
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "e40576d8-6c6d-48a7-8e47-14246dc5b13b"
+    },
+    {
+     "role": "image_references",
+     "value": "9a37133b-0a2d-4ea5-8192-b0266f2bd887"
+    },
+    {
+     "role": "image_references",
+     "value": "cc7b92e2-135b-4063-88bb-7616ebb3eb9b"
+    },
+    {
+     "role": "image_references",
+     "value": "0dbc3cfe-6a41-4685-a37c-dee45a270bff"
+    },
+    {
+     "role": "image_references",
+     "value": "6cc1c096-9e59-41d1-86c6-27585078c8a1"
+    },
+    {
+     "role": "image_references",
+     "value": "1fcb438b-9de6-4f84-a86b-feba14bc7ff7"
+    }
+   ],
+   "prompt": "Edit the input video. Copy it ONE TO ONE: the same shots, the same camera position and framing, the same body movements and the same timing, second by second; the output has exactly the same length as the input video. Keep the exact look of the input video. TIMING, identical to the input, with the same two cuts at 3.46 s and 4.96 s: SHOT 1 (0-3.46 s, fixed camera, at home in the room of Image 2) she stands barefoot in the middle of the room holding the robe ROLLED UP into one long roll over her head with both hands, then at about 2.2 s the roll unfolds downward in one quick natural movement and the whole robe hangs open in front of her body, its front facing the camera; SHOT 2 (3.46-4.96 s) seen from the side she stands in an open white front door of the house, wearing the robe with the hood up, the long robe falling to the floor around her feet like a royal gown with a long train; SHOT 3 (4.96-6.58 s) outside on the sunny concrete driveway of their house, exactly the same place as in the input (the house, the green lawn, the trees, the blue sky, the black trash bin and the small American flags stay exactly as they are), she wears the robe with the hood up, throws a trash bag into the black trash bin, closes the lid and turns around, the long robe dragging on the ground behind her like a royal gown. Change ONLY these three things. PERSON: exactly the woman of Image 1 (same face, light skin, long straight blonde hair), a completely different woman from the one in the input video; under the robe she wears a very cute pink satin Christmas pajama set with long sleeves and long pants and a tiny crown and bow print. ROOM: shot 1 and shot 2 happen in the living room of Image 2 EXACTLY as it is - the same walls, windows, floor, sofa, furniture, Christmas tree, decorations and light as Image 2; nothing from the room of the input video remains; a small American flag hangs naturally on the wall in the background. Shot 3 keeps the outdoor place of the input exactly as it is. ROBE: the robe is the princess robe of Images 3-5 (Image 3 front, Image 4 back, Image 5 the hood up), reproduced one to one: golden-yellow plush velvet outside, the red roses and the gold embroidery exactly where they are in Images 3-5, the gold tiara with a red rose on the hood, thick white fluffy sherpa trims, cuffs and belt. When it is rolled up, the outside of the roll shows this same fabric and its white sherpa trims; when it unfolds it is exactly the robe of Image 3, full length to the floor, with its hood. Never the robe of the input video, never its colours or embroidery. She stands in the FOREGROUND, closest to the camera, with NOTHING between her and the camera; furniture is behind her or to the side. Natural real movement with real weight, no morphing. NO OVERLAY TEXT: no captions, no emoji, no watermark; any text of the input video is removed. Silent."
+  }
+ },
+ {
+  "index": 3,
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "duration": 4,
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "d64c5a76-f153-4672-8b04-e12dd3413e6d"
+    },
+    {
+     "role": "image_references",
+     "value": "bfb600a0-1f19-4c62-b2be-f72ae23f6a1a"
+    },
+    {
+     "role": "image_references",
+     "value": "d5ffa4bf-3bc0-4a68-8297-19d7d00d213e"
+    },
+    {
+     "role": "image_references",
+     "value": "ae7136f8-6779-409e-9e7b-617cfb552cc9"
+    },
+    {
+     "role": "image_references",
+     "value": "f9cf9f1d-342d-4820-b248-c88690daa770"
+    },
+    {
+     "role": "image_references",
+     "value": "7ac84995-2d18-4d8a-a476-0b1baf946f0c"
+    }
+   ],
+   "prompt": "Edit the input video. Copy it ONE TO ONE: the same shots, the same camera position and framing, the same body movements and the same timing, second by second; the output has exactly the same length as the input video. Keep the exact look of the input video. TIMING, identical to the input, one single shot, fixed camera: 0-3.5 s she stands in the middle of the room, full body, holding the robe ROLLED UP into one long horizontal roll with both raised hands in front of her face and chest, and moves it slightly; at about 3.5 s she releases the roll and it unfolds downward in one quick natural movement, so the whole robe hangs open in front of her body, its front facing the camera; 3.5-4.0 s the unfolded robe hangs in front of her. Change ONLY these three things. PERSON: exactly the woman of Image 1 (same face, light skin, long wavy dark-blonde hair), a completely different woman from the one in the input video; under the robe she wears a very cute sage-green satin Christmas pajama set with long sleeves and long pants and a tiny cream flower print. ROOM: the room becomes the living room of Image 2 EXACTLY as it is - the same walls, windows, floor, sofa, furniture, Christmas tree, decorations and light as Image 2; nothing from the room of the input video remains; a small American flag hangs naturally on the wall in the background. ROBE: the robe is the princess robe of Images 3-5 (Image 3 front, Image 4 back, Image 5 the hood up), reproduced one to one: olive-green plush velvet outside with the cream water-lily and leaf embroidery exactly where it is in Images 3-5, the cream water-lily on the hood, the green belt, thick cream-white fluffy sherpa trims and cuffs. When it is rolled up, the outside of the roll shows this same fabric and its white sherpa trims; when it unfolds it is exactly the robe of Image 3, full length to the floor, with its hood. Never the robe of the input video, never its colours or embroidery. She stands in the FOREGROUND, closest to the camera, with NOTHING between her and the camera; furniture is behind her or to the side. Natural real movement with real weight, no morphing. NO OVERLAY TEXT: no captions, no emoji, no watermark; any text of the input video is removed. Silent."
+  }
+ },
+ {
+  "index": 4,
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "duration": 4,
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "a6c2508d-24d0-49d5-ac95-ee5d78bacc8a"
+    },
+    {
+     "role": "image_references",
+     "value": "63b1f1a7-b572-413e-891f-5c815b03f6e6"
+    },
+    {
+     "role": "image_references",
+     "value": "f3165b45-c185-4632-9a6d-b53be1212616"
+    },
+    {
+     "role": "image_references",
+     "value": "f7cafb9c-556c-47a5-b677-4e001bb3c843"
+    },
+    {
+     "role": "image_references",
+     "value": "3fedeb57-0618-40ef-a423-2f03e9cc0017"
+    },
+    {
+     "role": "image_references",
+     "value": "c63f81fd-a557-4f1a-b4c2-12d4efe2fb1f"
+    }
+   ],
+   "prompt": "Edit the input video. Copy it ONE TO ONE: the same shots, the same camera position and framing, the same body movements and the same timing, second by second; the output has exactly the same length as the input video. Keep the exact look of the input video. TIMING, identical to the input, one single shot, fixed camera: 0-3.0 s she stands in the middle of the room, full body, holding the robe ROLLED UP into one long horizontal roll with both raised hands in front of her face and chest, and moves it slightly; at about 3.0 s she releases the roll and it unfolds downward in one quick natural movement, so the whole robe hangs open in front of her body, its front facing the camera; 3.5-4.0 s the unfolded robe hangs in front of her. Change ONLY these three things. PERSON: exactly the woman of Image 1 (same face, light skin, long wavy brunette hair), a completely different woman from the one in the input video; under the robe she wears a very cute light-blue satin Christmas pajama set with long sleeves and long pants and a tiny white snowflake print. ROOM: the room becomes the living room of Image 2 EXACTLY as it is - the same walls, windows, floor, sofa, furniture, Christmas tree, decorations and light as Image 2; nothing from the room of the input video remains; a small American flag hangs naturally on the wall in the background. ROBE: the robe is the princess robe of Images 3-5 (Image 3 front, Image 4 back, Image 5 the hood up), reproduced one to one: ice-blue plush velvet outside with the silver snowflake and swirl embroidery exactly where it is in Images 3-5, the silver tiara with a blue crystal on the hood, thick white fluffy sherpa trims, cuffs and belt. When it is rolled up, the outside of the roll shows this same fabric and its white sherpa trims; when it unfolds it is exactly the robe of Image 3, full length to the floor, with its hood. Never the robe of the input video, never its colours or embroidery. She stands in the FOREGROUND, closest to the camera, with NOTHING between her and the camera; furniture is behind her or to the side. Natural real movement with real weight, no morphing. NO OVERLAY TEXT: no captions, no emoji, no watermark; any text of the input video is removed. Silent."
+  }
+ },
+ {
+  "index": 5,
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "duration": 7,
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "e40576d8-6c6d-48a7-8e47-14246dc5b13b"
+    },
+    {
+     "role": "image_references",
+     "value": "7cbc86d4-f362-4fde-bf85-e8a4805db11f"
+    },
+    {
+     "role": "image_references",
+     "value": "a0808cda-85b8-41f2-b482-c3b292c22e41"
+    },
+    {
+     "role": "image_references",
+     "value": "0dbc3cfe-6a41-4685-a37c-dee45a270bff"
+    },
+    {
+     "role": "image_references",
+     "value": "6cc1c096-9e59-41d1-86c6-27585078c8a1"
+    },
+    {
+     "role": "image_references",
+     "value": "1fcb438b-9de6-4f84-a86b-feba14bc7ff7"
+    }
+   ],
+   "prompt": "Edit the input video. Copy it ONE TO ONE: the same shots, the same camera position and framing, the same body movements and the same timing, second by second; the output has exactly the same length as the input video. Keep the exact look of the input video. TIMING, identical to the input, with the same two cuts at 3.46 s and 4.96 s: SHOT 1 (0-3.46 s, fixed camera, at home in the room of Image 2) she stands barefoot in the middle of the room holding the robe ROLLED UP into one long roll over her head with both hands, then at about 2.2 s the roll unfolds downward in one quick natural movement and the whole robe hangs open in front of her body, its front facing the camera; SHOT 2 (3.46-4.96 s) seen from the side she stands in an open white front door of the house, wearing the robe with the hood up, the long robe falling to the floor around her feet like a royal gown with a long train; SHOT 3 (4.96-6.58 s) outside on the sunny concrete driveway of their house, exactly the same place as in the input (the house, the green lawn, the trees, the blue sky, the black trash bin and the small American flags stay exactly as they are), she wears the robe with the hood up, throws a trash bag into the black trash bin, closes the lid and turns around, the long robe dragging on the ground behind her like a royal gown. Change ONLY these three things. PERSON: exactly the woman of Image 1 (same face, light skin, platinum-blonde bob), a completely different woman from the one in the input video; under the robe she wears a very cute pink satin Christmas pajama set with long sleeves and long pants and a tiny crown and bow print. ROOM: shot 1 and shot 2 happen in the living room of Image 2 EXACTLY as it is - the same walls, windows, floor, sofa, furniture, Christmas tree, decorations and light as Image 2; nothing from the room of the input video remains; a small American flag hangs naturally on the wall in the background. Shot 3 keeps the outdoor place of the input exactly as it is. ROBE: the robe is the princess robe of Images 3-5 (Image 3 front, Image 4 back, Image 5 the hood up), reproduced one to one: golden-yellow plush velvet outside, the red roses and the gold embroidery exactly where they are in Images 3-5, the gold tiara with a red rose on the hood, thick white fluffy sherpa trims, cuffs and belt. When it is rolled up, the outside of the roll shows this same fabric and its white sherpa trims; when it unfolds it is exactly the robe of Image 3, full length to the floor, with its hood. Never the robe of the input video, never its colours or embroidery. She stands in the FOREGROUND, closest to the camera, with NOTHING between her and the camera; furniture is behind her or to the side. Natural real movement with real weight, no morphing. NO OVERLAY TEXT: no captions, no emoji, no watermark; any text of the input video is removed. Silent."
+  }
+ },
+ {
+  "index": 6,
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "duration": 4,
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "d64c5a76-f153-4672-8b04-e12dd3413e6d"
+    },
+    {
+     "role": "image_references",
+     "value": "9a37133b-0a2d-4ea5-8192-b0266f2bd887"
+    },
+    {
+     "role": "image_references",
+     "value": "d5ffa4bf-3bc0-4a68-8297-19d7d00d213e"
+    },
+    {
+     "role": "image_references",
+     "value": "8c3b2195-d81d-4edd-af08-4f3c476c155d"
+    },
+    {
+     "role": "image_references",
+     "value": "c0d91740-2039-49b0-8685-7462836137b2"
+    },
+    {
+     "role": "image_references",
+     "value": "0e5c7675-8785-4c4c-9c5e-afae4936d8c7"
+    }
+   ],
+   "prompt": "Edit the input video. Copy it ONE TO ONE: the same shots, the same camera position and framing, the same body movements and the same timing, second by second; the output has exactly the same length as the input video. Keep the exact look of the input video. TIMING, identical to the input, one single shot, fixed camera: 0-3.5 s she stands in the middle of the room, full body, holding the robe ROLLED UP into one long horizontal roll with both raised hands in front of her face and chest, and moves it slightly; at about 3.5 s she releases the roll and it unfolds downward in one quick natural movement, so the whole robe hangs open in front of her body, its front facing the camera; 3.5-4.0 s the unfolded robe hangs in front of her. Change ONLY these three things. PERSON: exactly the woman of Image 1 (same face, light skin, long straight blonde hair), a completely different woman from the one in the input video; under the robe she wears a very cute red satin Christmas pajama set with long sleeves and long pants and a tiny white polka-dot and bow print. ROOM: the room becomes the living room of Image 2 EXACTLY as it is - the same walls, windows, floor, sofa, furniture, Christmas tree, decorations and light as Image 2; nothing from the room of the input video remains; a small American flag hangs naturally on the wall in the background. ROBE: the robe is the princess robe of Images 3-5 (Image 3 front, Image 4 back, Image 5 the hood up), reproduced one to one: a navy-blue plush velvet top with red-and-blue puff sleeves, a yellow plush lower part, the red belt, the red bow on the navy hood and the small red apple embroidery exactly where they are in Images 3-5, thick white fluffy sherpa trims and cuffs. When it is rolled up, the outside of the roll shows this same fabric and its white sherpa trims; when it unfolds it is exactly the robe of Image 3, full length to the floor, with its hood. Never the robe of the input video, never its colours or embroidery. She stands in the FOREGROUND, closest to the camera, with NOTHING between her and the camera; furniture is behind her or to the side. Natural real movement with real weight, no morphing. NO OVERLAY TEXT: no captions, no emoji, no watermark; any text of the input video is removed. Silent."
+  }
+ },
+ {
+  "index": 7,
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "duration": 4,
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "a6c2508d-24d0-49d5-ac95-ee5d78bacc8a"
+    },
+    {
+     "role": "image_references",
+     "value": "17f4d19c-bd12-4b5b-b946-21f85411dc52"
+    },
+    {
+     "role": "image_references",
+     "value": "cc7b92e2-135b-4063-88bb-7616ebb3eb9b"
+    },
+    {
+     "role": "image_references",
+     "value": "ae7136f8-6779-409e-9e7b-617cfb552cc9"
+    },
+    {
+     "role": "image_references",
+     "value": "f9cf9f1d-342d-4820-b248-c88690daa770"
+    },
+    {
+     "role": "image_references",
+     "value": "7ac84995-2d18-4d8a-a476-0b1baf946f0c"
+    }
+   ],
+   "prompt": "Edit the input video. Copy it ONE TO ONE: the same shots, the same camera position and framing, the same body movements and the same timing, second by second; the output has exactly the same length as the input video. Keep the exact look of the input video. TIMING, identical to the input, one single shot, fixed camera: 0-3.0 s she stands in the middle of the room, full body, holding the robe ROLLED UP into one long horizontal roll with both raised hands in front of her face and chest, and moves it slightly; at about 3.0 s she releases the roll and it unfolds downward in one quick natural movement, so the whole robe hangs open in front of her body, its front facing the camera; 3.5-4.0 s the unfolded robe hangs in front of her. Change ONLY these three things. PERSON: exactly the woman of Image 1 (same face, light skin, long straight dark-brown hair), a completely different woman from the one in the input video; under the robe she wears a very cute sage-green satin Christmas pajama set with long sleeves and long pants and a tiny cream flower print. ROOM: the room becomes the living room of Image 2 EXACTLY as it is - the same walls, windows, floor, sofa, furniture, Christmas tree, decorations and light as Image 2; nothing from the room of the input video remains; a small American flag hangs naturally on the wall in the background. ROBE: the robe is the princess robe of Images 3-5 (Image 3 front, Image 4 back, Image 5 the hood up), reproduced one to one: olive-green plush velvet outside with the cream water-lily and leaf embroidery exactly where it is in Images 3-5, the cream water-lily on the hood, the green belt, thick cream-white fluffy sherpa trims and cuffs. When it is rolled up, the outside of the roll shows this same fabric and its white sherpa trims; when it unfolds it is exactly the robe of Image 3, full length to the floor, with its hood. Never the robe of the input video, never its colours or embroidery. She stands in the FOREGROUND, closest to the camera, with NOTHING between her and the camera; furniture is behind her or to the side. Natural real movement with real weight, no morphing. NO OVERLAY TEXT: no captions, no emoji, no watermark; any text of the input video is removed. Silent."
+  }
+ }
+]
