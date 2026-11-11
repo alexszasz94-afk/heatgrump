@@ -52,3 +52,5 @@ feetfix P2-golden-rose 33ce46fa-b631-4748-b0cb-65ac8ecfe2b7
 feetfix P2-green-lily f6eead79-181d-445b-8612-bdc6b12de644
 feetfix P3-golden-rose 1be352f0-92fd-4ba4-9bc6-07ac58d1c336
 feetfix P3-snow-apple 01ac1b06-c526-445d-967f-1b60630a41e8
+p3v3 person-fix a d86df7c1-6123-40cd-bbcc-02ad193f1ad5
+p3v3 person-fix b 9f4dcf74-44eb-4805-b5e1-d49b3044b942

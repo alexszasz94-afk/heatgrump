@@ -3,15 +3,15 @@
  "fps": 30,
  "segments": [
   {
-   "file": "/home/user/heatgrump/output/p11/h4/P3-V1.mp4",
+   "file": "/home/user/heatgrump/output/p11/h4/s-P3-V1.mp4",
    "start": 0,
    "end": 3.97,
    "audio": false
   },
   {
-   "file": "/home/user/heatgrump/output/p11/tails/v/P3-snow-apple.mp4",
+   "file": "/home/user/heatgrump/output/p11/tails/v/P3-snow-apple-cut.mp4",
    "start": 0,
-   "end": 12.0
+   "end": 11.3
   }
  ],
  "texts": [

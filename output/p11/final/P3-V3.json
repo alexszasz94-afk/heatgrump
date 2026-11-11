@@ -1,0 +1,30 @@
+{
+ "out": "/home/user/heatgrump/output/p11/final/P3-V3.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/p11/h4/g-P3-V3a.mp4",
+   "start": 0,
+   "end": 6.58,
+   "audio": false
+  },
+  {
+   "file": "/home/user/heatgrump/output/p11/tails/v/P3-golden-rose-cut.mp4",
+   "start": 0,
+   "end": 11.3
+  }
+ ],
+ "texts": [
+  {
+   "segs": [
+    0,
+    -1
+   ],
+   "text": "Don’t show this to a\nPrincess mom...🥹🌹",
+   "size": 58,
+   "y": 0.165
+  }
+ ],
+ "music": "/home/user/heatgrump/output/p11/ref/pad_rC.m4a",
+ "music_start": 0
+}

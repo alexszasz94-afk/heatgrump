@@ -1,34 +1,10 @@
-{
- "P1-V1": {
-  "set": "P1-ice-blue",
-  "hook": "r321"
- },
- "P1-V2": {
-  "set": "P1-snow-apple",
-  "hook": "rB"
- },
- "P1-V3": {
-  "set": "P1-golden-rose",
-  "hook": "rC"
- },
- "P2-V1": {
-  "set": "P2-green-lily",
-  "hook": "r321"
- },
- "P2-V2": {
-  "set": "P2-ice-blue",
-  "hook": "rB"
- },
- "P2-V3": {
-  "set": "P2-golden-rose",
-  "hook": "rC"
- },
- "P3-V1": {
-  "set": "P3-snow-apple",
-  "hook": "r321"
- },
- "P3-V2": {
-  "set": "P3-green-lily",
-  "hook": "rB"
- }
-}
+{"P1-V1":{"set":"P1-ice-blue","hook":"r321","hook_file":"h4/r-P1-V1.mp4"},
+ "P1-V2":{"set":"P1-snow-apple","hook":"rC","hook_file":"h4/v5-P1-V2.mp4"},
+ "P1-V3":{"set":"P1-golden-rose","hook":"rC","hook_file":"h4/P1-V3.mp4"},
+ "P2-V1":{"set":"P2-green-lily","hook":"r321","hook_file":"h4/r-P2-V1.mp4"},
+ "P2-V2":{"set":"P2-ice-blue","hook":"rC","hook_file":"h4/v5-P2-V2.mp4"},
+ "P2-V3":{"set":"P2-golden-rose","hook":"rC","hook_file":"h4/v5-P2-V3.mp4"},
+ "P3-V1":{"set":"P3-snow-apple","hook":"r321","hook_file":"h4/s-P3-V1.mp4"},
+ "P3-V2":{"set":"P3-green-lily","hook":"rC","hook_file":"h4/h-P3-V2a.mp4"},
+ "P3-V3":{"set":"P3-golden-rose","hook":"rC","hook_file":"h4/g-P3-V3a.mp4"},
+ "_note":"tails = tails/v/<set>-cut.mp4 (tăiat 3.4667→4.2, picioare)"}
