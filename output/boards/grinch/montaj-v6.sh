@@ -1,6 +1,6 @@
 id=$1; O=/home/user/heatgrump/output/boards/grinch/fix; mkdir -p $O
 U=https://d8j0ntlcm91z4.cloudfront.net/user_3LswZFi3bwZ0V3rYUwLSMwk6kIB/hf_20261110_
-read _ fx b c < <(grep "^$id " /tmp/pp/fixkeys.txt)
+read _ fx b c < <(grep "^$id " $(dirname "$0")/fixkeys.txt)
 cs=0.6; [ $id = G3-2 -o $id = G5-3 ] && cs=1.0
 t2=3.10; [ $id = G2-1 -o $id = G5-1 ] && t2=3.04
 H="[0:v]trim=0:1.125,setpts=PTS-STARTPTS"; [ $id = G5-3 ] && H="[0:v]trim=0:1.5,setpts=(PTS-STARTPTS)/1.3333"
