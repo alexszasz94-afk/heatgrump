@@ -30,3 +30,25 @@ regen P2-V1 b 8a1ab775-f6f6-47e4-ad4e-6eba66945c61
 imgref P2-V1 a 9f036118-3c6f-4ae7-b9ea-8871a6cbfc53
 imgref P2-V1 b d3ace06b-8161-44be-bd25-c87cb49427a9
 img nobow roll b6ab98c3-c60b-45a7-a371-e4959244a5a9
+v5 P1-V1 f7fdfab8-8d46-43cd-9602-9da68f23a5ba
+v5 P2-V1 a1be8c44-9e7a-4c43-961a-9199785c2bdc
+v5 P3-V1 849f3170-9f17-4740-a64a-e3e8c6ac9ce2
+v5 P1-V2 024a54de-d679-4379-93b7-2cf9d08da74c
+v5 P2-V2 058b1529-c14c-410b-bfa2-693e9eb156dd
+v5 P2-V3 69962021-8443-4911-b363-472ebfddaf87
+v5 P3-V2 39140868-b32c-40e8-9e3e-42e87d5ee61c
+v5 P3-V3 6a3748cf-9963-47af-b1f6-8ac4e477ff5d
+v5r P1-V1 533ad3a4-b23c-4b12-8401-00be4a5cd5b9
+v5r P2-V1 338e8ffd-896b-453b-a8d1-08849e75e9e2
+v5r P3-V1 6154333e-664f-4c18-8f05-a2e6207afb27
+v5h P3-V2 a a1a8a785-82fe-4135-8df9-8adbdb1c863a
+v5h P3-V2 b 9c192861-2e7f-40d8-9e14-14f29c1aec41
+v5h P3-V3 a 99fcf2aa-5031-412b-b887-1a53405290e3
+v5h P3-V3 b 71e8db41-69ff-40c0-b48b-ad42f7a0bf08
+feetfix P1-golden-rose ae64ea10-9f80-4e51-869c-f1c9a1267825
+feetfix P1-ice-blue 5ecd85fb-312c-42d9-9293-41490d109d70
+feetfix P1-snow-apple b99f3e51-a5f9-47d6-a0ae-0a855e62bab5
+feetfix P2-golden-rose 33ce46fa-b631-4748-b0cb-65ac8ecfe2b7
+feetfix P2-green-lily f6eead79-181d-445b-8612-bdc6b12de644
+feetfix P3-golden-rose 1be352f0-92fd-4ba4-9bc6-07ac58d1c336
+feetfix P3-snow-apple 01ac1b06-c526-445d-967f-1b60630a41e8
