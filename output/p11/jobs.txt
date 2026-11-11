@@ -54,3 +54,9 @@ feetfix P3-golden-rose 1be352f0-92fd-4ba4-9bc6-07ac58d1c336
 feetfix P3-snow-apple 01ac1b06-c526-445d-967f-1b60630a41e8
 p3v3 person-fix a d86df7c1-6123-40cd-bbcc-02ad193f1ad5
 p3v3 person-fix b 9f4dcf74-44eb-4805-b5e1-d49b3044b942
+rC-V1 P1-V1 a 8a3c7b5c-0d55-4197-aeda-eca21dd6bb7a
+rC-V1 P1-V1 b b62f4a69-e877-471f-b08d-be62e1aff824
+rC-V1 P2-V1 a f5d39e80-312b-4b8a-80d2-5ef89c8d2d87
+rC-V1 P2-V1 b 70d07efd-e859-4456-ad92-d03f0f7a5004
+rC-V1 P3-V1 a 6880349b-5711-4000-ab19-3cb9931cb746
+rC-V1 P3-V1 b 2d438dec-e2b6-47a6-bf6e-54f8b655c53d
