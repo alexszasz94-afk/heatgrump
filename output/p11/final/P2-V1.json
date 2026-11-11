@@ -1,0 +1,30 @@
+{
+ "out": "/home/user/heatgrump/output/p11/final/P2-V1.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/p11/hooks/P2-V1.mp4",
+   "start": 0,
+   "end": 3.97,
+   "audio": false
+  },
+  {
+   "file": "/home/user/heatgrump/output/p11/tails/v/P2-green-lily.mp4",
+   "start": 0,
+   "end": 12.0
+  }
+ ],
+ "texts": [
+  {
+   "segs": [
+    0,
+    -1
+   ],
+   "text": "DONT show this to a Princess\nfan 😱💜✨",
+   "size": 58,
+   "y": 0.165
+  }
+ ],
+ "music": "/home/user/heatgrump/output/p11/ref/pad_r321.m4a",
+ "music_start": 0
+}

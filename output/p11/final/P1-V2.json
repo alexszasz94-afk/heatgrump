@@ -1,0 +1,20 @@
+{
+ "out": "/home/user/heatgrump/output/p11/final/P1-V2.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/p11/h4/P1-V2.mp4",
+   "start": 0,
+   "end": 4.0,
+   "audio": false
+  },
+  {
+   "file": "/home/user/heatgrump/output/p11/tails/v/P1-snow-apple.mp4",
+   "start": 0,
+   "end": 12.0
+  }
+ ],
+ "texts": [],
+ "music": "/home/user/heatgrump/output/p11/ref/pad_rB.m4a",
+ "music_start": 0
+}

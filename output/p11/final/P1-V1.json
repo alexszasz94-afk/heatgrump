@@ -1,0 +1,30 @@
+{
+ "out": "/home/user/heatgrump/output/p11/final/P1-V1.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/p11/h4/nb-P1-V1.mp4",
+   "start": 0,
+   "end": 3.97,
+   "audio": false
+  },
+  {
+   "file": "/home/user/heatgrump/output/p11/tails/v/P1-ice-blue.mp4",
+   "start": 0,
+   "end": 11.93
+  }
+ ],
+ "texts": [
+  {
+   "segs": [
+    0,
+    -1
+   ],
+   "text": "DONT show this to a Princess\nfan 😱💜✨",
+   "size": 58,
+   "y": 0.165
+  }
+ ],
+ "music": "/home/user/heatgrump/output/p11/ref/pad_r321.m4a",
+ "music_start": 0
+}
