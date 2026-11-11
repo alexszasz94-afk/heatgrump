@@ -15,3 +15,5 @@ redo2 G2-1 b 5e74cf6d-9b61-40ba-a221-04b32b5f77a3
 sheet G3-1 img 83c70fea-6f6d-4986-aad6-26abecd7b594
 redo G3-1 a a66cc9bf-1ad5-4869-bbab-29e07cf5173c
 redo G3-1 b e1068178-e9cd-46fe-a5b8-dc8ba8f6bdc4
+cozyfix G3-3 a 3a1f5584-54aa-4d9f-bf88-80ffbd35364d
+cozyfix G3-3 b 89341928-ed47-403f-bc9f-ffc73ff48b4c
