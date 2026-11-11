@@ -1,0 +1,30 @@
+{
+ "out": "/home/user/heatgrump/output/g11/final/G3-2.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/g11/h/G3-2.mp4",
+   "start": 0,
+   "end": 4.6,
+   "audio": false
+  },
+  {
+   "file": "/home/user/heatgrump/output/boards/grinch/fix/G3-2.mp4",
+   "start": 0,
+   "end": 10.33
+  }
+ ],
+ "texts": [
+  {
+   "segs": [
+    0,
+    -1
+   ],
+   "text": "Christmas-holics this\nis for YOU..🎄🎅",
+   "size": 64,
+   "y": 0.165
+  }
+ ],
+ "music": "/home/user/heatgrump/output/g11/ref/pad_g2.m4a",
+ "music_start": 0
+}

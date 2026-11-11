@@ -1,0 +1,30 @@
+{
+ "out": "/home/user/heatgrump/output/g11/final/G1-1.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/g11/h/G1-1.mp4",
+   "start": 0,
+   "end": 6.58,
+   "audio": false
+  },
+  {
+   "file": "/home/user/heatgrump/output/boards/grinch/fix/G1-1.mp4",
+   "start": 0,
+   "end": 10.7
+  }
+ ],
+ "texts": [
+  {
+   "segs": [
+    0,
+    -1
+   ],
+   "text": "Don’t show this to a\nGrinch mom...🥹💚",
+   "size": 64,
+   "y": 0.165
+  }
+ ],
+ "music": "/home/user/heatgrump/output/g11/ref/pad_rC.m4a",
+ "music_start": 0
+}
