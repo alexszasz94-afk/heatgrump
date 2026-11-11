@@ -1,0 +1,375 @@
+[
+ {
+  "index": 0,
+  "set": "G1-1",
+  "hook": "rC",
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "duration": 7,
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "use_unlim": false,
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "e40576d8-6c6d-48a7-8e47-14246dc5b13b"
+    },
+    {
+     "role": "image_references",
+     "value": "bfb600a0-1f19-4c62-b2be-f72ae23f6a1a"
+    },
+    {
+     "role": "image_references",
+     "value": "50ea7199-8ef7-4864-84e1-02075e699e06"
+    },
+    {
+     "role": "image_references",
+     "value": "ccf9632e-bffd-46a1-9f7d-407a8a1bb79f"
+    },
+    {
+     "role": "image_references",
+     "value": "26930d56-68f4-445c-9d43-ebb4c1c7d438"
+    },
+    {
+     "role": "image_references",
+     "value": "dfb3995b-c326-4495-a226-bc212e60dabf"
+    }
+   ],
+   "prompt": "Edit the input video. Copy it ONE TO ONE: same shots, camera, framing, movements and timing, second by second; same length as the input; keep the exact look of the input. TIMING: cuts at 3.46 s and 4.96 s. SHOT 1 (0-3.46 s, the room of Image 2): she stands barefoot holding the loosely rolled robe over her head with both hands; from 2.2 s she lowers it and it unrolls downward while BOTH HANDS KEEP HOLDING ITS TOP EDGE, the open robe hanging in front of her body. SHOT 2 (3.46-4.96 s): side view, she stands in an open white door wearing the robe, Grinch hood up, its long hem spread on the floor like a train. SHOT 3 (4.96-6.58 s): outside on the sunny driveway of the input, the same house, lawn, trees, black trash bin and small American flags; wearing the robe with the hood up she throws a trash bag in the bin, closes the lid and turns, the long robe trailing behind her. THE ROLL: rolled up LOOSELY and NOT tied - no belt, no ribbon, no bow around it, held closed only by her hands; the hood is rolled INSIDE the roll, nothing hangs from it. As it comes down it is already half unrolled, the plush layers loosening gradually; her hands never let go. The roll is BIG, THICK and FLUFFY, as thick as her head, red and green plush with white fluffy sherpa visible at both ends. Her head is uncovered in shot 1. Only ONE robe. HOOD MOTION: soft heavy plush hood, it flops down naturally with gravity and hangs still at the top under her hands; it never lifts, stands up, inflates or flips. NO BELT tied anywhere. CHANGE ONLY: PERSON = exactly the woman of Image 1 (same face, light skin, long wavy dark-blonde hair), a different woman from the input, wearing very cute lime-green and red Christmas plaid pajamas with long sleeves and long pants, the same in every shot. ROOM = shots 1-2 in the living room of Image 2 exactly as it is, a small American flag on the wall; shot 3 keeps the outdoor place of the input. ROBE = our Grinch robe of Images 3-5 (Image 3 front, Image 4 back, Image 5 the hood) reproduced one to one: red plush velvet upper part, green plush velvet lower part, thick white fluffy sherpa trims down the front and around the hem, fluffy lime-green fur cuffs, the Grinch face hood; lined red at the top and green at the bottom; never another robe. Natural real movement with real weight, no morphing, ultra-realistic iPhone video, warm natural light. No captions, no emoji, no watermark; any overlay text of the input is removed. Silent."
+  }
+ },
+ {
+  "index": 1,
+  "set": "G1-2",
+  "hook": "g2",
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "duration": 5,
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "use_unlim": false,
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "23edca01-762b-4d5b-8434-4dbe229f94fb"
+    },
+    {
+     "role": "image_references",
+     "value": "9a37133b-0a2d-4ea5-8192-b0266f2bd887"
+    },
+    {
+     "role": "image_references",
+     "value": "8511a5be-ab5b-4eea-89c1-5b21c1d4d662"
+    },
+    {
+     "role": "image_references",
+     "value": "ccf9632e-bffd-46a1-9f7d-407a8a1bb79f"
+    },
+    {
+     "role": "image_references",
+     "value": "26930d56-68f4-445c-9d43-ebb4c1c7d438"
+    },
+    {
+     "role": "image_references",
+     "value": "dfb3995b-c326-4495-a226-bc212e60dabf"
+    }
+   ],
+   "prompt": "Edit the input video. Copy it ONE TO ONE: same shots, camera, framing, movements and timing, second by second; same length as the input; keep the exact look of the input. POV shot from her eyes looking down at her own legs and feet: she sits on the floor rug of the living room of Image 2 (the room fills the background exactly as in Image 2), legs stretched forward, wearing cozy white fluffy slippers; in front of her feet lies the robe ROLLED UP into a big thick fluffy roll, red plush with white sherpa and green fur ends, NOT tied, nothing around it. 0-3.9 s her feet rest still behind the roll; at 3.9-4.6 s she pushes the roll forward with her feet and it unrolls flat on the rug showing the open robe with its white sherpa lining, red top and green bottom, sleeves with lime-green fur cuffs and the Grinch hood. CHANGE ONLY: her pants are the pants of very cute red flannel Christmas pajamas with tiny white snowflakes, long sleeves and long pants; ROOM = the living room of Image 2; ROBE = our Grinch robe of Images 3-5 (Image 3 front, Image 4 back, Image 5 the hood) reproduced one to one: red plush velvet upper part, green plush velvet lower part, thick white fluffy sherpa trims down the front and around the hem, fluffy lime-green fur cuffs, the Grinch face hood; lined red at the top and green at the bottom; never another robe. Natural real movement with real weight, no morphing, ultra-realistic iPhone video, warm natural light. No captions, no emoji, no watermark; any overlay text of the input is removed. Silent."
+  }
+ },
+ {
+  "index": 2,
+  "set": "G1-3",
+  "hook": "g4",
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "duration": 5,
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "use_unlim": false,
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "59b55ab8-ae78-44ac-a6c4-298c7d16c78a"
+    },
+    {
+     "role": "image_references",
+     "value": "7cbc86d4-f362-4fde-bf85-e8a4805db11f"
+    },
+    {
+     "role": "image_references",
+     "value": "cc7b92e2-135b-4063-88bb-7616ebb3eb9b"
+    },
+    {
+     "role": "image_references",
+     "value": "ccf9632e-bffd-46a1-9f7d-407a8a1bb79f"
+    },
+    {
+     "role": "image_references",
+     "value": "26930d56-68f4-445c-9d43-ebb4c1c7d438"
+    },
+    {
+     "role": "image_references",
+     "value": "dfb3995b-c326-4495-a226-bc212e60dabf"
+    },
+    {
+     "role": "image_references",
+     "value": "35147aad-dbc4-4b7a-8fde-feb48f945b84"
+    }
+   ],
+   "prompt": "Edit the input video. Copy it ONE TO ONE: same shots, camera, framing, movements and timing, second by second; same length as the input; keep the exact look of the input. She walks toward the camera down the Christmas aisle of a big home-decor store holding an iced coffee, sees something, gasps with an open mouth, covers her mouth, then points excitedly to the side at the display. LOGIC OF THE SCENE, exactly like the input: the shelves around her are full of Christmas decor; the display she points at is a tall stack of our red gift boxes of Image 6 with the HeatGrump Grinch robe. The store signs show no brand names. CHANGE ONLY: PERSON = exactly the woman of Image 1 (same face, light skin, short straight platinum-blonde bob), a different woman from the input, wearing a cozy oversized lime-green knit sweater dress with a big Grinch face and brown boots. The robe in the boxes is our Grinch robe of Images 3-5 (Image 3 front, Image 4 back, Image 5 the hood) reproduced one to one: red plush velvet upper part, green plush velvet lower part, thick white fluffy sherpa trims down the front and around the hem, fluffy lime-green fur cuffs, the Grinch face hood; lined red at the top and green at the bottom; never another robe. Natural real movement with real weight, no morphing, ultra-realistic iPhone video, warm natural light. No captions, no emoji, no watermark; any overlay text of the input is removed. Silent."
+  }
+ },
+ {
+  "index": 3,
+  "set": "G2-1",
+  "hook": "g3",
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "duration": 4,
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "use_unlim": false,
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "ac66b2aa-8c51-4b92-bb9c-04279bcf6b18"
+    },
+    {
+     "role": "image_references",
+     "value": "63b1f1a7-b572-413e-891f-5c815b03f6e6"
+    },
+    {
+     "role": "image_references",
+     "value": "4e8d9822-e02c-4886-8f02-ec727d72c219"
+    },
+    {
+     "role": "image_references",
+     "value": "ccf9632e-bffd-46a1-9f7d-407a8a1bb79f"
+    },
+    {
+     "role": "image_references",
+     "value": "26930d56-68f4-445c-9d43-ebb4c1c7d438"
+    },
+    {
+     "role": "image_references",
+     "value": "dfb3995b-c326-4495-a226-bc212e60dabf"
+    }
+   ],
+   "prompt": "Edit the input video. Copy it ONE TO ONE: same shots, camera, framing, movements and timing, second by second; same length as the input; keep the exact look of the input. POV shot: she sits on the sofa of the living room of Image 2 (background exactly Image 2, Christmas tree, fireplace) and holds on her lap with both hands the robe ROLLED UP into a big thick roll, red plush with white sherpa and green fur ends, wrapped tightly in clear plastic film; 3.3-4.0 s she pulls the clear plastic off and it flies away, the bare fluffy roll stays in her hands, NOT tied, nothing around it. CHANGE ONLY: her sleeves are the sleeves of very cute lime-green and red Christmas plaid pajamas with long sleeves and long pants, the same in every shot; ROOM = the living room of Image 2; ROBE = our Grinch robe of Images 3-5 (Image 3 front, Image 4 back, Image 5 the hood) reproduced one to one: red plush velvet upper part, green plush velvet lower part, thick white fluffy sherpa trims down the front and around the hem, fluffy lime-green fur cuffs, the Grinch face hood; lined red at the top and green at the bottom; never another robe. Natural real movement with real weight, no morphing, ultra-realistic iPhone video, warm natural light. No captions, no emoji, no watermark; any overlay text of the input is removed. Silent."
+  }
+ },
+ {
+  "index": 4,
+  "set": "G2-2",
+  "hook": "rC",
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "duration": 7,
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "use_unlim": false,
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "e40576d8-6c6d-48a7-8e47-14246dc5b13b"
+    },
+    {
+     "role": "image_references",
+     "value": "17f4d19c-bd12-4b5b-b946-21f85411dc52"
+    },
+    {
+     "role": "image_references",
+     "value": "41473b05-210d-4027-b8bc-04c243cff4fd"
+    },
+    {
+     "role": "image_references",
+     "value": "ccf9632e-bffd-46a1-9f7d-407a8a1bb79f"
+    },
+    {
+     "role": "image_references",
+     "value": "26930d56-68f4-445c-9d43-ebb4c1c7d438"
+    },
+    {
+     "role": "image_references",
+     "value": "dfb3995b-c326-4495-a226-bc212e60dabf"
+    }
+   ],
+   "prompt": "Edit the input video. Copy it ONE TO ONE: same shots, camera, framing, movements and timing, second by second; same length as the input; keep the exact look of the input. TIMING: cuts at 3.46 s and 4.96 s. SHOT 1 (0-3.46 s, the room of Image 2): she stands barefoot holding the loosely rolled robe over her head with both hands; from 2.2 s she lowers it and it unrolls downward while BOTH HANDS KEEP HOLDING ITS TOP EDGE, the open robe hanging in front of her body. SHOT 2 (3.46-4.96 s): side view, she stands in an open white door wearing the robe, Grinch hood up, its long hem spread on the floor like a train. SHOT 3 (4.96-6.58 s): outside on the sunny driveway of the input, the same house, lawn, trees, black trash bin and small American flags; wearing the robe with the hood up she throws a trash bag in the bin, closes the lid and turns, the long robe trailing behind her. THE ROLL: rolled up LOOSELY and NOT tied - no belt, no ribbon, no bow around it, held closed only by her hands; the hood is rolled INSIDE the roll, nothing hangs from it. As it comes down it is already half unrolled, the plush layers loosening gradually; her hands never let go. The roll is BIG, THICK and FLUFFY, as thick as her head, red and green plush with white fluffy sherpa visible at both ends. Her head is uncovered in shot 1. Only ONE robe. HOOD MOTION: soft heavy plush hood, it flops down naturally with gravity and hangs still at the top under her hands; it never lifts, stands up, inflates or flips. NO BELT tied anywhere. CHANGE ONLY: PERSON = exactly the woman of Image 1 (same face, light skin, long straight dark-brown hair), a different woman from the input, wearing very cute red flannel Christmas pajamas with tiny white snowflakes, long sleeves and long pants. ROOM = shots 1-2 in the living room of Image 2 exactly as it is, a small American flag on the wall; shot 3 keeps the outdoor place of the input. ROBE = our Grinch robe of Images 3-5 (Image 3 front, Image 4 back, Image 5 the hood) reproduced one to one: red plush velvet upper part, green plush velvet lower part, thick white fluffy sherpa trims down the front and around the hem, fluffy lime-green fur cuffs, the Grinch face hood; lined red at the top and green at the bottom; never another robe. Natural real movement with real weight, no morphing, ultra-realistic iPhone video, warm natural light. No captions, no emoji, no watermark; any overlay text of the input is removed. Silent."
+  }
+ },
+ {
+  "index": 5,
+  "set": "G2-3",
+  "hook": "up",
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "duration": 5,
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "use_unlim": false,
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "91dab54b-4456-4443-be5b-e6e9067724a1"
+    },
+    {
+     "role": "image_references",
+     "value": "5214f5d9-1501-465c-989b-b8f95e3eb1c4"
+    },
+    {
+     "role": "image_references",
+     "value": "a0808cda-85b8-41f2-b482-c3b292c22e41"
+    },
+    {
+     "role": "image_references",
+     "value": "ccf9632e-bffd-46a1-9f7d-407a8a1bb79f"
+    },
+    {
+     "role": "image_references",
+     "value": "26930d56-68f4-445c-9d43-ebb4c1c7d438"
+    },
+    {
+     "role": "image_references",
+     "value": "dfb3995b-c326-4495-a226-bc212e60dabf"
+    }
+   ],
+   "prompt": "Edit the input video. Copy it ONE TO ONE: same shots, camera, framing, movements and timing, second by second; same length as the input; keep the exact look of the input. Top-down shot on a dark green Christmas table with pine branches, fairy lights and cinnamon sticks: her hands turn a red square vacuum-sealed pouch printed with a big Grinch face and the words HEAT GRUMP, then cut it open with a purple box cutter. Keep the pouch, its print, the logo HEAT GRUMP and every movement exactly as in the input; the ONLY lettering in the video is HEAT GRUMP printed on our pouch. CHANGE ONLY: her forearms wear the sleeves of very cute lime-green Christmas pajamas with red cuffs and tiny white stars, long sleeves and long pants. The woman's face and the room are not in this shot. Natural real movement with real weight, no morphing, ultra-realistic iPhone video, warm natural light. No captions, no emoji, no watermark; any overlay text of the input is removed. Silent."
+  }
+ },
+ {
+  "index": 6,
+  "set": "G3-1",
+  "hook": "g5",
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "duration": 4,
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "use_unlim": false,
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "b7b31ce8-96f5-43e4-961d-6900be1affb4"
+    },
+    {
+     "role": "image_references",
+     "value": "5fdb82c7-13eb-4cf4-a5c8-5b66b2cb55ce"
+    },
+    {
+     "role": "image_references",
+     "value": "c75d9e4d-0d8f-4e26-b316-ca5d7a20c0db"
+    },
+    {
+     "role": "image_references",
+     "value": "ccf9632e-bffd-46a1-9f7d-407a8a1bb79f"
+    },
+    {
+     "role": "image_references",
+     "value": "26930d56-68f4-445c-9d43-ebb4c1c7d438"
+    },
+    {
+     "role": "image_references",
+     "value": "dfb3995b-c326-4495-a226-bc212e60dabf"
+    }
+   ],
+   "prompt": "Edit the input video. Copy it ONE TO ONE: same shots, camera, framing, movements and timing, second by second; same length as the input; keep the exact look of the input. In a bright clothing store, a man and a woman in black uniforms with red Santa hats pull a big clear plastic sheet off a large pyramid pile of folded robes on a long table and smile. Keep the two store workers, the store and the camera exactly as in the input. CHANGE ONLY THE PILE: every folded robe in the pile is our Grinch robe of Images 3-5 (red plush top, green plush bottom, white sherpa trims, Grinch face hood on top of each folded robe), neatly folded in rows; never pink robes. The woman of Image 1 and the room of Image 2 are not in this shot. Natural real movement with real weight, no morphing, ultra-realistic iPhone video, warm natural light. No captions, no emoji, no watermark; any overlay text of the input is removed. Silent."
+  }
+ },
+ {
+  "index": 7,
+  "set": "G3-2",
+  "hook": "g2",
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "duration": 5,
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "use_unlim": false,
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "23edca01-762b-4d5b-8434-4dbe229f94fb"
+    },
+    {
+     "role": "image_references",
+     "value": "4027c35a-6799-4897-b4de-e02ce2d5735e"
+    },
+    {
+     "role": "image_references",
+     "value": "7c8f3cae-fee4-43a8-871d-97e65621068a"
+    },
+    {
+     "role": "image_references",
+     "value": "ccf9632e-bffd-46a1-9f7d-407a8a1bb79f"
+    },
+    {
+     "role": "image_references",
+     "value": "26930d56-68f4-445c-9d43-ebb4c1c7d438"
+    },
+    {
+     "role": "image_references",
+     "value": "dfb3995b-c326-4495-a226-bc212e60dabf"
+    }
+   ],
+   "prompt": "Edit the input video. Copy it ONE TO ONE: same shots, camera, framing, movements and timing, second by second; same length as the input; keep the exact look of the input. POV shot from her eyes looking down at her own legs and feet: she sits on the floor rug of the living room of Image 2 (the room fills the background exactly as in Image 2), legs stretched forward, wearing cozy white fluffy slippers; in front of her feet lies the robe ROLLED UP into a big thick fluffy roll, red plush with white sherpa and green fur ends, NOT tied, nothing around it. 0-3.9 s her feet rest still behind the roll; at 3.9-4.6 s she pushes the roll forward with her feet and it unrolls flat on the rug showing the open robe with its white sherpa lining, red top and green bottom, sleeves with lime-green fur cuffs and the Grinch hood. CHANGE ONLY: her pants are the pants of very cute red flannel Christmas pajamas with tiny white snowflakes, long sleeves and long pants; ROOM = the living room of Image 2; ROBE = our Grinch robe of Images 3-5 (Image 3 front, Image 4 back, Image 5 the hood) reproduced one to one: red plush velvet upper part, green plush velvet lower part, thick white fluffy sherpa trims down the front and around the hem, fluffy lime-green fur cuffs, the Grinch face hood; lined red at the top and green at the bottom; never another robe. Natural real movement with real weight, no morphing, ultra-realistic iPhone video, warm natural light. No captions, no emoji, no watermark; any overlay text of the input is removed. Silent."
+  }
+ },
+ {
+  "index": 8,
+  "set": "G3-3",
+  "hook": "g3",
+  "params": {
+   "model": "kling4_0",
+   "mode": "video-edit",
+   "duration": 4,
+   "resolution": "1080p",
+   "aspect_ratio": "9:16",
+   "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+   "use_unlim": false,
+   "medias": [
+    {
+     "role": "video_references",
+     "value": "ac66b2aa-8c51-4b92-bb9c-04279bcf6b18"
+    },
+    {
+     "role": "image_references",
+     "value": "01e4de96-bc33-43b3-a885-46ca1205a7f5"
+    },
+    {
+     "role": "image_references",
+     "value": "f3165b45-c185-4632-9a6d-b53be1212616"
+    },
+    {
+     "role": "image_references",
+     "value": "ccf9632e-bffd-46a1-9f7d-407a8a1bb79f"
+    },
+    {
+     "role": "image_references",
+     "value": "26930d56-68f4-445c-9d43-ebb4c1c7d438"
+    },
+    {
+     "role": "image_references",
+     "value": "dfb3995b-c326-4495-a226-bc212e60dabf"
+    }
+   ],
+   "prompt": "Edit the input video. Copy it ONE TO ONE: same shots, camera, framing, movements and timing, second by second; same length as the input; keep the exact look of the input. POV shot: she sits on the sofa of the living room of Image 2 (background exactly Image 2, Christmas tree, fireplace) and holds on her lap with both hands the robe ROLLED UP into a big thick roll, red plush with white sherpa and green fur ends, wrapped tightly in clear plastic film; 3.3-4.0 s she pulls the clear plastic off and it flies away, the bare fluffy roll stays in her hands, NOT tied, nothing around it. CHANGE ONLY: her sleeves are the sleeves of very cute lime-green Christmas pajamas with red cuffs and tiny white stars, long sleeves and long pants; ROOM = the living room of Image 2; ROBE = our Grinch robe of Images 3-5 (Image 3 front, Image 4 back, Image 5 the hood) reproduced one to one: red plush velvet upper part, green plush velvet lower part, thick white fluffy sherpa trims down the front and around the hem, fluffy lime-green fur cuffs, the Grinch face hood; lined red at the top and green at the bottom; never another robe. Natural real movement with real weight, no morphing, ultra-realistic iPhone video, warm natural light. No captions, no emoji, no watermark; any overlay text of the input is removed. Silent."
+  }
+ }
+]
