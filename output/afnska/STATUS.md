@@ -1,15 +1,9 @@
-# afnska — test geacă cu corset (Seedance 2.5, 480p)
-Data: 2026-11-12
+# afnska — haina cu corset (quilted corset coat)
+Actualizat: 2026-11-12
 
-Produs ales de Szasz: GEACA CU CORSET (orice variantă/culoare).
-
-## Blocat la pasul 1 (găsirea reel-urilor)
-- Instagram cere login pentru profil (yt-dlp → pagina de login; fetch direct → 429).
-- Apify: creditul gratuit de $5 pe luna asta e consumat → nu pot rula scraper-ul.
-- Căutarea pe web nu găsește contul „afnska”.
-
-## De la Szasz
-3-5 linkuri de reel (cele cu geaca cu corset, cele mai văzute) SAU clipurile descărcate puse în `inbox/afnska/`.
-
-## Higgsfield
-Sold după test: ~315 credite. Test făcut: 3 videouri 480p (78 credite), geacă generică. Board: https://claude.ai/artifact/Pt5xdJRtzJp2toNr53h7bD
+- Produs: haina-rochie matlasata cu corset la spate (bleu / visiniu). Detalii + sourcing: `analysis.txt`.
+- 3 reel-uri refacute (Seedance 2.5 omni_reference, 480p) + montaj cu textul si sunetul original (`overlay.py`, `final/spec-*.json`).
+- Board: https://claude.ai/artifact/Pt5xdJRtzJp2toNr53h7bD
+- QA: R2 ok (cel mai bun), R3 ok, R1 - la 6-8 s fata seamana cu fata originala (de refacut, ~45 credite).
+- Link nedescarcat: instagram.com/p/DfIMQG2x9jW (restrictionat).
+- Credite: 129 cheltuite azi; sold ramas ~37 (workspace comun cu HeatGrump).

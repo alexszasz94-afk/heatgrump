@@ -1,0 +1,29 @@
+AFNSKA - reel-uri analizate (12 nov 2026). Produs: haina-rochie matlasata cu corset (quilted corset coat).
+Detalii produs: matlasaj romb tip puffer, guler inalt, doua randuri de nasturi, corset cu siret si capse la spate pe talie,
+buzunare cu clapa, fusta lunga foarte ampla (se deschide la invartire). Culori vazute: bleu (r1, r3), visiniu (r2).
+
+r1 (upload 1, 15.8 s, sunet original) - text: "Winter coats in 1955 🤮" 0-2s | "Vs..." 2-5.9s | "Winter coats in 2026 🤩🩵" 5.9s-final
+ 0-2s  blonda in geaca puffer neagra peste fusta de bal bleu, sala alba eleganta (hook: comparatie veche/noua)
+ 2-3s  schita haina in caiet (sus)
+ 3-4s  taie material matlasat bleu cu foarfeca
+ 4-5s  strange siretul corsetului pe manechin (spate)
+ 5-6s  haina finala pe manechin, abur cu steamer
+ 6-8s  tine haina pe umeras langa fata, arata siretul de la spate
+ 8-16s poarta haina, se invarte, isi pune sapca neagra, arata talia si spatele
+r2 (upload 2, 15.1 s) - text: "The problem 😩" 0-2s | "Vs..." 2-5.15s | "The solution 😍👑" 5.15s-final
+ aceeasi structura: 0-2 strada cu zapada, rochie de bal + puffer scurt; 2-5 schita / masina de cusut / siret pe manechin;
+ 5-7 langa haina pe manechin si pe umeras; 7-15 poarta haina, se invarte, sapca, spatele, maini pe talie.
+r3 (instagram.com/p/DfFT_CiiyK5, 13 s, fara text) - 0-3 tine haina pe umeras, fata surprinsa, arata spatele;
+ 3-5 o pune pe umeri si o deschide (rochie satin bleu dedesubt); 5-13 o poarta, se invarte de mai multe ori, fusta se deschide.
+instagram.com/p/DfIMQG2x9jW - nu s-a putut descarca (Instagram: "nu e disponibil pentru toata lumea").
+
+Refacere: seedance_2_5 omni_reference, video original ca referinta + fata/camera (pozele din 12 nov) + 2 poze produs, 480p, fara sunet;
+apoi montaj (overlay.py): textul lor, acelasi loc si aceleasi secunde + sunetul original.
+
+SOURCING (sigur vs presupunere):
+ - SIGUR: Hourbelle "Corset Coat" (hourbelle.com) - aceeasi descriere: puffer matlasat romb, corset cu siret la spate, fusta lunga ampla,
+   7 culori (Black, Chocolate, Burgundy, Milk, Grey, Light Blue, Pink), XS-2XL, $129.99 (Black Friday, de la $259.98),
+   livrare gratuita, expediere 1-3 zile, ajunge in 7-14 zile lucratoare.
+ - PRESUPUNERE: afnska si Hourbelle vand probabil acelasi produs de la aceeasi fabrica (aceleasi culori). Neconfirmat.
+ - Pe AliExpress / Alibaba / CJ nu am gasit inca exact acest model. De cautat pe 1688 dupa poza (cautare dupa imagine)
+   sau cu termenii 收腰长款羽绒服 / 束腰羽绒服 (puffer lung cu talie stransa), si in aplicatia CJ dupa imagine.

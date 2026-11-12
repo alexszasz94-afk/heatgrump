@@ -1,0 +1,23 @@
+{
+ "video": "gen/v2.mp4",
+ "audio": "src/r2-audio.m4a",
+ "out": "final/afnska-r2-final.mp4",
+ "y": 0.16,
+ "texts": [
+  {
+   "t": "The problem 😩",
+   "from": 0,
+   "to": 2.0
+  },
+  {
+   "t": "Vs...",
+   "from": 2.0,
+   "to": 5.15
+  },
+  {
+   "t": "The solution 😍👑",
+   "from": 5.15,
+   "to": 99
+  }
+ ]
+}
