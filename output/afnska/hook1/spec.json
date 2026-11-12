@@ -1,0 +1,117 @@
+{
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/afnska/hook1/gen-hook.mp4",
+   "start": 0,
+   "end": 2.75
+  },
+  {
+   "file": "/home/user/heatgrump/output/afnska/hook1/gen-unbox.mp4",
+   "start": 0.75,
+   "end": 3.95
+  },
+  {
+   "file": "/home/user/heatgrump/output/afnska/r3-1080/v-genjutsu-graded.mp4",
+   "start": 2.75,
+   "end": 6.05
+  },
+  {
+   "file": "/home/user/heatgrump/output/afnska/r3-1080/v-genjutsu-roz-graded.mp4",
+   "start": 8.55,
+   "end": 9.6
+  },
+  {
+   "file": "/home/user/heatgrump/output/afnska/broll/broll-visiniu.mp4",
+   "start": 8.55,
+   "end": 9.6
+  },
+  {
+   "file": "/home/user/heatgrump/output/afnska/broll/broll-lapte.mp4",
+   "start": 6.0,
+   "end": 7.05
+  },
+  {
+   "file": "/home/user/heatgrump/output/afnska/broll/broll-negru.mp4",
+   "start": 11.0,
+   "end": 12.35
+  }
+ ],
+ "texts": [
+  {
+   "text": "The princess problem 🥶😩",
+   "segs": [
+    0,
+    0
+   ],
+   "y": 0.46,
+   "size": 62
+  },
+  {
+   "text": "So I found these.. 📦✨",
+   "segs": [
+    1,
+    1
+   ],
+   "y": 0.46,
+   "size": 62
+  },
+  {
+   "text": "The solution 😍💙",
+   "segs": [
+    2,
+    2
+   ],
+   "y": 0.46,
+   "size": 62
+  },
+  {
+   "text": "Aurora 🩷",
+   "segs": [
+    3,
+    3
+   ],
+   "y": 0.46,
+   "size": 62
+  },
+  {
+   "text": "Snow White ❤️",
+   "segs": [
+    4,
+    4
+   ],
+   "y": 0.46,
+   "size": 62
+  },
+  {
+   "text": "Cinderella 🤍",
+   "segs": [
+    5,
+    5
+   ],
+   "y": 0.46,
+   "size": 62
+  },
+  {
+   "text": "Dark Princess 🖤",
+   "segs": [
+    6,
+    6
+   ],
+   "y": 0.46,
+   "size": 62
+  },
+  {
+   "text": "Comment COAT for the link 🖤",
+   "segs": [
+    6,
+    6
+   ],
+   "y": 0.56,
+   "size": 54
+  }
+ ],
+ "music": "/home/user/heatgrump/output/afnska/hook1/audio.m4a",
+ "music_start": 0,
+ "music_vol": 1.0,
+ "out": "/home/user/heatgrump/output/afnska/hook1/frostfemme-hook1-princess.mp4"
+}
