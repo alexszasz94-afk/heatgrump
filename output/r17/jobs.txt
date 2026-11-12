@@ -27,3 +27,7 @@ e4ae1f34-22e1-49e2-8776-ccc454dfa9e4 remote-new
 97bde6f0-ab7b-4f35-922b-f1bb6d8d974a redo-7c(BAD: camera originala)
 606bbcd5-1ab5-4626-bb8a-4de11f8ea2db redo-7d
 71760129-7404-401a-a59e-612e5491c261 redo-4c(ip)
+8922b674-3d8b-4193-af84-f1f7ae5c1544 remote-green-sherpa(nefolosit)
+db39c834-c24c-4af7-8d9d-b1363acf73ed remote-green-robe-plate
+f94ddbb8-2854-4bda-ba99-c5fd1586f97e remote-green-robe-video
+969c4c38-859e-47b0-a090-3d8ee30c530a redo-7e
