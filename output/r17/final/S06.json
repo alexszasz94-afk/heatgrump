@@ -16,17 +16,17 @@
   {
    "file": "/home/user/heatgrump/output/r17/broll/grinch-06.mp4",
    "start": 2.333,
-   "end": 5.4
+   "end": 6.5
   },
   {
-   "file": "/home/user/heatgrump/output/r17/broll/grinch-06.mp4",
-   "start": 6.583,
-   "end": 7.292
+   "file": "/home/user/heatgrump/library/motion/conector-telecomanda-alb.mp4",
+   "start": 0.0,
+   "end": 2.66
   },
   {
-   "file": "/home/user/heatgrump/output/r17/broll/grinch-06.mp4",
-   "start": 7.375,
-   "end": 9.292
+   "file": "/home/user/heatgrump/output/r17/remote-green-fixed.mp4",
+   "start": 0.0,
+   "end": 3.7
   },
   {
    "file": "/home/user/heatgrump/output/r17/final/S06-cozy.mp4",
@@ -46,5 +46,6 @@
   }
  ],
  "music": "/tmp/pp/r17/music.m4a",
- "music_start": 0
+ "music_start": 0,
+ "keep_video_after_music": true
 }
