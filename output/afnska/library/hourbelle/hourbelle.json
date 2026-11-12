@@ -1,0 +1,96 @@
+{
+ "site": "https://hourbelle.com/products/hourbelle-corset-coat",
+ "titlu": "The Hourbelle Corset Coat",
+ "pret_usd": 129.99,
+ "pret_vechi_usd": 259.98,
+ "optiuni": [
+  {
+   "name": "Color",
+   "position": 1,
+   "values": [
+    "Black",
+    "Chocolate",
+    "Burgundy",
+    "Milk",
+    "Grey",
+    "Light Blue",
+    "Pink"
+   ]
+  },
+  {
+   "name": "Size",
+   "position": 2,
+   "values": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+   ]
+  }
+ ],
+ "descriere": "A winter coat cut like a gown. Hourbelle is a long quilted puffer with a corset-shaped bodice that nips in at your waist and a full bell skirt that swings when you walk - warm like a puffer, shaped like a dress.\nCorset-shaped bodice with princess seams and a waist seam that shows your waist\nCorset lacing at the back of the waist\nDouble-breasted front with fabric-covered buttons and a tall stand-up collar\nFull, flared, ankle-length skirt with diamond quilting\nLight padded fill, matte outer with a soft sheen\nFlap pockets on the hips\nCare: hand wash in cold water or a gentle cycle in a laundry bag, hang to dry, do not tumble dry.",
+ "media": [
+  {
+   "fisier": "poze/01-burgundy-strada.jpg",
+   "url": "https://cdn.shopify.com/s/files/1/1093/0411/9627/files/hourbelle-burgundy-street.jpg?v=1794426505",
+   "alt": "A woman in the burgundy Hourbelle corset coat on a snowy New York street, the skirt swinging"
+  },
+  {
+   "fisier": "poze/02-black-fisa.jpg",
+   "url": "https://cdn.shopify.com/s/files/1/1093/0411/9627/files/hourbelle-coat-black.jpg?v=1794426505",
+   "alt": "The Hourbelle corset coat in Black, front view"
+  },
+  {
+   "fisier": "poze/03-black-spate-corset.jpg",
+   "url": "https://cdn.shopify.com/s/files/1/1093/0411/9627/files/hourbelle-laced-back.jpg?v=1794426505",
+   "alt": "The laced corset back of the black Hourbelle coat"
+  },
+  {
+   "fisier": "poze/04-burgundy-detaliu-talie.jpg",
+   "url": "https://cdn.shopify.com/s/files/1/1093/0411/9627/files/hourbelle-waist-detail.jpg?v=1794426505",
+   "alt": "Close-up of the burgundy Hourbelle coat: stand-up collar, double-breasted buttons, quilted corset bodice"
+  },
+  {
+   "fisier": "poze/05-chocolate-zapada.jpg",
+   "url": "https://cdn.shopify.com/s/files/1/1093/0411/9627/files/hourbelle-chocolate-twirl.jpg?v=1794426505",
+   "alt": "A woman twirling in the chocolate Hourbelle coat in a snowy park"
+  },
+  {
+   "fisier": "poze/06-milk-craciun.jpg",
+   "url": "https://cdn.shopify.com/s/files/1/1093/0411/9627/files/hourbelle-milk-christmas.jpg?v=1794426505",
+   "alt": "A woman in the milk-white Hourbelle coat beside a Christmas tree"
+  },
+  {
+   "fisier": "poze/07-chocolate-fisa.jpg",
+   "url": "https://cdn.shopify.com/s/files/1/1093/0411/9627/files/hourbelle-coat-chocolate.jpg?v=1794426505",
+   "alt": "The Hourbelle corset coat in Chocolate, front view"
+  },
+  {
+   "fisier": "poze/08-burgundy-fisa.jpg",
+   "url": "https://cdn.shopify.com/s/files/1/1093/0411/9627/files/hourbelle-coat-burgundy.jpg?v=1794426505",
+   "alt": "The Hourbelle corset coat in Burgundy, front view"
+  },
+  {
+   "fisier": "poze/09-milk-fisa.jpg",
+   "url": "https://cdn.shopify.com/s/files/1/1093/0411/9627/files/hourbelle-coat-milk.jpg?v=1794426505",
+   "alt": "The Hourbelle corset coat in Milk, front view"
+  },
+  {
+   "fisier": "poze/10-grey-fisa.jpg",
+   "url": "https://cdn.shopify.com/s/files/1/1093/0411/9627/files/hourbelle-coat-grey.jpg?v=1794426505",
+   "alt": "The Hourbelle corset coat in Grey, front view"
+  },
+  {
+   "fisier": "poze/11-lightblue-fisa.jpg",
+   "url": "https://cdn.shopify.com/s/files/1/1093/0411/9627/files/hourbelle-coat-light-blue.jpg?v=1794426505",
+   "alt": "The Hourbelle corset coat in Light Blue, front view"
+  },
+  {
+   "fisier": "poze/12-pink-fisa.jpg",
+   "url": "https://cdn.shopify.com/s/files/1/1093/0411/9627/files/hourbelle-coat-pink.jpg?v=1794426505",
+   "alt": "The Hourbelle corset coat in Pink, front view"
+  }
+ ]
+}

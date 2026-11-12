@@ -1,7 +1,48 @@
-{"account": "Higgsfield user_3GmC... (contul nou)",
+{
+ "account": "Higgsfield user_3GmC... (contul nou)",
  "room_original_frame": "4668daa0-1339-4cb2-91bf-597dfbdbf225",
- "rooms": {"room01-rosu-verde":"ee5def85-db6e-4781-b38f-70bc38630c2c","room02-bleu-argintiu":"7061b41f-8e7e-4ca4-a21a-c5322e49f3e5","room03-roz-rosegold":"3912d4fd-319c-4769-a180-c2ec96548bf1","room04-sampanie-ivoire":"7927c2e4-e061-4c16-a54d-34d53969c352","room05-smarald-auriu":"3a7610bd-48a2-4abe-a3e2-e673ec980a61","room06-visiniu-crem":"1be96db0-2168-4dde-90c5-12c06d70c921","room07-lavanda-argintiu":"c0a6931f-af7b-46d1-9d91-9a52aab72046","room08-salvie-lemn":"e84ba568-b3bd-4fdf-99ba-deaa245dda85","room09-alb-negru-carouri":"85ee0319-5b10-4e1a-8c9f-5d69e1211247","room10-candy-cane":"91c9151e-b724-4098-a3bd-cd4eef6c2547"},
- "girls": {"blonda1-platinata":"8070d354-ec5e-4ccd-89c9-b518cd01d6c4","blonda2-bob-aurie":"3c5a03fd-7835-4deb-87cf-f0cad0c742fb","blonda3-breton":"8e3a1666-b30e-4134-97e2-878bdf1d5ad6","blonda4-cenusie":"8d73a5b6-252e-4b2a-b4f0-5fbc8c9d4f86","blonda5-roscat-blond":"c5b0298f-a7d0-4ce8-ad1d-cad796226d39",
-  "bruneta01-par-lung-drept":"4e45e5dc-18db-4595-8819-722350ff4b51","bruneta02-saten-valuri":"a6d93aa0-3f12-4af2-9612-82ebbfd0075a","bruneta03-breton-pistrui":"3e0ffd90-917d-4979-aa33-1e41d28b16ed","bruneta04-coada":"40a770be-4006-4647-91bb-c3731b8dacc1","bruneta05-bucle-caramel":"8b05f3b4-0bd0-4417-8800-85dcee529669","bruneta06-lob-ruj-rosu":"5153f208-9103-4c90-b9b9-264454c91d26","bruneta07-valuri-lungi":"f34669fb-6095-4d61-b599-9464f83356a0","bruneta08-blowout":"cae17b19-9219-407b-a6a5-c510d37ed372","bruneta09-impletitura":"fcc6d23e-30fa-4834-a4f0-adcbef353268","bruneta10-straturi":"84d05d60-0ebc-49d1-b23a-d0b79ec8a560",
-  "r3-blonda-rochie":"2d116ee3-ee5b-4a50-9a56-1931ad6a0851","r3-blonda-pijama":"2bb7c78f-9985-4bdc-ba8c-7156f616956c"},
- "room_r3_1080":"7b576141-8838-4f25-98b0-77a3eb4b426a"}
+ "rooms": {
+  "room01-rosu-verde": "ee5def85-db6e-4781-b38f-70bc38630c2c",
+  "room02-bleu-argintiu": "7061b41f-8e7e-4ca4-a21a-c5322e49f3e5",
+  "room03-roz-rosegold": "3912d4fd-319c-4769-a180-c2ec96548bf1",
+  "room04-sampanie-ivoire": "7927c2e4-e061-4c16-a54d-34d53969c352",
+  "room05-smarald-auriu": "3a7610bd-48a2-4abe-a3e2-e673ec980a61",
+  "room06-visiniu-crem": "1be96db0-2168-4dde-90c5-12c06d70c921",
+  "room07-lavanda-argintiu": "c0a6931f-af7b-46d1-9d91-9a52aab72046",
+  "room08-salvie-lemn": "e84ba568-b3bd-4fdf-99ba-deaa245dda85",
+  "room09-alb-negru-carouri": "85ee0319-5b10-4e1a-8c9f-5d69e1211247",
+  "room10-candy-cane": "91c9151e-b724-4098-a3bd-cd4eef6c2547"
+ },
+ "girls": {
+  "blonda1-platinata": "8070d354-ec5e-4ccd-89c9-b518cd01d6c4",
+  "blonda2-bob-aurie": "3c5a03fd-7835-4deb-87cf-f0cad0c742fb",
+  "blonda3-breton": "8e3a1666-b30e-4134-97e2-878bdf1d5ad6",
+  "blonda4-cenusie": "8d73a5b6-252e-4b2a-b4f0-5fbc8c9d4f86",
+  "blonda5-roscat-blond": "c5b0298f-a7d0-4ce8-ad1d-cad796226d39",
+  "bruneta01-par-lung-drept": "4e45e5dc-18db-4595-8819-722350ff4b51",
+  "bruneta02-saten-valuri": "a6d93aa0-3f12-4af2-9612-82ebbfd0075a",
+  "bruneta03-breton-pistrui": "3e0ffd90-917d-4979-aa33-1e41d28b16ed",
+  "bruneta04-coada": "40a770be-4006-4647-91bb-c3731b8dacc1",
+  "bruneta05-bucle-caramel": "8b05f3b4-0bd0-4417-8800-85dcee529669",
+  "bruneta06-lob-ruj-rosu": "5153f208-9103-4c90-b9b9-264454c91d26",
+  "bruneta07-valuri-lungi": "f34669fb-6095-4d61-b599-9464f83356a0",
+  "bruneta08-blowout": "cae17b19-9219-407b-a6a5-c510d37ed372",
+  "bruneta09-impletitura": "fcc6d23e-30fa-4834-a4f0-adcbef353268",
+  "bruneta10-straturi": "84d05d60-0ebc-49d1-b23a-d0b79ec8a560",
+  "r3-blonda-rochie": "2d116ee3-ee5b-4a50-9a56-1931ad6a0851",
+  "r3-blonda-pijama": "2bb7c78f-9985-4bdc-ba8c-7156f616956c"
+ },
+ "room_r3_1080": "7b576141-8838-4f25-98b0-77a3eb4b426a",
+ "hourbelle_refs": {
+  "spate-corset": "2b9634f3-f497-4f2f-9df2-e863f0763089",
+  "detaliu-talie-burgundy": "45b9d1eb-209d-4f51-8dba-e4b5e5d9f4c8",
+  "fisa-lightblue": "0d57857c-98d6-43c6-86c2-73b6f55e0dd9",
+  "fisa-burgundy": "e8b87ea0-c697-4b6a-8d23-3ee022017b97",
+  "fisa-black": "f56b8ba3-8e9f-499d-bcf3-81abf4f0d6c0",
+  "fisa-chocolate": "ccbe9ddd-cefe-4669-be9a-0efa74abb238",
+  "fisa-milk": "b9ecd2ab-9ec5-4829-8bbd-52c52fbabe57",
+  "fisa-grey": "ea973a4b-dffb-4615-bc5e-24a2b70d5883",
+  "fisa-pink": "62c89160-454d-49d4-84e2-8bf89a1bf711"
+ },
+ "genjutsu_r3": "3f0574dd-e047-47b0-b58e-f2254844e13f"
+}
