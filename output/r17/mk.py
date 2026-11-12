@@ -16,7 +16,7 @@ segs=[{"file":os.path.abspath(hook),"start":0,"end":he,"audio":False},
  {"file":os.path.abspath(br),"start":0.5,"end":round(c_front-f,3)},
  {"file":os.path.abspath(br),"start":round(c_front+f,3),"end":round(c_conn-f,3) if se=='full' else float(se)},
  {"file":CONN,"start":0.0,"end":2.66},
- {"file":REMOTE,"start":RS,"end":RE},
+ ({"file":REMOTE,"start":RS,"end":RE} if os.environ.get('REMOTE') else {"file":os.path.abspath(br),"start":round(c_ctrl+f,3),"end":round(c_cozy-f,3)}),
  {"file":cozy,"start":0,"end":round(float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',cozy]))-0.05,2)}]
 sp={"out":f"{B}/final/{name}.mp4","fps":30,"segments":segs,
  "texts":[{"segs":[0,-1],"text":"DONT show this to\nyour mom... 😳❄️","size":int(os.environ.get('TSIZE','64')),"y":0.165}],
