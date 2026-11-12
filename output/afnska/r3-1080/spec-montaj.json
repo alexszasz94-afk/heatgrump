@@ -1,0 +1,33 @@
+{
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/afnska/gen/v3.mp4",
+   "start": 0,
+   "end": 13.0
+  }
+ ],
+ "texts": [
+  {
+   "text": "POV: you finally found a winter coat that isn't ugly 😍",
+   "t0": 0,
+   "t1": 3.0
+  },
+  {
+   "text": "wait… it has a CORSET 🎀",
+   "t0": 3.0,
+   "t1": 5.5
+  },
+  {
+   "text": "warm AND a twirl dress?? ❄️🩵",
+   "t0": 5.5,
+   "t1": 13.0
+  }
+ ],
+ "music": "/home/user/heatgrump/heatgrump-studio/music/xmas/mariah-all-i-want.mp3",
+ "out": "/home/user/heatgrump/output/afnska/r3-1080/frostfemme-r3-montat-480p.mp4",
+ "music_start": 48.4,
+ "music_duck": 5.0,
+ "music_hook_vol": 0.35,
+ "music_drop_vol": 1.0,
+ "orig_vol": 0.0
+}
