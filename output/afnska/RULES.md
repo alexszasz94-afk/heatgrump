@@ -9,3 +9,7 @@
 - 2026-11-12: text mic (size 62) si la mijlocul ecranului (y 0.46), fara sa acopere fata.
 - Higgsfield: contul nou (user_3GmC...) - media urcate din nou: r3-mute 26c51ddf, ref_blue_front 9b336183, ref_blue_back 80432e82;
   camera 7b576141, fata (rochie) 2d116ee3, fata (pijama) 2bb7c78f. Video 1080p 13 s = 208 credite.
+- 2026-11-12: prompturile de copiere descriu miscarile SECUNDA CU SECUNDA (vezi r3-1080/motion-breakdown.txt): taieturi, unghi, gesturi, numar de invartiri.
+- 2026-11-12: calitatea/look-ul ca in original: dupa generare, corectie de culoare spre original (masurat cu signalstats: luminozitate, saturatie),
+  plus corectie de nuanta pe albastruri (haina iese lila; selectivecolor blues/magentas). Filtrul folosit la r3 v2:
+  selectivecolor=blues='0.15 -0.45 -0.05 0':magentas='0.2 -0.35 0 0':cyans='0 -0.1 0 0',eq=brightness=-0.07:contrast=1.08:saturation=0.7:gamma=0.97,colorbalance=rm=0.02:bm=-0.02,noise=alls=4:allf=t
