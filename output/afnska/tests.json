@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-12",
+  "product": "corset jacket (generic placeholder - afnska exact model not yet seen)",
+  "settings": {"model": "seedance_2_5", "mode": "omni_reference", "resolution": "480p", "aspect_ratio": "9:16", "duration": 5, "generate_audio": false},
+  "cost_credits": {"start_frames": 33, "videos": 45, "total": 78},
+  "tests": [
+    {"id": 1, "jacket": "black faux-leather cropped, front lace-up corset", "room": "suburban living room, tree + fireplace", "frame_job": "d653f6c1-3c06-4f6b-b33c-0f6ebe7d5953", "video_job": "d2e7855a-b420-49b8-b520-15d078f2361b",
+     "text_en": {"0-2s": "POV: you found THE jacket for Christmas parties", "2-5s": "the corset waist does all the work"},
+     "caption": "The corset jacket that snatches every outfit this holiday season. #corsetjacket #holidayoutfit #christmasoutfit #ootd #fashiontok"},
+    {"id": 2, "jacket": "cream wool corset jacket, puff sleeves, ivory ribbon lacing", "room": "colonial entryway, garland staircase", "frame_job": "4d6a1e28-3714-4820-b719-e2f70511de61", "video_job": "d1f4facf-1f61-48ef-9c97-a0b136d64b6c",
+     "text_en": {"0-2s": "Christmas dinner outfit: solved", "2-5s": "tie it tighter = instant hourglass"},
+     "caption": "Cozy, classy and cinched for every holiday dinner. #corsetjacket #christmasdinner #holidaystyle #winteroutfit"},
+    {"id": 3, "jacket": "denim cropped corset jacket, white lacing", "room": "bright bedroom, flocked tree", "frame_job": "7b95063d-b005-4136-ac86-d821439136c7", "video_job": "f767be97-12a0-47ed-b857-f842a710cb51",
+     "text_en": {"0-2s": "the jacket everyone asks me about", "2-5s": "denim + corset = obsessed"},
+     "caption": "Denim corset jacket season is here. #corsetjacket #denimjacket #christmasoutfit #outfitideas"}
+  ],
+  "music_idea": "trending upbeat Christmas pop (e.g. a sped-up holiday track from the Reels audio library)"
+}

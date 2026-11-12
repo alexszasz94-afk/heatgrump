@@ -1,0 +1,104 @@
+<title>Corset Jacket Tests</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Layout: lookbook strip of three 9:16 clips, then a supplier ledger. Palette: pine + cranberry on snow. */
+:root{
+  --bg:#f7f6f3; --surface:#ffffff; --fg:#1d2420; --muted:#5f6b64; --line:#dfe2dc;
+  --pine:#1f5c45; --cran:#a3243b; --warn-bg:#fff3d6; --warn-fg:#6b4a00;
+  --display:"Fraunces",Georgia,serif; --body:"Inter",system-ui,-apple-system,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#121614; --surface:#1a201d; --fg:#e8ece9; --muted:#9aa69f; --line:#2c3531;
+  --pine:#6cc2a0; --cran:#f07a8e; --warn-bg:#3a2f12; --warn-fg:#f3d58a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121614; --surface:#1a201d; --fg:#e8ece9; --muted:#9aa69f; --line:#2c3531;
+  --pine:#6cc2a0; --cran:#f07a8e; --warn-bg:#3a2f12; --warn-fg:#f3d58a; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.55}
+.wrap{max-width:1080px;margin:0 auto;padding-block:32px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:36px}
+h1,h2{font-family:var(--display);font-weight:600;text-wrap:balance;margin:0}
+h1{font-size:clamp(28px,5vw,40px);line-height:1.1}
+h2{font-size:24px}
+.eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--pine);font-weight:600}
+.lede{color:var(--muted);max-width:65ch;margin:8px 0 0}
+.note{background:var(--warn-bg);color:var(--warn-fg);border-radius:8px;padding:12px 14px;max-width:75ch}
+.clips{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.clip{display:grid;gap:10px;min-width:0}
+.clip video{width:100%;max-width:100%;aspect-ratio:9/16;border-radius:10px;background:#000;display:block}
+.clip h3{margin:0;font-size:16px;font-weight:600}
+.meta{font-size:13px;color:var(--muted);margin:0}
+dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:4px 10px;font-size:13px}
+dt{color:var(--cran);font-variant-numeric:tabular-nums;font-weight:600}
+dd{margin:0}
+.cap{font-size:13px;border-top:1px solid var(--line);padding-top:8px;margin:0}
+.qa{font-size:12px;color:var(--pine);font-weight:600}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;min-width:720px;font-size:14px}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600}
+td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+a{color:var(--pine)}
+a:focus-visible{outline:2px solid var(--cran);outline-offset:2px}
+ul{margin:0;padding-left:20px;display:grid;gap:4px;max-width:75ch}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Test 12 nov · Seedance 2.5 · 480p · 9:16</div>
+    <h1>Geaca cu corset: 3 videouri de test</h1>
+    <p class="lede">Fete blonde americane, case americane de Crăciun, geacă cu talie corset. Cost total: 78 credite (3 poze × 11 + 3 videouri × 15). Fără sunet; textul și muzica se pun în CapCut.</p>
+  </header>
+
+  <p class="note"><strong>Important:</strong> geaca din videouri e o geacă cu corset generică, nu modelul exact afnska. Instagram nu m-a lăsat să le văd reel-urile (cere login), iar Apify nu mai are credit luna asta. Când îmi trimiți 3-5 linkuri sau clipuri, refac testul cu geaca lor exactă (video_edit pe reel-ul lor).</p>
+
+  <section class="clips" aria-label="Videouri de test">
+    <article class="clip">
+      <video src="test1.mp4" poster="poster1.jpg" controls playsinline muted loop preload="metadata"></video>
+      <h3>1 · Piele neagră, oglindă în living</h3>
+      <p class="meta">Brad + șemineu cu ciorapi. Se întoarce, arată talia, zâmbește.</p>
+      <dl><dt>0-2s</dt><dd>POV: you found THE jacket for Christmas parties</dd><dt>2-5s</dt><dd>the corset waist does all the work</dd></dl>
+      <p class="cap">The corset jacket that snatches every outfit this holiday season. #corsetjacket #holidayoutfit #christmasoutfit #ootd</p>
+      <span class="qa">QA: ok · fața stabilă, mâini ok, fără text/logo</span>
+    </article>
+    <article class="clip">
+      <video src="test2.mp4" poster="poster2.jpg" controls playsinline muted loop preload="metadata"></video>
+      <h3>2 · Lână crem, hol cu scară</h3>
+      <p class="meta">Scară cu ghirlandă, coroniță pe ușă. Strânge șnurul, se întoarce, privește peste umăr.</p>
+      <dl><dt>0-2s</dt><dd>Christmas dinner outfit: solved</dd><dt>2-5s</dt><dd>tie it tighter = instant hourglass</dd></dl>
+      <p class="cap">Cozy, classy and cinched for every holiday dinner. #corsetjacket #christmasdinner #holidaystyle</p>
+      <span class="qa">QA: ok · cel mai natural din cele 3</span>
+    </article>
+    <article class="clip">
+      <video src="test3.mp4" poster="poster3.jpg" controls playsinline muted loop preload="metadata"></video>
+      <h3>3 · Denim, dormitor</h3>
+      <p class="meta">Brad nins, luminițe pe pat. Se învârte complet, mâinile pe talie.</p>
+      <dl><dt>0-2s</dt><dd>the jacket everyone asks me about</dd><dt>2-5s</dt><dd>denim + corset = obsessed</dd></dl>
+      <p class="cap">Denim corset jacket season is here. #corsetjacket #denimjacket #christmasoutfit</p>
+      <span class="qa">QA: ok, cu o mică problemă · la spate apare șiret și piele goală (în față nu era)</span>
+    </article>
+  </section>
+
+  <section style="display:grid;gap:14px">
+    <div>
+      <div class="eyebrow">Sourcing · preliminar</div>
+      <h2>De unde poți lua o geacă cu corset</h2>
+      <p class="lede">Prețuri de pe pagina de căutare AliExpress (12 nov). Nu am văzut încă geaca afnska, deci acestea sunt modele asemănătoare, nu același produs.</p>
+    </div>
+    <div class="tbl"><table>
+      <thead><tr><th>Furnizor</th><th>Produs</th><th>Preț</th><th>Vândute</th><th>De verificat</th></tr></thead>
+      <tbody>
+        <tr><td>AliExpress</td><td><a href="https://www.aliexpress.us/item/3256811378806929.html" target="_blank" rel="noopener">BKLD PU leather corset cropped jacket</a></td><td class="num">$27.39</td><td class="num">57</td><td>Cel mai vândut din căutare; culori și mărimi</td></tr>
+        <tr><td>AliExpress</td><td><a href="https://www.aliexpress.us/item/3256812903948890.html" target="_blank" rel="noopener">Y2K corset waist cropped jacket, zip up</a></td><td class="num">$32.59</td><td class="num">—</td><td>Fără vânzări afișate; cere poze reale</td></tr>
+        <tr><td>AliExpress</td><td><a href="https://www.aliexpress.us/item/3256810170153338.html" target="_blank" rel="noopener">Turtleneck zip-up cropped PU corset jacket</a></td><td class="num">$51.28</td><td class="num">17</td><td>Preț mare pentru dropshipping</td></tr>
+        <tr><td>AliExpress</td><td><a href="https://www.aliexpress.us/item/3256813224564041.html" target="_blank" rel="noopener">Faux fur hooded corset waist cropped coat</a></td><td class="num">$39.69</td><td class="num">—</td><td>Variantă de iarnă, potrivită pentru Crăciun</td></tr>
+        <tr><td>Alibaba</td><td><a href="https://www.alibaba.com/product-introduction/Wholesale-Hourglass-Drawstring-Waist-Tailored-Soft_1600618436445.html" target="_blank" rel="noopener">Hourglass drawstring-waist leather blazer</a></td><td class="num">$35–43</td><td class="num">min. 20 buc</td><td>Doar pentru stoc, nu pentru dropshipping la bucată</td></tr>
+      </tbody>
+    </table></div>
+    <ul>
+      <li>CJdropshipping și Zendrop: nu am găsit pagini publice pentru „corset jacket”. Caută în aplicația lor după poza gecii afnska („search by image”).</li>
+      <li>Înainte să vinzi: comandă o mostră, verifică tabelul de mărimi (la geci cu corset diferențele sunt mari) și termenul de livrare spre SUA (de obicei 7-15 zile la AliExpress Choice).</li>
+      <li>Ce nu știu încă: modelul exact afnska, prețul lor și site-ul lor. Le aflu din reel-uri și din bio.</li>
+    </ul>
+  </section>
+</div>

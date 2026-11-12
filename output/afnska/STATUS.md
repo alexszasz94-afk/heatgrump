@@ -12,4 +12,4 @@ Produs ales de Szasz: GEACA CU CORSET (orice variantă/culoare).
 3-5 linkuri de reel (cele cu geaca cu corset, cele mai văzute) SAU clipurile descărcate puse în `inbox/afnska/`.
 
 ## Higgsfield
-Sold: 393,83 credite (workspace comun). Nimic cheltuit încă.
+Sold după test: ~315 credite. Test făcut: 3 videouri 480p (78 credite), geacă generică. Board: https://claude.ai/artifact/Pt5xdJRtzJp2toNr53h7bD
