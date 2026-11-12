@@ -15,3 +15,4 @@
   selectivecolor=blues='0.15 -0.45 -0.05 0':magentas='0.2 -0.35 0 0':cyans='0 -0.1 0 0',eq=brightness=-0.07:contrast=1.08:saturation=0.7:gamma=0.97,colorbalance=rm=0.02:bm=-0.02,noise=alls=4:allf=t
 - 2026-11-12: la FIECARE video punem si referintele de produs de pe site-ul Hourbelle (library/hourbelle/poze, fisa culorii potrivite + spate-corset).
 - 2026-11-12: la FIECARE video livrat dam si CAPTION (EN), cu: Comment "COAT" ... link cu reducere speciala de Black Friday.
+- 2026-11-12: la Genjutsu NU mai generam poza fata-in-camera; fata si camera se dau direct ca referinte separate. Nu generam nimic in plus fara sa fie cerut.
