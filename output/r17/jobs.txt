@@ -17,3 +17,13 @@ a09887a2-744f-4ab3-90ba-420662f2d977 3d
 5fb2af3d-e821-4e1a-93d8-e21d1b73d74f 8green-b
 c04421c2-85eb-4a19-aca9-8db61c523f8f 0green-b
 2fb7070b-1673-4d1f-8000-363ac6dc215b 7green
+5075052b-8a37-4ef3-b90e-2ce08af7e3f7 redo-1(fata1)
+74a61cb1-83fd-4326-ad91-cdd922224216 redo-4
+d8854749-10da-4f49-b4d1-acea6fde1e31 redo-7
+04ad6f74-f4f4-429d-80bb-2715458becdc redo-4b
+53ec85f0-7c62-42de-a0f6-c96ef8f2f94a redo-7b
+e4ae1f34-22e1-49e2-8776-ccc454dfa9e4 remote-new
+24507e3e-0c50-4930-b70e-7e8aaae69498 remote-plate
+97bde6f0-ab7b-4f35-922b-f1bb6d8d974a redo-7c(BAD: camera originala)
+606bbcd5-1ab5-4626-bb8a-4de11f8ea2db redo-7d
+71760129-7404-401a-a59e-612e5491c261 redo-4c(ip)

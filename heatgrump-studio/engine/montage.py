@@ -135,7 +135,9 @@ def _run(sp, tmp):
     if sp.get("music"):
         m = os.path.join(ROOT, sp["music"]) if not os.path.isabs(sp["music"]) else sp["music"]
         mlen = float(subprocess.run(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",m],capture_output=True,text=True).stdout)
-        dur = min(dur, mlen - sp.get("music_start", 0) - 0.05)   # video ends when the music ends
+        mend = mlen - sp.get("music_start", 0) - 0.05
+        if not sp.get("keep_video_after_music"): dur = min(dur, mend)   # video ends when the music ends
+        mfade = min(dur, mend)   # 12 nov (Szasz): keep_video_after_music -> picture runs on, the song fades at its own end, silence after
         inputs += ["-ss", str(sp.get("music_start", 0)), "-i", m]
         duck = sp.get("music_duck")   # rule 28 Oct (updated): music QUIET under the hook (voice on top), a bit LOUDER from the drop at the cut hook -> B-roll
         if duck:
@@ -144,7 +146,7 @@ def _run(sp, tmp):
         else:
             mv = f"volume={sp.get('music_vol',1.0)}"
         # rule 31 Oct (Alex, REPARATII #6): song normalised first, whole mix normalised last -> never quieter after the hook
-        filt.append(f"[0:a]volume={sp.get('orig_vol',1.0)}[oa];[{n}:a]loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000,{mv},afade=t=out:st={max(dur-0.5,0)}:d=0.5[ma];[oa][ma]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000[a]")
+        filt.append(f"[0:a]volume={sp.get('orig_vol',1.0)}[oa];[{n}:a]loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000,{mv},afade=t=out:st={max(mfade-0.5,0)}:d=0.5,apad[ma];[oa][ma]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000[a]")
         amap = "[a]"
     else:
         amap = "0:a"
