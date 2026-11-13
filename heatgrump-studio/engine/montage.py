@@ -33,6 +33,8 @@ def clusters(text):
         ch = text[i]
         if is_emoji(ch) and ch not in "\ufe0f\u200d":
             seq = ch; i += 1
+            if 0x1F1E6 <= ord(ch) <= 0x1F1FF and i < len(text) and 0x1F1E6 <= ord(text[i]) <= 0x1F1FF:   # flag = 2 regional letters
+                seq += text[i]; i += 1
             while i < len(text) and (text[i] in "\ufe0f" or 0x1F3FB <= ord(text[i]) <= 0x1F3FF or (text[i] == "\u200d" and i + 1 < len(text))):
                 if text[i] == "\u200d": seq += text[i] + text[i + 1]; i += 2
                 else: seq += text[i]; i += 1

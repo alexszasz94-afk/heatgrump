@@ -1,0 +1,30 @@
+{
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/afnska/broll/s3-bleu-fata23.mp4",
+   "start": 0.05,
+   "end": 13.0
+  }
+ ],
+ "texts": [
+  {
+   "text": "Santa, I was good this year.. 🎅💙",
+   "t0": 0,
+   "t1": 10.6,
+   "y": 0.46,
+   "size": 60
+  },
+  {
+   "text": "Comment COAT for the link ❄️",
+   "t0": 10.6,
+   "t1": 12.95,
+   "y": 0.56,
+   "size": 54
+  }
+ ],
+ "music": "/home/user/heatgrump/heatgrump-studio/music/xmas/wham-last-christmas.mp3",
+ "music_start": 0,
+ "music_vol": 1.0,
+ "orig_vol": 0.0,
+ "out": "/home/user/heatgrump/output/afnska/broll-text/frostfemme-bt5-bleu-EN.mp4"
+}

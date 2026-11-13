@@ -1,0 +1,30 @@
+{
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/afnska/broll/s3-gri-fata25.mp4",
+   "start": 0.05,
+   "end": 13.0
+  }
+ ],
+ "texts": [
+  {
+   "text": "Nicht deiner Mama zeigen.. ❄️🇩🇪",
+   "t0": 0,
+   "t1": 10.6,
+   "y": 0.46,
+   "size": 60
+  },
+  {
+   "text": "Kommentiere MANTEL ❄️🇩🇪",
+   "t0": 10.6,
+   "t1": 12.95,
+   "y": 0.56,
+   "size": 54
+  }
+ ],
+ "music": "/home/user/heatgrump/heatgrump-studio/music/xmas/mariah-all-i-want.mp3",
+ "music_start": 48.4,
+ "music_vol": 1.0,
+ "orig_vol": 0.0,
+ "out": "/home/user/heatgrump/output/afnska/broll-text/frostfemme-bt4-gri-DE.mp4"
+}
