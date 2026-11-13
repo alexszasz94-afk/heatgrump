@@ -10,3 +10,11 @@ Toate = copie dupa reel 3 (DfFT_CiiyK5), 13 s, 9 taieturi.
 Plus (r3-1080/): genjutsu bleu (blonda platinata), genjutsu roz (blonda breton).
 Procesare: process.py (lumina/saturatie spre original, fara sunet).
 Test Seedance: ~0.5-0.7 s intarziere in primele 6 s si lipseste cadrul din spate cu siretul; de la 7.5 s aliniat. Genjutsu = exact.
+
+## Set 3 (13 nov, fete+camere gpt_image_2_6_flare, ID-uri in library/set3/ids.json)
+| fisier | haina | fata | camera |
+| s3-negru-fata21.mp4 | negru | fata21-blonda-smarald | room21-farmhouse-alb |
+| s3-ciocolatiu-fata22.mp4 | ciocolatiu | fata22-bruneta-candycane | room25-hol-scara |
+| s3-bleu-fata23.mp4 | bleu | fata23-roscata-navy | room22-navy-semineu |
+| s3-roz-fata24.mp4 | roz | fata24-bucle-roz | room23-dressing-roz |
+| s3-gri-fata25.mp4 | gri | fata25-platinata-visinie | room24-cabana-lemn |
