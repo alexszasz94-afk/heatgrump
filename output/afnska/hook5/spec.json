@@ -1,0 +1,37 @@
+{
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/afnska/hook5/hook.mp4",
+   "start": 0,
+   "end": 4.4,
+   "audio": true
+  },
+  {
+   "file": "/home/user/heatgrump/output/afnska/hook5/broll-roz-b04.mp4",
+   "start": 2.72,
+   "end": 13.0
+  }
+ ],
+ "texts": [
+  {
+   "text": "DONT show this to your mom",
+   "t0": 0,
+   "t1": 12.2,
+   "y": 0.46,
+   "size": 62
+  },
+  {
+   "text": "Comment COAT for the link 🩷",
+   "t0": 12.2,
+   "t1": 14.68,
+   "y": 0.56,
+   "size": 54
+  }
+ ],
+ "music": "/home/user/heatgrump/heatgrump-studio/music/xmas/mariah-all-i-want.mp3",
+ "music_start": 49.0,
+ "music_duck": 4.4,
+ "music_hook_vol": 0.3,
+ "music_drop_vol": 1.0,
+ "out": "/home/user/heatgrump/output/afnska/hook5/frostfemme-hook5-mom.mp4"
+}
