@@ -19,3 +19,4 @@
 - 2026-11-12: la montaj din B-roll Genjutsu taiem DOAR in interiorul cadrelor; taieturile interne r3: 2.67, 3.54, 4.38, 5.29, 6.04, 7.5, 8.5, 11.17 s (verificat cu ffmpeg scene detect). Unboxing in hook = 1.5 s cu 'Vs..'. In parada: culorile, nu printese.
 
 - 13 nov: hook5 "DONT show this to your mom" = start frame cu haina impaturata gros peste cap (fara detalii vizibile), numara 3-2-1, o lasa sa se desfaca natural in fata ei (fata nu se acopera), apoi B-roll Genjutsu cu aceeasi fata+camera.
+- 13 nov: Frost Femme start frames FARA steag american. La hook-ul cu haina impaturata peste cap: mainile SUB rulou (il sustine de jos).

@@ -1,0 +1,44 @@
+{
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/afnska/hook7/unbox-punga.mp4",
+   "start": 0,
+   "end": 6.0,
+   "audio": true
+  },
+  {
+   "file": "/home/user/heatgrump/output/afnska/broll/broll-visiniu.mp4",
+   "start": 0.05,
+   "end": 13.0
+  }
+ ],
+ "texts": [
+  {
+   "text": "Unboxing my new coat.. 🥹❤️",
+   "t0": 0,
+   "t1": 6.0,
+   "y": 0.3,
+   "size": 61
+  },
+  {
+   "text": "Unboxing my new coat.. 🥹❤️",
+   "t0": 6.0,
+   "t1": 16.5,
+   "y": 0.46,
+   "size": 61
+  },
+  {
+   "text": "Comment COAT for the link ❤️",
+   "t0": 16.5,
+   "t1": 18.95,
+   "y": 0.56,
+   "size": 54
+  }
+ ],
+ "music": "/home/user/heatgrump/heatgrump-studio/music/xmas/mariah-all-i-want.mp3",
+ "music_start": 47.4,
+ "music_duck": 6.0,
+ "music_hook_vol": 0.25,
+ "music_drop_vol": 1.0,
+ "out": "/home/user/heatgrump/output/afnska/hook7/frostfemme-hook7-punga.mp4"
+}
