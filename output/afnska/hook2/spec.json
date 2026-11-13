@@ -1,0 +1,132 @@
+{
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/afnska/hook2/gen-hook.mp4",
+   "start": 0,
+   "end": 3.62
+  },
+  {
+   "file": "/home/user/heatgrump/output/afnska/hook2/gen-unbox.mp4",
+   "start": 0.75,
+   "end": 2.25
+  },
+  {
+   "file": "/home/user/heatgrump/output/afnska/r3-1080/v-genjutsu-roz-graded.mp4",
+   "start": 2.72,
+   "end": 3.5
+  },
+  {
+   "file": "/home/user/heatgrump/output/afnska/r3-1080/v-genjutsu-roz-graded.mp4",
+   "start": 4.42,
+   "end": 5.25
+  },
+  {
+   "file": "/home/user/heatgrump/output/afnska/r3-1080/v-genjutsu-roz-graded.mp4",
+   "start": 7.55,
+   "end": 8.45
+  },
+  {
+   "file": "/home/user/heatgrump/output/afnska/r3-1080/v-genjutsu-roz-graded.mp4",
+   "start": 11.22,
+   "end": 12.5
+  },
+  {
+   "file": "/home/user/heatgrump/output/afnska/r3-1080/v-genjutsu-graded.mp4",
+   "start": 8.58,
+   "end": 9.63
+  },
+  {
+   "file": "/home/user/heatgrump/output/afnska/broll/broll-ciocolatiu.mp4",
+   "start": 8.58,
+   "end": 9.63
+  },
+  {
+   "file": "/home/user/heatgrump/output/afnska/broll/broll-negru.mp4",
+   "start": 6.1,
+   "end": 7.15
+  },
+  {
+   "file": "/home/user/heatgrump/output/afnska/broll/broll-lapte.mp4",
+   "start": 11.22,
+   "end": 12.57
+  }
+ ],
+ "texts": [
+  {
+   "text": "Winter coats in 1874.. 🤮",
+   "segs": [
+    0,
+    0
+   ],
+   "y": 0.46,
+   "size": 62
+  },
+  {
+   "text": "Vs..",
+   "segs": [
+    1,
+    1
+   ],
+   "y": 0.46,
+   "size": 62
+  },
+  {
+   "text": "Winter coats in 2026 😍🩷",
+   "segs": [
+    2,
+    5
+   ],
+   "y": 0.46,
+   "size": 62
+  },
+  {
+   "text": "Light Blue 🩵",
+   "segs": [
+    6,
+    6
+   ],
+   "y": 0.46,
+   "size": 62
+  },
+  {
+   "text": "Chocolate 🤎",
+   "segs": [
+    7,
+    7
+   ],
+   "y": 0.46,
+   "size": 62
+  },
+  {
+   "text": "Black 🖤",
+   "segs": [
+    8,
+    8
+   ],
+   "y": 0.46,
+   "size": 62
+  },
+  {
+   "text": "Milk 🤍",
+   "segs": [
+    9,
+    9
+   ],
+   "y": 0.46,
+   "size": 62
+  },
+  {
+   "text": "Comment COAT for the link 🖤",
+   "segs": [
+    9,
+    9
+   ],
+   "y": 0.56,
+   "size": 54
+  }
+ ],
+ "music": "/home/user/heatgrump/output/afnska/hook2/audio.m4a",
+ "music_start": 0,
+ "music_vol": 1.0,
+ "out": "/home/user/heatgrump/output/afnska/hook2/frostfemme-hook2.mp4"
+}

@@ -1,158 +1,73 @@
-<title>Corset Jacket Tests</title>
+<title>Frost Femme Board</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500;600&display=swap">
 <style>
-/* Layout: lookbook strip of finished 9:16 reels with their originals, then a supplier ledger. Palette: pine + cranberry on snow. */
-:root{
-  --bg:#f7f6f3; --surface:#ffffff; --fg:#1d2420; --muted:#5f6b64; --line:#dfe2dc;
-  --pine:#1f5c45; --cran:#a3243b; --warn-bg:#fff3d6; --warn-fg:#6b4a00;
-  --display:"Fraunces",Georgia,serif; --body:"Inter",system-ui,-apple-system,sans-serif;
-}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#121614; --surface:#1a201d; --fg:#e8ece9; --muted:#9aa69f; --line:#2c3531;
-  --pine:#6cc2a0; --cran:#f07a8e; --warn-bg:#3a2f12; --warn-fg:#f3d58a; color-scheme:dark}}
-:root[data-theme="dark"]{
-  --bg:#121614; --surface:#1a201d; --fg:#e8ece9; --muted:#9aa69f; --line:#2c3531;
-  --pine:#6cc2a0; --cran:#f07a8e; --warn-bg:#3a2f12; --warn-fg:#f3d58a; color-scheme:dark}
+/* Layout: working board - finished reels first, then B-roll, then the reference library, then product notes. */
+:root{--bg:#f7f6f3;--surface:#fff;--fg:#1d2420;--muted:#5f6b64;--line:#dfe2dc;--pine:#1f5c45;--cran:#a3243b;
+--display:"Fraunces",Georgia,serif;--body:"Inter",system-ui,-apple-system,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121614;--surface:#1a201d;--fg:#e8ece9;--muted:#9aa69f;--line:#2c3531;--pine:#6cc2a0;--cran:#f07a8e;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121614;--surface:#1a201d;--fg:#e8ece9;--muted:#9aa69f;--line:#2c3531;--pine:#6cc2a0;--cran:#f07a8e;color-scheme:dark}
 body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.55}
-.wrap{max-width:1080px;margin:0 auto;padding-block:32px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:40px}
-h1,h2{font-family:var(--display);font-weight:600;text-wrap:balance;margin:0}
-h1{font-size:clamp(28px,5vw,40px);line-height:1.1}
-h2{font-size:24px}
+.wrap{max-width:1180px;margin:0 auto;padding-block:32px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:44px}
+h1,h2{font-family:var(--display);font-weight:600;margin:0;text-wrap:balance} h1{font-size:clamp(28px,5vw,40px)} h2{font-size:24px}
 .eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--pine);font-weight:600}
-.lede{color:var(--muted);max-width:65ch;margin:8px 0 0}
-.note{background:var(--warn-bg);color:var(--warn-fg);border-radius:8px;padding:12px 14px;max-width:75ch;margin:0}
-section{display:grid;gap:16px}
-.clips{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px}
-.clip{display:grid;gap:10px;align-content:start;min-width:0}
-.clip video{width:100%;max-width:100%;aspect-ratio:9/16;border-radius:10px;background:#000;display:block}
-.clip h3{margin:0;font-size:16px;font-weight:600}
-.meta{font-size:13px;color:var(--muted);margin:0}
-.orig{display:flex;gap:10px;align-items:center;font-size:13px;color:var(--muted)}
-.orig img{width:56px;aspect-ratio:9/16;object-fit:cover;border-radius:6px;flex:none}
-dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:4px 10px;font-size:13px}
-dt{color:var(--cran);font-variant-numeric:tabular-nums;font-weight:600;white-space:nowrap}
-dd{margin:0}
-.qa{font-size:12px;font-weight:600;color:var(--pine)}
-.qa.warn{color:var(--cran)}
+.lede{color:var(--muted);max-width:70ch;margin:6px 0 0}
+section{display:grid;gap:16px} nav{display:flex;flex-wrap:wrap;gap:8px 16px;font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:22px}
+.card{display:grid;gap:8px;align-content:start;min-width:0}
+.card video{width:100%;aspect-ratio:9/16;border-radius:10px;background:#000;display:block}
+.card h3{margin:0;font-size:16px} .meta{margin:0;font-size:13px;color:var(--muted)}
+.cap{white-space:pre-wrap;font-family:var(--body);font-size:12.5px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:8px 10px;margin:0}
+.used{list-style:none;margin:8px 0;padding:8px 10px;border-radius:8px;background:var(--panel,rgba(127,127,127,.08));font-size:12.5px;line-height:1.45}.used li{margin:2px 0}.used .uh{font-weight:700;text-transform:uppercase;letter-spacing:.06em;font-size:11px;opacity:.7}
+.dl{font-size:13px;font-weight:600;color:var(--pine)}
+.lib{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:10px}
+.tile{display:grid;gap:4px;text-decoration:none;color:var(--muted);font-size:11px;min-width:0;overflow-wrap:anywhere}
+.tile img{width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:8px;display:block;background:var(--line)}
 .tbl{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
-table{border-collapse:collapse;width:100%;min-width:720px;font-size:14px}
-th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
-th{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600}
-td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
-tr:last-child td{border-bottom:0}
-.tag{display:inline-block;font-size:11px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;padding:2px 6px;border-radius:4px;border:1px solid currentColor}
-.tag.sure{color:var(--pine)} .tag.guess{color:var(--cran)}
-a{color:var(--pine)}
-a:focus-visible{outline:2px solid var(--cran);outline-offset:2px}
-ul{margin:0;padding-left:20px;display:grid;gap:4px;max-width:75ch}
-.lib{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:12px}.tile{display:grid;gap:6px;text-decoration:none;color:var(--muted);font-size:12px;min-width:0}.tile img{width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:8px;display:block}.tile:focus-visible{outline:2px solid var(--cran);outline-offset:2px}
-.small-clips{grid-template-columns:repeat(auto-fit,minmax(180px,1fr))}
+table{border-collapse:collapse;width:100%;min-width:680px;font-size:14px} th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)} tr:last-child td{border-bottom:0}
+ul{margin:0;padding-left:20px;display:grid;gap:4px;max-width:80ch} a{color:var(--pine)} a:focus-visible{outline:2px solid var(--cran);outline-offset:2px}
 </style>
-
 <div class="wrap">
-  <header>
-    <div class="eyebrow">12 nov · Seedance 2.5 · 480p · 9:16</div>
-    <h1>Haina cu corset: reel-urile lor, refăcute</h1>
-    <p class="lede">Am refăcut cadru cu cadru reel-urile primite, cu fete blonde americane, case americane de Crăciun și unghiuri noi. Pe montaj am pus textul și sunetul lor original. Am cheltuit 129 de credite pe cele 3 videouri.</p>
-  </header>
-
-
-  <section aria-label="Reel 3 la 1080p">
-    <div><div class="eyebrow">12 nov · 1080p · copie exactă, fată și cameră noi</div><h2>Reel 3, gata de postat</h2></div>
-    <div class="clips">
-      <article class="clip"><video src="r3-pijama.mp4" controls playsinline preload="metadata"></video><h3>Pijama de Crăciun din satin</h3><p class="meta">„DONT show this winter coat to your sister.. ❄️💙” · All I Want for Christmas</p></article>
-      <article class="clip"><video src="r3-rochie.mp4" controls playsinline preload="metadata"></video><h3>Rochie de satin bleu</h3><p class="meta">Același text și aceeași muzică</p></article>
-    </div>
-  </section>
-
-  <section aria-label="Biblioteca">
-    <div><div class="eyebrow">Bibliotecă · 4k · apasă pe o poză pentru fișierul 4k</div><h2>10 camere: camera lor, în 10 culori de Crăciun</h2></div>
-    <div class="lib"><a class="tile" href="https://d8j0ntlcm91z4.cloudfront.net/user_3GmCpdvxEgdkPpKXyiF4jOr32Ww/hf_20261112_214939_ee5def85-db6e-4781-b38f-70bc38630c2c.png" target="_blank" rel="noopener"><img src="lib/room01-rosu-verde.jpg" alt="rosu verde" loading="lazy"><span>room01 · rosu verde</span></a>
-<a class="tile" href="https://d8j0ntlcm91z4.cloudfront.net/user_3GmCpdvxEgdkPpKXyiF4jOr32Ww/hf_20261112_214940_7061b41f-8e7e-4ca4-a21a-c5322e49f3e5.png" target="_blank" rel="noopener"><img src="lib/room02-bleu-argintiu.jpg" alt="bleu argintiu" loading="lazy"><span>room02 · bleu argintiu</span></a>
-<a class="tile" href="https://d8j0ntlcm91z4.cloudfront.net/user_3GmCpdvxEgdkPpKXyiF4jOr32Ww/hf_20261112_214939_3912d4fd-319c-4769-a180-c2ec96548bf1.png" target="_blank" rel="noopener"><img src="lib/room03-roz-rosegold.jpg" alt="roz rosegold" loading="lazy"><span>room03 · roz rosegold</span></a>
-<a class="tile" href="https://d8j0ntlcm91z4.cloudfront.net/user_3GmCpdvxEgdkPpKXyiF4jOr32Ww/hf_20261112_214939_7927c2e4-e061-4c16-a54d-34d53969c352.png" target="_blank" rel="noopener"><img src="lib/room04-sampanie-ivoire.jpg" alt="sampanie ivoire" loading="lazy"><span>room04 · sampanie ivoire</span></a>
-<a class="tile" href="https://d8j0ntlcm91z4.cloudfront.net/user_3GmCpdvxEgdkPpKXyiF4jOr32Ww/hf_20261112_214938_3a7610bd-48a2-4abe-a3e2-e673ec980a61.png" target="_blank" rel="noopener"><img src="lib/room05-smarald-auriu.jpg" alt="smarald auriu" loading="lazy"><span>room05 · smarald auriu</span></a>
-<a class="tile" href="https://d8j0ntlcm91z4.cloudfront.net/user_3GmCpdvxEgdkPpKXyiF4jOr32Ww/hf_20261112_214938_1be96db0-2168-4dde-90c5-12c06d70c921.png" target="_blank" rel="noopener"><img src="lib/room06-visiniu-crem.jpg" alt="visiniu crem" loading="lazy"><span>room06 · visiniu crem</span></a>
-<a class="tile" href="https://d8j0ntlcm91z4.cloudfront.net/user_3GmCpdvxEgdkPpKXyiF4jOr32Ww/hf_20261112_214940_c0a6931f-af7b-46d1-9d91-9a52aab72046.png" target="_blank" rel="noopener"><img src="lib/room07-lavanda-argintiu.jpg" alt="lavanda argintiu" loading="lazy"><span>room07 · lavanda argintiu</span></a>
-<a class="tile" href="https://d8j0ntlcm91z4.cloudfront.net/user_3GmCpdvxEgdkPpKXyiF4jOr32Ww/hf_20261112_214938_e84ba568-b3bd-4fdf-99ba-deaa245dda85.png" target="_blank" rel="noopener"><img src="lib/room08-salvie-lemn.jpg" alt="salvie lemn" loading="lazy"><span>room08 · salvie lemn</span></a>
-<a class="tile" href="https://d8j0ntlcm91z4.cloudfront.net/user_3GmCpdvxEgdkPpKXyiF4jOr32Ww/hf_20261112_214940_85ee0319-5b10-4e1a-8c9f-5d69e1211247.png" target="_blank" rel="noopener"><img src="lib/room09-alb-negru-carouri.jpg" alt="alb negru carouri" loading="lazy"><span>room09 · alb negru carouri</span></a>
-<a class="tile" href="https://d8j0ntlcm91z4.cloudfront.net/user_3GmCpdvxEgdkPpKXyiF4jOr32Ww/hf_20261112_214939_91c9151e-b724-4098-a3bd-cd4eef6c2547.png" target="_blank" rel="noopener"><img src="lib/room10-candy-cane.jpg" alt="candy cane" loading="lazy"><span>room10 · candy cane</span></a></div>
-    <div><h2>15 fete în pijama de Crăciun din satin</h2><p class="lede">5 blonde și 10 brunete, pe fundal neutru, ca să le putem pune în orice cameră.</p></div>
-    <div class="lib"><a class="tile" href="https://d8j0ntlcm91z4.cloudfront.net/user_3GmCpdvxEgdkPpKXyiF4jOr32Ww/hf_20261112_215000_8070d354-ec5e-4ccd-89c9-b518cd01d6c4.png" target="_blank" rel="noopener"><img src="lib/blonda1-platinata.jpg" alt="platinata" loading="lazy"><span>blonda1 · platinata</span></a>
-<a class="tile" href="https://d8j0ntlcm91z4.cloudfront.net/user_3GmCpdvxEgdkPpKXyiF4jOr32Ww/hf_20261112_215000_3c5a03fd-7835-4deb-87cf-f0cad0c742fb.png" target="_blank" rel="noopener"><img src="lib/blonda2-bob-aurie.jpg" alt="bob aurie" loading="lazy"><span>blonda2 · bob aurie</span></a>
-<a class="tile" href="https://d8j0ntlcm91z4.cloudfront.net/user_3GmCpdvxEgdkPpKXyiF4jOr32Ww/hf_20261112_215001_8e3a1666-b30e-4134-97e2-878bdf1d5ad6.png" target="_blank" rel="noopener"><img src="lib/blonda3-breton.jpg" alt="breton" loading="lazy"><span>blonda3 · breton</span></a>
-<a class="tile" href="https://d8j0ntlcm91z4.cloudfront.net/user_3GmCpdvxEgdkPpKXyiF4jOr32Ww/hf_20261112_215000_8d73a5b6-252e-4b2a-b4f0-5fbc8c9d4f86.png" target="_blank" rel="noopener"><img src="lib/blonda4-cenusie.jpg" alt="cenusie" loading="lazy"><span>blonda4 · cenusie</span></a>
-<a class="tile" href="https://d8j0ntlcm91z4.cloudfront.net/user_3GmCpdvxEgdkPpKXyiF4jOr32Ww/hf_20261112_215003_c5b0298f-a7d0-4ce8-ad1d-cad796226d39.png" target="_blank" rel="noopener"><img src="lib/blonda5-roscat-blond.jpg" alt="roscat blond" loading="lazy"><span>blonda5 · roscat blond</span></a>
-<a class="tile" href="https://d8j0ntlcm91z4.cloudfront.net/user_3GmCpdvxEgdkPpKXyiF4jOr32Ww/hf_20261112_215058_4e45e5dc-18db-4595-8819-722350ff4b51.png" target="_blank" rel="noopener"><img src="lib/bruneta01-par-lung-drept.jpg" alt="par lung drept" loading="lazy"><span>bruneta01 · par lung drept</span></a>
-<a class="tile" href="https://d8j0ntlcm91z4.cloudfront.net/user_3GmCpdvxEgdkPpKXyiF4jOr32Ww/hf_20261112_215057_a6d93aa0-3f12-4af2-9612-82ebbfd0075a.png" target="_blank" rel="noopener"><img src="lib/bruneta02-saten-valuri.jpg" alt="saten valuri" loading="lazy"><span>bruneta02 · saten valuri</span></a>
-<a class="tile" href="https://d8j0ntlcm91z4.cloudfront.net/user_3GmCpdvxEgdkPpKXyiF4jOr32Ww/hf_20261112_215100_3e0ffd90-917d-4979-aa33-1e41d28b16ed.png" target="_blank" rel="noopener"><img src="lib/bruneta03-breton-pistrui.jpg" alt="breton pistrui" loading="lazy"><span>bruneta03 · breton pistrui</span></a>
-<a class="tile" href="https://d8j0ntlcm91z4.cloudfront.net/user_3GmCpdvxEgdkPpKXyiF4jOr32Ww/hf_20261112_215058_40a770be-4006-4647-91bb-c3731b8dacc1.png" target="_blank" rel="noopener"><img src="lib/bruneta04-coada.jpg" alt="coada" loading="lazy"><span>bruneta04 · coada</span></a>
-<a class="tile" href="https://d8j0ntlcm91z4.cloudfront.net/user_3GmCpdvxEgdkPpKXyiF4jOr32Ww/hf_20261112_215059_8b05f3b4-0bd0-4417-8800-85dcee529669.png" target="_blank" rel="noopener"><img src="lib/bruneta05-bucle-caramel.jpg" alt="bucle caramel" loading="lazy"><span>bruneta05 · bucle caramel</span></a>
-<a class="tile" href="https://d8j0ntlcm91z4.cloudfront.net/user_3GmCpdvxEgdkPpKXyiF4jOr32Ww/hf_20261112_215059_5153f208-9103-4c90-b9b9-264454c91d26.png" target="_blank" rel="noopener"><img src="lib/bruneta06-lob-ruj-rosu.jpg" alt="lob ruj rosu" loading="lazy"><span>bruneta06 · lob ruj rosu</span></a>
-<a class="tile" href="https://d8j0ntlcm91z4.cloudfront.net/user_3GmCpdvxEgdkPpKXyiF4jOr32Ww/hf_20261112_215059_f34669fb-6095-4d61-b599-9464f83356a0.png" target="_blank" rel="noopener"><img src="lib/bruneta07-valuri-lungi.jpg" alt="valuri lungi" loading="lazy"><span>bruneta07 · valuri lungi</span></a>
-<a class="tile" href="https://d8j0ntlcm91z4.cloudfront.net/user_3GmCpdvxEgdkPpKXyiF4jOr32Ww/hf_20261112_215058_cae17b19-9219-407b-a6a5-c510d37ed372.png" target="_blank" rel="noopener"><img src="lib/bruneta08-blowout.jpg" alt="blowout" loading="lazy"><span>bruneta08 · blowout</span></a>
-<a class="tile" href="https://d8j0ntlcm91z4.cloudfront.net/user_3GmCpdvxEgdkPpKXyiF4jOr32Ww/hf_20261112_215059_fcc6d23e-30fa-4834-a4f0-adcbef353268.png" target="_blank" rel="noopener"><img src="lib/bruneta09-impletitura.jpg" alt="impletitura" loading="lazy"><span>bruneta09 · impletitura</span></a>
-<a class="tile" href="https://d8j0ntlcm91z4.cloudfront.net/user_3GmCpdvxEgdkPpKXyiF4jOr32Ww/hf_20261112_215058_84d05d60-0ebc-49d1-b23a-d0b79ec8a560.png" target="_blank" rel="noopener"><img src="lib/bruneta10-straturi.jpg" alt="straturi" loading="lazy"><span>bruneta10 · straturi</span></a></div>
-  </section>
-
-  <section aria-label="Reel-uri refăcute">
-    <div class="clips">
-      <article class="clip">
-        <video src="afnska-r2-final.mp4" poster="poster-r2.jpg" controls playsinline preload="metadata"></video>
-        <h3>R2 · Vișiniu · „The problem / The solution”</h3>
-        <div class="orig"><img src="orig-r2.jpg" alt="Cadru din reel-ul original R2"><span>Original: roșcată, oraș cu zăpadă și atelier. Acum: blondă platinată, casă americană din cărămidă, hol cu scară și ghirlandă.</span></div>
-        <dl><dt>0–2 s</dt><dd>The problem 😩</dd><dt>2–5 s</dt><dd>Vs...</dd><dt>5 s →</dt><dd>The solution 😍👑</dd></dl>
-        <span class="qa">QA: ok · cel mai bun · aceeași față tot clipul</span>
-      </article>
-      <article class="clip">
-        <video src="afnska-r3-final.mp4" poster="poster-r3.jpg" controls playsinline preload="metadata"></video>
-        <h3>R3 · Bleu · probă și învârtit</h3>
-        <div class="orig"><img src="orig-r3.jpg" alt="Cadru din reel-ul original R3"><span>Original: brunetă, cameră de probă cu tavan negru. Acum: blondă, dormitor american cu brad nins.</span></div>
-        <dl><dt>0–13 s</dt><dd>fără text (ca originalul)</dd></dl>
-        <span class="qa">QA: ok · corset și nasturi exact ca la ei · rochia de dedesubt a ieșit mai scurtă</span>
-      </article>
-      <article class="clip">
-        <video src="afnska-r1-final.mp4" poster="poster-r1.jpg" controls playsinline preload="metadata"></video>
-        <h3>R1 · Bleu · „Winter coats in 1955 vs 2026”</h3>
-        <div class="orig"><img src="orig-r1.jpg" alt="Cadru din reel-ul original R1"><span>Original: blondă, apartament clasic. Acum: blondă americană, living cu brad și șemineu, atelier de Crăciun.</span></div>
-        <dl><dt>0–2 s</dt><dd>Winter coats in 1955 🤮</dd><dt>2–6 s</dt><dd>Vs...</dd><dt>6 s →</dt><dd>Winter coats in 2026 🤩🩵</dd></dl>
-        <span class="qa warn">QA: de refăcut 1 cadru · la 6–8 s fața seamănă cu fata lor · pe manechin spatele e decupat</span>
-      </article>
-    </div>
-    <p class="note">Linkul <strong>instagram.com/p/DfIMQG2x9jW</strong> nu s-a putut descărca: Instagram spune că postarea nu e disponibilă pentru toată lumea. Dacă îl vrei, descarcă-l și trimite-mi fișierul.</p>
-  </section>
-
-  <section>
-    <div>
-      <div class="eyebrow">Sourcing</div>
-      <h2>De unde iei haina</h2>
-      <p class="lede">Produsul: haină lungă, matlasată în romburi (tip puffer), cu guler înalt, două rânduri de nasturi, corset cu șiret la spate și fustă foarte amplă.</p>
-    </div>
-    <div class="tbl"><table>
-      <thead><tr><th>Sursă</th><th>Ce e</th><th>Preț</th><th>Livrare</th><th>Cât de sigur</th></tr></thead>
-      <tbody>
-        <tr><td><a href="https://hourbelle.com/" target="_blank" rel="noopener">Hourbelle</a></td><td>„Corset Coat”: același model, 7 culori (inclusiv Light Blue și Burgundy), mărimi XS–2XL</td><td class="num">$129.99<br><span class="meta">(de la $259.98)</span></td><td>expediere în 1–3 zile, ajunge în 7–14 zile lucrătoare, gratuit</td><td><span class="tag sure">sigur</span> e același produs<br><span class="tag guess">presupunere</span> că afnska vinde de la aceeași fabrică</td></tr>
-        <tr><td>1688 / Alibaba</td><td>Caută după poză (search by image) sau cu termenii 收腰长款羽绒服 / 束腰羽绒服 (puffer lung cu talie strânsă)</td><td class="num">—</td><td>—</td><td><span class="tag guess">de verificat</span> nu am găsit încă linkul exact</td></tr>
-        <tr><td>CJdropshipping / Zendrop</td><td>Caută în aplicație după poza hainei. Dacă nu există, poți cere sourcing (CJ caută produsul gratuit)</td><td class="num">—</td><td>de obicei 8–15 zile spre SUA</td><td><span class="tag guess">de verificat</span></td></tr>
-        <tr><td><a href="https://www.aliexpress.us/w/wholesale-long-quilted-coat.html" target="_blank" rel="noopener">AliExpress</a></td><td>Doar paltoane matlasate lungi, fără corset: nu e același produs</td><td class="num">$8–25</td><td>—</td><td><span class="tag guess">nu se potrivește</span></td></tr>
-      </tbody>
-    </table></div>
-    <ul>
-      <li>Înainte să vinzi: comandă o mostră (contează căptușeala și cât de amplă e fusta), verifică tabelul de mărimi după talie, din cauza corsetului, și cere poze reale de la furnizor.</li>
-      <li>La $129.99, cât cere Hourbelle, ai marjă bună dacă găsești furnizorul pe 1688 sau CJ sub $40–50.</li>
-    </ul>
-  </section>
-
-  <section>
-    <div>
-      <div class="eyebrow">Ieri · geacă generică</div>
-      <h2>Primele teste, înainte să avem reel-urile lor</h2>
-    </div>
-    <div class="clips small-clips">
-      <video src="test1.mp4" poster="poster1.jpg" controls playsinline muted loop preload="metadata" style="width:100%;aspect-ratio:9/16;border-radius:10px;background:#000"></video>
-      <video src="test2.mp4" poster="poster2.jpg" controls playsinline muted loop preload="metadata" style="width:100%;aspect-ratio:9/16;border-radius:10px;background:#000"></video>
-      <video src="test3.mp4" poster="poster3.jpg" controls playsinline muted loop preload="metadata" style="width:100%;aspect-ratio:9/16;border-radius:10px;background:#000"></video>
-    </div>
-  </section>
-</div>
+<header><div class="eyebrow">Frost Femme · haina cu corset · actualizat 13 nov 2026</div><h1>Board de producție</h1>
+<p class="lede">Tot ce am făcut până acum: videouri gata de postat (cu caption), B-roll-uri fără text, biblioteca de camere și fete (4k), pozele de produs și sourcing. Videourile sunt la calitatea originală: apasă „⬇ Descarcă MP4” — se salvează direct în Downloads. Dacă nu pornește descărcarea, apasă „↗ Deschide în tab nou” și acolo ⋮ → Download (sau click dreapta → Save video as).</p>
+<nav><a href="#videos">Videouri</a><a href="#broll">B-roll</a><a href="#rooms">Camere</a><a href="#girls">Fete</a><a href="#product">Produs</a><a href="#next">Ce urmează</a></nav></header>
+<section id="videos"><div><div class="eyebrow">Gata de postat · 1080p · text + sunet</div><h2>Videouri finale</h2></div><div class="grid"><article class="card"><video src="v-hook1.mp4" controls playsinline preload="metadata"></video><h3>Hook 1 · The princess problem</h3><p class="meta">bleu · blonda platinată</p><ul class="used"><li class="uh">Folosit în video</li><li><b>Hook:</b> refăcut după reelul original (fata din hook nu e din bibliotecă)</li><li><b>Unboxing:</b> blonda1-platinata · room02-bleu-argintiu</li><li><b>The solution:</b> B-roll bleu (blonda1-platinata · camera din reelul original)</li><li><b>Paradă:</b> B-roll roz (blonda3-breton · room03-roz-rosegold), B-roll visiniu (bruneta03-breton-pistrui · room05-smarald-auriu), B-roll lapte (bruneta02-saten-valuri · room04-sampanie-ivoire), B-roll negru (bruneta01-par-lung-drept · room09-alb-negru-carouri)</li></ul><p class="meta">Sursă hook: @EnchantedCoats Dfnn0I4DlKo</p><pre class="cap">Winter was never made for ball gowns 🥶 this winter coat was 💙
+Comment &quot;COAT&quot; and I&#x27;ll send you the link with a special Black Friday discount ❄️
+#wintercoat #corsetcoat #blackfriday #christmasoutfit #winterfashion #pufferdress</pre><a class="dl" href="v-hook1.mp4" download>⬇ Descarcă MP4 (calitate maximă)</a> <a class="dl" href="v-hook1.mp4" target="_blank" rel="noopener">↗ Deschide în tab nou</a></article><article class="card"><video src="v-hook2.mp4" controls playsinline preload="metadata"></video><h3>Hook 2 · Winter coats in 1874 vs 2026</h3><p class="meta">roz · blonda cu breton</p><ul class="used"><li class="uh">Folosit în video</li><li><b>Hook:</b> refăcut după reelul original (fata din hook nu e din bibliotecă)</li><li><b>Unboxing:</b> blonda3-breton · room03-roz-rosegold</li><li><b>The solution:</b> B-roll roz (blonda3-breton · room03-roz-rosegold)</li><li><b>Paradă:</b> B-roll bleu (blonda1-platinata · camera din reelul original), B-roll ciocolatiu (blonda5-roscat-blond · room08-salvie-lemn), B-roll negru (bruneta01-par-lung-drept · room09-alb-negru-carouri), B-roll lapte (bruneta02-saten-valuri · room04-sampanie-ivoire)</li></ul><p class="meta">Sursă hook: @EnchantedCoats Dfn8H0BCs-V</p><pre class="cap">Winter coats in 1874 vs now 🤭🩷
+Comment &quot;COAT&quot; and I&#x27;ll send you the link with a special Black Friday discount ❄️
+#wintercoat #corsetcoat #blackfriday #christmasoutfit #winterfashion #pufferdress</pre><a class="dl" href="v-hook2.mp4" download>⬇ Descarcă MP4 (calitate maximă)</a> <a class="dl" href="v-hook2.mp4" target="_blank" rel="noopener">↗ Deschide în tab nou</a></article><article class="card"><video src="v-hook3.mp4" controls playsinline preload="metadata"></video><h3>Hook 3 · The problem (stradă aglomerată)</h3><p class="meta">vișiniu · bruneta cu breton</p><ul class="used"><li class="uh">Folosit în video</li><li><b>Hook:</b> refăcut după reelul original (fata din hook nu e din bibliotecă)</li><li><b>Unboxing:</b> bruneta03-breton-pistrui · room05-smarald-auriu</li><li><b>The solution:</b> B-roll visiniu (bruneta03-breton-pistrui · room05-smarald-auriu)</li><li><b>Paradă:</b> B-roll roz (blonda3-breton · room03-roz-rosegold), B-roll lapte (bruneta02-saten-valuri · room04-sampanie-ivoire), B-roll bleu (blonda1-platinata · camera din reelul original), B-roll negru (bruneta01-par-lung-drept · room09-alb-negru-carouri)</li></ul><p class="meta">Sursă hook: @EnchantedCoats Dfi5NaIgp9r</p><pre class="cap">Freezing in a ball gown? Never again 🥶❤️
+Comment &quot;COAT&quot; and I&#x27;ll send you the link with a special Black Friday discount ❄️
+#wintercoat #corsetcoat #blackfriday #christmasoutfit #winterfashion #pufferdress</pre><a class="dl" href="v-hook3.mp4" download>⬇ Descarcă MP4 (calitate maximă)</a> <a class="dl" href="v-hook3.mp4" target="_blank" rel="noopener">↗ Deschide în tab nou</a></article><article class="card"><video src="v-hook4.mp4" controls playsinline preload="metadata"></video><h3>Hook 4 · The problem (piață cu zăpadă)</h3><p class="meta">lapte · bruneta șatenă</p><ul class="used"><li class="uh">Folosit în video</li><li><b>Hook:</b> refăcut după reelul original (fata din hook nu e din bibliotecă)</li><li><b>Unboxing:</b> bruneta02-saten-valuri · room04-sampanie-ivoire</li><li><b>The solution:</b> B-roll lapte (bruneta02-saten-valuri · room04-sampanie-ivoire)</li><li><b>Paradă:</b> B-roll visiniu (bruneta03-breton-pistrui · room05-smarald-auriu), B-roll roz (blonda3-breton · room03-roz-rosegold), B-roll ciocolatiu (blonda5-roscat-blond · room08-salvie-lemn), B-roll bleu (blonda1-platinata · camera din reelul original)</li></ul><p class="meta">Sursă hook: @EnchantedCoats DfhSnxHF7Cz</p><pre class="cap">Every girl needs this coat this winter 🥹🤍
+Comment &quot;COAT&quot; and I&#x27;ll send you the link with a special Black Friday discount ❄️
+#wintercoat #corsetcoat #blackfriday #christmasoutfit #winterfashion #pufferdress</pre><a class="dl" href="v-hook4.mp4" download>⬇ Descarcă MP4 (calitate maximă)</a> <a class="dl" href="v-hook4.mp4" target="_blank" rel="noopener">↗ Deschide în tab nou</a></article><article class="card"><video src="v-r3-bleu.mp4" controls playsinline preload="metadata"></video><h3>Reel 3 · copie afnska (Genjutsu)</h3><p class="meta">bleu · blonda platinată</p><ul class="used"><li class="uh">Folosit în video</li><li><b>Fată · cameră:</b> blonda1-platinata · camera din reelul original</li></ul><p class="meta">Sursă hook: afnska DfFT_CiiyK5</p><pre class="cap">Comment &quot;COAT&quot; and I&#x27;ll send you the link with a special Black Friday discount 🖤❄️
+The corset puffer coat everyone&#x27;s asking about: warm, cinched, and made to twirl 💙
+#corsetcoat #wintercoat #blackfriday #christmasoutfit #winterfashion #pufferdress</pre><a class="dl" href="v-r3-bleu.mp4" download>⬇ Descarcă MP4 (calitate maximă)</a> <a class="dl" href="v-r3-bleu.mp4" target="_blank" rel="noopener">↗ Deschide în tab nou</a></article><article class="card"><video src="v-r3-roz.mp4" controls playsinline preload="metadata"></video><h3>Reel 3 · copie afnska (Genjutsu)</h3><p class="meta">roz · blonda cu breton</p><ul class="used"><li class="uh">Folosit în video</li><li><b>Fată · cameră:</b> blonda3-breton · room03-roz-rosegold</li></ul><p class="meta">Sursă hook: afnska DfFT_CiiyK5</p><pre class="cap">Comment &quot;COAT&quot; and I&#x27;ll send you the link with a special Black Friday discount 🎀❄️
+Pink, cinched and made to twirl: the corset puffer coat of the season 💗
+#corsetcoat #pinkcoat #blackfriday #christmasoutfit #winterfashion #pufferdress</pre><a class="dl" href="v-r3-roz.mp4" download>⬇ Descarcă MP4 (calitate maximă)</a> <a class="dl" href="v-r3-roz.mp4" target="_blank" rel="noopener">↗ Deschide în tab nou</a></article></div></section>
+<section id="broll"><div><div class="eyebrow">Fără text, fără sunet · Genjutsu 1080p</div><h2>B-roll-uri (copie exactă reel afnska, 13 s)</h2>
+<p class="lede">Tăieturi interne la 2,67 / 3,54 / 4,38 / 5,29 / 6,04 / 7,5 / 8,5 / 11,17 s. La montaj tăiem doar între ele.</p></div><div class="grid"><article class="card"><video src="b-bleu.mp4" controls playsinline preload="metadata"></video><h3>Bleu</h3><ul class="used"><li class="uh">Folosit în video</li><li><b>Fată · cameră:</b> blonda1-platinata · camera din reelul original</li></ul><a class="dl" href="b-bleu.mp4" download>⬇ Descarcă MP4 (calitate maximă)</a> <a class="dl" href="b-bleu.mp4" target="_blank" rel="noopener">↗ Deschide în tab nou</a></article><article class="card"><video src="b-roz.mp4" controls playsinline preload="metadata"></video><h3>Roz</h3><ul class="used"><li class="uh">Folosit în video</li><li><b>Fată · cameră:</b> blonda3-breton · room03-roz-rosegold</li></ul><a class="dl" href="b-roz.mp4" download>⬇ Descarcă MP4 (calitate maximă)</a> <a class="dl" href="b-roz.mp4" target="_blank" rel="noopener">↗ Deschide în tab nou</a></article><article class="card"><video src="b-negru.mp4" controls playsinline preload="metadata"></video><h3>Negru</h3><ul class="used"><li class="uh">Folosit în video</li><li><b>Fată · cameră:</b> bruneta01-par-lung-drept · room09-alb-negru-carouri</li></ul><a class="dl" href="b-negru.mp4" download>⬇ Descarcă MP4 (calitate maximă)</a> <a class="dl" href="b-negru.mp4" target="_blank" rel="noopener">↗ Deschide în tab nou</a></article><article class="card"><video src="b-lapte.mp4" controls playsinline preload="metadata"></video><h3>Lapte</h3><ul class="used"><li class="uh">Folosit în video</li><li><b>Fată · cameră:</b> bruneta02-saten-valuri · room04-sampanie-ivoire</li></ul><a class="dl" href="b-lapte.mp4" download>⬇ Descarcă MP4 (calitate maximă)</a> <a class="dl" href="b-lapte.mp4" target="_blank" rel="noopener">↗ Deschide în tab nou</a></article><article class="card"><video src="b-visiniu.mp4" controls playsinline preload="metadata"></video><h3>Vișiniu</h3><ul class="used"><li class="uh">Folosit în video</li><li><b>Fată · cameră:</b> bruneta03-breton-pistrui · room05-smarald-auriu</li></ul><a class="dl" href="b-visiniu.mp4" download>⬇ Descarcă MP4 (calitate maximă)</a> <a class="dl" href="b-visiniu.mp4" target="_blank" rel="noopener">↗ Deschide în tab nou</a></article><article class="card"><video src="b-ciocolatiu.mp4" controls playsinline preload="metadata"></video><h3>Ciocolatiu</h3><ul class="used"><li class="uh">Folosit în video</li><li><b>Fată · cameră:</b> blonda5-roscat-blond · room08-salvie-lemn</li></ul><a class="dl" href="b-ciocolatiu.mp4" download>⬇ Descarcă MP4 (calitate maximă)</a> <a class="dl" href="b-ciocolatiu.mp4" target="_blank" rel="noopener">↗ Deschide în tab nou</a></article><article class="card"><video src="b-test-gri.mp4" controls playsinline preload="metadata"></video><h3>Gri (test Seedance 480p)</h3><ul class="used"><li class="uh">Folosit în video</li><li><b>Fată · cameră:</b> blonda4-cenusie · room07-lavanda-argintiu</li></ul><a class="dl" href="b-test-gri.mp4" download>⬇ Descarcă MP4 (calitate maximă)</a> <a class="dl" href="b-test-gri.mp4" target="_blank" rel="noopener">↗ Deschide în tab nou</a></article></div></section>
+<section id="rooms"><div><div class="eyebrow">4k · apasă pentru fișierul mare</div><h2>Camere de Crăciun (20)</h2><p class="lede">room01-10: camera lor în 10 culori. room11-20: alte încăperi, aceeași lumină și stil.</p></div><div class="lib"><a class="tile" href="lib/room01-rosu-verde.jpg" download><img src="lib/room01-rosu-verde-t.jpg" alt="room01-rosu-verde" loading="lazy"><span>room01-rosu-verde</span></a><a class="tile" href="lib/room02-bleu-argintiu.jpg" download><img src="lib/room02-bleu-argintiu-t.jpg" alt="room02-bleu-argintiu" loading="lazy"><span>room02-bleu-argintiu</span></a><a class="tile" href="lib/room03-roz-rosegold.jpg" download><img src="lib/room03-roz-rosegold-t.jpg" alt="room03-roz-rosegold" loading="lazy"><span>room03-roz-rosegold</span></a><a class="tile" href="lib/room04-sampanie-ivoire.jpg" download><img src="lib/room04-sampanie-ivoire-t.jpg" alt="room04-sampanie-ivoire" loading="lazy"><span>room04-sampanie-ivoire</span></a><a class="tile" href="lib/room05-smarald-auriu.jpg" download><img src="lib/room05-smarald-auriu-t.jpg" alt="room05-smarald-auriu" loading="lazy"><span>room05-smarald-auriu</span></a><a class="tile" href="lib/room06-visiniu-crem.jpg" download><img src="lib/room06-visiniu-crem-t.jpg" alt="room06-visiniu-crem" loading="lazy"><span>room06-visiniu-crem</span></a><a class="tile" href="lib/room07-lavanda-argintiu.jpg" download><img src="lib/room07-lavanda-argintiu-t.jpg" alt="room07-lavanda-argintiu" loading="lazy"><span>room07-lavanda-argintiu</span></a><a class="tile" href="lib/room08-salvie-lemn.jpg" download><img src="lib/room08-salvie-lemn-t.jpg" alt="room08-salvie-lemn" loading="lazy"><span>room08-salvie-lemn</span></a><a class="tile" href="lib/room09-alb-negru-carouri.jpg" download><img src="lib/room09-alb-negru-carouri-t.jpg" alt="room09-alb-negru-carouri" loading="lazy"><span>room09-alb-negru-carouri</span></a><a class="tile" href="lib/room10-candy-cane.jpg" download><img src="lib/room10-candy-cane-t.jpg" alt="room10-candy-cane" loading="lazy"><span>room10-candy-cane</span></a><a class="tile" href="lib/room11-living-semineu.jpg" download><img src="lib/room11-living-semineu-t.jpg" alt="room11-living-semineu" loading="lazy"><span>room11-living-semineu</span></a><a class="tile" href="lib/room12-hol-scara.jpg" download><img src="lib/room12-hol-scara-t.jpg" alt="room12-hol-scara" loading="lazy"><span>room12-hol-scara</span></a><a class="tile" href="lib/room13-dormitor-baldachin.jpg" download><img src="lib/room13-dormitor-baldachin-t.jpg" alt="room13-dormitor-baldachin" loading="lazy"><span>room13-dormitor-baldachin</span></a><a class="tile" href="lib/room14-dressing.jpg" download><img src="lib/room14-dressing-t.jpg" alt="room14-dressing" loading="lazy"><span>room14-dressing</span></a><a class="tile" href="lib/room15-biblioteca.jpg" download><img src="lib/room15-biblioteca-t.jpg" alt="room15-biblioteca" loading="lazy"><span>room15-biblioteca</span></a><a class="tile" href="lib/room16-sera.jpg" download><img src="lib/room16-sera-t.jpg" alt="room16-sera" loading="lazy"><span>room16-sera</span></a><a class="tile" href="lib/room17-sufragerie.jpg" download><img src="lib/room17-sufragerie-t.jpg" alt="room17-sufragerie" loading="lazy"><span>room17-sufragerie</span></a><a class="tile" href="lib/room18-loft-caramida.jpg" download><img src="lib/room18-loft-caramida-t.jpg" alt="room18-loft-caramida" loading="lazy"><span>room18-loft-caramida</span></a><a class="tile" href="lib/room19-farmhouse.jpg" download><img src="lib/room19-farmhouse-t.jpg" alt="room19-farmhouse" loading="lazy"><span>room19-farmhouse</span></a><a class="tile" href="lib/room20-hol-palat.jpg" download><img src="lib/room20-hol-palat-t.jpg" alt="room20-hol-palat" loading="lazy"><span>room20-hol-palat</span></a></div></section>
+<section id="girls"><div><div class="eyebrow">4k · pijamale de Crăciun din satin · fundal neutru</div><h2>Fete (25)</h2></div><div class="lib"><a class="tile" href="lib/blonda1-platinata.jpg" download><img src="lib/blonda1-platinata-t.jpg" alt="blonda1-platinata" loading="lazy"><span>blonda1-platinata</span></a><a class="tile" href="lib/blonda2-bob-aurie.jpg" download><img src="lib/blonda2-bob-aurie-t.jpg" alt="blonda2-bob-aurie" loading="lazy"><span>blonda2-bob-aurie</span></a><a class="tile" href="lib/blonda3-breton.jpg" download><img src="lib/blonda3-breton-t.jpg" alt="blonda3-breton" loading="lazy"><span>blonda3-breton</span></a><a class="tile" href="lib/blonda4-cenusie.jpg" download><img src="lib/blonda4-cenusie-t.jpg" alt="blonda4-cenusie" loading="lazy"><span>blonda4-cenusie</span></a><a class="tile" href="lib/blonda5-roscat-blond.jpg" download><img src="lib/blonda5-roscat-blond-t.jpg" alt="blonda5-roscat-blond" loading="lazy"><span>blonda5-roscat-blond</span></a><a class="tile" href="lib/bruneta01-par-lung-drept.jpg" download><img src="lib/bruneta01-par-lung-drept-t.jpg" alt="bruneta01-par-lung-drept" loading="lazy"><span>bruneta01-par-lung-drept</span></a><a class="tile" href="lib/bruneta02-saten-valuri.jpg" download><img src="lib/bruneta02-saten-valuri-t.jpg" alt="bruneta02-saten-valuri" loading="lazy"><span>bruneta02-saten-valuri</span></a><a class="tile" href="lib/bruneta03-breton-pistrui.jpg" download><img src="lib/bruneta03-breton-pistrui-t.jpg" alt="bruneta03-breton-pistrui" loading="lazy"><span>bruneta03-breton-pistrui</span></a><a class="tile" href="lib/bruneta04-coada.jpg" download><img src="lib/bruneta04-coada-t.jpg" alt="bruneta04-coada" loading="lazy"><span>bruneta04-coada</span></a><a class="tile" href="lib/bruneta05-bucle-caramel.jpg" download><img src="lib/bruneta05-bucle-caramel-t.jpg" alt="bruneta05-bucle-caramel" loading="lazy"><span>bruneta05-bucle-caramel</span></a><a class="tile" href="lib/bruneta06-lob-ruj-rosu.jpg" download><img src="lib/bruneta06-lob-ruj-rosu-t.jpg" alt="bruneta06-lob-ruj-rosu" loading="lazy"><span>bruneta06-lob-ruj-rosu</span></a><a class="tile" href="lib/bruneta07-valuri-lungi.jpg" download><img src="lib/bruneta07-valuri-lungi-t.jpg" alt="bruneta07-valuri-lungi" loading="lazy"><span>bruneta07-valuri-lungi</span></a><a class="tile" href="lib/bruneta08-blowout.jpg" download><img src="lib/bruneta08-blowout-t.jpg" alt="bruneta08-blowout" loading="lazy"><span>bruneta08-blowout</span></a><a class="tile" href="lib/bruneta09-impletitura.jpg" download><img src="lib/bruneta09-impletitura-t.jpg" alt="bruneta09-impletitura" loading="lazy"><span>bruneta09-impletitura</span></a><a class="tile" href="lib/bruneta10-straturi.jpg" download><img src="lib/bruneta10-straturi-t.jpg" alt="bruneta10-straturi" loading="lazy"><span>bruneta10-straturi</span></a><a class="tile" href="lib/blonda06-coada-salvie.jpg" download><img src="lib/blonda06-coada-salvie-t.jpg" alt="blonda06-coada-salvie" loading="lazy"><span>blonda06-coada-salvie</span></a><a class="tile" href="lib/blonda07-bucle-candycane.jpg" download><img src="lib/blonda07-bucle-candycane-t.jpg" alt="blonda07-bucle-candycane" loading="lazy"><span>blonda07-bucle-candycane</span></a><a class="tile" href="lib/blonda08-scandinava-gri.jpg" download><img src="lib/blonda08-scandinava-gri-t.jpg" alt="blonda08-scandinava-gri" loading="lazy"><span>blonda08-scandinava-gri</span></a><a class="tile" href="lib/blonda09-coc-verde.jpg" download><img src="lib/blonda09-coc-verde-t.jpg" alt="blonda09-coc-verde" loading="lazy"><span>blonda09-coc-verde</span></a><a class="tile" href="lib/blonda10-bob-holly.jpg" download><img src="lib/blonda10-bob-holly-t.jpg" alt="blonda10-bob-holly" loading="lazy"><span>blonda10-bob-holly</span></a><a class="tile" href="lib/blonda11-roscat-lila.jpg" download><img src="lib/blonda11-roscat-lila-t.jpg" alt="blonda11-roscat-lila" loading="lazy"><span>blonda11-roscat-lila</span></a><a class="tile" href="lib/bruneta11-negru-rosu.jpg" download><img src="lib/bruneta11-negru-rosu-t.jpg" alt="bruneta11-negru-rosu" loading="lazy"><span>bruneta11-negru-rosu</span></a><a class="tile" href="lib/bruneta12-arama-smarald.jpg" download><img src="lib/bruneta12-arama-smarald-t.jpg" alt="bruneta12-arama-smarald" loading="lazy"><span>bruneta12-arama-smarald</span></a><a class="tile" href="lib/bruneta13-breton-stele.jpg" download><img src="lib/bruneta13-breton-stele-t.jpg" alt="bruneta13-breton-stele" loading="lazy"><span>bruneta13-breton-stele</span></a><a class="tile" href="lib/bruneta14-codite-sampanie.jpg" download><img src="lib/bruneta14-codite-sampanie-t.jpg" alt="bruneta14-codite-sampanie" loading="lazy"><span>bruneta14-codite-sampanie</span></a></div></section>
+<section id="product"><div><div class="eyebrow">Produs</div><h2>Haina cu corset: poze Hourbelle și sourcing</h2></div><div class="lib"><a class="tile" href="lib/01-burgundy-strada.jpg" download><img src="lib/01-burgundy-strada.jpg" alt="01-burgundy-strada" loading="lazy"><span>01-burgundy-strada</span></a><a class="tile" href="lib/02-black-fisa.jpg" download><img src="lib/02-black-fisa.jpg" alt="02-black-fisa" loading="lazy"><span>02-black-fisa</span></a><a class="tile" href="lib/03-black-spate-corset.jpg" download><img src="lib/03-black-spate-corset.jpg" alt="03-black-spate-corset" loading="lazy"><span>03-black-spate-corset</span></a><a class="tile" href="lib/04-burgundy-detaliu-talie.jpg" download><img src="lib/04-burgundy-detaliu-talie.jpg" alt="04-burgundy-detaliu-talie" loading="lazy"><span>04-burgundy-detaliu-talie</span></a><a class="tile" href="lib/05-chocolate-zapada.jpg" download><img src="lib/05-chocolate-zapada.jpg" alt="05-chocolate-zapada" loading="lazy"><span>05-chocolate-zapada</span></a><a class="tile" href="lib/06-milk-craciun.jpg" download><img src="lib/06-milk-craciun.jpg" alt="06-milk-craciun" loading="lazy"><span>06-milk-craciun</span></a><a class="tile" href="lib/07-chocolate-fisa.jpg" download><img src="lib/07-chocolate-fisa.jpg" alt="07-chocolate-fisa" loading="lazy"><span>07-chocolate-fisa</span></a><a class="tile" href="lib/08-burgundy-fisa.jpg" download><img src="lib/08-burgundy-fisa.jpg" alt="08-burgundy-fisa" loading="lazy"><span>08-burgundy-fisa</span></a><a class="tile" href="lib/09-milk-fisa.jpg" download><img src="lib/09-milk-fisa.jpg" alt="09-milk-fisa" loading="lazy"><span>09-milk-fisa</span></a><a class="tile" href="lib/10-grey-fisa.jpg" download><img src="lib/10-grey-fisa.jpg" alt="10-grey-fisa" loading="lazy"><span>10-grey-fisa</span></a><a class="tile" href="lib/11-lightblue-fisa.jpg" download><img src="lib/11-lightblue-fisa.jpg" alt="11-lightblue-fisa" loading="lazy"><span>11-lightblue-fisa</span></a><a class="tile" href="lib/12-pink-fisa.jpg" download><img src="lib/12-pink-fisa.jpg" alt="12-pink-fisa" loading="lazy"><span>12-pink-fisa</span></a></div>
+<div class="tbl"><table><thead><tr><th></th><th>Hourbelle (hourbelle.com)</th><th>afnska (afnskadress.ru)</th></tr></thead><tbody>
+<tr><td>Preț</td><td>$129.99 (redus de la $259.98)</td><td>38 990 RUB (~$400-480)</td></tr>
+<tr><td>Culori</td><td>Black, Chocolate, Burgundy, Milk, Grey, Light Blue, Pink</td><td>ciocolatiu, bleu, bordo, negru, roz, alb (+gri, lapte)</td></tr>
+<tr><td>Mărimi</td><td>XS-2XL</td><td>S, M, L</td></tr>
+<tr><td>Material</td><td>umplutură ușoară, exterior mat</td><td>sintepon + lână 100%, balene de corset cusute</td></tr>
+<tr><td>Concluzie</td><td colspan="2">Sigur: același model. Presupunere: Hourbelle revinde (preț de 3x mai mic). De verificat la mostră: umplutura, balenele, nasturii. Furnizor ieftin: căutare după poză pe 1688 / CJdropshipping (încă negăsit).</td></tr>
+</tbody></table></div></section>
+<section id="next"><div><div class="eyebrow">Note</div><h2>Ce urmează</h2></div><ul>
+<li><strong>Unlimited:</strong> pe contul Higgsfield conectat acum, unlimited NU e activ (API: unlimited indisponibil). Fără el, un B-roll Seedance 13 s costă 39 credite la 480p, 91 la 720p, 208 la 1080p; Genjutsu 1080p = 260.</li>
+<li><strong>Rețete salvate în repo:</strong> output/afnska/RULES.md, templates/seedance-r3-copie-exacta.txt, library/ids.json (toate ID-urile Higgsfield), hook*/spec.json (montaje).</li>
+<li><strong>Produse noi de testat de pe site-ul rusesc:</strong> 1) paltonul scurt evazat cu blană; 2) rochia „MONIKA” (bestseller); 3) pelerina roșie de satin „Abaya”; 4) fusta cu corset; 5) haina albă cu blană.</li>
+<li><strong>Caption standard:</strong> Comment "COAT" and I'll send you the link with a special Black Friday discount ❄️</li>
+</ul></section>
+</div><script>
+(function(){var dl=null;try{window.claude&&claude.use("downloads").then(function(d){dl=d})}catch(e){}
+function name(h){return "frostfemme-"+h.split("/").pop()}
+document.addEventListener("click",function(ev){var a=ev.target.closest("a[download]");if(!a)return;ev.preventDefault();var h=a.getAttribute("href");
+if(!dl){window.open(h,"_blank","noopener");return}
+var old=a.innerHTML;if(a.classList.contains("dl"))a.textContent="Se pregătește…";
+fetch(h).then(function(r){return r.blob()}).then(function(b){return dl.save({filename:name(h),data:b})}).catch(function(e){if(e&&e.code&&e.code!=="declined")window.open(h,"_blank","noopener")}).finally(function(){a.innerHTML=old})});})();
+</script>

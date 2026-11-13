@@ -44,5 +44,29 @@
   "fisa-grey": "ea973a4b-dffb-4615-bc5e-24a2b70d5883",
   "fisa-pink": "62c89160-454d-49d4-84e2-8bf89a1bf711"
  },
- "genjutsu_r3": "3f0574dd-e047-47b0-b58e-f2254844e13f"
+ "genjutsu_r3": "3f0574dd-e047-47b0-b58e-f2254844e13f",
+ "rooms2": {
+  "room11-living-semineu": "a81dc9cb-92b1-4c48-96fe-9bab66c1c801",
+  "room12-hol-scara": "8f17585f-9d9f-47c1-a517-5e5d0a12c0f9",
+  "room13-dormitor-baldachin": "7ade25f1-6be9-4ab6-9251-adfd09075dcd",
+  "room14-dressing": "9f12ae69-382e-496c-bd1d-d7a30f5e9336",
+  "room15-biblioteca": "c1b3ac58-ef4c-4607-8d30-c8716b01ce15",
+  "room16-sera": "bf574e73-8e03-4f67-9534-2d05bf465158",
+  "room17-sufragerie": "4f2d50c4-a78e-40a4-b39e-847b1f1b23b0",
+  "room18-loft-caramida": "62d8262f-c575-47c8-a8cb-0b6d43ad7425",
+  "room19-farmhouse": "fe4bd0c1-92cf-426c-b587-45750bb0e51c",
+  "room20-hol-palat": "014615ee-42af-4561-83b3-96f2fcd7cba6"
+ },
+ "girls2": {
+  "blonda06-coada-salvie": "c2305718-5d1d-4342-9ae3-25933711f726",
+  "blonda07-bucle-candycane": "5f5ba72d-14e3-46db-ae72-a64bb9dfc32f",
+  "blonda08-scandinava-gri": "2728105c-47be-481c-bb79-a6918228929b",
+  "blonda09-coc-verde": "525272e7-2c58-4144-909a-6a928b9e88b0",
+  "blonda10-bob-holly": "bd298ff8-9c31-44b7-aca9-e12f20a2c64c",
+  "blonda11-roscat-lila": "2a26da61-94b3-4464-9b56-efbdeafd7ca1",
+  "bruneta11-negru-rosu": "fc6274ac-807a-41cd-9b82-03fea60d4e59",
+  "bruneta12-arama-smarald": "df2c4e66-daff-4c6f-8140-f36173e59bdd",
+  "bruneta13-breton-stele": "5433cebd-dea2-4dbd-b10d-ccb015589bc6",
+  "bruneta14-codite-sampanie": "29876172-2cf7-425c-b1b5-5901572b6540"
+ }
 }
