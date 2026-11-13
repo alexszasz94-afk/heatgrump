@@ -8,6 +8,9 @@ Vorbește cu Szasz în română, simplu. El vrea să lase laptopul să lucreze s
   Dacă arată credite → OPREȘTE și spune-i lui Szasz. Nu cheltui niciun credit. Nu folosi MCP-ul Higgsfield (acela plătește credite).
 - Verifică soldul de credite la început și după primele 2 videouri: trebuie să rămână la fel.
 
+## Primul pas
+Creează `D:\FrostFemme\` și clonează/copiază acolo repo-ul (branch `heatgrump-studio`, folderul `output/afnska/kit-local/`). Tot ce descarci merge în `D:\FrostFemme\`.
+
 ## Ce ai în folderul ăsta (output/afnska/kit-local/)
 - `miscare-r3.mp4` – reelul original (fără sunet), referința de mișcare (13 s, 9 tăieturi).
 - `fete/` 25 fete (pijamale de Crăciun din satin), `camere/` 20 camere de Crăciun.
@@ -23,7 +26,7 @@ Fără text în imagine, fără zoom, fără branduri.
 
 ## Flux
 1. Pornește câte generări în paralel permite unlimited; ține evidența în `progres.csv` (nr, stare, link).
-2. Când e gata, descarcă MP4-ul în `~/Downloads/FrostFemme-broll/` cu numele din `lista-50.csv`.
+2. Când e gata, descarcă MP4-ul în `D:\FrostFemme\broll\` (creează folderul `D:\FrostFemme` dacă nu există; discul D e cel mare) cu numele din `lista-50.csv`.
 3. QA rapid (uită-te la 4 cadre): haina = culoarea cerută, corset la spate, fata = referința, camera = referința, fără text, mișcări ca originalul. Dacă pică → refă o dată.
 4. Dacă există ffmpeg: rulează `bash grade.sh <out.mp4> <fișier>` pentru culoarea ca în original (opțional).
 5. La final: raport scurt pentru Szasz (câte gata, câte refăcute, unde sunt). MP4-urile NU se pun pe GitHub; doar `progres.csv`.
