@@ -1,0 +1,20 @@
+{
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/afnska/hook7/unbox-punga.mp4",
+   "start": 0,
+   "end": 6.0,
+   "audio": false
+  },
+  {
+   "file": "/home/user/heatgrump/output/afnska/broll/broll-visiniu.mp4",
+   "start": 0.05,
+   "end": 13.0
+  }
+ ],
+ "texts": [],
+ "music": "/home/user/heatgrump/heatgrump-studio/music/xmas/mariah-all-i-want.mp3",
+ "music_start": 47.4,
+ "out": "/home/user/heatgrump/output/afnska/hook7/frostfemme-hook7-punga-fara-text-doar-muzica.mp4",
+ "music_vol": 1.0
+}
