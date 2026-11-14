@@ -1,0 +1,40 @@
+{
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/afnska/hook11/sapa-v3.mp4",
+   "start": 0,
+   "end": 5.0
+  },
+  {
+   "file": "/home/user/heatgrump/output/afnska/hook11/unbox-podea.mp4",
+   "start": 0.4,
+   "end": 6.2
+  },
+  {
+   "file": "/home/user/heatgrump/output/afnska/broll/s3-roz-fata24.mp4",
+   "start": 0.05,
+   "end": 13.0
+  }
+ ],
+ "texts": [
+  {
+   "text": "Best Christmas coat 2026? ❄️☃️",
+   "t0": 0,
+   "t1": 10.8,
+   "y": 0.3,
+   "size": 62
+  },
+  {
+   "text": "Best Christmas coat 2026? ❄️☃️",
+   "t0": 10.8,
+   "t1": 30,
+   "y": 0.46,
+   "size": 62
+  }
+ ],
+ "music": "/home/user/heatgrump/heatgrump-studio/music/xmas/mariah-all-i-want.mp3",
+ "music_start": 37.599999999999994,
+ "music_vol": 1.0,
+ "orig_vol": 0.0,
+ "out": "/home/user/heatgrump/output/afnska/hook11/frostfemme-hook11-zapada-v5.mp4"
+}
