@@ -5,7 +5,7 @@
   {
    "file": "/home/user/heatgrump/output/pinata/hook1.mp4",
    "start": 0,
-   "end": 8.0,
+   "end": 5.8,
    "audio": true
   },
   {
@@ -34,11 +34,20 @@
    "end": 1.72
   }
  ],
- "texts": [],
- "music": "/home/user/heatgrump/output/pinata/music-pad.m4a",
- "music_start": 0,
- "music_duck": 8.0,
- "music_hook_vol": 0.0,
- "music_drop_vol": 1.0,
- "keep_video_after_music": true
+ "texts": [
+  {
+   "segs": [
+    0,
+    -1
+   ],
+   "text": "Is this the best Christmas\ngift ever?? 🎁😍",
+   "size": 64,
+   "y": 0.165
+  }
+ ],
+ "music": "/home/user/heatgrump/heatgrump-studio/music/xmas/mariah-all-i-want.mp3",
+ "music_start": 47.6,
+ "music_duck": 5.8,
+ "music_hook_vol": 0.25,
+ "music_drop_vol": 1.0
 }
