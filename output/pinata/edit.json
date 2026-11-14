@@ -1,0 +1,44 @@
+{
+ "out": "/home/user/heatgrump/output/pinata/pinata-fata13.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/pinata/hook1.mp4",
+   "start": 0,
+   "end": 8.0,
+   "audio": true
+  },
+  {
+   "file": "/home/user/heatgrump/output/r17/broll/grinch-00.mp4",
+   "start": 0.5,
+   "end": 2.292
+  },
+  {
+   "file": "/home/user/heatgrump/output/r17/broll/grinch-00.mp4",
+   "start": 2.375,
+   "end": 6.625
+  },
+  {
+   "file": "/home/user/heatgrump/library/motion/conector-telecomanda-alb.mp4",
+   "start": 0,
+   "end": 2.66
+  },
+  {
+   "file": "/home/user/heatgrump/output/r17/broll/grinch-00.mp4",
+   "start": 7.5,
+   "end": 9.417
+  },
+  {
+   "file": "/home/user/heatgrump/output/pinata/cozy.mp4",
+   "start": 0,
+   "end": 1.72
+  }
+ ],
+ "texts": [],
+ "music": "/home/user/heatgrump/output/pinata/music-pad.m4a",
+ "music_start": 0,
+ "music_duck": 8.0,
+ "music_hook_vol": 0.0,
+ "music_drop_vol": 1.0,
+ "keep_video_after_music": true
+}
