@@ -30,3 +30,8 @@ La spate are corset cu șiret (se strânge pe talie). Guler mare și manșete di
 - alb + blană albă – fata25 platinată, room24 cabană: 878da630-9a85-4ebd-aa93-a8367cee882f
 - negru + blană albă – fata21 blondă, room21 farmhouse: 9cee0539-a07c-467b-a819-4127ef91c2cd
 - ciocolatiu + blană ciocolatie – fata23 roșcată, room22 navy: ba1a4794-7e29-431b-8bb8-683b35fbba3d
+
+## Rezultat B-roll (14 nov)
+- blana-alb: OK.
+- blana-ciocolatiu: OK, taiat 3.0-3.92 s (manechin fara maneci cu guler de blana, fara logica).
+- blana-negru: RESPINS - de la 5.8 s apare actrita din referinta (par platinat, fara pijama, decolteu, alta camera) + masina de cusut cu logo la 3.0-3.96 s. De refacut doar daca cere Szasz.
