@@ -1,0 +1,19 @@
+{"segments":[
+ {"file":"/home/user/heatgrump/output/afnska/hook17/gen-hook.mp4","start":0,"end":2.03},
+ {"file":"/home/user/heatgrump/output/afnska/hook1/gen-unbox.mp4","start":0.75,"end":2.25},
+ {"file":"/home/user/heatgrump/output/afnska/broll/broll-lapte.mp4","start":2.7,"end":6.7},
+ {"file":"/home/user/heatgrump/output/afnska/broll/broll-visiniu.mp4","start":8.6,"end":9.7},
+ {"file":"/home/user/heatgrump/output/afnska/broll/s3-roz-fata24.mp4","start":8.6,"end":9.7},
+ {"file":"/home/user/heatgrump/output/afnska/broll/broll-ciocolatiu.mp4","start":8.6,"end":9.7},
+ {"file":"/home/user/heatgrump/output/afnska/broll/s3-bleu-fata23.mp4","start":8.6,"end":10.1}],
+ "texts":[
+ {"text":"The problem 🥶","segs":[0,0],"y":0.46,"size":62},
+ {"text":"Vs..","segs":[1,1],"y":0.46,"size":62},
+ {"text":"The solution 😍🤍","segs":[2,2],"y":0.46,"size":62},
+ {"text":"Burgundy ❤️","segs":[3,3],"y":0.46,"size":62},
+ {"text":"Pink 🩷","segs":[4,4],"y":0.46,"size":62},
+ {"text":"Chocolate 🤎","segs":[5,5],"y":0.46,"size":62},
+ {"text":"Light Blue 🩵","segs":[6,6],"y":0.46,"size":62},
+ {"text":"Comment COAT for the link 🖤","segs":[6,6],"y":0.52,"size":44}],
+ "music":"/home/user/heatgrump/output/afnska/refs7/audio.m4a","music_start":0,"music_vol":1.0,"orig_vol":0.0,
+ "out":"/home/user/heatgrump/output/afnska/hook17/frostfemme-hook17.mp4"}
