@@ -10,3 +10,5 @@ output/pinata/*.jpg
 output/pinata/*.mp4
 output/pinata/*.m4a
 output/snow/*.jpg
+output/afnska/**/*.mp4
+output/afnska/**/*.m4a
