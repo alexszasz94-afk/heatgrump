@@ -1,0 +1,30 @@
+{
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/afnska/hook14/genjutsu.mp4",
+   "start": 0,
+   "end": 16.0
+  }
+ ],
+ "texts": [
+  {
+   "text": "The princess problem 🥶👑",
+   "t0": 0,
+   "t1": 2.5,
+   "y": 0.46,
+   "size": 62
+  },
+  {
+   "text": "The solution 😍👑",
+   "t0": 7.07,
+   "t1": 16.0,
+   "y": 0.46,
+   "size": 62
+  }
+ ],
+ "music": "/home/user/heatgrump/output/afnska/hook14/audio.m4a",
+ "music_start": 0,
+ "music_vol": 1.0,
+ "orig_vol": 0.0,
+ "out": "/home/user/heatgrump/output/afnska/hook14/frostfemme-hook14.mp4"
+}
