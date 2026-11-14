@@ -1,0 +1,52 @@
+{
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/afnska/hook12/gen-hook.mp4",
+   "start": 0,
+   "end": 2.03
+  },
+  {
+   "file": "/home/user/heatgrump/output/afnska/hook1/gen-unbox.mp4",
+   "start": 0.75,
+   "end": 2.25
+  },
+  {
+   "file": "/home/user/heatgrump/output/afnska/r3-1080/v-genjutsu-graded.mp4",
+   "start": 0.05,
+   "end": 12.2
+  }
+ ],
+ "texts": [
+  {
+   "text": "Winter coats in 1955.. 🤮",
+   "segs": [
+    0,
+    0
+   ],
+   "y": 0.46,
+   "size": 62
+  },
+  {
+   "text": "Vs..",
+   "segs": [
+    1,
+    1
+   ],
+   "y": 0.46,
+   "size": 62
+  },
+  {
+   "text": "Winter coats in 2026 😍🩵",
+   "segs": [
+    2,
+    2
+   ],
+   "y": 0.46,
+   "size": 62
+  }
+ ],
+ "music": "/home/user/heatgrump/output/afnska/hook12/audio.m4a",
+ "music_start": 2.47,
+ "music_vol": 1.0,
+ "out": "/home/user/heatgrump/output/afnska/hook12/frostfemme-hook12-1955.mp4"
+}
