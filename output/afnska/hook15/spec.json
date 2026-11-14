@@ -3,6 +3,11 @@
   {
    "file": "/home/user/heatgrump/output/afnska/hook15/genjutsu.mp4",
    "start": 0,
+   "end": 6.0
+  },
+  {
+   "file": "/home/user/heatgrump/output/afnska/hook15/genjutsu.mp4",
+   "start": 6.875,
    "end": 16.0
   }
  ],
@@ -24,7 +29,7 @@
   {
    "text": "Winter coats in 2026 😍🖤",
    "t0": 6.0,
-   "t1": 16.0,
+   "t1": 999,
    "y": 0.46,
    "size": 62
   }
