@@ -20,3 +20,4 @@
 
 - 13 nov: hook5 "DONT show this to your mom" = start frame cu haina impaturata gros peste cap (fara detalii vizibile), numara 3-2-1, o lasa sa se desfaca natural in fata ei (fata nu se acopera), apoi B-roll Genjutsu cu aceeasi fata+camera.
 - 13 nov: Frost Femme start frames FARA steag american. La hook-ul cu haina impaturata peste cap: mainile SUB rulou (il sustine de jos).
+- 14 nov: folosim DOAR B-roll-urile existente (broll/, r3-1080/, hook5, set3), rotite cu hook-uri diferite. Start frame-uri: gpt_image_2_6_flare, 2k, 9:16.
