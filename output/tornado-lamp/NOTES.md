@@ -20,3 +20,4 @@
 - HERO lampă (unghi jos, la nivelul noptierei, copilul în spate): start 8b287428-24a0-48d2-81de-16c55e795897 (stinsă, deget pe buton), end 21f704cc-dbf3-460b-8778-2e4f72bcb8fe (pornită ca în poza produsului).
   METODA CARE MERGE pentru tornadă: seedance_2_5 cu start_image + end_image (cadrul final arată exact produsul) → 3af0b7f7-2a72-4642-83f7-5914b0c54e92 = hero-seedance.mp4 ⭐ (bilele urcă și se învârt prin pâlnie).
   Kling 3.0 cu aceleași cadre: 6015f276 (pâlnie ok, dar bilele dispar).
+- HERO v2 PERFECT: end frame refăcut din start (9cde4f65-cead-47a4-9311-5aa544a0e6c3 = hero-end-v2.png) + prompt pe secunde (prompts/hero-lamp-video.txt) → 7d344937-b1cf-40ee-8444-e250a1217fc3 = hero-v2.mp4: copilul stă pe loc, bilele urcă și se învârt prin tornadă.

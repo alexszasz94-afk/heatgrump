@@ -1,0 +1,15 @@
+Model: seedance_2_5, mode omni_reference, start_image = cadrul cu lampa stinsă, end_image = același cadru cu lampa pornită (exact ca poza produsului), image_references = poza produsului. 9:16, 6 s. NU Kling (regula Szasz, 15 nov).
+
+PROMPT:
+Locked-off tripod shot. The camera stays fixed in the same position for the whole clip, with only an extremely slow, barely noticeable push-in toward the lamp (about 3%). No arc, no pan, no tilt, no reframing, no change of focal length.
+
+The boy in the background stays in exactly the same place, at the same size and the same distance, at the same spot in the frame for the entire clip: he does not move away, does not shift, does not turn, and does not get smaller. Only tiny natural movements: slow breathing, and his eyelids slowly closing between 2 s and 5 s. His body, head, pillow and blanket stay perfectly still. The background stays softly out of focus and identical.
+
+The lamp stays in exactly the same place, with the same size and the same shape (clear acrylic cylinder, flat black top cap, chunky black round base with a small square button and a thin light ring at the bottom). Only the inside of the lamp animates, with real water-vortex physics:
+0.0-0.8 s: the fingertip presses the small square button and pulls back out of frame.
+0.8-1.5 s: the LED in the base switches on with a soft blue glow from below, and the light ring under the base lights the nightstand. The propeller at the bottom starts, the water begins to rotate slowly, and the colorful foam beads at the bottom start to stir and lift.
+1.5-3.0 s: the whole water column spins faster, like a mini tornado. The small colorful beads (pink, yellow, green, blue) are pulled up off the bottom and carried round and round through the spinning water in a spiral. Tiny air bubbles get sucked down and spiral.
+3.0-4.5 s: a clear twisting whirlpool funnel opens at the water surface: wide at the top, then narrowing and stretching down to a thin point at the propeller. The colorful beads whirl through and around the funnel, rising and falling in the current.
+4.5-6.0 s: a stable, steadily spinning tornado: a wide funnel at the top, the beads circling fast through it, bubbles spiraling, and the light slowly shifting from blue to blue-purple. The clip ends exactly on the end image.
+
+Ultra-realistic phone video, real fluid motion, constant smooth rotation, natural light from the lamp on the nightstand and a soft glow on the boy's face. No text, no logos, no extra objects.
