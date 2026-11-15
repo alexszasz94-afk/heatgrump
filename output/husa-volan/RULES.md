@@ -8,3 +8,5 @@
 - 2026-11-15: FOLOSEȘTE ANALIZA MEREU: fiecare imagine/clip se verifică vizual (logica produsului + grosime + poziția butonului/buzunarului) înainte să fie trimis; ce pică se regenerează.
 - Mărime: universal 15 in (37–38 cm), elastic; pick-up-uri mari = mărime L mai târziu.
 - Higgsfield: gpt_image_2_6_flare, 2k, 9:16, quality high.
+- 2026-11-15: NU ȘTERGE NIMIC fără permisiunea lui Szasz (fișiere, variante, detalii din imagini — inclusiv logo-uri). Întreabă întâi.
+- 2026-11-15: reel 1 = mașina roz cu interior negru-roz (ref/ref-mustang-interior.jpg), stradă americană iarna (ref/ref-strada-iarna.jpg). Start frame-ul cu fata care intră în mașină NU e bun; vrea cadru din interior, din mers, cu mâinile ei pe volan.
