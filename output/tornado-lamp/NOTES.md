@@ -17,3 +17,6 @@
   Soluție start (lampa exactă, stinsă) 62e983b1-4f4f-4d12-9bcf-0aba7d5771f0; varianta LUMINOASĂ 84bb5cef-dd35-4c5f-b6f6-5441343dbdbf (cerută: camera era prea întunecată).
   Multishot întunecat a722d238 / LUMINOS a0662d8f-700f-422a-90c9-d71633b4e62c (cadrele 3-4 ies iar mai întunecate).
   Unboxing start 832b6632-39dc-4c45-834d-b88541e0abdf; UNBOXING + SETUP POV 12 s dbc159e2-1919-4356-93eb-2b0041f248b1 (scoate, toarnă apă, bile, capac, USB-C, buton → tornadă) — foarte bun.
+- HERO lampă (unghi jos, la nivelul noptierei, copilul în spate): start 8b287428-24a0-48d2-81de-16c55e795897 (stinsă, deget pe buton), end 21f704cc-dbf3-460b-8778-2e4f72bcb8fe (pornită ca în poza produsului).
+  METODA CARE MERGE pentru tornadă: seedance_2_5 cu start_image + end_image (cadrul final arată exact produsul) → 3af0b7f7-2a72-4642-83f7-5914b0c54e92 = hero-seedance.mp4 ⭐ (bilele urcă și se învârt prin pâlnie).
+  Kling 3.0 cu aceleași cadre: 6015f276 (pâlnie ok, dar bilele dispar).
