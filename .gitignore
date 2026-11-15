@@ -17,3 +17,4 @@ output/snow/*.mp4
 output/afnska/**/*.png
 output/day/*.mp4
 output/husa-volan/**/*.mp4
+__pycache__/
