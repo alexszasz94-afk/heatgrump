@@ -12,3 +12,8 @@
   MULTISHOT 67cde5d1-dcd3-487a-9997-f875f9b06fe1 (12 s, 4 cadre: mâna+buton cu zoom, close-up tornadă stânga→dreapta, fața care adoarme, cadru larg) = cel mai bun.
   Fizica reală: motor în bază, se rotește toată apa, pâlnia de aer coboară de sus în jos, sclipiciul se învârte în tot cilindrul.
 - Unboxing POV de sus pe masă: f7f8fe6e-1ac5-4f5a-bd3e-b572cf3ede9a = unboxing-start.png (cutie neagră fără scris).
+- 15 nov seara — LAMPA EXACTĂ a lui Szasz (poza AliExpress: ref/lampa-szasz-aliexpress.png; decupaje lampa-scena 61961736-d924-404a-98a1-40e00b1fe2f7, lampa-alb 84efcb16-4b50-4560-927a-4a1a013f3e7a, accesorii c434fa6a-ff4d-4c0c-b10c-5fe25a9ee55b).
+  Cum funcționează: elice în bază învârte apa; pâlnie LARGĂ sus care se îngustează în jos; BILE MICI COLORATE (nu sclipici) + bule de aer; inel de lumină sub bază; în cutie: punga cu bile, instrucțiuni, cablu USB-C.
+  Soluție start (lampa exactă, stinsă) 62e983b1-4f4f-4d12-9bcf-0aba7d5771f0; varianta LUMINOASĂ 84bb5cef-dd35-4c5f-b6f6-5441343dbdbf (cerută: camera era prea întunecată).
+  Multishot întunecat a722d238 / LUMINOS a0662d8f-700f-422a-90c9-d71633b4e62c (cadrele 3-4 ies iar mai întunecate).
+  Unboxing start 832b6632-39dc-4c45-834d-b88541e0abdf; UNBOXING + SETUP POV 12 s dbc159e2-1919-4356-93eb-2b0041f248b1 (scoate, toarnă apă, bile, capac, USB-C, buton → tornadă) — foarte bun.
