@@ -16,3 +16,4 @@
 - 2026-11-15: la animații NU mai pune ref/ref-mustang-interior.jpg ca referință pentru mâini: fata din poză are unghii roz APRINS și Seedance le copiază (la noi sunt roz pal). Fără tăieturi: 'one single continuous take' + 8 s merge (hook4).
 - 2026-11-15: ARATĂ AI = problema. Pentru ORICE cadru se caută întâi poze REALE pe Pinterest (personaj, peisaj, unghi, mâini) și start frame-ul copiază poza reală (stil de telefon, lumină naturală, grain). Pozele: output/husa-volan/pinterest/<cadru>/ (index.json are linkul pin-ului). Alese pentru reel2: fata 1/09, mâini 2/08 + 2/06, pus husa 3/01, condus 4/09.
 - 2026-11-15: CONSISTENȚĂ între imagini: același detaliu (ex. eticheta) trebuie să aibă aceeași poziție și mărime în toate cadrele; la fiecare imagine nouă se dă ca referință și prim-planul cu detaliul.
+- 2026-11-15: MEREU cadre cu referință de la POZE REALE (Pinterest sau pozele lui Szasz) pentru compoziție/unghi; totul natural, UGC, fără mișcări nerealiste.
