@@ -22,6 +22,9 @@ sp={"out":f"{D}/{name}.mp4","fps":30,"segments":segs,
  "texts":[{"segs":[0 if on_hook else 1,-1],"text":text.replace('\\n','\n'),"size":64,"y":0.165}],
  "music":"/home/user/heatgrump/heatgrump-studio/music/xmas/mariah-all-i-want.mp3","music_start":round(53.4-he,2),
  "music_duck":he,"music_hook_vol":0.7,"music_drop_vol":1.0}
+if os.environ.get('MUSIC'):   # hook copiat -> sunetul ORIGINAL al referinței pe tot videoul (pad_*.m4a), fără Mariah
+    sp.update({"music":os.environ['MUSIC'],"music_start":0})
+    for k in ('music_duck','music_hook_vol','music_drop_vol'): sp.pop(k)
 json.dump(sp,open(f'{D}/{name}.json','w'),indent=1,ensure_ascii=False)
 subprocess.check_call([sys.executable,'/home/user/heatgrump/heatgrump-studio/engine/montage.py',f'{D}/{name}.json'],cwd='/home/user/heatgrump/heatgrump-studio')
 os.remove(cozy)

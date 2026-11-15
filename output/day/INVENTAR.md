@@ -2,6 +2,7 @@
 
 Montaj: `python3 output/day/mkday.py <nume> <hook.mp4> <sfârșit hook> <broll.mp4> '<text>' [0=text doar pe B-roll când hook-ul are textul ars]`
 Ordine: hook → spate → săculeți (până se închide) → conector alb → telecomanda din B-roll → cozy. Mariah cu refrenul pe tăietură, sunetul hook-ului oprit.
+Hook COPIAT (din reel) → sunetul ORIGINAL al reel-ului pe tot videoul: `MUSIC=output/g11/ref/pad_<hook>.m4a python3 output/day/mkday.py ...` (g2 = POV rulou pe podea, g3 = rulou în folie). Hook propriu (piñata, zăpadă) → Mariah cu refrenul pe tăietură.
 Board: Postări Grinch (https://claude.ai/artifact/GQBWVctvWyWWDxunr37Wd2), câte o zi nouă; `board15.py` = model.
 
 ## Hook-uri fără față (merg cu orice B-roll)
