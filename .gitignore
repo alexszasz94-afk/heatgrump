@@ -19,3 +19,4 @@ output/day/*.mp4
 output/husa-volan/**/*.mp4
 __pycache__/
 output/tornado-lamp/*.mp4
+output/afnska/**/*.log
