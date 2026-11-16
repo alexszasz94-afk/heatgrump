@@ -1,0 +1,1 @@
+for i in 1 2 3; do python3 ../../../heatgrump-studio/engine/montage.py spec-v$i.json >/dev/null && ffmpeg -loglevel error -y -i frostfemme-1955-v$i-30.mp4 -vf "minterpolate=fps=60:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1" -c:v libx264 -crf 18 -preset fast -c:a copy -movflags +faststart frostfemme-1955-v$i-60fps.mp4 && rm frostfemme-1955-v$i-30.mp4 && echo done $i; done
