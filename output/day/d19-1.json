@@ -1,0 +1,15 @@
+{
+ "out": "/home/user/heatgrump/output/day/d19-1.mp4",
+ "fps": 30,
+ "segments": [
+  {"file": "/tmp/pp/oh/grinchmom_hook-set26.mp4", "start": 0, "end": 3.97, "audio": false},
+  {"file": "/home/user/heatgrump/output/r17/broll/grinch-03.mp4", "start": 0.5, "end": 2.417},
+  {"file": "/home/user/heatgrump/output/r17/broll/grinch-03.mp4", "start": 2.5, "end": 6.583},
+  {"file": "/home/user/heatgrump/library/motion/conector-telecomanda-alb.mp4", "start": 0, "end": 2.66},
+  {"file": "/home/user/heatgrump/output/r17/broll/grinch-03.mp4", "start": 7.458, "end": 9.375},
+  {"file": "/home/user/heatgrump/output/day/d19-1-cozy.mp4", "start": 0, "end": 1.72}
+ ],
+ "texts": [{"segs": [0, -1], "text": "Do NOT let a Grinch\nmom see this... 🤩🎄", "size": 64, "y": 0.165}],
+ "music": "/tmp/pp/oh/grinchmom_ref_music-ref-pad.m4a",
+ "music_start": 0
+}
