@@ -1,0 +1,50 @@
+{
+ "out": "/home/user/heatgrump/output/day/d21-1.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "file": "/tmp/pp/ig21/out/k1f.mp4",
+   "start": 0,
+   "end": 6.75,
+   "audio": false
+  },
+  {
+   "file": "/tmp/pp/broll/grinch-60.mp4",
+   "start": 0.5,
+   "end": 2.458
+  },
+  {
+   "file": "/tmp/pp/broll/grinch-60.mp4",
+   "start": 2.542,
+   "end": 6.625
+  },
+  {
+   "file": "/home/user/heatgrump/library/motion/conector-telecomanda-alb.mp4",
+   "start": 0,
+   "end": 2.66
+  },
+  {
+   "file": "/tmp/pp/broll/grinch-60.mp4",
+   "start": 7.5,
+   "end": 9.417
+  },
+  {
+   "file": "/home/user/heatgrump/output/day/d21-1-cozy.mp4",
+   "start": 0,
+   "end": 1.72
+  }
+ ],
+ "texts": [
+  {
+   "segs": [
+    0,
+    -1
+   ],
+   "text": "\"its just a blanket\" 😒🎄",
+   "size": 64,
+   "y": 0.165
+  }
+ ],
+ "music": "/tmp/pp/ig21/pad_DfsXmqHTT0B.m4a",
+ "music_start": 0
+}

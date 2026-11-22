@@ -28,6 +28,7 @@ Hook vechi cu față → B-roll cu fată de aceeași culoare a părului (brunet�
 ## Folosite
 - 12 nov: rulou × 00–08 (9 videouri)
 - 15 nov: piñata×00, zăpadă×00, POV-buline×03, POV-carouri×07, folie×08
+- 22 nov (reel-uri copiate noi, Kling 4.0 video-edit / Seedance; sunetul original al reel-ului): perna-folie DfsXmqHTT0B×60, tava-brioșe DfvmqoMzJtc×55 (Seedance), punga HEAT GRUMP DfPjq3kTDZa×52, gheață-zăpadă De4-RNdTln4×63, gheață-verandă De4-RNdTln4×64. Seedance respinge (copyright) clipurile cu fața de Grinch mare → Kling 4.0 video-edit merge; Kling scoate 10 s → accelerat ×1.3.
 - 18 nov: folie-verde×06, punga HEAT GRUMP×03, POV-buline×08, POV-carouri×00, zăpadă×07
 - 19 nov (hook-uri vechi): grinchmom×03 (ref), storemug×07 (Mariah), unbox×06 (Mariah), tray123×08 (Mariah), nogift×00 (ref)
 
