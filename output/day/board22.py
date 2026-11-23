@@ -1,10 +1,10 @@
 import json,re,subprocess
 S='/tmp/claude-0/-home-user-heatgrump/ba0e85e6-8912-5a4f-80da-7fb8f525bf03/scratchpad/postg2'
 D='/home/user/heatgrump/output/day'
-items=[("G1","d21-1","Perna în folie: rolă, taie un X, scoate halatul (după DfsXmqHTT0B, refăcut de la zero în Seedance 2.5, covor alb)\nText: \"its just a blanket\" 😒🎄","It's NOT just a blanket 😒💚 Comment \"GRINCH\" if you want one 🎄 #grinch #heatedrobe #christmas #giftideas #cozyvibes"),
-("G1","d21-4","Halatul înghețat în gheață, spart (după De4-RNdTln4, refăcut de la zero în Seedance 2.5, pe zăpadă)\nText: \"The perfect Grinch robe\ndoesn't exi-\" 😳💚","It exists and it's heated 😳💚 Comment \"GRINCH\" for the link 🎄 #grinch #heatedrobe #christmas #giftideas #winter"),
-("G2","d21-3","Punga HEAT GRUMP tăiată și deschisă (după DfPjq3kTDZa, refăcut de la zero în Seedance 2.5, blat de marmură)\nText: \"Babe you don't\nneed that...\" 😑\nMe: 🥹🎄","Me adding it to cart anyway 🥹💚 Comment \"GRINCH\" if you want one 🎄 #grinch #heatedrobe #christmas #giftideas #couplegoals"),
-("G2","d21-5","Halatul înghețat în gheață, spart (după De4-RNdTln4, refăcut de la zero în Seedance 2.5, pe verandă)\nText: \"The perfect Grinch robe\ndoesn't exi-\" 🤭❄️","Found it 🤭❄️ Comment \"GRINCH\" for the link 🎄 #grinch #heatedrobe #christmas #giftideas #cozyseason"),
+items=[("G1","d21-1","Perna în folie: rolă, taie un X, scoate halatul (după DfsXmqHTT0B, copiat 1:1 cu Kling 4.0 (metoda kitului), covor alb)\nText: \"its just a blanket\" 😒🎄","It's NOT just a blanket 😒💚 Comment \"GRINCH\" if you want one 🎄 #grinch #heatedrobe #christmas #giftideas #cozyvibes"),
+("G1","d21-4","Halatul înghețat în gheață, spart (după De4-RNdTln4, copiat 1:1 cu Kling 4.0 (metoda kitului), pe zăpadă)\nText: \"The perfect Grinch robe\ndoesn't exi-\" 😳💚","It exists and it's heated 😳💚 Comment \"GRINCH\" for the link 🎄 #grinch #heatedrobe #christmas #giftideas #winter"),
+("G2","d21-3","Punga HEAT GRUMP tăiată și deschisă (după DfPjq3kTDZa, copiat 1:1 cu Kling 4.0 (metoda kitului), blat de marmură)\nText: \"Babe you don't\nneed that...\" 😑\nMe: 🥹🎄","Me adding it to cart anyway 🥹💚 Comment \"GRINCH\" if you want one 🎄 #grinch #heatedrobe #christmas #giftideas #couplegoals"),
+("G2","d21-5","Halatul înghețat în gheață, spart (după De4-RNdTln4, copiat 1:1 cu Kling 4.0 (metoda kitului), pe verandă)\nText: \"The perfect Grinch robe\ndoesn't exi-\" 🤭❄️","Found it 🤭❄️ Comment \"GRINCH\" for the link 🎄 #grinch #heatedrobe #christmas #giftideas #cozyseason"),
 ("G3","d21-2","Băiatul cu tava de brioșe pe halat (copiat DfvmqoMzJtc, Seedance 2.5, sufragerie nouă)\nText: I'm literally crying 🥹🎄","Literally crying over a robe 🥹💚 Comment \"GRINCH\" if you want one 🎄 #grinch #heatedrobe #christmas #giftideas #cozyvibes")]
 src=open(S+'/index.html',encoding='utf-8').read()
 m=re.search(r'const VIDEOS = (\[.*?\]);\n',src,re.S); V=json.loads(m.group(1)); V=[v for v in V if v['day']!='22 nov']

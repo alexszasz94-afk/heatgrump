@@ -28,7 +28,7 @@ Hook vechi cu față → B-roll cu fată de aceeași culoare a părului (brunet�
 ## Folosite
 - 12 nov: rulou × 00–08 (9 videouri)
 - 15 nov: piñata×00, zăpadă×00, POV-buline×03, POV-carouri×07, folie×08
-- 22 nov (reel-uri copiate noi, Kling 4.0 video-edit / Seedance; sunetul original al reel-ului): perna-folie DfsXmqHTT0B×60, tava-brioșe DfvmqoMzJtc×55 (Seedance), punga HEAT GRUMP DfPjq3kTDZa×52, gheață-zăpadă De4-RNdTln4×63, gheață-verandă De4-RNdTln4×64. Seedance video_edit respinge (copyright) clipurile cu fața de Grinch mare, de fiecare dată (3-4 încercări). Soluția folosită (23 nov): refăcut DE LA ZERO — start frame gpt_image_2_6_flare (ambalaj HEAT GRUMP, glugă fără față) + Seedance 2.5 omni_reference cu acțiunea pe secunde din original. Toate 4 au trecut din prima.
+- 22 nov (reel-uri copiate noi, Kling 4.0 video-edit / Seedance; sunetul original al reel-ului): perna-folie DfsXmqHTT0B×60, tava-brioșe DfvmqoMzJtc×55 (Seedance), punga HEAT GRUMP DfPjq3kTDZa×52, gheață-zăpadă De4-RNdTln4×63, gheață-verandă De4-RNdTln4×64. Seedance video_edit respinge (copyright) clipurile cu fața de Grinch mare. FINAL (23 nov, Szasz): metoda kitului — `heatgrump-studio/engine/tools.py hookinput <ref> <hook end>` (îngheață ultimul cadru până la secunda întreagă) + Kling 4.0 video-edit cu `duration` = acea secundă, prompt scurt „Copy it ONE TO ONE … Change ONLY the floor”, fără poze de halat (referința are deja halatul nostru), timeline pe secunde. Iese 1:1. FĂRĂ `duration` Kling face 10 s și încetinește tot.
 - 18 nov: folie-verde×06, punga HEAT GRUMP×03, POV-buline×08, POV-carouri×00, zăpadă×07
 - 19 nov (hook-uri vechi): grinchmom×03 (ref), storemug×07 (Mariah), unbox×06 (Mariah), tray123×08 (Mariah), nogift×00 (ref)
 
