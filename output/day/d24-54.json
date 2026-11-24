@@ -1,0 +1,50 @@
+{
+ "out": "/home/user/heatgrump/output/day/d24-54.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "file": "/tmp/pp/r321/h54.mp4",
+   "start": 0,
+   "end": 6.58,
+   "audio": false
+  },
+  {
+   "file": "/tmp/pp/broll/grinch-54.mp4",
+   "start": 0.5,
+   "end": 2.25
+  },
+  {
+   "file": "/tmp/pp/broll/grinch-54.mp4",
+   "start": 2.333,
+   "end": 6.292
+  },
+  {
+   "file": "/home/user/heatgrump/library/motion/conector-telecomanda-alb.mp4",
+   "start": 0,
+   "end": 2.66
+  },
+  {
+   "file": "/tmp/pp/broll/grinch-54.mp4",
+   "start": 7.167,
+   "end": 9.083
+  },
+  {
+   "file": "/home/user/heatgrump/output/day/d24-54-cozy.mp4",
+   "start": 0,
+   "end": 2.15
+  }
+ ],
+ "texts": [
+  {
+   "segs": [
+    0,
+    -1
+   ],
+   "text": "Christmas-holics this is\nfor YOU..🎄🎅",
+   "size": 64,
+   "y": 0.165
+  }
+ ],
+ "music": "/home/user/heatgrump/output/g11/ref/pad_r321.m4a",
+ "music_start": 0
+}

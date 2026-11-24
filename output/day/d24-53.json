@@ -1,0 +1,50 @@
+{
+ "out": "/home/user/heatgrump/output/day/d24-53.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "file": "/tmp/pp/r321/h53.mp4",
+   "start": 0,
+   "end": 6.58,
+   "audio": false
+  },
+  {
+   "file": "/tmp/pp/broll/grinch-53.mp4",
+   "start": 0.5,
+   "end": 2.458
+  },
+  {
+   "file": "/tmp/pp/broll/grinch-53.mp4",
+   "start": 2.542,
+   "end": 6.708
+  },
+  {
+   "file": "/home/user/heatgrump/library/motion/conector-telecomanda-alb.mp4",
+   "start": 0,
+   "end": 2.66
+  },
+  {
+   "file": "/tmp/pp/broll/grinch-53.mp4",
+   "start": 7.583,
+   "end": 9.5
+  },
+  {
+   "file": "/home/user/heatgrump/output/day/d24-53-cozy.mp4",
+   "start": 0,
+   "end": 1.58
+  }
+ ],
+ "texts": [
+  {
+   "segs": [
+    0,
+    -1
+   ],
+   "text": "DONT show this to your\nsister 😳🎄",
+   "size": 64,
+   "y": 0.165
+  }
+ ],
+ "music": "/home/user/heatgrump/output/g11/ref/pad_r321.m4a",
+ "music_start": 0
+}
