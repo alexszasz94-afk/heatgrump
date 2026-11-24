@@ -1,7 +1,7 @@
 import json,re,subprocess
 S='/tmp/claude-0/-home-user-heatgrump/ba0e85e6-8912-5a4f-80da-7fb8f525bf03/scratchpad/postg3'
 D='/home/user/heatgrump/output/day'
-H="Rulou peste cap → ușa → gunoiul (hook-ul bun 3, 2, 1; Kling 4.0, rețeta 11 nov), sunetul original 3-2-1 pe tot videoul\nFata {n} + B-roll grinch-{n}\nText: {t}"
+H="Rulou peste cap care se desface (hook-ul 3, 2, 1; scenele cu ușa și gunoiul scoase), apoi direct B-roll-ul; sunetul original 3-2-1 pe tot videoul\nFata {n} + B-roll grinch-{n}\nText: {t}"
 items=[("G1","d24-51","Don't show this to a\nGrinch mom...🥹💚","Grinch mom approved 🥹💚 Comment \"GRINCH\" if you want one 🎄 #grinch #heatedrobe #christmas #grinchmom #giftideas"),
 ("G1","d24-57","Grinch girlies, pls\ndon't hate... 🥺💚","Sorry not sorry 🥺💚 Comment \"GRINCH\" for the link 🎄 #grinch #heatedrobe #christmas #giftideas #cozyvibes"),
 ("G2","d24-53","DONT show this to your\nsister 😳🎄","Tag your sister... or don't 😳🎄 Comment \"GRINCH\" if you want one 💚 #grinch #heatedrobe #christmas #giftideas #sisters"),
