@@ -1,0 +1,76 @@
+{
+ "segments": [
+  {
+   "file": "/home/user/heatgrump/output/afnska/princess/pc-p1.mp4",
+   "start": 0.0,
+   "end": 3.1
+  },
+  {
+   "file": "/home/user/heatgrump/output/afnska/princess/gj-v4.mp4",
+   "start": 3.17,
+   "end": 7.05
+  },
+  {
+   "file": "/home/user/heatgrump/output/afnska/broll/s3-bleu-fata23.mp4",
+   "start": 2.67,
+   "end": 5.5
+  },
+  {
+   "file": "/home/user/heatgrump/output/afnska/princess/gj-v4.mp4",
+   "start": 10.33,
+   "end": 15.0
+  }
+ ],
+ "texts": [
+  {
+   "text": "The princess problem.. 😩",
+   "segs": [
+    0,
+    0
+   ],
+   "y": 0.09,
+   "size": 62
+  },
+  {
+   "text": "So I started making these.. 🪡✂️🧵",
+   "segs": [
+    1,
+    1
+   ],
+   "y": 0.09,
+   "size": 62
+  },
+  {
+   "text": "The solution 🤩🩵",
+   "segs": [
+    2,
+    2
+   ],
+   "y": 0.09,
+   "size": 62
+  },
+  {
+   "text": "Frost 🩵",
+   "segs": [
+    3,
+    3
+   ],
+   "y": 0.09,
+   "size": 62
+  },
+  {
+   "text": "Black Friday sale ❄️ link in bio",
+   "segs": [
+    3,
+    3
+   ],
+   "y": 0.8,
+   "size": 58
+  }
+ ],
+ "music": "/home/user/heatgrump/output/afnska/princess/audio-DgAp5s.m4a",
+ "music_start": 0,
+ "music_vol": 1.0,
+ "orig_vol": 0.0,
+ "out": "/home/user/heatgrump/output/afnska/princess/frostfemme-princess-v4.mp4"
+}
