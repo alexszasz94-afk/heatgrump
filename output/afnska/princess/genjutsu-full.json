@@ -1,0 +1,260 @@
+{
+ "requests": [
+  {
+   "index": 1,
+   "params": {
+    "model": "hf_mult_motion_control",
+    "resolution": "1080p",
+    "use_unlim": false,
+    "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+    "medias": [
+     {
+      "role": "video_references",
+      "value": "e830bcf3-fc64-41de-8fee-f9f9283494a2"
+     },
+     {
+      "role": "image_references",
+      "value": "26932bbf-19d3-4922-9b0c-87cfb8523a79"
+     },
+     {
+      "role": "image_references",
+      "value": "1c72d87e-c5f7-4cc3-9118-88263bf6bcef"
+     },
+     {
+      "role": "image_references",
+      "value": "2fe1d847-ba0d-4653-b124-2ef16bed44b7"
+     },
+     {
+      "role": "image_references",
+      "value": "c79b9c3a-742f-4cf6-9c8f-785078b7223b"
+     }
+    ],
+    "prompt": "Copy the driving video shot by shot: same cuts, same timing, same camera moves and same actions (the cold princess problem in a ball gown, the sewing atelier close-ups, the try-on, the outdoor winter walk). Replace the woman with the woman from the reference images (same face, same hair) in every shot where a face is visible. Replace the coat being made, tried on and worn with OUR coat in black: a long quilted puffer coat-dress with a fitted corset waist, lace-up corset back, stand collar, double-breasted buttons and a full flared skirt to the ankles, exactly as in the coat references. The coat must NOT be copied from the driving video: NO embroidery, NO hood, NO bow, NO zipper, NO yellow. In the atelier shots the fabric is the same black diamond-quilted fabric. Outdoor shots are snowy winter streets like the reference image. No text, no logos, ultra realistic iPhone footage, real-world light."
+   }
+  },
+  {
+   "index": 2,
+   "params": {
+    "model": "hf_mult_motion_control",
+    "resolution": "1080p",
+    "use_unlim": false,
+    "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+    "medias": [
+     {
+      "role": "video_references",
+      "value": "e830bcf3-fc64-41de-8fee-f9f9283494a2"
+     },
+     {
+      "role": "image_references",
+      "value": "2fe0cfd2-56e2-4dc2-a3eb-9fcd15c6a0c2"
+     },
+     {
+      "role": "image_references",
+      "value": "2cd81e3f-59c9-4772-8615-797cf5213331"
+     },
+     {
+      "role": "image_references",
+      "value": "34d2760b-3426-44f0-96f9-85e74424a798"
+     },
+     {
+      "role": "image_references",
+      "value": "c79b9c3a-742f-4cf6-9c8f-785078b7223b"
+     }
+    ],
+    "prompt": "Copy the driving video shot by shot: same cuts, same timing, same camera moves and same actions (the cold princess problem in a ball gown, the sewing atelier close-ups, the try-on, the outdoor winter walk). Replace the woman with the woman from the reference images (same face, same hair) in every shot where a face is visible. Replace the coat being made, tried on and worn with OUR coat in pink: a long quilted puffer coat-dress with a fitted corset waist, lace-up corset back, stand collar, double-breasted buttons and a full flared skirt to the ankles, exactly as in the coat references. The coat must NOT be copied from the driving video: NO embroidery, NO hood, NO bow, NO zipper, NO yellow. In the atelier shots the fabric is the same pink diamond-quilted fabric. Outdoor shots are snowy winter streets like the reference image. No text, no logos, ultra realistic iPhone footage, real-world light."
+   }
+  },
+  {
+   "index": 3,
+   "params": {
+    "model": "hf_mult_motion_control",
+    "resolution": "1080p",
+    "use_unlim": false,
+    "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+    "medias": [
+     {
+      "role": "video_references",
+      "value": "e830bcf3-fc64-41de-8fee-f9f9283494a2"
+     },
+     {
+      "role": "image_references",
+      "value": "b74664e1-9720-496b-bdb6-0d9a1d815a1f"
+     },
+     {
+      "role": "image_references",
+      "value": "1dcd6c8d-bd94-4330-8bab-569784cb24d9"
+     },
+     {
+      "role": "image_references",
+      "value": "43a485a5-19d3-4f7c-8af6-d697f10700d0"
+     },
+     {
+      "role": "image_references",
+      "value": "c79b9c3a-742f-4cf6-9c8f-785078b7223b"
+     }
+    ],
+    "prompt": "Copy the driving video shot by shot: same cuts, same timing, same camera moves and same actions (the cold princess problem in a ball gown, the sewing atelier close-ups, the try-on, the outdoor winter walk). Replace the woman with the woman from the reference images (same face, same hair) in every shot where a face is visible. Replace the coat being made, tried on and worn with OUR coat in grey: a long quilted puffer coat-dress with a fitted corset waist, lace-up corset back, stand collar, double-breasted buttons and a full flared skirt to the ankles, exactly as in the coat references. The coat must NOT be copied from the driving video: NO embroidery, NO hood, NO bow, NO zipper, NO yellow. In the atelier shots the fabric is the same grey diamond-quilted fabric. Outdoor shots are snowy winter streets like the reference image. No text, no logos, ultra realistic iPhone footage, real-world light."
+   }
+  },
+  {
+   "index": 4,
+   "params": {
+    "model": "hf_mult_motion_control",
+    "resolution": "1080p",
+    "use_unlim": false,
+    "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+    "medias": [
+     {
+      "role": "video_references",
+      "value": "a377857d-24cf-42f4-b980-5a3c19e45223"
+     },
+     {
+      "role": "image_references",
+      "value": "b6711cfb-d0c1-43e8-a244-11302041c4f5"
+     },
+     {
+      "role": "image_references",
+      "value": "ab4dd903-cecc-4d03-a81c-59c046f2545e"
+     },
+     {
+      "role": "image_references",
+      "value": "0f61d14d-4eba-42f5-b91e-7f0de3c9550a"
+     },
+     {
+      "role": "image_references",
+      "value": "c79b9c3a-742f-4cf6-9c8f-785078b7223b"
+     }
+    ],
+    "prompt": "Copy the driving video shot by shot: same cuts, same timing, same camera moves and same actions (the cold princess problem in a ball gown, the sewing atelier close-ups, the try-on, the outdoor winter walk). Replace the woman with the woman from the reference images (same face, same hair) in every shot where a face is visible. Replace the coat being made, tried on and worn with OUR coat in lightblue: a long quilted puffer coat-dress with a fitted corset waist, lace-up corset back, stand collar, double-breasted buttons and a full flared skirt to the ankles, exactly as in the coat references. The coat must NOT be copied from the driving video: NO embroidery, NO hood, NO bow, NO zipper, NO yellow. In the atelier shots the fabric is the same lightblue diamond-quilted fabric. Outdoor shots are snowy winter streets like the reference image. No text, no logos, ultra realistic iPhone footage, real-world light."
+   }
+  },
+  {
+   "index": 5,
+   "params": {
+    "model": "hf_mult_motion_control",
+    "resolution": "1080p",
+    "use_unlim": false,
+    "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+    "medias": [
+     {
+      "role": "video_references",
+      "value": "a377857d-24cf-42f4-b980-5a3c19e45223"
+     },
+     {
+      "role": "image_references",
+      "value": "3d807d51-c1a4-41de-96d3-6cc674424546"
+     },
+     {
+      "role": "image_references",
+      "value": "fd422698-21a8-4327-8005-6e5f17813827"
+     },
+     {
+      "role": "image_references",
+      "value": "e7f68a2b-abb7-412f-943e-b3ee81876eb9"
+     },
+     {
+      "role": "image_references",
+      "value": "c79b9c3a-742f-4cf6-9c8f-785078b7223b"
+     }
+    ],
+    "prompt": "Copy the driving video shot by shot: same cuts, same timing, same camera moves and same actions (the cold princess problem in a ball gown, the sewing atelier close-ups, the try-on, the outdoor winter walk). Replace the woman with the woman from the reference images (same face, same hair) in every shot where a face is visible. Replace the coat being made, tried on and worn with OUR coat in chocolate: a long quilted puffer coat-dress with a fitted corset waist, lace-up corset back, stand collar, double-breasted buttons and a full flared skirt to the ankles, exactly as in the coat references. The coat must NOT be copied from the driving video: NO embroidery, NO hood, NO bow, NO zipper, NO yellow. In the atelier shots the fabric is the same chocolate diamond-quilted fabric. Outdoor shots are snowy winter streets like the reference image. No text, no logos, ultra realistic iPhone footage, real-world light."
+   }
+  },
+  {
+   "index": 6,
+   "params": {
+    "model": "hf_mult_motion_control",
+    "resolution": "1080p",
+    "use_unlim": false,
+    "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+    "medias": [
+     {
+      "role": "video_references",
+      "value": "a377857d-24cf-42f4-b980-5a3c19e45223"
+     },
+     {
+      "role": "image_references",
+      "value": "e550f197-cb2c-4c45-8078-16ff008819a3"
+     },
+     {
+      "role": "image_references",
+      "value": "118c2630-bbdf-490d-8af9-ed209c332506"
+     },
+     {
+      "role": "image_references",
+      "value": "1b5253cc-82da-4bbe-b1e0-f72d8d766823"
+     },
+     {
+      "role": "image_references",
+      "value": "c79b9c3a-742f-4cf6-9c8f-785078b7223b"
+     }
+    ],
+    "prompt": "Copy the driving video shot by shot: same cuts, same timing, same camera moves and same actions (the cold princess problem in a ball gown, the sewing atelier close-ups, the try-on, the outdoor winter walk). Replace the woman with the woman from the reference images (same face, same hair) in every shot where a face is visible. Replace the coat being made, tried on and worn with OUR coat in burgundy: a long quilted puffer coat-dress with a fitted corset waist, lace-up corset back, stand collar, double-breasted buttons and a full flared skirt to the ankles, exactly as in the coat references. The coat must NOT be copied from the driving video: NO embroidery, NO hood, NO bow, NO zipper, NO yellow. In the atelier shots the fabric is the same burgundy diamond-quilted fabric. Outdoor shots are snowy winter streets like the reference image. No text, no logos, ultra realistic iPhone footage, real-world light."
+   }
+  },
+  {
+   "index": 7,
+   "params": {
+    "model": "hf_mult_motion_control",
+    "resolution": "1080p",
+    "use_unlim": false,
+    "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+    "medias": [
+     {
+      "role": "video_references",
+      "value": "6edbde08-fe67-40bc-a254-13e019acc15d"
+     },
+     {
+      "role": "image_references",
+      "value": "782d9135-44a7-4a38-aa0a-3a14baf8a56a"
+     },
+     {
+      "role": "image_references",
+      "value": "076480ad-0abe-4908-a30b-ff2a0a3289fa"
+     },
+     {
+      "role": "image_references",
+      "value": "42528215-6c2c-4f6c-91b6-08e7977298a7"
+     },
+     {
+      "role": "image_references",
+      "value": "c79b9c3a-742f-4cf6-9c8f-785078b7223b"
+     }
+    ],
+    "prompt": "Copy the driving video shot by shot: same cuts, same timing, same camera moves and same actions (the cold princess problem in a ball gown, the sewing atelier close-ups, the try-on, the outdoor winter walk). Replace the woman with the woman from the reference images (same face, same hair) in every shot where a face is visible. Replace the coat being made, tried on and worn with OUR coat in milk: a long quilted puffer coat-dress with a fitted corset waist, lace-up corset back, stand collar, double-breasted buttons and a full flared skirt to the ankles, exactly as in the coat references. The coat must NOT be copied from the driving video: NO embroidery, NO hood, NO bow, NO zipper, NO yellow. In the atelier shots the fabric is the same milk diamond-quilted fabric. Outdoor shots are snowy winter streets like the reference image. No text, no logos, ultra realistic iPhone footage, real-world light."
+   }
+  },
+  {
+   "index": 8,
+   "params": {
+    "model": "hf_mult_motion_control",
+    "resolution": "1080p",
+    "use_unlim": false,
+    "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+    "medias": [
+     {
+      "role": "video_references",
+      "value": "c6ada8d4-cbcf-412a-b68a-d9522d923107"
+     },
+     {
+      "role": "image_references",
+      "value": "d96ef59a-2f67-478a-bd5b-68cc8f125803"
+     },
+     {
+      "role": "image_references",
+      "value": "0c5a09ea-b692-4cee-82d8-1b639293a5c3"
+     },
+     {
+      "role": "image_references",
+      "value": "2fe1d847-ba0d-4653-b124-2ef16bed44b7"
+     },
+     {
+      "role": "image_references",
+      "value": "c79b9c3a-742f-4cf6-9c8f-785078b7223b"
+     }
+    ],
+    "prompt": "Copy the driving video shot by shot: same cuts, same timing, same camera moves and same actions (the cold princess problem in a ball gown, the sewing atelier close-ups, the try-on, the outdoor winter walk). Replace the woman with the woman from the reference images (same face, same hair) in every shot where a face is visible. Replace the coat being made, tried on and worn with OUR coat in black: a long quilted puffer coat-dress with a fitted corset waist, lace-up corset back, stand collar, double-breasted buttons and a full flared skirt to the ankles, exactly as in the coat references. The coat must NOT be copied from the driving video: NO embroidery, NO hood, NO bow, NO zipper, NO yellow. In the atelier shots the fabric is the same black diamond-quilted fabric. Outdoor shots are snowy winter streets like the reference image. No text, no logos, ultra realistic iPhone footage, real-world light."
+   }
+  }
+ ]
+}
